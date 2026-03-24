@@ -42,10 +42,56 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 27706
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "repolex:graphFileSize": 3741046
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "repolex:graphFileSize": 19128884
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "repolex:graphFileSize": 110190
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "repolex:graphFileSize": 636
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-24T11:15:27.956285+00:00",
   "repolex:parserVersion": "v0.0.3",
-  "git:tagName": "v1.4.4"
+  "git:tagName": "v1.4.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-arq",
+      "repolex:packageVersion": "6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/KentBeck/junit",
+      "repolex:packageName": "junit:junit",
+      "repolex:packageVersion": "4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-api",
+      "repolex:packageVersion": "2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
+      "repolex:packageVersion": "3.0.0-beta2"
+    }
+  ]
 }
