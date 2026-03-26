@@ -11,41 +11,81 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "filetree",
       "repolex:graphFilePath": "filetree/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 84443
+      "repolex:graphFileSize": 83999
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "commit",
       "repolex:graphFilePath": "commit/commit.nq.gz",
-      "repolex:graphFileSize": 293934
+      "repolex:graphFileSize": 282404
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 520
+      "repolex:graphFileSize": 502
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 1262
+      "repolex:graphFileSize": 1250
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "issue",
       "repolex:graphFilePath": "issue/issue.nq.gz",
-      "repolex:graphFileSize": 78099
+      "repolex:graphFileSize": 78365
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
-      "repolex:graphFileSize": 27706
+      "repolex:graphFileSize": 27410
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 7193396
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 24855157
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 2228236
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 526
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-03-24T11:34:59.750402+00:00",
+  "repolex:parsedAt": "2026-03-25T23:06:35.214288+00:00",
   "repolex:parserVersion": "v0.0.3",
-  "git:tagName": "v1.5.0"
+  "git:tagName": "v1.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-arq",
+      "repolex:packageVersion": "6.0.0",
+      "git:hexsha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+      "git:tagName": "jena-6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Jelly-RDF/jelly-jvm",
+      "repolex:packageName": "eu.neverblink.jelly:jelly-jena",
+      "repolex:packageVersion": "3.7.1",
+      "git:hexsha": "29788d99fef30242a831260cfe9bb0181b30c2fe",
+      "git:tagName": "v3.7.1"
+    }
+  ]
 }
