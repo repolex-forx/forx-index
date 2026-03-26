@@ -1,0 +1,580 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/apache/logging-log4j2",
+  "@type": "gh:Repository",
+  "gh:name": "logging-log4j2",
+  "gh:owner": "apache",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/086db24a04f905b40649666aafe3bb4778a75291",
+      "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "rel/3.0.0-beta2",
+      "repolex:parsedAt": "2026-03-26T05:32:26.817153+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/8d9204a4b4c6016fa6b36513a46502689d6a45c1",
+      "git:hexsha": "8d9204a4b4c6016fa6b36513a46502689d6a45c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/83be65b09d3b8f764b65f81c9339b6b5c813a1ff",
+      "git:hexsha": "83be65b09d3b8f764b65f81c9339b6b5c813a1ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/08aa0aadff27ee1e413f609c939e683855e28033",
+      "git:hexsha": "08aa0aadff27ee1e413f609c939e683855e28033",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-alpha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/3fedfacd59affcda9fcbb1125a3b7e057000b7c1",
+      "git:hexsha": "3fedfacd59affcda9fcbb1125a3b7e057000b7c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/38164ce047a4f15f8f0a3b39cbfbfea861cc1b9d",
+      "git:hexsha": "38164ce047a4f15f8f0a3b39cbfbfea861cc1b9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a717e9a11d1faa29471872fca54fcb992370db92",
+      "git:hexsha": "a717e9a11d1faa29471872fca54fcb992370db92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/367d98abe22e201da8968bc167271c7aafce4cb7",
+      "git:hexsha": "367d98abe22e201da8968bc167271c7aafce4cb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta3-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/090bd032c061d3b63232629fdb469285ae20ffc8",
+      "git:hexsha": "090bd032c061d3b63232629fdb469285ae20ffc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta3-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/aeec48706fccd4892ba023593075aa549bc558f2",
+      "git:hexsha": "aeec48706fccd4892ba023593075aa549bc558f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/2cbca767c1fa84d45aba4776797faabd9a6bb4bd",
+      "git:hexsha": "2cbca767c1fa84d45aba4776797faabd9a6bb4bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta4-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/2b63ca09e18330da1f8f6de994222733089f9938",
+      "git:hexsha": "2b63ca09e18330da1f8f6de994222733089f9938",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta5"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/f0d368279d902bd4ea0053f08cc1a61b0606ab2e",
+      "git:hexsha": "f0d368279d902bd4ea0053f08cc1a61b0606ab2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta6"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/3f7346ec9c37b0df39e996663bba21be6a7e6813",
+      "git:hexsha": "3f7346ec9c37b0df39e996663bba21be6a7e6813",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta6-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a2e683b3bdacba55989091d09a7ec7862548b9ea",
+      "git:hexsha": "a2e683b3bdacba55989091d09a7ec7862548b9ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta7"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/5e50936c8ed451c252b366b3b4dd8b2d101780a6",
+      "git:hexsha": "5e50936c8ed451c252b366b3b4dd8b2d101780a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta7-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/50093b197ea33cb72af0ed6946c19794a7f50a97",
+      "git:hexsha": "50093b197ea33cb72af0ed6946c19794a7f50a97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta7-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/45d6ecc6bd9d8f13941dddddfbda26b3cae95cb2",
+      "git:hexsha": "45d6ecc6bd9d8f13941dddddfbda26b3cae95cb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta8"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e353cd7d62eda9f20d242618942133e1113caae5",
+      "git:hexsha": "e353cd7d62eda9f20d242618942133e1113caae5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta8-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/6a32d70857ef51d6f5c506de65ffe8cd02bdedba",
+      "git:hexsha": "6a32d70857ef51d6f5c506de65ffe8cd02bdedba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-beta9"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/3fb8d95ef83fd734b5ad190e2e5e340aad57c812",
+      "git:hexsha": "3fb8d95ef83fd734b5ad190e2e5e340aad57c812",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e6ea1775a7fe2c86a7faf50b32f5f706092f13f6",
+      "git:hexsha": "e6ea1775a7fe2c86a7faf50b32f5f706092f13f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-rc1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/cf57ed5f5dfc07655aaaadf32ed41984451dc35e",
+      "git:hexsha": "cf57ed5f5dfc07655aaaadf32ed41984451dc35e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/6b788facd3479dfe9052b3a5e13f6603dce8c16f",
+      "git:hexsha": "6b788facd3479dfe9052b3a5e13f6603dce8c16f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/4eb3cf16d99f0332878b1b57f2b22b0fd737602f",
+      "git:hexsha": "4eb3cf16d99f0332878b1b57f2b22b0fd737602f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/feb2cc4ab290dc633e3ab442fa2bba70b45bd080",
+      "git:hexsha": "feb2cc4ab290dc633e3ab442fa2bba70b45bd080",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.0.2-site-update"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/9f866d926e84a9e9169fc7dfad43b8724444d9fd",
+      "git:hexsha": "9f866d926e84a9e9169fc7dfad43b8724444d9fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/763c1f19401566eef2ddcc78e2b84e836f018d92",
+      "git:hexsha": "763c1f19401566eef2ddcc78e2b84e836f018d92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/b3fcd037bc11e470ad339dab3ed35a948b8776f9",
+      "git:hexsha": "b3fcd037bc11e470ad339dab3ed35a948b8776f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/6275d8aac4e392eacd81d942a1b97856c92b698f",
+      "git:hexsha": "6275d8aac4e392eacd81d942a1b97856c92b698f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/c4e52eb9dca46411d18ea3ef5a58bf892eaa269a",
+      "git:hexsha": "c4e52eb9dca46411d18ea3ef5a58bf892eaa269a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/51f61ad3a118263cb442a7dd6c5316866e7301bb",
+      "git:hexsha": "51f61ad3a118263cb442a7dd6c5316866e7301bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/d484b898218897a813eba67fc0aee62839282fce",
+      "git:hexsha": "d484b898218897a813eba67fc0aee62839282fce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a3b692f366c815e74e0ffba2d256b096dd0688f8",
+      "git:hexsha": "a3b692f366c815e74e0ffba2d256b096dd0688f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.11.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e3c80993c9637bed03420242d19da93c5fdde35c",
+      "git:hexsha": "e3c80993c9637bed03420242d19da93c5fdde35c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.11.2-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/da539329d528d979f4dd385a6ebb639793ef37bd",
+      "git:hexsha": "da539329d528d979f4dd385a6ebb639793ef37bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/d688da0689357263f5e518599738063899007a26",
+      "git:hexsha": "d688da0689357263f5e518599738063899007a26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.12.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/ac121e22d763d6b5391fad9e39d5efbeb79ccfac",
+      "git:hexsha": "ac121e22d763d6b5391fad9e39d5efbeb79ccfac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/ad361d2e517e765f69db464d9407ac2dd80bc93e",
+      "git:hexsha": "ad361d2e517e765f69db464d9407ac2dd80bc93e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/2b9359b2373d773c5db7427d6dab369ba1852d3f",
+      "git:hexsha": "2b9359b2373d773c5db7427d6dab369ba1852d3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e67bf55e72a54e564ebc822964589f252611ed1a",
+      "git:hexsha": "e67bf55e72a54e564ebc822964589f252611ed1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/fc7dc9c03cc4e651a760cbc80492bfbfec0af83d",
+      "git:hexsha": "fc7dc9c03cc4e651a760cbc80492bfbfec0af83d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.13.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/9dcb1823a0a0192f2016daf7c1445ddfb3435fbf",
+      "git:hexsha": "9dcb1823a0a0192f2016daf7c1445ddfb3435fbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a8b4a5a0fe05c2985e1d1e0e748bef83c47a0ce4",
+      "git:hexsha": "a8b4a5a0fe05c2985e1d1e0e748bef83c47a0ce4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/5d9baf9a18ffb6bd02e5ccbf314f1c72434c0a35",
+      "git:hexsha": "5d9baf9a18ffb6bd02e5ccbf314f1c72434c0a35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.13.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/994f94d9336666f2fd1a9b73e8e3943ad3cd1350",
+      "git:hexsha": "994f94d9336666f2fd1a9b73e8e3943ad3cd1350",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/7e745b42bda9bf6f8ea681d38992d18036fc021e",
+      "git:hexsha": "7e745b42bda9bf6f8ea681d38992d18036fc021e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/4ab25b92de43e4786c8e2da8c8379a0d69771961",
+      "git:hexsha": "4ab25b92de43e4786c8e2da8c8379a0d69771961",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/be881e503e14b267fb8a8f94b6d15eddba7ed8c4",
+      "git:hexsha": "be881e503e14b267fb8a8f94b6d15eddba7ed8c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/da9694fd67d01561c4ed7288a755b1a7ceb360c0",
+      "git:hexsha": "da9694fd67d01561c4ed7288a755b1a7ceb360c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.15.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/c30a1398a6697fb832c650870c44284d0052103e",
+      "git:hexsha": "c30a1398a6697fb832c650870c44284d0052103e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/cd714e88bd62fdf6501346ae4cd49105006d4f60",
+      "git:hexsha": "cd714e88bd62fdf6501346ae4cd49105006d4f60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.15.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/cffe58f6a433ea1ab60ceb129d4c9b3377acda1d",
+      "git:hexsha": "cffe58f6a433ea1ab60ceb129d4c9b3377acda1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a19ef9bceeaad862cfc0b50394a7f791d5e17b8c",
+      "git:hexsha": "a19ef9bceeaad862cfc0b50394a7f791d5e17b8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/11dafda0c43eb31cca67f3b0ed0ca9b81780db76",
+      "git:hexsha": "11dafda0c43eb31cca67f3b0ed0ca9b81780db76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/eedc3cdb6be6744071f8ae6dcfb37b26b1fc0940",
+      "git:hexsha": "eedc3cdb6be6744071f8ae6dcfb37b26b1fc0940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a3613864c8b39fc12588eaaeda0627741b7cc3bb",
+      "git:hexsha": "a3613864c8b39fc12588eaaeda0627741b7cc3bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/cd534c3f2cb4481d2702932e0ad5419e84ed3b0b",
+      "git:hexsha": "cd534c3f2cb4481d2702932e0ad5419e84ed3b0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.19.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/5a5d3aefdc75045bb66f55a16c40a9a07a463738",
+      "git:hexsha": "5a5d3aefdc75045bb66f55a16c40a9a07a463738",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/5deb082f6dfad16de9203580c28fcf6824cdd698",
+      "git:hexsha": "5deb082f6dfad16de9203580c28fcf6824cdd698",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/44ab0131718fc8d1fcb45604b0f1a8187765910d",
+      "git:hexsha": "44ab0131718fc8d1fcb45604b0f1a8187765910d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/2f6b93c05e38e042b9a018a2526182c2f5b0a9dd",
+      "git:hexsha": "2f6b93c05e38e042b9a018a2526182c2f5b0a9dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/38513a7d57343881f7bf58f37e67d6a87e0a47c5",
+      "git:hexsha": "38513a7d57343881f7bf58f37e67d6a87e0a47c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/dfc35cfb8bdbda7043439ac7027edfa2d400b5c2",
+      "git:hexsha": "dfc35cfb8bdbda7043439ac7027edfa2d400b5c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/383a8194acab4a740d22b69c023ca3af6cb9c664",
+      "git:hexsha": "383a8194acab4a740d22b69c023ca3af6cb9c664",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/bd929b829d5d019cff4640a63007adab71d752df",
+      "git:hexsha": "bd929b829d5d019cff4640a63007adab71d752df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/901c8714622056af05d757d9360b1d384604a4da",
+      "git:hexsha": "901c8714622056af05d757d9360b1d384604a4da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/c41eef8707c662fa3d2c98539291a968e8aa177b",
+      "git:hexsha": "c41eef8707c662fa3d2c98539291a968e8aa177b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/ae92a2c65947a2b416b8115969fc90bd4c875313",
+      "git:hexsha": "ae92a2c65947a2b416b8115969fc90bd4c875313",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a493c04c046763140612307400f9189d8f0acd28",
+      "git:hexsha": "a493c04c046763140612307400f9189d8f0acd28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/29cfc80dcddd468c1c5d4ef2c7c4435f90792628",
+      "git:hexsha": "29cfc80dcddd468c1c5d4ef2c7c4435f90792628",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/cf7435e3a3020bdf7ff0e75ec469f662ac5c1fe1",
+      "git:hexsha": "cf7435e3a3020bdf7ff0e75ec469f662ac5c1fe1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.7-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/476734762c0186bfea63896602a90fe9eb5f8c26",
+      "git:hexsha": "476734762c0186bfea63896602a90fe9eb5f8c26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/5b159bd7dbe1dcd35b56ce8a118722fb60fe4c1c",
+      "git:hexsha": "5b159bd7dbe1dcd35b56ce8a118722fb60fe4c1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/097426a2154a6079cddd897502b6fb3ce5d50338",
+      "git:hexsha": "097426a2154a6079cddd897502b6fb3ce5d50338",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/c73b7c35178d43960e393ec090e75c2cf664479b",
+      "git:hexsha": "c73b7c35178d43960e393ec090e75c2cf664479b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/fc3104171cb0bb70d327e659d4e1f659160a3295",
+      "git:hexsha": "fc3104171cb0bb70d327e659d4e1f659160a3295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-2.9.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/3adfbac32c20c73ef2e9389de72bfc16d600bf75",
+      "git:hexsha": "3adfbac32c20c73ef2e9389de72bfc16d600bf75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "log4j-3.0.0-alpha1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e84827220de69f39112d5f518279038c152b186f",
+      "git:hexsha": "e84827220de69f39112d5f518279038c152b186f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/3.0.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/3333493d9a9daabc72d10582c4682538baa93a2a",
+      "git:hexsha": "3333493d9a9daabc72d10582c4682538baa93a2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e613e9ed71279bb52753a4df810d61c11389df81",
+      "git:hexsha": "e613e9ed71279bb52753a4df810d61c11389df81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/a1634d695e5702ecab505fea5aadaf9890641487",
+      "git:hexsha": "a1634d695e5702ecab505fea5aadaf9890641487",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/8469975a4f2b1f8f1bd4f25ca6d1989a52aefc1b",
+      "git:hexsha": "8469975a4f2b1f8f1bd4f25ca6d1989a52aefc1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/73da9013314ba8afe459baf52f3360ca1a2df51f",
+      "git:hexsha": "73da9013314ba8afe459baf52f3360ca1a2df51f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/fea2a7116160fb1555d578406444b4fc4f0ef2da",
+      "git:hexsha": "fea2a7116160fb1555d578406444b4fc4f0ef2da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/c79ae325f6a21af45526c202f121bfced188613e",
+      "git:hexsha": "c79ae325f6a21af45526c202f121bfced188613e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/8ee9387d9ec2063ab11f27eaa43e44a13f4c9935",
+      "git:hexsha": "8ee9387d9ec2063ab11f27eaa43e44a13f4c9935",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/e65538dc75b52fd2f3e49d4ab5d7b40b376abb89",
+      "git:hexsha": "e65538dc75b52fd2f3e49d4ab5d7b40b376abb89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/4aa5efec7f2ee2d4623381cd66c3df3a16a6b9a9",
+      "git:hexsha": "4aa5efec7f2ee2d4623381cd66c3df3a16a6b9a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.24.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/ea10ad3e78469e43f138853b8c9892bc51bc87ec",
+      "git:hexsha": "ea10ad3e78469e43f138853b8c9892bc51bc87ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/bda63362cf405449ff4edc2e4d92353be65c4d4e",
+      "git:hexsha": "bda63362cf405449ff4edc2e4d92353be65c4d4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/6923bd90cbbbbe4d7e5e99013097559ba6228b73",
+      "git:hexsha": "6923bd90cbbbbe4d7e5e99013097559ba6228b73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/028e9fad03ae7bcbf2e49ab8d32d8cfb900f3587",
+      "git:hexsha": "028e9fad03ae7bcbf2e49ab8d32d8cfb900f3587",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/2.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/416cd4dcf419b59c88054d2001d34c7fec010560",
+      "git:hexsha": "416cd4dcf419b59c88054d2001d34c7fec010560",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/3.0.0-beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2/commit/28117e55f69892d3454672f9399e53fb7b74a321",
+      "git:hexsha": "28117e55f69892d3454672f9399e53fb7b74a321",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/3.0.0-beta3"
+    }
+  ]
+}
