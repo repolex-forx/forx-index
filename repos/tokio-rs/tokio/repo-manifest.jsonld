@@ -1,0 +1,1738 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/tokio-rs/tokio",
+  "@type": "gh:Repository",
+  "gh:name": "tokio",
+  "gh:owner": "tokio-rs",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/6847ed76ce77eb9fba10bf954c23058c6949d463",
+      "git:hexsha": "6847ed76ce77eb9fba10bf954c23058c6949d463",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "0.1.5",
+      "repolex:parsedAt": "2026-03-27T01:53:22.920149+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0c0c0bb177ae4591c3cded9011f6b527d7ec604e",
+      "git:hexsha": "0c0c0bb177ae4591c3cded9011f6b527d7ec604e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/cf9398ef61bcf365a5c6fc6b160405cc84d9fdf2",
+      "git:hexsha": "cf9398ef61bcf365a5c6fc6b160405cc84d9fdf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/571a48255e2576e8fab9e17753f1f13f08d8efe8",
+      "git:hexsha": "571a48255e2576e8fab9e17753f1f13f08d8efe8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/104f26cd062f09d0e299cb71a9acfed367e63cc9",
+      "git:hexsha": "104f26cd062f09d0e299cb71a9acfed367e63cc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/cc652d73393a8bbdf5949eccb051bf809ae460df",
+      "git:hexsha": "cc652d73393a8bbdf5949eccb051bf809ae460df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/23bc9d20d315d904918817b05bc043dca68b3da3",
+      "git:hexsha": "23bc9d20d315d904918817b05bc043dca68b3da3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-io-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0b58bded7c0c04f07dd5418fdbaa0976369985ba",
+      "git:hexsha": "0b58bded7c0c04f07dd5418fdbaa0976369985ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b47ad242686a7f1850c724f691d8cd948f08f47f",
+      "git:hexsha": "b47ad242686a7f1850c724f691d8cd948f08f47f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-v0.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2c85cd09914305a173c6a7467ed0cf90d9049d11",
+      "git:hexsha": "2c85cd09914305a173c6a7467ed0cf90d9049d11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f929576f0ea0debedd31cccd9b5a336ea1687568",
+      "git:hexsha": "f929576f0ea0debedd31cccd9b5a336ea1687568",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-uds-0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b117fc1d65e72fa25eb0a921f77e5e2e0a8a49bb",
+      "git:hexsha": "b117fc1d65e72fa25eb0a921f77e5e2e0a8a49bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-uds-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/25e835c5b7e2cfeb9c22b1fd576844f6814a9477",
+      "git:hexsha": "25e835c5b7e2cfeb9c22b1fd576844f6814a9477",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-uds-0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/11e2af66a82c1cb710f9a07ae9450fcb25e67a1e",
+      "git:hexsha": "11e2af66a82c1cb710f9a07ae9450fcb25e67a1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e28856cffe00aa3f0c30292a91e36adab422668c",
+      "git:hexsha": "e28856cffe00aa3f0c30292a91e36adab422668c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/987ccfc8aca443c1a22fae151a18a6daa414dc5e",
+      "git:hexsha": "987ccfc8aca443c1a22fae151a18a6daa414dc5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-sync-0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/6e4945025cdc6f2b71d9b30aaa23c5517cca1504",
+      "git:hexsha": "6e4945025cdc6f2b71d9b30aaa23c5517cca1504",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/62f34e15ce6294f6273c33548772a70d76f2ea61",
+      "git:hexsha": "62f34e15ce6294f6273c33548772a70d76f2ea61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e18c23afa135bb47c1937cc663004505c68f169d",
+      "git:hexsha": "e18c23afa135bb47c1937cc663004505c68f169d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/475dabe96d98d56e641e2ce0dd2ed23031e8523f",
+      "git:hexsha": "475dabe96d98d56e641e2ce0dd2ed23031e8523f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/01052f930a56d7b7654c2dee630872a9d7ff8999",
+      "git:hexsha": "01052f930a56d7b7654c2dee630872a9d7ff8999",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b4cb3226ab0c3cc6af272ba27ce176c84c79b73b",
+      "git:hexsha": "b4cb3226ab0c3cc6af272ba27ce176c84c79b73b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bf1305c421835164d6371274d5ef75396b75a86a",
+      "git:hexsha": "bf1305c421835164d6371274d5ef75396b75a86a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9cffda59c9bce8550cfdb971a1f47f402ec5adcd",
+      "git:hexsha": "9cffda59c9bce8550cfdb971a1f47f402ec5adcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-udp-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/10cb9dd4687949fd56d3b8eb38aa28916f7c943a",
+      "git:hexsha": "10cb9dd4687949fd56d3b8eb38aa28916f7c943a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/8235eefbf0cb4d8cbbb0cc8bf6554c66ef4e3346",
+      "git:hexsha": "8235eefbf0cb4d8cbbb0cc8bf6554c66ef4e3346",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/8d8c895a1c97198e9461c4e01098f9c73ce626fe",
+      "git:hexsha": "8d8c895a1c97198e9461c4e01098f9c73ce626fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/07203408de5c9e11566470cc4a43b1f6f4fef02a",
+      "git:hexsha": "07203408de5c9e11566470cc4a43b1f6f4fef02a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-udp-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/cab9a44e0192e9d85bd3a3266c592b5e48511c94",
+      "git:hexsha": "cab9a44e0192e9d85bd3a3266c592b5e48511c94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a81e2722a43ff2748ac99c1a65cd50fd00274db9",
+      "git:hexsha": "a81e2722a43ff2748ac99c1a65cd50fd00274db9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/50e5d401df9931eafabee554bb1a370958fc57d2",
+      "git:hexsha": "50e5d401df9931eafabee554bb1a370958fc57d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.0-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a59e096c4740204993ab2017dbb5098a35f93992",
+      "git:hexsha": "a59e096c4740204993ab2017dbb5098a35f93992",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.0-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/15dc0563b73d9da3eabdbac89e55b9cfcef691e4",
+      "git:hexsha": "15dc0563b73d9da3eabdbac89e55b9cfcef691e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.0-alpha.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/80ba2a4ff60247f49537ee7d67baa0c22f6be16e",
+      "git:hexsha": "80ba2a4ff60247f49537ee7d67baa0c22f6be16e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.0-alpha.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5efe31f2ed3c797e8055306a05faa3d7e786e7b6",
+      "git:hexsha": "5efe31f2ed3c797e8055306a05faa3d7e786e7b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.0-alpha.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/632ee507ba08b4e50dd080609ffd5d0fb7db1163",
+      "git:hexsha": "632ee507ba08b4e50dd080609ffd5d0fb7db1163",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bffbaab30d52cd6d6dabf22b3f4e5f028d1abcac",
+      "git:hexsha": "bffbaab30d52cd6d6dabf22b3f4e5f028d1abcac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/00e3c29e487ff05b6252be8052b7ba86f7c08202",
+      "git:hexsha": "00e3c29e487ff05b6252be8052b7ba86f7c08202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c6fc1db6981733c8bfe90d979132b00cfc03b83b",
+      "git:hexsha": "c6fc1db6981733c8bfe90d979132b00cfc03b83b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ecc23c084a64188e272e2c1e9e370189358a088b",
+      "git:hexsha": "ecc23c084a64188e272e2c1e9e370189358a088b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f01136b5c0bbbe72fa674df4924cc53a872cffff",
+      "git:hexsha": "f01136b5c0bbbe72fa674df4924cc53a872cffff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2a8d917d2c8c310262e81731ca994a17e5f11c3c",
+      "git:hexsha": "2a8d917d2c8c310262e81731ca994a17e5f11c3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d883ac0fa0c65fdc25bedf5566cb76c236fae3f7",
+      "git:hexsha": "d883ac0fa0c65fdc25bedf5566cb76c236fae3f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3137c6f07dabc4edc37acf717fd8c565bd78927b",
+      "git:hexsha": "3137c6f07dabc4edc37acf717fd8c565bd78927b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5376f9181f30961f8354c9f70d8e94e2d8a1d7bb",
+      "git:hexsha": "5376f9181f30961f8354c9f70d8e94e2d8a1d7bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ce9eabfdd12a14efb74f5e6d507f2acbe7a814c9",
+      "git:hexsha": "ce9eabfdd12a14efb74f5e6d507f2acbe7a814c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/467b6ea78364515e1472338cce70ef029e9bbb38",
+      "git:hexsha": "467b6ea78364515e1472338cce70ef029e9bbb38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0f4287ac2bc8950088d20e4a94614b608891bfb5",
+      "git:hexsha": "0f4287ac2bc8950088d20e4a94614b608891bfb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/02661ba30aed5d02e142212a323103d1bf84557b",
+      "git:hexsha": "02661ba30aed5d02e142212a323103d1bf84557b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/21f726041cf9a4ca408d97394af220caf90312ed",
+      "git:hexsha": "21f726041cf9a4ca408d97394af220caf90312ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c63057ebc57acb352c3c15ce4b88b7747c24ecf1",
+      "git:hexsha": "c63057ebc57acb352c3c15ce4b88b7747c24ecf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/95b943506b04d543c48d3ea4ee58ff34e82a39d6",
+      "git:hexsha": "95b943506b04d543c48d3ea4ee58ff34e82a39d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2afa276c8c31f7eeafa42f112a8b8507078ce15a",
+      "git:hexsha": "2afa276c8c31f7eeafa42f112a8b8507078ce15a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/98c9a77f18a2777c42b2ad603e7c322f75463ca0",
+      "git:hexsha": "98c9a77f18a2777c42b2ad603e7c322f75463ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/80abff0e570e365cca41a1fd7aba5a15a47654d8",
+      "git:hexsha": "80abff0e570e365cca41a1fd7aba5a15a47654d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2d78cfe56ac14f384e26278951b52099d33bd797",
+      "git:hexsha": "2d78cfe56ac14f384e26278951b52099d33bd797",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/248bf2144f4fa2792f430acec67bd5763236fabd",
+      "git:hexsha": "248bf2144f4fa2792f430acec67bd5763236fabd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/8bf4696f316c55def02978a65a34726c9118bbb3",
+      "git:hexsha": "8bf4696f316c55def02978a65a34726c9118bbb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7fb54315f1e1b12fc94558ada85ed521aea3ae77",
+      "git:hexsha": "7fb54315f1e1b12fc94558ada85ed521aea3ae77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c7c74a5a76d0a792208cf68ee35b523c7f32e387",
+      "git:hexsha": "c7c74a5a76d0a792208cf68ee35b523c7f32e387",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/12f1dffa2d76577ed6a6ed2c15de75d91992f66f",
+      "git:hexsha": "12f1dffa2d76577ed6a6ed2c15de75d91992f66f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d14cbf91162d1ae2976a67a43e1f06cda1c21e29",
+      "git:hexsha": "d14cbf91162d1ae2976a67a43e1f06cda1c21e29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9097ae548f9a1bcd261385ceba29b800b0ee2a21",
+      "git:hexsha": "9097ae548f9a1bcd261385ceba29b800b0ee2a21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/42de3bc7a44100eec06645a5bfef8be286ff0507",
+      "git:hexsha": "42de3bc7a44100eec06645a5bfef8be286ff0507",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/479c545c20b2cb44a8f09600733adc8c8dcb5aa0",
+      "git:hexsha": "479c545c20b2cb44a8f09600733adc8c8dcb5aa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/08548583b948a0be04338f1b1462917c001dbf4a",
+      "git:hexsha": "08548583b948a0be04338f1b1462917c001dbf4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/176c809e2052451c4d2c1c6d639ca56a900a779d",
+      "git:hexsha": "176c809e2052451c4d2c1c6d639ca56a900a779d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b8ba576192edba934f638eef290a791720755ef3",
+      "git:hexsha": "b8ba576192edba934f638eef290a791720755ef3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a66017f04985f5e7b7cb981e370e78a7291a5537",
+      "git:hexsha": "a66017f04985f5e7b7cb981e370e78a7291a5537",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2330edc875ed8b873b6ffc4686feef1534658f79",
+      "git:hexsha": "2330edc875ed8b873b6ffc4686feef1534658f79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5d35c907f693e25ba20c3cfb47e0cb1957679019",
+      "git:hexsha": "5d35c907f693e25ba20c3cfb47e0cb1957679019",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5d0a81fb9182af4bacaf8be139f304e22bc2aade",
+      "git:hexsha": "5d0a81fb9182af4bacaf8be139f304e22bc2aade",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/35b1a4d0b3a411f52ffc97010b9b002e53bd0d84",
+      "git:hexsha": "35b1a4d0b3a411f52ffc97010b9b002e53bd0d84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/085f819f28dc251bbac7012d60531c73bb3209ed",
+      "git:hexsha": "085f819f28dc251bbac7012d60531c73bb3209ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c0974bad94a06aaf04b62ba1397a8cfe5eb2fcb6",
+      "git:hexsha": "c0974bad94a06aaf04b62ba1397a8cfe5eb2fcb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dd060b16f54ce196b3891042030dedd3abc017c4",
+      "git:hexsha": "dd060b16f54ce196b3891042030dedd3abc017c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9a97eb36bcdcd7d9954b2f13990f6d8232b86f32",
+      "git:hexsha": "9a97eb36bcdcd7d9954b2f13990f6d8232b86f32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1ed89aa5cf7e5b9524b9e08a02030d222fd63417",
+      "git:hexsha": "1ed89aa5cf7e5b9524b9e08a02030d222fd63417",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ac89d8926d0c06eeb62936b0843a5278cd98ade0",
+      "git:hexsha": "ac89d8926d0c06eeb62936b0843a5278cd98ade0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2a3c803dd1c487868eabcef547066952cc07624e",
+      "git:hexsha": "2a3c803dd1c487868eabcef547066952cc07624e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/884a9a4b1800219dee696ce9bf8eb8fe93b92f71",
+      "git:hexsha": "884a9a4b1800219dee696ce9bf8eb8fe93b92f71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b4077a5c27aaf5d07fc04635e9d6b224e3f5326f",
+      "git:hexsha": "b4077a5c27aaf5d07fc04635e9d6b224e3f5326f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f64673580dfc649954eb744eb2734f2f118baa47",
+      "git:hexsha": "f64673580dfc649954eb744eb2734f2f118baa47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/afd2189eec8b21075a98613ffc2e11c38b82d4b9",
+      "git:hexsha": "afd2189eec8b21075a98613ffc2e11c38b82d4b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/91b98505059017808221aa6432aa7437b7100497",
+      "git:hexsha": "91b98505059017808221aa6432aa7437b7100497",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/43c224ff47e41628ca787d116080d69bd7030c3f",
+      "git:hexsha": "43c224ff47e41628ca787d116080d69bd7030c3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/48183430fb1385c823c048af16aaea346d8e652f",
+      "git:hexsha": "48183430fb1385c823c048af16aaea346d8e652f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/148bea82ee15974e64d8fc9292c2066a7278cebc",
+      "git:hexsha": "148bea82ee15974e64d8fc9292c2066a7278cebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7aa1566cde7e04cebe60711ed6ce2f8b277158e9",
+      "git:hexsha": "7aa1566cde7e04cebe60711ed6ce2f8b277158e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5c76d070e28bd9153ec72f13d0ebe24935b9dea0",
+      "git:hexsha": "5c76d070e28bd9153ec72f13d0ebe24935b9dea0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9241c3eddf4a6a218681b088d71f7191513e2376",
+      "git:hexsha": "9241c3eddf4a6a218681b088d71f7191513e2376",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/171ce0ff8d38b87a39c1e6a16fedc9a2373720e0",
+      "git:hexsha": "171ce0ff8d38b87a39c1e6a16fedc9a2373720e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0f898a3148c41dffe3f5cd8d5c391ea603d1b22b",
+      "git:hexsha": "0f898a3148c41dffe3f5cd8d5c391ea603d1b22b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.18.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/674d77d4ef42bd99238521546b3b2cd60b26e50d",
+      "git:hexsha": "674d77d4ef42bd99238521546b3b2cd60b26e50d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bac79844179f3d6ea9fb440432d2c7b65618b895",
+      "git:hexsha": "bac79844179f3d6ea9fb440432d2c7b65618b895",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/340c4dc3b2123d0bf5ec2795bd9c157d8a10ccf6",
+      "git:hexsha": "340c4dc3b2123d0bf5ec2795bd9c157d8a10ccf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/572a897d43d5e4942f26b7a67bed862d642679e4",
+      "git:hexsha": "572a897d43d5e4942f26b7a67bed862d642679e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b34376772520c924c74025d70683ec60a4c464b3",
+      "git:hexsha": "b34376772520c924c74025d70683ec60a4c464b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c0746b6a300f558410e719e27d2d4855f5407262",
+      "git:hexsha": "c0746b6a300f558410e719e27d2d4855f5407262",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3d95a4626fc136b55e82e6bd480e14459a77a22c",
+      "git:hexsha": "3d95a4626fc136b55e82e6bd480e14459a77a22c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ba81945ffc2695b71f2bbcadbfb5e46ec55aaef3",
+      "git:hexsha": "ba81945ffc2695b71f2bbcadbfb5e46ec55aaef3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f3ce29a0038c04094c39915c0221c8e428fe7ac3",
+      "git:hexsha": "f3ce29a0038c04094c39915c0221c8e428fe7ac3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/edd172cd3257e36cdfb2925716cdfddb91c4c038",
+      "git:hexsha": "edd172cd3257e36cdfb2925716cdfddb91c4c038",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/938c7eb0234b93e491de69c86f5d2a30c8663df7",
+      "git:hexsha": "938c7eb0234b93e491de69c86f5d2a30c8663df7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.20.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/50795e652ecb0747c8d048aeaa38a41dddb2da4b",
+      "git:hexsha": "50795e652ecb0747c8d048aeaa38a41dddb2da4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dea1cd49955ab5e9d041e9f1ed0c5f28e18246de",
+      "git:hexsha": "dea1cd49955ab5e9d041e9f1ed0c5f28e18246de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a79b824faa0bd19a794614e98e28e389d5f5371b",
+      "git:hexsha": "a79b824faa0bd19a794614e98e28e389d5f5371b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bf31759bff624a04e31cdb84fbb13c19105771dc",
+      "git:hexsha": "bf31759bff624a04e31cdb84fbb13c19105771dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3ce5a2681c734e134c2aa6d6cf91b8d2631bd82b",
+      "git:hexsha": "3ce5a2681c734e134c2aa6d6cf91b8d2631bd82b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1a997ffbd62334af2553775234e75ede2d7d949f",
+      "git:hexsha": "1a997ffbd62334af2553775234e75ede2d7d949f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dfe252d1fa82bdfefd7cba20f9a88cdd27e310cc",
+      "git:hexsha": "dfe252d1fa82bdfefd7cba20f9a88cdd27e310cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/31c7e8291993f42b27f5306fd0c33848c9fc796f",
+      "git:hexsha": "31c7e8291993f42b27f5306fd0c33848c9fc796f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/88b1eb54fb66461b9f3524f4b5316241a019279a",
+      "git:hexsha": "88b1eb54fb66461b9f3524f4b5316241a019279a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/25258d572abe2075931762bdb111b195157c1bba",
+      "git:hexsha": "25258d572abe2075931762bdb111b195157c1bba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9ab4ca68ac0016923ca13736f7066fb3c7527308",
+      "git:hexsha": "9ab4ca68ac0016923ca13736f7066fb3c7527308",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0d362339d55d051a1191632464fd1ea3acf1054c",
+      "git:hexsha": "0d362339d55d051a1191632464fd1ea3acf1054c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a377240bbf09f120a6d522651dae3752a180f18c",
+      "git:hexsha": "a377240bbf09f120a6d522651dae3752a180f18c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1df874ead4b30c0ced3f5be12320dda4713f1bc1",
+      "git:hexsha": "1df874ead4b30c0ced3f5be12320dda4713f1bc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f21d596099648b788e377bfa1a3809c39d7932da",
+      "git:hexsha": "f21d596099648b788e377bfa1a3809c39d7932da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a26fc9c9f956a66d086b8e43dbf9b2a8fe9b14de",
+      "git:hexsha": "a26fc9c9f956a66d086b8e43dbf9b2a8fe9b14de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e87ff8a83a2edea1b23cf62269b8b31ef7f1df2d",
+      "git:hexsha": "e87ff8a83a2edea1b23cf62269b8b31ef7f1df2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.28.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/48c55768fd6ae47d1c015b154a0ebd2579688359",
+      "git:hexsha": "48c55768fd6ae47d1c015b154a0ebd2579688359",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1b1b9dc7e388d0619fe7bfe6a7618fff596fdee1",
+      "git:hexsha": "1b1b9dc7e388d0619fe7bfe6a7618fff596fdee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d0e4dd1d7ba8938cda3bf163b86d78ec16e2ee06",
+      "git:hexsha": "d0e4dd1d7ba8938cda3bf163b86d78ec16e2ee06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/4c220af777b1b832f4a00b5b261de77c22a7209b",
+      "git:hexsha": "4c220af777b1b832f4a00b5b261de77c22a7209b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/8b8005ebddbce0ec6d5e437905d00b91f3999b97",
+      "git:hexsha": "8b8005ebddbce0ec6d5e437905d00b91f3999b97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a7d52c2fede5ebd8f6e49d52a4af77138e0bd6e1",
+      "git:hexsha": "a7d52c2fede5ebd8f6e49d52a4af77138e0bd6e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c4f0178b7488cb5f32685e90fa9c58ce043c54ce",
+      "git:hexsha": "c4f0178b7488cb5f32685e90fa9c58ce043c54ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.32.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0457690d010349172fe7d5972d343cdcaffec635",
+      "git:hexsha": "0457690d010349172fe7d5972d343cdcaffec635",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/49eb26f159c839fb34f4ce964759692443ca1302",
+      "git:hexsha": "49eb26f159c839fb34f4ce964759692443ca1302",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/92a3455c6652ab0ae7273c6273a35007adacaf2c",
+      "git:hexsha": "92a3455c6652ab0ae7273c6273a35007adacaf2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/46ff36386d11e52faae038d5afe8d2f7a39dfe39",
+      "git:hexsha": "46ff36386d11e52faae038d5afe8d2f7a39dfe39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/eaf81ed324e7cca0fa9b497a6747746da37eea93",
+      "git:hexsha": "eaf81ed324e7cca0fa9b497a6747746da37eea93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9c337ca1a306be38e3474082be14bdef4bcb45b5",
+      "git:hexsha": "9c337ca1a306be38e3474082be14bdef4bcb45b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/14c17fc09656a30230177b600bacceb9db33e942",
+      "git:hexsha": "14c17fc09656a30230177b600bacceb9db33e942",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/14b9f7115728b77c82db8d21b6d768d16dc472a6",
+      "git:hexsha": "14b9f7115728b77c82db8d21b6d768d16dc472a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.38.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/aa303bc2051f7c21b48bb7bfcafe8fd4f39afd21",
+      "git:hexsha": "aa303bc2051f7c21b48bb7bfcafe8fd4f39afd21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.38.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/48e35c11d924ffa3a009b89fbb6d36e57b835da4",
+      "git:hexsha": "48e35c11d924ffa3a009b89fbb6d36e57b835da4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f8fe0ffb23c2279708cb5dada7c88defdae60845",
+      "git:hexsha": "f8fe0ffb23c2279708cb5dada7c88defdae60845",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.39.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f602eae49988dbad2a11fd83e6b3fbd4f094713c",
+      "git:hexsha": "f602eae49988dbad2a11fd83e6b3fbd4f094713c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.39.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3d439ab7119daba4afaed4cc5a4d99f440adc88b",
+      "git:hexsha": "3d439ab7119daba4afaed4cc5a4d99f440adc88b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.39.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dcac336dc7206adb44c90bcfcb62cd11755a0ba1",
+      "git:hexsha": "dcac336dc7206adb44c90bcfcb62cd11755a0ba1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ea6d652a102dee3f22b490db70545b7f66a23fb7",
+      "git:hexsha": "ea6d652a102dee3f22b490db70545b7f66a23fb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/01e04daaa162ce6122bb894fdda0b6803dd32093",
+      "git:hexsha": "01e04daaa162ce6122bb894fdda0b6803dd32093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bb7ca7507b94d01ffe0e275ddc669734ab3bf783",
+      "git:hexsha": "bb7ca7507b94d01ffe0e275ddc669734ab3bf783",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.41.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bb9d57017e100985f86d8ca41ac105ee9140423e",
+      "git:hexsha": "bb9d57017e100985f86d8ca41ac105ee9140423e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f7fb0bdc7a4b8db7b44aa34bf869cc76e61ef246",
+      "git:hexsha": "f7fb0bdc7a4b8db7b44aa34bf869cc76e61ef246",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.42.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5f3296df77ad594779d1fe1a1583078ca9832daf",
+      "git:hexsha": "5f3296df77ad594779d1fe1a1583078ca9832daf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a7b658c35bd40f6811e557aeb97cbb361b612c56",
+      "git:hexsha": "a7b658c35bd40f6811e557aeb97cbb361b612c56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.43.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/db8edc620fb369f6cc92dd9dcfdd03b832c2b02f",
+      "git:hexsha": "db8edc620fb369f6cc92dd9dcfdd03b832c2b02f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.43.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/de6ef21a81fc451f904bcad8ba85dd8c96b17d76",
+      "git:hexsha": "de6ef21a81fc451f904bcad8ba85dd8c96b17d76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.43.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dfb0f00838ca1986dee04a54a6299d35b0a4072c",
+      "git:hexsha": "dfb0f00838ca1986dee04a54a6299d35b0a4072c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.43.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/8182ecf2628d5e80dac52b8ed1ea466dbb0925b9",
+      "git:hexsha": "8182ecf2628d5e80dac52b8ed1ea466dbb0925b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d413c9c02af8f2b4fea14b769b86484b12f46595",
+      "git:hexsha": "d413c9c02af8f2b4fea14b769b86484b12f46595",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.44.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ec4b1d7215a3e1e91797ad3fb6ba0f7c7f3d2566",
+      "git:hexsha": "ec4b1d7215a3e1e91797ad3fb6ba0f7c7f3d2566",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.44.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/00754c8f9c8cd0c10fd54e5304cb9cb95a759d53",
+      "git:hexsha": "00754c8f9c8cd0c10fd54e5304cb9cb95a759d53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3768696d92d403d98b7d559934617890f882ec02",
+      "git:hexsha": "3768696d92d403d98b7d559934617890f882ec02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.45.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3f1f268583a16c11560f8e310d5a35e9aa55b547",
+      "git:hexsha": "3f1f268583a16c11560f8e310d5a35e9aa55b547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ab3ff69cf2258a8c696b2dca89a2cef4ff114c1c",
+      "git:hexsha": "ab3ff69cf2258a8c696b2dca89a2cef4ff114c1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.46.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3911cb8523f190142f61c64b66881c07c0d3e7be",
+      "git:hexsha": "3911cb8523f190142f61c64b66881c07c0d3e7be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/be8ee45b3fc2d107174e586141b1cb12c93e2ddf",
+      "git:hexsha": "be8ee45b3fc2d107174e586141b1cb12c93e2ddf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.47.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3762a6a990ef0d5794787ceb929e6d3b78f755ae",
+      "git:hexsha": "3762a6a990ef0d5794787ceb929e6d3b78f755ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.47.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f320197693ee09e28f1fca0e55418081adcdfc25",
+      "git:hexsha": "f320197693ee09e28f1fca0e55418081adcdfc25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.47.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/556820ff84030b37e74e11b86b7733f5795770ea",
+      "git:hexsha": "556820ff84030b37e74e11b86b7733f5795770ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e3b89bbefa7564e2eba2fb9f849ef7bf87d60fad",
+      "git:hexsha": "e3b89bbefa7564e2eba2fb9f849ef7bf87d60fad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a5ee2f0d3d78daa01e2c6c12d22b82474dc5c32a",
+      "git:hexsha": "a5ee2f0d3d78daa01e2c6c12d22b82474dc5c32a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e3851089207f6617dfcc0c7a73013eb819a0bfe0",
+      "git:hexsha": "e3851089207f6617dfcc0c7a73013eb819a0bfe0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0273e45ead199dac7725faee1e3dc35a9c8753ab",
+      "git:hexsha": "0273e45ead199dac7725faee1e3dc35a9c8753ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/580dc9594c8e42b7d2dec60447f35238b8dfcf35",
+      "git:hexsha": "580dc9594c8e42b7d2dec60447f35238b8dfcf35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1baea398c4ee9361c72dc7829331366ed1d1c7f0",
+      "git:hexsha": "1baea398c4ee9361c72dc7829331366ed1d1c7f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dfe4013ff269c5351391e9a163a2e60bf36c696b",
+      "git:hexsha": "dfe4013ff269c5351391e9a163a2e60bf36c696b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/08337c5f791b8dd2d0f10cb6658436962c91d591",
+      "git:hexsha": "08337c5f791b8dd2d0f10cb6658436962c91d591",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/44e47e59c7e598981a5455bd8196eb2794e714da",
+      "git:hexsha": "44e47e59c7e598981a5455bd8196eb2794e714da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/34c6a26c016c83fa82ff6a99fb9375cd326b95ed",
+      "git:hexsha": "34c6a26c016c83fa82ff6a99fb9375cd326b95ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7601dc6d2a5c2902e78e220f44646960f910f38f",
+      "git:hexsha": "7601dc6d2a5c2902e78e220f44646960f910f38f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/998a1257171e4845c7af9ae556b74c88d963c887",
+      "git:hexsha": "998a1257171e4845c7af9ae556b74c88d963c887",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/4a26992e5be662e5ee7870684a815a68fdc73b01",
+      "git:hexsha": "4a26992e5be662e5ee7870684a815a68fdc73b01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/677107d8d9278265798c5efdc75374a25b41a4b8",
+      "git:hexsha": "677107d8d9278265798c5efdc75374a25b41a4b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e0c527f383f662010539066f288097f5b68f3e09",
+      "git:hexsha": "e0c527f383f662010539066f288097f5b68f3e09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/714704253443787cc0c9a395b6d94947bcf26687",
+      "git:hexsha": "714704253443787cc0c9a395b6d94947bcf26687",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/afb734d1893a898aea9e8d7eeee05bbe8f22ce1f",
+      "git:hexsha": "afb734d1893a898aea9e8d7eeee05bbe8f22ce1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2273eb1a1a9c9cfa2bd998c2215239e6fe1ed57a",
+      "git:hexsha": "2273eb1a1a9c9cfa2bd998c2215239e6fe1ed57a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/12606d6c5d48e45d577f394aeebdf5b9eef2a778",
+      "git:hexsha": "12606d6c5d48e45d577f394aeebdf5b9eef2a778",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b280c6dcd72b2607cde68d2b2192480932f48ecb",
+      "git:hexsha": "b280c6dcd72b2607cde68d2b2192480932f48ecb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0e2e07812ab19e1c1c70a3b457511cefdebd2a95",
+      "git:hexsha": "0e2e07812ab19e1c1c70a3b457511cefdebd2a95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-buf-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b479ce78d3e05f689d2a7c501942d2de67bed722",
+      "git:hexsha": "b479ce78d3e05f689d2a7c501942d2de67bed722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-reactor-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c25ea78ec93f0eaa35bed3b61c7e98a408784a53",
+      "git:hexsha": "c25ea78ec93f0eaa35bed3b61c7e98a408784a53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-udp-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e964c4136c91c535fb2dfee0a3327dc5a6599903",
+      "git:hexsha": "e964c4136c91c535fb2dfee0a3327dc5a6599903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2a01c26d5880b47da67ab4fd0698edc6867a23b6",
+      "git:hexsha": "2a01c26d5880b47da67ab4fd0698edc6867a23b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/961aae41c4074ee3ccab09648e870cfa8592724c",
+      "git:hexsha": "961aae41c4074ee3ccab09648e870cfa8592724c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-reactor-0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/97565c0e7565c2d260bf5ce3102a4034fdd9652b",
+      "git:hexsha": "97565c0e7565c2d260bf5ce3102a4034fdd9652b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/14b31bdba52dd1661c89309e517b3d5385885dfc",
+      "git:hexsha": "14b31bdba52dd1661c89309e517b3d5385885dfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/39c95d6206763ad282388d061db0bb2b2375201d",
+      "git:hexsha": "39c95d6206763ad282388d061db0bb2b2375201d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-fs-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d2ad49aa6eb274b0b5c4b9fc05f8e2109ddd3cdf",
+      "git:hexsha": "d2ad49aa6eb274b0b5c4b9fc05f8e2109ddd3cdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1c28c3b0a867b0147293055fe648d1185f9648a9",
+      "git:hexsha": "1c28c3b0a867b0147293055fe648d1185f9648a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/171724863db9c82929737d37bd93725e5a5f8af0",
+      "git:hexsha": "171724863db9c82929737d37bd93725e5a5f8af0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d41882e2a18ea4459d8f3a3c7ba61c4c20b806b4",
+      "git:hexsha": "d41882e2a18ea4459d8f3a3c7ba61c4c20b806b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3a659c47c33f0d8ccdebbdce320610dc8814fae0",
+      "git:hexsha": "3a659c47c33f0d8ccdebbdce320610dc8814fae0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/c505a2f81aa7a73d95bd2b0c56a5a5205054656e",
+      "git:hexsha": "c505a2f81aa7a73d95bd2b0c56a5a5205054656e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/44cfe10ee542d17d1b37cf81fd10986fcd5080e9",
+      "git:hexsha": "44cfe10ee542d17d1b37cf81fd10986fcd5080e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d39c9ed9dc29627ce3f2e134502ee24b4b537a04",
+      "git:hexsha": "d39c9ed9dc29627ce3f2e134502ee24b4b537a04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/bb6a292d0a7f4fdd18f723a882b2ed04c17c42d7",
+      "git:hexsha": "bb6a292d0a7f4fdd18f723a882b2ed04c17c42d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e184205421e7a5e6d397805adb516e661819240c",
+      "git:hexsha": "e184205421e7a5e6d397805adb516e661819240c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/623c09c52c2c38a8d75e94c166593547e8477707",
+      "git:hexsha": "623c09c52c2c38a8d75e94c166593547e8477707",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3f8a690c012e023cde6f0a89a1e42172f7f8e377",
+      "git:hexsha": "3f8a690c012e023cde6f0a89a1e42172f7f8e377",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/766f22fae34d8b77384f63b01ffb250815fde74a",
+      "git:hexsha": "766f22fae34d8b77384f63b01ffb250815fde74a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/993a60b7c79b6fbdad872c6a173c2e6fe42b117f",
+      "git:hexsha": "993a60b7c79b6fbdad872c6a173c2e6fe42b117f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/614fe357fc4a91bc6d1c904fbbfe3c5959f690f6",
+      "git:hexsha": "614fe357fc4a91bc6d1c904fbbfe3c5959f690f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/66c62a4b74f9da7be3198bb7ac77d8d18967d51e",
+      "git:hexsha": "66c62a4b74f9da7be3198bb7ac77d8d18967d51e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/65cbf730de48ef9d3c84959d26ab717a85a5de62",
+      "git:hexsha": "65cbf730de48ef9d3c84959d26ab717a85a5de62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/6a1a7b15912d1a86ab4c0d09e1a8f0a221dbfeee",
+      "git:hexsha": "6a1a7b15912d1a86ab4c0d09e1a8f0a221dbfeee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/cc974a646bd3932c148e300a92fda387c23768dd",
+      "git:hexsha": "cc974a646bd3932c148e300a92fda387c23768dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/fd1659a05222858b675d5515ef609ca39d825bff",
+      "git:hexsha": "fd1659a05222858b675d5515ef609ca39d825bff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e3ee4e58dc9bb7accf26dfd51b0a2146922b5269",
+      "git:hexsha": "e3ee4e58dc9bb7accf26dfd51b0a2146922b5269",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-macros-2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/83e8fff090cdb01d584b0b0bc5e697a2c51da0d0",
+      "git:hexsha": "83e8fff090cdb01d584b0b0bc5e697a2c51da0d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3b840fb30540aecbd309ee38899b897b141acc8d",
+      "git:hexsha": "3b840fb30540aecbd309ee38899b897b141acc8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d69e5bebf1b147d26f9f39093992db5ea940fe55",
+      "git:hexsha": "d69e5bebf1b147d26f9f39093992db5ea940fe55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ae0d49d59c0c63efafde73306af5d0d94046b50d",
+      "git:hexsha": "ae0d49d59c0c63efafde73306af5d0d94046b50d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/46f974d8cfcb56c251d80cf1dc4a6bcf9fd1d7a0",
+      "git:hexsha": "46f974d8cfcb56c251d80cf1dc4a6bcf9fd1d7a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b5a5ddb4cfbe860e8d33a44ca348cc36aab45328",
+      "git:hexsha": "b5a5ddb4cfbe860e8d33a44ca348cc36aab45328",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/398dfda56d3ee4b0d4d9e86abe15039e86979d83",
+      "git:hexsha": "398dfda56d3ee4b0d4d9e86abe15039e86979d83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7cfb1007969e3fcb28b03854f3126caeca93932e",
+      "git:hexsha": "7cfb1007969e3fcb28b03854f3126caeca93932e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/4ed0fa21e47dc4da978a9da80a61c3422e75f51b",
+      "git:hexsha": "4ed0fa21e47dc4da978a9da80a61c3422e75f51b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/67355c6d2316d58a4cf6fa822268b781d3bec402",
+      "git:hexsha": "67355c6d2316d58a4cf6fa822268b781d3bec402",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/60b083b630ed279d579368e513406d735d739511",
+      "git:hexsha": "60b083b630ed279d579368e513406d735d739511",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/766a89bf94631da0d30d43e962f35ee623b9f1d8",
+      "git:hexsha": "766a89bf94631da0d30d43e962f35ee623b9f1d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/23fdc2b3c4b33300c3e8b44dcb126057d90f4935",
+      "git:hexsha": "23fdc2b3c4b33300c3e8b44dcb126057d90f4935",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/88863a0c5d7e92f28f821f38132da7a812d19e6c",
+      "git:hexsha": "88863a0c5d7e92f28f821f38132da7a812d19e6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b4918adbd8194e1ed7fd0c7fbe635b039b70c584",
+      "git:hexsha": "b4918adbd8194e1ed7fd0c7fbe635b039b70c584",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/aaa150d211a4f5c621369746da0804a3b786b861",
+      "git:hexsha": "aaa150d211a4f5c621369746da0804a3b786b861",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5d61c997e9281e00f35c7ea426786996945f47f5",
+      "git:hexsha": "5d61c997e9281e00f35c7ea426786996945f47f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/d1a400912e82505c18c6c0c1f05cda06f334e201",
+      "git:hexsha": "d1a400912e82505c18c6c0c1f05cda06f334e201",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/89ccf2ad2b2a7bff51fe2746e1c18d33c129448a",
+      "git:hexsha": "89ccf2ad2b2a7bff51fe2746e1c18d33c129448a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-stream-0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9d6d142bed7a67411aa3110fc0220bf97897e969",
+      "git:hexsha": "9d6d142bed7a67411aa3110fc0220bf97897e969",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-sync-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7ca4f3ec4b2c13dcc4f30e4339cd95a72c54cf17",
+      "git:hexsha": "7ca4f3ec4b2c13dcc4f30e4339cd95a72c54cf17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-sync-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/195c4b04963742ecfff202ee9d0b72cc923aee81",
+      "git:hexsha": "195c4b04963742ecfff202ee9d0b72cc923aee81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-sync-0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/5dcb379f6da6e7bd97f5dde94706eecc1eed2de0",
+      "git:hexsha": "5dcb379f6da6e7bd97f5dde94706eecc1eed2de0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-sync-0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/da186a785999eb5234ac0aad0b987bb128d52f69",
+      "git:hexsha": "da186a785999eb5234ac0aad0b987bb128d52f69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-sync-0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e40ec3e4243f95b39a42bcc9049551b62c3058a0",
+      "git:hexsha": "e40ec3e4243f95b39a42bcc9049551b62c3058a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-test-0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ff9b0ef7ca5a93f8fb10baba52996e755500546f",
+      "git:hexsha": "ff9b0ef7ca5a93f8fb10baba52996e755500546f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-test-0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3b79be624d83d6763e23728a44c90963f0353f5c",
+      "git:hexsha": "3b79be624d83d6763e23728a44c90963f0353f5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-test-0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3d0d0fd2af9192ca5cf2836451e96dffab68216a",
+      "git:hexsha": "3d0d0fd2af9192ca5cf2836451e96dffab68216a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-test-0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/41d1877689f8669902b003a6affce60bdfeb3025",
+      "git:hexsha": "41d1877689f8669902b003a6affce60bdfeb3025",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-test-0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/da171253167da9c6aac60357900317dc5d129d5a",
+      "git:hexsha": "da171253167da9c6aac60357900317dc5d129d5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dba5c27296bbba014cfb1aef088593bbff373fa7",
+      "git:hexsha": "dba5c27296bbba014cfb1aef088593bbff373fa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/f1a7caea3fb805c5b1b1fe1ba1551910e4a95911",
+      "git:hexsha": "f1a7caea3fb805c5b1b1fe1ba1551910e4a95911",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-threadpool-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7232ba6d55a7b80d743b01efacd92ebff8897b21",
+      "git:hexsha": "7232ba6d55a7b80d743b01efacd92ebff8897b21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a69aca850cb4dcc90c2e7e5c38ef0801a4655ee0",
+      "git:hexsha": "a69aca850cb4dcc90c2e7e5c38ef0801a4655ee0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-timer-0.2.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/89d6bfc5cb431686d59b6659c6aa0a8531a87dff",
+      "git:hexsha": "89d6bfc5cb431686d59b6659c6aa0a8531a87dff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-tls-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3ebca76a9a3c67cb1a654c7dc0a0af851cfe14ca",
+      "git:hexsha": "3ebca76a9a3c67cb1a654c7dc0a0af851cfe14ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-trace-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/27148d6110aa36de2b225e2a9f10ccd6e743cc0f",
+      "git:hexsha": "27148d6110aa36de2b225e2a9f10ccd6e743cc0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-trace-core-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/712ca840336c67a61e822036607289c22ea5a2c3",
+      "git:hexsha": "712ca840336c67a61e822036607289c22ea5a2c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-trace-core-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/7b393884156b3b6ec7952579d7ca2e0713f6b52b",
+      "git:hexsha": "7b393884156b3b6ec7952579d7ca2e0713f6b52b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-udp-0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/59fb5b9a7d89ee84389b8f8a039e874ef8971dbd",
+      "git:hexsha": "59fb5b9a7d89ee84389b8f8a039e874ef8971dbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-udp-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/06325fa63b456069a7003b4fbf2dc1ac980c9a44",
+      "git:hexsha": "06325fa63b456069a7003b4fbf2dc1ac980c9a44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-uds-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/89639ec48bcfc2c6edba536cc9ce309516ef2d72",
+      "git:hexsha": "89639ec48bcfc2c6edba536cc9ce309516ef2d72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-uds-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/1e45237a28aad44ab7fc18726ba969ba5277be85",
+      "git:hexsha": "1e45237a28aad44ab7fc18726ba969ba5277be85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-uds-0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/24ed874e81fa27a6505613051955127ba8ddfdf2",
+      "git:hexsha": "24ed874e81fa27a6505613051955127ba8ddfdf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/00500d1b35f00c68117d8f4e7320303e967e92e3",
+      "git:hexsha": "00500d1b35f00c68117d8f4e7320303e967e92e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/ed667c669ab368882a49e7715cdb88601e2fb45a",
+      "git:hexsha": "ed667c669ab368882a49e7715cdb88601e2fb45a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/2659adf5fe19de84adb9dc96362c886c0bea7aa8",
+      "git:hexsha": "2659adf5fe19de84adb9dc96362c886c0bea7aa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/198363f4f1a71cb98ffc0e9eaac335f669a5e1de",
+      "git:hexsha": "198363f4f1a71cb98ffc0e9eaac335f669a5e1de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/60d88840f4f3ea6b7d1ced6118a7ddef1290e542",
+      "git:hexsha": "60d88840f4f3ea6b7d1ced6118a7ddef1290e542",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b08b5edb2c76ebff53d67293466071cfa736de5e",
+      "git:hexsha": "b08b5edb2c76ebff53d67293466071cfa736de5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b1310ad14d95f96eefc859790f7fc69b1b05b317",
+      "git:hexsha": "b1310ad14d95f96eefc859790f7fc69b1b05b317",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/917aad684b313d83e17dcc569aa53ce6a5965be3",
+      "git:hexsha": "917aad684b313d83e17dcc569aa53ce6a5965be3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/deb1f981256a93d89db178e69a9c9578a8487cde",
+      "git:hexsha": "deb1f981256a93d89db178e69a9c9578a8487cde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/01a6feb0dcbac8e960cc63c709be7fe8506ff107",
+      "git:hexsha": "01a6feb0dcbac8e960cc63c709be7fe8506ff107",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/aa03622cf3205b2afd37b2cf4067c3474d2779c4",
+      "git:hexsha": "aa03622cf3205b2afd37b2cf4067c3474d2779c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.6.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e7a0da60cd997f10b33f32c4763c8ecef01144f8",
+      "git:hexsha": "e7a0da60cd997f10b33f32c4763c8ecef01144f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/a05135a4f8866679dca7ad721fa37ab447ccbb47",
+      "git:hexsha": "a05135a4f8866679dca7ad721fa37ab447ccbb47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/503fad79087ed5791c7a018e07621689ea5e4676",
+      "git:hexsha": "503fad79087ed5791c7a018e07621689ea5e4676",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/cdf9d997dc79ac51fbe376edd04136251e73c403",
+      "git:hexsha": "cdf9d997dc79ac51fbe376edd04136251e73c403",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/35f244ad096b5331a38edd5a8f0beb436104873e",
+      "git:hexsha": "35f244ad096b5331a38edd5a8f0beb436104873e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/0b31c2f73d209c5f5fd17850ca219d2639df2904",
+      "git:hexsha": "0b31c2f73d209c5f5fd17850ca219d2639df2904",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/b663abe09199c63f18abf5cc024b01fdc71553a4",
+      "git:hexsha": "b663abe09199c63f18abf5cc024b01fdc71553a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/4d4d12613bb30f6b550421d6ce2c2c54eb5d341d",
+      "git:hexsha": "4d4d12613bb30f6b550421d6ce2c2c54eb5d341d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/cf6b50a3fd44684d63fd758aae1ee2955f16c798",
+      "git:hexsha": "cf6b50a3fd44684d63fd758aae1ee2955f16c798",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/454fd8c3477a37d12d5d11948fd6fe496924e950",
+      "git:hexsha": "454fd8c3477a37d12d5d11948fd6fe496924e950",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/9cc02cc88d083113cd9889a74b382e39e430e180",
+      "git:hexsha": "9cc02cc88d083113cd9889a74b382e39e430e180",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/038de361327ba67d8cb871c4761c4a6c1bb85eec",
+      "git:hexsha": "038de361327ba67d8cb871c4761c4a6c1bb85eec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/14c77bc434ed1629b6837bf529293e7be0fe7119",
+      "git:hexsha": "14c77bc434ed1629b6837bf529293e7be0fe7119",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/dfdb550cd46733e58fced076e08c9f121f5c1d08",
+      "git:hexsha": "dfdb550cd46733e58fced076e08c9f121f5c1d08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/74fb9e387aa3604193ac7da0b103c96ff90c73ee",
+      "git:hexsha": "74fb9e387aa3604193ac7da0b103c96ff90c73ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/01bb1ecf4dee073da65dfede4c845ac27c555af0",
+      "git:hexsha": "01bb1ecf4dee073da65dfede4c845ac27c555af0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/e629ad7c9ac48df0cede0620c44e0ea652f45af9",
+      "git:hexsha": "e629ad7c9ac48df0cede0620c44e0ea652f45af9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/74c6e6c683336b331d0a6fd153d424a4ca45d909",
+      "git:hexsha": "74c6e6c683336b331d0a6fd153d424a4ca45d909",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio/commit/3f6165d82e7615cb78639112520d7de76f8a0a14",
+      "git:hexsha": "3f6165d82e7615cb78639112520d7de76f8a0a14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tokio-util-0.7.9"
+    }
+  ]
+}
