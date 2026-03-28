@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 506
+      "repolex:graphFileSize": 518
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 1248
+      "repolex:graphFileSize": 1241
     },
     {
       "@type": "repolex:GraphFile",
@@ -47,59 +47,95 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 7452365
+      "repolex:graphFileSize": 7399530
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 25103119
+      "repolex:graphFileSize": 25115029
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 2226648
+      "repolex:graphFileSize": 2252593
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "dep",
       "repolex:graphFilePath": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 767
+      "repolex:graphFileSize": 1239
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-03-26T11:32:30.483993+00:00",
-  "repolex:parserVersion": "0.0.7",
+  "repolex:parsedAt": "2026-03-28T15:47:52.461894+00:00",
+  "repolex:parserVersion": "0.0.10",
   "git:tagName": "v1.5.0",
   "repolex:dependencyRepo": [
     {
       "@id": "https://repolex.ai/r/apache/jena",
       "repolex:packageName": "org.apache.jena:jena-arq",
-      "repolex:packageVersion": "6.0.0",
       "git:hexsha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
       "git:tagName": "jena-6.0.0"
     },
     {
       "@id": "https://repolex.ai/r/Jelly-RDF/jelly-jvm",
       "repolex:packageName": "eu.neverblink.jelly:jelly-jena",
-      "repolex:packageVersion": "3.7.1",
       "git:hexsha": "29788d99fef30242a831260cfe9bb0181b30c2fe",
       "git:tagName": "v3.7.1"
     },
     {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
       "@id": "https://repolex.ai/r/qos-ch/slf4j",
       "repolex:packageName": "org.slf4j:slf4j-api",
-      "repolex:packageVersion": "2.1.0-alpha1",
       "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
       "git:tagName": "v_2.1.0-alpha1"
     },
     {
       "@id": "https://repolex.ai/r/apache/logging-log4j2",
       "repolex:packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
-      "repolex:packageVersion": "3.0.0-beta2",
       "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
       "git:tagName": "rel/3.0.0-beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-core",
+      "git:hexsha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+      "git:tagName": "jena-6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.net"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.stream"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-base",
+      "git:hexsha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+      "git:tagName": "jena-6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.time.format"
     }
   ]
 }
