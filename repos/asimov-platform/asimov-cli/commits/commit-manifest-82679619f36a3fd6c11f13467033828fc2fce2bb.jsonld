@@ -1,0 +1,183 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/asimov-platform/asimov-cli/commit/82679619f36a3fd6c11f13467033828fc2fce2bb",
+  "@type": "git:Commit",
+  "git:hexsha": "82679619f36a3fd6c11f13467033828fc2fce2bb",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/asimov-platform/asimov-cli"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/82679619f36a3fd6c11f13467033828fc2fce2bb.nq.gz",
+      "repolex:graphFileSize": 5859
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 60282
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 881
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 1019
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 3623
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 96267
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/82679619f36a3fd6c11f13467033828fc2fce2bb.nq.gz",
+      "repolex:graphFileSize": 283857
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/82679619f36a3fd6c11f13467033828fc2fce2bb.nq.gz",
+      "repolex:graphFileSize": 1491067
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/82679619f36a3fd6c11f13467033828fc2fce2bb.nq.gz",
+      "repolex:graphFileSize": 73573
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/82679619f36a3fd6c11f13467033828fc2fce2bb.nq.gz",
+      "repolex:graphFileSize": 1845
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-04-03T01:09:31.818015+00:00",
+  "repolex:parserVersion": "0.1.0",
+  "git:tagName": "25.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-env",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-patterns",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-registry",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-runner",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-snapshot",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/zkat/miette",
+      "repolex:packageName": "miette"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-proxy",
+      "git:hexsha": "cb7406e3a55eca70ce868dd0616c3d47e05da1c9",
+      "git:tagName": "25.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bojand/infer",
+      "repolex:packageName": "infer"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/mime",
+      "repolex:packageName": "mime"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/indoc",
+      "repolex:packageName": "indoc"
+    },
+    {
+      "@id": "https://repolex.ai/r/katharostech/cfg_aliases",
+      "repolex:packageName": "cfg_aliases"
+    },
+    {
+      "@id": "https://repolex.ai/r/baoyachi/shadow-rs",
+      "repolex:packageName": "shadow-rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cc-rs",
+      "repolex:packageName": "cc"
+    },
+    {
+      "@id": "https://repolex.ai/r/known-facts/known-errors",
+      "repolex:packageName": "known-errors",
+      "git:hexsha": "f187984687f951a9e8f4a074d54db1ab94faede2",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ruby/rbs",
+      "repolex:packageName": "rbs"
+    }
+  ]
+}
