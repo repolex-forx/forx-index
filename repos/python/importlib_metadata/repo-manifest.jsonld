@@ -1,0 +1,784 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/python/importlib_metadata",
+  "@type": "gh:Repository",
+  "gh:name": "importlib_metadata",
+  "gh:owner": "python",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/76f03df2f4df25de8aa9424cf31e600cf27f7d59",
+      "git:hexsha": "76f03df2f4df25de8aa9424cf31e600cf27f7d59",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v8.9.0",
+      "repolex:parsedAt": "2026-04-09T18:10:43.769874+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/0ca9ad15c6504147633657d4bb60688057c1c5a7",
+      "git:hexsha": "0ca9ad15c6504147633657d4bb60688057c1c5a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/2ca45910d11c792d85bec1e418af9109ce473dab",
+      "git:hexsha": "2ca45910d11c792d85bec1e418af9109ce473dab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/a14e095cfd67ae134e9bcd2e15fdd75a53e72a02",
+      "git:hexsha": "a14e095cfd67ae134e9bcd2e15fdd75a53e72a02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b4af125e6400cef45e5e23f9ae8c9af2ca27e259",
+      "git:hexsha": "b4af125e6400cef45e5e23f9ae8c9af2ca27e259",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/c124a263d75eaa2450cd5c6d9c04bb85111b0ce6",
+      "git:hexsha": "c124a263d75eaa2450cd5c6d9c04bb85111b0ce6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/89be403fefa5a10d59694614f56d92838facd12a",
+      "git:hexsha": "89be403fefa5a10d59694614f56d92838facd12a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/dfe92836d269fbdb5504da5245ae4de38a107ca0",
+      "git:hexsha": "dfe92836d269fbdb5504da5245ae4de38a107ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/164402def32888ca0cc98415bf50d44fb283e223",
+      "git:hexsha": "164402def32888ca0cc98415bf50d44fb283e223",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/e7839d482b84fc9018799f744c650c8e3e80e9d6",
+      "git:hexsha": "e7839d482b84fc9018799f744c650c8e3e80e9d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/35c25b43114062b43b0e60baa8782bef17eafb53",
+      "git:hexsha": "35c25b43114062b43b0e60baa8782bef17eafb53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/1030f6d35e95cd394c22f8ea04ced8dd1815a0d4",
+      "git:hexsha": "1030f6d35e95cd394c22f8ea04ced8dd1815a0d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/559f6c3833ff18213b2a62c3b05e230645f9edfb",
+      "git:hexsha": "559f6c3833ff18213b2a62c3b05e230645f9edfb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f5939bf8a2a80ad7a2dd3dcda0882dded78085bb",
+      "git:hexsha": "f5939bf8a2a80ad7a2dd3dcda0882dded78085bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/4b86813ecf7e40e6d553976e3f5604f90d475fb4",
+      "git:hexsha": "4b86813ecf7e40e6d553976e3f5604f90d475fb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f06bd39d84e57109eb522880e36c00edfa397696",
+      "git:hexsha": "f06bd39d84e57109eb522880e36c00edfa397696",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/08a3782fc382d4d2671da66a3bc0e11695d091f1",
+      "git:hexsha": "08a3782fc382d4d2671da66a3bc0e11695d091f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/8f308ac55b22bf38978d3f26286ecde033de6fda",
+      "git:hexsha": "8f308ac55b22bf38978d3f26286ecde033de6fda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/69a093384d5a7d4cabfacfb7d22f912f4b489064",
+      "git:hexsha": "69a093384d5a7d4cabfacfb7d22f912f4b489064",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b5f404631606eb55fd931f218eee9bb93f93ea97",
+      "git:hexsha": "b5f404631606eb55fd931f218eee9bb93f93ea97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/92af5fc854acb4d3da50124bf57f1037d0dd0133",
+      "git:hexsha": "92af5fc854acb4d3da50124bf57f1037d0dd0133",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/33e8e84c819011cf5e796303a7e5024b4a1d5d11",
+      "git:hexsha": "33e8e84c819011cf5e796303a7e5024b4a1d5d11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/e49cd4d302e68a4016b73e8dc6fcb8a8334db4c5",
+      "git:hexsha": "e49cd4d302e68a4016b73e8dc6fcb8a8334db4c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/01459b4016944e9f66931357dcd69469cf8c8d03",
+      "git:hexsha": "01459b4016944e9f66931357dcd69469cf8c8d03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/da510e3156b1a92bc9139263f9e27e793dd6316c",
+      "git:hexsha": "da510e3156b1a92bc9139263f9e27e793dd6316c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/206fe3c21c511a9dde3367b688697311691502b1",
+      "git:hexsha": "206fe3c21c511a9dde3367b688697311691502b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/031c7f0e4994eea815b3101155f9f573d7d8f51e",
+      "git:hexsha": "031c7f0e4994eea815b3101155f9f573d7d8f51e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/37659f8fae3a845b8f2cfa02a17d851a4e230677",
+      "git:hexsha": "37659f8fae3a845b8f2cfa02a17d851a4e230677",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/86756e787b30e55dd3db552bc0abbe35e758b855",
+      "git:hexsha": "86756e787b30e55dd3db552bc0abbe35e758b855",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f4d20418b7efd8abf066ab953a05963e60c015bf",
+      "git:hexsha": "f4d20418b7efd8abf066ab953a05963e60c015bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/d9a5f95c29045d2ca7c8762258d189381ada25ca",
+      "git:hexsha": "d9a5f95c29045d2ca7c8762258d189381ada25ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/60f892dcd30049d85d154ed906d2b6e2ef01e237",
+      "git:hexsha": "60f892dcd30049d85d154ed906d2b6e2ef01e237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b22b8a79d3996213807a0b0746952201a98b19c1",
+      "git:hexsha": "b22b8a79d3996213807a0b0746952201a98b19c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/3150ed4da9e1267d0787c6f4c1f8258a26a1dd93",
+      "git:hexsha": "3150ed4da9e1267d0787c6f4c1f8258a26a1dd93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/0ea5172f4f452455862fa0dd0dd8753fae334cee",
+      "git:hexsha": "0ea5172f4f452455862fa0dd0dd8753fae334cee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/654dc66827c8e5a90162fec5c9d2f0e315d8cdb7",
+      "git:hexsha": "654dc66827c8e5a90162fec5c9d2f0e315d8cdb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/ee3bed1cb0ad4a4fb1e5e549d3353595b99ee479",
+      "git:hexsha": "ee3bed1cb0ad4a4fb1e5e549d3353595b99ee479",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/23ff3cb4b36153875de6896f4b0c9dc6cf254d61",
+      "git:hexsha": "23ff3cb4b36153875de6896f4b0c9dc6cf254d61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/3610d148456641e8fedbe5395971d82bced13e2d",
+      "git:hexsha": "3610d148456641e8fedbe5395971d82bced13e2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/46efbf9df587e0a799fa6166dbc056486e02d106",
+      "git:hexsha": "46efbf9df587e0a799fa6166dbc056486e02d106",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/dd25a385758f9700e92ae6c28718938489622524",
+      "git:hexsha": "dd25a385758f9700e92ae6c28718938489622524",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/83c7dd250f6ee4bb5f637b8d076b50f7fe3280ad",
+      "git:hexsha": "83c7dd250f6ee4bb5f637b8d076b50f7fe3280ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/046bf480a23c2719ba48d0f7169fb834c5100e05",
+      "git:hexsha": "046bf480a23c2719ba48d0f7169fb834c5100e05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/611dd521b03b0b24628ae247107e8fb86c3c3919",
+      "git:hexsha": "611dd521b03b0b24628ae247107e8fb86c3c3919",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/7f292bc63c5270bb6631819d60f3b6c64693e621",
+      "git:hexsha": "7f292bc63c5270bb6631819d60f3b6c64693e621",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/c3421fb836e9668576aa6495cc430e3d870ae086",
+      "git:hexsha": "c3421fb836e9668576aa6495cc430e3d870ae086",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/155bc48b462ce10724a2326421364d195f20327b",
+      "git:hexsha": "155bc48b462ce10724a2326421364d195f20327b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/33ea6762b5bd2d9bdee287eac1946d5908eae68b",
+      "git:hexsha": "33ea6762b5bd2d9bdee287eac1946d5908eae68b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/ed2b2c89ed1cb3506b596d4c6769691526a66fc9",
+      "git:hexsha": "ed2b2c89ed1cb3506b596d4c6769691526a66fc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/877d351e397a909272500fa69828d445051d507d",
+      "git:hexsha": "877d351e397a909272500fa69828d445051d507d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/393336926b17343e6972c2dbe4c3eaddbc3dee6d",
+      "git:hexsha": "393336926b17343e6972c2dbe4c3eaddbc3dee6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/c066e68a3bc78c12ff826626474348dd32491477",
+      "git:hexsha": "c066e68a3bc78c12ff826626474348dd32491477",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/61a265c18bc481c1e49fded0476a04ba5f75b750",
+      "git:hexsha": "61a265c18bc481c1e49fded0476a04ba5f75b750",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/73cf0a96d1681b6423ae224cceaaebda58cd4a36",
+      "git:hexsha": "73cf0a96d1681b6423ae224cceaaebda58cd4a36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/aa9f799bda305bfb4fd51e4dba230207267aecd6",
+      "git:hexsha": "aa9f799bda305bfb4fd51e4dba230207267aecd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/56d312b95217ece0191d4b587b3da81e6d9a71db",
+      "git:hexsha": "56d312b95217ece0191d4b587b3da81e6d9a71db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/1e2381fe101fd70742a0171e51c1be82aedf519b",
+      "git:hexsha": "1e2381fe101fd70742a0171e51c1be82aedf519b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/5c9198cd8212d56db8ee9c49ee39a0980d11f5ff",
+      "git:hexsha": "5c9198cd8212d56db8ee9c49ee39a0980d11f5ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/6360916023777a0f87275a2311610f2be3b4c560",
+      "git:hexsha": "6360916023777a0f87275a2311610f2be3b4c560",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/d91dd253f2ba2c22aab4c11a9c03f1da5cb26a62",
+      "git:hexsha": "d91dd253f2ba2c22aab4c11a9c03f1da5cb26a62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/d17d6e4ae667c086abf5189d4ffb782a46984584",
+      "git:hexsha": "d17d6e4ae667c086abf5189d4ffb782a46984584",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/2a2b782f246f3b6c5b19b00d435a15dd51bfecef",
+      "git:hexsha": "2a2b782f246f3b6c5b19b00d435a15dd51bfecef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/50a1549e5efc789b6e1cf656dec5091c2af44974",
+      "git:hexsha": "50a1549e5efc789b6e1cf656dec5091c2af44974",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/615044dfc92c3172c2952a0fe2321d51af41df0f",
+      "git:hexsha": "615044dfc92c3172c2952a0fe2321d51af41df0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/0c86a02fbbbbdc9a888d9f2a149ec0d2cf5e7d2c",
+      "git:hexsha": "0c86a02fbbbbdc9a888d9f2a149ec0d2cf5e7d2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/ecd104971b01800509702739e589025c557a01b9",
+      "git:hexsha": "ecd104971b01800509702739e589025c557a01b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/9491ef9a2733a7891c665c0c7969804a3567dbe3",
+      "git:hexsha": "9491ef9a2733a7891c665c0c7969804a3567dbe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/67cd67f3206370bfff931e2bd2ff51f3e0378872",
+      "git:hexsha": "67cd67f3206370bfff931e2bd2ff51f3e0378872",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/d405f1b53f3afba43cfe967bb4f150047a1eccbd",
+      "git:hexsha": "d405f1b53f3afba43cfe967bb4f150047a1eccbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/97e0293b8bf317b54f49c25add7d44830f9180fe",
+      "git:hexsha": "97e0293b8bf317b54f49c25add7d44830f9180fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/14cce75299645467adcd17352cb07caada32c444",
+      "git:hexsha": "14cce75299645467adcd17352cb07caada32c444",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/99a2ec4489da45407d8224be2804ff323a164ac0",
+      "git:hexsha": "99a2ec4489da45407d8224be2804ff323a164ac0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/afdb973b3e632f0ce9f599f434dc55beebd451b1",
+      "git:hexsha": "afdb973b3e632f0ce9f599f434dc55beebd451b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/516f2a78061d27a3baff53ce4b08f95b638f60d3",
+      "git:hexsha": "516f2a78061d27a3baff53ce4b08f95b638f60d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/9a6641b91088daaa4ae0134d24fc130f1da69a37",
+      "git:hexsha": "9a6641b91088daaa4ae0134d24fc130f1da69a37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/277d669784f3e33b7773bd4aaa1a929771db458b",
+      "git:hexsha": "277d669784f3e33b7773bd4aaa1a929771db458b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/e9f70d27563fd4190dcf22372b1d405f14e2d10b",
+      "git:hexsha": "e9f70d27563fd4190dcf22372b1d405f14e2d10b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/ea7227813b371ed462154d56dac69283737fdc83",
+      "git:hexsha": "ea7227813b371ed462154d56dac69283737fdc83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/5fb702911718a58f617bc774d846e6e4084da5d2",
+      "git:hexsha": "5fb702911718a58f617bc774d846e6e4084da5d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/1cabd5f603a35d36aab4e4f0881e332f873ef667",
+      "git:hexsha": "1cabd5f603a35d36aab4e4f0881e332f873ef667",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b49cdaa0e33c83b3ab4cbd381573618c4e5b8ec9",
+      "git:hexsha": "b49cdaa0e33c83b3ab4cbd381573618c4e5b8ec9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/596155c2f2295bf323375adc2dc990e1ac1f26e7",
+      "git:hexsha": "596155c2f2295bf323375adc2dc990e1ac1f26e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/558356777696455d8dcffa46b1b696d6b4f3ec62",
+      "git:hexsha": "558356777696455d8dcffa46b1b696d6b4f3ec62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/7c74b5033de201b1c883c593b6876533fff85ee8",
+      "git:hexsha": "7c74b5033de201b1c883c593b6876533fff85ee8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/930841ae08d68c39ef8602a336ac9c14197d216a",
+      "git:hexsha": "930841ae08d68c39ef8602a336ac9c14197d216a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/15df009aaa8119b0a027acdb8ebdb853e04567b7",
+      "git:hexsha": "15df009aaa8119b0a027acdb8ebdb853e04567b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/0bc774f17c76315c95ea759f3aae93aede53cfe2",
+      "git:hexsha": "0bc774f17c76315c95ea759f3aae93aede53cfe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/fa620f1d28ce2a6d32bf8649ee403ce628224d4f",
+      "git:hexsha": "fa620f1d28ce2a6d32bf8649ee403ce628224d4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/7a3130a26883cdb84002596dadc7210c81008f16",
+      "git:hexsha": "7a3130a26883cdb84002596dadc7210c81008f16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/eccf5784e6b420c56e3d6d199201d34d29c45111",
+      "git:hexsha": "eccf5784e6b420c56e3d6d199201d34d29c45111",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/134ed7f82f46b6b25c9710a7d5ab595d6712a7a3",
+      "git:hexsha": "134ed7f82f46b6b25c9710a7d5ab595d6712a7a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/4abad44e30578066a24483ff118b8f29f7832a86",
+      "git:hexsha": "4abad44e30578066a24483ff118b8f29f7832a86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/009ace37032742922d5fa04c62f04cea703ade2d",
+      "git:hexsha": "009ace37032742922d5fa04c62f04cea703ade2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b74765da2d794941012b145bf228eeabc42ba73b",
+      "git:hexsha": "b74765da2d794941012b145bf228eeabc42ba73b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/4fe7502eec4722891ea55705534b10e010152995",
+      "git:hexsha": "4fe7502eec4722891ea55705534b10e010152995",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/d66e35a7b5687b5305cf16fca4e6b1e82008b592",
+      "git:hexsha": "d66e35a7b5687b5305cf16fca4e6b1e82008b592",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b944c376515b8dc9bd67cb7ca8ef10500ca8d242",
+      "git:hexsha": "b944c376515b8dc9bd67cb7ca8ef10500ca8d242",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/66e8e9bb511d36f365a420a2e3526b83dc2a2220",
+      "git:hexsha": "66e8e9bb511d36f365a420a2e3526b83dc2a2220",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/02bbfb0685ce826daa3e6d85d4002b90b70a5e30",
+      "git:hexsha": "02bbfb0685ce826daa3e6d85d4002b90b70a5e30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/84418f85c38d2bba9925f576ef25dda1de9e4647",
+      "git:hexsha": "84418f85c38d2bba9925f576ef25dda1de9e4647",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/4df89f1e392a588b6caa8433568cbd6c5992781f",
+      "git:hexsha": "4df89f1e392a588b6caa8433568cbd6c5992781f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/64ae8f6d40ccf203fc3c1d90c6b7ba2c33b7012e",
+      "git:hexsha": "64ae8f6d40ccf203fc3c1d90c6b7ba2c33b7012e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/311265388463b4f64a875fbae8d34c98bb7596c5",
+      "git:hexsha": "311265388463b4f64a875fbae8d34c98bb7596c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/00801f747853fc81d5a9495d2c8f595c568b02b6",
+      "git:hexsha": "00801f747853fc81d5a9495d2c8f595c568b02b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/6ebb1f91d51438f0f8c9e4d940d602203cc8476f",
+      "git:hexsha": "6ebb1f91d51438f0f8c9e4d940d602203cc8476f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/d3e90759d971fa7176eae603e344a1f301cded8b",
+      "git:hexsha": "d3e90759d971fa7176eae603e344a1f301cded8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/512a3df847da555b8afd648b570e44acac821fbe",
+      "git:hexsha": "512a3df847da555b8afd648b570e44acac821fbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/705a7571ec7c5abec4d4b008da3a58df7e5c94e7",
+      "git:hexsha": "705a7571ec7c5abec4d4b008da3a58df7e5c94e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f604d3e462cd11ee071bfcb78b827fb67cc2e537",
+      "git:hexsha": "f604d3e462cd11ee071bfcb78b827fb67cc2e537",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/34fd7365cad782511b7c824f65c054d654bb066c",
+      "git:hexsha": "34fd7365cad782511b7c824f65c054d654bb066c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/4e118be4861fc0b2b15f856dacf52681f5be1b42",
+      "git:hexsha": "4e118be4861fc0b2b15f856dacf52681f5be1b42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/fb492e17faee9a6056ca31cf6feffec96c3b9d5a",
+      "git:hexsha": "fb492e17faee9a6056ca31cf6feffec96c3b9d5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f2e84e3fb5a240b054e8669e5162914bb4a4e68b",
+      "git:hexsha": "f2e84e3fb5a240b054e8669e5162914bb4a4e68b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/913352a8765662f1569123b27ecb9ca7bc4d649e",
+      "git:hexsha": "913352a8765662f1569123b27ecb9ca7bc4d649e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f5d6b5f3f3f6fffe01b340c5a19562433db148a9",
+      "git:hexsha": "f5d6b5f3f3f6fffe01b340c5a19562433db148a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/311cef4ab03cfd122bc4895094ab85b67f565406",
+      "git:hexsha": "311cef4ab03cfd122bc4895094ab85b67f565406",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b76931df96cb577bedbfac086d507a731a74b4b3",
+      "git:hexsha": "b76931df96cb577bedbfac086d507a731a74b4b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/f3901686abc47853523f3b211873fc2b9e0c5ab5",
+      "git:hexsha": "f3901686abc47853523f3b211873fc2b9e0c5ab5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/4bcda08ca2b1bf91437619d4f99810ecbf83b2b2",
+      "git:hexsha": "4bcda08ca2b1bf91437619d4f99810ecbf83b2b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/3f6acea6081d28501bc76888c0676611a70fce10",
+      "git:hexsha": "3f6acea6081d28501bc76888c0676611a70fce10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/3c8e1ec4e34c11dcff086be7fbd0d1981bf32480",
+      "git:hexsha": "3c8e1ec4e34c11dcff086be7fbd0d1981bf32480",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/1616cb3a82c33c3603ff984b6ff417e68068aa6e",
+      "git:hexsha": "1616cb3a82c33c3603ff984b6ff417e68068aa6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/b34810b1e0665580a91ea19b6317a1890ecd42c1",
+      "git:hexsha": "b34810b1e0665580a91ea19b6317a1890ecd42c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/dad738095d6d28f24d254f3cc9f82e2394fb2a09",
+      "git:hexsha": "dad738095d6d28f24d254f3cc9f82e2394fb2a09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/45e8bde73f8ce816fdc47618a31ba3916a332485",
+      "git:hexsha": "45e8bde73f8ce816fdc47618a31ba3916a332485",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/708dff4f1ab89bdd126e3e8c56098d04282c5809",
+      "git:hexsha": "708dff4f1ab89bdd126e3e8c56098d04282c5809",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/84e9028d39062af975d0659c0e987c28bcc808a5",
+      "git:hexsha": "84e9028d39062af975d0659c0e987c28bcc808a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/a5c2154835facb4a9d0a6f5b3aac1f3d1ff86170",
+      "git:hexsha": "a5c2154835facb4a9d0a6f5b3aac1f3d1ff86170",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata/commit/a9f883fef337c667a81a987bc0cbc0dbb43b2bfe",
+      "git:hexsha": "a9f883fef337c667a81a987bc0cbc0dbb43b2bfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0"
+    }
+  ]
+}
