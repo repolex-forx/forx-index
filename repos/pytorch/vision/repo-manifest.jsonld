@@ -1,0 +1,736 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/pytorch/vision",
+  "@type": "gh:Repository",
+  "gh:name": "vision",
+  "gh:owner": "pytorch",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/336d36e8db990a905498c73933e35231876e28bc",
+      "git:hexsha": "336d36e8db990a905498c73933e35231876e28bc",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.26.0-rc6",
+      "repolex:parsedAt": "2026-04-09T17:27:15.308696+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/48b1edffdc6f34b766e2b4bbf23b78bd4df94181",
+      "git:hexsha": "48b1edffdc6f34b766e2b4bbf23b78bd4df94181",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/824e8c8726b65fd9d5abdc9702f81c2b0c4c0dc8",
+      "git:hexsha": "824e8c8726b65fd9d5abdc9702f81c2b0c4c0dc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ae238682d7170e3703a84a426b774dad1fbb9ffe",
+      "git:hexsha": "ae238682d7170e3703a84a426b774dad1fbb9ffe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ciflow/binaries/all/8815"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8ddb7b7d82a930ad0e325fb219099fb8d688fbc6",
+      "git:hexsha": "8ddb7b7d82a930ad0e325fb219099fb8d688fbc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ciflow/default/1449"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/a0c4a85264db4cf9694c601a6fe44ee8675dcfcf",
+      "git:hexsha": "a0c4a85264db4cf9694c601a6fe44ee8675dcfcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ciflow/default/3395"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/bcbb1c34cbc63869680b9af5330cadf97525737a",
+      "git:hexsha": "bcbb1c34cbc63869680b9af5330cadf97525737a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ciflow/default/5009"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/2227b5da439a8d54f3f9b34cfec1cc237105ab66",
+      "git:hexsha": "2227b5da439a8d54f3f9b34cfec1cc237105ab66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ciflow/default/5106"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/e95db7aa09ac012dfbdb5db8a24ba8e5804d55b5",
+      "git:hexsha": "e95db7aa09ac012dfbdb5db8a24ba8e5804d55b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tag_from_my_fork"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/248e2f0c76cdd325f5ac86bb6b0cc0562697b3c5",
+      "git:hexsha": "248e2f0c76cdd325f5ac86bb6b0cc0562697b3c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/e869fcbea0bc52dd0dde446eeafb44cca6fc7713",
+      "git:hexsha": "e869fcbea0bc52dd0dde446eeafb44cca6fc7713",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/80b38a076cdea1a87382372cc449bc23c4c34153",
+      "git:hexsha": "80b38a076cdea1a87382372cc449bc23c4c34153",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/f4c171574da358d0c7f927e8fa86aa65b329668a",
+      "git:hexsha": "f4c171574da358d0c7f927e8fa86aa65b329668a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/c5e52baa632878e2989d62d5888179f900b01c8b",
+      "git:hexsha": "c5e52baa632878e2989d62d5888179f900b01c8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/300a8a40132c5d3ee7dc936034c6046fd30ca4c0",
+      "git:hexsha": "300a8a40132c5d3ee7dc936034c6046fd30ca4c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9d5561b1f1224426a34ac13391f9c62f03c75b2f",
+      "git:hexsha": "9d5561b1f1224426a34ac13391f9c62f03c75b2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ae9963fd077619c7d2a134813e35551943e87458",
+      "git:hexsha": "ae9963fd077619c7d2a134813e35551943e87458",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ca1a6207fb17bb3e1f8411cc9d973c690a6f230a",
+      "git:hexsha": "ca1a6207fb17bb3e1f8411cc9d973c690a6f230a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/6e7241691adfb6429285f01ff13f5c8dd9306e3e",
+      "git:hexsha": "6e7241691adfb6429285f01ff13f5c8dd9306e3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/58a60b2eb4caaf0b9dc69499987f6b8ca4f36194",
+      "git:hexsha": "58a60b2eb4caaf0b9dc69499987f6b8ca4f36194",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/1a969c61c8b75e326c13364c22675e7c4db4922b",
+      "git:hexsha": "1a969c61c8b75e326c13364c22675e7c4db4922b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ccf3aa2ae319cc0d29e67d61af0ad314daf089fa",
+      "git:hexsha": "ccf3aa2ae319cc0d29e67d61af0ad314daf089fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/fa347eb9f38c1759b73677a11b17335191e3f602",
+      "git:hexsha": "fa347eb9f38c1759b73677a11b17335191e3f602",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/cdacbe04516a46e3f8c8836f1616f329924b7e03",
+      "git:hexsha": "cdacbe04516a46e3f8c8836f1616f329924b7e03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/e7ec7e20a8cc814f7a464983063d2487955711de",
+      "git:hexsha": "e7ec7e20a8cc814f7a464983063d2487955711de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/05eae32f9663bbecad10a8d367ccbec50130e2f5",
+      "git:hexsha": "05eae32f9663bbecad10a8d367ccbec50130e2f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.3-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9b5a3fecc72434dbd65148723efe54b28b9728c9",
+      "git:hexsha": "9b5a3fecc72434dbd65148723efe54b28b9728c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/2662797414e18c350c83817d5b712bd0c0c2c52a",
+      "git:hexsha": "2662797414e18c350c83817d5b712bd0c0c2c52a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/c6c1fb6a67627fa1ecdb9aec38728b849a31e36e",
+      "git:hexsha": "c6c1fb6a67627fa1ecdb9aec38728b849a31e36e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/da3794e90c7cf69348f5446471926729c55f243e",
+      "git:hexsha": "da3794e90c7cf69348f5446471926729c55f243e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/4757a6dff4827bba6cc5499d766bab1b1d885fd7",
+      "git:hexsha": "4757a6dff4827bba6cc5499d766bab1b1d885fd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/7ee3608cb742c935334dc272f01bec708219fee8",
+      "git:hexsha": "7ee3608cb742c935334dc272f01bec708219fee8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/1a288d15061b223510097ee26455401afa3ccb32",
+      "git:hexsha": "1a288d15061b223510097ee26455401afa3ccb32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/1a4afa93ca0b22193b0cc3caad84e53617a2ab49",
+      "git:hexsha": "1a4afa93ca0b22193b0cc3caad84e53617a2ab49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/bddbd7e6d65ecacc2e40cf6c9e2059669b8dbd44",
+      "git:hexsha": "bddbd7e6d65ecacc2e40cf6c9e2059669b8dbd44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1-rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9b6233d2db1ecc175bca453ae4f8e3c81156db0d",
+      "git:hexsha": "9b6233d2db1ecc175bca453ae4f8e3c81156db0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9a4053085ec8614802d474a5dab88ccbaa709d00",
+      "git:hexsha": "9a4053085ec8614802d474a5dab88ccbaa709d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/053feedefac213f21c25b5df55084c11cd72a9cc",
+      "git:hexsha": "053feedefac213f21c25b5df55084c11cd72a9cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/5a9ee494cb4ef98b537f06664d16d9a94ec1438a",
+      "git:hexsha": "5a9ee494cb4ef98b537f06664d16d9a94ec1438a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/5ce4506ac43c8b1dc1736ed9e51c58e0e29f5237",
+      "git:hexsha": "5ce4506ac43c8b1dc1736ed9e51c58e0e29f5237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/531a2eafbfbb6ce5797d116dde313ab9c467b912",
+      "git:hexsha": "531a2eafbfbb6ce5797d116dde313ab9c467b912",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/5e8e2f125f140d1e908cf424a6a85cacad758125",
+      "git:hexsha": "5e8e2f125f140d1e908cf424a6a85cacad758125",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/290e9105f04552449e0980a4bb5a5b295928554b",
+      "git:hexsha": "290e9105f04552449e0980a4bb5a5b295928554b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ee7fd31ec03b124fb3487f87b15cc75bc225f577",
+      "git:hexsha": "ee7fd31ec03b124fb3487f87b15cc75bc225f577",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/96bdbe052ad76cee2641892f6bb27bb5c376716e",
+      "git:hexsha": "96bdbe052ad76cee2641892f6bb27bb5c376716e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/a2c033c804538ce3837d0cfc1df69dd68adb585e",
+      "git:hexsha": "a2c033c804538ce3837d0cfc1df69dd68adb585e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0-rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/0ca07353c82c0b8bbe1552dd871960b72d00cb62",
+      "git:hexsha": "0ca07353c82c0b8bbe1552dd871960b72d00cb62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/42759b1cc82bed60481c2802811595833e2ddd9b",
+      "git:hexsha": "42759b1cc82bed60481c2802811595833e2ddd9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/fa99a5360fbcd1683311d57a76fcc0e7323a4c1e",
+      "git:hexsha": "fa99a5360fbcd1683311d57a76fcc0e7323a4c1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/fbb4cc54ed521ba912f50f180dc16a213775bf5c",
+      "git:hexsha": "fbb4cc54ed521ba912f50f180dc16a213775bf5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ab6f1edec00237cf78024ccd560d41d1221d274a",
+      "git:hexsha": "ab6f1edec00237cf78024ccd560d41d1221d274a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/1044d0fb3c1e38812598ac620844bc291db6675e",
+      "git:hexsha": "1044d0fb3c1e38812598ac620844bc291db6675e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/704f831bdc9a0c7bb9f68f8b53a4ddedbf0b0846",
+      "git:hexsha": "704f831bdc9a0c7bb9f68f8b53a4ddedbf0b0846",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/a90e584667fc3a7d85485764245e0db92387aca1",
+      "git:hexsha": "a90e584667fc3a7d85485764245e0db92387aca1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/fdea156b80780313d6248847ab16d5d68eef9679",
+      "git:hexsha": "fdea156b80780313d6248847ab16d5d68eef9679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/291c9aa2f3eb8702d1a6b153137823d4b0b0184b",
+      "git:hexsha": "291c9aa2f3eb8702d1a6b153137823d4b0b0184b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/c6f39778e636ec40a69bdbc74386818c57a65af3",
+      "git:hexsha": "c6f39778e636ec40a69bdbc74386818c57a65af3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/b2383d44751bf85e58cfb9223bbf4e5961c09fa1",
+      "git:hexsha": "b2383d44751bf85e58cfb9223bbf4e5961c09fa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/bd6044a034cedb4328a7fc7b4ba7c57095d38454",
+      "git:hexsha": "bd6044a034cedb4328a7fc7b4ba7c57095d38454",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/49880a9fa0ac0ccaa37d8582dfa5e6237a46a4f7",
+      "git:hexsha": "49880a9fa0ac0ccaa37d8582dfa5e6237a46a4f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9c7fb73ff9e8d6882734ad5cb2012884cb09c152",
+      "git:hexsha": "9c7fb73ff9e8d6882734ad5cb2012884cb09c152",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/4fd856bfbcf59a4da3a91f0e12515c7ef0709777",
+      "git:hexsha": "4fd856bfbcf59a4da3a91f0e12515c7ef0709777",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/c1d70fe1aa3f37ecdc809311f6c238df900dfd19",
+      "git:hexsha": "c1d70fe1aa3f37ecdc809311f6c238df900dfd19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.2-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8e64d60b4428d1ded1702fced5e4e0ce6e67da10",
+      "git:hexsha": "8e64d60b4428d1ded1702fced5e4e0ce6e67da10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/6043bc250768b129e90a5321e318c1d51ee48a5c",
+      "git:hexsha": "6043bc250768b129e90a5321e318c1d51ee48a5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/c87be164e325e7a35ba8517d1020e6ef5018c8ac",
+      "git:hexsha": "c87be164e325e7a35ba8517d1020e6ef5018c8ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/126fc22ce33e6c2426edcf9ed540810c178fe9ce",
+      "git:hexsha": "126fc22ce33e6c2426edcf9ed540810c178fe9ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/f44f20cffc45ca226d5bf7e25c11fb0d1119b4bb",
+      "git:hexsha": "f44f20cffc45ca226d5bf7e25c11fb0d1119b4bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/61943691d3390bd3148a7003b4a501f0e2b7ac6e",
+      "git:hexsha": "61943691d3390bd3148a7003b4a501f0e2b7ac6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/5bada1fa8a8e82863cb3c0dd96d06a4b514f697c",
+      "git:hexsha": "5bada1fa8a8e82863cb3c0dd96d06a4b514f697c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/c9b8914528f70fc8444a913a0934a0e44bff67c1",
+      "git:hexsha": "c9b8914528f70fc8444a913a0934a0e44bff67c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/1d0a3b11c6406e8b604c2c95b228bc6f7bc36ac4",
+      "git:hexsha": "1d0a3b11c6406e8b604c2c95b228bc6f7bc36ac4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ef768ad5664c91a19e9c6e602b2fcb08001c6125",
+      "git:hexsha": "ef768ad5664c91a19e9c6e602b2fcb08001c6125",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/afc54f754c734d903a06194e416495e20d920ff6",
+      "git:hexsha": "afc54f754c734d903a06194e416495e20d920ff6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0-rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/4a94962699ad1a24fee03fa13589a6ea73691cb1",
+      "git:hexsha": "4a94962699ad1a24fee03fa13589a6ea73691cb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8e8a208117a654c0945fa08208d2e7e6f3206441",
+      "git:hexsha": "8e8a208117a654c0945fa08208d2e7e6f3206441",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/3ac97aa9120137381ed1060f37237e44485ac2aa",
+      "git:hexsha": "3ac97aa9120137381ed1060f37237e44485ac2aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/7af698794eded568735f9519593603c1ec889eba",
+      "git:hexsha": "7af698794eded568735f9519593603c1ec889eba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0-rc8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/2f3a43fbca2070ca6f0a863e7e92fcd750eb0c1a",
+      "git:hexsha": "2f3a43fbca2070ca6f0a863e7e92fcd750eb0c1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/eafc2930ee25a72442ae5308da1b48d90b7eda99",
+      "git:hexsha": "eafc2930ee25a72442ae5308da1b48d90b7eda99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0-rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8dcfb1c43e2d4e65cc2c9a004dbb1788005a5556",
+      "git:hexsha": "8dcfb1c43e2d4e65cc2c9a004dbb1788005a5556",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9eb57cd5c96be7fe31923eb65399c3819d064587",
+      "git:hexsha": "9eb57cd5c96be7fe31923eb65399c3819d064587",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0-rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/fb8cdf8eed9c51664f797b484a5093c6bffac856",
+      "git:hexsha": "fb8cdf8eed9c51664f797b484a5093c6bffac856",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/2ddb6980e121f340af4366fecb0e8a6b3174210a",
+      "git:hexsha": "2ddb6980e121f340af4366fecb0e8a6b3174210a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/59a3e1f9f78cfe44cb989877cc6f4ea77c8a75ca",
+      "git:hexsha": "59a3e1f9f78cfe44cb989877cc6f4ea77c8a75ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/5dc9e7de87a6608d745b22d448e3a6cf26ac2ee6",
+      "git:hexsha": "5dc9e7de87a6608d745b22d448e3a6cf26ac2ee6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/9a8003e3c9f70cbb07720c8fc1886bdad34d0798",
+      "git:hexsha": "9a8003e3c9f70cbb07720c8fc1886bdad34d0798",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+      "git:hexsha": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0-rc8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/e437e35ba86b14368e9fd0667b361d2f57454f9c",
+      "git:hexsha": "e437e35ba86b14368e9fd0667b361d2f57454f9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/973f5cde5c9e3a704babd01f1fc9e72ca88420d5",
+      "git:hexsha": "973f5cde5c9e3a704babd01f1fc9e72ca88420d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/b919bd0c56abbb3c5ca056a3a458af9fd1cabf52",
+      "git:hexsha": "b919bd0c56abbb3c5ca056a3a458af9fd1cabf52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/0429d7377dbead5e6c9724681e8ec1f17c87520a",
+      "git:hexsha": "0429d7377dbead5e6c9724681e8ec1f17c87520a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/d801a34632023859a0a274803d6abaf0a45d77a5",
+      "git:hexsha": "d801a34632023859a0a274803d6abaf0a45d77a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8ac84ee75afb1c327902156b5336f56ad63b7e2f",
+      "git:hexsha": "8ac84ee75afb1c327902156b5336f56ad63b7e2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/82df5f599578b383987510836bb05ea97dcc9669",
+      "git:hexsha": "82df5f599578b383987510836bb05ea97dcc9669",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/31d3aa3548bd6bd04c082d37dc8f82b1689e9441",
+      "git:hexsha": "31d3aa3548bd6bd04c082d37dc8f82b1689e9441",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/4fe736f90794280bf7f31a7867463c9bce9cf3d9",
+      "git:hexsha": "4fe736f90794280bf7f31a7867463c9bce9cf3d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/be376084d84dedd99284625d5b12a3643cfbe3d8",
+      "git:hexsha": "be376084d84dedd99284625d5b12a3643cfbe3d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/d31eafa9c59cd59533dd0b89a36d371e55337a48",
+      "git:hexsha": "d31eafa9c59cd59533dd0b89a36d371e55337a48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/a263704079d9d35db8b0966a65ec628d28998bce",
+      "git:hexsha": "a263704079d9d35db8b0966a65ec628d28998bce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/efb0b265ce62bb9205ba93701628c4b57012001c",
+      "git:hexsha": "efb0b265ce62bb9205ba93701628c4b57012001c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/85b8fbfd31e9324e64e24ca25410284ef238bcb3",
+      "git:hexsha": "85b8fbfd31e9324e64e24ca25410284ef238bcb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/b68adcf9a9280aef02fc08daed170d74d0892361",
+      "git:hexsha": "b68adcf9a9280aef02fc08daed170d74d0892361",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/fe36f0663e231b9c875ad727cd76bc0922c9437b",
+      "git:hexsha": "fe36f0663e231b9c875ad727cd76bc0922c9437b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/78ed10cc51067f1a6bac9352831ef37a3f842784",
+      "git:hexsha": "78ed10cc51067f1a6bac9352831ef37a3f842784",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/ed888d93fa2cf6e40d6ab8156d0fbd72e9fe2215",
+      "git:hexsha": "ed888d93fa2cf6e40d6ab8156d0fbd72e9fe2215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/6631b74db7cf8aebee8af196b4c65b1fce220baa",
+      "git:hexsha": "6631b74db7cf8aebee8af196b4c65b1fce220baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/e2d415cd0362ad26e419d262bac7ef2c6d6879de",
+      "git:hexsha": "e2d415cd0362ad26e419d262bac7ef2c6d6879de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/291f7e20339510cfa956b5782741697eb8e6d554",
+      "git:hexsha": "291f7e20339510cfa956b5782741697eb8e6d554",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/02c2537006001705d47c864f68531c48a05a40b9",
+      "git:hexsha": "02c2537006001705d47c864f68531c48a05a40b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/1f629a5c196708dc84ccd17ebeb2a8ca980ee633",
+      "git:hexsha": "1f629a5c196708dc84ccd17ebeb2a8ca980ee633",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/6455a4c68d4d1bd2a78962527104aab8d286e19f",
+      "git:hexsha": "6455a4c68d4d1bd2a78962527104aab8d286e19f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/45f960c5b18679ea42d7e5b4212f17483cdfd8af",
+      "git:hexsha": "45f960c5b18679ea42d7e5b4212f17483cdfd8af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/2f40a483d73018ae6e1488a484c5927f2b309969",
+      "git:hexsha": "2f40a483d73018ae6e1488a484c5927f2b309969",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/01dfa8ea81972bb74b52dc01e6a1b43b26b62020",
+      "git:hexsha": "01dfa8ea81972bb74b52dc01e6a1b43b26b62020",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8a2dc6f22ac4389ccba8859aa1e1cb14f1ee53db",
+      "git:hexsha": "8a2dc6f22ac4389ccba8859aa1e1cb14f1ee53db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/506279c105f7af42de4181e229d3f4087e40e7a7",
+      "git:hexsha": "506279c105f7af42de4181e229d3f4087e40e7a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/8fb5838ca916fd4ace080dae0357e7c307037bef",
+      "git:hexsha": "8fb5838ca916fd4ace080dae0357e7c307037bef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/046cabc233e12c60d084e767db1d3c4d4d4533bd",
+      "git:hexsha": "046cabc233e12c60d084e767db1d3c4d4d4533bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/761d09f1c3dd94ffe489f2c08a72a719f996a93d",
+      "git:hexsha": "761d09f1c3dd94ffe489f2c08a72a719f996a93d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/vision/commit/15d0609ad0d1f37d0b3451da01ec773310ada4cc",
+      "git:hexsha": "15d0609ad0d1f37d0b3451da01ec773310ada4cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2-rc1"
+    }
+  ]
+}
