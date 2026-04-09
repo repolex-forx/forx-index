@@ -1,0 +1,934 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/pyca/cryptography",
+  "@type": "gh:Repository",
+  "gh:name": "cryptography",
+  "gh:owner": "pyca",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/622d672e429a7cff836a23c5903683dbec1901f5",
+      "git:hexsha": "622d672e429a7cff836a23c5903683dbec1901f5",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "46.0.7",
+      "repolex:parsedAt": "2026-04-09T18:44:46.364831+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/ec688200e2dde5cef94fe2eb60fa2f8f820eab47",
+      "git:hexsha": "ec688200e2dde5cef94fe2eb60fa2f8f820eab47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/6a364d5262905d00ae422d24d91af822b87e899d",
+      "git:hexsha": "6a364d5262905d00ae422d24d91af822b87e899d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/aa4692c112d756fc12980f7039b030caec27bc0d",
+      "git:hexsha": "aa4692c112d756fc12980f7039b030caec27bc0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/f36fcdbd055c236641e8704bfa559d8bbf274b61",
+      "git:hexsha": "f36fcdbd055c236641e8704bfa559d8bbf274b61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e0d2e1ea7367e05197634c8c869678b7b169c102",
+      "git:hexsha": "e0d2e1ea7367e05197634c8c869678b7b169c102",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/0520c2973509f6a45d2ad06dc2d84a85958887b3",
+      "git:hexsha": "0520c2973509f6a45d2ad06dc2d84a85958887b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e4b1e854e0482ae4bc363f7938ad5b214c124d9f",
+      "git:hexsha": "e4b1e854e0482ae4bc363f7938ad5b214c124d9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/d329d535d0a1598eae8dd63fd6d65ab7f5d30ad4",
+      "git:hexsha": "d329d535d0a1598eae8dd63fd6d65ab7f5d30ad4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/544523f97f182157f8b27342ae11ef3520a49c62",
+      "git:hexsha": "544523f97f182157f8b27342ae11ef3520a49c62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c787791c8fed109e128b577cfb7594d2aab8e3b6",
+      "git:hexsha": "c787791c8fed109e128b577cfb7594d2aab8e3b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/93281bfa89342ed9ccf48cb391b1f19cdb4fe78c",
+      "git:hexsha": "93281bfa89342ed9ccf48cb391b1f19cdb4fe78c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/b2ab5ef112f8de507d2db72fdf4a5fa698a954e0",
+      "git:hexsha": "b2ab5ef112f8de507d2db72fdf4a5fa698a954e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/3406be8667d35ed55ef8dc64822e9009d0386696",
+      "git:hexsha": "3406be8667d35ed55ef8dc64822e9009d0386696",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4597edf00274c71c1f71f0e75d0c6bcfd62dcb8a",
+      "git:hexsha": "4597edf00274c71c1f71f0e75d0c6bcfd62dcb8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9a4f1a0f6c89e3e56b955e5acc6c0001e418443d",
+      "git:hexsha": "9a4f1a0f6c89e3e56b955e5acc6c0001e418443d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9ac7d55150c8410a08ee3b00b89bfeac3dbd8e8f",
+      "git:hexsha": "9ac7d55150c8410a08ee3b00b89bfeac3dbd8e8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/3dd326767b34980f3095c67251d77a86bc9202fe",
+      "git:hexsha": "3dd326767b34980f3095c67251d77a86bc9202fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/53f947e99e972ef669f833a19b3d36e3fbd7b5da",
+      "git:hexsha": "53f947e99e972ef669f833a19b3d36e3fbd7b5da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/8622f0e8c530a7326d885aeb47daa081e66b5ab1",
+      "git:hexsha": "8622f0e8c530a7326d885aeb47daa081e66b5ab1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/6199d8f04310aa22e862f8936fe47d895788daf3",
+      "git:hexsha": "6199d8f04310aa22e862f8936fe47d895788daf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/bd17d14bd05d49e3a851cabbc863f74ee5c86702",
+      "git:hexsha": "bd17d14bd05d49e3a851cabbc863f74ee5c86702",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/b2ac9e59e069aa973c837da202cb459cb733530f",
+      "git:hexsha": "b2ac9e59e069aa973c837da202cb459cb733530f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c08a0dcf09ffa517a2c7df6d2fe7fcfabd6e14e4",
+      "git:hexsha": "c08a0dcf09ffa517a2c7df6d2fe7fcfabd6e14e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4abba0474a751192b5abbd5a97c1817021aae337",
+      "git:hexsha": "4abba0474a751192b5abbd5a97c1817021aae337",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/34cb7cd8bc9c4c6dad38c3ea5285996cbea60162",
+      "git:hexsha": "34cb7cd8bc9c4c6dad38c3ea5285996cbea60162",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/612e72e2d794c58bc413a3062e664dcc1a1259ee",
+      "git:hexsha": "612e72e2d794c58bc413a3062e664dcc1a1259ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/246a44e78c0d370452b3c5508d5fdabbb1b04c99",
+      "git:hexsha": "246a44e78c0d370452b3c5508d5fdabbb1b04c99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/a9d5ffb0c4dda2e5ddc6f14ec68be99ddc3d69b1",
+      "git:hexsha": "a9d5ffb0c4dda2e5ddc6f14ec68be99ddc3d69b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/d0237e6dcdbbedaa50f88b6cf821f9944b734678",
+      "git:hexsha": "d0237e6dcdbbedaa50f88b6cf821f9944b734678",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/a617ee9d10f875b88db0c76eb18734537bc83904",
+      "git:hexsha": "a617ee9d10f875b88db0c76eb18734537bc83904",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/80543674d13b44ca9030b83443a1d922d492df1e",
+      "git:hexsha": "80543674d13b44ca9030b83443a1d922d492df1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/5b32344deadf371f3a5301ac4c71508eb1a6cf17",
+      "git:hexsha": "5b32344deadf371f3a5301ac4c71508eb1a6cf17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/cd7ee203c8459ff74a2cd782013ba1c05793130c",
+      "git:hexsha": "cd7ee203c8459ff74a2cd782013ba1c05793130c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/bf1566ec4be14110cbca5a36ee339a76ac9f6272",
+      "git:hexsha": "bf1566ec4be14110cbca5a36ee339a76ac9f6272",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/17259f2d701979fdd5647574dec77ec08199e551",
+      "git:hexsha": "17259f2d701979fdd5647574dec77ec08199e551",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/afcd8f5ad8eb21f13be308c5183ef34ad28f9987",
+      "git:hexsha": "afcd8f5ad8eb21f13be308c5183ef34ad28f9987",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9863d7334864a3eb5e43a2e698a32a4e6b6c7b14",
+      "git:hexsha": "9863d7334864a3eb5e43a2e698a32a4e6b6c7b14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/35fedcb1966dcaf610df79dbaaaf3545d3dbb189",
+      "git:hexsha": "35fedcb1966dcaf610df79dbaaaf3545d3dbb189",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/69365ce2041081fe6b109496bbb9c56f86ccb7b5",
+      "git:hexsha": "69365ce2041081fe6b109496bbb9c56f86ccb7b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c0ee738a8460dc3551758400772978ed62a84d46",
+      "git:hexsha": "c0ee738a8460dc3551758400772978ed62a84d46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/1ed0235eae895d09b4702d8cf592050fbe9364ef",
+      "git:hexsha": "1ed0235eae895d09b4702d8cf592050fbe9364ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/cad77746539f504d53eb1bf9b278ec081ab8040a",
+      "git:hexsha": "cad77746539f504d53eb1bf9b278ec081ab8040a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/090ece652bf47ee5bd081b6eab4c8e6953276752",
+      "git:hexsha": "090ece652bf47ee5bd081b6eab4c8e6953276752",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4a2f36bc11342ca15cb49bfc313c20bbd4a045ae",
+      "git:hexsha": "4a2f36bc11342ca15cb49bfc313c20bbd4a045ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/5df72e82c0156b0e60d355c5c03c85dcf2e694fb",
+      "git:hexsha": "5df72e82c0156b0e60d355c5c03c85dcf2e694fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/605b918a9df69cfb1773d4b16ee03b42a002ec88",
+      "git:hexsha": "605b918a9df69cfb1773d4b16ee03b42a002ec88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/86b8b865b622fa8e81bb6f436c064a1e9476b4fd",
+      "git:hexsha": "86b8b865b622fa8e81bb6f436c064a1e9476b4fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/928e4ee28564359973298624cf023ae5ea7f62c3",
+      "git:hexsha": "928e4ee28564359973298624cf023ae5ea7f62c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/6c5a519f9b382a1746c1bda5f01aaeb2809250ef",
+      "git:hexsha": "6c5a519f9b382a1746c1bda5f01aaeb2809250ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/bd54a2c68f7771abde5ef9e8c30a1f73d5614e47",
+      "git:hexsha": "bd54a2c68f7771abde5ef9e8c30a1f73d5614e47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/23ead43fd70df17828937dac9521df1753ce9407",
+      "git:hexsha": "23ead43fd70df17828937dac9521df1753ce9407",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9799e580c6b073a0a612bdc4f120365940d0da3d",
+      "git:hexsha": "9799e580c6b073a0a612bdc4f120365940d0da3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e758aa6066f79a4181ba8183112e1f4477bcce1b",
+      "git:hexsha": "e758aa6066f79a4181ba8183112e1f4477bcce1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/38a2d0b94852bcd4d017ee77cb6dec8dee3ce2ae",
+      "git:hexsha": "38a2d0b94852bcd4d017ee77cb6dec8dee3ce2ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/87a6dcae8a527d6e0b5c8feabfa768cd8fa6e264",
+      "git:hexsha": "87a6dcae8a527d6e0b5c8feabfa768cd8fa6e264",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/0ed0e7e87b5e83270f4aca4efc630790c1fea429",
+      "git:hexsha": "0ed0e7e87b5e83270f4aca4efc630790c1fea429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/85fa6ce5b29f94e27f1b712da015c2039cd108f9",
+      "git:hexsha": "85fa6ce5b29f94e27f1b712da015c2039cd108f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/106de1cb976c8ab7057484cb555979bb27e2430e",
+      "git:hexsha": "106de1cb976c8ab7057484cb555979bb27e2430e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/2219ea7609eaacfa2d09f80d1baf60be7af5eaca",
+      "git:hexsha": "2219ea7609eaacfa2d09f80d1baf60be7af5eaca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/ed5a7717a50edd3b0a9b7c729b2281dabd18390d",
+      "git:hexsha": "ed5a7717a50edd3b0a9b7c729b2281dabd18390d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4601fbab9552b0fc938ae3864e9c14e4476231c0",
+      "git:hexsha": "4601fbab9552b0fc938ae3864e9c14e4476231c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4eaa511c62ecaf2f3d0b31a8b4f90fa0114e4468",
+      "git:hexsha": "4eaa511c62ecaf2f3d0b31a8b4f90fa0114e4468",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4ec6a48d5cb99636fe8e99e29d1a9221dcce8fde",
+      "git:hexsha": "4ec6a48d5cb99636fe8e99e29d1a9221dcce8fde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/0a846e294806478770469219a26cd49dcb5502d7",
+      "git:hexsha": "0a846e294806478770469219a26cd49dcb5502d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/16f43545751bb24cee79cccba453d49992a7cc6c",
+      "git:hexsha": "16f43545751bb24cee79cccba453d49992a7cc6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/5e52fdc5f8f3b6c970051c1bf3325b2d0ed8a5db",
+      "git:hexsha": "5e52fdc5f8f3b6c970051c1bf3325b2d0ed8a5db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/db08466131a2d495e4bf58e34bf8d0090be04a2d",
+      "git:hexsha": "db08466131a2d495e4bf58e34bf8d0090be04a2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/704fe0fcaf206462b6a994ab69ad302601d9fad3",
+      "git:hexsha": "704fe0fcaf206462b6a994ab69ad302601d9fad3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/83aa36dd407d0eb9a10e20cc35c51274174cd5bc",
+      "git:hexsha": "83aa36dd407d0eb9a10e20cc35c51274174cd5bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/da259203be156990efff49c0ad8d1afaba1791cc",
+      "git:hexsha": "da259203be156990efff49c0ad8d1afaba1791cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e4570532541be7284f7d6660a429eb12edf8b027",
+      "git:hexsha": "e4570532541be7284f7d6660a429eb12edf8b027",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9c2637d7ee1e5e7ce66fb8838f6b3f1e8c106242",
+      "git:hexsha": "9c2637d7ee1e5e7ce66fb8838f6b3f1e8c106242",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/25494f96d57b8995ee2fde099146b1192582ee1b",
+      "git:hexsha": "25494f96d57b8995ee2fde099146b1192582ee1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/81b7fc65460247c4212efd9484779d8b3e516c26",
+      "git:hexsha": "81b7fc65460247c4212efd9484779d8b3e516c26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/6199f620ed4e765cc57f49c366f46a576bf17f3d",
+      "git:hexsha": "6199f620ed4e765cc57f49c366f46a576bf17f3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9263178a208716bfb7b0e4fbe6aadf8c942e8547",
+      "git:hexsha": "9263178a208716bfb7b0e4fbe6aadf8c942e8547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/b0d9bdcfc9659fffcb1d539cb00130f8fda3d011",
+      "git:hexsha": "b0d9bdcfc9659fffcb1d539cb00130f8fda3d011",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/ba2c0e5e3e4fb242b80474d2ff7368c91e7ebeaf",
+      "git:hexsha": "ba2c0e5e3e4fb242b80474d2ff7368c91e7ebeaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/d4e17ea937a50d69f615f7fe53d0482bd8660bb9",
+      "git:hexsha": "d4e17ea937a50d69f615f7fe53d0482bd8660bb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c9e65222c91df8b6f61650a3460e30232962c1e0",
+      "git:hexsha": "c9e65222c91df8b6f61650a3460e30232962c1e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/0c7592c34fd58f0634f493d6ce542ab35d940b26",
+      "git:hexsha": "0c7592c34fd58f0634f493d6ce542ab35d940b26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/7e8fff73cf0c597fe2df34daf2027506f84b9d3b",
+      "git:hexsha": "7e8fff73cf0c597fe2df34daf2027506f84b9d3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/1ff0d50948bbb6f2aa53d5648f1188a567d941cd",
+      "git:hexsha": "1ff0d50948bbb6f2aa53d5648f1188a567d941cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/82b6ce28389f0a317bc55ba2091a74b346db7cae",
+      "git:hexsha": "82b6ce28389f0a317bc55ba2091a74b346db7cae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/2c11ad53c07179e03ea2f60813cb52d83f766292",
+      "git:hexsha": "2c11ad53c07179e03ea2f60813cb52d83f766292",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/ebde3be7ef92658bfbc322476a6f2604f41639fb",
+      "git:hexsha": "ebde3be7ef92658bfbc322476a6f2604f41639fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/74a3df42c43d341014a4a6f111804f304a446902",
+      "git:hexsha": "74a3df42c43d341014a4a6f111804f304a446902",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/86c9e4a763579d6b2369db83064c0c4b8e9c1c77",
+      "git:hexsha": "86c9e4a763579d6b2369db83064c0c4b8e9c1c77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4a3018e6ae3e04a250be9fd1c1a1ad115727f517",
+      "git:hexsha": "4a3018e6ae3e04a250be9fd1c1a1ad115727f517",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4d77fb9d3edab81652210da81a5af7fe6aa79d60",
+      "git:hexsha": "4d77fb9d3edab81652210da81a5af7fe6aa79d60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/75b002ae7fb1f263fdd4983d0c23493878e127fe",
+      "git:hexsha": "75b002ae7fb1f263fdd4983d0c23493878e127fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/a19014a087759f3df72b2cd70ed7a0d8a6481340",
+      "git:hexsha": "a19014a087759f3df72b2cd70ed7a0d8a6481340",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/70ccc2542cf3bf374861b55f6527424307722763",
+      "git:hexsha": "70ccc2542cf3bf374861b55f6527424307722763",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c7fbef767a94ee1569ae0630006fdb144d6a4e8d",
+      "git:hexsha": "c7fbef767a94ee1569ae0630006fdb144d6a4e8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "35.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/5d21990c32d0f93df4e54ef4ee7ff3a2dae3c3da",
+      "git:hexsha": "5d21990c32d0f93df4e54ef4ee7ff3a2dae3c3da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "36.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/3fd9d5a8424eef3e08260a622ae3644777ac5339",
+      "git:hexsha": "3fd9d5a8424eef3e08260a622ae3644777ac5339",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "36.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/df06889f348d7c3b7e9c35e4e5a1b1480f0b2c5a",
+      "git:hexsha": "df06889f348d7c3b7e9c35e4e5a1b1480f0b2c5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "36.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e0f6f38433e3a1cb57509dec1bec9107cbbe827d",
+      "git:hexsha": "e0f6f38433e3a1cb57509dec1bec9107cbbe827d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "37.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/3fb93cfde75d073a91bc4a73a51f62962092501e",
+      "git:hexsha": "3fb93cfde75d073a91bc4a73a51f62962092501e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "37.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/5954a52f0900569a83138d71ec1c04971452ea5b",
+      "git:hexsha": "5954a52f0900569a83138d71ec1c04971452ea5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "37.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/b71c39202ba2d7dfb7a89215e04946e7fbf92896",
+      "git:hexsha": "b71c39202ba2d7dfb7a89215e04946e7fbf92896",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "37.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/7ad17d819affb996c6681c6aac57e43184c54865",
+      "git:hexsha": "7ad17d819affb996c6681c6aac57e43184c54865",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "37.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/52d6f1a491f6ade379ace124b843ffba9fb4ab4f",
+      "git:hexsha": "52d6f1a491f6ade379ace124b843ffba9fb4ab4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "38.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/3ff52182ba6e7f1a063079d48ed5c21616918d70",
+      "git:hexsha": "3ff52182ba6e7f1a063079d48ed5c21616918d70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "38.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/277ee0d58c6c8cfc9517df35c8a020bea33bddf4",
+      "git:hexsha": "277ee0d58c6c8cfc9517df35c8a020bea33bddf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "38.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/7d9c6c3d6a211091281c1cbe2a2fa1597ffb7c49",
+      "git:hexsha": "7d9c6c3d6a211091281c1cbe2a2fa1597ffb7c49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "38.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c18d0567386414efa3caef7ed586c4ca75bf3a8b",
+      "git:hexsha": "c18d0567386414efa3caef7ed586c4ca75bf3a8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "38.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/338a65a7df74e189f6b5d1d3a6315ffa911b21c2",
+      "git:hexsha": "338a65a7df74e189f6b5d1d3a6315ffa911b21c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "39.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/d6951dca25de45abd52da51b608055371fbcde4e",
+      "git:hexsha": "d6951dca25de45abd52da51b608055371fbcde4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "39.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/125b149dc0bd9db33b08455b66c0f1586b8ce257",
+      "git:hexsha": "125b149dc0bd9db33b08455b66c0f1586b8ce257",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "39.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/45e37718098edca2c5ac2135394bcf17fd7982f0",
+      "git:hexsha": "45e37718098edca2c5ac2135394bcf17fd7982f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "40.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9dd0b26c48f567d5a7c4a0bc9f45ef2176a2d4a4",
+      "git:hexsha": "9dd0b26c48f567d5a7c4a0bc9f45ef2176a2d4a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "40.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/f816b457494e010b655cd7fdcd30e3446f86a703",
+      "git:hexsha": "f816b457494e010b655cd7fdcd30e3446f86a703",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "40.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c4d494fd3ee907316bd846e90cbf4a8df75a25ac",
+      "git:hexsha": "c4d494fd3ee907316bd846e90cbf4a8df75a25ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/d02de9f26e9a2353e89427c1cea8b9ed2bae969e",
+      "git:hexsha": "d02de9f26e9a2353e89427c1cea8b9ed2bae969e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/7431db737cf0407560fac689d24f1d2e5efc349d",
+      "git:hexsha": "7431db737cf0407560fac689d24f1d2e5efc349d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/b22271cf3c3dd8dc8978f8f4b00b5c7060b6538d",
+      "git:hexsha": "b22271cf3c3dd8dc8978f8f4b00b5c7060b6538d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/fc11bce6930e591ce26a2317b31b9ce2b3e25512",
+      "git:hexsha": "fc11bce6930e591ce26a2317b31b9ce2b3e25512",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/5012bedaef2dc60af3955306774b77ef379116e3",
+      "git:hexsha": "5012bedaef2dc60af3955306774b77ef379116e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/f09c261ca10a31fe41b1262306db7f8f1da0e48a",
+      "git:hexsha": "f09c261ca10a31fe41b1262306db7f8f1da0e48a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4054596afc6f2b6cfcc54f56c35c34e0e429cb66",
+      "git:hexsha": "4054596afc6f2b6cfcc54f56c35c34e0e429cb66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "41.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/4e64baf360a3a89bd92582f59344c12b5c0bd3fd",
+      "git:hexsha": "4e64baf360a3a89bd92582f59344c12b5c0bd3fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9",
+      "git:hexsha": "337437dc2e62772bde4ad5544f4b1db9ee7572d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e",
+      "git:hexsha": "2202123b50de1b8788f909a3e5afe350c56ad81e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c49a7a5271178c6e8ef36fa1c499f62c63ec19b9",
+      "git:hexsha": "c49a7a5271178c6e8ef36fa1c499f62c63ec19b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/fe18470f7d05f963e7267e34fdf985d81ea6ceea",
+      "git:hexsha": "fe18470f7d05f963e7267e34fdf985d81ea6ceea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/33833f031d9d36234e11d9671be150d53b9e598d",
+      "git:hexsha": "33833f031d9d36234e11d9671be150d53b9e598d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/cfad00478a0cc035ad722e68411bac7b6602e195",
+      "git:hexsha": "cfad00478a0cc035ad722e68411bac7b6602e195",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/0cc7fc384381ea09eea5f031d31b1417f9f40fdf",
+      "git:hexsha": "0cc7fc384381ea09eea5f031d31b1417f9f40fdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/761ef4b955697c63e83734096f672224224082e1",
+      "git:hexsha": "761ef4b955697c63e83734096f672224224082e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "42.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/ebf14f2edc8536f36797979cb0e075e766d978c5",
+      "git:hexsha": "ebf14f2edc8536f36797979cb0e075e766d978c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "43.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/a7733878281ca261c4ada04022fc706ba5de9d8b",
+      "git:hexsha": "a7733878281ca261c4ada04022fc706ba5de9d8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "43.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/9a3cdb5e1353d3e26fc6710ce08bde0c60febfdf",
+      "git:hexsha": "9a3cdb5e1353d3e26fc6710ce08bde0c60febfdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "43.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c2afb4ffd2d65cc2e1a28c0af3fb52efb6cc688b",
+      "git:hexsha": "c2afb4ffd2d65cc2e1a28c0af3fb52efb6cc688b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "43.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/f299a48153650f2dd87716343f2daa7cd39a1f59",
+      "git:hexsha": "f299a48153650f2dd87716343f2daa7cd39a1f59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "44.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/adaaaed77db676bbaa9d171175db81dce056e2a7",
+      "git:hexsha": "adaaaed77db676bbaa9d171175db81dce056e2a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "44.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/56cfce682c8bd2ee5101b654a429b05d0f610f0e",
+      "git:hexsha": "56cfce682c8bd2ee5101b654a429b05d0f610f0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "44.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/b92c8416bf71bf5aa9c343490984dbcf7feb2cec",
+      "git:hexsha": "b92c8416bf71bf5aa9c343490984dbcf7feb2cec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "44.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/67840977c95a23d0dcfba154e303014026df0d3e",
+      "git:hexsha": "67840977c95a23d0dcfba154e303014026df0d3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/8ea28e0bc724e57433f4f062795d91c0a367e9ad",
+      "git:hexsha": "8ea28e0bc724e57433f4f062795d91c0a367e9ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/f81c07535ddf2d26cb1a27e70a9967ab708b8056",
+      "git:hexsha": "f81c07535ddf2d26cb1a27e70a9967ab708b8056",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/50384959872c84933b6059c3b697139c8fcdcdea",
+      "git:hexsha": "50384959872c84933b6059c3b697139c8fcdcdea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/678c0c59f743e3b301fbd34f1d26112db0cc2216",
+      "git:hexsha": "678c0c59f743e3b301fbd34f1d26112db0cc2216",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/3e53a233b65123d2a836b58ccdc427ed5207f92b",
+      "git:hexsha": "3e53a233b65123d2a836b58ccdc427ed5207f92b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/66198c23c97c9594d64540e5a866e4b4121aec2d",
+      "git:hexsha": "66198c23c97c9594d64540e5a866e4b4121aec2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/f52a3e14965fa16d03813d3ac78cd050d607794a",
+      "git:hexsha": "f52a3e14965fa16d03813d3ac78cd050d607794a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "45.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/62230623d183706632c0eb7822c96ac95e3710a8",
+      "git:hexsha": "62230623d183706632c0eb7822c96ac95e3710a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e735cfc27502320101c130335c556394a125ba52",
+      "git:hexsha": "e735cfc27502320101c130335c556394a125ba52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/99efe5ad150a56efadafacaffd0e3ee319373904",
+      "git:hexsha": "99efe5ad150a56efadafacaffd0e3ee319373904",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/c0af4dd7b75921bbe9f1d41a03dbd4b64a9e3403",
+      "git:hexsha": "c0af4dd7b75921bbe9f1d41a03dbd4b64a9e3403",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/e6f44fc8e6391f05d719fb9d369692325b87a471",
+      "git:hexsha": "e6f44fc8e6391f05d719fb9d369692325b87a471",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/06e120e682cb200e3f7050c02f0bcdac90c4c6ad",
+      "git:hexsha": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography/commit/91d728897bdad30cd5c79a2b23e207f1f050d587",
+      "git:hexsha": "91d728897bdad30cd5c79a2b23e207f1f050d587",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "46.0.6"
+    }
+  ]
+}
