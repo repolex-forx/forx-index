@@ -1,0 +1,2266 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/openai/openai-python",
+  "@type": "gh:Repository",
+  "gh:name": "openai-python",
+  "gh:owner": "openai",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/750354ed65565b31d0547bf00f4f3180ac1bfeef",
+      "git:hexsha": "750354ed65565b31d0547bf00f4f3180ac1bfeef",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v2.31.0",
+      "repolex:parsedAt": "2026-04-11T02:30:55.954064+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8547320e3a31e8f0f756e33782b00cc53c892a94",
+      "git:hexsha": "8547320e3a31e8f0f756e33782b00cc53c892a94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7afc3b51f06002a13aa8d2a5d4a9acd0bdbacdf1",
+      "git:hexsha": "7afc3b51f06002a13aa8d2a5d4a9acd0bdbacdf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c79fefca08c67bb2e853b3d71e293f4947d93cec",
+      "git:hexsha": "c79fefca08c67bb2e853b3d71e293f4947d93cec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7febb755d4961533af258b15a103ccc942042ab3",
+      "git:hexsha": "7febb755d4961533af258b15a103ccc942042ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/205d063ec6c17a1b205c18e91ecbc895ab7ecf04",
+      "git:hexsha": "205d063ec6c17a1b205c18e91ecbc895ab7ecf04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7227906f046f1227f76ee09972e1b524f67e6f87",
+      "git:hexsha": "7227906f046f1227f76ee09972e1b524f67e6f87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1f324723ccac898a133fa8b4d69c0c356fcfac4e",
+      "git:hexsha": "1f324723ccac898a133fa8b4d69c0c356fcfac4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f4f6f90cd6004beeab923dbe306fda305a7ebb0c",
+      "git:hexsha": "f4f6f90cd6004beeab923dbe306fda305a7ebb0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/88bbe08947bceb10845b335d7f4cfb5ff406d948",
+      "git:hexsha": "88bbe08947bceb10845b335d7f4cfb5ff406d948",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b39bddd99dc243bf09bec60f4866e2fb542d0e8f",
+      "git:hexsha": "b39bddd99dc243bf09bec60f4866e2fb542d0e8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/26fbacb7ff699ed35997010edde3c0aee6599e5b",
+      "git:hexsha": "26fbacb7ff699ed35997010edde3c0aee6599e5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f4be8f2f57ab8e96af1460f1c25a130640b167a7",
+      "git:hexsha": "f4be8f2f57ab8e96af1460f1c25a130640b167a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c93af95bf94ecfd3236daccb40ebee404965f4cf",
+      "git:hexsha": "c93af95bf94ecfd3236daccb40ebee404965f4cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/eabf01f0f4aa514fa1c494c2ca9aef7c17a6a1cc",
+      "git:hexsha": "eabf01f0f4aa514fa1c494c2ca9aef7c17a6a1cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/946aa8fa4a49f8331a1ad73ce2b063e26b1980d7",
+      "git:hexsha": "946aa8fa4a49f8331a1ad73ce2b063e26b1980d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/54852345065612bebfe26ad3d02cff1794abcafc",
+      "git:hexsha": "54852345065612bebfe26ad3d02cff1794abcafc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/63cc289e92e2ff966e9c45aabc9d979b22c96c4a",
+      "git:hexsha": "63cc289e92e2ff966e9c45aabc9d979b22c96c4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0f80728a9982d1b429aaeacd136f20a170ee733e",
+      "git:hexsha": "0f80728a9982d1b429aaeacd136f20a170ee733e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/95fa7d07c2eb8305652606b361154a02aa1e72a8",
+      "git:hexsha": "95fa7d07c2eb8305652606b361154a02aa1e72a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/64c4533098067e5e22f86f43e4cee1b6c5052752",
+      "git:hexsha": "64c4533098067e5e22f86f43e4cee1b6c5052752",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3c6d4cd64362e7b7d8b3f822e4e534c1fe65a161",
+      "git:hexsha": "3c6d4cd64362e7b7d8b3f822e4e534c1fe65a161",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/24fc6924c8d9ba4e43574ee6db3a8fdad147f5da",
+      "git:hexsha": "24fc6924c8d9ba4e43574ee6db3a8fdad147f5da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7884a7b96f43defdd1f18bccfad23d6f336b83d3",
+      "git:hexsha": "7884a7b96f43defdd1f18bccfad23d6f336b83d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f3e3083c221ffa564784fa39296733b17b1c456e",
+      "git:hexsha": "f3e3083c221ffa564784fa39296733b17b1c456e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3edecbee24102299dd6e4a35af031780e9ad0f9a",
+      "git:hexsha": "3edecbee24102299dd6e4a35af031780e9ad0f9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/15b6354fc5f805c1f9361d99bb35b251fdfb33e9",
+      "git:hexsha": "15b6354fc5f805c1f9361d99bb35b251fdfb33e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d59672b3b6c03b78eaa78f9ccbf92ea6a681dc50",
+      "git:hexsha": "d59672b3b6c03b78eaa78f9ccbf92ea6a681dc50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5f60acacf25dbb384b045ba777d3654623a5612b",
+      "git:hexsha": "5f60acacf25dbb384b045ba777d3654623a5612b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4fee0da142f58307edb30111ed484d2d41e4811d",
+      "git:hexsha": "4fee0da142f58307edb30111ed484d2d41e4811d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/040f72efc461d747f04c32126ac4285d0f63b993",
+      "git:hexsha": "040f72efc461d747f04c32126ac4285d0f63b993",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/634901591e35112b4649a28ab764db236e6f6113",
+      "git:hexsha": "634901591e35112b4649a28ab764db236e6f6113",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/41f938fb902de90111c0d026b76d58f5f9eabeb6",
+      "git:hexsha": "41f938fb902de90111c0d026b76d58f5f9eabeb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b23ecafe49133da9812d96cb693f656e0a223050",
+      "git:hexsha": "b23ecafe49133da9812d96cb693f656e0a223050",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5386db105948b0bb63f82d1a7d46fbcac6189aa3",
+      "git:hexsha": "5386db105948b0bb63f82d1a7d46fbcac6189aa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/62b73b9bd426d131910534ae6e0d23d7ae4f8fde",
+      "git:hexsha": "62b73b9bd426d131910534ae6e0d23d7ae4f8fde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/94428401b4f71596e4a1331102a6beee9d8f0bc4",
+      "git:hexsha": "94428401b4f71596e4a1331102a6beee9d8f0bc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9d559b064cda09d56c1ebf756be4a1f73d5a275a",
+      "git:hexsha": "9d559b064cda09d56c1ebf756be4a1f73d5a275a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6c23b7f62d92e0fabdd9db72bd38d2038caeb524",
+      "git:hexsha": "6c23b7f62d92e0fabdd9db72bd38d2038caeb524",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/39cdc662350cadd2e6a4a382454394d22908004d",
+      "git:hexsha": "39cdc662350cadd2e6a4a382454394d22908004d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/cf03fe16a92cd01f2a8867537399c12e183ba58e",
+      "git:hexsha": "cf03fe16a92cd01f2a8867537399c12e183ba58e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/96e7642a8e88260e33f486ea8aa38533602b984c",
+      "git:hexsha": "96e7642a8e88260e33f486ea8aa38533602b984c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6fb0efde6fa984f1b666e35814cc3e8e861bbca3",
+      "git:hexsha": "6fb0efde6fa984f1b666e35814cc3e8e861bbca3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c975bce15e81f000a1c5130510928e92bfa04fa8",
+      "git:hexsha": "c975bce15e81f000a1c5130510928e92bfa04fa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.6v2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fe3abd16b582ae784d8a73fd249bcdfebd5752c9",
+      "git:hexsha": "fe3abd16b582ae784d8a73fd249bcdfebd5752c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7610c5adfaebe3ffdb9927a551a741a3fab1b62e",
+      "git:hexsha": "7610c5adfaebe3ffdb9927a551a741a3fab1b62e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/df8b0ba7853a2e7345d7506538ae0e57ec0d872b",
+      "git:hexsha": "df8b0ba7853a2e7345d7506538ae0e57ec0d872b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/075ab0349a5a7d94528bfef0fd7adc8e2baf7c5d",
+      "git:hexsha": "075ab0349a5a7d94528bfef0fd7adc8e2baf7c5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f7ccce126325ea35b6e5224ab954652c97a74896",
+      "git:hexsha": "f7ccce126325ea35b6e5224ab954652c97a74896",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f00f489455ccbf4feb4bcf65f89d497fc4dd31ff",
+      "git:hexsha": "f00f489455ccbf4feb4bcf65f89d497fc4dd31ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ff751ab69066623f2c9109aeb232934174083871",
+      "git:hexsha": "ff751ab69066623f2c9109aeb232934174083871",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4e3817981e702521607293267cca6b06dca38c03",
+      "git:hexsha": "4e3817981e702521607293267cca6b06dca38c03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a57b587fde5869c7ca1068235501f13d2df3ab85",
+      "git:hexsha": "a57b587fde5869c7ca1068235501f13d2df3ab85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/cf9c04a24ea6d3d2bea2e2c7ef3d67fe5264a1e4",
+      "git:hexsha": "cf9c04a24ea6d3d2bea2e2c7ef3d67fe5264a1e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5f8c4a842674eda7aeb7a81f87686fdd4123f797",
+      "git:hexsha": "5f8c4a842674eda7aeb7a81f87686fdd4123f797",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7b0f97ecb57b87aec01a17028c3b27c2ea5e67c8",
+      "git:hexsha": "7b0f97ecb57b87aec01a17028c3b27c2ea5e67c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/40c32f9f4e05eb19966942839f2800a8d810e81b",
+      "git:hexsha": "40c32f9f4e05eb19966942839f2800a8d810e81b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/250c33d14fc6d561e50342d2c8ac01d0e69686a9",
+      "git:hexsha": "250c33d14fc6d561e50342d2c8ac01d0e69686a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7ddcba1ab8b111a2cdd04a2da39064f2359bc0c3",
+      "git:hexsha": "7ddcba1ab8b111a2cdd04a2da39064f2359bc0c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2e23b27732206c169e18747728d2f74323bf8776",
+      "git:hexsha": "2e23b27732206c169e18747728d2f74323bf8776",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/dc15660a47da9a1f591300edb4763c39bf8d338f",
+      "git:hexsha": "dc15660a47da9a1f591300edb4763c39bf8d338f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d92502f1be77f9f28576d6673e4e24e741634314",
+      "git:hexsha": "d92502f1be77f9f28576d6673e4e24e741634314",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fc1d9dbc7b2bff9873354897dc5a4e779fe4c3b3",
+      "git:hexsha": "fc1d9dbc7b2bff9873354897dc5a4e779fe4c3b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/08b8179a6b3e46ca8eb117f819cc6563ae74e27d",
+      "git:hexsha": "08b8179a6b3e46ca8eb117f819cc6563ae74e27d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/26d1a93458f754e6b8d5d1b2507e208393f06bda",
+      "git:hexsha": "26d1a93458f754e6b8d5d1b2507e208393f06bda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/baa9f07f5b503017ea6dae8f047d3cfc1ee22c37",
+      "git:hexsha": "baa9f07f5b503017ea6dae8f047d3cfc1ee22c37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7db6d5644b6ea3ff22ba3c391bbbe05f2b9ebafa",
+      "git:hexsha": "7db6d5644b6ea3ff22ba3c391bbbe05f2b9ebafa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/97810fcb129ba3cc90cdb5ed06351c8a5b738ecd",
+      "git:hexsha": "97810fcb129ba3cc90cdb5ed06351c8a5b738ecd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0c1e58d511bd60c4dd47ea8a8c0820dc2d013d1d",
+      "git:hexsha": "0c1e58d511bd60c4dd47ea8a8c0820dc2d013d1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/adb1af8073391a6d58be9c13cfa0664c04d859e2",
+      "git:hexsha": "adb1af8073391a6d58be9c13cfa0664c04d859e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.100.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f889071b8f64739998b7ac31df045881cf5bec62",
+      "git:hexsha": "f889071b8f64739998b7ac31df045881cf5bec62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.100.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4ada66f8f86473f342aa032ed021b62180422dc1",
+      "git:hexsha": "4ada66f8f86473f342aa032ed021b62180422dc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.100.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e328fb4d79badc7ca28a1f599a56ab43eb420363",
+      "git:hexsha": "e328fb4d79badc7ca28a1f599a56ab43eb420363",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.100.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4e28a424e6afd60040e3bdf7c76eebb63bc0c407",
+      "git:hexsha": "4e28a424e6afd60040e3bdf7c76eebb63bc0c407",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.101.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3154a78ac8cb404d64707d63cdfe72d3db8a45be",
+      "git:hexsha": "3154a78ac8cb404d64707d63cdfe72d3db8a45be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.102.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3e3c7a762098d30ebd30567a9853bd5917354987",
+      "git:hexsha": "3e3c7a762098d30ebd30567a9853bd5917354987",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.103.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f4458bc734db33f33a432fa62d8ef490e68d76db",
+      "git:hexsha": "f4458bc734db33f33a432fa62d8ef490e68d76db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.104.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fb152d967edb181c1a17827f31a4df10e416e255",
+      "git:hexsha": "fb152d967edb181c1a17827f31a4df10e416e255",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.104.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a52463c93215a09f9a142e25c975935523d15c10",
+      "git:hexsha": "a52463c93215a09f9a142e25c975935523d15c10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.104.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8672413735889e83e74e7e133b976fe6029843a5",
+      "git:hexsha": "8672413735889e83e74e7e133b976fe6029843a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.105.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2de8d7cde5565ec71851d8bc3a26f021cebab32c",
+      "git:hexsha": "2de8d7cde5565ec71851d8bc3a26f021cebab32c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.106.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2adf11112988e998fcf5adb805bae38501d22318",
+      "git:hexsha": "2adf11112988e998fcf5adb805bae38501d22318",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.106.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0296375f9cf45ed3786292a0c03bb52a2ca06b94",
+      "git:hexsha": "0296375f9cf45ed3786292a0c03bb52a2ca06b94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.107.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/847ff0b83841d9262ba0d9c4fdf46f0478004ad0",
+      "git:hexsha": "847ff0b83841d9262ba0d9c4fdf46f0478004ad0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.107.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4756247cee3d9548397b26a29109e76cc9522379",
+      "git:hexsha": "4756247cee3d9548397b26a29109e76cc9522379",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.107.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0b4bc5049f31f9d03b773d6919064e007b378778",
+      "git:hexsha": "0b4bc5049f31f9d03b773d6919064e007b378778",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.107.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0d85ca08c83a408abf3f03b46189e6bf39f68ac6",
+      "git:hexsha": "0d85ca08c83a408abf3f03b46189e6bf39f68ac6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.108.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/71dedfad6716c241744d3bd856370e8c59e75500",
+      "git:hexsha": "71dedfad6716c241744d3bd856370e8c59e75500",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.108.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/02af9aacd14805cbca21078d32a311758360f134",
+      "git:hexsha": "02af9aacd14805cbca21078d32a311758360f134",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.108.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9c4b995682f664c629d681c975496a99c793c06d",
+      "git:hexsha": "9c4b995682f664c629d681c975496a99c793c06d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.109.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a1493f92a7cd4399d57046aadc943aeadda5b8e7",
+      "git:hexsha": "a1493f92a7cd4399d57046aadc943aeadda5b8e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.109.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/66bab657c69dfebddbb4372adcdc97788cb3ceb1",
+      "git:hexsha": "66bab657c69dfebddbb4372adcdc97788cb3ceb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d231d1fa783967c1d3a1db3ba1b52647fff148ac",
+      "git:hexsha": "d231d1fa783967c1d3a1db3ba1b52647fff148ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7f9e85017a0959e3ba07834880d92c748f8f67ab",
+      "git:hexsha": "7f9e85017a0959e3ba07834880d92c748f8f67ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8ee5f33e8776e4517ef91a1cb2fafb6af2ca9310",
+      "git:hexsha": "8ee5f33e8776e4517ef91a1cb2fafb6af2ca9310",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f504384a7dcfdaffccf1bea8e32c82541908ff94",
+      "git:hexsha": "f504384a7dcfdaffccf1bea8e32c82541908ff94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a7115b5f33acd27326e5f78e19beb0d73bd3268e",
+      "git:hexsha": "a7115b5f33acd27326e5f78e19beb0d73bd3268e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e41abf7b7dbc1e744d167f748e55d4dedfc0dca7",
+      "git:hexsha": "e41abf7b7dbc1e744d167f748e55d4dedfc0dca7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ec104bf08587250689fcdca47ff8ab579a03960c",
+      "git:hexsha": "ec104bf08587250689fcdca47ff8ab579a03960c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5429f69670e4db70f0cb7420ddb27c9bd11b9508",
+      "git:hexsha": "5429f69670e4db70f0cb7420ddb27c9bd11b9508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e8e5a0dc7ccf2db19d7f81991ee0987f9c3ae375",
+      "git:hexsha": "e8e5a0dc7ccf2db19d7f81991ee0987f9c3ae375",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5cfb125acce0e8304d12bdd39b405071021db658",
+      "git:hexsha": "5cfb125acce0e8304d12bdd39b405071021db658",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/de7c0e2d9375d042a42e3db6c17e5af9a5701a99",
+      "git:hexsha": "de7c0e2d9375d042a42e3db6c17e5af9a5701a99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0470d1baa8ef1f64d0116f3f47683d5bf622cbef",
+      "git:hexsha": "0470d1baa8ef1f64d0116f3f47683d5bf622cbef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/632cd6feef405076abfa48a898e6bdfc57691996",
+      "git:hexsha": "632cd6feef405076abfa48a898e6bdfc57691996",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f0bdef04611a24ed150d19c4d180aacab3052704",
+      "git:hexsha": "f0bdef04611a24ed150d19c4d180aacab3052704",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0bdc3772a159f433a5c6c9bb18bfa3ea807599b4",
+      "git:hexsha": "0bdc3772a159f433a5c6c9bb18bfa3ea807599b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0cbce3f6777fd8f137ed7445e9bc2f2aa5c9f5b4",
+      "git:hexsha": "0cbce3f6777fd8f137ed7445e9bc2f2aa5c9f5b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/595e6b834fe26e08e9ac5415ab15bc19b8661f2c",
+      "git:hexsha": "595e6b834fe26e08e9ac5415ab15bc19b8661f2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2f759aabf346548fbb09d54ae0c279ce8ce9e148",
+      "git:hexsha": "2f759aabf346548fbb09d54ae0c279ce8ce9e148",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1a83130d7aff056d83c6760e20246a26a400c0d4",
+      "git:hexsha": "1a83130d7aff056d83c6760e20246a26a400c0d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8e4e5d490629a5abfbdf4b6a2ce20c7eee848a2e",
+      "git:hexsha": "8e4e5d490629a5abfbdf4b6a2ce20c7eee848a2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/aa6818997468b753546d55365d8142e2bb1c6640",
+      "git:hexsha": "aa6818997468b753546d55365d8142e2bb1c6640",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/45f60e82cf31571b055de948fdf75d44c67a9097",
+      "git:hexsha": "45f60e82cf31571b055de948fdf75d44c67a9097",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4948308f37ecd9872708f42dc0f92dc5ab5ab4d8",
+      "git:hexsha": "4948308f37ecd9872708f42dc0f92dc5ab5ab4d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/65e29a2efa455a06deb59e243f27796c4ca2254c",
+      "git:hexsha": "65e29a2efa455a06deb59e243f27796c4ca2254c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/15e7ac157dcc80d952107f596bb9c38cfa06685d",
+      "git:hexsha": "15e7ac157dcc80d952107f596bb9c38cfa06685d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ba3beaf3134ca390f1d9f6633b75f43ea6f4680b",
+      "git:hexsha": "ba3beaf3134ca390f1d9f6633b75f43ea6f4680b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/bb95fe35ad4b480ebce57aa5b48df620df8d761b",
+      "git:hexsha": "bb95fe35ad4b480ebce57aa5b48df620df8d761b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a853ee20cf3ae3733407d2156b6107fd14a63d00",
+      "git:hexsha": "a853ee20cf3ae3733407d2156b6107fd14a63d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2390c320f96f6f1f5f0abb73a3d6590a55629d28",
+      "git:hexsha": "2390c320f96f6f1f5f0abb73a3d6590a55629d28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9e0ea648e2059bc0e61c26664f0bc7f67fe7726b",
+      "git:hexsha": "9e0ea648e2059bc0e61c26664f0bc7f67fe7726b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/10dde6d20312794818cd51d467d6f45d295e6601",
+      "git:hexsha": "10dde6d20312794818cd51d467d6f45d295e6601",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c117779c3ba1069e34ba2142578b15788d157342",
+      "git:hexsha": "c117779c3ba1069e34ba2142578b15788d157342",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e4a9553eaedc4fb0ada3917e867d147d03740f60",
+      "git:hexsha": "e4a9553eaedc4fb0ada3917e867d147d03740f60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/19410c6e7ebf9de243c5040681896bdc0277ad07",
+      "git:hexsha": "19410c6e7ebf9de243c5040681896bdc0277ad07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/290e7ada3a6f7b4bf1fbbbe285086013853e9418",
+      "git:hexsha": "290e7ada3a6f7b4bf1fbbbe285086013853e9418",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e9724398d2bdd87ba41f199c3577303f1b80f2c7",
+      "git:hexsha": "e9724398d2bdd87ba41f199c3577303f1b80f2c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/39845c7a2fc166e1d295a3f9a7d82a13a383b69b",
+      "git:hexsha": "39845c7a2fc166e1d295a3f9a7d82a13a383b69b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/11460b5ed97080ee8e7a4311c1e90e495c59d370",
+      "git:hexsha": "11460b5ed97080ee8e7a4311c1e90e495c59d370",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ec52e89ccd87744fb38e2ae785ed7013241e476a",
+      "git:hexsha": "ec52e89ccd87744fb38e2ae785ed7013241e476a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/aed1e43745cd6358b4bafd3a39b3dfeee5e31a03",
+      "git:hexsha": "aed1e43745cd6358b4bafd3a39b3dfeee5e31a03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2a678e30a6fdc37d9c944288a8186c8ad4b4b053",
+      "git:hexsha": "2a678e30a6fdc37d9c944288a8186c8ad4b4b053",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/89478ce06e2161fda416c685b774a97a041ae185",
+      "git:hexsha": "89478ce06e2161fda416c685b774a97a041ae185",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/064a34a70b108093efea4c05c51279e217e58afd",
+      "git:hexsha": "064a34a70b108093efea4c05c51279e217e58afd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9111ae02cecee700ad84d2e285f6e7cb1268c3fb",
+      "git:hexsha": "9111ae02cecee700ad84d2e285f6e7cb1268c3fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/906ece0e45235cb170bc062902182eb8b55698b9",
+      "git:hexsha": "906ece0e45235cb170bc062902182eb8b55698b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c0afbc75155ce0fe090f759152e0bc683a9b77a5",
+      "git:hexsha": "c0afbc75155ce0fe090f759152e0bc683a9b77a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.28.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0b4a180f3da5a018d937686aa70e54000edef878",
+      "git:hexsha": "0b4a180f3da5a018d937686aa70e54000edef878",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d3cb40ca6a5d2cbbeff94f50baea20162b7966bc",
+      "git:hexsha": "d3cb40ca6a5d2cbbeff94f50baea20162b7966bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/db6cd7649a14eb96c4cd124dc4b9b70da68996f4",
+      "git:hexsha": "db6cd7649a14eb96c4cd124dc4b9b70da68996f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f4b9655f4065ab8432f028c33f973a1945a760ee",
+      "git:hexsha": "f4b9655f4065ab8432f028c33f973a1945a760ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/01d3b37305b28a45d0d9adfbc23c958bf924fe05",
+      "git:hexsha": "01d3b37305b28a45d0d9adfbc23c958bf924fe05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b085b1296ec9e3ba6f628d95c20b344a84e7b1cc",
+      "git:hexsha": "b085b1296ec9e3ba6f628d95c20b344a84e7b1cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9f828cb1ea7c22a6388fcd71b5de1a0dde3a9a9f",
+      "git:hexsha": "9f828cb1ea7c22a6388fcd71b5de1a0dde3a9a9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/17ac6779958b2b74999c634c4ea4c7b74906027a",
+      "git:hexsha": "17ac6779958b2b74999c634c4ea4c7b74906027a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e36956673d9049713c91bca6ce7aebe58638f483",
+      "git:hexsha": "e36956673d9049713c91bca6ce7aebe58638f483",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/790df765d41f27b9a6b88ce7b8af713939f8dc22",
+      "git:hexsha": "790df765d41f27b9a6b88ce7b8af713939f8dc22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9e6e1a284eeb2c20c05a03831e5566a4e9eaba50",
+      "git:hexsha": "9e6e1a284eeb2c20c05a03831e5566a4e9eaba50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e2214ce7243c027c4e04e39b5a11986d5e361e37",
+      "git:hexsha": "e2214ce7243c027c4e04e39b5a11986d5e361e37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5a89126ad208c58b9e1dbd1fbdb698e4c00f7d8e",
+      "git:hexsha": "5a89126ad208c58b9e1dbd1fbdb698e4c00f7d8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5dfe791aa0760d2641f10945cbfc8875496b16c7",
+      "git:hexsha": "5dfe791aa0760d2641f10945cbfc8875496b16c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7fff7c842918e718e1e9dc3954f0e66aebfc2601",
+      "git:hexsha": "7fff7c842918e718e1e9dc3954f0e66aebfc2601",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/bb0b38d9882745d51a32dc3fcc0d6a54cdd298cb",
+      "git:hexsha": "bb0b38d9882745d51a32dc3fcc0d6a54cdd298cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e872382c325eb0189432640a822980565290c19e",
+      "git:hexsha": "e872382c325eb0189432640a822980565290c19e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4eff2db078dfa873b2a9301d62d04ca8f7fc36a4",
+      "git:hexsha": "4eff2db078dfa873b2a9301d62d04ca8f7fc36a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2fcc0e428fbc10fdf1825f7f85bf384534173b4a",
+      "git:hexsha": "2fcc0e428fbc10fdf1825f7f85bf384534173b4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a33712e161eacdcfead297da3f4a5bc491732e3f",
+      "git:hexsha": "a33712e161eacdcfead297da3f4a5bc491732e3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.31.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/178afa0b04d233c89285e3fd90c9db226e030ef2",
+      "git:hexsha": "178afa0b04d233c89285e3fd90c9db226e030ef2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b8a85a0baa22e42d79d85fd42ebe44ef4d6cb80c",
+      "git:hexsha": "b8a85a0baa22e42d79d85fd42ebe44ef4d6cb80c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.32.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/54a5911f5215148a0bdeb10e2bcfb84f635a75b9",
+      "git:hexsha": "54a5911f5215148a0bdeb10e2bcfb84f635a75b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/811f4e736b75a418fb9bc579861971b239e6cd0c",
+      "git:hexsha": "811f4e736b75a418fb9bc579861971b239e6cd0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6aa2a8030707e558ca08bf6992df2ad8926ed43a",
+      "git:hexsha": "6aa2a8030707e558ca08bf6992df2ad8926ed43a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e005a8482d76a9939d88c71f13860ee3764fe2af",
+      "git:hexsha": "e005a8482d76a9939d88c71f13860ee3764fe2af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/50371bf3151ebb1a43017abfe205d4d9b2e5faac",
+      "git:hexsha": "50371bf3151ebb1a43017abfe205d4d9b2e5faac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/41f682bc055de55350f025ef4e664949cbf31eb6",
+      "git:hexsha": "41f682bc055de55350f025ef4e664949cbf31eb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e0ed37c19a99462db73ada4ba40ae185442b6cbb",
+      "git:hexsha": "e0ed37c19a99462db73ada4ba40ae185442b6cbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ec4511a6fa4862770cf14b2b58d3493e9bacb062",
+      "git:hexsha": "ec4511a6fa4862770cf14b2b58d3493e9bacb062",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/435a5805ccbd5939a68f7f359ab72e937ef86e59",
+      "git:hexsha": "435a5805ccbd5939a68f7f359ab72e937ef86e59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0de7419c962805bbe9db18d99524b66673f7f8e9",
+      "git:hexsha": "0de7419c962805bbe9db18d99524b66673f7f8e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/717e318d6e0c652721c6e7081acd6db226f77820",
+      "git:hexsha": "717e318d6e0c652721c6e7081acd6db226f77820",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f3e6e634a86d5789ab1274ae27f43adc842f4ba8",
+      "git:hexsha": "f3e6e634a86d5789ab1274ae27f43adc842f4ba8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/254937a733b95366d21f5bda45b2f84693488e42",
+      "git:hexsha": "254937a733b95366d21f5bda45b2f84693488e42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c34cb641b1334d5a780e45488ad07e3abe1251ee",
+      "git:hexsha": "c34cb641b1334d5a780e45488ad07e3abe1251ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7f067717a0cc0bc371a1ae43d5e69905cdbe32c0",
+      "git:hexsha": "7f067717a0cc0bc371a1ae43d5e69905cdbe32c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6316b7c0f182877e578a3dbed2fd129b63538af5",
+      "git:hexsha": "6316b7c0f182877e578a3dbed2fd129b63538af5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fee32a0b23fb8ae4e963c1ce8593d387a02a4b3d",
+      "git:hexsha": "fee32a0b23fb8ae4e963c1ce8593d387a02a4b3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/58bec2ffe5274b37fed3adad8da188f0cbc5406c",
+      "git:hexsha": "58bec2ffe5274b37fed3adad8da188f0cbc5406c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4c6a5ed71775e82a0bbff28bea3d401ec066238e",
+      "git:hexsha": "4c6a5ed71775e82a0bbff28bea3d401ec066238e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/af8f606b3eef1af99f98929847f1b5baf19171ae",
+      "git:hexsha": "af8f606b3eef1af99f98929847f1b5baf19171ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1ed0e35679438cc7409f2e3aeb36d637b3c579c0",
+      "git:hexsha": "1ed0e35679438cc7409f2e3aeb36d637b3c579c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/195c05a64d39c87b2dfdf1eca2d339597f1fce03",
+      "git:hexsha": "195c05a64d39c87b2dfdf1eca2d339597f1fce03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.37.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5f177dcdb1f455ededa2a9c121436ba72ba7409f",
+      "git:hexsha": "5f177dcdb1f455ededa2a9c121436ba72ba7409f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.37.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/da48e4cac78d1d4ac749e2aa5cfd619fde1e6c68",
+      "git:hexsha": "da48e4cac78d1d4ac749e2aa5cfd619fde1e6c68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a5f5c8ed9a0f2658214525011507e3091c186bdf",
+      "git:hexsha": "a5f5c8ed9a0f2658214525011507e3091c186bdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1fa164d2d86cd870526463e45c5998482e90fb1d",
+      "git:hexsha": "1fa164d2d86cd870526463e45c5998482e90fb1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/90dd21531efe351b72ce0a72150048b6c7f640e0",
+      "git:hexsha": "90dd21531efe351b72ce0a72150048b6c7f640e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/631a2a7156299351874f37c4769308a104ce19ed",
+      "git:hexsha": "631a2a7156299351874f37c4769308a104ce19ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/646fff04dbe9458f1c46753031546ccf6415eeef",
+      "git:hexsha": "646fff04dbe9458f1c46753031546ccf6415eeef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1a388a193f7484f685c6c03a997f7c193a3fcb94",
+      "git:hexsha": "1a388a193f7484f685c6c03a997f7c193a3fcb94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/153e4a45edf2b01f86ea985519e03394e98f68de",
+      "git:hexsha": "153e4a45edf2b01f86ea985519e03394e98f68de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/22bbd4a092b5248a4a96a08750ca613117fc1a38",
+      "git:hexsha": "22bbd4a092b5248a4a96a08750ca613117fc1a38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/40f4cdb52a7494472c32e26c70f54bb41bb2bb57",
+      "git:hexsha": "40f4cdb52a7494472c32e26c70f54bb41bb2bb57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3bf03f2f7ee1a9e214484524000774532d02cba7",
+      "git:hexsha": "3bf03f2f7ee1a9e214484524000774532d02cba7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b143c164678ad7579161448846ce67be62e7f21f",
+      "git:hexsha": "b143c164678ad7579161448846ce67be62e7f21f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/798c6cb8032f4568d0b23f762d479d68be62ce3e",
+      "git:hexsha": "798c6cb8032f4568d0b23f762d479d68be62ce3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3d780f260a1d26ab612dde0f870db114a42273bd",
+      "git:hexsha": "3d780f260a1d26ab612dde0f870db114a42273bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.41.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/05fa732c024b55ddda1f5f8b107ce78233acd3ce",
+      "git:hexsha": "05fa732c024b55ddda1f5f8b107ce78233acd3ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9850c169c4126fd04dc6796e4685f1b9e4924aa4",
+      "git:hexsha": "9850c169c4126fd04dc6796e4685f1b9e4924aa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b2f58cba092cfb3083dc31de429fa19d89f739dc",
+      "git:hexsha": "b2f58cba092cfb3083dc31de429fa19d89f739dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.43.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/93aa548201af70646fe651cc01fd875f32b00202",
+      "git:hexsha": "93aa548201af70646fe651cc01fd875f32b00202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6b07089ae031d64805c2e5eb6a33624ff0e64e84",
+      "git:hexsha": "6b07089ae031d64805c2e5eb6a33624ff0e64e84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.44.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/48026f3a39b9e1423681ac7a35e68992d230d85a",
+      "git:hexsha": "48026f3a39b9e1423681ac7a35e68992d230d85a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/73f9fda59561e35ae839c66dcc30b785e1629e58",
+      "git:hexsha": "73f9fda59561e35ae839c66dcc30b785e1629e58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.45.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/bcf9fcc36149921f216d49ac84ee1aa9c15c5a86",
+      "git:hexsha": "bcf9fcc36149921f216d49ac84ee1aa9c15c5a86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6172976b16821b24194a05e3e3fe5cb2342a2b4b",
+      "git:hexsha": "6172976b16821b24194a05e3e3fe5cb2342a2b4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.46.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/45315a7a7fef522a56b4c86558f2e07ebea4f71a",
+      "git:hexsha": "45315a7a7fef522a56b4c86558f2e07ebea4f71a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/89e5a010b22136f0f16eff5ec33105f4d3e273eb",
+      "git:hexsha": "89e5a010b22136f0f16eff5ec33105f4d3e273eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.47.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/864eafca8f9626c13a5864c133ca620d1cbecf89",
+      "git:hexsha": "864eafca8f9626c13a5864c133ca620d1cbecf89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/70edb2134913569677b40ed514a3520e31bd9f25",
+      "git:hexsha": "70edb2134913569677b40ed514a3520e31bd9f25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/15d3aba42ed40713ef2d2757462d19846049523a",
+      "git:hexsha": "15d3aba42ed40713ef2d2757462d19846049523a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/37f5615da1f4360710f6f45920dbb81387d1a4c5",
+      "git:hexsha": "37f5615da1f4360710f6f45920dbb81387d1a4c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7a5632f6c9a64ce77083494ea7e2385e200373cc",
+      "git:hexsha": "7a5632f6c9a64ce77083494ea7e2385e200373cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.50.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/aeaed488352274a9ca86c834eeb618d732989518",
+      "git:hexsha": "aeaed488352274a9ca86c834eeb618d732989518",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.50.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b7d9ce71669164a3864e170476b2846760f5e35f",
+      "git:hexsha": "b7d9ce71669164a3864e170476b2846760f5e35f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8467d41376c2b17eae1c78d56b39767e7807cb6f",
+      "git:hexsha": "8467d41376c2b17eae1c78d56b39767e7807cb6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.51.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/af8e0ad8b7988e72e1d02478022d80eff4f55b91",
+      "git:hexsha": "af8e0ad8b7988e72e1d02478022d80eff4f55b91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.51.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fc4fce30aff7620c32e57301d3c40b4883810825",
+      "git:hexsha": "fc4fce30aff7620c32e57301d3c40b4883810825",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/262f163cf19f22f45c493de0238a77c9e39f9e0a",
+      "git:hexsha": "262f163cf19f22f45c493de0238a77c9e39f9e0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.52.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e1b2f8216cc69e802475a0d438e40e0e74510de4",
+      "git:hexsha": "e1b2f8216cc69e802475a0d438e40e0e74510de4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.52.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/891e1c17b7fecbae34d1915ba90c15ddece807f9",
+      "git:hexsha": "891e1c17b7fecbae34d1915ba90c15ddece807f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6e42e7879a8e22db9268d1ef2f3b80428534e752",
+      "git:hexsha": "6e42e7879a8e22db9268d1ef2f3b80428534e752",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.53.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b32507dd793b6b1dc218f76f7b485ae441db8841",
+      "git:hexsha": "b32507dd793b6b1dc218f76f7b485ae441db8841",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/22432e2d28a8503ea431b5c2599fd33e4a1cddb4",
+      "git:hexsha": "22432e2d28a8503ea431b5c2599fd33e4a1cddb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/74522adecf5d9919be8c797f3eb3da6e98b45229",
+      "git:hexsha": "74522adecf5d9919be8c797f3eb3da6e98b45229",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/646a579cdb305a9d3fba6c5f9a96011c5e2c2882",
+      "git:hexsha": "646a579cdb305a9d3fba6c5f9a96011c5e2c2882",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/52357cff50bee57ef442e94d78a0de38b4173fc2",
+      "git:hexsha": "52357cff50bee57ef442e94d78a0de38b4173fc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7cdc6ddbdd3c09e567c5582490aec9d7f99c468e",
+      "git:hexsha": "7cdc6ddbdd3c09e567c5582490aec9d7f99c468e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/83091e96cf43f344d22799c22eea301aeae36d51",
+      "git:hexsha": "83091e96cf43f344d22799c22eea301aeae36d51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/83f4774156dc3e29c7fe6be9ffd681df68534509",
+      "git:hexsha": "83f4774156dc3e29c7fe6be9ffd681df68534509",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.55.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/95bd2582a1e37bb35eac429925ffa0aea10078a5",
+      "git:hexsha": "95bd2582a1e37bb35eac429925ffa0aea10078a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.55.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6974a981aec1814b5abba429a8ea21be9ac58538",
+      "git:hexsha": "6974a981aec1814b5abba429a8ea21be9ac58538",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.55.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/534d6c58f6c07d219ca74dd336eaca59d48d0ada",
+      "git:hexsha": "534d6c58f6c07d219ca74dd336eaca59d48d0ada",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5e3e4d1b0f16ccc4469a90a5bff09cafe0de7a2e",
+      "git:hexsha": "5e3e4d1b0f16ccc4469a90a5bff09cafe0de7a2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/bb9c2de913279acc89e79f6154173a422f31de45",
+      "git:hexsha": "bb9c2de913279acc89e79f6154173a422f31de45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ea049cd0c42e115b90f1b9c7db80b2659a0bb92a",
+      "git:hexsha": "ea049cd0c42e115b90f1b9c7db80b2659a0bb92a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/995cce048f9427bba4f7ac1e5fc60abbf1f8f0b7",
+      "git:hexsha": "995cce048f9427bba4f7ac1e5fc60abbf1f8f0b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6e1161bc3ed20eef070063ddd5ac52fd9a531e88",
+      "git:hexsha": "6e1161bc3ed20eef070063ddd5ac52fd9a531e88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0ae6f6b0ce55b6a9dd7e5caa684dfae2780c0088",
+      "git:hexsha": "0ae6f6b0ce55b6a9dd7e5caa684dfae2780c0088",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e94d98e9bf97a5d2d02d79d58f2abdbab26ff2bd",
+      "git:hexsha": "e94d98e9bf97a5d2d02d79d58f2abdbab26ff2bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1b78f22ddf4b64542b39804882fca388a62355fb",
+      "git:hexsha": "1b78f22ddf4b64542b39804882fca388a62355fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/19ecaafeda91480d0dfd7ce44e7317220b9d48b6",
+      "git:hexsha": "19ecaafeda91480d0dfd7ce44e7317220b9d48b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.58.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/89d49335a02ac231925e5a514659c93322f29526",
+      "git:hexsha": "89d49335a02ac231925e5a514659c93322f29526",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/44d6210f101abedeb2dd68507fcffcb329df70ea",
+      "git:hexsha": "44d6210f101abedeb2dd68507fcffcb329df70ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b3fc5b39594d30e7dc73813ce88c64796b0e8b96",
+      "git:hexsha": "b3fc5b39594d30e7dc73813ce88c64796b0e8b96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1e07c9d839e7e96f02d0a4b745f379a43086334c",
+      "git:hexsha": "1e07c9d839e7e96f02d0a4b745f379a43086334c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/728100cf7a7aff90bbe274e593bc726030e392ec",
+      "git:hexsha": "728100cf7a7aff90bbe274e593bc726030e392ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/52f49794b6ea7c243372870d09a23deae8d019cf",
+      "git:hexsha": "52f49794b6ea7c243372870d09a23deae8d019cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/33e40854beef0cb18c0790bea953678c30b6fb5c",
+      "git:hexsha": "33e40854beef0cb18c0790bea953678c30b6fb5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d9c966dea77fa3493114865a7f785f3134f1cc1e",
+      "git:hexsha": "d9c966dea77fa3493114865a7f785f3134f1cc1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4dd5cf25fa58076307a5baed0a87f6d765f20100",
+      "git:hexsha": "4dd5cf25fa58076307a5baed0a87f6d765f20100",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/348a783523e36a88e24b92faee693db125efc5bf",
+      "git:hexsha": "348a783523e36a88e24b92faee693db125efc5bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3ad4e8bc9d89d7a81586bf598289ff62b0a339b9",
+      "git:hexsha": "3ad4e8bc9d89d7a81586bf598289ff62b0a339b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f1c7d714914e3321ca2e72839fe2d132a8646e7f",
+      "git:hexsha": "f1c7d714914e3321ca2e72839fe2d132a8646e7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c111dab6af1bb40e1f8768c9941dc7c292293e59",
+      "git:hexsha": "c111dab6af1bb40e1f8768c9941dc7c292293e59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b95be16e7c8a76c3d63335df13ab0d55ba3d5c35",
+      "git:hexsha": "b95be16e7c8a76c3d63335df13ab0d55ba3d5c35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.60.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d16e6edde5a155626910b5758a0b939bfedb9ced",
+      "git:hexsha": "d16e6edde5a155626910b5758a0b939bfedb9ced",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.60.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7a6517d81e4ae9e9e9527cd401bb76937983dfef",
+      "git:hexsha": "7a6517d81e4ae9e9e9527cd401bb76937983dfef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7193688e364bd726594fe369032e813ced1bdfe2",
+      "git:hexsha": "7193688e364bd726594fe369032e813ced1bdfe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.61.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3f8d8205ae41c389541e125336b0ae0c5e437661",
+      "git:hexsha": "3f8d8205ae41c389541e125336b0ae0c5e437661",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/720ae54414f392202289578c9cc3b84cccc7432c",
+      "git:hexsha": "720ae54414f392202289578c9cc3b84cccc7432c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fea5e6b0dbc4353fcd35d5fcf11273347c4ee110",
+      "git:hexsha": "fea5e6b0dbc4353fcd35d5fcf11273347c4ee110",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2e56c8da6f163db00a4ca362020148bb391edca9",
+      "git:hexsha": "2e56c8da6f163db00a4ca362020148bb391edca9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3e69750d47df4f0759d4a28ddc68e4b38756d9ca",
+      "git:hexsha": "3e69750d47df4f0759d4a28ddc68e4b38756d9ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/939c861263b2b6ed2d086b794261766ddf5b5f65",
+      "git:hexsha": "939c861263b2b6ed2d086b794261766ddf5b5f65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/724f56c56487578692bec45fca79474e57516308",
+      "git:hexsha": "724f56c56487578692bec45fca79474e57516308",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/64af9e8f06be4bfe02e0e5e9cb0aa7889a5db6d7",
+      "git:hexsha": "64af9e8f06be4bfe02e0e5e9cb0aa7889a5db6d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d6bb8c14e66605ad2b7ed7bd62951014cd21b576",
+      "git:hexsha": "d6bb8c14e66605ad2b7ed7bd62951014cd21b576",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/dfc4cfabfab3db89c0668c9bfd5f3f6f49093935",
+      "git:hexsha": "dfc4cfabfab3db89c0668c9bfd5f3f6f49093935",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a6b493071b843bec3db807637e441c1768b695f8",
+      "git:hexsha": "a6b493071b843bec3db807637e441c1768b695f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/849ec26310dde6f7c8a6d0cc8a93a067d3facb89",
+      "git:hexsha": "849ec26310dde6f7c8a6d0cc8a93a067d3facb89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5a1eded551ecd2e10d2508fc47ed1003e6675872",
+      "git:hexsha": "5a1eded551ecd2e10d2508fc47ed1003e6675872",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/16a10604fbd0d82c1382b84b417a1d6a2d33a7f1",
+      "git:hexsha": "16a10604fbd0d82c1382b84b417a1d6a2d33a7f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9dea82fb8cdd06683f9e8033b54cff219789af7f",
+      "git:hexsha": "9dea82fb8cdd06683f9e8033b54cff219789af7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/17d78674d17e74b344f3701eb4ca6f5aa5cf1fc5",
+      "git:hexsha": "17d78674d17e74b344f3701eb4ca6f5aa5cf1fc5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/bff8da95ab1967426b92e0c0b899596a05606130",
+      "git:hexsha": "bff8da95ab1967426b92e0c0b899596a05606130",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e9f971a71f7820c624d53c4927590dba67b2f71b",
+      "git:hexsha": "e9f971a71f7820c624d53c4927590dba67b2f71b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6d0ecdd8ecbface903cf93c7571398b90b803b0b",
+      "git:hexsha": "6d0ecdd8ecbface903cf93c7571398b90b803b0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d55062a3c474dfa2aa5964e997304aac080a4dd1",
+      "git:hexsha": "d55062a3c474dfa2aa5964e997304aac080a4dd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.68.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f66d2e6fdc51c4528c99bb25a8fbca6f9b9b872d",
+      "git:hexsha": "f66d2e6fdc51c4528c99bb25a8fbca6f9b9b872d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.68.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a8fa0def5cd999044dae39b6cdff7a54db25c627",
+      "git:hexsha": "a8fa0def5cd999044dae39b6cdff7a54db25c627",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fa931da6db06f8e8102d91bfe3a4a64b31bbd02c",
+      "git:hexsha": "fa931da6db06f8e8102d91bfe3a4a64b31bbd02c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3fb66ddd5e2b6810f9f11619302a8b82d3712f10",
+      "git:hexsha": "3fb66ddd5e2b6810f9f11619302a8b82d3712f10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ac33853ba10d13ac149b1fa3ca6dba7d613065c9",
+      "git:hexsha": "ac33853ba10d13ac149b1fa3ca6dba7d613065c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/384e6b23ce0366d6b2f31cc98d35525da5b22c10",
+      "git:hexsha": "384e6b23ce0366d6b2f31cc98d35525da5b22c10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/692fd082b41047529b55a9c7e2047bdcbc2cccdd",
+      "git:hexsha": "692fd082b41047529b55a9c7e2047bdcbc2cccdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0c8343bb928b26d42feedd2a1a039e16ac58e744",
+      "git:hexsha": "0c8343bb928b26d42feedd2a1a039e16ac58e744",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ab091ca05349c594343dcb78ad5e7fd015d5804d",
+      "git:hexsha": "ab091ca05349c594343dcb78ad5e7fd015d5804d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/05810dd4088b6dbfc4194d7b0bea03eec236c83a",
+      "git:hexsha": "05810dd4088b6dbfc4194d7b0bea03eec236c83a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.74.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/bf6dd816052d6ece746acc0339e5225d425dc1b3",
+      "git:hexsha": "bf6dd816052d6ece746acc0339e5225d425dc1b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.74.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ed53107e10e6c86754866b48f8bd862659134ca8",
+      "git:hexsha": "ed53107e10e6c86754866b48f8bd862659134ca8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8e1a1cd60d990361b934f922fd7d176f2ae0a63c",
+      "git:hexsha": "8e1a1cd60d990361b934f922fd7d176f2ae0a63c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.76.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b75f4093026265d7a3f0c38998a3360f03bf44f4",
+      "git:hexsha": "b75f4093026265d7a3f0c38998a3360f03bf44f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.76.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fad098ffad7982a5150306a3d17f51ffef574f2e",
+      "git:hexsha": "fad098ffad7982a5150306a3d17f51ffef574f2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.76.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/67997a4ec1ebcdf8e740afb0d0b2e37897657bde",
+      "git:hexsha": "67997a4ec1ebcdf8e740afb0d0b2e37897657bde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.77.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/01a69ab8cbed129e9edb84865893310ab52e59c7",
+      "git:hexsha": "01a69ab8cbed129e9edb84865893310ab52e59c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.78.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c097025779fc0bdc3389c047d4c060b5d7349f16",
+      "git:hexsha": "c097025779fc0bdc3389c047d4c060b5d7349f16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.78.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5bc730732ddee4a93fd777359c94202ec0db143b",
+      "git:hexsha": "5bc730732ddee4a93fd777359c94202ec0db143b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.79.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3d61ed42aba652b547029095a7eb269ad4e1e957",
+      "git:hexsha": "3d61ed42aba652b547029095a7eb269ad4e1e957",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4a81b4eda050ffe2681e31113ed65250d3355aa2",
+      "git:hexsha": "4a81b4eda050ffe2681e31113ed65250d3355aa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.80.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/71058dd6f0a8e2e837f1b9edc91bc61a07b7837d",
+      "git:hexsha": "71058dd6f0a8e2e837f1b9edc91bc61a07b7837d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.81.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f588695f77aad9279a355f5f483d8debf92b46ed",
+      "git:hexsha": "f588695f77aad9279a355f5f483d8debf92b46ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.82.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9173f3d37594ba603c350ac2263e12c5423b51b9",
+      "git:hexsha": "9173f3d37594ba603c350ac2263e12c5423b51b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.82.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/cca0970798c2735ffb58879ed494e81f80ffc6af",
+      "git:hexsha": "cca0970798c2735ffb58879ed494e81f80ffc6af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.83.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/56540b32873df335aca9270715a839c2a9770639",
+      "git:hexsha": "56540b32873df335aca9270715a839c2a9770639",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.84.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/2a345ee7b2a49ff500412fe58f1c80d74bc1731b",
+      "git:hexsha": "2a345ee7b2a49ff500412fe58f1c80d74bc1731b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.85.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/eed877fddc0e26ab99d10157de25e3abcb95598b",
+      "git:hexsha": "eed877fddc0e26ab99d10157de25e3abcb95598b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/cc2c1fc15fd0bf1a5bdfb7b28b4d8d34e1cccad2",
+      "git:hexsha": "cc2c1fc15fd0bf1a5bdfb7b28b4d8d34e1cccad2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.87.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/8ade764fc124bee145990ad59d0d7c4bbe27a754",
+      "git:hexsha": "8ade764fc124bee145990ad59d0d7c4bbe27a754",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.88.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ca9363d4ea5fcc5ad61683bd5fc39f107bc47aa6",
+      "git:hexsha": "ca9363d4ea5fcc5ad61683bd5fc39f107bc47aa6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.89.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/15488ce07cb97535d8564e82dd5cda3481bc1a81",
+      "git:hexsha": "15488ce07cb97535d8564e82dd5cda3481bc1a81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e68921654125ae733aac00c683b504bc89856df2",
+      "git:hexsha": "e68921654125ae733aac00c683b504bc89856df2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.90.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0673da62f2f2476a3e5791122e75ec0cbfd03442",
+      "git:hexsha": "0673da62f2f2476a3e5791122e75ec0cbfd03442",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.91.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/18e0b36abe7c79a8e1a055f4ed57b3752f9ea01c",
+      "git:hexsha": "18e0b36abe7c79a8e1a055f4ed57b3752f9ea01c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.92.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/996e42fc09b2992009f09ae9f3fdad93452ee937",
+      "git:hexsha": "996e42fc09b2992009f09ae9f3fdad93452ee937",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.92.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1a85f249ecdf13278d16185a1f9ae908e96e03d2",
+      "git:hexsha": "1a85f249ecdf13278d16185a1f9ae908e96e03d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.92.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6ff802409ca1f1c614dc52ad258a93e9fd1a3d46",
+      "git:hexsha": "6ff802409ca1f1c614dc52ad258a93e9fd1a3d46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.92.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1dbb72b290cb360a9ccbcec17425aaba4ad114b0",
+      "git:hexsha": "1dbb72b290cb360a9ccbcec17425aaba4ad114b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.93.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c5b77db2ee8d73895b179ae859c40f4f1ae42437",
+      "git:hexsha": "c5b77db2ee8d73895b179ae859c40f4f1ae42437",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.93.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fe82bb48899919803a7a59b9d6a740b4390d6cec",
+      "git:hexsha": "fe82bb48899919803a7a59b9d6a740b4390d6cec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.93.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fa8e1cb37681e06da4239d8011687b7dc105365a",
+      "git:hexsha": "fa8e1cb37681e06da4239d8011687b7dc105365a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.93.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4d5fe48ee4bb44064c786d175084b7ba7f1bd792",
+      "git:hexsha": "4d5fe48ee4bb44064c786d175084b7ba7f1bd792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.94.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/db5c35049accb05f5fb03791ef9c12547fd309a7",
+      "git:hexsha": "db5c35049accb05f5fb03791ef9c12547fd309a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.95.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1c0b4642054544af92c0c3a8cdf5ef3c3f62f1d7",
+      "git:hexsha": "1c0b4642054544af92c0c3a8cdf5ef3c3f62f1d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.95.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1d77265e3d31afda8df6528a1926c854ef27de3b",
+      "git:hexsha": "1d77265e3d31afda8df6528a1926c854ef27de3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.96.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/859b4db4a7b3c229cd4c19eb21642faca007530b",
+      "git:hexsha": "859b4db4a7b3c229cd4c19eb21642faca007530b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.96.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/35df552d032873b62c2ae127a0efce60947dbed0",
+      "git:hexsha": "35df552d032873b62c2ae127a0efce60947dbed0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.97.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e6c6757553bbdb777c31d0daf5916fb9e2b47ff8",
+      "git:hexsha": "e6c6757553bbdb777c31d0daf5916fb9e2b47ff8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.97.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/48188cc8d5af8c8c4359f84848ea9e436739819f",
+      "git:hexsha": "48188cc8d5af8c8c4359f84848ea9e436739819f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.97.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a3315d9fcc17d7583603476f088929fb2b9e71ca",
+      "git:hexsha": "a3315d9fcc17d7583603476f088929fb2b9e71ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.98.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/b0ad27a67681f1b6fb473cc75c642efa1f4941d5",
+      "git:hexsha": "b0ad27a67681f1b6fb473cc75c642efa1f4941d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a8258744cbecf51321587fc870e8920bd2c07809",
+      "git:hexsha": "a8258744cbecf51321587fc870e8920bd2c07809",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/445af1e3d07fcfe1d047ced2436318419b7c889c",
+      "git:hexsha": "445af1e3d07fcfe1d047ced2436318419b7c889c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e4ec91e776d0155752ab004432dbcd1ad8a81d98",
+      "git:hexsha": "e4ec91e776d0155752ab004432dbcd1ad8a81d98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/09f98acf6bf7b66e98a4b6c3e37433ccdee0e20e",
+      "git:hexsha": "09f98acf6bf7b66e98a4b6c3e37433ccdee0e20e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/7aa3c787b99adf9b93f0652aacafa1200c681877",
+      "git:hexsha": "7aa3c787b99adf9b93f0652aacafa1200c681877",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4d8c14cdc13772f6cc68be5eee6772b215f82c58",
+      "git:hexsha": "4d8c14cdc13772f6cc68be5eee6772b215f82c58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/23887e4b9180f62e634f95ae4dff1ace447a630a",
+      "git:hexsha": "23887e4b9180f62e634f95ae4dff1ace447a630a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a02ac0dd5b4797d4a782b4b75fd0790df3e14149",
+      "git:hexsha": "a02ac0dd5b4797d4a782b4b75fd0790df3e14149",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/34014aedbb8946c03e97e5c8d72e03ad2259cd7c",
+      "git:hexsha": "34014aedbb8946c03e97e5c8d72e03ad2259cd7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.99.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/70650697e6d2dddc841e0e44515e35829ee3637a",
+      "git:hexsha": "70650697e6d2dddc841e0e44515e35829ee3637a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/75a3aa490a6bf8e91ec98df12590980a680ac77a",
+      "git:hexsha": "75a3aa490a6bf8e91ec98df12590980a680ac77a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/53f7a74ca4af71fed7f61d6a73c5e597a99898ac",
+      "git:hexsha": "53f7a74ca4af71fed7f61d6a73c5e597a99898ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ef00216846515033e4cf73ab3227e91386d958ba",
+      "git:hexsha": "ef00216846515033e4cf73ab3227e91386d958ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/43e324ed7a8a8b6f0738254c59d732be2807a06f",
+      "git:hexsha": "43e324ed7a8a8b6f0738254c59d732be2807a06f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9688ac0a47ea5083d7b08c2b22186b1232d8a87f",
+      "git:hexsha": "9688ac0a47ea5083d7b08c2b22186b1232d8a87f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f94256daf8f5d7268f28c2330dc343660a959c3e",
+      "git:hexsha": "f94256daf8f5d7268f28c2330dc343660a959c3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d3e632171c7842abf97b26379f564531d80ad096",
+      "git:hexsha": "d3e632171c7842abf97b26379f564531d80ad096",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/722d3fffb82e9150a16da01e432b70d126ca5254",
+      "git:hexsha": "722d3fffb82e9150a16da01e432b70d126ca5254",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/dc68b90655912886bd7a6c7787f96005452ebfc9",
+      "git:hexsha": "dc68b90655912886bd7a6c7787f96005452ebfc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e8888736c86bb1d5a27100867da22b11ab5bb1b7",
+      "git:hexsha": "e8888736c86bb1d5a27100867da22b11ab5bb1b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/a7a60166ad8f686f388719a147f815b053c9e885",
+      "git:hexsha": "a7a60166ad8f686f388719a147f815b053c9e885",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/1c6d3d27c24a708fc5b4b2c4a743f08ff4978c35",
+      "git:hexsha": "1c6d3d27c24a708fc5b4b2c4a743f08ff4978c35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/d69edeb39e6a9cc8d9822a2838b10ab4102b4cc6",
+      "git:hexsha": "d69edeb39e6a9cc8d9822a2838b10ab4102b4cc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/f2d096fe978a1fe67f58351ddbfa0d38f3d723b9",
+      "git:hexsha": "f2d096fe978a1fe67f58351ddbfa0d38f3d723b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/3e0c05b84a2056870abf3bd6a5e7849020209cc3",
+      "git:hexsha": "3e0c05b84a2056870abf3bd6a5e7849020209cc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/481ff6ef4c050469fa971746fb14b675d90a2e56",
+      "git:hexsha": "481ff6ef4c050469fa971746fb14b675d90a2e56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/921c330d4baebb04bbdb8070e9ced539cf49d97a",
+      "git:hexsha": "921c330d4baebb04bbdb8070e9ced539cf49d97a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/656e3cab4a18262a49b961d41293367e45ee71b9",
+      "git:hexsha": "656e3cab4a18262a49b961d41293367e45ee71b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9b1bb6ee10d4a0a04d04b1f67907f3747c57f5a2",
+      "git:hexsha": "9b1bb6ee10d4a0a04d04b1f67907f3747c57f5a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/15afa21e54952c06e2ac4d3e3a82f144c2cf9ed9",
+      "git:hexsha": "15afa21e54952c06e2ac4d3e3a82f144c2cf9ed9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/0a4ca536f356aa23a021962b442d0c187559326d",
+      "git:hexsha": "0a4ca536f356aa23a021962b442d0c187559326d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/fc7f598efa70c6bef5ad15d1a8c9dfcd0fbd33fa",
+      "git:hexsha": "fc7f598efa70c6bef5ad15d1a8c9dfcd0fbd33fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/acd0c54d8a68efeedde0e5b4e6c310eef1ce7867",
+      "git:hexsha": "acd0c54d8a68efeedde0e5b4e6c310eef1ce7867",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/e5f93f5daee9f3fc7646833ac235b1693f192a56",
+      "git:hexsha": "e5f93f5daee9f3fc7646833ac235b1693f192a56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/5ae2cc10e4140d36aa236fa7c0bc5ce5ff190a01",
+      "git:hexsha": "5ae2cc10e4140d36aa236fa7c0bc5ce5ff190a01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/ebf32212f7bf5bec6b24cc2276ac0d9a28dd63bb",
+      "git:hexsha": "ebf32212f7bf5bec6b24cc2276ac0d9a28dd63bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/513ae76253cccdf9d0a9122b32cf0adb8d26f792",
+      "git:hexsha": "513ae76253cccdf9d0a9122b32cf0adb8d26f792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/dff16b5e9964bf85157eb41181255ed5dde8dda4",
+      "git:hexsha": "dff16b5e9964bf85157eb41181255ed5dde8dda4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/4e8856576211064b09c0cc4a1ed35b82b169abe2",
+      "git:hexsha": "4e8856576211064b09c0cc4a1ed35b82b169abe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/c82714c765a51a33ce64e8f0c646c47462796e1c",
+      "git:hexsha": "c82714c765a51a33ce64e8f0c646c47462796e1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/6574bcd612771186995074846253caa0ff1ba517",
+      "git:hexsha": "6574bcd612771186995074846253caa0ff1ba517",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/650be393dedf2a4550092817c2b82c1d04d6e9dc",
+      "git:hexsha": "650be393dedf2a4550092817c2b82c1d04d6e9dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/9b8c7e3e84e3e7bb8b0d88bb7d0538c39bb47a40",
+      "git:hexsha": "9b8c7e3e84e3e7bb8b0d88bb7d0538c39bb47a40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/41ee03ffe985a7362f0275c7f500080cb1d58cdd",
+      "git:hexsha": "41ee03ffe985a7362f0275c7f500080cb1d58cdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python/commit/dc7602151b9042891ccd5042c7be3881337368e5",
+      "git:hexsha": "dc7602151b9042891ccd5042c7be3881337368e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.0"
+    }
+  ]
+}
