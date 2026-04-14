@@ -1,0 +1,922 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/lxml/lxml",
+  "@type": "gh:Repository",
+  "gh:name": "lxml",
+  "gh:owner": "lxml",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/973d059449a66799f468b46f4b12c95e32cff5e9",
+      "git:hexsha": "973d059449a66799f468b46f4b12c95e32cff5e9",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "lxml-6.0.3",
+      "repolex:parsedAt": "2026-04-14T05:49:34.867155+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/05970717a529f38fe4e9802e09eb768f43e2a0a5",
+      "git:hexsha": "05970717a529f38fe4e9802e09eb768f43e2a0a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/bd8d2806dd74093d91126776b9d4d7c4d6c8377c",
+      "git:hexsha": "bd8d2806dd74093d91126776b9d4d7c4d6c8377c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/7eab217298901501db2dc2522261fb3aef644581",
+      "git:hexsha": "7eab217298901501db2dc2522261fb3aef644581",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ac8f3f551da68e72cd4ec901271a4ea40b753d99",
+      "git:hexsha": "ac8f3f551da68e72cd4ec901271a4ea40b753d99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/38dc947e8d29f3694113c38fd2a11906113fb898",
+      "git:hexsha": "38dc947e8d29f3694113c38fd2a11906113fb898",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/7f8fbe87787d456db9deff86986b0d65247cc697",
+      "git:hexsha": "7f8fbe87787d456db9deff86986b0d65247cc697",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-1.0.beta"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/efe21228d415486e38fd5849225138eb58208282",
+      "git:hexsha": "efe21228d415486e38fd5849225138eb58208282",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ba7ea71cc7a5f89053053352a594340fa3cfc6e6",
+      "git:hexsha": "ba7ea71cc7a5f89053053352a594340fa3cfc6e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-1.1alpha"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/d2a31b950eca3ca422e1586775c58ae3fd2a63bf",
+      "git:hexsha": "d2a31b950eca3ca422e1586775c58ae3fd2a63bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-1.1beta"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/2940d9b6723599da95cf294fe5125e29c9751f7b",
+      "git:hexsha": "2940d9b6723599da95cf294fe5125e29c9751f7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/8700fbb5b46a2cbe111fc9df2156a61aac8cebcb",
+      "git:hexsha": "8700fbb5b46a2cbe111fc9df2156a61aac8cebcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/9826b4dac26ff02494212404385b62d52f2b7a7d",
+      "git:hexsha": "9826b4dac26ff02494212404385b62d52f2b7a7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/96d31fd6c4607fc446c7545383a7c9fe7ce9ee3b",
+      "git:hexsha": "96d31fd6c4607fc446c7545383a7c9fe7ce9ee3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ed4299b1b40e24ef83a0968505d4463ddb996b83",
+      "git:hexsha": "ed4299b1b40e24ef83a0968505d4463ddb996b83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0alpha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/816a730eb5d44e840c6d0c99c8570b78c95e54e3",
+      "git:hexsha": "816a730eb5d44e840c6d0c99c8570b78c95e54e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0alpha3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/c1b351b9c7fba4981bc8324b3d20863cb2fa0696",
+      "git:hexsha": "c1b351b9c7fba4981bc8324b3d20863cb2fa0696",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0alpha4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4ae3c1f3ec7adfe9b65e24416b153415368ff0f8",
+      "git:hexsha": "4ae3c1f3ec7adfe9b65e24416b153415368ff0f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0alpha5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/d8a4e4d505ceeeb1192d9b2a5ea3d75f5b61a36f",
+      "git:hexsha": "d8a4e4d505ceeeb1192d9b2a5ea3d75f5b61a36f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0alpha6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/f5fd919e957cf8ffc884137b4aef0a47cbc66741",
+      "git:hexsha": "f5fd919e957cf8ffc884137b4aef0a47cbc66741",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/536ede0ec18084efccc298ace91afe4b1d58e478",
+      "git:hexsha": "536ede0ec18084efccc298ace91afe4b1d58e478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.0beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/322d9b068ec4a3a89dbdeaa311f2941f01d05a89",
+      "git:hexsha": "322d9b068ec4a3a89dbdeaa311f2941f01d05a89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/7aea95cb3ef2b41eb4b1f828c523cec4f36fa19e",
+      "git:hexsha": "7aea95cb3ef2b41eb4b1f828c523cec4f36fa19e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.1alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3bb2ea015b98c917e3f362a5e61d4798f50397b7",
+      "git:hexsha": "3bb2ea015b98c917e3f362a5e61d4798f50397b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.1beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ba7f3e588556327616f05e2080fead2d63d2fd7a",
+      "git:hexsha": "ba7f3e588556327616f05e2080fead2d63d2fd7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.1beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3bc3fbd318dc2f25389df94b5a84326af1c1497e",
+      "git:hexsha": "3bc3fbd318dc2f25389df94b5a84326af1c1497e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.1beta3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/0a5b686b7ebd93025732dbd0fe4b4dee55ea4932",
+      "git:hexsha": "0a5b686b7ebd93025732dbd0fe4b4dee55ea4932",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/66f59d14ebf9a8bacda4706fcde3f0c9ffd0943b",
+      "git:hexsha": "66f59d14ebf9a8bacda4706fcde3f0c9ffd0943b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1de6a9b2b8b1375a58d08caa896db8ac4039b058",
+      "git:hexsha": "1de6a9b2b8b1375a58d08caa896db8ac4039b058",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/6ef1ba8e441647f78b7a4ab860561e68cbe0c44d",
+      "git:hexsha": "6ef1ba8e441647f78b7a4ab860561e68cbe0c44d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/047c32a4eff2479965e429ccabf9ff113cd1257a",
+      "git:hexsha": "047c32a4eff2479965e429ccabf9ff113cd1257a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4c325e12ae20a600fa59dc9820cf62abc5ca62c9",
+      "git:hexsha": "4c325e12ae20a600fa59dc9820cf62abc5ca62c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/58322e88b9568daa53b73a229c0a2a14fa2b7579",
+      "git:hexsha": "58322e88b9568daa53b73a229c0a2a14fa2b7579",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/c8cde5d8c85f7405e6bd41cc335cdeffe8563e30",
+      "git:hexsha": "c8cde5d8c85f7405e6bd41cc335cdeffe8563e30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/46a2dddfcd15b74c4577d8081b52227ebd89eff2",
+      "git:hexsha": "46a2dddfcd15b74c4577d8081b52227ebd89eff2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1f44374e9c4725d05d77d213822c4a50f4ddcfb6",
+      "git:hexsha": "1f44374e9c4725d05d77d213822c4a50f4ddcfb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/9fad5ea8bdd8303c01f6d5fc2d9ba5fa5ec1905c",
+      "git:hexsha": "9fad5ea8bdd8303c01f6d5fc2d9ba5fa5ec1905c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/de09bbb825739c0df6efddc6e002b37a408c9b02",
+      "git:hexsha": "de09bbb825739c0df6efddc6e002b37a408c9b02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3alpha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/a48f8d91f2f724a50d7eb0af908d572362d6c043",
+      "git:hexsha": "a48f8d91f2f724a50d7eb0af908d572362d6c043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-2.3beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/bcfbb8226c4cf04d50f2209788ee68cd672fa995",
+      "git:hexsha": "bcfbb8226c4cf04d50f2209788ee68cd672fa995",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4b2e26fefac767069d32348d2443dae064b6022e",
+      "git:hexsha": "4b2e26fefac767069d32348d2443dae064b6022e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/a5525afb27e1227ccb0245c14d982b95abed0422",
+      "git:hexsha": "a5525afb27e1227ccb0245c14d982b95abed0422",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/bf47a9747fd5fef3322c7b39445d27d6bd0db7d1",
+      "git:hexsha": "bf47a9747fd5fef3322c7b39445d27d6bd0db7d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.0alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ff1ba90049003f8badfb0a833125d09d8692af1d",
+      "git:hexsha": "ff1ba90049003f8badfb0a833125d09d8692af1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.0alpha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/26358d2218a84ad8ee89cce64828f907489c43af",
+      "git:hexsha": "26358d2218a84ad8ee89cce64828f907489c43af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.0beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/633436c0f352c33daa94cd62d1ddd0d13ea9c247",
+      "git:hexsha": "633436c0f352c33daa94cd62d1ddd0d13ea9c247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/98c8562f7d659b49997c136947afdf6bf835d5ab",
+      "git:hexsha": "98c8562f7d659b49997c136947afdf6bf835d5ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/76c9042511bfee787efad2d2f5cbdb850c01fbd6",
+      "git:hexsha": "76c9042511bfee787efad2d2f5cbdb850c01fbd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ca93d61264654b724e6ca57ecefbb294cef86007",
+      "git:hexsha": "ca93d61264654b724e6ca57ecefbb294cef86007",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.1beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/8fc99f8ef3e2f12e74fb407ae62c5db50cfe7b92",
+      "git:hexsha": "8fc99f8ef3e2f12e74fb407ae62c5db50cfe7b92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/90afe19b11c4fd1df8998b254d8a60b550aa56d0",
+      "git:hexsha": "90afe19b11c4fd1df8998b254d8a60b550aa56d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/f8192a702e6bdd4388ab0bcf1242f01d580f7810",
+      "git:hexsha": "f8192a702e6bdd4388ab0bcf1242f01d580f7810",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/96b62dd29fb402e55b12255fe9ac7120c9f87742",
+      "git:hexsha": "96b62dd29fb402e55b12255fe9ac7120c9f87742",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/f07ca33d53618d96c5752b2e35e3464c5bdc2a58",
+      "git:hexsha": "f07ca33d53618d96c5752b2e35e3464c5bdc2a58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4bbc11f847dfc30c783c0d54103efe37ebaa090d",
+      "git:hexsha": "4bbc11f847dfc30c783c0d54103efe37ebaa090d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/dcfaf4311fdab59706dc7084c47af44c40cbb4bd",
+      "git:hexsha": "dcfaf4311fdab59706dc7084c47af44c40cbb4bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/91f5e8b3c7bbc3051cb78d242a63164c1f2e38ba",
+      "git:hexsha": "91f5e8b3c7bbc3051cb78d242a63164c1f2e38ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.0beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/81d0036486d4ce81bdd86774ea95d002fdd6d0e1",
+      "git:hexsha": "81d0036486d4ce81bdd86774ea95d002fdd6d0e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.0beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/a7a7b6b471345ed981489da15448625f03671f2c",
+      "git:hexsha": "a7a7b6b471345ed981489da15448625f03671f2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.0beta3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/dd0bbe36408fe1a49f278f368e8e76aff8e075bf",
+      "git:hexsha": "dd0bbe36408fe1a49f278f368e8e76aff8e075bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.0beta4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/9a8ccef6860ba2c80392d4e2ebdf14c487913ef4",
+      "git:hexsha": "9a8ccef6860ba2c80392d4e2ebdf14c487913ef4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.0beta5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3f8cba77030383ad52e45263d416e903ad2bea4d",
+      "git:hexsha": "3f8cba77030383ad52e45263d416e903ad2bea4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/e65717efb3ebca0ee62297c79e38f79ba5353da5",
+      "git:hexsha": "e65717efb3ebca0ee62297c79e38f79ba5353da5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/5ad64a7b6882fdf1d034e319e956ff53d1f85ac1",
+      "git:hexsha": "5ad64a7b6882fdf1d034e319e956ff53d1f85ac1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/076efc798ee7eae048d9ee764f30e2980a7c870f",
+      "git:hexsha": "076efc798ee7eae048d9ee764f30e2980a7c870f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/32337d2a820d77768de8f8b082119bf79c86ef93",
+      "git:hexsha": "32337d2a820d77768de8f8b082119bf79c86ef93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4c8e222b6704b78381bdcaa5f6d3abf1d041d0b4",
+      "git:hexsha": "4c8e222b6704b78381bdcaa5f6d3abf1d041d0b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/14505bc62f5f1fc9fb0ff007955f3e67ab4562bb",
+      "git:hexsha": "14505bc62f5f1fc9fb0ff007955f3e67ab4562bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/638b9ce006ba32e46a09101e15c93ee94649a2ae",
+      "git:hexsha": "638b9ce006ba32e46a09101e15c93ee94649a2ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.4.0beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/55b7af55eeb50abab9ca6d251d6137607849d6a1",
+      "git:hexsha": "55b7af55eeb50abab9ca6d251d6137607849d6a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/c1dfce0462b3bf3930938f5d08b8f0188803efcf",
+      "git:hexsha": "c1dfce0462b3bf3930938f5d08b8f0188803efcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/fe7dfaa133ec963a5173169993d464c324640f87",
+      "git:hexsha": "fe7dfaa133ec963a5173169993d464c324640f87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/525541fc94ab8e4ea3b938d40e2d7b9b1e0d4eb2",
+      "git:hexsha": "525541fc94ab8e4ea3b938d40e2d7b9b1e0d4eb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/b00892ed4ac551c39ff7ba42ff55524ad2516028",
+      "git:hexsha": "b00892ed4ac551c39ff7ba42ff55524ad2516028",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/717942131fe47584c45800970758d9b46ee077ff",
+      "git:hexsha": "717942131fe47584c45800970758d9b46ee077ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.5.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/79637c7c245f6439cc4b85817b12826483e3e8d5",
+      "git:hexsha": "79637c7c245f6439cc4b85817b12826483e3e8d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/2fae19478d87dfdcaed23ed63b7f64b2ab8c0dc7",
+      "git:hexsha": "2fae19478d87dfdcaed23ed63b7f64b2ab8c0dc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3b87120a90ae12aa69b8ffa394fababe595d0e34",
+      "git:hexsha": "3b87120a90ae12aa69b8ffa394fababe595d0e34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/70c1aa3b667afc39da69e1258ad4e36fa45cf3d0",
+      "git:hexsha": "70c1aa3b667afc39da69e1258ad4e36fa45cf3d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/0151ad50249ed059d6ba2856882f379fd37a4795",
+      "git:hexsha": "0151ad50249ed059d6ba2856882f379fd37a4795",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/826ca604eccdf6f325c1c161e73132e765bb3855",
+      "git:hexsha": "826ca604eccdf6f325c1c161e73132e765bb3855",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/c667651a02ff8b206fa3af7e5e0cf17dac2f1176",
+      "git:hexsha": "c667651a02ff8b206fa3af7e5e0cf17dac2f1176",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1cd159ef1fa6c13f9f21ddf9d69385b686b384a1",
+      "git:hexsha": "1cd159ef1fa6c13f9f21ddf9d69385b686b384a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3fcd59c91f9bdc13e1054398a95a0e5819210628",
+      "git:hexsha": "3fcd59c91f9bdc13e1054398a95a0e5819210628",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/7cdfc401e54194f45ac8fe258d922d8407fdc519",
+      "git:hexsha": "7cdfc401e54194f45ac8fe258d922d8407fdc519",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-3.8.0-py27fix"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/f83f1404011a2db268b0d9fe838c77f128642520",
+      "git:hexsha": "f83f1404011a2db268b0d9fe838c77f128642520",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ba11df65439f62728367bffcd14ed351f064b563",
+      "git:hexsha": "ba11df65439f62728367bffcd14ed351f064b563",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/14705c659d35ec1a86fcad9dfca0137a55112b7d",
+      "git:hexsha": "14705c659d35ec1a86fcad9dfca0137a55112b7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4fd86ebeb11d859827cc7eae419488020a29bbc0",
+      "git:hexsha": "4fd86ebeb11d859827cc7eae419488020a29bbc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/5653058f940e3be686a97489d7ff004640fdfe27",
+      "git:hexsha": "5653058f940e3be686a97489d7ff004640fdfe27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/065cd904e2e4211a3356b531b0dbcfebbd408903",
+      "git:hexsha": "065cd904e2e4211a3356b531b0dbcfebbd408903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/995a804444dddbad339e1ae11fd12fa7d0a653bb",
+      "git:hexsha": "995a804444dddbad339e1ae11fd12fa7d0a653bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/eb445d0f7e155d5919b990ca81992a328be38813",
+      "git:hexsha": "eb445d0f7e155d5919b990ca81992a328be38813",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.3-win"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/5578c4d5d90a49d581112adac13e4cca54978c69",
+      "git:hexsha": "5578c4d5d90a49d581112adac13e4cca54978c69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1dee355e83b1f524de7a772a8da941a186036bc2",
+      "git:hexsha": "1dee355e83b1f524de7a772a8da941a186036bc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1dd26eb772abd58ae3aea596800ed0cd612cf145",
+      "git:hexsha": "1dd26eb772abd58ae3aea596800ed0cd612cf145",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.2.6-win1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/7303cadd01b81fceb40f74148a5b9b6178936768",
+      "git:hexsha": "7303cadd01b81fceb40f74148a5b9b6178936768",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/642a41bdc3aae05f52ccf32981c429c7d3789f63",
+      "git:hexsha": "642a41bdc3aae05f52ccf32981c429c7d3789f63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/f2981e643b5b5a56089146bd5a093ecf7526dc12",
+      "git:hexsha": "f2981e643b5b5a56089146bd5a093ecf7526dc12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/e2d97468f3cea7b7fb11399732705d9f688c3c6d",
+      "git:hexsha": "e2d97468f3cea7b7fb11399732705d9f688c3c6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/6156d61ca53cadfd6b3d1b2908af518174997039",
+      "git:hexsha": "6156d61ca53cadfd6b3d1b2908af518174997039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1848047e2724a01a16d54029e013316617285491",
+      "git:hexsha": "1848047e2724a01a16d54029e013316617285491",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ca90c24282fd0aadeda15fd853468229b46c1b9e",
+      "git:hexsha": "ca90c24282fd0aadeda15fd853468229b46c1b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1781e48f8e51bb3eba8e31c3d7fbc47b4acfae26",
+      "git:hexsha": "1781e48f8e51bb3eba8e31c3d7fbc47b4acfae26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/589c3c2f35e89fec66aa7f4bec2eb2755033b2b2",
+      "git:hexsha": "589c3c2f35e89fec66aa7f4bec2eb2755033b2b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/78c346448b7b738dfe180ea3150cc4b789358f10",
+      "git:hexsha": "78c346448b7b738dfe180ea3150cc4b789358f10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/8d23c0caa4aee4f36ba553ad58bb506a14d2b33a",
+      "git:hexsha": "8d23c0caa4aee4f36ba553ad58bb506a14d2b33a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/0ce08858a824a0a4fae4102af849a8fbf7bcad6f",
+      "git:hexsha": "0ce08858a824a0a4fae4102af849a8fbf7bcad6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/076c6740da7236ae6558436835b828da419f6476",
+      "git:hexsha": "076c6740da7236ae6558436835b828da419f6476",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/2d88783eb95a5f58ba51c946bacfab07fa572ca0",
+      "git:hexsha": "2d88783eb95a5f58ba51c946bacfab07fa572ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/61432a8489657744ed32367ed9fb17fafe405d8e",
+      "git:hexsha": "61432a8489657744ed32367ed9fb17fafe405d8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/4cb57362deb23bca0f70f41ab1efa13390fcdbb1",
+      "git:hexsha": "4cb57362deb23bca0f70f41ab1efa13390fcdbb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/a5f9cb52079dc57477c460dbe6ba0f775e14a999",
+      "git:hexsha": "a5f9cb52079dc57477c460dbe6ba0f775e14a999",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/bbee1e900d46bb7044dedf67455f29433aa385ac",
+      "git:hexsha": "bbee1e900d46bb7044dedf67455f29433aa385ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/ae377082fea8520fb1a3a76746c44424d2c1fa0c",
+      "git:hexsha": "ae377082fea8520fb1a3a76746c44424d2c1fa0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.4-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/03c3f10f517c72a233241dcfafb8d3429d3e44c8",
+      "git:hexsha": "03c3f10f517c72a233241dcfafb8d3429d3e44c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.4-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/667f4b47995e0d4cc9b8c20ead1709810c9965d0",
+      "git:hexsha": "667f4b47995e0d4cc9b8c20ead1709810c9965d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.4-3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/b232e1987408e76fb6450f1a476dbab0377c92e8",
+      "git:hexsha": "b232e1987408e76fb6450f1a476dbab0377c92e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.4-4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/24a459910130afc8a16bdecdde35ca9d5aa47f1d",
+      "git:hexsha": "24a459910130afc8a16bdecdde35ca9d5aa47f1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.4-5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/a9611ba80bc5196c1dd07a0b1964fcb603695d63",
+      "git:hexsha": "a9611ba80bc5196c1dd07a0b1964fcb603695d63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/5c4f6a23d5758ec66cfe22b082a40c2e08df4658",
+      "git:hexsha": "5c4f6a23d5758ec66cfe22b082a40c2e08df4658",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/982f8d5612925010a12a70748a077af846def6be",
+      "git:hexsha": "982f8d5612925010a12a70748a077af846def6be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.7.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/745ac2685ca05c67afbf2a1dde24e4d48bd86dcd",
+      "git:hexsha": "745ac2685ca05c67afbf2a1dde24e4d48bd86dcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/e82c9153c4a7d505480b94c60b9a84d79d948efb",
+      "git:hexsha": "e82c9153c4a7d505480b94c60b9a84d79d948efb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/b224e0f69dde58425d1077e07d193d19d3f803a9",
+      "git:hexsha": "b224e0f69dde58425d1077e07d193d19d3f803a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/d01872ccdf7e1e5e825b6c6292b43e7d27ae5fc4",
+      "git:hexsha": "d01872ccdf7e1e5e825b6c6292b43e7d27ae5fc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/c17c1ca0496fbde3827c01cecd6a37d848142772",
+      "git:hexsha": "c17c1ca0496fbde3827c01cecd6a37d848142772",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/15936e95e52cf1abcaee6a506291219a9638e781",
+      "git:hexsha": "15936e95e52cf1abcaee6a506291219a9638e781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/0cd3d8aeec0c93d1617e7209c80026b693290f62",
+      "git:hexsha": "0cd3d8aeec0c93d1617e7209c80026b693290f62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.3-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/afcdbc9a7f68abde4204601638a8c18d86f746c3",
+      "git:hexsha": "afcdbc9a7f68abde4204601638a8c18d86f746c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.3-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/09070ceab1607bbf59436052ad6327ea5deb9eb3",
+      "git:hexsha": "09070ceab1607bbf59436052ad6327ea5deb9eb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.3-3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/d7f33d6d5bd92cfd3a390d25e306e66487222402",
+      "git:hexsha": "d7f33d6d5bd92cfd3a390d25e306e66487222402",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-4.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/73fa11564a8cb814a9da7400449e65790a25105e",
+      "git:hexsha": "73fa11564a8cb814a9da7400449e65790a25105e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/7ebda90211052233b9c8bb3723f1d84f57f45e56",
+      "git:hexsha": "7ebda90211052233b9c8bb3723f1d84f57f45e56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.0.0-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/eb5cd981685850d1f99d99c36ade323d3008574f",
+      "git:hexsha": "eb5cd981685850d1f99d99c36ade323d3008574f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/12e4da6dfb86910d2bb8d35321dacf949f8320df",
+      "git:hexsha": "12e4da6dfb86910d2bb8d35321dacf949f8320df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.0.1-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/d2fca62352fc526989beb0f46e59b3f1dd75c0e0",
+      "git:hexsha": "d2fca62352fc526989beb0f46e59b3f1dd75c0e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/82a42601e3a7f1a44aadc5a948c2b6fde3e0e407",
+      "git:hexsha": "82a42601e3a7f1a44aadc5a948c2b6fde3e0e407",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3ef7def9822ebae8e70d381aace0b398a9765908",
+      "git:hexsha": "3ef7def9822ebae8e70d381aace0b398a9765908",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.1.0-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/f466da4ebdbb69d5436ee91a0eaf45b7105e9530",
+      "git:hexsha": "f466da4ebdbb69d5436ee91a0eaf45b7105e9530",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.1.0-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/3299a7e8154a2c010754a969348cd0a3858282a0",
+      "git:hexsha": "3299a7e8154a2c010754a969348cd0a3858282a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/a8ab41dc88f7adec8532a039d80ef292499d57bf",
+      "git:hexsha": "a8ab41dc88f7adec8532a039d80ef292499d57bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/47f94ff45551670e167dda2d7b9b205bbdbe0466",
+      "git:hexsha": "47f94ff45551670e167dda2d7b9b205bbdbe0466",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/8e4b14cbee88e1b04d7c49d29b2e593a37cdf80e",
+      "git:hexsha": "8e4b14cbee88e1b04d7c49d29b2e593a37cdf80e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/475f4ab305d3b6eccb0520e9298a6cf829ffcf75",
+      "git:hexsha": "475f4ab305d3b6eccb0520e9298a6cf829ffcf75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1dd500100ff79217553bec0d1218bdde3e0ce0fc",
+      "git:hexsha": "1dd500100ff79217553bec0d1218bdde3e0ce0fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/820db896be83f72f1cb653981362c682c8fc0d1f",
+      "git:hexsha": "820db896be83f72f1cb653981362c682c8fc0d1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/6e76d57af83d59d7a0456fd5889e392a7b366b43",
+      "git:hexsha": "6e76d57af83d59d7a0456fd5889e392a7b366b43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/2a67034bc21150e9cc14500f65c41fa4e9d51c9b",
+      "git:hexsha": "2a67034bc21150e9cc14500f65c41fa4e9d51c9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/5aca07dac191316a8d7da314c283ac7bc9c36f54",
+      "git:hexsha": "5aca07dac191316a8d7da314c283ac7bc9c36f54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/283d02ec8966c0e99f4666dc7bdd936479e97246",
+      "git:hexsha": "283d02ec8966c0e99f4666dc7bdd936479e97246",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-6.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml/commit/1fd1d6bc300bcd9a41def810c5fc3223811b579e",
+      "git:hexsha": "1fd1d6bc300bcd9a41def810c5fc3223811b579e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lxml-6.0.4"
+    }
+  ]
+}
