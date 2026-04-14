@@ -1,0 +1,622 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/giampaolo/psutil",
+  "@type": "gh:Repository",
+  "gh:name": "psutil",
+  "gh:owner": "giampaolo",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+      "git:hexsha": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v7.2.2",
+      "repolex:parsedAt": "2026-04-14T15:03:49.147266+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/e6aa8f65b55969313a88c919b6451be04f388367",
+      "git:hexsha": "e6aa8f65b55969313a88c919b6451be04f388367",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/07c9c762ca84908bc17915eeb2487bbe69c796fc",
+      "git:hexsha": "07c9c762ca84908bc17915eeb2487bbe69c796fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/f9c82ddedbbe1b47a93a77014c720bf1c98afe34",
+      "git:hexsha": "f9c82ddedbbe1b47a93a77014c720bf1c98afe34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/95c37559177bec9aee5e7a76d9cc5565792f38d1",
+      "git:hexsha": "95c37559177bec9aee5e7a76d9cc5565792f38d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/d5f6f9c46830c67cc9ed6266adac1386520bf2d2",
+      "git:hexsha": "d5f6f9c46830c67cc9ed6266adac1386520bf2d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/4382dfff0f571185e18a54cbe07d47c994335cb1",
+      "git:hexsha": "4382dfff0f571185e18a54cbe07d47c994335cb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/bf91891f0b0fbab73f2104a1c439435c12595299",
+      "git:hexsha": "bf91891f0b0fbab73f2104a1c439435c12595299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/3d2a976a1c61174ac0d46b9f1b020ca0cd9d6110",
+      "git:hexsha": "3d2a976a1c61174ac0d46b9f1b020ca0cd9d6110",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/5f63911dd186424e264ef52a6d75bc404e5f49db",
+      "git:hexsha": "5f63911dd186424e264ef52a6d75bc404e5f49db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/d84127401a0ed36726b06d557a8e4d0d6bee729c",
+      "git:hexsha": "d84127401a0ed36726b06d557a8e4d0d6bee729c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/12cc0eb33df9a2ec7def8b26c472d544fde67e85",
+      "git:hexsha": "12cc0eb33df9a2ec7def8b26c472d544fde67e85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/b3c1416b15bd01911d5e4f0f6479b887fb0ec4b8",
+      "git:hexsha": "b3c1416b15bd01911d5e4f0f6479b887fb0ec4b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/27b87d4f2318ff58df49302394c6538f05371bb2",
+      "git:hexsha": "27b87d4f2318ff58df49302394c6538f05371bb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/06325c85e0b3cddb671c1ef73a33234d66b29820",
+      "git:hexsha": "06325c85e0b3cddb671c1ef73a33234d66b29820",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/5b89740fe8ea9797cc195f7703ef9ec06260e6c5",
+      "git:hexsha": "5b89740fe8ea9797cc195f7703ef9ec06260e6c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/305e72e2290928d41dc8f192a855a0aaf41e35ea",
+      "git:hexsha": "305e72e2290928d41dc8f192a855a0aaf41e35ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/3b13ef49480e165fdaa85f263f0bde48fd89c7a3",
+      "git:hexsha": "3b13ef49480e165fdaa85f263f0bde48fd89c7a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/f90e8fb0aa9e52e4c7000c97bbbce55748bbe29c",
+      "git:hexsha": "f90e8fb0aa9e52e4c7000c97bbbce55748bbe29c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/7a50c5ac27699986ccdc0f7f3f0805b0c9b15421",
+      "git:hexsha": "7a50c5ac27699986ccdc0f7f3f0805b0c9b15421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/ee765d02fd379f14908409baba40e239224ccd43",
+      "git:hexsha": "ee765d02fd379f14908409baba40e239224ccd43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/a488118a6c8cd3bf0b320d017db44dacac68a33e",
+      "git:hexsha": "a488118a6c8cd3bf0b320d017db44dacac68a33e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/c32ebbc22a986559ed83dbe0360ff1c65ded6206",
+      "git:hexsha": "c32ebbc22a986559ed83dbe0360ff1c65ded6206",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/98a0329039404421cc3a1e0b0c08e6d478029ba8",
+      "git:hexsha": "98a0329039404421cc3a1e0b0c08e6d478029ba8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/41a3d90f01ad4e4b9cf30fb12b9f31a71713be71",
+      "git:hexsha": "41a3d90f01ad4e4b9cf30fb12b9f31a71713be71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/50bd135bbbd17c970afc4882b0829900e3d9bb4c",
+      "git:hexsha": "50bd135bbbd17c970afc4882b0829900e3d9bb4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/cc4c00a73cad56b210e678f46049ac45cfc89e20",
+      "git:hexsha": "cc4c00a73cad56b210e678f46049ac45cfc89e20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/29b0a61f60abfd4bdb2f1afc28172d0595ba24be",
+      "git:hexsha": "29b0a61f60abfd4bdb2f1afc28172d0595ba24be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/2bc8555f0428af81c2d067aa76168ed7bc5e0179",
+      "git:hexsha": "2bc8555f0428af81c2d067aa76168ed7bc5e0179",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/84eb441a6129ebbe1839063363d784b1eb1ed3f2",
+      "git:hexsha": "84eb441a6129ebbe1839063363d784b1eb1ed3f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/296759638981d5eba54ee0ab1b831d018e97d903",
+      "git:hexsha": "296759638981d5eba54ee0ab1b831d018e97d903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/b7cc5955fa6c8a1d9a408a4e517dfb321bfb5e2f",
+      "git:hexsha": "b7cc5955fa6c8a1d9a408a4e517dfb321bfb5e2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/ac8c95745ff5c6adfa96af70852b237f776883aa",
+      "git:hexsha": "ac8c95745ff5c6adfa96af70852b237f776883aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/e36394a7973514778d74d172b2eaa187da3d1048",
+      "git:hexsha": "e36394a7973514778d74d172b2eaa187da3d1048",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/6a5f980a23ecda2b7bbe9ea95bc165df6a6951ad",
+      "git:hexsha": "6a5f980a23ecda2b7bbe9ea95bc165df6a6951ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/99f6abf9bcff3abff815b8e93c8cd2fbe26487a2",
+      "git:hexsha": "99f6abf9bcff3abff815b8e93c8cd2fbe26487a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/fed8843f0ae0eef36862a27207ee2403b5c921a7",
+      "git:hexsha": "fed8843f0ae0eef36862a27207ee2403b5c921a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/a5f9fbca765e5e1bdffa2a973d95e8210c0848e3",
+      "git:hexsha": "a5f9fbca765e5e1bdffa2a973d95e8210c0848e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/769352c4357172c902134783704b31481db52520",
+      "git:hexsha": "769352c4357172c902134783704b31481db52520",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/6e69cf7aa3fef810919d4c2be0705927b054aa39",
+      "git:hexsha": "6e69cf7aa3fef810919d4c2be0705927b054aa39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/42b34049cf96e845b6423db91f991849a2f87578",
+      "git:hexsha": "42b34049cf96e845b6423db91f991849a2f87578",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/04b316602700898bee0a0286c4b2df74f6584bbe",
+      "git:hexsha": "04b316602700898bee0a0286c4b2df74f6584bbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/bda8c65d7557904f895a5d795ced1c33508d6cc8",
+      "git:hexsha": "bda8c65d7557904f895a5d795ced1c33508d6cc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/978b673c48dc0422ea3ee3267a13b0e24e88e07a",
+      "git:hexsha": "978b673c48dc0422ea3ee3267a13b0e24e88e07a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/75ef6927c4b0b5fc6fb5b29b61ef43d27448da65",
+      "git:hexsha": "75ef6927c4b0b5fc6fb5b29b61ef43d27448da65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/cc98f161bd6a0c6e26bfe10bd37cc6bee6859ad3",
+      "git:hexsha": "cc98f161bd6a0c6e26bfe10bd37cc6bee6859ad3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/55dcd0204feed052276d310f23c633c20a392acf",
+      "git:hexsha": "55dcd0204feed052276d310f23c633c20a392acf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/47b68916eb3678ab81ddee4e3643ff4dcf8b66c9",
+      "git:hexsha": "47b68916eb3678ab81ddee4e3643ff4dcf8b66c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/ba2c07c2a0147157d18c374aa7922b144cd8f150",
+      "git:hexsha": "ba2c07c2a0147157d18c374aa7922b144cd8f150",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/5834173c6a3e51ab954d2c4a17df6e48d9d524e5",
+      "git:hexsha": "5834173c6a3e51ab954d2c4a17df6e48d9d524e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/84e706afcfa5e24523d6768579d0a11979cd15d8",
+      "git:hexsha": "84e706afcfa5e24523d6768579d0a11979cd15d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/9ad0590f4d801cfbb0224da33127dc56dbd55130",
+      "git:hexsha": "9ad0590f4d801cfbb0224da33127dc56dbd55130",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/4d219e1349187553245c9ec57d9a2fb6923d601e",
+      "git:hexsha": "4d219e1349187553245c9ec57d9a2fb6923d601e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/e5a32988815641e0fee816ba4d2c6d779167f4c6",
+      "git:hexsha": "e5a32988815641e0fee816ba4d2c6d779167f4c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/6bfab5d4c7961a29fe9f195ccf89dccdc1637a41",
+      "git:hexsha": "6bfab5d4c7961a29fe9f195ccf89dccdc1637a41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/2ab6417338cfa4b674a2e39c7592b265f3cadc80",
+      "git:hexsha": "2ab6417338cfa4b674a2e39c7592b265f3cadc80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/c54a0f4376b6c66c031ff094dcf040f8f0e3e3b2",
+      "git:hexsha": "c54a0f4376b6c66c031ff094dcf040f8f0e3e3b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/fe0799f98e04b980c3f9aee0dd577567eb932e0b",
+      "git:hexsha": "fe0799f98e04b980c3f9aee0dd577567eb932e0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/c34dac19561501a2b37262f139248552e46c338c",
+      "git:hexsha": "c34dac19561501a2b37262f139248552e46c338c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/38f43df717386e767de0b1e044bb17510b0b1a6c",
+      "git:hexsha": "38f43df717386e767de0b1e044bb17510b0b1a6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/147de27ff4a1f9f078b7e3783dae48a8c9eb8da6",
+      "git:hexsha": "147de27ff4a1f9f078b7e3783dae48a8c9eb8da6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/9db307472b1fce4847b01ecf64e3978c85cb3a86",
+      "git:hexsha": "9db307472b1fce4847b01ecf64e3978c85cb3a86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/ad4acae5489f86fc3bef645505b3873f156b4867",
+      "git:hexsha": "ad4acae5489f86fc3bef645505b3873f156b4867",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/feded95354062d3cc36f71993791b32a1c87098c",
+      "git:hexsha": "feded95354062d3cc36f71993791b32a1c87098c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/91b0d9c05d5781d3cf6594f2a3660ee897be0345",
+      "git:hexsha": "91b0d9c05d5781d3cf6594f2a3660ee897be0345",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/776d61024f061c47fbff5c765a619c1fd5701f5a",
+      "git:hexsha": "776d61024f061c47fbff5c765a619c1fd5701f5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/0699c04eb20132dc6f15f69e29565c67d264f00e",
+      "git:hexsha": "0699c04eb20132dc6f15f69e29565c67d264f00e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/648d8ba39eff4867d461a45a77d1245e2a909234",
+      "git:hexsha": "648d8ba39eff4867d461a45a77d1245e2a909234",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/c6b3e929deb182d4db6007548571ad8ddb32bd87",
+      "git:hexsha": "c6b3e929deb182d4db6007548571ad8ddb32bd87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/1c3287754f7b87708c3b81e72d1ab4f7f423e9ea",
+      "git:hexsha": "1c3287754f7b87708c3b81e72d1ab4f7f423e9ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/74bdb6487cece4b2acb8ddf716ecd3a645d287d8",
+      "git:hexsha": "74bdb6487cece4b2acb8ddf716ecd3a645d287d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/da2bdd6d7356b40baca5f2869a5d20e352e5356a",
+      "git:hexsha": "da2bdd6d7356b40baca5f2869a5d20e352e5356a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/e74f59b86bd3d98be915e42c8f470a52667280cc",
+      "git:hexsha": "e74f59b86bd3d98be915e42c8f470a52667280cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/f50df9657591c52a0a46c5af3d14998c6471065f",
+      "git:hexsha": "f50df9657591c52a0a46c5af3d14998c6471065f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/70abf32eb3c803a0a527c3784c3baca3ae041bcb",
+      "git:hexsha": "70abf32eb3c803a0a527c3784c3baca3ae041bcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/b17eda56735b1e93a907355b4436f118d1333a37",
+      "git:hexsha": "b17eda56735b1e93a907355b4436f118d1333a37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/c6cd256da95ffe9599792759b1c2586ba24fa047",
+      "git:hexsha": "c6cd256da95ffe9599792759b1c2586ba24fa047",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/78c8669f9c11fc4d4105925e2fb5e13963abd4a5",
+      "git:hexsha": "78c8669f9c11fc4d4105925e2fb5e13963abd4a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/f2e0c98ec0348810afe0e12347991438123c86f1",
+      "git:hexsha": "f2e0c98ec0348810afe0e12347991438123c86f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/9267775415c6464478457e9ac332f83787a7acc2",
+      "git:hexsha": "9267775415c6464478457e9ac332f83787a7acc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/a0967043b5819b2edc61d9a12306289d5e7f98c2",
+      "git:hexsha": "a0967043b5819b2edc61d9a12306289d5e7f98c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/4650d44a9ba6ac06a8161e7778b0556cd5573b1c",
+      "git:hexsha": "4650d44a9ba6ac06a8161e7778b0556cd5573b1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/b760f4848db4db49de57918660f6a5059666b720",
+      "git:hexsha": "b760f4848db4db49de57918660f6a5059666b720",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/f1a54ad88527e0706fb8a88ad7daae80686acc62",
+      "git:hexsha": "f1a54ad88527e0706fb8a88ad7daae80686acc62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/992dfe4620bbda3316b54c53b63236f3159aa5f9",
+      "git:hexsha": "992dfe4620bbda3316b54c53b63236f3159aa5f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/9f9a82d02c901f62512236b44edb050f84cbe5b6",
+      "git:hexsha": "9f9a82d02c901f62512236b44edb050f84cbe5b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/aae4346a560601e0417188f55cdd2d2a0e606fa7",
+      "git:hexsha": "aae4346a560601e0417188f55cdd2d2a0e606fa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/aa1253c92984e5be6335c024d84e7ec1072baddf",
+      "git:hexsha": "aa1253c92984e5be6335c024d84e7ec1072baddf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/0d4900b073f8697ab21c47d823621bea61f39a3b",
+      "git:hexsha": "0d4900b073f8697ab21c47d823621bea61f39a3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/8eb2930539e8030bae94255040a6254889c0fb05",
+      "git:hexsha": "8eb2930539e8030bae94255040a6254889c0fb05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/8e21684cf34fccab5868b13fcedd69b3598be6f9",
+      "git:hexsha": "8e21684cf34fccab5868b13fcedd69b3598be6f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/27a1432daeacd46b287517c11bfea2af4fd95a88",
+      "git:hexsha": "27a1432daeacd46b287517c11bfea2af4fd95a88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/3d5522aafb6c9cbcbcf4edfa11348f755af97d96",
+      "git:hexsha": "3d5522aafb6c9cbcbcf4edfa11348f755af97d96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/fb68f9fae3b398899d87161746884ebb2a2613c0",
+      "git:hexsha": "fb68f9fae3b398899d87161746884ebb2a2613c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/58552f6aa9f7dfb964596e28519ad77b8374defd",
+      "git:hexsha": "58552f6aa9f7dfb964596e28519ad77b8374defd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/ea5b55605f857affa4e65fa27eb80f4f2bfebd63",
+      "git:hexsha": "ea5b55605f857affa4e65fa27eb80f4f2bfebd63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/0d18187e79b349e577fadabd3589f8fdbf99bf5a",
+      "git:hexsha": "0d18187e79b349e577fadabd3589f8fdbf99bf5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/a07e87a1336678cbcc929116cd826137779cf654",
+      "git:hexsha": "a07e87a1336678cbcc929116cd826137779cf654",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/c948ef07e46b114a61492c9d207c741339fceeb2",
+      "git:hexsha": "c948ef07e46b114a61492c9d207c741339fceeb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/5904ff94e3fd0fea3d0734a936834bef6e63369a",
+      "git:hexsha": "5904ff94e3fd0fea3d0734a936834bef6e63369a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/704e218db7da14e98a54f2aa9f93372d5900e0b4",
+      "git:hexsha": "704e218db7da14e98a54f2aa9f93372d5900e0b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil/commit/6130c19da2d01383befa0dfca2371a792f8881af",
+      "git:hexsha": "6130c19da2d01383befa0dfca2371a792f8881af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.1"
+    }
+  ]
+}
