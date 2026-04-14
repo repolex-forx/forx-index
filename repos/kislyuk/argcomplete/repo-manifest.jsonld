@@ -1,0 +1,820 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/kislyuk/argcomplete",
+  "@type": "gh:Repository",
+  "gh:name": "argcomplete",
+  "gh:owner": "kislyuk",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/fae5549ac1e89ec05de7d11ff33f540c74fc3b18",
+      "git:hexsha": "fae5549ac1e89ec05de7d11ff33f540c74fc3b18",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v3.6.3",
+      "repolex:parsedAt": "2026-04-14T19:46:54.112366+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/daac720c1b08661ac4e809ece7c35e4e05aa77b2",
+      "git:hexsha": "daac720c1b08661ac4e809ece7c35e4e05aa77b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a0f69853bf2f9958a5dd5285451878b0b4eb10cb",
+      "git:hexsha": "a0f69853bf2f9958a5dd5285451878b0b4eb10cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/72bc158cdc3651193c79bba7b7da327d74f746eb",
+      "git:hexsha": "72bc158cdc3651193c79bba7b7da327d74f746eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/de0516a7df566b1c501f068af3b3c6c1513c3bac",
+      "git:hexsha": "de0516a7df566b1c501f068af3b3c6c1513c3bac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/2c9e01e458437c0a42e31d31d5416aa495f1dbdb",
+      "git:hexsha": "2c9e01e458437c0a42e31d31d5416aa495f1dbdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/58e4b7b86f5246b9fa2025ccbc90f39d0fff6d87",
+      "git:hexsha": "58e4b7b86f5246b9fa2025ccbc90f39d0fff6d87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a6fb1dbeff60b066dda483a9a65dccd90b554781",
+      "git:hexsha": "a6fb1dbeff60b066dda483a9a65dccd90b554781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/7f44686a27fd540d21d756dc162893781df53c5f",
+      "git:hexsha": "7f44686a27fd540d21d756dc162893781df53c5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/d5fea706f3e9717e1cd2c260e3b66aebc273c343",
+      "git:hexsha": "d5fea706f3e9717e1cd2c260e3b66aebc273c343",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/21005c6deacbd5dbb2285d889462913c502aed10",
+      "git:hexsha": "21005c6deacbd5dbb2285d889462913c502aed10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/30702b3460a5616f8b16268c18eb16d90c6f4bd0",
+      "git:hexsha": "30702b3460a5616f8b16268c18eb16d90c6f4bd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a442064f89c956cbf751a92b9f16b8cfa2e60057",
+      "git:hexsha": "a442064f89c956cbf751a92b9f16b8cfa2e60057",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/04a97dec3417e8d09596182583c4ceb62f8c6dd1",
+      "git:hexsha": "04a97dec3417e8d09596182583c4ceb62f8c6dd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/722d1b98a43fdbd470d8b9441e7a5d657b3e56a6",
+      "git:hexsha": "722d1b98a43fdbd470d8b9441e7a5d657b3e56a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/025f6a39c5d16065c422525784dff6cd561b9fa0",
+      "git:hexsha": "025f6a39c5d16065c422525784dff6cd561b9fa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/c4b050c3523cbb1afdaa3494e0a138e9b84dc906",
+      "git:hexsha": "c4b050c3523cbb1afdaa3494e0a138e9b84dc906",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/d5d0666b3114d8bc79fcf9836cf84f5a181be71a",
+      "git:hexsha": "d5d0666b3114d8bc79fcf9836cf84f5a181be71a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f6a7bf43c2564ef79dbddd0fe4be32bf27d79450",
+      "git:hexsha": "f6a7bf43c2564ef79dbddd0fe4be32bf27d79450",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a184e3c096b894c46fb9865aabc9ffab0d71d580",
+      "git:hexsha": "a184e3c096b894c46fb9865aabc9ffab0d71d580",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/cd3a299a12946292325f4393667f5fddb4be8792",
+      "git:hexsha": "cd3a299a12946292325f4393667f5fddb4be8792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/5147bff811538021c369477e40522770437e9946",
+      "git:hexsha": "5147bff811538021c369477e40522770437e9946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/45ae8bfcea2ba1e6f9f1c2e10baa5aad7fa0718a",
+      "git:hexsha": "45ae8bfcea2ba1e6f9f1c2e10baa5aad7fa0718a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/db23ba50a0f6191804cb8d0b1773430b65fd5af1",
+      "git:hexsha": "db23ba50a0f6191804cb8d0b1773430b65fd5af1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a2c3d1e940417ab2f1e7ac37abcbf8168274ce37",
+      "git:hexsha": "a2c3d1e940417ab2f1e7ac37abcbf8168274ce37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ce2e69194d4048d6e01ed312695d0643b4ab48e6",
+      "git:hexsha": "ce2e69194d4048d6e01ed312695d0643b4ab48e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/d3a037ee38477122df4b23b46860f7a4f02a02c9",
+      "git:hexsha": "d3a037ee38477122df4b23b46860f7a4f02a02c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/6f853aaab62fe1cca7c2da239c737289ce6f5d88",
+      "git:hexsha": "6f853aaab62fe1cca7c2da239c737289ce6f5d88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f60913fa196f1d021b69ff5890792512d5e813e7",
+      "git:hexsha": "f60913fa196f1d021b69ff5890792512d5e813e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/e344ecdc82d3f0aabda4ef56cd9cf05e5feb6e26",
+      "git:hexsha": "e344ecdc82d3f0aabda4ef56cd9cf05e5feb6e26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/21f59b293db8dac6a3b3497536a96a53c1d212a4",
+      "git:hexsha": "21f59b293db8dac6a3b3497536a96a53c1d212a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/4281e3efd2902f13640066f40eb7bb9126fd082f",
+      "git:hexsha": "4281e3efd2902f13640066f40eb7bb9126fd082f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/b858f388c958d7e593beacffb03c5043e8fb6f7a",
+      "git:hexsha": "b858f388c958d7e593beacffb03c5043e8fb6f7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f8be6c0b8719a5012ea4b438ab77f2ec21e9e574",
+      "git:hexsha": "f8be6c0b8719a5012ea4b438ab77f2ec21e9e574",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/69f83f8b1b010051b8247ac33caa3a2d9e4bcd97",
+      "git:hexsha": "69f83f8b1b010051b8247ac33caa3a2d9e4bcd97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/91d10a74d34a010862604cc6d66f3e94e12570f6",
+      "git:hexsha": "91d10a74d34a010862604cc6d66f3e94e12570f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/b97c6d01344556036d3267546f467a3983dd7f5b",
+      "git:hexsha": "b97c6d01344556036d3267546f467a3983dd7f5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/3da103539e76aafb541bbeab32c910bc21429774",
+      "git:hexsha": "3da103539e76aafb541bbeab32c910bc21429774",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/65597140d79d7a9daae6d75d55b99a5e5886e8a3",
+      "git:hexsha": "65597140d79d7a9daae6d75d55b99a5e5886e8a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/cfab912b2d26e270389dcbc6706bc900e9e61efb",
+      "git:hexsha": "cfab912b2d26e270389dcbc6706bc900e9e61efb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/2b728cb71cf384955d66e04bd14f54cdfd85f47b",
+      "git:hexsha": "2b728cb71cf384955d66e04bd14f54cdfd85f47b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/af4bcd50135df6fd03340a39e574b633d5e0ee99",
+      "git:hexsha": "af4bcd50135df6fd03340a39e574b633d5e0ee99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/517aade4ab2cea15698243bcb54aadbdc91f184b",
+      "git:hexsha": "517aade4ab2cea15698243bcb54aadbdc91f184b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/bfc762f2e27bfcba99f862c57a0226a517316ed0",
+      "git:hexsha": "bfc762f2e27bfcba99f862c57a0226a517316ed0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/3612b1023490725a203b15494d96565e550ffa88",
+      "git:hexsha": "3612b1023490725a203b15494d96565e550ffa88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/e3a7116cdb462eaa93cf9d4188e5b6aa6b67448d",
+      "git:hexsha": "e3a7116cdb462eaa93cf9d4188e5b6aa6b67448d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/2acaff22a216f6be9b4e95c3883e21fcb463e0b9",
+      "git:hexsha": "2acaff22a216f6be9b4e95c3883e21fcb463e0b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/cf335e7522ffaa31c8478fcf09feda4bb8e9ce3e",
+      "git:hexsha": "cf335e7522ffaa31c8478fcf09feda4bb8e9ce3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/15351fc849c0d3742da81b6f92645e564b01d3a2",
+      "git:hexsha": "15351fc849c0d3742da81b6f92645e564b01d3a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/4eb2ecee983d8b85bf2a315b8a6f186f8255008d",
+      "git:hexsha": "4eb2ecee983d8b85bf2a315b8a6f186f8255008d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f32bf01e3a5d9d96041a288111581692f2659760",
+      "git:hexsha": "f32bf01e3a5d9d96041a288111581692f2659760",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/8b1b578d204f460a0bb9a18d3c2e4f662861c2df",
+      "git:hexsha": "8b1b578d204f460a0bb9a18d3c2e4f662861c2df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f8a9ea5bc17d9c19a7890088871b81a0320e22fa",
+      "git:hexsha": "f8a9ea5bc17d9c19a7890088871b81a0320e22fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f8fe1022b4b35fbf0d2c4123510d42415c942202",
+      "git:hexsha": "f8fe1022b4b35fbf0d2c4123510d42415c942202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/cffd6467f7f441ed476181af28f9c6ff4a29b930",
+      "git:hexsha": "cffd6467f7f441ed476181af28f9c6ff4a29b930",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a88dcaae3132003ae123d39a2cd9924113b8f985",
+      "git:hexsha": "a88dcaae3132003ae123d39a2cd9924113b8f985",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/40e2896dfff7386c4ae569bd74c8647b526ccdca",
+      "git:hexsha": "40e2896dfff7386c4ae569bd74c8647b526ccdca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ef44ecaea9e435a197e08a82c72fa9823c785a83",
+      "git:hexsha": "ef44ecaea9e435a197e08a82c72fa9823c785a83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/296d30997f38d6513a8c3d953208437165d3bcb5",
+      "git:hexsha": "296d30997f38d6513a8c3d953208437165d3bcb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ead643511bee677552240ae9def30a40c7e93b5d",
+      "git:hexsha": "ead643511bee677552240ae9def30a40c7e93b5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f78f58c1c8c7e73cde190b36e6daed2b701cb6d1",
+      "git:hexsha": "f78f58c1c8c7e73cde190b36e6daed2b701cb6d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/6c6ebcd707b99ebb29844d0f3a1c68190cc49a3b",
+      "git:hexsha": "6c6ebcd707b99ebb29844d0f3a1c68190cc49a3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/386768b936d28bb368f17848fea3b4c1dc06d31a",
+      "git:hexsha": "386768b936d28bb368f17848fea3b4c1dc06d31a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/0c0dd321548e543e4b5c3b53645f67ade71c387e",
+      "git:hexsha": "0c0dd321548e543e4b5c3b53645f67ade71c387e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/30e7d16bee54d6990697e349747cca62669f9a7d",
+      "git:hexsha": "30e7d16bee54d6990697e349747cca62669f9a7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/67b2aee9439e82815fe2e13122edf5820c72736f",
+      "git:hexsha": "67b2aee9439e82815fe2e13122edf5820c72736f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/815c35d823089c40b596b37f1f771c50f2fe1fc4",
+      "git:hexsha": "815c35d823089c40b596b37f1f771c50f2fe1fc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/75b9a2f00b07a5baea16b67c6c9028414b6d9333",
+      "git:hexsha": "75b9a2f00b07a5baea16b67c6c9028414b6d9333",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/c1e36106825cc8f6ee64d156c1656085963cf218",
+      "git:hexsha": "c1e36106825cc8f6ee64d156c1656085963cf218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/9d6dd18ae402b606bbd7d0fea663971fc7e42e97",
+      "git:hexsha": "9d6dd18ae402b606bbd7d0fea663971fc7e42e97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/5ddc689396503a1c2fa77a340b5f725ef528e718",
+      "git:hexsha": "5ddc689396503a1c2fa77a340b5f725ef528e718",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/d196109f0c4c89268414e02c16600566615d200d",
+      "git:hexsha": "d196109f0c4c89268414e02c16600566615d200d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ea3825044830b11dc4da2c01eb36a96fda6eb386",
+      "git:hexsha": "ea3825044830b11dc4da2c01eb36a96fda6eb386",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/6d59be6a117a14ccc5bcf88dedcccadc78760037",
+      "git:hexsha": "6d59be6a117a14ccc5bcf88dedcccadc78760037",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ee975823f997367b74169ce98744bbe48c9ce573",
+      "git:hexsha": "ee975823f997367b74169ce98744bbe48c9ce573",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/86fb4be716e6d6fc914df83f8553e6675862a2dd",
+      "git:hexsha": "86fb4be716e6d6fc914df83f8553e6675862a2dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/36bc3b3e4230caacb11de6e49c24bff1406f8c1d",
+      "git:hexsha": "36bc3b3e4230caacb11de6e49c24bff1406f8c1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/bfafe2225267882cec2ad19967f49739c216dbf7",
+      "git:hexsha": "bfafe2225267882cec2ad19967f49739c216dbf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ce54b6dfd51f9f01b4ef85bb8692a9f804a11771",
+      "git:hexsha": "ce54b6dfd51f9f01b4ef85bb8692a9f804a11771",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/8dba89ac9fef2c25eb6e29092f9a54d9dde8a00d",
+      "git:hexsha": "8dba89ac9fef2c25eb6e29092f9a54d9dde8a00d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f74ba4576b1a397a7e611d53c633f42023e8325b",
+      "git:hexsha": "f74ba4576b1a397a7e611d53c633f42023e8325b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/e7a043eed2018b112ddb6bf492a7f00b2dd0a420",
+      "git:hexsha": "e7a043eed2018b112ddb6bf492a7f00b2dd0a420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/2e8402166e15d2121fd8043fe0d2e5d31a2109ba",
+      "git:hexsha": "2e8402166e15d2121fd8043fe0d2e5d31a2109ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/c7af534c9823cda754c6eb116bcbe40a341804cb",
+      "git:hexsha": "c7af534c9823cda754c6eb116bcbe40a341804cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/e233eff140a7d8181cc151cbf0fcb7b72055aa6d",
+      "git:hexsha": "e233eff140a7d8181cc151cbf0fcb7b72055aa6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/92df979d50e6ed64778252ba574033cc6f660550",
+      "git:hexsha": "92df979d50e6ed64778252ba574033cc6f660550",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a5e2efec608aaccbdcef764688166f188ad60012",
+      "git:hexsha": "a5e2efec608aaccbdcef764688166f188ad60012",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/c44b1dbb2e1f1defe3ee99e5486368eed3d65187",
+      "git:hexsha": "c44b1dbb2e1f1defe3ee99e5486368eed3d65187",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/5f63476453436473b93ee927c8a82fbf72e5b356",
+      "git:hexsha": "5f63476453436473b93ee927c8a82fbf72e5b356",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/5cd934c586ab2a4f4bbf831201b46c9ceeb855eb",
+      "git:hexsha": "5cd934c586ab2a4f4bbf831201b46c9ceeb855eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/5ca7bdbd379bb1f329c04a72e50e9cf4ec7e22c0",
+      "git:hexsha": "5ca7bdbd379bb1f329c04a72e50e9cf4ec7e22c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/d18d67cf611233763f1eef6547c396ea0a001a47",
+      "git:hexsha": "d18d67cf611233763f1eef6547c396ea0a001a47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/ec863116dc1f5d457283417de1fee8cb19c82b83",
+      "git:hexsha": "ec863116dc1f5d457283417de1fee8cb19c82b83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/06bef9c1c4c21cc9ecde87b55a13fdd6b2ea0a2b",
+      "git:hexsha": "06bef9c1c4c21cc9ecde87b55a13fdd6b2ea0a2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/cc47af11f98e1a2eed26f1269eeba8efb098436d",
+      "git:hexsha": "cc47af11f98e1a2eed26f1269eeba8efb098436d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f9eb0a2354d9e6153f687c463df98c16251d97ed",
+      "git:hexsha": "f9eb0a2354d9e6153f687c463df98c16251d97ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/bf16566adcfb2fd0307c6ecdf24304b21b0b5752",
+      "git:hexsha": "bf16566adcfb2fd0307c6ecdf24304b21b0b5752",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/23a66a68ec74719914130f3fe4b78b26a636614e",
+      "git:hexsha": "23a66a68ec74719914130f3fe4b78b26a636614e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/f136b4b5d0a13216fd444456c9af77845e7b3b81",
+      "git:hexsha": "f136b4b5d0a13216fd444456c9af77845e7b3b81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/c2345e815b4b403faa3f8d3926c384d374e7982c",
+      "git:hexsha": "c2345e815b4b403faa3f8d3926c384d374e7982c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/507dc6ea0e9a742da6599f44f7a3c91306106302",
+      "git:hexsha": "507dc6ea0e9a742da6599f44f7a3c91306106302",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/1dd3e9f3eac6c2272dc8fb224341c76c75898f4a",
+      "git:hexsha": "1dd3e9f3eac6c2272dc8fb224341c76c75898f4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/9b95ef05ab5ed93f587ae15f9664cee672edb9a0",
+      "git:hexsha": "9b95ef05ab5ed93f587ae15f9664cee672edb9a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/66d1329b2eeb044f28e19bdbde66855814ecfd20",
+      "git:hexsha": "66d1329b2eeb044f28e19bdbde66855814ecfd20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/8ab7a94a3bdc113256fb3dc10ce600c2fd68a32c",
+      "git:hexsha": "8ab7a94a3bdc113256fb3dc10ce600c2fd68a32c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/15e86f2c5a2d52ec285793e722206f0fc37239b4",
+      "git:hexsha": "15e86f2c5a2d52ec285793e722206f0fc37239b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/7a4161110a364a8d8cc046e5d7aba0020d97e72d",
+      "git:hexsha": "7a4161110a364a8d8cc046e5d7aba0020d97e72d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/bc7a8421263704cc9d99ea29a1024ad7acd8942a",
+      "git:hexsha": "bc7a8421263704cc9d99ea29a1024ad7acd8942a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a876438c7f5b33e16a196daaa0d2275f727d291e",
+      "git:hexsha": "a876438c7f5b33e16a196daaa0d2275f727d291e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/83f7e211dbb75985f12e336f536f7b618538bcdb",
+      "git:hexsha": "83f7e211dbb75985f12e336f536f7b618538bcdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/5d375453ac0734f89171395d02d906efa7b01141",
+      "git:hexsha": "5d375453ac0734f89171395d02d906efa7b01141",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/96d8cc07ed831ca713661c0aa920ca8e13ab1d6e",
+      "git:hexsha": "96d8cc07ed831ca713661c0aa920ca8e13ab1d6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/e6371200e4eb05ad312ac8370894201e0d53e890",
+      "git:hexsha": "e6371200e4eb05ad312ac8370894201e0d53e890",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/83b5f36dabb6f8a0863376c9b32b9fc6a5542d15",
+      "git:hexsha": "83b5f36dabb6f8a0863376c9b32b9fc6a5542d15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/57dc7a74b2627a1b997d7f81c06539ad6ce0ef0b",
+      "git:hexsha": "57dc7a74b2627a1b997d7f81c06539ad6ce0ef0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/355741374a5febd564317c2a71a96f0ba43e0206",
+      "git:hexsha": "355741374a5febd564317c2a71a96f0ba43e0206",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a9059f37bb04609ba27c540ffeea4d3c422558a3",
+      "git:hexsha": "a9059f37bb04609ba27c540ffeea4d3c422558a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/140fa5191a86dc2388b68875ec721ef71e25c236",
+      "git:hexsha": "140fa5191a86dc2388b68875ec721ef71e25c236",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/4366484de403108fb5c8bd490abc9d5e5198e00b",
+      "git:hexsha": "4366484de403108fb5c8bd490abc9d5e5198e00b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/e800628022b826b24e8660d4ad44e2a5eb87b2b3",
+      "git:hexsha": "e800628022b826b24e8660d4ad44e2a5eb87b2b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/49d2248e3a58ff592c2e4b5d4481ec9585947b5c",
+      "git:hexsha": "49d2248e3a58ff592c2e4b5d4481ec9585947b5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/7bf86714888dd6abe7a76b0baf3e0d2337d3d3f7",
+      "git:hexsha": "7bf86714888dd6abe7a76b0baf3e0d2337d3d3f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/327441351d48c81499b90671d93eb2c6f4401bdd",
+      "git:hexsha": "327441351d48c81499b90671d93eb2c6f4401bdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/0be05e9dd6ba183277dfe6695d7494185e82354b",
+      "git:hexsha": "0be05e9dd6ba183277dfe6695d7494185e82354b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/2a6c23bcc8b1d389938a2f7db2d12d449d1ac512",
+      "git:hexsha": "2a6c23bcc8b1d389938a2f7db2d12d449d1ac512",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/9077be97459abab129d02ad937eff1618cf67e57",
+      "git:hexsha": "9077be97459abab129d02ad937eff1618cf67e57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/c7cc834df1fddcf94bd35b740fef7c7ab8e9c350",
+      "git:hexsha": "c7cc834df1fddcf94bd35b740fef7c7ab8e9c350",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/7816191779a37048f4a92c66286bdb9ff7c5f9da",
+      "git:hexsha": "7816191779a37048f4a92c66286bdb9ff7c5f9da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/4a60a7e7321954b679ed8338fbfb6446ab1c430d",
+      "git:hexsha": "4a60a7e7321954b679ed8338fbfb6446ab1c430d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/252d5296f77457382e4370fc6252cf3abbcab201",
+      "git:hexsha": "252d5296f77457382e4370fc6252cf3abbcab201",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/fa88f807ee3f1d1c5b2647ca3c38fd3e0349dbfc",
+      "git:hexsha": "fa88f807ee3f1d1c5b2647ca3c38fd3e0349dbfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/1b4da3b9afb62259fefd031f69b6d9edd7f0aa7e",
+      "git:hexsha": "1b4da3b9afb62259fefd031f69b6d9edd7f0aa7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/962a3ed39f14dcd0ff8ca6f6cac212bb290cb870",
+      "git:hexsha": "962a3ed39f14dcd0ff8ca6f6cac212bb290cb870",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a70ff6a13f1e0ef2c8bc05c370049108b4fb3776",
+      "git:hexsha": "a70ff6a13f1e0ef2c8bc05c370049108b4fb3776",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kislyuk/argcomplete/commit/a0143a96b4f26f363cfb5165e93c86c885e0ad12",
+      "git:hexsha": "a0143a96b4f26f363cfb5165e93c86c885e0ad12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.6.2"
+    }
+  ]
+}
