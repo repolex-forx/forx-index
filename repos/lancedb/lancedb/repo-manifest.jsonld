@@ -1,0 +1,2704 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/lancedb/lancedb",
+  "@type": "gh:Repository",
+  "gh:name": "lancedb",
+  "gh:owner": "lancedb",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/93aa0df9729840c6f059976b41e193b5e8922fa7",
+      "git:hexsha": "93aa0df9729840c6f059976b41e193b5e8922fa7",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.28.0-beta.1",
+      "repolex:parsedAt": "2026-04-18T00:21:24.356841+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e0e7e01ea895d56577c64dc6aa0d3c59c4bc89f5",
+      "git:hexsha": "e0e7e01ea895d56577c64dc6aa0d3c59c4bc89f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci-support-binaries"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5e3167da83f69deb669eaba1433d1b962bc4eb37",
+      "git:hexsha": "5e3167da83f69deb669eaba1433d1b962bc4eb37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f4ce86e12ca0deea0bf5c093a73453a4d594c71b",
+      "git:hexsha": "f4ce86e12ca0deea0bf5c093a73453a4d594c71b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1cbfc1bbf4e30e3cf3f0edc4813d08c6175fd00a",
+      "git:hexsha": "1cbfc1bbf4e30e3cf3f0edc4813d08c6175fd00a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0e4050e706bb4557e27d602b714d0fe05fcd3460",
+      "git:hexsha": "0e4050e706bb4557e27d602b714d0fe05fcd3460",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b06e214d293f92ac117a86b0957461a36d7c72da",
+      "git:hexsha": "b06e214d293f92ac117a86b0957461a36d7c72da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4744640bd2fe0e4ab613558f9dc08046ec4abc44",
+      "git:hexsha": "4744640bd2fe0e4ab613558f9dc08046ec4abc44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5210f40a3357a9b04cb8fa36c7f42ae649f29684",
+      "git:hexsha": "5210f40a3357a9b04cb8fa36c7f42ae649f29684",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0e4c52b8a6ed68b25e6234a9f89d01e9eeb8d5fb",
+      "git:hexsha": "0e4c52b8a6ed68b25e6234a9f89d01e9eeb8d5fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/11959cc5d67fe2dffbcbb6ef294a5f3d397c537c",
+      "git:hexsha": "11959cc5d67fe2dffbcbb6ef294a5f3d397c537c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/2c36767f20c87a1a43b6ef38213363d02aad9c59",
+      "git:hexsha": "2c36767f20c87a1a43b6ef38213363d02aad9c59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1d5da1d0697ae9be2a000a2d4b82aba74168f500",
+      "git:hexsha": "1d5da1d0697ae9be2a000a2d4b82aba74168f500",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7b6d3f943b8b87853096b2743daead687de212e6",
+      "git:hexsha": "7b6d3f943b8b87853096b2743daead687de212e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ec39d985719f3444c6f38b2a40aafd607fb6af22",
+      "git:hexsha": "ec39d985719f3444c6f38b2a40aafd607fb6af22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/64eb43229d7056699b3e0710930b3b899303cbb3",
+      "git:hexsha": "64eb43229d7056699b3e0710930b3b899303cbb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ff5bbfdd4c217b9674003c0b551f96a879273abd",
+      "git:hexsha": "ff5bbfdd4c217b9674003c0b551f96a879273abd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.13.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/89bcc1b2e78b229323e446f46cbd04485131750f",
+      "git:hexsha": "89bcc1b2e78b229323e446f46cbd04485131750f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.13.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/515ab5f4173a54da11dcd0a031aae0cf3ff1ab19",
+      "git:hexsha": "515ab5f4173a54da11dcd0a031aae0cf3ff1ab19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/38f0031d0b2f74bc69dc4635b8a2be1241411258",
+      "git:hexsha": "38f0031d0b2f74bc69dc4635b8a2be1241411258",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.14.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1f41101897a64a9c598f5eb1954146f0dbaff5ca",
+      "git:hexsha": "1f41101897a64a9c598f5eb1954146f0dbaff5ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.14.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5517e102c349b15cbd4850421443c26cda9487c7",
+      "git:hexsha": "5517e102c349b15cbd4850421443c26cda9487c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.14.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e291212ecffbd388adc1e027da6e46becbdfaab3",
+      "git:hexsha": "e291212ecffbd388adc1e027da6e46becbdfaab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/66a881b33a91453d3cb5255cab68494af6d058af",
+      "git:hexsha": "66a881b33a91453d3cb5255cab68494af6d058af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/08d5f93f34580d3ac5e9bae851d4657fc1547195",
+      "git:hexsha": "08d5f93f34580d3ac5e9bae851d4657fc1547195",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.16.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4ca0b15354b8c279618ffd6695a78dcfd20704ea",
+      "git:hexsha": "4ca0b15354b8c279618ffd6695a78dcfd20704ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.16.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/96933d7df89d39943157d54e4673e2045cefaa48",
+      "git:hexsha": "96933d7df89d39943157d54e4673e2045cefaa48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.16.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fe655a15f063b594acb743771aabc917f28be4a2",
+      "git:hexsha": "fe655a15f063b594acb743771aabc917f28be4a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/38b0d918480070813fd0d73e0b11cd2311439e74",
+      "git:hexsha": "38b0d918480070813fd0d73e0b11cd2311439e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/84a66932943da1c0cf9d504718f5a457800ab380",
+      "git:hexsha": "84a66932943da1c0cf9d504718f5a457800ab380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/423192547691258b13156187d5db41bec76a1ec3",
+      "git:hexsha": "423192547691258b13156187d5db41bec76a1ec3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/12c7bd18a58881e72c612fa59da5b3eabe6a1b79",
+      "git:hexsha": "12c7bd18a58881e72c612fa59da5b3eabe6a1b79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/27404c8623668cba04ca4ef500b5e3c298d98508",
+      "git:hexsha": "27404c8623668cba04ca4ef500b5e3c298d98508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6ef20b85ca99c13fb5d5677bdea149872ab0f202",
+      "git:hexsha": "6ef20b85ca99c13fb5d5677bdea149872ab0f202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6e5927ce6d0054bd84b71122993e12ebb2e55fca",
+      "git:hexsha": "6e5927ce6d0054bd84b71122993e12ebb2e55fca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f9789ec96296cca0c8de4c05dde06a726c91413f",
+      "git:hexsha": "f9789ec96296cca0c8de4c05dde06a726c91413f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bcbbeb7a0058b5663807032b0103cdc55dcfe6f2",
+      "git:hexsha": "bcbbeb7a0058b5663807032b0103cdc55dcfe6f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e3c6213333f80480dbb9a4bfc30e352b91e95fab",
+      "git:hexsha": "e3c6213333f80480dbb9a4bfc30e352b91e95fab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/144b7f5d54dad74f9a40e486767bf07f1fbb0ba5",
+      "git:hexsha": "144b7f5d54dad74f9a40e486767bf07f1fbb0ba5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/cf8c2edaf4139d9faa7ba77a83e382da3f8978b3",
+      "git:hexsha": "cf8c2edaf4139d9faa7ba77a83e382da3f8978b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.1-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/dae8334d0b8247cfc61fe63995ff07814a7e6dda",
+      "git:hexsha": "dae8334d0b8247cfc61fe63995ff07814a7e6dda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/92d845fa725cd044db1a10299046031c201febd0",
+      "git:hexsha": "92d845fa725cd044db1a10299046031c201febd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a27c5cf12b41018d872b5ac4c304dbe9a8aafb90",
+      "git:hexsha": "a27c5cf12b41018d872b5ac4c304dbe9a8aafb90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.17.2-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/995bd9bf37e9c272fc3892fe8e7a1dc3dcf15326",
+      "git:hexsha": "995bd9bf37e9c272fc3892fe8e7a1dc3dcf15326",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fbffe532a8c2bb9c1b9e3d5b592741820cfe876c",
+      "git:hexsha": "fbffe532a8c2bb9c1b9e3d5b592741820cfe876c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3dc1803c0780acb8e316bf32d3d5ec77e79d97c2",
+      "git:hexsha": "3dc1803c0780acb8e316bf32d3d5ec77e79d97c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e5f42a850e7545e273c7eeae8740de49db6b47b0",
+      "git:hexsha": "e5f42a850e7545e273c7eeae8740de49db6b47b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a9897d9d85f5c958e680ec69bf16da746a3a6b7e",
+      "git:hexsha": "a9897d9d85f5c958e680ec69bf16da746a3a6b7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/482f1ee1d3c10df737767390657d88c872752238",
+      "git:hexsha": "482f1ee1d3c10df737767390657d88c872752238",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f6eef14313570454e2940462e8d97b10528cc374",
+      "git:hexsha": "f6eef14313570454e2940462e8d97b10528cc374",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.18.1-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/998cd43fe63dc884f43bf34b24f7e4259b688a10",
+      "git:hexsha": "998cd43fe63dc884f43bf34b24f7e4259b688a10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e64712cfa5127bd73b1a859a48357fd84d2eb875",
+      "git:hexsha": "e64712cfa5127bd73b1a859a48357fd84d2eb875",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.19.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d18d63c69d1bbb73e3e66906c34045424dcdb0c8",
+      "git:hexsha": "d18d63c69d1bbb73e3e66906c34045424dcdb0c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.19.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/40f0dbb64dd9b3affd25a9d680ce12d7a977ae31",
+      "git:hexsha": "40f0dbb64dd9b3affd25a9d680ce12d7a977ae31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.19.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a33a0670f60881b5e6a2ff3d0c2d1b1ed41d8237",
+      "git:hexsha": "a33a0670f60881b5e6a2ff3d0c2d1b1ed41d8237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.19.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b1a5c251ba0494a3030d4e07b1702f5c8e19b0ac",
+      "git:hexsha": "b1a5c251ba0494a3030d4e07b1702f5c8e19b0ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/909b7e90cd2c1e8d97a6119d93a3bbf14d0d6e75",
+      "git:hexsha": "909b7e90cd2c1e8d97a6119d93a3bbf14d0d6e75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fe8848efb954a65c785dfb82b4c437d1216b1f8b",
+      "git:hexsha": "fe8848efb954a65c785dfb82b4c437d1216b1f8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/661fcecf382e276407c2669e01d34e4d7fd25e78",
+      "git:hexsha": "661fcecf382e276407c2669e01d34e4d7fd25e78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8dc2315479371f622a7896d6eeb0ddda7d259188",
+      "git:hexsha": "8dc2315479371f622a7896d6eeb0ddda7d259188",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/74004161ff1a90ae11a7fa531b551b2bc891e6ed",
+      "git:hexsha": "74004161ff1a90ae11a7fa531b551b2bc891e6ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d326146a403314528d36ad6a2cc8eed90b51f12b",
+      "git:hexsha": "d326146a403314528d36ad6a2cc8eed90b51f12b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/072adc41aa456d9b4821b6719b97e87bb0961fdd",
+      "git:hexsha": "072adc41aa456d9b4821b6719b97e87bb0961fdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c0097c5f0ad4fbcc96e5c3ffb4219a651c11a486",
+      "git:hexsha": "c0097c5f0ad4fbcc96e5c3ffb4219a651c11a486",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e1836e54e3b472b3d7179952c0ca4af04564c2c0",
+      "git:hexsha": "e1836e54e3b472b3d7179952c0ca4af04564c2c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/51437bc228bb78571e699e5342c6a7f653787c17",
+      "git:hexsha": "51437bc228bb78571e699e5342c6a7f653787c17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a3b45a4d001d54985dfc9e97b92e95af5d75d757",
+      "git:hexsha": "a3b45a4d001d54985dfc9e97b92e95af5d75d757",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b67f13f642c9b34dacd1b1245948da05d6e88afc",
+      "git:hexsha": "b67f13f642c9b34dacd1b1245948da05d6e88afc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e803a626a1210eb55a954ee7da94fc957d9f02a9",
+      "git:hexsha": "e803a626a1210eb55a954ee7da94fc957d9f02a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a4404e9e1812e04cb5e19f3bc4f9bdd299b97828",
+      "git:hexsha": "a4404e9e1812e04cb5e19f3bc4f9bdd299b97828",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3c7dfe9f28a8eec62f38d81c53ad10cba35f0746",
+      "git:hexsha": "3c7dfe9f28a8eec62f38d81c53ad10cba35f0746",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.21.3-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a8b5ad7e745bf25dbcf810b1672dcaae32f50c82",
+      "git:hexsha": "a8b5ad7e745bf25dbcf810b1672dcaae32f50c82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/26dab93f2a81b819679b62497245fba78ba3971a",
+      "git:hexsha": "26dab93f2a81b819679b62497245fba78ba3971a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fb95f9b3bd08bd57609a19042f71083efb706e90",
+      "git:hexsha": "fb95f9b3bd08bd57609a19042f71083efb706e90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/39614fdb7d22e094d9e7c263d59d1f95540b8c5b",
+      "git:hexsha": "39614fdb7d22e094d9e7c263d59d1f95540b8c5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d11819c90caadb7e15a882b4fcee9c979b71b7cd",
+      "git:hexsha": "d11819c90caadb7e15a882b4fcee9c979b71b7cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c1738250a37cd92cfc509770a140bd02ab596950",
+      "git:hexsha": "c1738250a37cd92cfc509770a140bd02ab596950",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f0bc08c0d7372a2f86649dfd0c8778b7accb18c7",
+      "git:hexsha": "f0bc08c0d7372a2f86649dfd0c8778b7accb18c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0d42297cf8693bb533dc0d1eb49eb5e84d5198a5",
+      "git:hexsha": "0d42297cf8693bb533dc0d1eb49eb5e84d5198a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d59f64b5a38bd5321dc86281beb96d829ffda78b",
+      "git:hexsha": "d59f64b5a38bd5321dc86281beb96d829ffda78b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/27d9e5c596af915a3de6189b9a976c9674cc7047",
+      "git:hexsha": "27d9e5c596af915a3de6189b9a976c9674cc7047",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6e701d3e1b1d05d627a6db8f63d9776f0039ed03",
+      "git:hexsha": "6e701d3e1b1d05d627a6db8f63d9776f0039ed03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c6c20cb2bdd18e3533086fbdf8e07f9ec3e97b98",
+      "git:hexsha": "c6c20cb2bdd18e3533086fbdf8e07f9ec3e97b98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1a66df262747d9a16f41025d5eb518691a79e38d",
+      "git:hexsha": "1a66df262747d9a16f41025d5eb518691a79e38d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.0-beta.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/745c34a6a9cc997af2782e03eac1ae3247d291d2",
+      "git:hexsha": "745c34a6a9cc997af2782e03eac1ae3247d291d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/419a4332445fa3952b3eda1c6940f3534976f100",
+      "git:hexsha": "419a4332445fa3952b3eda1c6940f3534976f100",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a1a0472f3f07021f41560d410440428faecd1905",
+      "git:hexsha": "a1a0472f3f07021f41560d410440428faecd1905",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/16849409462310183cc052f86c00e333dfbfb421",
+      "git:hexsha": "16849409462310183cc052f86c00e333dfbfb421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8bf89f887c2f33699213837483bf1911258070ad",
+      "git:hexsha": "8bf89f887c2f33699213837483bf1911258070ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/04f962f6b077892d2c44dd8c8368ad2bb31d07c7",
+      "git:hexsha": "04f962f6b077892d2c44dd8c8368ad2bb31d07c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e3f2fd38923d7a7b3d42bbd2780048a0ed0e67c0",
+      "git:hexsha": "e3f2fd38923d7a7b3d42bbd2780048a0ed0e67c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.1-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d7a9dbb9fc4cc7d22d55f4a94930f9f46628bad5",
+      "git:hexsha": "d7a9dbb9fc4cc7d22d55f4a94930f9f46628bad5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.22.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8f42b5874e85988b5ff970664dddb24926262e12",
+      "git:hexsha": "8f42b5874e85988b5ff970664dddb24926262e12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5c7303ab2e0f5251698f317d2d110218b84757f4",
+      "git:hexsha": "5c7303ab2e0f5251698f317d2d110218b84757f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8825c7c1dd24bd96ea59744c991cea43b4ea05e3",
+      "git:hexsha": "8825c7c1dd24bd96ea59744c991cea43b4ea05e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/20e017fedcd28c740dc5bf1d97dcbaff82c6e2bc",
+      "git:hexsha": "20e017fedcd28c740dc5bf1d97dcbaff82c6e2bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9eb61194684d639bb9f8edda981fef9048f9cd4a",
+      "git:hexsha": "9eb61194684d639bb9f8edda981fef9048f9cd4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e08d45e0908bb3229de97f33c52bb75686930b7f",
+      "git:hexsha": "e08d45e0908bb3229de97f33c52bb75686930b7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e5a80a5e866cf4fe2a2ac152240e70bf11efe148",
+      "git:hexsha": "e5a80a5e866cf4fe2a2ac152240e70bf11efe148",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.23.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c625b6f2b2309e60058f9c7fe7327174eb60e62e",
+      "git:hexsha": "c625b6f2b2309e60058f9c7fe7327174eb60e62e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a300a238dbb260839dfd05a710c1ef67ef5f3108",
+      "git:hexsha": "a300a238dbb260839dfd05a710c1ef67ef5f3108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d4bb59b542605b723ba67f9e1adba5b109bfb802",
+      "git:hexsha": "d4bb59b542605b723ba67f9e1adba5b109bfb802",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/905552f99343311c66e6a90f26644946e26047d4",
+      "git:hexsha": "905552f99343311c66e6a90f26644946e26047d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f79295c6970524f5f835b72b97749b29b4d92e00",
+      "git:hexsha": "f79295c6970524f5f835b72b97749b29b4d92e00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ce2445753198dcf6b3a7961e21eb266e643ede2e",
+      "git:hexsha": "ce2445753198dcf6b3a7961e21eb266e643ede2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7a15337e031f12ca10f8b31c6c85c3f7d2cc95c0",
+      "git:hexsha": "7a15337e031f12ca10f8b31c6c85c3f7d2cc95c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bb809abd4bea21b834e4db908156178a82319614",
+      "git:hexsha": "bb809abd4bea21b834e4db908156178a82319614",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/adc3daa462c34728c897f4b8584e5d47ee005e52",
+      "git:hexsha": "adc3daa462c34728c897f4b8584e5d47ee005e52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.4-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b88422e5153922b5b9e63f43c092b502aa45c16f",
+      "git:hexsha": "b88422e5153922b5b9e63f43c092b502aa45c16f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.24.4-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f744b785f8559d46c22a27fc4e1b125bfd288059",
+      "git:hexsha": "f744b785f8559d46c22a27fc4e1b125bfd288059",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0847e666a08b45403b570b6ee387cacb1109e793",
+      "git:hexsha": "0847e666a08b45403b570b6ee387cacb1109e793",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4dd399ca2930e7795c4256555f63aac2440abc8d",
+      "git:hexsha": "4dd399ca2930e7795c4256555f63aac2440abc8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/222e3264ab0c9da735309f72707ac8ca7b765dc3",
+      "git:hexsha": "222e3264ab0c9da735309f72707ac8ca7b765dc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e612686fdba9cb80d25dbd0baa5eb05646db56ee",
+      "git:hexsha": "e612686fdba9cb80d25dbd0baa5eb05646db56ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b1d791a2996283d15280f1df9b97baab57128769",
+      "git:hexsha": "b1d791a2996283d15280f1df9b97baab57128769",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5e1e9add07899e0dce2051084c861b36e7f6e302",
+      "git:hexsha": "5e1e9add07899e0dce2051084c861b36e7f6e302",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ebbeeff4e077b3d38d2b565c3cc690c4773c1c6b",
+      "git:hexsha": "ebbeeff4e077b3d38d2b565c3cc690c4773c1c6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5cbbaa2e4a98186c6025919b0a8d7b6b5a9a52db",
+      "git:hexsha": "5cbbaa2e4a98186c6025919b0a8d7b6b5a9a52db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/247fb58400fb613b846eca80729e890b78b60a36",
+      "git:hexsha": "247fb58400fb613b846eca80729e890b78b60a36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/79a1cd60ee4ef09034ee6c91c8ce05425cf08d04",
+      "git:hexsha": "79a1cd60ee4ef09034ee6c91c8ce05425cf08d04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/70958f63664fd127c3b4fb989377f80a3d2a305e",
+      "git:hexsha": "70958f63664fd127c3b4fb989377f80a3d2a305e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.2-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4f7b24d1a983d72ab8e6ae162c54e96a320357aa",
+      "git:hexsha": "4f7b24d1a983d72ab8e6ae162c54e96a320357aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/143184c0aeaaf38cceebe59e0bf9f5d323e1d93a",
+      "git:hexsha": "143184c0aeaaf38cceebe59e0bf9f5d323e1d93a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/02d31ee412a1bfcba5d2bba36d6f811396db8077",
+      "git:hexsha": "02d31ee412a1bfcba5d2bba36d6f811396db8077",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/40967f3baa36796f41bd939e8d00cb07ba8bc1ed",
+      "git:hexsha": "40967f3baa36796f41bd939e8d00cb07ba8bc1ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b2242886e0d679a9c31df6e2a4c0d901f064d200",
+      "git:hexsha": "b2242886e0d679a9c31df6e2a4c0d901f064d200",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e1f9b011f882835491caeca3cbfada27bd3b980d",
+      "git:hexsha": "e1f9b011f882835491caeca3cbfada27bd3b980d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/273ba184260da06d9903b1cebda0c1c08da13f0c",
+      "git:hexsha": "273ba184260da06d9903b1cebda0c1c08da13f0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.3-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/57ed302a61a8291d46d03742512b5009d7cbf646",
+      "git:hexsha": "57ed302a61a8291d46d03742512b5009d7cbf646",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.4-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8f18a7feedabf43187209bccbb97c8faddad0c95",
+      "git:hexsha": "8f18a7feedabf43187209bccbb97c8faddad0c95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.4-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/93b8ac8e3eaf452b5a3ba3fb635e87d7761ca796",
+      "git:hexsha": "93b8ac8e3eaf452b5a3ba3fb635e87d7761ca796",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.4-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9d129c7e86256739377677fc923600f056aebe7a",
+      "git:hexsha": "9d129c7e86256739377677fc923600f056aebe7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.25.4-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ff20d12f20dc20fe63701d2a7c81dd43026195f3",
+      "git:hexsha": "ff20d12f20dc20fe63701d2a7c81dd43026195f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a497db66f9a16d25ceba0f1de95a99c218bac209",
+      "git:hexsha": "a497db66f9a16d25ceba0f1de95a99c218bac209",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.26.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e5321ba31136801a434c6c700b8fc379b07ec8fd",
+      "git:hexsha": "e5321ba31136801a434c6c700b8fc379b07ec8fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.26.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d85d338a8ee915a5f36f968223a718efde6d0aaa",
+      "git:hexsha": "d85d338a8ee915a5f36f968223a718efde6d0aaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ba94e69d5daa8272d28420afe4520625a67b62ad",
+      "git:hexsha": "ba94e69d5daa8272d28420afe4520625a67b62ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.26.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/30108c0b1fcdc39be6db1e1c9b93f61abb2a3119",
+      "git:hexsha": "30108c0b1fcdc39be6db1e1c9b93f61abb2a3119",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.26.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/042bc224687aea029538a2aad5f4c8abcf02876e",
+      "git:hexsha": "042bc224687aea029538a2aad5f4c8abcf02876e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/446a69b51bfcc6252336e60a04ec04801030e3a9",
+      "git:hexsha": "446a69b51bfcc6252336e60a04ec04801030e3a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.27.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/cc5f8070d7d296bfece6b0a162adfe500e443d04",
+      "git:hexsha": "cc5f8070d7d296bfece6b0a162adfe500e443d04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/972c68285754e0ca45de9873c879dd8d143cf0d4",
+      "git:hexsha": "972c68285754e0ca45de9873c879dd8d143cf0d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.28.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/071f4675717a8ca376e83098446e9ed8f82f96bc",
+      "git:hexsha": "071f4675717a8ca376e83098446e9ed8f82f96bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5cdb15feefcf1b6864ad14d13ce53c8b1dd283ad",
+      "git:hexsha": "5cdb15feefcf1b6864ad14d13ce53c8b1dd283ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/027d53500bc6c43d54074a02c8adf116e786ffc3",
+      "git:hexsha": "027d53500bc6c43d54074a02c8adf116e786ffc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.29.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a02236842608d724f6139f94716cd8a70dc2fff5",
+      "git:hexsha": "a02236842608d724f6139f94716cd8a70dc2fff5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1096da09dad7dfdb6de1415a7ea41d0a2f813a79",
+      "git:hexsha": "1096da09dad7dfdb6de1415a7ea41d0a2f813a79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f3cf986777d8e44d9dfb2bac1568f4d606d9c3ad",
+      "git:hexsha": "f3cf986777d8e44d9dfb2bac1568f4d606d9c3ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ef20b2a13881cc53a89fd2594b68b58820b73bc3",
+      "git:hexsha": "ef20b2a13881cc53a89fd2594b68b58820b73bc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/38321fa226048ae115160379638203d5259a5168",
+      "git:hexsha": "38321fa226048ae115160379638203d5259a5168",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/600bfd7237eb21dc96a6112a5dcc29ddc20d4c97",
+      "git:hexsha": "600bfd7237eb21dc96a6112a5dcc29ddc20d4c97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a0608044a1738dfd173f2ba5f0aae90e17f10bba",
+      "git:hexsha": "a0608044a1738dfd173f2ba5f0aae90e17f10bba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c89240b16c704c29ecd021f74fd786ac57651525",
+      "git:hexsha": "c89240b16c704c29ecd021f74fd786ac57651525",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d9e2d51f51a0cf9a2a1066d72cee04219173444d",
+      "git:hexsha": "d9e2d51f51a0cf9a2a1066d72cee04219173444d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1ea22ee5ef31fa8fae75507dd54fccd5c0e8eafb",
+      "git:hexsha": "1ea22ee5ef31fa8fae75507dd54fccd5c0e8eafb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e253f5d9b6de35ae3eb54aa225edcb1891830342",
+      "git:hexsha": "e253f5d9b6de35ae3eb54aa225edcb1891830342",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/aeb1c3ee6aa32dbc5697d1b3bc7e37639871271d",
+      "git:hexsha": "aeb1c3ee6aa32dbc5697d1b3bc7e37639871271d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f31561c5bba5375f41d986d1b1589d23d32356ad",
+      "git:hexsha": "f31561c5bba5375f41d986d1b1589d23d32356ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6de8f42dcd56fc22f9cf2c2bc6ffa0cac2bcd211",
+      "git:hexsha": "6de8f42dcd56fc22f9cf2c2bc6ffa0cac2bcd211",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f5b21c0aa47238bd20d638bfd30c2784eab80ac5",
+      "git:hexsha": "f5b21c0aa47238bd20d638bfd30c2784eab80ac5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5d550124bd342d4e44e6e6d7ef068a8a1fbf9e80",
+      "git:hexsha": "5d550124bd342d4e44e6e6d7ef068a8a1fbf9e80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f4d613565ed23a7ec67e8776dceb78127c5cdff0",
+      "git:hexsha": "f4d613565ed23a7ec67e8776dceb78127c5cdff0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/76429730c02f8b5f5a4dbc954c80b305dc042496",
+      "git:hexsha": "76429730c02f8b5f5a4dbc954c80b305dc042496",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.30.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/590c0c1e77e5b00ca9d9bc112de3794af1abd9a9",
+      "git:hexsha": "590c0c1e77e5b00ca9d9bc112de3794af1abd9a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0ac59de5f19503c2063e0e40100a38e4a6ced199",
+      "git:hexsha": "0ac59de5f19503c2063e0e40100a38e4a6ced199",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/11bc6745482f7e6500ef52cc58cacdf1217fc5f0",
+      "git:hexsha": "11bc6745482f7e6500ef52cc58cacdf1217fc5f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1f1726369d19de3c1cd7adc2976fc476f2e9447e",
+      "git:hexsha": "1f1726369d19de3c1cd7adc2976fc476f2e9447e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/231f0655ced930643064bef2a71b0f8eb47ca608",
+      "git:hexsha": "231f0655ced930643064bef2a71b0f8eb47ca608",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/13d2759356e2f3365d4e99a2c22cccfb63fc7a0e",
+      "git:hexsha": "13d2759356e2f3365d4e99a2c22cccfb63fc7a0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/2ed5452e1c17166cb6a2aef2b0ffa44a7a112aac",
+      "git:hexsha": "2ed5452e1c17166cb6a2aef2b0ffa44a7a112aac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5ce3d8d1419a9933524aef3fa60c9fd362cc3127",
+      "git:hexsha": "5ce3d8d1419a9933524aef3fa60c9fd362cc3127",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.31.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/018314a5c1d6a1efa71c2a69a8d1514c83c371f6",
+      "git:hexsha": "018314a5c1d6a1efa71c2a69a8d1514c83c371f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/60260018cf02727a8f8fe774bd7983106774e380",
+      "git:hexsha": "60260018cf02727a8f8fe774bd7983106774e380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/392777952fadb6ed429bc1d544be613bcda4b068",
+      "git:hexsha": "392777952fadb6ed429bc1d544be613bcda4b068",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c3059dc689a558f15d63294bd83bee721fcdb0ad",
+      "git:hexsha": "c3059dc689a558f15d63294bd83bee721fcdb0ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0a16e29b9344b8752d43cca9ccd060b0f839c163",
+      "git:hexsha": "0a16e29b9344b8752d43cca9ccd060b0f839c163",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8bcdc81fd3cd24b5d0d06708da1b83b6c1b536ff",
+      "git:hexsha": "8bcdc81fd3cd24b5d0d06708da1b83b6c1b536ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/41f0e32a06b8743045d5d30d3d43f1e4058bc0a8",
+      "git:hexsha": "41f0e32a06b8743045d5d30d3d43f1e4058bc0a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ce2242e06d53d2dbcf8349b2de7a2f7685534f35",
+      "git:hexsha": "ce2242e06d53d2dbcf8349b2de7a2f7685534f35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a9088224c5925500428854197d39716261a9a806",
+      "git:hexsha": "a9088224c5925500428854197d39716261a9a806",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/82936c77ef7d212d7ec51a3e99f1f7881ee336b9",
+      "git:hexsha": "82936c77ef7d212d7ec51a3e99f1f7881ee336b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5b60412d66dc44f0bacba3f1fe60b4468005f020",
+      "git:hexsha": "5b60412d66dc44f0bacba3f1fe60b4468005f020",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/62c5117defdcd68f32ce5a9bd163b670d23a0571",
+      "git:hexsha": "62c5117defdcd68f32ce5a9bd163b670d23a0571",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/677b7c1fcc634032ed2842932832d6f6d614a4f5",
+      "git:hexsha": "677b7c1fcc634032ed2842932832d6f6d614a4f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/245786fed70ea97afc10567172d1248e1ea8a545",
+      "git:hexsha": "245786fed70ea97afc10567172d1248e1ea8a545",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/085066d2a83ada824a3232911fde3b95d2f650e5",
+      "git:hexsha": "085066d2a83ada824a3232911fde3b95d2f650e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/431f94e5644936e67298e81285c76d8fd1858d29",
+      "git:hexsha": "431f94e5644936e67298e81285c76d8fd1858d29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1090c311e8de9dad04ace247cc4fe1460caa4144",
+      "git:hexsha": "1090c311e8de9dad04ace247cc4fe1460caa4144",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fe89a373a202536975d06f03f13f94033ad06cfe",
+      "git:hexsha": "fe89a373a202536975d06f03f13f94033ad06cfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b37c58342ee1a69ba91e00a488939ff58c8160e4",
+      "git:hexsha": "b37c58342ee1a69ba91e00a488939ff58c8160e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/272cbcad7a00ad7b166f47d774fb52c0b9035278",
+      "git:hexsha": "272cbcad7a00ad7b166f47d774fb52c0b9035278",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1ae08fe31d2726a918cb6e9076fe78252f626041",
+      "git:hexsha": "1ae08fe31d2726a918cb6e9076fe78252f626041",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/81f2cdf7360bc472a63f3b081e6f45c0cbddc2e7",
+      "git:hexsha": "81f2cdf7360bc472a63f3b081e6f45c0cbddc2e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c0dd98c7982950d783932cbd9a473dd46f4af88e",
+      "git:hexsha": "c0dd98c7982950d783932cbd9a473dd46f4af88e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/05f484b7160e672d7a9c41cd2988fbdf25833b68",
+      "git:hexsha": "05f484b7160e672d7a9c41cd2988fbdf25833b68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fb26f31bebf22c71d7018c13582cf6a7184404de",
+      "git:hexsha": "fb26f31bebf22c71d7018c13582cf6a7184404de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/cf06b653d44f82892ac84b4136f3703779812146",
+      "git:hexsha": "cf06b653d44f82892ac84b4136f3703779812146",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7e023c1ef2f13de541daea1f99834f7fc3598ea6",
+      "git:hexsha": "7e023c1ef2f13de541daea1f99834f7fc3598ea6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/41b77f5e256fdc8d473bf3c3baef7a6c3fb26946",
+      "git:hexsha": "41b77f5e256fdc8d473bf3c3baef7a6c3fb26946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/43f920182aa1de35f0055fbf48414907add493da",
+      "git:hexsha": "43f920182aa1de35f0055fbf48414907add493da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/291ed41c3e8d6329dac5a57485ece71ac5675250",
+      "git:hexsha": "291ed41c3e8d6329dac5a57485ece71ac5675250",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/11fcdb119422779aadd756de4cfb94083ddc2baa",
+      "git:hexsha": "11fcdb119422779aadd756de4cfb94083ddc2baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bc0814767b30c75a51827579bc7f257006606734",
+      "git:hexsha": "bc0814767b30c75a51827579bc7f257006606734",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ff207894a200db2c94a0b0115b84f036da959099",
+      "git:hexsha": "ff207894a200db2c94a0b0115b84f036da959099",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a2c2cf31d2c5cfe91895086f07cedd638a72b1d0",
+      "git:hexsha": "a2c2cf31d2c5cfe91895086f07cedd638a72b1d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/204a075be95887c4ed2593e35262ac8be068bd57",
+      "git:hexsha": "204a075be95887c4ed2593e35262ac8be068bd57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7a3ef683065f2b57437288b442ef49a69f768746",
+      "git:hexsha": "7a3ef683065f2b57437288b442ef49a69f768746",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1e0cc6940128d7fb236cfed201d3661fd2962fa0",
+      "git:hexsha": "1e0cc6940128d7fb236cfed201d3661fd2962fa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1e89d07fe260e95af641451ce76cde639d36a2f3",
+      "git:hexsha": "1e89d07fe260e95af641451ce76cde639d36a2f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b64bb75a82da60f63595e111f61a6c6de84cd129",
+      "git:hexsha": "b64bb75a82da60f63595e111f61a6c6de84cd129",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1884fe8a3e3ec459f4ddd3d4e1d0ee05c32efad7",
+      "git:hexsha": "1884fe8a3e3ec459f4ddd3d4e1d0ee05c32efad7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6602a86dcb32aabf4e3a38d21c7f9d262f67057f",
+      "git:hexsha": "6602a86dcb32aabf4e3a38d21c7f9d262f67057f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-beta.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e3b7ee47b9b1c64ff426a7e0bae15ef134d708e8",
+      "git:hexsha": "e3b7ee47b9b1c64ff426a7e0bae15ef134d708e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0-final.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d6b3ccb37b3621308fccf4f4daa97266c3b64709",
+      "git:hexsha": "d6b3ccb37b3621308fccf4f4daa97266c3b64709",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rc-0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5af64d72f324ab3857d7ff9854dd0b737bb2d598",
+      "git:hexsha": "5af64d72f324ab3857d7ff9854dd0b737bb2d598",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c32b6880e7ca051313ee0a13fe852ab44cf18ae7",
+      "git:hexsha": "c32b6880e7ca051313ee0a13fe852ab44cf18ae7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3ba7fa15a40435b0f295eb34b927c771f4659d69",
+      "git:hexsha": "3ba7fa15a40435b0f295eb34b927c771f4659d69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/342b726ed71e04be89f614be45565f652e84226e",
+      "git:hexsha": "342b726ed71e04be89f614be45565f652e84226e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/afa7fe19e6acc9cbbff05bbace9cc1b8286f7da5",
+      "git:hexsha": "afa7fe19e6acc9cbbff05bbace9cc1b8286f7da5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bb3df62dcedf5e144d4fdf3568f372cba4036aa9",
+      "git:hexsha": "bb3df62dcedf5e144d4fdf3568f372cba4036aa9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/97364a25147ffcf56414e22b10e685c449ead38b",
+      "git:hexsha": "97364a25147ffcf56414e22b10e685c449ead38b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.10-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/091dffb171f53224197ced4e263e9f93cdbfcc23",
+      "git:hexsha": "091dffb171f53224197ced4e263e9f93cdbfcc23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/2704a4522cd346e3e795910af178b3461795ce51",
+      "git:hexsha": "2704a4522cd346e3e795910af178b3461795ce51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.11-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0a03f7ca5a1c748694f94800fa21525b417eb26c",
+      "git:hexsha": "0a03f7ca5a1c748694f94800fa21525b417eb26c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bd2d40a9279f3d5abcfd86b0e2b0c9d78a2f64b6",
+      "git:hexsha": "bd2d40a9279f3d5abcfd86b0e2b0c9d78a2f64b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/131ad09ab3e3f8f843965aba7bd547f2502658a5",
+      "git:hexsha": "131ad09ab3e3f8f843965aba7bd547f2502658a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4b492435671487358476e7f49dd9562a21998822",
+      "git:hexsha": "4b492435671487358476e7f49dd9562a21998822",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/458217783c4fbcfc3131647957e7d03dfd6503c1",
+      "git:hexsha": "458217783c4fbcfc3131647957e7d03dfd6503c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/380c1572f380a342606048a73d28b32bae054c3e",
+      "git:hexsha": "380c1572f380a342606048a73d28b32bae054c3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ff8d5a6d51aa3f54a23dcb002970188c65fc2db1",
+      "git:hexsha": "ff8d5a6d51aa3f54a23dcb002970188c65fc2db1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6d70e7c29b38658056c074dad014cb6bd418eca3",
+      "git:hexsha": "6d70e7c29b38658056c074dad014cb6bd418eca3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/59014a01e064d40f84cbe346c02b6ca0932d971c",
+      "git:hexsha": "59014a01e064d40f84cbe346c02b6ca0932d971c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/47f51637681d0ef206a3e4836bc7da279371f8a5",
+      "git:hexsha": "47f51637681d0ef206a3e4836bc7da279371f8a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5d63b215e00cf90daf68db26fbbbd3441b69d1c5",
+      "git:hexsha": "5d63b215e00cf90daf68db26fbbbd3441b69d1c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f8bbe5f281aed7c29f09894f55774ec2044933b6",
+      "git:hexsha": "f8bbe5f281aed7c29f09894f55774ec2044933b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/131c849b5c223a870b4783241e1b3771ad6b496c",
+      "git:hexsha": "131c849b5c223a870b4783241e1b3771ad6b496c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/181f8e1ebf0f909220b3e0592abd88524bc16d5d",
+      "git:hexsha": "181f8e1ebf0f909220b3e0592abd88524bc16d5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d85cb062d7f2b34af7fa1cbb37bb489c6112d81c",
+      "git:hexsha": "d85cb062d7f2b34af7fa1cbb37bb489c6112d81c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1d00a1d82aae7c907c92af1ba7a16eaf00c94cdf",
+      "git:hexsha": "1d00a1d82aae7c907c92af1ba7a16eaf00c94cdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6a5358d4afc3e261ca57914426bdfa099a544a64",
+      "git:hexsha": "6a5358d4afc3e261ca57914426bdfa099a544a64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f9db5feff4675d8b2a328d0fc79eb6282fa9626a",
+      "git:hexsha": "f9db5feff4675d8b2a328d0fc79eb6282fa9626a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/102f1d7404821ff67f330ca28216be94d98d48d9",
+      "git:hexsha": "102f1d7404821ff67f330ca28216be94d98d48d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/be910485e7a1e78931ae45af5946fbf2b67121d9",
+      "git:hexsha": "be910485e7a1e78931ae45af5946fbf2b67121d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/19397c61882d8e5d710934443ce5d9519f4af169",
+      "git:hexsha": "19397c61882d8e5d710934443ce5d9519f4af169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a9dcfe75358dd12ec8b2846049f5568e0ac926fc",
+      "git:hexsha": "a9dcfe75358dd12ec8b2846049f5568e0ac926fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6c19047f2892ea4dcff828031ea32bde5f2b4a58",
+      "git:hexsha": "6c19047f2892ea4dcff828031ea32bde5f2b4a58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e28488122f7505b996eaf31e025639bdf4df571e",
+      "git:hexsha": "e28488122f7505b996eaf31e025639bdf4df571e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a8f139ad2334f951c321eaf343912b3959d618e6",
+      "git:hexsha": "a8f139ad2334f951c321eaf343912b3959d618e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6d4488f320d0dda6128d08a1274ce42cf3170e60",
+      "git:hexsha": "6d4488f320d0dda6128d08a1274ce42cf3170e60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4dc7cef280b5092fb08632f5249695e70be61e3f",
+      "git:hexsha": "4dc7cef280b5092fb08632f5249695e70be61e3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d600e4fff820343508423394ebbf4db88e6abea8",
+      "git:hexsha": "d600e4fff820343508423394ebbf4db88e6abea8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c4237c61d5d7f2fde2a577aa030d676f48dab9e7",
+      "git:hexsha": "c4237c61d5d7f2fde2a577aa030d676f48dab9e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2-dev.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/04d97347d7ac0f86a6f34795b4bbabbfad3fd5f0",
+      "git:hexsha": "04d97347d7ac0f86a6f34795b4bbabbfad3fd5f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/091fb9b66594363a20c533d22b39233776f6c602",
+      "git:hexsha": "091fb9b66594363a20c533d22b39233776f6c602",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3-nodejs"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/2b26775ed1389edebf58eaa568f8ea000b628f5f",
+      "git:hexsha": "2b26775ed1389edebf58eaa568f8ea000b628f5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.4-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fbd0bc77405729c66063388181e6d59882c69341",
+      "git:hexsha": "fbd0bc77405729c66063388181e6d59882c69341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.5-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a6544c2a315c0a5bb0f3654891a2234b2f2e9021",
+      "git:hexsha": "a6544c2a315c0a5bb0f3654891a2234b2f2e9021",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3798f56a9b68786fae01da27cd95f4fa3d23f84e",
+      "git:hexsha": "3798f56a9b68786fae01da27cd95f4fa3d23f84e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.6-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/01dadb0862a3eae94d908e5f18ae67c611407495",
+      "git:hexsha": "01dadb0862a3eae94d908e5f18ae67c611407495",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/cc7e54298b060623a625a93662f379bbd11f50b4",
+      "git:hexsha": "cc7e54298b060623a625a93662f379bbd11f50b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c8bebf47762a3231d94a9480201b3e3e1d270301",
+      "git:hexsha": "c8bebf47762a3231d94a9480201b3e3e1d270301",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c91221d7106f6db844b7f25a2d593bbf28c754aa",
+      "git:hexsha": "c91221d7106f6db844b7f25a2d593bbf28c754aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d4c3a8ca87d74d2f9ee4046f88627d511b281186",
+      "git:hexsha": "d4c3a8ca87d74d2f9ee4046f88627d511b281186",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a9d0625e2bf05ce4b5b01b6dd2aa05b547e845a2",
+      "git:hexsha": "a9d0625e2bf05ce4b5b01b6dd2aa05b547e845a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9f42fbba96928814fa0ac79fe30f76adc05720de",
+      "git:hexsha": "9f42fbba96928814fa0ac79fe30f76adc05720de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d6cf2dafc6cdc7d77594a5cf3eb930e4d3b8d295",
+      "git:hexsha": "d6cf2dafc6cdc7d77594a5cf3eb930e4d3b8d295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b72ac073aba78ea30efd6456309ca11543a385b0",
+      "git:hexsha": "b72ac073aba78ea30efd6456309ca11543a385b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d406eab2c8ab2f21dc40e117abb8a69fe7779306",
+      "git:hexsha": "d406eab2c8ab2f21dc40e117abb8a69fe7779306",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bbc588e27dc4dc9aa20c2ea31a5a725f08255a15",
+      "git:hexsha": "bbc588e27dc4dc9aa20c2ea31a5a725f08255a15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/facc7d61c00bdac7add04657ca91b2e98e2b8722",
+      "git:hexsha": "facc7d61c00bdac7add04657ca91b2e98e2b8722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c412f4406f3eec4d9ab47fb1d9e166ea82226248",
+      "git:hexsha": "c412f4406f3eec4d9ab47fb1d9e166ea82226248",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/975398c3a8710494fb0408f987b6efb57b7af17e",
+      "git:hexsha": "975398c3a8710494fb0408f987b6efb57b7af17e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/dd9ce337e23cabcdb3d67c1e68eef3437ac68011",
+      "git:hexsha": "dd9ce337e23cabcdb3d67c1e68eef3437ac68011",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ee2a40b18299ac865018a7849755c3b161d5af65",
+      "git:hexsha": "ee2a40b18299ac865018a7849755c3b161d5af65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/99d9ced6d5f90adc10f0f108564f8178a81ee02d",
+      "git:hexsha": "99d9ced6d5f90adc10f0f108564f8178a81ee02d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/679b031b993c48692aa3847fa3d7d66e87e6d7bf",
+      "git:hexsha": "679b031b993c48692aa3847fa3d7d66e87e6d7bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0832cba3c63ecf7533c8c5c4760d43f44eb796f7",
+      "git:hexsha": "0832cba3c63ecf7533c8c5c4760d43f44eb796f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/72a17b2de4a53fc7399efb9d89308f12eb40dcb7",
+      "git:hexsha": "72a17b2de4a53fc7399efb9d89308f12eb40dcb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d4d0873e2b155ac22fd7a3633ac55dafaff7ff66",
+      "git:hexsha": "d4d0873e2b155ac22fd7a3633ac55dafaff7ff66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0a0f667bbd849479e852901a22de366d41d87fcb",
+      "git:hexsha": "0a0f667bbd849479e852901a22de366d41d87fcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1fad24fcd8093f1cad681c1fdee9a16d01b48640",
+      "git:hexsha": "1fad24fcd8093f1cad681c1fdee9a16d01b48640",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/78165801c6f0f55c3e1de481a2f668e20813b1fc",
+      "git:hexsha": "78165801c6f0f55c3e1de481a2f668e20813b1fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/509286492f3796324a651a118111b7dfba6b02af",
+      "git:hexsha": "509286492f3796324a651a118111b7dfba6b02af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8af547639590de6d49799767c5ce1a9410603d83",
+      "git:hexsha": "8af547639590de6d49799767c5ce1a9410603d83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/16a6b9ce8ffbaa4e1eb1969a1bbc9d829034267d",
+      "git:hexsha": "16a6b9ce8ffbaa4e1eb1969a1bbc9d829034267d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/06cdf00987d52a82f23af56ac1b551f895ef2a55",
+      "git:hexsha": "06cdf00987d52a82f23af56ac1b551f895ef2a55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f835ff310f020968b914b6b90122aec4627ba6e5",
+      "git:hexsha": "f835ff310f020968b914b6b90122aec4627ba6e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4172140f74b0ceb6d450e63509d7fa8defa7e668",
+      "git:hexsha": "4172140f74b0ceb6d450e63509d7fa8defa7e668",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6879861ea8bc14220af30912085b37e400e97e2a",
+      "git:hexsha": "6879861ea8bc14220af30912085b37e400e97e2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3f3f845c5adaf08b2e8ebf0f898dcd6c833bc37c",
+      "git:hexsha": "3f3f845c5adaf08b2e8ebf0f898dcd6c833bc37c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/43747278c809d9fde2c3c1ef7f2eae007886e632",
+      "git:hexsha": "43747278c809d9fde2c3c1ef7f2eae007886e632",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/29120219cf12719d1bbc0c935d2b9a0af6ec762d",
+      "git:hexsha": "29120219cf12719d1bbc0c935d2b9a0af6ec762d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/2622f34d1ac7d23b8db02a56c7652c60a50c1050",
+      "git:hexsha": "2622f34d1ac7d23b8db02a56c7652c60a50c1050",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9d42dc349c69f9bbe9dedb3aee28de2d9e65fcb4",
+      "git:hexsha": "9d42dc349c69f9bbe9dedb3aee28de2d9e65fcb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7e259d8b0fbe9084fd2fb0163c37136e78794c06",
+      "git:hexsha": "7e259d8b0fbe9084fd2fb0163c37136e78794c06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3626f2f5e158034d49c30b7c3696f674237aad96",
+      "git:hexsha": "3626f2f5e158034d49c30b7c3696f674237aad96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/83273ad997c219756a12c82839dae03e4aaa124f",
+      "git:hexsha": "83273ad997c219756a12c82839dae03e4aaa124f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/09e110525fb2ae9eb293aab24c1fe81d5c07c71e",
+      "git:hexsha": "09e110525fb2ae9eb293aab24c1fe81d5c07c71e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0f102f02c3bd76ec43eadb5f8a7e9c4fb7184390",
+      "git:hexsha": "0f102f02c3bd76ec43eadb5f8a7e9c4fb7184390",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/22bd8329f3e3591f08afb45f09e23f2e998e8271",
+      "git:hexsha": "22bd8329f3e3591f08afb45f09e23f2e998e8271",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e80a405deeea6036e0ce0371af1e63ac5ea10b9e",
+      "git:hexsha": "e80a405deeea6036e0ce0371af1e63ac5ea10b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/84b110e0ef6401e3b8f38e09c355e08c1a653425",
+      "git:hexsha": "84b110e0ef6401e3b8f38e09c355e08c1a653425",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/de6739e7ec80b7a58a038de853aeb750fe7486cc",
+      "git:hexsha": "de6739e7ec80b7a58a038de853aeb750fe7486cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/3d363de04e9127a07dd7b18c15e9f520e7ba9222",
+      "git:hexsha": "3d363de04e9127a07dd7b18c15e9f520e7ba9222",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f97e751b3c2e7f11fe549311b1988edfc3d9ebe3",
+      "git:hexsha": "f97e751b3c2e7f11fe549311b1988edfc3d9ebe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8d7cc29abbc327202f036ec849c26b446957f951",
+      "git:hexsha": "8d7cc29abbc327202f036ec849c26b446957f951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/346cbf8bf7bf842730a2af3e68c8ced12f22048b",
+      "git:hexsha": "346cbf8bf7bf842730a2af3e68c8ced12f22048b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.3-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/726d629b9b48ddffdd38351e15518b71821d0f64",
+      "git:hexsha": "726d629b9b48ddffdd38351e15518b71821d0f64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e67cd0baf9e02f38904c2129cf7799715f96e9a2",
+      "git:hexsha": "e67cd0baf9e02f38904c2129cf7799715f96e9a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e4485a630e473ea8c97d2896839f5f5eabaac51a",
+      "git:hexsha": "e4485a630e473ea8c97d2896839f5f5eabaac51a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a7056210678382a999dc1ab12c56b5ac5b8f7af2",
+      "git:hexsha": "a7056210678382a999dc1ab12c56b5ac5b8f7af2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1fdaf7a1a49d8ec598b9c18426a89da2518ff3f5",
+      "git:hexsha": "1fdaf7a1a49d8ec598b9c18426a89da2518ff3f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a505bc3965586bc9a48ef2980f3f8d415b60f88c",
+      "git:hexsha": "a505bc3965586bc9a48ef2980f3f8d415b60f88c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bd62c2384f02b988809bdb2f6a609c2085428d80",
+      "git:hexsha": "bd62c2384f02b988809bdb2f6a609c2085428d80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d4ea50fba1892b15a1a652b87facf6b21f41d6a5",
+      "git:hexsha": "d4ea50fba1892b15a1a652b87facf6b21f41d6a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c298482ee1efc2488752db0e500f6a219bda5b31",
+      "git:hexsha": "c298482ee1efc2488752db0e500f6a219bda5b31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/56aa133ee687e70ab2adafaed9b4587c106212a0",
+      "git:hexsha": "56aa133ee687e70ab2adafaed9b4587c106212a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b3ad105fa005021b14b6c2a744dbd62f60593259",
+      "git:hexsha": "b3ad105fa005021b14b6c2a744dbd62f60593259",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/35cff12e31b8cd50e073af43af2484561c233ebc",
+      "git:hexsha": "35cff12e31b8cd50e073af43af2484561c233ebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d8746c61c62270b70d8bdb205bdd8e7d459e4cde",
+      "git:hexsha": "d8746c61c62270b70d8bdb205bdd8e7d459e4cde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0-beta.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/51561e31a0805b9fcd70727b88747b690e2f8a22",
+      "git:hexsha": "51561e31a0805b9fcd70727b88747b690e2f8a22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e9f25f6a12cd9b14add8f949e43b3e672cd79f5f",
+      "git:hexsha": "e9f25f6a12cd9b14add8f949e43b3e672cd79f5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/508e621f3dde63a95fb2d8bf3ea83bcbb30dc0a3",
+      "git:hexsha": "508e621f3dde63a95fb2d8bf3ea83bcbb30dc0a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/dc8054e90d1888108a40d625168a9c2f2e7f8fb3",
+      "git:hexsha": "dc8054e90d1888108a40d625168a9c2f2e7f8fb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d83424d6b4452eb7cfa7d56f31143bbeb25382f9",
+      "git:hexsha": "d83424d6b4452eb7cfa7d56f31143bbeb25382f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/543dec9ff0072de257da1a35be8a48c923874c74",
+      "git:hexsha": "543dec9ff0072de257da1a35be8a48c923874c74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/198f0f80c67aebd93e559e5d18ecc363b43ba803",
+      "git:hexsha": "198f0f80c67aebd93e559e5d18ecc363b43ba803",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/07bc1c5397feb02a264167fb74f9fccb60fb41af",
+      "git:hexsha": "07bc1c5397feb02a264167fb74f9fccb60fb41af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0699a6fa7b431ae49dd20563f955288db3415be6",
+      "git:hexsha": "0699a6fa7b431ae49dd20563f955288db3415be6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ac18812af0f55f6942df9c70afb90bd9fcd2a9a8",
+      "git:hexsha": "ac18812af0f55f6942df9c70afb90bd9fcd2a9a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ca961567fe041b2912bb442aacc80cb55a6112ae",
+      "git:hexsha": "ca961567fe041b2912bb442aacc80cb55a6112ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/cc5e2d3e10fcfdbf0f8d8893f834b95821cfd245",
+      "git:hexsha": "cc5e2d3e10fcfdbf0f8d8893f834b95821cfd245",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/08689c345df7fd626027d2dc0b3069cbb4d73d08",
+      "git:hexsha": "08689c345df7fd626027d2dc0b3069cbb4d73d08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ec24e09addd793a5e9785541bab961a59f7e3c00",
+      "git:hexsha": "ec24e09addd793a5e9785541bab961a59f7e3c00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/31c5df6d996022b3a1d168a7d539d3937340624d",
+      "git:hexsha": "31c5df6d996022b3a1d168a7d539d3937340624d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/87c95a8c94a9d7bb4f2a1610962f3d65544ce3b5",
+      "git:hexsha": "87c95a8c94a9d7bb4f2a1610962f3d65544ce3b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d7afa600b82aa176b1d322e875e335483c55d1ad",
+      "git:hexsha": "d7afa600b82aa176b1d322e875e335483c55d1ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/cfca0583345913ff2d80717f3d3f3f4a29b836f8",
+      "git:hexsha": "cfca0583345913ff2d80717f3d3f3f4a29b836f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1e055158c168c46f74b8595e81d4ce5564ef3f20",
+      "git:hexsha": "1e055158c168c46f74b8595e81d4ce5564ef3f20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d8791ab804a7df6d0cda089fdfa19010c02fba30",
+      "git:hexsha": "d8791ab804a7df6d0cda089fdfa19010c02fba30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/19fbf580b24a1d69de277be0d499228ebdc0c7ae",
+      "git:hexsha": "19fbf580b24a1d69de277be0d499228ebdc0c7ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/dacd13edb44a770b22ba30dfbf5cfff78dedfa78",
+      "git:hexsha": "dacd13edb44a770b22ba30dfbf5cfff78dedfa78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6b5130cccbaf6e71ddbe73eedaf302efdbfcb332",
+      "git:hexsha": "6b5130cccbaf6e71ddbe73eedaf302efdbfcb332",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/65e7b80d1ece5f637a875c52b4844a4d3e984053",
+      "git:hexsha": "65e7b80d1ece5f637a875c52b4844a4d3e984053",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e702e0e537d9f729de334f78819e641c986423d3",
+      "git:hexsha": "e702e0e537d9f729de334f78819e641c986423d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/fa54adf2f1e5db14a2044f5208d0ba6341161136",
+      "git:hexsha": "fa54adf2f1e5db14a2044f5208d0ba6341161136",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4edba9e1e89011b4a3f1d62b557d3f292a2226d8",
+      "git:hexsha": "4edba9e1e89011b4a3f1d62b557d3f292a2226d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/42e8451484aedbf3d664fe50da4df38ea841b2da",
+      "git:hexsha": "42e8451484aedbf3d664fe50da4df38ea841b2da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/adc8abc20385d1ff426667e0dee38ca42a1c706e",
+      "git:hexsha": "adc8abc20385d1ff426667e0dee38ca42a1c706e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ec1fca4c6c4c657dc5013ff9ba75958442c7d50d",
+      "git:hexsha": "ec1fca4c6c4c657dc5013ff9ba75958442c7d50d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/87bce8224713e72f39a85d720d69b9b5e30a92b7",
+      "git:hexsha": "87bce8224713e72f39a85d720d69b9b5e30a92b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.4-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/639c943dee47a7a99edc20ef4f6c4138d67c86bd",
+      "git:hexsha": "639c943dee47a7a99edc20ef4f6c4138d67c86bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.4-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/04cf7a85ae539953c53f0b551b977f8ca9356526",
+      "git:hexsha": "04cf7a85ae539953c53f0b551b977f8ca9356526",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a593b8cdd8d7bfdc17ff3e0d424977c97a2d99ef",
+      "git:hexsha": "a593b8cdd8d7bfdc17ff3e0d424977c97a2d99ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4877bb60722d7812856a1a6d83a5028f9d1d3571",
+      "git:hexsha": "4877bb60722d7812856a1a6d83a5028f9d1d3571",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d21014797a25265992bc28f7a778e6a1ddbb47f6",
+      "git:hexsha": "d21014797a25265992bc28f7a778e6a1ddbb47f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7a96d720867d4cd81894e896d1fbc3f991db3f05",
+      "git:hexsha": "7a96d720867d4cd81894e896d1fbc3f991db3f05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/eea8f28d78c92a8c9eac252794d2b7374845f18c",
+      "git:hexsha": "eea8f28d78c92a8c9eac252794d2b7374845f18c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/303f189227aea91a6f13969abdf2877f6ab298b6",
+      "git:hexsha": "303f189227aea91a6f13969abdf2877f6ab298b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/69cf220bc46ea4a5a4783a160a94eee2577af561",
+      "git:hexsha": "69cf220bc46ea4a5a4783a160a94eee2577af561",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/01091cc05678a2a4c9dc70547e8d4d5d323f51b4",
+      "git:hexsha": "01091cc05678a2a4c9dc70547e8d4d5d323f51b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/efe0fdc8ae37054a07f139d1f9a94e53a850b4da",
+      "git:hexsha": "efe0fdc8ae37054a07f139d1f9a94e53a850b4da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/516478ec3db17c45203d29bc9d65273f2b281c23",
+      "git:hexsha": "516478ec3db17c45203d29bc9d65273f2b281c23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9c2e21ec335921d7a60c89bfbab47da7caa8a614",
+      "git:hexsha": "9c2e21ec335921d7a60c89bfbab47da7caa8a614",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.2-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e1906a328d25c74fe182b5b13a112a77b992180a",
+      "git:hexsha": "e1906a328d25c74fe182b5b13a112a77b992180a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4881e78a46730d28995607191081358a863b6c82",
+      "git:hexsha": "4881e78a46730d28995607191081358a863b6c82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/344e5be7b273cd8ac609fb2578f0d955193e479e",
+      "git:hexsha": "344e5be7b273cd8ac609fb2578f0d955193e479e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/451411b1a166beecdf28400fff7cc4a95095137a",
+      "git:hexsha": "451411b1a166beecdf28400fff7cc4a95095137a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8b49b89de0aa9e9eb5e632c2b14bc1f4babc174e",
+      "git:hexsha": "8b49b89de0aa9e9eb5e632c2b14bc1f4babc174e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1b38735763cdc3760a485b187409441f86d7dbc8",
+      "git:hexsha": "1b38735763cdc3760a485b187409441f86d7dbc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1f9d349572409c7b0a8ff920e33f4f8af5dd15c9",
+      "git:hexsha": "1f9d349572409c7b0a8ff920e33f4f8af5dd15c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.3-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f1facbe96388033d27620857aeb5b4921a70f682",
+      "git:hexsha": "f1facbe96388033d27620857aeb5b4921a70f682",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.4-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/35da57b44c34c822e964c26206dd659773415e3a",
+      "git:hexsha": "35da57b44c34c822e964c26206dd659773415e3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.4-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8c64498c727e0a91b413757b2d1c67373324b64d",
+      "git:hexsha": "8c64498c727e0a91b413757b2d1c67373324b64d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.4-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4ece4a78352440da41c0488cca1ac3a475e391f5",
+      "git:hexsha": "4ece4a78352440da41c0488cca1ac3a475e391f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.4-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/6fd61579ded83573bb556df00ebbea3803a74748",
+      "git:hexsha": "6fd61579ded83573bb556df00ebbea3803a74748",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8107541d862f27b7eca7d58e2010a0af54dc04f5",
+      "git:hexsha": "8107541d862f27b7eca7d58e2010a0af54dc04f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4addd5d69cc642992fa58e8078dfdf5b4c1deb50",
+      "git:hexsha": "4addd5d69cc642992fa58e8078dfdf5b4c1deb50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e8feaede1ee8dc7063c6f1e32b9936dacef915f9",
+      "git:hexsha": "e8feaede1ee8dc7063c6f1e32b9936dacef915f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/85b3ff3a093a6d9f91cfadc1c8762291df7ff24c",
+      "git:hexsha": "85b3ff3a093a6d9f91cfadc1c8762291df7ff24c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f5405ce3a43c921d990b43fa465930b019efda55",
+      "git:hexsha": "f5405ce3a43c921d990b43fa465930b019efda55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ce5a8907cfc05d8aa23f41adf7c6dac367681cf0",
+      "git:hexsha": "ce5a8907cfc05d8aa23f41adf7c6dac367681cf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a544af7c03150ce28e1b5f74413064888b3b3307",
+      "git:hexsha": "a544af7c03150ce28e1b5f74413064888b3b3307",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ec3e18ecf7cfea1aa2d3bf3533e6d4d14298cf79",
+      "git:hexsha": "ec3e18ecf7cfea1aa2d3bf3533e6d4d14298cf79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/582d33e606ba3c771f0050cc3d4ab3c77f5698fa",
+      "git:hexsha": "582d33e606ba3c771f0050cc3d4ab3c77f5698fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bde059b7635aefd1375a8213469d375a7fa6bae3",
+      "git:hexsha": "bde059b7635aefd1375a8213469d375a7fa6bae3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b0a7af19c04ea7a0135d01ff6bfa0f111a433468",
+      "git:hexsha": "b0a7af19c04ea7a0135d01ff6bfa0f111a433468",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/24a8ccd8328c1fc01251b12527cd52cc448b51d5",
+      "git:hexsha": "24a8ccd8328c1fc01251b12527cd52cc448b51d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/f26d688641d7b85e32fddb7ca69b4339bee1e119",
+      "git:hexsha": "f26d688641d7b85e32fddb7ca69b4339bee1e119",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/65e67693a7994ef583d2a771004a83975ceca9e6",
+      "git:hexsha": "65e67693a7994ef583d2a771004a83975ceca9e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7cd4ccc938e2364e26b8d906387ac95d7e9eebb8",
+      "git:hexsha": "7cd4ccc938e2364e26b8d906387ac95d7e9eebb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/21f5d39e45b4d5470731b432082d2f92eaf9bb18",
+      "git:hexsha": "21f5d39e45b4d5470731b432082d2f92eaf9bb18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/851804bb4a2e41c30e89db2c334419f36d08b32d",
+      "git:hexsha": "851804bb4a2e41c30e89db2c334419f36d08b32d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bac55c0d568f489db37ffa2da7b22fe58a93a247",
+      "git:hexsha": "bac55c0d568f489db37ffa2da7b22fe58a93a247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0feb48594422fc16983fda17011c096200ef5c76",
+      "git:hexsha": "0feb48594422fc16983fda17011c096200ef5c76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0e3d36e8a5d15d961668bddfc2f0838e291d9b13",
+      "git:hexsha": "0e3d36e8a5d15d961668bddfc2f0838e291d9b13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/294e1bacb4347f4ddcc623626de5e9cbefb92886",
+      "git:hexsha": "294e1bacb4347f4ddcc623626de5e9cbefb92886",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/b9494c08e82852f67a9f62c39a313d7bd88f240d",
+      "git:hexsha": "b9494c08e82852f67a9f62c39a313d7bd88f240d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.2-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4d0d6b065717eafd8e4f5449a09cd02eb6c630ce",
+      "git:hexsha": "4d0d6b065717eafd8e4f5449a09cd02eb6c630ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/10e087a8726d9445fb2faba05a9b9d45e60d3cb5",
+      "git:hexsha": "10e087a8726d9445fb2faba05a9b9d45e60d3cb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/88283ab3518247b5db62e6178af3b84d872f03f0",
+      "git:hexsha": "88283ab3518247b5db62e6178af3b84d872f03f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d8d3cff8bad6ed2ef4dc9fe5477326136ce42ee1",
+      "git:hexsha": "d8d3cff8bad6ed2ef4dc9fe5477326136ce42ee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/78cdb127329bd99adbe908a63d9a8f052963f776",
+      "git:hexsha": "78cdb127329bd99adbe908a63d9a8f052963f776",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9ae3a813d6b8b1286b6be87d328f4d7d8f1f148a",
+      "git:hexsha": "9ae3a813d6b8b1286b6be87d328f4d7d8f1f148a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/9ee2dfc872cf5445d483c693987ca2e2032ef4ae",
+      "git:hexsha": "9ee2dfc872cf5445d483c693987ca2e2032ef4ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/c874d39f4b3911e2aab10a3fbd37740e34b80d4b",
+      "git:hexsha": "c874d39f4b3911e2aab10a3fbd37740e34b80d4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/850f80de990a2eeebc5294d209bc7eecc3a675cb",
+      "git:hexsha": "850f80de990a2eeebc5294d209bc7eecc3a675cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/8f6e955b2422916de273eecb955bcff9f8671239",
+      "git:hexsha": "8f6e955b2422916de273eecb955bcff9f8671239",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/144b3b5d83741e912c0a9944ed78eadbc8c92c02",
+      "git:hexsha": "144b3b5d83741e912c0a9944ed78eadbc8c92c02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/57e5695a54f8f40a8aee8dc2c5d9a35595bc7853",
+      "git:hexsha": "57e5695a54f8f40a8aee8dc2c5d9a35595bc7853",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/02c35d3457efedeaf951d52c329c68dec26d42fa",
+      "git:hexsha": "02c35d3457efedeaf951d52c329c68dec26d42fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0a30591729c6ad1ea5c2cf732c3741ac4471f642",
+      "git:hexsha": "0a30591729c6ad1ea5c2cf732c3741ac4471f642",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/7732f7d41ca9a928e8990ef75a76ea6c4867caef",
+      "git:hexsha": "7732f7d41ca9a928e8990ef75a76ea6c4867caef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/27a638362dba1cbf2d66b973ed9b8abf8aa27861",
+      "git:hexsha": "27a638362dba1cbf2d66b973ed9b8abf8aa27861",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ddb3ef4ce5316c04d60ecf46a5a15ed0edcce789",
+      "git:hexsha": "ddb3ef4ce5316c04d60ecf46a5a15ed0edcce789",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ebcf9bf6ae5b60d3292971aaeb0a49271c0ee1ac",
+      "git:hexsha": "ebcf9bf6ae5b60d3292971aaeb0a49271c0ee1ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/123a49df77bc66c6b60f263a44f7ed4b69eda8ba",
+      "git:hexsha": "123a49df77bc66c6b60f263a44f7ed4b69eda8ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/23d30dfc7865084684eaf3cd752625c13294b3fd",
+      "git:hexsha": "23d30dfc7865084684eaf3cd752625c13294b3fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/40638e5515c25441ed177bf6b0d3a7ce0efffe99",
+      "git:hexsha": "40638e5515c25441ed177bf6b0d3a7ce0efffe99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/bb100c5c19a51818a0552182d80a1d250f58bdaa",
+      "git:hexsha": "bb100c5c19a51818a0552182d80a1d250f58bdaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/73b2977bffd7543669e5137621090106a8e3bd99",
+      "git:hexsha": "73b2977bffd7543669e5137621090106a8e3bd99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4605359d3ba970cb4d8719dcbc1ca8d789a02bf0",
+      "git:hexsha": "4605359d3ba970cb4d8719dcbc1ca8d789a02bf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ca833547804758c53d05a35bd9d38ce8a55777a6",
+      "git:hexsha": "ca833547804758c53d05a35bd9d38ce8a55777a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e688484bd3ad7b53e0832ed3dfa30351ca16483b",
+      "git:hexsha": "e688484bd3ad7b53e0832ed3dfa30351ca16483b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/80d501011c726efa4eaaad2f32bc67a7900a7b22",
+      "git:hexsha": "80d501011c726efa4eaaad2f32bc67a7900a7b22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e5f40a4b0934f935000e7f66f260f31082498ca4",
+      "git:hexsha": "e5f40a4b0934f935000e7f66f260f31082498ca4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e9011b71b1acac7d85aa9d8944e60c2b34b94410",
+      "git:hexsha": "e9011b71b1acac7d85aa9d8944e60c2b34b94410",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e4945abb1a6cce4ee24bafced23b03a418bf44e3",
+      "git:hexsha": "e4945abb1a6cce4ee24bafced23b03a418bf44e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/975da09b02262a9e704adbc24241615842275cef",
+      "git:hexsha": "975da09b02262a9e704adbc24241615842275cef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e2e8b6aee4872248762cbf3e93fdad2d7f69dcba",
+      "git:hexsha": "e2e8b6aee4872248762cbf3e93fdad2d7f69dcba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/065ffde44326453e9a8dd34a7efbdcc4709935ee",
+      "git:hexsha": "065ffde44326453e9a8dd34a7efbdcc4709935ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5f6eb4651ed73b811c60e91425950f3b6e4d2973",
+      "git:hexsha": "5f6eb4651ed73b811c60e91425950f3b6e4d2973",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/4e31f0cc7a2d0448d533ce771e7e970c276231ef",
+      "git:hexsha": "4e31f0cc7a2d0448d533ce771e7e970c276231ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/dcc216a2441c41bda143804a566e671b9e630f35",
+      "git:hexsha": "dcc216a2441c41bda143804a566e671b9e630f35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e8a8b92b2a2bff0e7e64cc15e9cb6809687e584d",
+      "git:hexsha": "e8a8b92b2a2bff0e7e64cc15e9cb6809687e584d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/ba6f94951508b66ff2dfb38696397d19953300c0",
+      "git:hexsha": "ba6f94951508b66ff2dfb38696397d19953300c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/0c940ed9f87ab3a3bca2feda153b3ada2e19f7cf",
+      "git:hexsha": "0c940ed9f87ab3a3bca2feda153b3ada2e19f7cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/04e166268137f4d8d042fca3594afa4d5d563125",
+      "git:hexsha": "04e166268137f4d8d042fca3594afa4d5d563125",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a693a9d897d2243082ce5b5a31247c99ec497421",
+      "git:hexsha": "a693a9d897d2243082ce5b5a31247c99ec497421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/1d9f76bdda2d972e4bf681ba278b2eb529b8b297",
+      "git:hexsha": "1d9f76bdda2d972e4bf681ba278b2eb529b8b297",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/92f74f955f3534261174bb7ec811f6dcfed942ae",
+      "git:hexsha": "92f74f955f3534261174bb7ec811f6dcfed942ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/df42943ccf2214f864c23946e2147c1389ec9a69",
+      "git:hexsha": "df42943ccf2214f864c23946e2147c1389ec9a69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/005d5b64aca7462a832c618e19245a17b23a13dd",
+      "git:hexsha": "005d5b64aca7462a832c618e19245a17b23a13dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.2-final.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/5ce5f64da36744ef7da7b5890ed8f1d862fe24ed",
+      "git:hexsha": "5ce5f64da36744ef7da7b5890ed8f1d862fe24ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/a363b02ca7de1ff297286cfcb9c5050cee54b13e",
+      "git:hexsha": "a363b02ca7de1ff297286cfcb9c5050cee54b13e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/d564f6eacb79f5b909f9d4b03ff6ae1140c827c1",
+      "git:hexsha": "d564f6eacb79f5b909f9d4b03ff6ae1140c827c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/93e24f23af6bdfa140131d97dbeafe5e0655dde5",
+      "git:hexsha": "93e24f23af6bdfa140131d97dbeafe5e0655dde5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/e7d824af2b75fa2b5c6ba9ce5777616d9fdebe20",
+      "git:hexsha": "e7d824af2b75fa2b5c6ba9ce5777616d9fdebe20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lancedb/lancedb/commit/101066788d076da85140959e358e8eff50a39a7f",
+      "git:hexsha": "101066788d076da85140959e358e8eff50a39a7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    }
+  ]
+}
