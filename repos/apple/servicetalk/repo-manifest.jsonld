@@ -1,0 +1,856 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/apple/servicetalk",
+  "@type": "gh:Repository",
+  "gh:name": "servicetalk",
+  "gh:owner": "apple",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/0d10ab15e5401f900f1af4c27e620827b4a426c0",
+      "git:hexsha": "0d10ab15e5401f900f1af4c27e620827b4a426c0",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "pre-redis-removal",
+      "repolex:parsedAt": "2026-04-20T12:19:05.359457+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/9b9df816977129f9e4a154b03e7c92de334f8043",
+      "git:hexsha": "9b9df816977129f9e4a154b03e7c92de334f8043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/52fcd24eb7fda2084632d0e33b491ed14a7b6747",
+      "git:hexsha": "52fcd24eb7fda2084632d0e33b491ed14a7b6747",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/bf7927ed701435546449c20535f1b136b0c4f06f",
+      "git:hexsha": "bf7927ed701435546449c20535f1b136b0c4f06f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/62a1eb65a85c439fe7e7d5e13146d21d8ad9cf58",
+      "git:hexsha": "62a1eb65a85c439fe7e7d5e13146d21d8ad9cf58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/28bf12319a6601f965f099b6c03d28bee43c0c96",
+      "git:hexsha": "28bf12319a6601f965f099b6c03d28bee43c0c96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/6452487bdd5cd354239ad79f51703b5f213b6d35",
+      "git:hexsha": "6452487bdd5cd354239ad79f51703b5f213b6d35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/33613bf3aacf09fdc68ae7c60f9f85235d8e4bcf",
+      "git:hexsha": "33613bf3aacf09fdc68ae7c60f9f85235d8e4bcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/0cd61e1b906da6ca08ac066a7086f9904b4c124f",
+      "git:hexsha": "0cd61e1b906da6ca08ac066a7086f9904b4c124f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/34b08d35842b75ca7a5b553c6af02339727ae3e6",
+      "git:hexsha": "34b08d35842b75ca7a5b553c6af02339727ae3e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/0cd978c7981f72a420f45e925889d8c67d53969d",
+      "git:hexsha": "0cd978c7981f72a420f45e925889d8c67d53969d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/ce2e5f83e93494f3b1b492a361a11c7ccfc8584b",
+      "git:hexsha": "ce2e5f83e93494f3b1b492a361a11c7ccfc8584b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/738920110f9bc9a7d840c39049bea7e0bfec7c53",
+      "git:hexsha": "738920110f9bc9a7d840c39049bea7e0bfec7c53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/9106385581ed8f91ac6828c68e790b6276878251",
+      "git:hexsha": "9106385581ed8f91ac6828c68e790b6276878251",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.0-docfix"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/86e6a667fd86616b6ce8c27283145ec31a39a84d",
+      "git:hexsha": "86e6a667fd86616b6ce8c27283145ec31a39a84d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/d26b2ec83d8de62b489c32eebd935c8136c169cd",
+      "git:hexsha": "d26b2ec83d8de62b489c32eebd935c8136c169cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/24ac59c6108796ff2500b48d4bcc4af9e599cee0",
+      "git:hexsha": "24ac59c6108796ff2500b48d4bcc4af9e599cee0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/4a75d0201426c8d66c3cd63767518ddd408cd592",
+      "git:hexsha": "4a75d0201426c8d66c3cd63767518ddd408cd592",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/69f86b12228cab6c93f9cd70b1a85e4b7d700580",
+      "git:hexsha": "69f86b12228cab6c93f9cd70b1a85e4b7d700580",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c3cbdbdd17bc469b05ab80798b9bdeecd137b735",
+      "git:hexsha": "c3cbdbdd17bc469b05ab80798b9bdeecd137b735",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/6f44cd711d38e1ba9ec444069352867352aa9dd4",
+      "git:hexsha": "6f44cd711d38e1ba9ec444069352867352aa9dd4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/1b634435b489a6877c84d3d86bba557844fdd5ee",
+      "git:hexsha": "1b634435b489a6877c84d3d86bba557844fdd5ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/78113e37783b5bc88401b551979abb5b59b580b8",
+      "git:hexsha": "78113e37783b5bc88401b551979abb5b59b580b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/f0337597a3d7df93b6619276aec26c896d18e381",
+      "git:hexsha": "f0337597a3d7df93b6619276aec26c896d18e381",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/bb7a9beb108eb86e6535e8a79d0d2365dc4266b2",
+      "git:hexsha": "bb7a9beb108eb86e6535e8a79d0d2365dc4266b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/40a679bcb796a72fdea5087ddaeb9e8868bfb89e",
+      "git:hexsha": "40a679bcb796a72fdea5087ddaeb9e8868bfb89e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/4b3688b0cc53d33f2fb5c5b05c9d8c02d2bd7268",
+      "git:hexsha": "4b3688b0cc53d33f2fb5c5b05c9d8c02d2bd7268",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/a5e7878763a69bd81687c5c058b2a832fe9b3298",
+      "git:hexsha": "a5e7878763a69bd81687c5c058b2a832fe9b3298",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/8e17ddeb5d3e25ccb99133f4d7dac1044b0680f2",
+      "git:hexsha": "8e17ddeb5d3e25ccb99133f4d7dac1044b0680f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/104798c1e9e221fd8bef2ed3fb0efd907e8e5ba9",
+      "git:hexsha": "104798c1e9e221fd8bef2ed3fb0efd907e8e5ba9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/99b0cfd42e985c00a9720093957efe4447caa6e8",
+      "git:hexsha": "99b0cfd42e985c00a9720093957efe4447caa6e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/3c6134157caa228a782748b98027bda12509f639",
+      "git:hexsha": "3c6134157caa228a782748b98027bda12509f639",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/a7dd00bfa5a08cbb07aa1feaded9f74a346dc5d6",
+      "git:hexsha": "a7dd00bfa5a08cbb07aa1feaded9f74a346dc5d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/932627e887e3185641f669d8dc11f6c19db3e70a",
+      "git:hexsha": "932627e887e3185641f669d8dc11f6c19db3e70a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/ccd4e2bec2fb24e4df4876ecb9ee8434e8b0c750",
+      "git:hexsha": "ccd4e2bec2fb24e4df4876ecb9ee8434e8b0c750",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/72ded77747c9292c2ccfd13a4bb18d4736cbdfa8",
+      "git:hexsha": "72ded77747c9292c2ccfd13a4bb18d4736cbdfa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/5a1a8c548e40c7d048cd457973bb36d68f4cffe1",
+      "git:hexsha": "5a1a8c548e40c7d048cd457973bb36d68f4cffe1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/16b4406ee8f3ceccef92ddda31d1d5a3b67ea94a",
+      "git:hexsha": "16b4406ee8f3ceccef92ddda31d1d5a3b67ea94a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/8ddbae91f2aec2a114f707533c6adccac90d8c00",
+      "git:hexsha": "8ddbae91f2aec2a114f707533c6adccac90d8c00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/a0fcc1640041665c7480037ffea60c659ef5a0a2",
+      "git:hexsha": "a0fcc1640041665c7480037ffea60c659ef5a0a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/cc2b866d3bdc1e87a3da5449d51ac839b041ba03",
+      "git:hexsha": "cc2b866d3bdc1e87a3da5449d51ac839b041ba03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/4fb719768114db8fcafb2afdefb072e97a6e9caa",
+      "git:hexsha": "4fb719768114db8fcafb2afdefb072e97a6e9caa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/4a7762fbc74216afd5c2c14882e8c36b73d7b95b",
+      "git:hexsha": "4a7762fbc74216afd5c2c14882e8c36b73d7b95b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/5ef2651939fd3afd15c0658938282039dfee89ee",
+      "git:hexsha": "5ef2651939fd3afd15c0658938282039dfee89ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/8614284f802d5dd5e031a3dde35b5a2298db8894",
+      "git:hexsha": "8614284f802d5dd5e031a3dde35b5a2298db8894",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/cd55189796103dbc91149db853094737d52f35e0",
+      "git:hexsha": "cd55189796103dbc91149db853094737d52f35e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.38.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/b69712b9dcc3f27656411c9eb148f12a438c7ad9",
+      "git:hexsha": "b69712b9dcc3f27656411c9eb148f12a438c7ad9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/972d3dba2295c9ee5c4fe273870e33734a0eb987",
+      "git:hexsha": "972d3dba2295c9ee5c4fe273870e33734a0eb987",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.39.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/e25be5a42c23fb9c7e965d8d73e6b4bd027b8ec5",
+      "git:hexsha": "e25be5a42c23fb9c7e965d8d73e6b4bd027b8ec5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.39.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/45156483a095fab2b741cd890a925c056601089e",
+      "git:hexsha": "45156483a095fab2b741cd890a925c056601089e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.39.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/db475b20e24a240cb2dd9d50b9b97f17034e3425",
+      "git:hexsha": "db475b20e24a240cb2dd9d50b9b97f17034e3425",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/88d3430e84bf083417c102ccb2e78bf0001a59ce",
+      "git:hexsha": "88d3430e84bf083417c102ccb2e78bf0001a59ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/84777ca8a16d646ff2597a461150bd8d5b93193e",
+      "git:hexsha": "84777ca8a16d646ff2597a461150bd8d5b93193e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/916f2ac58c377de7c64fa67af9094416dc5a485b",
+      "git:hexsha": "916f2ac58c377de7c64fa67af9094416dc5a485b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c2182308934ea00ebe632493417291e788ae850c",
+      "git:hexsha": "c2182308934ea00ebe632493417291e788ae850c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/04fce19415ac3f02fa00537078faa5d19483258c",
+      "git:hexsha": "04fce19415ac3f02fa00537078faa5d19483258c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/cdd7e6e06337b04643cffce8054efcd073f77075",
+      "git:hexsha": "cdd7e6e06337b04643cffce8054efcd073f77075",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/5eb1881bfc675213a73211ae16d0cbc548a8e531",
+      "git:hexsha": "5eb1881bfc675213a73211ae16d0cbc548a8e531",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/020b42502ada1e0acd972378f744848324475f5e",
+      "git:hexsha": "020b42502ada1e0acd972378f744848324475f5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/1276ad04f42b91021f3eb4242645a3fd2cf54708",
+      "git:hexsha": "1276ad04f42b91021f3eb4242645a3fd2cf54708",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/27ece07312a15a3350e39e080e4a01861fa2f393",
+      "git:hexsha": "27ece07312a15a3350e39e080e4a01861fa2f393",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/eae8a9a011eefa7cf21cfd3c32069ecf5387a720",
+      "git:hexsha": "eae8a9a011eefa7cf21cfd3c32069ecf5387a720",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/8a721d825fb3e5851c588633079530d357747e80",
+      "git:hexsha": "8a721d825fb3e5851c588633079530d357747e80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/1fdc04c12d787852514ae68f756fbe288c82e2a4",
+      "git:hexsha": "1fdc04c12d787852514ae68f756fbe288c82e2a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/690ccdbb575d0d29eb1a4dad62dd10a9396104c1",
+      "git:hexsha": "690ccdbb575d0d29eb1a4dad62dd10a9396104c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/43ba981e23fef1ed841cb283191634aea5a4859f",
+      "git:hexsha": "43ba981e23fef1ed841cb283191634aea5a4859f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/9a87b12735f2403a25baf1cf4e311de7fd5e8780",
+      "git:hexsha": "9a87b12735f2403a25baf1cf4e311de7fd5e8780",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/1d6b58a349644c5abc8526b0ddd0009de3a24ad1",
+      "git:hexsha": "1d6b58a349644c5abc8526b0ddd0009de3a24ad1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c91d6658e44b85bbca629fe03ac4e824dc221971",
+      "git:hexsha": "c91d6658e44b85bbca629fe03ac4e824dc221971",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/9810ffc0eb63891321193f2c91f11e928af66d07",
+      "git:hexsha": "9810ffc0eb63891321193f2c91f11e928af66d07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/dcd1f7959a0a6ae0a82698db90b549384d6e07f2",
+      "git:hexsha": "dcd1f7959a0a6ae0a82698db90b549384d6e07f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/5484e9efb77310fd374f4e1781fdab682ebc54bd",
+      "git:hexsha": "5484e9efb77310fd374f4e1781fdab682ebc54bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/5502d5c398424310db6b3a368e895cb36dc0067e",
+      "git:hexsha": "5502d5c398424310db6b3a368e895cb36dc0067e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c59fc573f0a5ee013f48e8d9ca487b36fba9a380",
+      "git:hexsha": "c59fc573f0a5ee013f48e8d9ca487b36fba9a380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/aa5d8ff78d7bfc8584fde17e0d32063cc5de4a06",
+      "git:hexsha": "aa5d8ff78d7bfc8584fde17e0d32063cc5de4a06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/ff33d1143b0a9fc1672384dce3619173f70ded0c",
+      "git:hexsha": "ff33d1143b0a9fc1672384dce3619173f70ded0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/ae994bd145db16a7da01e4fd40d526b83c47097d",
+      "git:hexsha": "ae994bd145db16a7da01e4fd40d526b83c47097d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/e8d7056f5a2dec31a151df8d6bc095ea17cac90e",
+      "git:hexsha": "e8d7056f5a2dec31a151df8d6bc095ea17cac90e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/f4338fe2840f6d0e1de9e1ca815b21ed4dfad9d0",
+      "git:hexsha": "f4338fe2840f6d0e1de9e1ca815b21ed4dfad9d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/6ac34431dfa9a6a52ba06a448d722346b0acb00f",
+      "git:hexsha": "6ac34431dfa9a6a52ba06a448d722346b0acb00f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/8ce38fe612954f6a9d948e2015729046a30ce97f",
+      "git:hexsha": "8ce38fe612954f6a9d948e2015729046a30ce97f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/13d060a0b38d3d5432f5ea4db43cccbe2ba3d5ec",
+      "git:hexsha": "13d060a0b38d3d5432f5ea4db43cccbe2ba3d5ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/88ad1169197218daf8f5ad5db41b20db5a115bab",
+      "git:hexsha": "88ad1169197218daf8f5ad5db41b20db5a115bab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c5084b832bb2a7c092f6a72a80c3c1b211a4f067",
+      "git:hexsha": "c5084b832bb2a7c092f6a72a80c3c1b211a4f067",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/14314ec10c3d83514fc75741559eb32544cbfa7a",
+      "git:hexsha": "14314ec10c3d83514fc75741559eb32544cbfa7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/50afdcfdb17fcdd54a1b1b75b46221565dd6653e",
+      "git:hexsha": "50afdcfdb17fcdd54a1b1b75b46221565dd6653e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/e7009fb426e2deffe6b1fc974d5c634f628a9fdd",
+      "git:hexsha": "e7009fb426e2deffe6b1fc974d5c634f628a9fdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/0c34911327e876bf9022d0eaf4ac98c535678fa1",
+      "git:hexsha": "0c34911327e876bf9022d0eaf4ac98c535678fa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c8b34fccfd52b657e1e9871b25e5e7a96a01b8d6",
+      "git:hexsha": "c8b34fccfd52b657e1e9871b25e5e7a96a01b8d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/2c610e68ba170179dc2b32d6f158506c5eaebbc2",
+      "git:hexsha": "2c610e68ba170179dc2b32d6f158506c5eaebbc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/6f571bea96b77f3e22011e9baacea57217ee4851",
+      "git:hexsha": "6f571bea96b77f3e22011e9baacea57217ee4851",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/662298013e9192648ce9fcbfb6d9186c4581669c",
+      "git:hexsha": "662298013e9192648ce9fcbfb6d9186c4581669c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/2a443ebb19cf55c75f216024b09ac88fad3c9f41",
+      "git:hexsha": "2a443ebb19cf55c75f216024b09ac88fad3c9f41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/f30f930929a3f01ce1d4bc68121361cb1f0fa7f1",
+      "git:hexsha": "f30f930929a3f01ce1d4bc68121361cb1f0fa7f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/3eea4ec2ab914dab80a139868761d4e3da512f9e",
+      "git:hexsha": "3eea4ec2ab914dab80a139868761d4e3da512f9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/a9686cea856838eda48bf12f0c404dfe4548de4f",
+      "git:hexsha": "a9686cea856838eda48bf12f0c404dfe4548de4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/533702cb862a9d3a0dddb59fac511fa4b1a1a983",
+      "git:hexsha": "533702cb862a9d3a0dddb59fac511fa4b1a1a983",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/02e0ffab17f0e935e9a84989fe101ba597785264",
+      "git:hexsha": "02e0ffab17f0e935e9a84989fe101ba597785264",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/80cc4afe03f0cf9dc77ccb8ee631dd89cb08c7c0",
+      "git:hexsha": "80cc4afe03f0cf9dc77ccb8ee631dd89cb08c7c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/662efb4618c7b15dda7e35f42feb9465099ad5b1",
+      "git:hexsha": "662efb4618c7b15dda7e35f42feb9465099ad5b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/883bb82551446b91c938f2bc999a79e8b992c810",
+      "git:hexsha": "883bb82551446b91c938f2bc999a79e8b992c810",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/709087804312ea811067cf313dfd8fc0c858fe21",
+      "git:hexsha": "709087804312ea811067cf313dfd8fc0c858fe21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/77ca7f30fc870ffdd9cb78d50b929645ea2d1395",
+      "git:hexsha": "77ca7f30fc870ffdd9cb78d50b929645ea2d1395",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/2ff9e8780f0aae99870a854074316689f3e3a7bc",
+      "git:hexsha": "2ff9e8780f0aae99870a854074316689f3e3a7bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/59b6544250c3db7a772f92b397bd14e3bc7c773b",
+      "git:hexsha": "59b6544250c3db7a772f92b397bd14e3bc7c773b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/b8a3ecb3d9451df18aec2fef42f40efd2c93fd3d",
+      "git:hexsha": "b8a3ecb3d9451df18aec2fef42f40efd2c93fd3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/68df0d2d02e9a55050c10b83701178343c4ba3ff",
+      "git:hexsha": "68df0d2d02e9a55050c10b83701178343c4ba3ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/9566dab56d3616205c9eb4e52bdec85f027f2f11",
+      "git:hexsha": "9566dab56d3616205c9eb4e52bdec85f027f2f11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/15d8a5fc0c9f492f5142447d849f7cf2a725ec91",
+      "git:hexsha": "15d8a5fc0c9f492f5142447d849f7cf2a725ec91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/da1b7e38a1e2e1268446dcfcf4eaa9502b480ad3",
+      "git:hexsha": "da1b7e38a1e2e1268446dcfcf4eaa9502b480ad3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/e9cbcbdf2da2cf76a76d9f34c6c8275d51784eb9",
+      "git:hexsha": "e9cbcbdf2da2cf76a76d9f34c6c8275d51784eb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/73d6518c15e4230f720adb43c0079e4eb8dea3b7",
+      "git:hexsha": "73d6518c15e4230f720adb43c0079e4eb8dea3b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/97dae90d27e52d92ed37c24af6f208f2d07e60b4",
+      "git:hexsha": "97dae90d27e52d92ed37c24af6f208f2d07e60b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/17b97c85ec29f06fac3a33c2e6dbb7b930161ca2",
+      "git:hexsha": "17b97c85ec29f06fac3a33c2e6dbb7b930161ca2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/4fb4028e29f037e146430a6f08cff4b0e0dcdcd5",
+      "git:hexsha": "4fb4028e29f037e146430a6f08cff4b0e0dcdcd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/16af216448b0d9c3b8877f8da9c638a8e2f387ff",
+      "git:hexsha": "16af216448b0d9c3b8877f8da9c638a8e2f387ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/906f37c0c48b29638a798ded21d96a6ce6abe8ee",
+      "git:hexsha": "906f37c0c48b29638a798ded21d96a6ce6abe8ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/791608fc7503a36266d1039256d541fa9d360fa8",
+      "git:hexsha": "791608fc7503a36266d1039256d541fa9d360fa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/140ccb5c96983fc2651778f432df9f32e6e51e9c",
+      "git:hexsha": "140ccb5c96983fc2651778f432df9f32e6e51e9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/5d187f780036cae32a395d44abdee67b95be524d",
+      "git:hexsha": "5d187f780036cae32a395d44abdee67b95be524d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.51"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c18a1043d1a277eca9d90c50dfce7443133be5e2",
+      "git:hexsha": "c18a1043d1a277eca9d90c50dfce7443133be5e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/a75950e0ba7ac7b0f76ba8764d161dec14a53945",
+      "git:hexsha": "a75950e0ba7ac7b0f76ba8764d161dec14a53945",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/a47a9c8a8eaa35e41b7c5225c8af1e9590b7a7ea",
+      "git:hexsha": "a47a9c8a8eaa35e41b7c5225c8af1e9590b7a7ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/227ff59473ac01d3b913fa58df4970c28f0a8706",
+      "git:hexsha": "227ff59473ac01d3b913fa58df4970c28f0a8706",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.55"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/88a27d1b16eb19f31d6315e09fd32917e09c90c7",
+      "git:hexsha": "88a27d1b16eb19f31d6315e09fd32917e09c90c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/315eab8626c0f65cf230a51f9edb11fdb5927c39",
+      "git:hexsha": "315eab8626c0f65cf230a51f9edb11fdb5927c39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/72379e482b07d5d5d444e45fc8812d92f1528ed2",
+      "git:hexsha": "72379e482b07d5d5d444e45fc8812d92f1528ed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.58"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/0226330cf85597ac62b757a8fe631e6ae6e0283e",
+      "git:hexsha": "0226330cf85597ac62b757a8fe631e6ae6e0283e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.59"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/fb8b37d6840896681b41aaf66488cc90dad6e258",
+      "git:hexsha": "fb8b37d6840896681b41aaf66488cc90dad6e258",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/fe610c27ebf4fcf01939af4f87d7159c9bdba59c",
+      "git:hexsha": "fe610c27ebf4fcf01939af4f87d7159c9bdba59c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.60"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/24e24ed01446d7d002515ff4bbe7c68e7079dddc",
+      "git:hexsha": "24e24ed01446d7d002515ff4bbe7c68e7079dddc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.61"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/c1db5fe13f16124e3a74ec88d6f18e1f33c85d86",
+      "git:hexsha": "c1db5fe13f16124e3a74ec88d6f18e1f33c85d86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.62"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/1ba85e3ff538d862a7bd4389f8753a4f066d2642",
+      "git:hexsha": "1ba85e3ff538d862a7bd4389f8753a4f066d2642",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.63"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/d838c3e94e5413eb6e44fa2901576f8e420af0c3",
+      "git:hexsha": "d838c3e94e5413eb6e44fa2901576f8e420af0c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/af8c2ffb8bf30b929b839f0303fee9950d79dfbf",
+      "git:hexsha": "af8c2ffb8bf30b929b839f0303fee9950d79dfbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/0abf39511bdcb7806c52512326f5222378878c1d",
+      "git:hexsha": "0abf39511bdcb7806c52512326f5222378878c1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/3962c6156a01f9c99f87717cdc44d502bf3650c6",
+      "git:hexsha": "3962c6156a01f9c99f87717cdc44d502bf3650c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/fd4e921f54707993d3e7b0a338eaad78b9854e46",
+      "git:hexsha": "fd4e921f54707993d3e7b0a338eaad78b9854e46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/2d749d225fe1f80466fd19f81622f76bfbf59333",
+      "git:hexsha": "2d749d225fe1f80466fd19f81622f76bfbf59333",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/624007bfac3a0e0c49ad5dad32fb8ef2ef19393d",
+      "git:hexsha": "624007bfac3a0e0c49ad5dad32fb8ef2ef19393d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apple/servicetalk/commit/049f9b9a0ef429ebe76044bf1b0f4b7b5a945cf2",
+      "git:hexsha": "049f9b9a0ef429ebe76044bf1b0f4b7b5a945cf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    }
+  ]
+}
