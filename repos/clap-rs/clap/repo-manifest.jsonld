@@ -1,0 +1,2926 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/clap-rs/clap",
+  "@type": "gh:Repository",
+  "gh:name": "clap",
+  "gh:owner": "clap-rs",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9ab6dee710aa384e02ec5e9e2cfeadb2f35abf2a",
+      "git:hexsha": "9ab6dee710aa384e02ec5e9e2cfeadb2f35abf2a",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v4.6.0",
+      "repolex:parsedAt": "2026-04-22T14:55:06.888318+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/be91c5f2f533b8fe0c3c5d05d6a8f5e32837c872",
+      "git:hexsha": "be91c5f2f533b8fe0c3c5d05d6a8f5e32837c872",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/258c97867defc2eb162b7945ddcafaf737f619be",
+      "git:hexsha": "258c97867defc2eb162b7945ddcafaf737f619be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cc127f982515dc5785469347509b1628441dd2ae",
+      "git:hexsha": "cc127f982515dc5785469347509b1628441dd2ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/554083ffc5ebd95da8fc6b8bae8aa8069b9fe48b",
+      "git:hexsha": "554083ffc5ebd95da8fc6b8bae8aa8069b9fe48b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f10375ebe0e9ed18a088f257ab046270c6356681",
+      "git:hexsha": "f10375ebe0e9ed18a088f257ab046270c6356681",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c01ebbac17e3fdaf3b1d0bfb84051cd701babb7c",
+      "git:hexsha": "c01ebbac17e3fdaf3b1d0bfb84051cd701babb7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8d73a0e80f6affb3fdf85faf30cdaa9059e3cb32",
+      "git:hexsha": "8d73a0e80f6affb3fdf85faf30cdaa9059e3cb32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bc951e4e531846397e4f73c032beadccc1b51c17",
+      "git:hexsha": "bc951e4e531846397e4f73c032beadccc1b51c17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d392b88bd531c82d8db4b1436bf998c977b293c8",
+      "git:hexsha": "d392b88bd531c82d8db4b1436bf998c977b293c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d9906eb1500de0a55e2cc375dbade6b3b20cdf47",
+      "git:hexsha": "d9906eb1500de0a55e2cc375dbade6b3b20cdf47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3d8ce3f4268e4fd02549a9cea32f18965272ac50",
+      "git:hexsha": "3d8ce3f4268e4fd02549a9cea32f18965272ac50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7b7c76e3d0279b474c774ea738aecb1d77251df8",
+      "git:hexsha": "7b7c76e3d0279b474c774ea738aecb1d77251df8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e5b06c306163dc01800cb5ef2eeafbbd24c4084c",
+      "git:hexsha": "e5b06c306163dc01800cb5ef2eeafbbd24c4084c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5c3868ea4cb8063731d8526e8e97414942a987ae",
+      "git:hexsha": "5c3868ea4cb8063731d8526e8e97414942a987ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v3.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e6729f96c3ad2bab4f1bd7da7d817a7049b3d768",
+      "git:hexsha": "e6729f96c3ad2bab4f1bd7da7d817a7049b3d768",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1e286f3dc294ca190a533b3192b5f07321659d44",
+      "git:hexsha": "1e286f3dc294ca190a533b3192b5f07321659d44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0194568b03bd563105d45f553636c7c4eeaf3757",
+      "git:hexsha": "0194568b03bd563105d45f553636c7c4eeaf3757",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3ca1b7709408f8bb3ec6b48ac2b4854aabe643b7",
+      "git:hexsha": "3ca1b7709408f8bb3ec6b48ac2b4854aabe643b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/95698a4f31a8fb7a0a7b227fccc6445bc41fb7d7",
+      "git:hexsha": "95698a4f31a8fb7a0a7b227fccc6445bc41fb7d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v3.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4e56acffcebd6f9b37f0714f3d3b69beacb564b6",
+      "git:hexsha": "4e56acffcebd6f9b37f0714f3d3b69beacb564b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/650a29c18b9bdc4f9d1e20f4eb4845f9d413e167",
+      "git:hexsha": "650a29c18b9bdc4f9d1e20f4eb4845f9d413e167",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3823df9bbe03efefcb49319834a72cf2cfa2ede9",
+      "git:hexsha": "3823df9bbe03efefcb49319834a72cf2cfa2ede9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b4a1362486a95309c44f4ba9ef24038f1281f384",
+      "git:hexsha": "b4a1362486a95309c44f4ba9ef24038f1281f384",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/df30c1a1a887215f9c8d6ee8474db1b4bfbecfc8",
+      "git:hexsha": "df30c1a1a887215f9c8d6ee8474db1b4bfbecfc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7de2f36e6b82efafa0b3575f871ed2f262e123bc",
+      "git:hexsha": "7de2f36e6b82efafa0b3575f871ed2f262e123bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3a74d8237634979275d364c48228371e50bf8407",
+      "git:hexsha": "3a74d8237634979275d364c48228371e50bf8407",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a82029c70759f5469ab76c6700ddfec5935ba297",
+      "git:hexsha": "a82029c70759f5469ab76c6700ddfec5935ba297",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bf42ff04d54a66e91f3b624be5c567dc52374753",
+      "git:hexsha": "bf42ff04d54a66e91f3b624be5c567dc52374753",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/80fb67edaa93b44c2697126c15f7ffc287c65c74",
+      "git:hexsha": "80fb67edaa93b44c2697126c15f7ffc287c65c74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/996636d56f69f3591e88cdc3c3c346352fa3653a",
+      "git:hexsha": "996636d56f69f3591e88cdc3c3c346352fa3653a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b4b94af0f8aec4c279182b6646c169f5ef731197",
+      "git:hexsha": "b4b94af0f8aec4c279182b6646c169f5ef731197",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c75b81eeb84b33d908c3f1afce81b77d4ee44664",
+      "git:hexsha": "c75b81eeb84b33d908c3f1afce81b77d4ee44664",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3262016c26587e97c18187dffc60978a3b1547ae",
+      "git:hexsha": "3262016c26587e97c18187dffc60978a3b1547ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0eccd556ac694cdb68251f758e9b80574be349a8",
+      "git:hexsha": "0eccd556ac694cdb68251f758e9b80574be349a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/34d856b449a66719360d10cbc9334e09c9bb2769",
+      "git:hexsha": "34d856b449a66719360d10cbc9334e09c9bb2769",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/90c042eeaef36ef6a1718b19cc9ea213ac249f6e",
+      "git:hexsha": "90c042eeaef36ef6a1718b19cc9ea213ac249f6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fb9435d026ab011c9071ca92eeab738b9b30ca13",
+      "git:hexsha": "fb9435d026ab011c9071ca92eeab738b9b30ca13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2deb3721954a393d8d8925e37d29ca236de832fb",
+      "git:hexsha": "2deb3721954a393d8d8925e37d29ca236de832fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/84a9b53cee22a3b757a9b0a92043f82597993d02",
+      "git:hexsha": "84a9b53cee22a3b757a9b0a92043f82597993d02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e78bba0ec5c2ad35ab1511ebb6977bf66530f5ca",
+      "git:hexsha": "e78bba0ec5c2ad35ab1511ebb6977bf66530f5ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/285265365615522ae473036488de0d2bf18b0500",
+      "git:hexsha": "285265365615522ae473036488de0d2bf18b0500",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8fc65e28b66878f6d1ee45c725fbfb31b35321e3",
+      "git:hexsha": "8fc65e28b66878f6d1ee45c725fbfb31b35321e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/43591bc1ee051fde0835e7eb6995297932a759a7",
+      "git:hexsha": "43591bc1ee051fde0835e7eb6995297932a759a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2d4644a8703369d3a3c50dd58c713d48ab1da2ac",
+      "git:hexsha": "2d4644a8703369d3a3c50dd58c713d48ab1da2ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/36f79289ca01b8786b7e097ae694fe8c577b02d0",
+      "git:hexsha": "36f79289ca01b8786b7e097ae694fe8c577b02d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9c3dc187cb47dd437cdb6fee045e42dc8146e9d6",
+      "git:hexsha": "9c3dc187cb47dd437cdb6fee045e42dc8146e9d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/50f0e6bffbe28ba0d245c1789010592764a7d80d",
+      "git:hexsha": "50f0e6bffbe28ba0d245c1789010592764a7d80d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1289534b19adf1225de7ac2807be31bc51190377",
+      "git:hexsha": "1289534b19adf1225de7ac2807be31bc51190377",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2e4964541886a524992b08b2adb823850d59b669",
+      "git:hexsha": "2e4964541886a524992b08b2adb823850d59b669",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6eac61154bda701f64b511035a8343118a142cd3",
+      "git:hexsha": "6eac61154bda701f64b511035a8343118a142cd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/708afa33ef390e888e4b750423d5a674f490500d",
+      "git:hexsha": "708afa33ef390e888e4b750423d5a674f490500d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/204552890d316ec9ae0b21f85298ba1d5d0786f8",
+      "git:hexsha": "204552890d316ec9ae0b21f85298ba1d5d0786f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/39f5e807af1c08acedbf7343ce9ec379a4308636",
+      "git:hexsha": "39f5e807af1c08acedbf7343ce9ec379a4308636",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9bfa5a338c6532419e2477e89708395fbb02ca06",
+      "git:hexsha": "9bfa5a338c6532419e2477e89708395fbb02ca06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/28763ebb6d8714f6ca588bf477729040e0e760b0",
+      "git:hexsha": "28763ebb6d8714f6ca588bf477729040e0e760b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/48d28aa689bfd0fb44ec025244b30ba261e2515a",
+      "git:hexsha": "48d28aa689bfd0fb44ec025244b30ba261e2515a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f524d84c1d3eca1c980c5150c750d9e00cbbdb0c",
+      "git:hexsha": "f524d84c1d3eca1c980c5150c750d9e00cbbdb0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6a2b3bf4fa939c237c4cf684dc9b2f47c1d55cc9",
+      "git:hexsha": "6a2b3bf4fa939c237c4cf684dc9b2f47c1d55cc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bd9583059be6db26ef07eacbfbd31d634c2cbec6",
+      "git:hexsha": "bd9583059be6db26ef07eacbfbd31d634c2cbec6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a751c5fe65cd33cb09e85ff3039b4fd0182cdb6e",
+      "git:hexsha": "a751c5fe65cd33cb09e85ff3039b4fd0182cdb6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0c01b5558de0a1a513a2af429981099e550d1a78",
+      "git:hexsha": "0c01b5558de0a1a513a2af429981099e550d1a78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4a006770245ff0225db86fff3ac0d107099d694f",
+      "git:hexsha": "4a006770245ff0225db86fff3ac0d107099d694f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/349ed304cf1705bd8727d68e9a2a6fcd1fa80c92",
+      "git:hexsha": "349ed304cf1705bd8727d68e9a2a6fcd1fa80c92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d18615dfc04efa4e034b304664963fc5d1fd3f39",
+      "git:hexsha": "d18615dfc04efa4e034b304664963fc5d1fd3f39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d222ae4cb62d08b4d8f635aa80ddb3c880b82e6e",
+      "git:hexsha": "d222ae4cb62d08b4d8f635aa80ddb3c880b82e6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e3188215ca4abc9e38e8d078579b2a43f0932fe6",
+      "git:hexsha": "e3188215ca4abc9e38e8d078579b2a43f0932fe6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/050b6c5ca5442896811630b8aab5d7fbe0f696c9",
+      "git:hexsha": "050b6c5ca5442896811630b8aab5d7fbe0f696c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cedb1f01d14cc7cdbda14cba61368263c98d12ab",
+      "git:hexsha": "cedb1f01d14cc7cdbda14cba61368263c98d12ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6013ad4f676dd25c5b5150557a5fb5698c3de020",
+      "git:hexsha": "6013ad4f676dd25c5b5150557a5fb5698c3de020",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d81158599f5b3a2434845a1731377eae84780b9a",
+      "git:hexsha": "d81158599f5b3a2434845a1731377eae84780b9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/108907385c0b79199c14e5ce1b8888a5ee9c95d2",
+      "git:hexsha": "108907385c0b79199c14e5ce1b8888a5ee9c95d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3092aa4a0d0ef0e06a61ca0246887895d809cb7a",
+      "git:hexsha": "3092aa4a0d0ef0e06a61ca0246887895d809cb7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5034cabe54870a0b95145167543d8ef5e80ad8a0",
+      "git:hexsha": "5034cabe54870a0b95145167543d8ef5e80ad8a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/03d722625a9c7f396c5843926e79c7299b7f914c",
+      "git:hexsha": "03d722625a9c7f396c5843926e79c7299b7f914c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0e28259e55d46154f7c126020800b6a66f474a22",
+      "git:hexsha": "0e28259e55d46154f7c126020800b6a66f474a22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7916028a902b1d5505a95e6064cc187fe8eaa49d",
+      "git:hexsha": "7916028a902b1d5505a95e6064cc187fe8eaa49d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8d64c4c62441a6b37bf66a4dc1958afaff9fa261",
+      "git:hexsha": "8d64c4c62441a6b37bf66a4dc1958afaff9fa261",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/64e37904615c3e2df85fd38370beb5961a31d557",
+      "git:hexsha": "64e37904615c3e2df85fd38370beb5961a31d557",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/df1efca03509f736e26d2f16766b7ea06acc3ecf",
+      "git:hexsha": "df1efca03509f736e26d2f16766b7ea06acc3ecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/21c9892efec76ea231f67de092472280bbf49cb7",
+      "git:hexsha": "21c9892efec76ea231f67de092472280bbf49cb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/257d7812b9d6e60192c395598c1acfc41fd75a5a",
+      "git:hexsha": "257d7812b9d6e60192c395598c1acfc41fd75a5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1f74b0178d222d393e5ab641e934d196cbde70f4",
+      "git:hexsha": "1f74b0178d222d393e5ab641e934d196cbde70f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f087c39884103e10a68297231fdb5be76c1b1c2b",
+      "git:hexsha": "f087c39884103e10a68297231fdb5be76c1b1c2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f40b37f1d849dc0446e4ebfb8430f142c370903b",
+      "git:hexsha": "f40b37f1d849dc0446e4ebfb8430f142c370903b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/81b9db2da0a769283c796b6c52e0fa38d06c2bec",
+      "git:hexsha": "81b9db2da0a769283c796b6c52e0fa38d06c2bec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/61f5ee514f8f60ed8f04c6494bdf36c19e7a8126",
+      "git:hexsha": "61f5ee514f8f60ed8f04c6494bdf36c19e7a8126",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5d2cdac3e6a7aa5fc720f911a2a5a7671e610758",
+      "git:hexsha": "5d2cdac3e6a7aa5fc720f911a2a5a7671e610758",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/55a18f518bc00886a6c1d88ea02df157f013cdd9",
+      "git:hexsha": "55a18f518bc00886a6c1d88ea02df157f013cdd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7a6475e3c1ac68f810c50c6c1507a85bc9aa82fa",
+      "git:hexsha": "7a6475e3c1ac68f810c50c6c1507a85bc9aa82fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c54ffa17f5f42aa805342a97ade74bb224f68d0c",
+      "git:hexsha": "c54ffa17f5f42aa805342a97ade74bb224f68d0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2920fb082c987acb72ed1d1f47991c4d157e380d",
+      "git:hexsha": "2920fb082c987acb72ed1d1f47991c4d157e380d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ed2360f9cdf9bb51477ace5cd79ac47794758086",
+      "git:hexsha": "ed2360f9cdf9bb51477ace5cd79ac47794758086",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ff3713d770b2c6f973854c0d59fc114dbe4cf886",
+      "git:hexsha": "ff3713d770b2c6f973854c0d59fc114dbe4cf886",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cff27dbf5749777b380abb0f3627ef3d3147844a",
+      "git:hexsha": "cff27dbf5749777b380abb0f3627ef3d3147844a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/92fcd83b7687a16005f91465ad64ca647929e76f",
+      "git:hexsha": "92fcd83b7687a16005f91465ad64ca647929e76f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/27cc4b7f59f4b9658881514ccf4e4ab3c41c9af5",
+      "git:hexsha": "27cc4b7f59f4b9658881514ccf4e4ab3c41c9af5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c4105bd90c314ac21dd9e008de8b88ab0175fdf7",
+      "git:hexsha": "c4105bd90c314ac21dd9e008de8b88ab0175fdf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8e2c2c5678f73c0eb61daca15b14aa98f43b69d7",
+      "git:hexsha": "8e2c2c5678f73c0eb61daca15b14aa98f43b69d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/246d972a6c5bef724ce5fbaac4a97cffa10a77c8",
+      "git:hexsha": "246d972a6c5bef724ce5fbaac4a97cffa10a77c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/acf9abbc1b564cac24ed45b1b5906c90d688f4f0",
+      "git:hexsha": "acf9abbc1b564cac24ed45b1b5906c90d688f4f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f046ca6a2b2da2ee0a46cb46544cebaba9f9a45a",
+      "git:hexsha": "f046ca6a2b2da2ee0a46cb46544cebaba9f9a45a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c3a1ddc1182fa7cf2cfe6d6dba4f76db83d48178",
+      "git:hexsha": "c3a1ddc1182fa7cf2cfe6d6dba4f76db83d48178",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6abe2f8c61e31d8d43fee42c18414926c60893be",
+      "git:hexsha": "6abe2f8c61e31d8d43fee42c18414926c60893be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2f645d3e81c783a4e76ad17f1ccf283a58b75660",
+      "git:hexsha": "2f645d3e81c783a4e76ad17f1ccf283a58b75660",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d8acd4729878ca72d305e6cf7adf7acc0da36738",
+      "git:hexsha": "d8acd4729878ca72d305e6cf7adf7acc0da36738",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b49dae25ec3124ac8b8c1b05a7bcc0645cf0cdc4",
+      "git:hexsha": "b49dae25ec3124ac8b8c1b05a7bcc0645cf0cdc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.51"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/783b291358fddc046984adb27d7cd12b57e423d8",
+      "git:hexsha": "783b291358fddc046984adb27d7cd12b57e423d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3716f9f4289594b43abec42b2538efd1a90ff897",
+      "git:hexsha": "3716f9f4289594b43abec42b2538efd1a90ff897",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/194c676f60b916506f94f70decdbf319af5d1ec6",
+      "git:hexsha": "194c676f60b916506f94f70decdbf319af5d1ec6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4c039309b614ee4523c67a243afc38af11860de9",
+      "git:hexsha": "4c039309b614ee4523c67a243afc38af11860de9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9cec1007acdc3cd990feded4322a4bccd2fd471c",
+      "git:hexsha": "9cec1007acdc3cd990feded4322a4bccd2fd471c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/69c0ddbbfb56db1bccbb5954b62bb89a567a3c8d",
+      "git:hexsha": "69c0ddbbfb56db1bccbb5954b62bb89a567a3c8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/88f13cb4b0eed760139de41ecf80aefd19a707c1",
+      "git:hexsha": "88f13cb4b0eed760139de41ecf80aefd19a707c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.58"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0bb3ad7e12e729be9f152391558689ac4fdd31ec",
+      "git:hexsha": "0bb3ad7e12e729be9f152391558689ac4fdd31ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9c1153d6b4b68de72249693ec6b75497d4ce9793",
+      "git:hexsha": "9c1153d6b4b68de72249693ec6b75497d4ce9793",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/33d24d844b11c0e926ae132e1af338ff070bdf4a",
+      "git:hexsha": "33d24d844b11c0e926ae132e1af338ff070bdf4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.60"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8d87e70789ed7832aa93473779d248090712d66b",
+      "git:hexsha": "8d87e70789ed7832aa93473779d248090712d66b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ca0aeba31fdd9b431d71e0706611e00d85436f55",
+      "git:hexsha": "ca0aeba31fdd9b431d71e0706611e00d85436f55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.62"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/06a23115862a255be323695812e1feba8f675d45",
+      "git:hexsha": "06a23115862a255be323695812e1feba8f675d45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.63"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e1152433694b253bc1fe048b5b2eda96aff79aa0",
+      "git:hexsha": "e1152433694b253bc1fe048b5b2eda96aff79aa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.64"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a99bd421a5f6ea8259f378380b44335ee54cc30c",
+      "git:hexsha": "a99bd421a5f6ea8259f378380b44335ee54cc30c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.65"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/05bac738ebc886143cceb80dd6905a41b42952bf",
+      "git:hexsha": "05bac738ebc886143cceb80dd6905a41b42952bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.58"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8b41d0b8497ccaa0fb0d1d8a51f91ea2f62b3aa8",
+      "git:hexsha": "8b41d0b8497ccaa0fb0d1d8a51f91ea2f62b3aa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.61"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/469d847d35731a987235d320517700c07ba729a4",
+      "git:hexsha": "469d847d35731a987235d320517700c07ba729a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/44189f3388d4c1610c3ff1758694b25f0ebda4e9",
+      "git:hexsha": "44189f3388d4c1610c3ff1758694b25f0ebda4e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5efa52ad4501393d50e236d10a979313a61d4929",
+      "git:hexsha": "5efa52ad4501393d50e236d10a979313a61d4929",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/14202755e52802a3d294c4ceeadd703d24b21fe6",
+      "git:hexsha": "14202755e52802a3d294c4ceeadd703d24b21fe6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0fe0be302726f4253b9bee27eed48438c92917aa",
+      "git:hexsha": "0fe0be302726f4253b9bee27eed48438c92917aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete-v4.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/20443fe5a5d4137f3cf724548ee35fac08136c38",
+      "git:hexsha": "20443fe5a5d4137f3cf724548ee35fac08136c38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_fig-v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c780e660f3df6cd7ca4f890fe83ea9102b9feaef",
+      "git:hexsha": "c780e660f3df6cd7ca4f890fe83ea9102b9feaef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_fig-v3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fb39216cafe16cffe52594f45200d7be67691b7e",
+      "git:hexsha": "fb39216cafe16cffe52594f45200d7be67691b7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_fig-v3.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5176e597945f2cd26ceddc91e8a2d7d5ae7afb9b",
+      "git:hexsha": "5176e597945f2cd26ceddc91e8a2d7d5ae7afb9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_fig-v3.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f49582712665b5b17f1924259bcd0d5f629b4029",
+      "git:hexsha": "f49582712665b5b17f1924259bcd0d5f629b4029",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_fig-v3.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e6e539660f36487e3521ab6835ef1381a21785a4",
+      "git:hexsha": "e6e539660f36487e3521ab6835ef1381a21785a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/78bb48b6b8ef4d597b4b30b9add7927a2b0b0d8d",
+      "git:hexsha": "78bb48b6b8ef4d597b4b30b9add7927a2b0b0d8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/da1914156043a3933db265a0f1bf4c8ec03296bb",
+      "git:hexsha": "da1914156043a3933db265a0f1bf4c8ec03296bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/37ba6075a9e3c968a196e73e78e95a1e7c6e9326",
+      "git:hexsha": "37ba6075a9e3c968a196e73e78e95a1e7c6e9326",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bb886acc78248ee53261bb05e14c221e3cadd05c",
+      "git:hexsha": "bb886acc78248ee53261bb05e14c221e3cadd05c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e5f1f4884c48fd472529baa253c6384929f2ac0d",
+      "git:hexsha": "e5f1f4884c48fd472529baa253c6384929f2ac0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/951536ee6973e889ffa8d227e5e0818261be5fbb",
+      "git:hexsha": "951536ee6973e889ffa8d227e5e0818261be5fbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_complete_nushell-v4.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/45a65cbc09730725b4cd7903a915e0f71a784df0",
+      "git:hexsha": "45a65cbc09730725b4cd7903a915e0f71a784df0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3dec7df14f9e64978a259a1c52fda8f4b8194377",
+      "git:hexsha": "3dec7df14f9e64978a259a1c52fda8f4b8194377",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ea02f6125d17e5fed3cd80ba55ccc32b4e04d923",
+      "git:hexsha": "ea02f6125d17e5fed3cd80ba55ccc32b4e04d923",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2d7dc1ff8f9cad19ff49f1a99d00b4004a180cb2",
+      "git:hexsha": "2d7dc1ff8f9cad19ff49f1a99d00b4004a180cb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ada95d6f3de43f2983386d1d4153d43b3576c254",
+      "git:hexsha": "ada95d6f3de43f2983386d1d4153d43b3576c254",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c3f8c8938f0d9dfb830c8d0256a97795e4b6703a",
+      "git:hexsha": "c3f8c8938f0d9dfb830c8d0256a97795e4b6703a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1100f04b56c9bd1b3eee9019164656e7741dfe59",
+      "git:hexsha": "1100f04b56c9bd1b3eee9019164656e7741dfe59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c2124024660c5d47c1f9b1f617a3b20e1090db5c",
+      "git:hexsha": "c2124024660c5d47c1f9b1f617a3b20e1090db5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/27893cfd9a4dec68c54720dd540ab217112d6f54",
+      "git:hexsha": "27893cfd9a4dec68c54720dd540ab217112d6f54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8d94739de4c5b8f3f0831f4db96e8b6556cce77c",
+      "git:hexsha": "8d94739de4c5b8f3f0831f4db96e8b6556cce77c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ff713d5ae531be446fc2b8fd421398e1f6701a57",
+      "git:hexsha": "ff713d5ae531be446fc2b8fd421398e1f6701a57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/dc035de4094e2f336fe90bd6d3332c9711137766",
+      "git:hexsha": "dc035de4094e2f336fe90bd6d3332c9711137766",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/297b9cf594d1e136ed54862533c12e4f9ebd11ad",
+      "git:hexsha": "297b9cf594d1e136ed54862533c12e4f9ebd11ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/eddc04cbcc3119c2bb104cb0234dccc866990800",
+      "git:hexsha": "eddc04cbcc3119c2bb104cb0234dccc866990800",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0c5400dadb6d8a87ce0109e49c70eb61af5c6add",
+      "git:hexsha": "0c5400dadb6d8a87ce0109e49c70eb61af5c6add",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/45d8bb1ff450d6f26332fc16ead26254fe83c767",
+      "git:hexsha": "45d8bb1ff450d6f26332fc16ead26254fe83c767",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/af64699912401443786d84fe040f5d93761300d1",
+      "git:hexsha": "af64699912401443786d84fe040f5d93761300d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f35ff9167fad5cbc5dda77a950c2259873d59e32",
+      "git:hexsha": "f35ff9167fad5cbc5dda77a950c2259873d59e32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2bb414637417a7d0c71d3f55d8eb3ef715c28bb6",
+      "git:hexsha": "2bb414637417a7d0c71d3f55d8eb3ef715c28bb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/79be4bd98d75dcee3175c15e90abc14a4ccbd842",
+      "git:hexsha": "79be4bd98d75dcee3175c15e90abc14a4ccbd842",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5047bb40bd74457215e524db2039211d362cc6e9",
+      "git:hexsha": "5047bb40bd74457215e524db2039211d362cc6e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9c93ea717c5f35da05e6b9393368cd86e14fc779",
+      "git:hexsha": "9c93ea717c5f35da05e6b9393368cd86e14fc779",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/38b5a2f956f889baa0a8b2ec975566b0ae27fcb1",
+      "git:hexsha": "38b5a2f956f889baa0a8b2ec975566b0ae27fcb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9ec6c942b81c370a8c14652e42295933244555ac",
+      "git:hexsha": "9ec6c942b81c370a8c14652e42295933244555ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4b82b97cd9069dba864185d5c6147232f8ad4942",
+      "git:hexsha": "4b82b97cd9069dba864185d5c6147232f8ad4942",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/087edda9a49679295f6439f74492ede89347187d",
+      "git:hexsha": "087edda9a49679295f6439f74492ede89347187d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d37483586ff582e07a3fc62b10fa98ce7d227b4f",
+      "git:hexsha": "d37483586ff582e07a3fc62b10fa98ce7d227b4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_lex-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c65b9f07e04b99b912bc49e753c4bf589b54f979",
+      "git:hexsha": "c65b9f07e04b99b912bc49e753c4bf589b54f979",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/135b15467eda2394b017f2a7d25cda1417c0feec",
+      "git:hexsha": "135b15467eda2394b017f2a7d25cda1417c0feec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3c91438162e40fb04f628705e9b3840f739e3337",
+      "git:hexsha": "3c91438162e40fb04f628705e9b3840f739e3337",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d7a35137e3369ef86761a7c3c61ed354b93bf9ef",
+      "git:hexsha": "d7a35137e3369ef86761a7c3c61ed354b93bf9ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cad55a2de2b1fe2e6cf74bef3a46539015e99b71",
+      "git:hexsha": "cad55a2de2b1fe2e6cf74bef3a46539015e99b71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6e778679ccd0aab17128b2b546f6625957c01275",
+      "git:hexsha": "6e778679ccd0aab17128b2b546f6625957c01275",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/73ea5bc4a9c0ab57d1e6e0b01a53ad02ab79a6c8",
+      "git:hexsha": "73ea5bc4a9c0ab57d1e6e0b01a53ad02ab79a6c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/16c46b4b3b54dcb5ad2126f87dc9201a6b2d2b38",
+      "git:hexsha": "16c46b4b3b54dcb5ad2126f87dc9201a6b2d2b38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f6602c573c7040ef2206f25d74c33c70478dc297",
+      "git:hexsha": "f6602c573c7040ef2206f25d74c33c70478dc297",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/663a35e64396454c1da305fc242720591173dba4",
+      "git:hexsha": "663a35e64396454c1da305fc242720591173dba4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f66484153a40ade5a2d78186181658de2acbcabf",
+      "git:hexsha": "f66484153a40ade5a2d78186181658de2acbcabf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6d601e6f312857d78f47741268f1748840484d4a",
+      "git:hexsha": "6d601e6f312857d78f47741268f1748840484d4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/12b5c39d467ea147c21f5eb3063fc0bc2538e9b7",
+      "git:hexsha": "12b5c39d467ea147c21f5eb3063fc0bc2538e9b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ba2d1112d1bbea498b186cb79c24e6f52bb80d31",
+      "git:hexsha": "ba2d1112d1bbea498b186cb79c24e6f52bb80d31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7425ee74e8136949071e92c27304dbc52e551c39",
+      "git:hexsha": "7425ee74e8136949071e92c27304dbc52e551c39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/668c021419cf65b2362eaabe05e43fb2d0700cce",
+      "git:hexsha": "668c021419cf65b2362eaabe05e43fb2d0700cce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9295e322e8a7bfd00a7038bb7301bc4b8d913b5d",
+      "git:hexsha": "9295e322e8a7bfd00a7038bb7301bc4b8d913b5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/be8e8d404a0e623073ef5dabd59ba5c27be8129c",
+      "git:hexsha": "be8e8d404a0e623073ef5dabd59ba5c27be8129c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/aa01c51514a5f6bd8328edd7f4ee80f942f77c08",
+      "git:hexsha": "aa01c51514a5f6bd8328edd7f4ee80f942f77c08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7f164521b29e547cef396608246f977edbe3b616",
+      "git:hexsha": "7f164521b29e547cef396608246f977edbe3b616",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/df7bdfc4996ba2f4388e2c01a6ab4cbe26b2e4df",
+      "git:hexsha": "df7bdfc4996ba2f4388e2c01a6ab4cbe26b2e4df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/70f3bb31874ff24233f18c394982407ca90d0dcc",
+      "git:hexsha": "70f3bb31874ff24233f18c394982407ca90d0dcc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/27bfcc56a9789a8a8d370e31000f3f7fe1081603",
+      "git:hexsha": "27bfcc56a9789a8a8d370e31000f3f7fe1081603",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ec878c849b39f27a4f7319d8d0737e0185b79a7f",
+      "git:hexsha": "ec878c849b39f27a4f7319d8d0737e0185b79a7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f0d30d961d26f8fb636b33242256fca73a717f77",
+      "git:hexsha": "f0d30d961d26f8fb636b33242256fca73a717f77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "clap_mangen-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/42560e5f03a6bfdeb73eba01fcf7e50e0c5565d8",
+      "git:hexsha": "42560e5f03a6bfdeb73eba01fcf7e50e0c5565d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7dd23910466b1c16a7870372e1717f49549c1efe",
+      "git:hexsha": "7dd23910466b1c16a7870372e1717f49549c1efe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2b6b7ba69303dedf74dfa7cf7e791a6566e7b286",
+      "git:hexsha": "2b6b7ba69303dedf74dfa7cf7e791a6566e7b286",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/245c218866c9b5cfa352d5a5a3b31ffb0d043f14",
+      "git:hexsha": "245c218866c9b5cfa352d5a5a3b31ffb0d043f14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bac6fb5665178589b03556cb924374ee63ba5d67",
+      "git:hexsha": "bac6fb5665178589b03556cb924374ee63ba5d67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6e5896044a805314a9806fcc7079cb452964a083",
+      "git:hexsha": "6e5896044a805314a9806fcc7079cb452964a083",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/784b8c72543369868f906912c2e5385148ff12ab",
+      "git:hexsha": "784b8c72543369868f906912c2e5385148ff12ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/abc31077b050dc510379cc42e9ba897cc3dbcdae",
+      "git:hexsha": "abc31077b050dc510379cc42e9ba897cc3dbcdae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9fa6ea7cc67cb345eacc2268cdc463e7c6265ecc",
+      "git:hexsha": "9fa6ea7cc67cb345eacc2268cdc463e7c6265ecc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4a11b30066046b45cbe2d91858c27676bd5e927c",
+      "git:hexsha": "4a11b30066046b45cbe2d91858c27676bd5e927c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0b165e28cad03c275f128ed99eefdc769c901c70",
+      "git:hexsha": "0b165e28cad03c275f128ed99eefdc769c901c70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/37a925d2b98df936c174d03f47d0f26bbbb1da42",
+      "git:hexsha": "37a925d2b98df936c174d03f47d0f26bbbb1da42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4a23f1b484d6026bf57795c6c36335d1914cad8a",
+      "git:hexsha": "4a23f1b484d6026bf57795c6c36335d1914cad8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8b7a5bcb513aefcf204aa50a700614ab8150280c",
+      "git:hexsha": "8b7a5bcb513aefcf204aa50a700614ab8150280c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/05a34c8eecaa43332961144d669255973401fcf0",
+      "git:hexsha": "05a34c8eecaa43332961144d669255973401fcf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4903adde618ce7e9ce9afbdd67ab6858b6b66161",
+      "git:hexsha": "4903adde618ce7e9ce9afbdd67ab6858b6b66161",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/58c8e2d44f5c98a17fa92b752bb5d658ca69d8a6",
+      "git:hexsha": "58c8e2d44f5c98a17fa92b752bb5d658ca69d8a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f3e2af811ee8b11b77961d17c2aa77ed98fb2bae",
+      "git:hexsha": "f3e2af811ee8b11b77961d17c2aa77ed98fb2bae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3c0636ef750dedfbf073a2170bf922b2c882b267",
+      "git:hexsha": "3c0636ef750dedfbf073a2170bf922b2c882b267",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8dd2150aae0d3a274b5bb485932cedcfdaa6ef29",
+      "git:hexsha": "8dd2150aae0d3a274b5bb485932cedcfdaa6ef29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/936332f7c3ab87fd3252a993432fd39bdd68e74b",
+      "git:hexsha": "936332f7c3ab87fd3252a993432fd39bdd68e74b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a3ceb7ac0f7591c76fba886b1021262c57a1002d",
+      "git:hexsha": "a3ceb7ac0f7591c76fba886b1021262c57a1002d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4708687711fb62e0a91d126ec248e3bee289480e",
+      "git:hexsha": "4708687711fb62e0a91d126ec248e3bee289480e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ad4dd9d86e21fcca917ed1e0534908526b3a716c",
+      "git:hexsha": "ad4dd9d86e21fcca917ed1e0534908526b3a716c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b20a93aa1e587358493a753080aff462b6e0a722",
+      "git:hexsha": "b20a93aa1e587358493a753080aff462b6e0a722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4728dd67c5da0d7ddaa44b52b7aef0a7e5b4ec3f",
+      "git:hexsha": "4728dd67c5da0d7ddaa44b52b7aef0a7e5b4ec3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-beta"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/83ac35d783cafcf5ec8e46548e93849602de67b3",
+      "git:hexsha": "83ac35d783cafcf5ec8e46548e93849602de67b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5419fd8ed175fdd0f31cf8c4c9cc975a12106b97",
+      "git:hexsha": "5419fd8ed175fdd0f31cf8c4c9cc975a12106b97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/62275b7cf6b173695481b24004a3b7a0b77a9c9d",
+      "git:hexsha": "62275b7cf6b173695481b24004a3b7a0b77a9c9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5b4170b4b7c61348e21c99ed2f7cdebdf9f791a6",
+      "git:hexsha": "5b4170b4b7c61348e21c99ed2f7cdebdf9f791a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f2dd2cb1c62dbdcde6f319cb7042d4c6b70da5b8",
+      "git:hexsha": "f2dd2cb1c62dbdcde6f319cb7042d4c6b70da5b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/dd6f13d8bc30353f5f70682863ae34f6cecd0589",
+      "git:hexsha": "dd6f13d8bc30353f5f70682863ae34f6cecd0589",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1160bd8d96f492913ef3e15e3727afb5df4fa3bc",
+      "git:hexsha": "1160bd8d96f492913ef3e15e3727afb5df4fa3bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7f77c72701ab9d4dd3e94785efd72241aff515cb",
+      "git:hexsha": "7f77c72701ab9d4dd3e94785efd72241aff515cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/62f283a7caef853dbcf816896a93be87a0d1758f",
+      "git:hexsha": "62f283a7caef853dbcf816896a93be87a0d1758f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/23aca970720267d8db4d5fd957dca2704257f4d4",
+      "git:hexsha": "23aca970720267d8db4d5fd957dca2704257f4d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b811a1c00573d0d14f25f99d428f1604dc3f092b",
+      "git:hexsha": "b811a1c00573d0d14f25f99d428f1604dc3f092b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7cb5e7f3f5bd43b3b533ad40c1593b6a7d6e65e5",
+      "git:hexsha": "7cb5e7f3f5bd43b3b533ad40c1593b6a7d6e65e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/35114c99c5347a4f690ed1d3f03eb07a116ce84b",
+      "git:hexsha": "35114c99c5347a4f690ed1d3f03eb07a116ce84b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/21c4aedd25a1b4a4d1f2e83c83bfe0956bd9ebf7",
+      "git:hexsha": "21c4aedd25a1b4a4d1f2e83c83bfe0956bd9ebf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4b8908b93ed7197b40bb7848e13d3d8acd8e8e73",
+      "git:hexsha": "4b8908b93ed7197b40bb7848e13d3d8acd8e8e73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5987c20396555aba7a2b5125435fb40d17f5a892",
+      "git:hexsha": "5987c20396555aba7a2b5125435fb40d17f5a892",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f9e2b677dccfa3e91db847d58b25e5e5b7cc098e",
+      "git:hexsha": "f9e2b677dccfa3e91db847d58b25e5e5b7cc098e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c279b800a2d87f6bff36bbb449dbbeb9a3579bcd",
+      "git:hexsha": "c279b800a2d87f6bff36bbb449dbbeb9a3579bcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ebdd73f37ee2c5755778a89a35600b04d173eefc",
+      "git:hexsha": "ebdd73f37ee2c5755778a89a35600b04d173eefc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/87c4743460be7556b81b8f4434f005dbf33c71f6",
+      "git:hexsha": "87c4743460be7556b81b8f4434f005dbf33c71f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b096c4b51faafd740980b524f25a730aa33fb96d",
+      "git:hexsha": "b096c4b51faafd740980b524f25a730aa33fb96d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/58c2c741d2d05bbe9a12921b3bbf912593d70328",
+      "git:hexsha": "58c2c741d2d05bbe9a12921b3bbf912593d70328",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b735f44ba056849b8d0bee760b108f9f1597c9d7",
+      "git:hexsha": "b735f44ba056849b8d0bee760b108f9f1597c9d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/180fcc03f73c1ed1154ec089985b199e32130503",
+      "git:hexsha": "180fcc03f73c1ed1154ec089985b199e32130503",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6bd1bd8ca89346bcee3c6be54105c1d480753d35",
+      "git:hexsha": "6bd1bd8ca89346bcee3c6be54105c1d480753d35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7c55a923213e254ea4073f8bcc7b25e361a61072",
+      "git:hexsha": "7c55a923213e254ea4073f8bcc7b25e361a61072",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c070bc7c69402150eded4e3c3bf8a243ec9f1916",
+      "git:hexsha": "c070bc7c69402150eded4e3c3bf8a243ec9f1916",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/31692c422c95ab25b5adcde4ad16140313d833ea",
+      "git:hexsha": "31692c422c95ab25b5adcde4ad16140313d833ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/71f6daff92e973b90f816720d215ff7ecf94b9c0",
+      "git:hexsha": "71f6daff92e973b90f816720d215ff7ecf94b9c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f5f62642639723e0924825d08577ac678b7d55ee",
+      "git:hexsha": "f5f62642639723e0924825d08577ac678b7d55ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/41bd23300de7e84d288b161073079e4fb9d49373",
+      "git:hexsha": "41bd23300de7e84d288b161073079e4fb9d49373",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ec09ea5baf30bd375d0197be03404a859933e5fd",
+      "git:hexsha": "ec09ea5baf30bd375d0197be03404a859933e5fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/37006c33527931bd45d4a141072d981ae9caf4e4",
+      "git:hexsha": "37006c33527931bd45d4a141072d981ae9caf4e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2d6e011bfd03d39358e6e2eff45d43bedc545c69",
+      "git:hexsha": "2d6e011bfd03d39358e6e2eff45d43bedc545c69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7b287d733559c1d0b850d019e07e087a6af450f9",
+      "git:hexsha": "7b287d733559c1d0b850d019e07e087a6af450f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3067a12cab8ffb6d39c6c038377c4e44297707ad",
+      "git:hexsha": "3067a12cab8ffb6d39c6c038377c4e44297707ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bc091c4a78a41c15f8737b18d779a68ea173a030",
+      "git:hexsha": "bc091c4a78a41c15f8737b18d779a68ea173a030",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e47f825e97854d5d9ccd04813a45377c2cf7d6cb",
+      "git:hexsha": "e47f825e97854d5d9ccd04813a45377c2cf7d6cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e76d75197eddbd3391845ec1fcd962171f8ccb79",
+      "git:hexsha": "e76d75197eddbd3391845ec1fcd962171f8ccb79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e08fdfb08a888d2d32024046525ae07d0c461716",
+      "git:hexsha": "e08fdfb08a888d2d32024046525ae07d0c461716",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/27d08bfb8dd69fed63bc37aaebe84782751c036e",
+      "git:hexsha": "27d08bfb8dd69fed63bc37aaebe84782751c036e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a983bd9b7e85246f497d8eb86320d9584a6987fd",
+      "git:hexsha": "a983bd9b7e85246f497d8eb86320d9584a6987fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b4869959c6dd368218c163456bbc1cc3742f32e7",
+      "git:hexsha": "b4869959c6dd368218c163456bbc1cc3742f32e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/485d993bfd6e9c268bbfbc96cdfc37a4997e7ca8",
+      "git:hexsha": "485d993bfd6e9c268bbfbc96cdfc37a4997e7ca8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b7793a2f4d1132f29b3e7858d4ebbb1027f31d39",
+      "git:hexsha": "b7793a2f4d1132f29b3e7858d4ebbb1027f31d39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fa5f853469a48af82f22e911da3c8dfbfe0b2bd9",
+      "git:hexsha": "fa5f853469a48af82f22e911da3c8dfbfe0b2bd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/804a60f7813db98ec8dbef7ce9613dd3404b7fc0",
+      "git:hexsha": "804a60f7813db98ec8dbef7ce9613dd3404b7fc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ecc6d89244d504767854574cf69243eecb7cfd81",
+      "git:hexsha": "ecc6d89244d504767854574cf69243eecb7cfd81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3cb747d84570126f577e0f6d3398bc6de9751028",
+      "git:hexsha": "3cb747d84570126f577e0f6d3398bc6de9751028",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cc0718dfc95dff79aece612f76f78b0c86ad9d2d",
+      "git:hexsha": "cc0718dfc95dff79aece612f76f78b0c86ad9d2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/408d2ee4e6c47bef67ce5fcc39f191f003faec4a",
+      "git:hexsha": "408d2ee4e6c47bef67ce5fcc39f191f003faec4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/01994467d5808903907012c26953ebde72594137",
+      "git:hexsha": "01994467d5808903907012c26953ebde72594137",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/813489dd9ba6d84affaa863b707f08df040185f2",
+      "git:hexsha": "813489dd9ba6d84affaa863b707f08df040185f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5cb9c8ad65635d8485e0ad8c86e315ff3bbc2c33",
+      "git:hexsha": "5cb9c8ad65635d8485e0ad8c86e315ff3bbc2c33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/087cee7404d8504e69c4f6fb41ecca2304060672",
+      "git:hexsha": "087cee7404d8504e69c4f6fb41ecca2304060672",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2cde6b5773e567d8a745d3e49c07ee4f72a26e8f",
+      "git:hexsha": "2cde6b5773e567d8a745d3e49c07ee4f72a26e8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b225cdb125138cfb639d0700597d98393d09bb3c",
+      "git:hexsha": "b225cdb125138cfb639d0700597d98393d09bb3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ff5d1a753d85a777c6bec69b49d17e836f887a46",
+      "git:hexsha": "ff5d1a753d85a777c6bec69b49d17e836f887a46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/afa6b5d66ec0b197d345c4606d9f9f9463a3d8ae",
+      "git:hexsha": "afa6b5d66ec0b197d345c4606d9f9f9463a3d8ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/157f981b09edf44c2ae38dd93ef7f70e1acb0f39",
+      "git:hexsha": "157f981b09edf44c2ae38dd93ef7f70e1acb0f39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bad00f62ed240fd6cf8e48c16f4a4e54721a013a",
+      "git:hexsha": "bad00f62ed240fd6cf8e48c16f4a4e54721a013a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/031df5d6391e273a21443d42d9d91a99316b2df5",
+      "git:hexsha": "031df5d6391e273a21443d42d9d91a99316b2df5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/92919f5f67f8e6163d5f349fcbc93ebda1f77d58",
+      "git:hexsha": "92919f5f67f8e6163d5f349fcbc93ebda1f77d58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1b2e7ad4e480f73925e22052e7a99fdfaeeb396f",
+      "git:hexsha": "1b2e7ad4e480f73925e22052e7a99fdfaeeb396f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0d2a3f6ddb7b34c3dbf346d8ecbb130729cf8e53",
+      "git:hexsha": "0d2a3f6ddb7b34c3dbf346d8ecbb130729cf8e53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f922b0517884bd9a08a441c4851996d94aedb039",
+      "git:hexsha": "f922b0517884bd9a08a441c4851996d94aedb039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6095f239badec209ed3b3eed6103383b3c203148",
+      "git:hexsha": "6095f239badec209ed3b3eed6103383b3c203148",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c556b39fd0512bc3ea1e11d009390c2888194834",
+      "git:hexsha": "c556b39fd0512bc3ea1e11d009390c2888194834",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/326d0a52cefd7f871b96dc7fc046cb1ba8baa4a8",
+      "git:hexsha": "326d0a52cefd7f871b96dc7fc046cb1ba8baa4a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d78341f640f1d8ec142f24782dac9d7e9565cbde",
+      "git:hexsha": "d78341f640f1d8ec142f24782dac9d7e9565cbde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4bf6d5b73a778e25d7d3cad34bc7f4d4345f919f",
+      "git:hexsha": "4bf6d5b73a778e25d7d3cad34bc7f4d4345f919f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/94b33c5aea1c6050d3af18a641ff6e42d1e6ff0e",
+      "git:hexsha": "94b33c5aea1c6050d3af18a641ff6e42d1e6ff0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ebe14558e65e961f4340e2e74ec4eaa5f566e440",
+      "git:hexsha": "ebe14558e65e961f4340e2e74ec4eaa5f566e440",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/07c15d28d94ffb0ba52b895cd75404c73ed5d10a",
+      "git:hexsha": "07c15d28d94ffb0ba52b895cd75404c73ed5d10a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/eafe29d8be24193126f66c7872c91e95c35f9661",
+      "git:hexsha": "eafe29d8be24193126f66c7872c91e95c35f9661",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c50deae6bcec44714368f739dfbe2919d740d7b6",
+      "git:hexsha": "c50deae6bcec44714368f739dfbe2919d740d7b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ffb8d552c2e9a49da50d93577345779fb92c34a1",
+      "git:hexsha": "ffb8d552c2e9a49da50d93577345779fb92c34a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.33.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fdee158f2dcf32a5c27cdeb71757381c7b650a9e",
+      "git:hexsha": "fdee158f2dcf32a5c27cdeb71757381c7b650a9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.33.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/33bebeda52b52c6f643b4ed6fa880671ba0ab80a",
+      "git:hexsha": "33bebeda52b52c6f643b4ed6fa880671ba0ab80a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.33.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a726733dcee3411975112e2a8d50b0b9c9d947de",
+      "git:hexsha": "a726733dcee3411975112e2a8d50b0b9c9d947de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.33.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d51ae89656fda527ef1bccf53fca0ad78ecb8c29",
+      "git:hexsha": "d51ae89656fda527ef1bccf53fca0ad78ecb8c29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/dae2d93bdd5d1bf1094acc23ecb8c23f8bb27776",
+      "git:hexsha": "dae2d93bdd5d1bf1094acc23ecb8c23f8bb27776",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b027c659cdb3ae6758a142e63d3c934384a329fe",
+      "git:hexsha": "b027c659cdb3ae6758a142e63d3c934384a329fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0c6c4ad743f234774899a9e700d24c794e9aa23e",
+      "git:hexsha": "0c6c4ad743f234774899a9e700d24c794e9aa23e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ce724d8f61f6f6162ff1f131a671e18d3fc978f7",
+      "git:hexsha": "ce724d8f61f6f6162ff1f131a671e18d3fc978f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/518a79ddc1c293e3037d18d743a788f5c906de24",
+      "git:hexsha": "518a79ddc1c293e3037d18d743a788f5c906de24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/dc6740a5ff4a98597957e9d2e0ee3784f66f3ab3",
+      "git:hexsha": "dc6740a5ff4a98597957e9d2e0ee3784f66f3ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9605ea83aab50113fcd190e9a54adfaae1634072",
+      "git:hexsha": "9605ea83aab50113fcd190e9a54adfaae1634072",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5239d2c3718732dce3dc639213f494b5f469f922",
+      "git:hexsha": "5239d2c3718732dce3dc639213f494b5f469f922",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/08b2f4d4289eca8a9225bbc56d5a5ad1e99e38e1",
+      "git:hexsha": "08b2f4d4289eca8a9225bbc56d5a5ad1e99e38e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/52be134949a420a2606dd03915906caf1805cba1",
+      "git:hexsha": "52be134949a420a2606dd03915906caf1805cba1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/33d86effc9b34e207268977ba45c97f80b3f1b57",
+      "git:hexsha": "33d86effc9b34e207268977ba45c97f80b3f1b57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4ab51976a3b8e80596873421546aae8a23cc27bf",
+      "git:hexsha": "4ab51976a3b8e80596873421546aae8a23cc27bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5877f884f17af99937f91ebb065179faacd65378",
+      "git:hexsha": "5877f884f17af99937f91ebb065179faacd65378",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ea7699c11f58cbd921ae1aa549348204c2bb20f9",
+      "git:hexsha": "ea7699c11f58cbd921ae1aa549348204c2bb20f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d2109b39692291860a7b3a61e4bf51b02b9a32fe",
+      "git:hexsha": "d2109b39692291860a7b3a61e4bf51b02b9a32fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9daefba1965c3bf15fbccd63cd91e3da88fcf7f9",
+      "git:hexsha": "9daefba1965c3bf15fbccd63cd91e3da88fcf7f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4ea1965789e54c992b98a0c8aee03f381da003de",
+      "git:hexsha": "4ea1965789e54c992b98a0c8aee03f381da003de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ef823bbeafa2d4117ce377a77c405655a907aa2c",
+      "git:hexsha": "ef823bbeafa2d4117ce377a77c405655a907aa2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/811fd6a04a5f6b3d9a53cfe33fa49ae68721a4d1",
+      "git:hexsha": "811fd6a04a5f6b3d9a53cfe33fa49ae68721a4d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ccbbba8908ac30114345a26ccba227326c0ec73d",
+      "git:hexsha": "ccbbba8908ac30114345a26ccba227326c0ec73d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bd1bf66279c3e965a0d4d73135d952bfd3c270eb",
+      "git:hexsha": "bd1bf66279c3e965a0d4d73135d952bfd3c270eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/655c3f0b9f84f4b7f03bfb562f80e0a401969289",
+      "git:hexsha": "655c3f0b9f84f4b7f03bfb562f80e0a401969289",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a46ee83224de29008e8fa6a9accb0f16e8edbbfc",
+      "git:hexsha": "a46ee83224de29008e8fa6a9accb0f16e8edbbfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d805c6031de73b6cab7e5f7afa9632aab273ed10",
+      "git:hexsha": "d805c6031de73b6cab7e5f7afa9632aab273ed10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5e02ac1c19261d9c6693d968a8b130a6da944313",
+      "git:hexsha": "5e02ac1c19261d9c6693d968a8b130a6da944313",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0240ec5493fe158f88071b2988fa0a831a0b1e8d",
+      "git:hexsha": "0240ec5493fe158f88071b2988fa0a831a0b1e8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/17b930c203758be8855a00cef04bdde310343836",
+      "git:hexsha": "17b930c203758be8855a00cef04bdde310343836",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/55e791e80ed4167cb11d968546aabb96f6760029",
+      "git:hexsha": "55e791e80ed4167cb11d968546aabb96f6760029",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/524e36cf1a67ee6a447d3615a70b065d2b4f5e60",
+      "git:hexsha": "524e36cf1a67ee6a447d3615a70b065d2b4f5e60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/20dc6673bccbb29c353ef7a908f0bdbbdbc8a898",
+      "git:hexsha": "20dc6673bccbb29c353ef7a908f0bdbbdbc8a898",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/63fa59a251966dad52bd842d86f1b92954374e39",
+      "git:hexsha": "63fa59a251966dad52bd842d86f1b92954374e39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e937955efba002cbce317b715c151d359e9229a6",
+      "git:hexsha": "e937955efba002cbce317b715c151d359e9229a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e702f42e5ec416b477dfc8f71d8caef3a3dff923",
+      "git:hexsha": "e702f42e5ec416b477dfc8f71d8caef3a3dff923",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c75d2642ef7612da7f42d599989a8228b5b44e71",
+      "git:hexsha": "c75d2642ef7612da7f42d599989a8228b5b44e71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/08f74046dcec2b626a34d3fdc6c8b12b707c4173",
+      "git:hexsha": "08f74046dcec2b626a34d3fdc6c8b12b707c4173",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7598c000f9da5698fc00985dea1b8ba17e9572c5",
+      "git:hexsha": "7598c000f9da5698fc00985dea1b8ba17e9572c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9b6321a1f0128ea09f59f1abc169c79b97597dff",
+      "git:hexsha": "9b6321a1f0128ea09f59f1abc169c79b97597dff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2df0732df4d5a7dbd852243567b40898ae5f19bf",
+      "git:hexsha": "2df0732df4d5a7dbd852243567b40898ae5f19bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a8a7a61f5640264b072a989d8dd503559c6ccd66",
+      "git:hexsha": "a8a7a61f5640264b072a989d8dd503559c6ccd66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e6b8b4b6077916ca7c51047b92a4ecb6f5f7a2b9",
+      "git:hexsha": "e6b8b4b6077916ca7c51047b92a4ecb6f5f7a2b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d40e42a9ca0b321933afe8762166edae5ed785a6",
+      "git:hexsha": "d40e42a9ca0b321933afe8762166edae5ed785a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b2a8fd7f46a7480512d5af8157041f5ce4c2c2b7",
+      "git:hexsha": "b2a8fd7f46a7480512d5af8157041f5ce4c2c2b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9bd1e2fd394ef19660e8807b4ddc68edb21f4da7",
+      "git:hexsha": "9bd1e2fd394ef19660e8807b4ddc68edb21f4da7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/19bc3b75f66876bdd57bbc52c21f03b708879a3f",
+      "git:hexsha": "19bc3b75f66876bdd57bbc52c21f03b708879a3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cf7f1fa58362b31cec25a9249ede713109bfa957",
+      "git:hexsha": "cf7f1fa58362b31cec25a9249ede713109bfa957",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7836beda058f3ca25f18e9e4d2c5b37fae2d65ef",
+      "git:hexsha": "7836beda058f3ca25f18e9e4d2c5b37fae2d65ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ddcd13b71b61ef113b84fa65ee202403c812ad29",
+      "git:hexsha": "ddcd13b71b61ef113b84fa65ee202403c812ad29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9e3fa67e0484c826e87e6c3d079b6824fad785aa",
+      "git:hexsha": "9e3fa67e0484c826e87e6c3d079b6824fad785aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/08f8d6ca30a2b9f73ec981e55560585dea0f6709",
+      "git:hexsha": "08f8d6ca30a2b9f73ec981e55560585dea0f6709",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f617f1328e7e389d580c6f3f2f7fd62af42f1dc4",
+      "git:hexsha": "f617f1328e7e389d580c6f3f2f7fd62af42f1dc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3bd502024e45cc9abef690f28783d76a9ce33500",
+      "git:hexsha": "3bd502024e45cc9abef690f28783d76a9ce33500",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/63a17a40ad1ea1e70eac14e3d3b96529f0b84268",
+      "git:hexsha": "63a17a40ad1ea1e70eac14e3d3b96529f0b84268",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/20358ff295cc6ef98e13d3a5b22950bbd9a56c7d",
+      "git:hexsha": "20358ff295cc6ef98e13d3a5b22950bbd9a56c7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a7698e9a1dbaa590568722bde3b778f39c05c4f1",
+      "git:hexsha": "a7698e9a1dbaa590568722bde3b778f39c05c4f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6614ffa6c8b90fa93c35c530febb119c7e10ba58",
+      "git:hexsha": "6614ffa6c8b90fa93c35c530febb119c7e10ba58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b44dbdf09d4279493ea851165a4d4ea0ef0a7c8e",
+      "git:hexsha": "b44dbdf09d4279493ea851165a4d4ea0ef0a7c8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/01672f8359f6046f61d2cbcd69270cf2eb859fc7",
+      "git:hexsha": "01672f8359f6046f61d2cbcd69270cf2eb859fc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/af1234a0c22254fe3425596c5531df24a88721d6",
+      "git:hexsha": "af1234a0c22254fe3425596c5531df24a88721d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ec3fdc4a4298193eb9230a0d8d279ae9b30b0550",
+      "git:hexsha": "ec3fdc4a4298193eb9230a0d8d279ae9b30b0550",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a2f2a9ade16dcaee8ce0f5e9328bf27d5ef4205b",
+      "git:hexsha": "a2f2a9ade16dcaee8ce0f5e9328bf27d5ef4205b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e5a7a651533d47a726b9a268f4c3a3c4dcc8bb36",
+      "git:hexsha": "e5a7a651533d47a726b9a268f4c3a3c4dcc8bb36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2926824d107f23cc654326b2d6261fcd94fec3f6",
+      "git:hexsha": "2926824d107f23cc654326b2d6261fcd94fec3f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bd5a6eab3bb4c8e3bd9f75be83821f316dde8ac8",
+      "git:hexsha": "bd5a6eab3bb4c8e3bd9f75be83821f316dde8ac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cbb05d54f850bcb16090799187747f62540ba703",
+      "git:hexsha": "cbb05d54f850bcb16090799187747f62540ba703",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b9dfbbf7e4b9b0c1d747b4a6ca0dabded48da0a9",
+      "git:hexsha": "b9dfbbf7e4b9b0c1d747b4a6ca0dabded48da0a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7e2a1b5d9485506f7a2d6412209ff2e5486d112a",
+      "git:hexsha": "7e2a1b5d9485506f7a2d6412209ff2e5486d112a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7a8cf91aaaa699a715681f32d26f7e782f724f6c",
+      "git:hexsha": "7a8cf91aaaa699a715681f32d26f7e782f724f6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/45241277043f2a8cc64230e18574b88b005e765c",
+      "git:hexsha": "45241277043f2a8cc64230e18574b88b005e765c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/bc457b179f4e4145d1bd4c61c1fddd871f8839b8",
+      "git:hexsha": "bc457b179f4e4145d1bd4c61c1fddd871f8839b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6cbe5c4323153dd386aa74f8d1900649169228e6",
+      "git:hexsha": "6cbe5c4323153dd386aa74f8d1900649169228e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/95144b7590bb4167bc469e4f5746fc0d560c0816",
+      "git:hexsha": "95144b7590bb4167bc469e4f5746fc0d560c0816",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/010976c2ff88c98f2e4505d95c74b51a093c13c7",
+      "git:hexsha": "010976c2ff88c98f2e4505d95c74b51a093c13c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ba32ab87b2b126f7035f2858cf3b9b5d810fa135",
+      "git:hexsha": "ba32ab87b2b126f7035f2858cf3b9b5d810fa135",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f8e9211e38d19f060980a6cb10f3fc8a2735c5b2",
+      "git:hexsha": "f8e9211e38d19f060980a6cb10f3fc8a2735c5b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c3c9099e724936f5a3ec1799d4cf19d19220efd8",
+      "git:hexsha": "c3c9099e724936f5a3ec1799d4cf19d19220efd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ad4726378b2ee0320bbab5569acd8869a402e9fd",
+      "git:hexsha": "ad4726378b2ee0320bbab5569acd8869a402e9fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/337a9e089b6f15ab3c98a060af55b09dab925ea6",
+      "git:hexsha": "337a9e089b6f15ab3c98a060af55b09dab925ea6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d2d022248ba3946fbec4b67df0eafe9a01915326",
+      "git:hexsha": "d2d022248ba3946fbec4b67df0eafe9a01915326",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ec4ccf005da8dc5acf5c89aac306bf9d6c9f4a91",
+      "git:hexsha": "ec4ccf005da8dc5acf5c89aac306bf9d6c9f4a91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9f30493e5fdb1a9105b17828b8b47908eac9fa43",
+      "git:hexsha": "9f30493e5fdb1a9105b17828b8b47908eac9fa43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2912a6436f43191c01ba3ab6e3ff9e75d2ac8dc8",
+      "git:hexsha": "2912a6436f43191c01ba3ab6e3ff9e75d2ac8dc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/470140f41ef5dc9c5350dbcebbec0e35ff7a1f80",
+      "git:hexsha": "470140f41ef5dc9c5350dbcebbec0e35ff7a1f80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0bea4f252bf6782010d9874cffb444cbc12c6c85",
+      "git:hexsha": "0bea4f252bf6782010d9874cffb444cbc12c6c85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/261fb792a4460ea8cbe26c577699a42b8353dc86",
+      "git:hexsha": "261fb792a4460ea8cbe26c577699a42b8353dc86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1d533bb31ff4bb2c09a5af9e286ec0d1d2df8e35",
+      "git:hexsha": "1d533bb31ff4bb2c09a5af9e286ec0d1d2df8e35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/74a82d708524ac88941e9fe4318fe5842ed74b68",
+      "git:hexsha": "74a82d708524ac88941e9fe4318fe5842ed74b68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9aee6d31fdb9acd815742ac255fa7650887c9e61",
+      "git:hexsha": "9aee6d31fdb9acd815742ac255fa7650887c9e61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b69cf080cec55d73f0ada34b92de6c0f28aa0043",
+      "git:hexsha": "b69cf080cec55d73f0ada34b92de6c0f28aa0043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/79b44d04609bf2bc8a6f4fafe49913c3b9b86b8b",
+      "git:hexsha": "79b44d04609bf2bc8a6f4fafe49913c3b9b86b8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/240e237b5f6c9a16397d495f395c0fc8b628f946",
+      "git:hexsha": "240e237b5f6c9a16397d495f395c0fc8b628f946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9f4f341604266b82d50b6b71999962585c11b40f",
+      "git:hexsha": "9f4f341604266b82d50b6b71999962585c11b40f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/10a87c662d2fc246f1578c7ed64a08cd44c7b72a",
+      "git:hexsha": "10a87c662d2fc246f1578c7ed64a08cd44c7b72a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a59a53503e85359b535574faae9e3e94ad43cc5d",
+      "git:hexsha": "a59a53503e85359b535574faae9e3e94ad43cc5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5e240dddee81885ef69b677e11641c0e1ba013e1",
+      "git:hexsha": "5e240dddee81885ef69b677e11641c0e1ba013e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5f247f51811c68e02021db04f6122866540c3480",
+      "git:hexsha": "5f247f51811c68e02021db04f6122866540c3480",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f931de694a5478d7e4bd424613e6699f7d4f4e9f",
+      "git:hexsha": "f931de694a5478d7e4bd424613e6699f7d4f4e9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3ef784b516b2c9fbf6adb1c3603261b085561be7",
+      "git:hexsha": "3ef784b516b2c9fbf6adb1c3603261b085561be7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6f409544ec49738496eb100c6fec19dbf8d22d02",
+      "git:hexsha": "6f409544ec49738496eb100c6fec19dbf8d22d02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b99c50f7e976c69f6ebbbad6d7ca192bb5ef957b",
+      "git:hexsha": "b99c50f7e976c69f6ebbbad6d7ca192bb5ef957b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/60c8c3fc31aa73584727037c70070a86c6caefd5",
+      "git:hexsha": "60c8c3fc31aa73584727037c70070a86c6caefd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fa57ed31236bfd79167e83f4c8704acef94041a3",
+      "git:hexsha": "fa57ed31236bfd79167e83f4c8704acef94041a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a7214540f60503057b04f8e050c0e6f1cacfcedc",
+      "git:hexsha": "a7214540f60503057b04f8e050c0e6f1cacfcedc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/baaf5c64c1e751892bb85635f706f24de62a5aa2",
+      "git:hexsha": "baaf5c64c1e751892bb85635f706f24de62a5aa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7353b2be3477eb6846c1e05a619b1de7a3b7c0dc",
+      "git:hexsha": "7353b2be3477eb6846c1e05a619b1de7a3b7c0dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cafdf58e0241990f31e49c72cfcd7e78db35958e",
+      "git:hexsha": "cafdf58e0241990f31e49c72cfcd7e78db35958e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fcda411e5e12324ccdb854d5ac579cff2f3f7af6",
+      "git:hexsha": "fcda411e5e12324ccdb854d5ac579cff2f3f7af6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c2191674b049d8ded04db262454c3f6ae6a0c724",
+      "git:hexsha": "c2191674b049d8ded04db262454c3f6ae6a0c724",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/98f62d1939996ca8c3b82a7694dd79a7ac18e266",
+      "git:hexsha": "98f62d1939996ca8c3b82a7694dd79a7ac18e266",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/51abbe7ebfb65ed77590c6c25e22ffa5f969a07f",
+      "git:hexsha": "51abbe7ebfb65ed77590c6c25e22ffa5f969a07f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/95d411d151540677957946f88c1aba9295cdfd08",
+      "git:hexsha": "95d411d151540677957946f88c1aba9295cdfd08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d824b1f0fd02c23a46b6b70bfdabea16cbdb1630",
+      "git:hexsha": "d824b1f0fd02c23a46b6b70bfdabea16cbdb1630",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9856d675410e492b31db3c6861386e6d9b1f36b1",
+      "git:hexsha": "9856d675410e492b31db3c6861386e6d9b1f36b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ae5549d61f4f5de0b6859e44aa5a78cb3861bc63",
+      "git:hexsha": "ae5549d61f4f5de0b6859e44aa5a78cb3861bc63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/475e254d2534f888966ca5a61308176a99eb4281",
+      "git:hexsha": "475e254d2534f888966ca5a61308176a99eb4281",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b96cbafcbe1ae0f17a2ee8b46a168f5b3787cd45",
+      "git:hexsha": "b96cbafcbe1ae0f17a2ee8b46a168f5b3787cd45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ee1388c0a31fcf0f60a7a93b70e1b20058df6832",
+      "git:hexsha": "ee1388c0a31fcf0f60a7a93b70e1b20058df6832",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/df337de701ae1eb65175f6fbe71a7ff2686474f0",
+      "git:hexsha": "df337de701ae1eb65175f6fbe71a7ff2686474f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b9df80c2cefde66ba6bfc2c635fb86282ec78eb7",
+      "git:hexsha": "b9df80c2cefde66ba6bfc2c635fb86282ec78eb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/88cf306216de20fbce84bbe7aae230824f972042",
+      "git:hexsha": "88cf306216de20fbce84bbe7aae230824f972042",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/a87fba2bb6d45494d29f8eba6a080a639b80ae36",
+      "git:hexsha": "a87fba2bb6d45494d29f8eba6a080a639b80ae36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/dcccf61099b3a1c348c2b4fe61c4ec675ef845c6",
+      "git:hexsha": "dcccf61099b3a1c348c2b4fe61c4ec675ef845c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cf7f3a7ba0562b9b9ab11590e331d28e31d9a6de",
+      "git:hexsha": "cf7f3a7ba0562b9b9ab11590e331d28e31d9a6de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c94ae5f7a760024971da5e831b2d0f8b45e2980f",
+      "git:hexsha": "c94ae5f7a760024971da5e831b2d0f8b45e2980f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f363e41916aae1f9b7220692fd5abc0a3556fc1c",
+      "git:hexsha": "f363e41916aae1f9b7220692fd5abc0a3556fc1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/1f71fd9e992c2d39a187c6bd1f015bdfe77dbadf",
+      "git:hexsha": "1f71fd9e992c2d39a187c6bd1f015bdfe77dbadf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/18f0ad46765083e16aeb44c6ae070e041c280ff5",
+      "git:hexsha": "18f0ad46765083e16aeb44c6ae070e041c280ff5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/7126f78421de4041c0de2f0c4a2141fa50f8b54a",
+      "git:hexsha": "7126f78421de4041c0de2f0c4a2141fa50f8b54a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c0a1814d3c1d93c18faaedc95fd251846e47f4fe",
+      "git:hexsha": "c0a1814d3c1d93c18faaedc95fd251846e47f4fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d092896d61fd73a5467db85eac035a9ce2ddbc60",
+      "git:hexsha": "d092896d61fd73a5467db85eac035a9ce2ddbc60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2ab48b295c2463ce8c141a9868095b811ccf3b99",
+      "git:hexsha": "2ab48b295c2463ce8c141a9868095b811ccf3b99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/514f28bc92ed683d53292cbe9457db3ec5df7b6f",
+      "git:hexsha": "514f28bc92ed683d53292cbe9457db3ec5df7b6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cbc9c9dd44fc4be25c196213d508b9d2a9c282f3",
+      "git:hexsha": "cbc9c9dd44fc4be25c196213d508b9d2a9c282f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ef98da27cb1ade0602eb885fcfabf8c27e5d3212",
+      "git:hexsha": "ef98da27cb1ade0602eb885fcfabf8c27e5d3212",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0134f45ff0e2e2be8c451565e4fbf5d3cb7b7cfd",
+      "git:hexsha": "0134f45ff0e2e2be8c451565e4fbf5d3cb7b7cfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3cd571e654b8a978f2244289729a85a82e638373",
+      "git:hexsha": "3cd571e654b8a978f2244289729a85a82e638373",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e9668b364c5a0d259780a3e6d8352203d6f329f5",
+      "git:hexsha": "e9668b364c5a0d259780a3e6d8352203d6f329f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c298f6a52c0095df95a664807cff1f51e6a5b0f9",
+      "git:hexsha": "c298f6a52c0095df95a664807cff1f51e6a5b0f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/3aeea916e8e426e8389357a67d9b8f9a1fceba3e",
+      "git:hexsha": "3aeea916e8e426e8389357a67d9b8f9a1fceba3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/21b671f689bc0b8d790dc8c42902c22822bf6f82",
+      "git:hexsha": "21b671f689bc0b8d790dc8c42902c22822bf6f82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8a7a13a5618cfdc4ff328624a5266e7b4d88649a",
+      "git:hexsha": "8a7a13a5618cfdc4ff328624a5266e7b4d88649a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8697a6134bc93bd474382c7dbfbe9f00db572ef6",
+      "git:hexsha": "8697a6134bc93bd474382c7dbfbe9f00db572ef6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/66b5a122ecd53234e02c15d57ccc2744b9f7a5ca",
+      "git:hexsha": "66b5a122ecd53234e02c15d57ccc2744b9f7a5ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4094435c88773b80d1cb8821c90b2607fcd4e0ce",
+      "git:hexsha": "4094435c88773b80d1cb8821c90b2607fcd4e0ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/97deaf419459fd2322ad27f484a682ae45da3e09",
+      "git:hexsha": "97deaf419459fd2322ad27f484a682ae45da3e09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/19460ee00d3a8f09154503defd2a3b15e9041245",
+      "git:hexsha": "19460ee00d3a8f09154503defd2a3b15e9041245",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/0d142f6c04a702b791d2dfec8327661ba1b6d16c",
+      "git:hexsha": "0d142f6c04a702b791d2dfec8327661ba1b6d16c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/61ebe72203f118de5b04692d45714e817a0172bd",
+      "git:hexsha": "61ebe72203f118de5b04692d45714e817a0172bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f65d421607ba16c3175ffe76a20820f123b6c4cb",
+      "git:hexsha": "f65d421607ba16c3175ffe76a20820f123b6c4cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5babafd8f5b69b00c740f4726a1e2eb7beec0209",
+      "git:hexsha": "5babafd8f5b69b00c740f4726a1e2eb7beec0209",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/fde45f9aea766fb8de46e3d46e6575f393c3b6b9",
+      "git:hexsha": "fde45f9aea766fb8de46e3d46e6575f393c3b6b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b5a47c46acda0c3166df80e1deb61fe1f017b26b",
+      "git:hexsha": "b5a47c46acda0c3166df80e1deb61fe1f017b26b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/721deab943d431a917edca0a4d840d8597a43e95",
+      "git:hexsha": "721deab943d431a917edca0a4d840d8597a43e95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9e4c93b855468d7c3edee2f96499fa019620125b",
+      "git:hexsha": "9e4c93b855468d7c3edee2f96499fa019620125b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/eadcc8f66c128272ea309fed3d53d45b9c700b6f",
+      "git:hexsha": "eadcc8f66c128272ea309fed3d53d45b9c700b6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/336b645258d8433dff145785a4717ac3b991d241",
+      "git:hexsha": "336b645258d8433dff145785a4717ac3b991d241",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6717cf142f21d9761d58dccb8f37077b498dcedd",
+      "git:hexsha": "6717cf142f21d9761d58dccb8f37077b498dcedd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4e07b438584bb8a19e37599d4c5b11797bec5579",
+      "git:hexsha": "4e07b438584bb8a19e37599d4c5b11797bec5579",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/352e99f59e7aabf2a34e5e9fd334e568a0b197e6",
+      "git:hexsha": "352e99f59e7aabf2a34e5e9fd334e568a0b197e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/086f95fd1a2bfa5ad43fd4131b1673c8c3f09c77",
+      "git:hexsha": "086f95fd1a2bfa5ad43fd4131b1673c8c3f09c77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/b4961bbca10b3b958ba0ce6a42d93019cdee64ac",
+      "git:hexsha": "b4961bbca10b3b958ba0ce6a42d93019cdee64ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/93debbf6ec64c1d24e029d84af9c396878464ea0",
+      "git:hexsha": "93debbf6ec64c1d24e029d84af9c396878464ea0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/9ebef155c0c05094f6b25b5884a0bdd4250db9f3",
+      "git:hexsha": "9ebef155c0c05094f6b25b5884a0bdd4250db9f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f209bce2203498e743b171b7ac64f0fb9d3ae590",
+      "git:hexsha": "f209bce2203498e743b171b7ac64f0fb9d3ae590",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6b12a81bafe7b9d013b06981f520ab4c70da5510",
+      "git:hexsha": "6b12a81bafe7b9d013b06981f520ab4c70da5510",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8520a7acb57fdcc4a5171d6f8e37252ee8a16432",
+      "git:hexsha": "8520a7acb57fdcc4a5171d6f8e37252ee8a16432",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/5e4facf76fb38e04edba6cb1ab67d4f2b1ec8550",
+      "git:hexsha": "5e4facf76fb38e04edba6cb1ab67d4f2b1ec8550",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/583ba4ad9a4aea71e5b852b142715acaeaaaa050",
+      "git:hexsha": "583ba4ad9a4aea71e5b852b142715acaeaaaa050",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/520beb5ec2d2bb5dd11912d27127df4e97027965",
+      "git:hexsha": "520beb5ec2d2bb5dd11912d27127df4e97027965",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/58eb8a937ac6ca4a59614dc26deedb6cfe16c424",
+      "git:hexsha": "58eb8a937ac6ca4a59614dc26deedb6cfe16c424",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/cda1b8531b3b21e7d670fd46eaa0cd8f1fdfd90e",
+      "git:hexsha": "cda1b8531b3b21e7d670fd46eaa0cd8f1fdfd90e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f9fd356a461527911af6c7451e9a03d3a23f02e9",
+      "git:hexsha": "f9fd356a461527911af6c7451e9a03d3a23f02e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/f8b9e2415e5324bce2d1acb3250e1ad6eb8ae600",
+      "git:hexsha": "f8b9e2415e5324bce2d1acb3250e1ad6eb8ae600",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/8e3d03639756241aa2b7dd624a7f5852bef76f31",
+      "git:hexsha": "8e3d03639756241aa2b7dd624a7f5852bef76f31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/c7c761f988684ad97c8b2c521b05cf7f8192b3eb",
+      "git:hexsha": "c7c761f988684ad97c8b2c521b05cf7f8192b3eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/d89d57dfb4bdd18930a40c6d7f4fadb23ee9c5b3",
+      "git:hexsha": "d89d57dfb4bdd18930a40c6d7f4fadb23ee9c5b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.51"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e82e1edf76bcbddf5fe53428d297520d76a6a300",
+      "git:hexsha": "e82e1edf76bcbddf5fe53428d297520d76a6a300",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/4ecbf54ac314b6cd9a84d7e48350b71f6bd4c7ac",
+      "git:hexsha": "4ecbf54ac314b6cd9a84d7e48350b71f6bd4c7ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/2047862681cecd15562d86e4e30e3229073abf91",
+      "git:hexsha": "2047862681cecd15562d86e4e30e3229073abf91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.55"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/e0c26b09f0457284033610664423a44ed1ab9949",
+      "git:hexsha": "e0c26b09f0457284033610664423a44ed1ab9949",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/48c3b1139785a29f24cf18989f551622123275c0",
+      "git:hexsha": "48c3b1139785a29f24cf18989f551622123275c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/68b5ff900bae8ee1a0e328c1a2301a7985e4f1c6",
+      "git:hexsha": "68b5ff900bae8ee1a0e328c1a2301a7985e4f1c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.59"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/122a2b3b8a749efb41575a7ee80543bf77c691fe",
+      "git:hexsha": "122a2b3b8a749efb41575a7ee80543bf77c691fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/20aac9d46e0852292bd43d845b6d9cb69c598c9e",
+      "git:hexsha": "20aac9d46e0852292bd43d845b6d9cb69c598c9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.60"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/6c6839a454c2cbfc3007e6a2b2a55dd64685771e",
+      "git:hexsha": "6c6839a454c2cbfc3007e6a2b2a55dd64685771e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/43e73682835653ac48f32cc786514553d697c693",
+      "git:hexsha": "43e73682835653ac48f32cc786514553d697c693",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap/commit/ac5fda6a799e4c640d671edd1111d4a5e723dc1a",
+      "git:hexsha": "ac5fda6a799e4c640d671edd1111d4a5e723dc1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.6.1"
+    }
+  ]
+}
