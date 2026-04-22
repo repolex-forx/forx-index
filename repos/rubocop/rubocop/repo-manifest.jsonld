@@ -1,0 +1,1966 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/rubocop/rubocop",
+  "@type": "gh:Repository",
+  "gh:name": "rubocop",
+  "gh:owner": "rubocop",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/af8026643d436c4570bf7063a7475e2cad95fd49",
+      "git:hexsha": "af8026643d436c4570bf7063a7475e2cad95fd49",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v1.86.1",
+      "repolex:parsedAt": "2026-04-22T20:56:21.211554+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d0c5538cf2ad964afaeafb1682f5b9cd81717731",
+      "git:hexsha": "d0c5538cf2ad964afaeafb1682f5b9cd81717731",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bcef5e4f40ff5d7cd318bc0ac6f150e50745beb3",
+      "git:hexsha": "bcef5e4f40ff5d7cd318bc0ac6f150e50745beb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3855b3fe6982a595db78736bd26f790829eec574",
+      "git:hexsha": "3855b3fe6982a595db78736bd26f790829eec574",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/434a16d60220ca6b053ff607368cd2aa4b149a3b",
+      "git:hexsha": "434a16d60220ca6b053ff607368cd2aa4b149a3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b2e0d2d4bc97aa2fa8ba0e79eebeb688eba73d71",
+      "git:hexsha": "b2e0d2d4bc97aa2fa8ba0e79eebeb688eba73d71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e02cce9a7213833ffa73739ba46d02243faada22",
+      "git:hexsha": "e02cce9a7213833ffa73739ba46d02243faada22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/521cc379b2d0cdd00f9589d89dfb7a035c70c685",
+      "git:hexsha": "521cc379b2d0cdd00f9589d89dfb7a035c70c685",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0aaf59664f6a8ab6201e38d8eb812ef4adb8e9bc",
+      "git:hexsha": "0aaf59664f6a8ab6201e38d8eb812ef4adb8e9bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9512070ab85869dbb07e9011d7a1d94df7a0b5af",
+      "git:hexsha": "9512070ab85869dbb07e9011d7a1d94df7a0b5af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/415e648fdabf20c5245c3c306a6609a4e9f4b776",
+      "git:hexsha": "415e648fdabf20c5245c3c306a6609a4e9f4b776",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6e1d595b79927bc4ce01b0e37be2aeac04cfc17c",
+      "git:hexsha": "6e1d595b79927bc4ce01b0e37be2aeac04cfc17c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/cd8f5170f050a449139593cc3b4eb2e3cd49d71d",
+      "git:hexsha": "cd8f5170f050a449139593cc3b4eb2e3cd49d71d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e93b32e1fea7e13bd15f5bc0b33dd7fd1ee336e7",
+      "git:hexsha": "e93b32e1fea7e13bd15f5bc0b33dd7fd1ee336e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a0e3572144fea77aec6e590cdd7e40301bd001dd",
+      "git:hexsha": "a0e3572144fea77aec6e590cdd7e40301bd001dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/fcdc3013e04a263afdb4cd9280008c65d898c7a7",
+      "git:hexsha": "fcdc3013e04a263afdb4cd9280008c65d898c7a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/11edb64defd0b7baab554e7969bfeb649dfeff93",
+      "git:hexsha": "11edb64defd0b7baab554e7969bfeb649dfeff93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/475972d97e3f92c724a653c879081bb39c389667",
+      "git:hexsha": "475972d97e3f92c724a653c879081bb39c389667",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/951cec6ae8e746fd7d52e917e21b37e15ac0d2d8",
+      "git:hexsha": "951cec6ae8e746fd7d52e917e21b37e15ac0d2d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/eec6ce222e3ab175ee53055c76326fc56a8a54a0",
+      "git:hexsha": "eec6ce222e3ab175ee53055c76326fc56a8a54a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d6c8221ca09c0f5edb8abcda466b41f2e5076b94",
+      "git:hexsha": "d6c8221ca09c0f5edb8abcda466b41f2e5076b94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f1faa413ba9cafee1fea977f0038c14646a3dd8b",
+      "git:hexsha": "f1faa413ba9cafee1fea977f0038c14646a3dd8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6dc9d8051f1a5008748efa80a7a34c74ae7ad881",
+      "git:hexsha": "6dc9d8051f1a5008748efa80a7a34c74ae7ad881",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/7ee7a8b47314bc067f08622d621fd9c7505dd422",
+      "git:hexsha": "7ee7a8b47314bc067f08622d621fd9c7505dd422",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f3bb16d446817aee2cad53f8d414b5143a6085ff",
+      "git:hexsha": "f3bb16d446817aee2cad53f8d414b5143a6085ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/24a41a194ea20af46f9c7ffe85c8df4ef0f377fc",
+      "git:hexsha": "24a41a194ea20af46f9c7ffe85c8df4ef0f377fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f307c73cc92ce80f03f4bdb84aba7e35d3abe68a",
+      "git:hexsha": "f307c73cc92ce80f03f4bdb84aba7e35d3abe68a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/422675a4e10305055eae2954d5d6bd5a66cea83d",
+      "git:hexsha": "422675a4e10305055eae2954d5d6bd5a66cea83d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a3e080c23f0b57b8ac423ff56c7cce7ee74a8505",
+      "git:hexsha": "a3e080c23f0b57b8ac423ff56c7cce7ee74a8505",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/51913d2474c6be3cad449252f7fad859f39b92ad",
+      "git:hexsha": "51913d2474c6be3cad449252f7fad859f39b92ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/22ba610e9e3f1f00a92547a55becb6a118f213e3",
+      "git:hexsha": "22ba610e9e3f1f00a92547a55becb6a118f213e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1895f38f2e693035d53a4f15b0cd9ed4a99559c4",
+      "git:hexsha": "1895f38f2e693035d53a4f15b0cd9ed4a99559c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1962a3c2e35edabcb2b80f8e669fccd507b4bfad",
+      "git:hexsha": "1962a3c2e35edabcb2b80f8e669fccd507b4bfad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/af051d90f97c00285ccf6f8211a87d0719ea913e",
+      "git:hexsha": "af051d90f97c00285ccf6f8211a87d0719ea913e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c28cfea0264059e02d9865e9a0f670737f9b5fa1",
+      "git:hexsha": "c28cfea0264059e02d9865e9a0f670737f9b5fa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/df9262b8f10bd76bafe1981a35bd233b3fc3c94f",
+      "git:hexsha": "df9262b8f10bd76bafe1981a35bd233b3fc3c94f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/873e390aa2b2c679acd8dc8a383df9eba4f4f737",
+      "git:hexsha": "873e390aa2b2c679acd8dc8a383df9eba4f4f737",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9ca8f3d1ca9b5bed41ba0582b023a4c44694ef1d",
+      "git:hexsha": "9ca8f3d1ca9b5bed41ba0582b023a4c44694ef1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/db7657ecb77355319dabd90da1068a60b4d28e90",
+      "git:hexsha": "db7657ecb77355319dabd90da1068a60b4d28e90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6b9b0fc36c7b2ef173e8faedcdbeb1e856dfa821",
+      "git:hexsha": "6b9b0fc36c7b2ef173e8faedcdbeb1e856dfa821",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/03cd35e04ac611d42133a4af54cbce48e550d669",
+      "git:hexsha": "03cd35e04ac611d42133a4af54cbce48e550d669",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0925327a968f176b470e886ead8c0eb6b9a7e006",
+      "git:hexsha": "0925327a968f176b470e886ead8c0eb6b9a7e006",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.32.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d0d01534cec918a7665319e4a05ef41b94985e79",
+      "git:hexsha": "d0d01534cec918a7665319e4a05ef41b94985e79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b29f6070584b96d7cc50bc7981c5b0455202eeca",
+      "git:hexsha": "b29f6070584b96d7cc50bc7981c5b0455202eeca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/97b97ea51ce7e2138ed97b2a7bc5220ce104a5d8",
+      "git:hexsha": "97b97ea51ce7e2138ed97b2a7bc5220ce104a5d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.34.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f33bc85695918ef296b33513f6b7ce97d61985fc",
+      "git:hexsha": "f33bc85695918ef296b33513f6b7ce97d61985fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/11e9c66543722271ee52043b22bd9f515633043a",
+      "git:hexsha": "11e9c66543722271ee52043b22bd9f515633043a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9eecfa02027290e7232163d9148da88810a1fe66",
+      "git:hexsha": "9eecfa02027290e7232163d9148da88810a1fe66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3ec1ef13365b6ff70131e36d28765ad8afe44e74",
+      "git:hexsha": "3ec1ef13365b6ff70131e36d28765ad8afe44e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/825a58a1243ca095d89738e2d42e9d1f88f1bd7d",
+      "git:hexsha": "825a58a1243ca095d89738e2d42e9d1f88f1bd7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/66c73b7dadc15cbba427ffd4b41e11ae8e7eb146",
+      "git:hexsha": "66c73b7dadc15cbba427ffd4b41e11ae8e7eb146",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b0d2069bb5994674d69f00b0b54614cbb3a9e86c",
+      "git:hexsha": "b0d2069bb5994674d69f00b0b54614cbb3a9e86c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/384aadd6f3e8339de37e52377644292391981ec7",
+      "git:hexsha": "384aadd6f3e8339de37e52377644292391981ec7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1473da4b0c81e34548e452d4d3427623bdac16de",
+      "git:hexsha": "1473da4b0c81e34548e452d4d3427623bdac16de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0a29cac83be7679ed9a1e38689480db84a74fd73",
+      "git:hexsha": "0a29cac83be7679ed9a1e38689480db84a74fd73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/7cb7329e6ef2b9ef504897e36ddb21166b904932",
+      "git:hexsha": "7cb7329e6ef2b9ef504897e36ddb21166b904932",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/90edfed8ec2bf76345533897902b21a0a732f35c",
+      "git:hexsha": "90edfed8ec2bf76345533897902b21a0a732f35c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b0bdb5975e35f1fa5ea0c46f1a569c51e6fd7a56",
+      "git:hexsha": "b0bdb5975e35f1fa5ea0c46f1a569c51e6fd7a56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/5eb73c4a1e7df24d8b6c4d041dd8c917c5a3d23b",
+      "git:hexsha": "5eb73c4a1e7df24d8b6c4d041dd8c917c5a3d23b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a1ba9c72c3d193f7bd74ba6807c0251e10b39fc2",
+      "git:hexsha": "a1ba9c72c3d193f7bd74ba6807c0251e10b39fc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/16a0487aac6de00fb30297fd693e835fab28ccad",
+      "git:hexsha": "16a0487aac6de00fb30297fd693e835fab28ccad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/28b0f63b723f4c4634131e81178c2c75d872a71b",
+      "git:hexsha": "28b0f63b723f4c4634131e81178c2c75d872a71b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/26e1ff6abad5f5cb002cd1248a74a6f79cdcc7a0",
+      "git:hexsha": "26e1ff6abad5f5cb002cd1248a74a6f79cdcc7a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/493617772e51818c7874be163b2ba32a75d61801",
+      "git:hexsha": "493617772e51818c7874be163b2ba32a75d61801",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.41.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e28a79029466759090696411997b24949193e03d",
+      "git:hexsha": "e28a79029466759090696411997b24949193e03d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.41.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2e9d886bb20a2cd074acb65df294ba8b28687427",
+      "git:hexsha": "2e9d886bb20a2cd074acb65df294ba8b28687427",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/60470bd9dc204313c07f5ce075a0e611de8d579c",
+      "git:hexsha": "60470bd9dc204313c07f5ce075a0e611de8d579c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9ab16e4ff99f3cbb485ad5f55b1184f416ee3a29",
+      "git:hexsha": "9ab16e4ff99f3cbb485ad5f55b1184f416ee3a29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/5c803e7fb48ddf7bb7b8816ad70ca1460bb65405",
+      "git:hexsha": "5c803e7fb48ddf7bb7b8816ad70ca1460bb65405",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.44.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9ad80cad2459bdc9275099b48588235843d96f24",
+      "git:hexsha": "9ad80cad2459bdc9275099b48588235843d96f24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/aeaab434ac32e33cc9e22839f2079e905590fce6",
+      "git:hexsha": "aeaab434ac32e33cc9e22839f2079e905590fce6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/14ac43f2d28e07e40e2c8c4a9a4036ea911da0b6",
+      "git:hexsha": "14ac43f2d28e07e40e2c8c4a9a4036ea911da0b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a131237c425667b41f6eb6905f5c56eee33e3617",
+      "git:hexsha": "a131237c425667b41f6eb6905f5c56eee33e3617",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d1b9d66c3518389b0c408a6a4a42061b36748df4",
+      "git:hexsha": "d1b9d66c3518389b0c408a6a4a42061b36748df4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/33cda4978a3576e93d69c301e3a764a9b7e4c0d7",
+      "git:hexsha": "33cda4978a3576e93d69c301e3a764a9b7e4c0d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/66b305ffd91b5d598ca14114a17a3bfb7dd60e21",
+      "git:hexsha": "66b305ffd91b5d598ca14114a17a3bfb7dd60e21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1c2245df09cf0a1659b83acf0abb473e9b927a1a",
+      "git:hexsha": "1c2245df09cf0a1659b83acf0abb473e9b927a1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6ca36b573e9c8318855301f1737c841322b9a2e9",
+      "git:hexsha": "6ca36b573e9c8318855301f1737c841322b9a2e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0f319cb7968b902d05301865163750f2ce32f8ac",
+      "git:hexsha": "0f319cb7968b902d05301865163750f2ce32f8ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/98dfe9a0d34abd79e471afc556fe877cfb590628",
+      "git:hexsha": "98dfe9a0d34abd79e471afc556fe877cfb590628",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/be2ed0f99e8da0000825ca8b61b6e3cc5664ded1",
+      "git:hexsha": "be2ed0f99e8da0000825ca8b61b6e3cc5664ded1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/86476f13e8e12e370f84911d82bef8638f3fdf96",
+      "git:hexsha": "86476f13e8e12e370f84911d82bef8638f3fdf96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.52.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b65c4d51fea57e458b85d26364da6a4fc0ef2eea",
+      "git:hexsha": "b65c4d51fea57e458b85d26364da6a4fc0ef2eea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3323d943ba4233970ddeb8ce07e1676283414dd0",
+      "git:hexsha": "3323d943ba4233970ddeb8ce07e1676283414dd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2869886b9b5578844008944907a1d68467f63fd0",
+      "git:hexsha": "2869886b9b5578844008944907a1d68467f63fd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6cdd888b61f40ffa3616bea5095744331d1e376d",
+      "git:hexsha": "6cdd888b61f40ffa3616bea5095744331d1e376d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a78bb29d0f6bba58a66170d48204086142c1a79c",
+      "git:hexsha": "a78bb29d0f6bba58a66170d48204086142c1a79c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f8fd3f6faa4a577d5e4a8a79b48c4084155bf444",
+      "git:hexsha": "f8fd3f6faa4a577d5e4a8a79b48c4084155bf444",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.57.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/57565eccc92b014845516b99b2ebc5c4ff31d154",
+      "git:hexsha": "57565eccc92b014845516b99b2ebc5c4ff31d154",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.57.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/7894892096994ec228f08494bfc5f77496cc708a",
+      "git:hexsha": "7894892096994ec228f08494bfc5f77496cc708a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b10f7b63b2d1b4d71cc80661e30db569e7079237",
+      "git:hexsha": "b10f7b63b2d1b4d71cc80661e30db569e7079237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8a5be5fdb0d9de92308c9f1b399cb6abe9a82bdf",
+      "git:hexsha": "8a5be5fdb0d9de92308c9f1b399cb6abe9a82bdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/52077ea9bd41b98adfd961be6d251d394e948f46",
+      "git:hexsha": "52077ea9bd41b98adfd961be6d251d394e948f46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4f940b4b610e8dbd42aee56b8dc462ede4d8207e",
+      "git:hexsha": "4f940b4b610e8dbd42aee56b8dc462ede4d8207e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4d94114da77a52fc5e68b91f2245bfc775b78574",
+      "git:hexsha": "4d94114da77a52fc5e68b91f2245bfc775b78574",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d94da8cf03b5b1a5f21191140646430077253b2c",
+      "git:hexsha": "d94da8cf03b5b1a5f21191140646430077253b2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/07b85abfacc84e53b8c0eff23b7f4053e451648c",
+      "git:hexsha": "07b85abfacc84e53b8c0eff23b7f4053e451648c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/014639fee08d20f4c431c7152417c924ab3960eb",
+      "git:hexsha": "014639fee08d20f4c431c7152417c924ab3960eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/440c0d2c3ef75cc329d3be1e75c85854596e9255",
+      "git:hexsha": "440c0d2c3ef75cc329d3be1e75c85854596e9255",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0d4ba71ce8e94b930ade1be10413018cd8c23ca9",
+      "git:hexsha": "0d4ba71ce8e94b930ade1be10413018cd8c23ca9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.61.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/82c314ee2440b0a4384cacae9f181db75ac58a04",
+      "git:hexsha": "82c314ee2440b0a4384cacae9f181db75ac58a04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/457cd4f0db4088a0f85413af9a5b66b06d6a94bf",
+      "git:hexsha": "457cd4f0db4088a0f85413af9a5b66b06d6a94bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bb626401105729863686f0851c2cf05ba42a0225",
+      "git:hexsha": "bb626401105729863686f0851c2cf05ba42a0225",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.63.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/eb1caef0dd0d492f7f5fc192f4caf9289eb4366b",
+      "git:hexsha": "eb1caef0dd0d492f7f5fc192f4caf9289eb4366b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2e52af0e33cc6387f7c8495b52f66c8f2f46a804",
+      "git:hexsha": "2e52af0e33cc6387f7c8495b52f66c8f2f46a804",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2e96953c10be61f7255ebcbdc73ffccff5b2baef",
+      "git:hexsha": "2e96953c10be61f7255ebcbdc73ffccff5b2baef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1d0e48024cf57ed6d60ea592811a35cb67d89556",
+      "git:hexsha": "1d0e48024cf57ed6d60ea592811a35cb67d89556",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/01918a1e89aa07c7b4bd8a6b795eb0836165335f",
+      "git:hexsha": "01918a1e89aa07c7b4bd8a6b795eb0836165335f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.67.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9c2950a4d14c18227ddefbaf2d5609f3a3c64f47",
+      "git:hexsha": "9c2950a4d14c18227ddefbaf2d5609f3a3c64f47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.67.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9790976bf572cc4ff0de95b8336fbbfc5aed4d85",
+      "git:hexsha": "9790976bf572cc4ff0de95b8336fbbfc5aed4d85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/98b03406bcfa091e26a6bd936f3107ce9d9e372d",
+      "git:hexsha": "98b03406bcfa091e26a6bd936f3107ce9d9e372d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.68.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c2047b71a68d079533ebe9b3766a5ed80b7f8a42",
+      "git:hexsha": "c2047b71a68d079533ebe9b3766a5ed80b7f8a42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3bcaa0bc26567df6185ddca958c507cbfdc09fc1",
+      "git:hexsha": "3bcaa0bc26567df6185ddca958c507cbfdc09fc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d65c59a777b67765fd9462d8924b944e34151fdf",
+      "git:hexsha": "d65c59a777b67765fd9462d8924b944e34151fdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8c579c8faf8991b49961e0ca0e0c29272c2637d4",
+      "git:hexsha": "8c579c8faf8991b49961e0ca0e0c29272c2637d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/959f215d6158559b2a0d1bd72e5ccc944a52b7c9",
+      "git:hexsha": "959f215d6158559b2a0d1bd72e5ccc944a52b7c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/507666150632d3797f9780fddc138f5f18740155",
+      "git:hexsha": "507666150632d3797f9780fddc138f5f18740155",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4135413b3f2719bf98d075a1a2e35bbc86717e72",
+      "git:hexsha": "4135413b3f2719bf98d075a1a2e35bbc86717e72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/cbc6ec38b7c1a62f8728b4c9dc7e472414bd02b2",
+      "git:hexsha": "cbc6ec38b7c1a62f8728b4c9dc7e472414bd02b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/96b090f1a2b04fca2bf57b370f461ee5f1a4bd91",
+      "git:hexsha": "96b090f1a2b04fca2bf57b370f461ee5f1a4bd91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.74.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6072ac0bfa3b5196667630ed16a2cac4006b128c",
+      "git:hexsha": "6072ac0bfa3b5196667630ed16a2cac4006b128c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.75.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ef25ea2016ec15745df013ecccf94896d7183dac",
+      "git:hexsha": "ef25ea2016ec15745df013ecccf94896d7183dac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.75.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bb227db1792c24e7fe11e9a149839634e74fcf14",
+      "git:hexsha": "bb227db1792c24e7fe11e9a149839634e74fcf14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.76.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bcd21f9fe309310423cfb9cee39c979bab56768c",
+      "git:hexsha": "bcd21f9fe309310423cfb9cee39c979bab56768c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.77.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/7aa37664e4d877cfb522b6af153e5d4c16ca9a5a",
+      "git:hexsha": "7aa37664e4d877cfb522b6af153e5d4c16ca9a5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.78.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d5334b9ab17f7f3ffbd710da9560954d10d7e0ff",
+      "git:hexsha": "d5334b9ab17f7f3ffbd710da9560954d10d7e0ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.79.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/237292dcf6c94c064d74dae1dace921a801f4e75",
+      "git:hexsha": "237292dcf6c94c064d74dae1dace921a801f4e75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3c372b9151e9816347b5c190a82a134901253b97",
+      "git:hexsha": "3c372b9151e9816347b5c190a82a134901253b97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f18d5b87ed7de709b92d8f3a2c03b715a03689ff",
+      "git:hexsha": "f18d5b87ed7de709b92d8f3a2c03b715a03689ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9e1268de51306a740400475dd0bc5fab3f0b145a",
+      "git:hexsha": "9e1268de51306a740400475dd0bc5fab3f0b145a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d4d479c48b32fac6cc93d84f2c59afcc26ed186d",
+      "git:hexsha": "d4d479c48b32fac6cc93d84f2c59afcc26ed186d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.80.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2bac233ade566e49855ade9ec445845319a8758f",
+      "git:hexsha": "2bac233ade566e49855ade9ec445845319a8758f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.80.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/34e501e93815191931a033937477fe7227614705",
+      "git:hexsha": "34e501e93815191931a033937477fe7227614705",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.81.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/eb3d358363a9f88a6ec2be485414f74b5f1b8878",
+      "git:hexsha": "eb3d358363a9f88a6ec2be485414f74b5f1b8878",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.82.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bc62e24e007c2f9d0035e53d9e5ed476804b8917",
+      "git:hexsha": "bc62e24e007c2f9d0035e53d9e5ed476804b8917",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.83.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/10a6f914936a559811b8e08f4abfa46552db5dc4",
+      "git:hexsha": "10a6f914936a559811b8e08f4abfa46552db5dc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.84.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/55e25e87946947afcd1ea8ecad3666a1941e7036",
+      "git:hexsha": "55e25e87946947afcd1ea8ecad3666a1941e7036",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.85.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/01d717b4325f0d9587a2ec2af39b3f2f6f40c5bd",
+      "git:hexsha": "01d717b4325f0d9587a2ec2af39b3f2f6f40c5bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.85.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4d0c7aad80a606177983d193aafbb625c904fc06",
+      "git:hexsha": "4d0c7aad80a606177983d193aafbb625c904fc06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ba8f13ad9640e71b29853d552f90a54e0acd7625",
+      "git:hexsha": "ba8f13ad9640e71b29853d552f90a54e0acd7625",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.87.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/de0f2e88948a517056f1564b51603dfb6dde71ff",
+      "git:hexsha": "de0f2e88948a517056f1564b51603dfb6dde71ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.87.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/acddd7381f47c0eb9cb896640c452d1899d483e8",
+      "git:hexsha": "acddd7381f47c0eb9cb896640c452d1899d483e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.88.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/829c782697438e381d702e4dc6c5b25cfbb69404",
+      "git:hexsha": "829c782697438e381d702e4dc6c5b25cfbb69404",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.89.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e27942a99c0372273c185dbb2d4b9b92be9e51a3",
+      "git:hexsha": "e27942a99c0372273c185dbb2d4b9b92be9e51a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.89.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/453e12c2c5e5b71e1cfe529efff61df242d6a960",
+      "git:hexsha": "453e12c2c5e5b71e1cfe529efff61df242d6a960",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ab32eceb1594af23119c1489d9e07339c2e3a192",
+      "git:hexsha": "ab32eceb1594af23119c1489d9e07339c2e3a192",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/95305ff7615b4299c2f144e5f5938d095b9942f5",
+      "git:hexsha": "95305ff7615b4299c2f144e5f5938d095b9942f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.90.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/412ff34eb4b70ce69807a6ec90a9932da710bdd3",
+      "git:hexsha": "412ff34eb4b70ce69807a6ec90a9932da710bdd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.90.0-antora"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e0fc1c0437bcea8c610c850dc06e59ed36e0c9c8",
+      "git:hexsha": "e0fc1c0437bcea8c610c850dc06e59ed36e0c9c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.91.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/de054ee2991a3b4ac0d251b808dd599049f3fe26",
+      "git:hexsha": "de054ee2991a3b4ac0d251b808dd599049f3fe26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.91.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/41959bf3ec0c78e2e77c792a05ff9b30aea899f7",
+      "git:hexsha": "41959bf3ec0c78e2e77c792a05ff9b30aea899f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.92.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/801d30daa3efe559cb280826b94d2a62fc47bde7",
+      "git:hexsha": "801d30daa3efe559cb280826b94d2a62fc47bde7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.93.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f561472e57487d8ac30959da833683b21d2febff",
+      "git:hexsha": "f561472e57487d8ac30959da833683b21d2febff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.93.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f74c118d80447d6c61d1e9f3eace83de603dc37d",
+      "git:hexsha": "f74c118d80447d6c61d1e9f3eace83de603dc37d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/85bb3595014ececabf5d5f61f24784807eed8872",
+      "git:hexsha": "85bb3595014ececabf5d5f61f24784807eed8872",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9e8a5ee053d93d4b0e2249a1d9abb22878b3dbdf",
+      "git:hexsha": "9e8a5ee053d93d4b0e2249a1d9abb22878b3dbdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3741eebc29e145daabc611cae7460eeda4fc0c4a",
+      "git:hexsha": "3741eebc29e145daabc611cae7460eeda4fc0c4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/fa02e853be1a1c5c8c5d9f1b485bb20d39e67392",
+      "git:hexsha": "fa02e853be1a1c5c8c5d9f1b485bb20d39e67392",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/adf5629f5d2b22336185286c5197fdf6a4153382",
+      "git:hexsha": "adf5629f5d2b22336185286c5197fdf6a4153382",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/76bc0a0e026b13fccdc7b6bccfd6d082d24a7b52",
+      "git:hexsha": "76bc0a0e026b13fccdc7b6bccfd6d082d24a7b52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2283fe40e7b82081b2f154927f2c445316b33989",
+      "git:hexsha": "2283fe40e7b82081b2f154927f2c445316b33989",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9c9b891b3c8cdc18a8146540e33e29252fa26175",
+      "git:hexsha": "9c9b891b3c8cdc18a8146540e33e29252fa26175",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/68cd82ebebfb53dd31b331e52942fe3d0a9bdcc3",
+      "git:hexsha": "68cd82ebebfb53dd31b331e52942fe3d0a9bdcc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/cc4b75a826d8c837696ded735e1a0d14ffdc38e9",
+      "git:hexsha": "cc4b75a826d8c837696ded735e1a0d14ffdc38e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0f4e3d1094fae8dd24d4eb61544db064564be7cd",
+      "git:hexsha": "0f4e3d1094fae8dd24d4eb61544db064564be7cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f1f6414e84ae4b38f6d119a424e9ff284465c50f",
+      "git:hexsha": "f1f6414e84ae4b38f6d119a424e9ff284465c50f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d61ce764a12acc627a5e3e9a8973b8034e2755f9",
+      "git:hexsha": "d61ce764a12acc627a5e3e9a8973b8034e2755f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/05d6008d474a8293e3110cd1cc4f81d5eeea9101",
+      "git:hexsha": "05d6008d474a8293e3110cd1cc4f81d5eeea9101",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a2fcc3d5a3e4aec65ddf77e5e934bba0fdb24eee",
+      "git:hexsha": "a2fcc3d5a3e4aec65ddf77e5e934bba0fdb24eee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d6fb135870ce6a597a03ae1c60b4f1da0d0fbacf",
+      "git:hexsha": "d6fb135870ce6a597a03ae1c60b4f1da0d0fbacf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a6d8d92f3050b1e37356a3c63db1bc1ad0c8fd2c",
+      "git:hexsha": "a6d8d92f3050b1e37356a3c63db1bc1ad0c8fd2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9a48e71b52c69accf0c1f577400171233832f01e",
+      "git:hexsha": "9a48e71b52c69accf0c1f577400171233832f01e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0340a51634815be4d8fc647f94711f361c260bdd",
+      "git:hexsha": "0340a51634815be4d8fc647f94711f361c260bdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/536d986ebc0db213048a12bc554477eb7f9ca57f",
+      "git:hexsha": "536d986ebc0db213048a12bc554477eb7f9ca57f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/25112e6cbc5198ee5c19cbc3d443524d79e4b609",
+      "git:hexsha": "25112e6cbc5198ee5c19cbc3d443524d79e4b609",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1bdcf65d88dcca526571bfc005af02a4f2695045",
+      "git:hexsha": "1bdcf65d88dcca526571bfc005af02a4f2695045",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b5c9369aea2741877a93d8eaa4d57e16fc4c3be9",
+      "git:hexsha": "b5c9369aea2741877a93d8eaa4d57e16fc4c3be9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/60484a7bcf8fb240dada8db90e642a1b9baa8ca0",
+      "git:hexsha": "60484a7bcf8fb240dada8db90e642a1b9baa8ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/841bba41d4e6b3fddd5bf95820d37829f0b7ff91",
+      "git:hexsha": "841bba41d4e6b3fddd5bf95820d37829f0b7ff91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/27386023efb7afa1ac6d134cb0d93f0db68f7673",
+      "git:hexsha": "27386023efb7afa1ac6d134cb0d93f0db68f7673",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/477e3f71df7fdcd8bc54a3c69e7a917f81916f47",
+      "git:hexsha": "477e3f71df7fdcd8bc54a3c69e7a917f81916f47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0c0bee18073201396f679848954235d10b9f8355",
+      "git:hexsha": "0c0bee18073201396f679848954235d10b9f8355",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8bf5b55b16ed7ca397f9326f37ee85393f7afd6d",
+      "git:hexsha": "8bf5b55b16ed7ca397f9326f37ee85393f7afd6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f096012e12e33b983ff97bd70c75d0fea680c3c4",
+      "git:hexsha": "f096012e12e33b983ff97bd70c75d0fea680c3c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e1e4637a1f769333fd173dc0d55b5dfbb23e6afa",
+      "git:hexsha": "e1e4637a1f769333fd173dc0d55b5dfbb23e6afa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f691b9e6f77cd9129b480af8bc61b6cd9aabbaf5",
+      "git:hexsha": "f691b9e6f77cd9129b480af8bc61b6cd9aabbaf5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/72bb04edcc5acd808879f339aa9937872e92f94b",
+      "git:hexsha": "72bb04edcc5acd808879f339aa9937872e92f94b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/24ab7b24ee7eefbab38920f98af2a343fc1cfa2b",
+      "git:hexsha": "24ab7b24ee7eefbab38920f98af2a343fc1cfa2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/54f4c82286c725a28a57216158d05f409a94eb7c",
+      "git:hexsha": "54f4c82286c725a28a57216158d05f409a94eb7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/7222575d076e4a79078d5f4d1b6274dac9b2a56f",
+      "git:hexsha": "7222575d076e4a79078d5f4d1b6274dac9b2a56f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.28.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2f2b2a7aa75b5222457966fdacc464f085c8c308",
+      "git:hexsha": "2f2b2a7aa75b5222457966fdacc464f085c8c308",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/efd33a08790ec9adb2378f550fc4b6ca45cc1546",
+      "git:hexsha": "efd33a08790ec9adb2378f550fc4b6ca45cc1546",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/922d7af3a65106d60f26d18f15931a40aadd3b22",
+      "git:hexsha": "922d7af3a65106d60f26d18f15931a40aadd3b22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ad62ad9ae78f0162a621717ce843928b5c4f708b",
+      "git:hexsha": "ad62ad9ae78f0162a621717ce843928b5c4f708b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3fd4828662d48747162fba04381ee60ad3bd05d1",
+      "git:hexsha": "3fd4828662d48747162fba04381ee60ad3bd05d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6f3ccdd17983a46913b85eefacf6291a860246fc",
+      "git:hexsha": "6f3ccdd17983a46913b85eefacf6291a860246fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f94048d6a19c9173c0c84221f1477be88fd6c80b",
+      "git:hexsha": "f94048d6a19c9173c0c84221f1477be88fd6c80b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8fa156c7c5d35c1cc02e0530cdb4aecdf7ee326e",
+      "git:hexsha": "8fa156c7c5d35c1cc02e0530cdb4aecdf7ee326e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/733c5b9a9674b1e3411405344bf38fb14ec49c67",
+      "git:hexsha": "733c5b9a9674b1e3411405344bf38fb14ec49c67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.31.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/08fd23a2856422210564f1d7915e2cfdf2b4854b",
+      "git:hexsha": "08fd23a2856422210564f1d7915e2cfdf2b4854b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a9cef6dde89c9e16144f1242a66c3115046a1fe3",
+      "git:hexsha": "a9cef6dde89c9e16144f1242a66c3115046a1fe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a407f646818b5d8896d01842148852d689928c36",
+      "git:hexsha": "a407f646818b5d8896d01842148852d689928c36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3aaed392d9b05a34ef73cd4121008424dbce2968",
+      "git:hexsha": "3aaed392d9b05a34ef73cd4121008424dbce2968",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.34.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4c16de93fbd7b4823bc486aeb4ef0e3a805ba41e",
+      "git:hexsha": "4c16de93fbd7b4823bc486aeb4ef0e3a805ba41e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/94393340f30c2b3183adc99df24201f1e0fa27f4",
+      "git:hexsha": "94393340f30c2b3183adc99df24201f1e0fa27f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3b3c5f53056c7dcbcfdf0477f5c7594ffa87f035",
+      "git:hexsha": "3b3c5f53056c7dcbcfdf0477f5c7594ffa87f035",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8b36d32a31e396214a0db712ae6a9dd2e8a02493",
+      "git:hexsha": "8b36d32a31e396214a0db712ae6a9dd2e8a02493",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/483ee8488998a2baad04dae58441b3cbcca00c7c",
+      "git:hexsha": "483ee8488998a2baad04dae58441b3cbcca00c7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.37.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/52a56f0be2332d61718597261a15860201d1fc3c",
+      "git:hexsha": "52a56f0be2332d61718597261a15860201d1fc3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6bdf42b432dcdc2ee8fedf4647b322af6d96108e",
+      "git:hexsha": "6bdf42b432dcdc2ee8fedf4647b322af6d96108e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/746c1be8b415d12e759d9a5b14a74f21c86b0b1d",
+      "git:hexsha": "746c1be8b415d12e759d9a5b14a74f21c86b0b1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6fed9e22820ae2dd258ea6a797348cd949a6de3a",
+      "git:hexsha": "6fed9e22820ae2dd258ea6a797348cd949a6de3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/10a08cf6d61912bffaa4850c8945404451bfcd74",
+      "git:hexsha": "10a08cf6d61912bffaa4850c8945404451bfcd74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9c682a596ba0d851f27eb13a4f757462c826f405",
+      "git:hexsha": "9c682a596ba0d851f27eb13a4f757462c826f405",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/19d8feb910275b80f94bf403ae29362f6b9c9452",
+      "git:hexsha": "19d8feb910275b80f94bf403ae29362f6b9c9452",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4fd14ff177d56787c2ccd0afcc610ea7ad1921b8",
+      "git:hexsha": "4fd14ff177d56787c2ccd0afcc610ea7ad1921b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.41.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0f7416a0b3ea4a3d4edb1f2091ce8706ea3e6640",
+      "git:hexsha": "0f7416a0b3ea4a3d4edb1f2091ce8706ea3e6640",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c3111370dcd300628af89c26cadddf7b679cfbd8",
+      "git:hexsha": "c3111370dcd300628af89c26cadddf7b679cfbd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6139e4019cfa349fbddaf7244eeb21e780a1a6d4",
+      "git:hexsha": "6139e4019cfa349fbddaf7244eeb21e780a1a6d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8b9b97f7afb80a17e48a3bb01be23419b1907a53",
+      "git:hexsha": "8b9b97f7afb80a17e48a3bb01be23419b1907a53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.44.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/170d244c0ad15df777693a30057c4e8601a6681b",
+      "git:hexsha": "170d244c0ad15df777693a30057c4e8601a6681b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b0f85754424bbfde77412cd5fe2be3e273f3631e",
+      "git:hexsha": "b0f85754424bbfde77412cd5fe2be3e273f3631e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.45.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/be57c6df36f301c82bc775e53b42e3c20bf7f2cd",
+      "git:hexsha": "be57c6df36f301c82bc775e53b42e3c20bf7f2cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/94f743da70ad0d7e423d6c14d8185dcfefd024a2",
+      "git:hexsha": "94f743da70ad0d7e423d6c14d8185dcfefd024a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8d3282647c43e38381b5640e218234f21242967b",
+      "git:hexsha": "8d3282647c43e38381b5640e218234f21242967b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/675114c1b5a1999a112f8adaad8c99f8de6f7bcc",
+      "git:hexsha": "675114c1b5a1999a112f8adaad8c99f8de6f7bcc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.48.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e534bd174f6cbb7cff461a39f15f6b2a7d4ebe2f",
+      "git:hexsha": "e534bd174f6cbb7cff461a39f15f6b2a7d4ebe2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/27231a652ef629dfc2ccba6bd8e07b4cce2634c7",
+      "git:hexsha": "27231a652ef629dfc2ccba6bd8e07b4cce2634c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a9bc979a96c5d2ad545f537f6272fec344846dac",
+      "git:hexsha": "a9bc979a96c5d2ad545f537f6272fec344846dac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e5907dac37a9521bb80db6f16feba494b8c137d0",
+      "git:hexsha": "e5907dac37a9521bb80db6f16feba494b8c137d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b71808e7d26885625c91d49a9d001af166030c87",
+      "git:hexsha": "b71808e7d26885625c91d49a9d001af166030c87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/dd97afff88f419bb8307e29faf49cb96e03c2c55",
+      "git:hexsha": "dd97afff88f419bb8307e29faf49cb96e03c2c55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.50.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ca0beb7eff823fab00e6517c6f48ec44b4f123e5",
+      "git:hexsha": "ca0beb7eff823fab00e6517c6f48ec44b4f123e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.50.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a38991ddebdfa2dd006b0b3a4fb60721082f2607",
+      "git:hexsha": "a38991ddebdfa2dd006b0b3a4fb60721082f2607",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/93a378315ef283bc6ae470be655d3d9b51abcbc1",
+      "git:hexsha": "93a378315ef283bc6ae470be655d3d9b51abcbc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/276a538014d88cee5997a4204d93bc38f4ff4699",
+      "git:hexsha": "276a538014d88cee5997a4204d93bc38f4ff4699",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.52.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/80485d201d62b605118eb81416db6b999444c65d",
+      "git:hexsha": "80485d201d62b605118eb81416db6b999444c65d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c4913f4a1acad8aad727d2ec6e647f7920a2961a",
+      "git:hexsha": "c4913f4a1acad8aad727d2ec6e647f7920a2961a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.53.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1b578aa82fd27ab39c4ffdb7284f8aeb04443973",
+      "git:hexsha": "1b578aa82fd27ab39c4ffdb7284f8aeb04443973",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/dbee3c228ae3ca3e9331f7fe8487193d706424d7",
+      "git:hexsha": "dbee3c228ae3ca3e9331f7fe8487193d706424d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bfbf59751175dae02db38ece1960ede920049ece",
+      "git:hexsha": "bfbf59751175dae02db38ece1960ede920049ece",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.54.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f3790afce259aec75bb94d571803c7e5488f1807",
+      "git:hexsha": "f3790afce259aec75bb94d571803c7e5488f1807",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/000ae5784e4e14657c4927376be41ac2be2c323b",
+      "git:hexsha": "000ae5784e4e14657c4927376be41ac2be2c323b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.55.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e597ca1121705764b6d009ff85a0caf8cd98000c",
+      "git:hexsha": "e597ca1121705764b6d009ff85a0caf8cd98000c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/24e7411d9606fd064e720ecb65a965646b6f8a06",
+      "git:hexsha": "24e7411d9606fd064e720ecb65a965646b6f8a06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b85e080c2528b298d9c8b96db7845537af10f3ff",
+      "git:hexsha": "b85e080c2528b298d9c8b96db7845537af10f3ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/796fcb34b9b11f632ae7d3bffc6da36e9bd0b781",
+      "git:hexsha": "796fcb34b9b11f632ae7d3bffc6da36e9bd0b781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/fc57892974c3bd597d9faa7abd5e02679ddea9d4",
+      "git:hexsha": "fc57892974c3bd597d9faa7abd5e02679ddea9d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.56.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/bfdb5ff4fec74c0dd154268a8e4b97dba7a79aed",
+      "git:hexsha": "bfdb5ff4fec74c0dd154268a8e4b97dba7a79aed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9141fe50b7c3a884852f5e49688a3f5dd3d2f7e0",
+      "git:hexsha": "9141fe50b7c3a884852f5e49688a3f5dd3d2f7e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/47735efc2b410578a196fd2758da87d01802c655",
+      "git:hexsha": "47735efc2b410578a196fd2758da87d01802c655",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.57.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/f27164b11c055414a3707e98ffb87d610c32b0ce",
+      "git:hexsha": "f27164b11c055414a3707e98ffb87d610c32b0ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e5a164a26f8ecba81d44e974e8e3569c550968cd",
+      "git:hexsha": "e5a164a26f8ecba81d44e974e8e3569c550968cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/64e8c47b29855de1f8c1a39f02089ade266705b6",
+      "git:hexsha": "64e8c47b29855de1f8c1a39f02089ade266705b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e338caf85f5d62965347dce7acea5cd36cd1ccde",
+      "git:hexsha": "e338caf85f5d62965347dce7acea5cd36cd1ccde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/56e88bb824fa4699b0e7d6af22afd8943daf8d84",
+      "git:hexsha": "56e88bb824fa4699b0e7d6af22afd8943daf8d84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1f507c9a4fbde88058e504480b7ca2864b7aacd3",
+      "git:hexsha": "1f507c9a4fbde88058e504480b7ca2864b7aacd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.60.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/edb56c927d4d1112a9c02990da31767e68d2121c",
+      "git:hexsha": "edb56c927d4d1112a9c02990da31767e68d2121c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.60.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/45ba7790b3c6fc37c0b83693513c4dadd619d1ed",
+      "git:hexsha": "45ba7790b3c6fc37c0b83693513c4dadd619d1ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/92785ddcf63c8bb6c3449e4183ebb21311a867c9",
+      "git:hexsha": "92785ddcf63c8bb6c3449e4183ebb21311a867c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ed9b69edae0f69771e41de24d6f9cdef6ab03482",
+      "git:hexsha": "ed9b69edae0f69771e41de24d6f9cdef6ab03482",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.62.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/55df9e233d324f36bad58767b38f6f578ed16cbe",
+      "git:hexsha": "55df9e233d324f36bad58767b38f6f578ed16cbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d148ee5bd1484e9d8df0903a2f37a56299dabe08",
+      "git:hexsha": "d148ee5bd1484e9d8df0903a2f37a56299dabe08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/56fe9e63385672f4eadac3489a938af2c241444e",
+      "git:hexsha": "56fe9e63385672f4eadac3489a938af2c241444e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/a10fbef2461cb0c67be10a8b98692bf3f3143dc7",
+      "git:hexsha": "a10fbef2461cb0c67be10a8b98692bf3f3143dc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/941d21b558767de7b54ae5c8b77003d46c7e55b4",
+      "git:hexsha": "941d21b558767de7b54ae5c8b77003d46c7e55b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4c3045c2d76a3da4a7de0eb55ede2945d5fe1aad",
+      "git:hexsha": "4c3045c2d76a3da4a7de0eb55ede2945d5fe1aad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.63.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/91a19d6d1db3a166e5a154f2513c2e218a74cf36",
+      "git:hexsha": "91a19d6d1db3a166e5a154f2513c2e218a74cf36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/31be3004ffb6c6bb8a5dc105993622c2c5aa99f4",
+      "git:hexsha": "31be3004ffb6c6bb8a5dc105993622c2c5aa99f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.64.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/28786cfef40d595c1aba29e1290d27e69b4c349c",
+      "git:hexsha": "28786cfef40d595c1aba29e1290d27e69b4c349c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b073d7a01daf6652a533899e1da974e9110f46ca",
+      "git:hexsha": "b073d7a01daf6652a533899e1da974e9110f46ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.65.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c8edd7d62955318216df6b9163814c45a0464fd5",
+      "git:hexsha": "c8edd7d62955318216df6b9163814c45a0464fd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ba8e7be2f1b76252140e46bcd6f007254f9c5f80",
+      "git:hexsha": "ba8e7be2f1b76252140e46bcd6f007254f9c5f80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.66.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c108ac08221630e24a8d0de3a36889ac13c2320e",
+      "git:hexsha": "c108ac08221630e24a8d0de3a36889ac13c2320e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/7d35ef752b62dee960fe2a3669f796158bda435c",
+      "git:hexsha": "7d35ef752b62dee960fe2a3669f796158bda435c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9a49a335a8bcbf797d2be58e7b8a9ea5735c41a2",
+      "git:hexsha": "9a49a335a8bcbf797d2be58e7b8a9ea5735c41a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3d95b38d1d5e8fec59d28245559d77594ea04b44",
+      "git:hexsha": "3d95b38d1d5e8fec59d28245559d77594ea04b44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.69.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3ba4aefee5c1da008877a508bee1acc210aa5298",
+      "git:hexsha": "3ba4aefee5c1da008877a508bee1acc210aa5298",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.69.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/44270f4d3d04940385d9d03e7adf5eef077df55e",
+      "git:hexsha": "44270f4d3d04940385d9d03e7adf5eef077df55e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e2f2d5ca7c4e2be31e4a0af4ea18aebc5fe1ee01",
+      "git:hexsha": "e2f2d5ca7c4e2be31e4a0af4ea18aebc5fe1ee01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6b13abb7af829c04bb243387d36fad1bad80c12b",
+      "git:hexsha": "6b13abb7af829c04bb243387d36fad1bad80c12b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2b94512bd1cb7f9cecf1a44a23f47fbba57665d4",
+      "git:hexsha": "2b94512bd1cb7f9cecf1a44a23f47fbba57665d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.71.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2cd0ca258da41e709e7753f1a744e910be1ae1ef",
+      "git:hexsha": "2cd0ca258da41e709e7753f1a744e910be1ae1ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.71.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/96989aaf72c21b845152827edbff49067a5b1bdc",
+      "git:hexsha": "96989aaf72c21b845152827edbff49067a5b1bdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/557a7b8132195cf56bf65bee816a86a7a21344a6",
+      "git:hexsha": "557a7b8132195cf56bf65bee816a86a7a21344a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.72.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/869b5d4e9353e8a167fd92a416767af80e113fe5",
+      "git:hexsha": "869b5d4e9353e8a167fd92a416767af80e113fe5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.72.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/28bbd0dfdeb1860f55467ac2038e720f1e27ae89",
+      "git:hexsha": "28bbd0dfdeb1860f55467ac2038e720f1e27ae89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/75737eea72a70383317ec522c13034b9de8b2842",
+      "git:hexsha": "75737eea72a70383317ec522c13034b9de8b2842",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.73.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/815dccadbbf373075cf3d42f3fb7365502259b15",
+      "git:hexsha": "815dccadbbf373075cf3d42f3fb7365502259b15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.73.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/ba27193a24638a20b5ad4df0463170f0c949f34e",
+      "git:hexsha": "ba27193a24638a20b5ad4df0463170f0c949f34e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.74.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/9c2bc8eb11e269f1cf47113041a1be3ff615f68b",
+      "git:hexsha": "9c2bc8eb11e269f1cf47113041a1be3ff615f68b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3872dced1fa9de4a93a31c981e33aadbebf41a7c",
+      "git:hexsha": "3872dced1fa9de4a93a31c981e33aadbebf41a7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b159321378105cd8da90d66b294a22125c8d805e",
+      "git:hexsha": "b159321378105cd8da90d66b294a22125c8d805e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/05f0b56b2f6c433e62db2f00a2b723fb65c04f84",
+      "git:hexsha": "05f0b56b2f6c433e62db2f00a2b723fb65c04f84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/eeda3b2ee7f99148da61cbcae2c2015d0c2e0eac",
+      "git:hexsha": "eeda3b2ee7f99148da61cbcae2c2015d0c2e0eac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4c07aa66c2776a599a226a0d627567716f224a10",
+      "git:hexsha": "4c07aa66c2776a599a226a0d627567716f224a10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/6210b63b993d037d8a050aeb45af78bbba885caa",
+      "git:hexsha": "6210b63b993d037d8a050aeb45af78bbba885caa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3bff1aed0b3d5d80b255329aa6fb67a0c8d785db",
+      "git:hexsha": "3bff1aed0b3d5d80b255329aa6fb67a0c8d785db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/38333dcec9987d31e4f0d18a1938237cc8aa8c4a",
+      "git:hexsha": "38333dcec9987d31e4f0d18a1938237cc8aa8c4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.75.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/190a64de3358db1c9e9c86eae32665916c37535c",
+      "git:hexsha": "190a64de3358db1c9e9c86eae32665916c37535c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.76.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c74a5b3e838a01e535e3c59b03960a2e273a9b65",
+      "git:hexsha": "c74a5b3e838a01e535e3c59b03960a2e273a9b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.76.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/3676d664880673ab9c439272e69547796d8dfdee",
+      "git:hexsha": "3676d664880673ab9c439272e69547796d8dfdee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.76.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e8e3ae775cee3173fe2e734fd7a0b68bf8526868",
+      "git:hexsha": "e8e3ae775cee3173fe2e734fd7a0b68bf8526868",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.77.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/dd441f4af06cc9cbeac0970944fb2c1686888713",
+      "git:hexsha": "dd441f4af06cc9cbeac0970944fb2c1686888713",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.78.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/1c543c82e10f7ea085c46326bd66075f4afee887",
+      "git:hexsha": "1c543c82e10f7ea085c46326bd66075f4afee887",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.79.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/5ecd375e149e1aa4054711ef1d637f2acbfd92ac",
+      "git:hexsha": "5ecd375e149e1aa4054711ef1d637f2acbfd92ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.79.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/517485a4f87d12e0e728a906dbf2aaf03ab703a7",
+      "git:hexsha": "517485a4f87d12e0e728a906dbf2aaf03ab703a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.79.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/0af1a84197038e58ab7e649625a49b6a128169f3",
+      "git:hexsha": "0af1a84197038e58ab7e649625a49b6a128169f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b9cd27ab11cec5bac449e1fe90656c6be6f5323d",
+      "git:hexsha": "b9cd27ab11cec5bac449e1fe90656c6be6f5323d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/732ee2975e440e5753e56c4bbc832a4b7087e596",
+      "git:hexsha": "732ee2975e440e5753e56c4bbc832a4b7087e596",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.80.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/d56f11a111dd9c5cebb17a290d079c108d9e5c8f",
+      "git:hexsha": "d56f11a111dd9c5cebb17a290d079c108d9e5c8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.80.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/e2afd61ffd4e2f56537d8f3c925eda2d3919aa29",
+      "git:hexsha": "e2afd61ffd4e2f56537d8f3c925eda2d3919aa29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.80.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/386bf1051f54de1dacb641198947dd9705e969a5",
+      "git:hexsha": "386bf1051f54de1dacb641198947dd9705e969a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.81.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/db5883191090a395e2eb777c65e6f6e37485e5ac",
+      "git:hexsha": "db5883191090a395e2eb777c65e6f6e37485e5ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.81.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/8c98655771be6e2d978297a7c6fa7dab69f044ca",
+      "git:hexsha": "8c98655771be6e2d978297a7c6fa7dab69f044ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.81.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/4a9b0531335345e72d6554630c6131c866c3b215",
+      "git:hexsha": "4a9b0531335345e72d6554630c6131c866c3b215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.81.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/384aa2b4ed79bad806e0f884e1039dab56d3cfbf",
+      "git:hexsha": "384aa2b4ed79bad806e0f884e1039dab56d3cfbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.82.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/5711dcb9850c5adb3df9e5142fa9a1ae4e987c3f",
+      "git:hexsha": "5711dcb9850c5adb3df9e5142fa9a1ae4e987c3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.82.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/11df34a0abcfcf5c926ddf2dcc49daab5a4ab0f7",
+      "git:hexsha": "11df34a0abcfcf5c926ddf2dcc49daab5a4ab0f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.84.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/5a774b3e211d21aa2d5a8e33d85b7e2e4b16cf1e",
+      "git:hexsha": "5a774b3e211d21aa2d5a8e33d85b7e2e4b16cf1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.84.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/b210a6e157450ff8b9d162eaf947a0e2f35f09c9",
+      "git:hexsha": "b210a6e157450ff8b9d162eaf947a0e2f35f09c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.84.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/aa2797ef4779142bcca983ba71f7a66c2d4711f8",
+      "git:hexsha": "aa2797ef4779142bcca983ba71f7a66c2d4711f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.85.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/fd076726f524a9a551f9a528eec2df57e2762146",
+      "git:hexsha": "fd076726f524a9a551f9a528eec2df57e2762146",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.85.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/2c1b30a47d357599f36ae69c41a63966e68d7592",
+      "git:hexsha": "2c1b30a47d357599f36ae69c41a63966e68d7592",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/c95412eb733c05c1345a24956aaa457a331adc69",
+      "git:hexsha": "c95412eb733c05c1345a24956aaa457a331adc69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop/commit/96248184970e375b3cd78b5fbef10555cd422259",
+      "git:hexsha": "96248184970e375b3cd78b5fbef10555cd422259",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    }
+  ]
+}
