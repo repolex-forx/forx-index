@@ -42,10 +42,120 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 285624
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/af3ff632f169b588f59012ad5e3f2187bb70d1f4.nq.gz",
+      "repolex:graphFileSize": 319218
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/af3ff632f169b588f59012ad5e3f2187bb70d1f4.nq.gz",
+      "repolex:graphFileSize": 1905456
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/af3ff632f169b588f59012ad5e3f2187bb70d1f4.nq.gz",
+      "repolex:graphFileSize": 28384
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/af3ff632f169b588f59012ad5e3f2187bb70d1f4.nq.gz",
+      "repolex:graphFileSize": 1837
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-31T03:31:08.637366+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.3.0"
+  "git:tagName": "0.3.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bower/bower",
+      "repolex:packageName": "bower",
+      "git:hexsha": "1c15deadc035714a8911a81807ec1e25d6e27683",
+      "git:tagName": "v1.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/browserify/browserify",
+      "repolex:packageName": "browserify",
+      "git:hexsha": "8f7adc96e3ed59c299d078405a463860f5409ba6",
+      "git:tagName": "13.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/intesso/connect-livereload",
+      "repolex:packageName": "connect-livereload",
+      "git:hexsha": "13a8cca3192dc077f01e5681cd393681f9e6b060",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt",
+      "repolex:packageName": "grunt",
+      "git:hexsha": "8ada4948b69c6ec9b1e956b5e6b2e6814fa054ca",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmreidy/grunt-browserify",
+      "repolex:packageName": "grunt-browserify",
+      "git:hexsha": "b26e20fe19ba31dbf0aec659eba2fd2982ab81f0",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-clean",
+      "repolex:packageName": "grunt-contrib-clean",
+      "git:hexsha": "af104010d9e35bc53635cd0bdec16791e009e530",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-connect",
+      "repolex:packageName": "grunt-contrib-connect",
+      "git:hexsha": "03fa06ecc22a285c1ef458ca2222e85a880051d4",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-copy",
+      "repolex:packageName": "grunt-contrib-copy",
+      "git:hexsha": "85150c7bfef1279911cb844eefdcd7b2c31ad9d1",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-sass",
+      "repolex:packageName": "grunt-contrib-sass",
+      "git:hexsha": "d60bcf59f98be79e980b64885e18b20023ba64b5",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-uglify",
+      "repolex:packageName": "grunt-contrib-uglify",
+      "git:hexsha": "e7915ced29e81ca603f52a7b4e4e99d786676831",
+      "git:tagName": "v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-watch",
+      "repolex:packageName": "grunt-contrib-watch",
+      "git:hexsha": "d3d8c01b25e0c759d76b236313cf49963983cb77",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jharding/grunt-exec",
+      "repolex:packageName": "grunt-exec",
+      "git:hexsha": "196d7ad114a1e86029500146d94e783b8010754c",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/onehealth/grunt-open",
+      "repolex:packageName": "grunt-open",
+      "git:hexsha": "cc3785fdfe867a05460597679ff5f0b06bbb5825",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkellen/js-matchdep",
+      "repolex:packageName": "matchdep",
+      "git:hexsha": "edae17cf3b9fc77243959f828804ecde07f20b3c",
+      "git:tagName": "v1.0.1"
+    }
+  ]
 }

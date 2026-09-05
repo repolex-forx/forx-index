@@ -42,10 +42,62 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 52717
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/550dc76bbdd075ee63bf7b23d4502d03814a5e77.nq.gz",
+      "repolex:graphFileSize": 1269893
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/550dc76bbdd075ee63bf7b23d4502d03814a5e77.nq.gz",
+      "repolex:graphFileSize": 4461540
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/550dc76bbdd075ee63bf7b23d4502d03814a5e77.nq.gz",
+      "repolex:graphFileSize": 256070
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/550dc76bbdd075ee63bf7b23d4502d03814a5e77.nq.gz",
+      "repolex:graphFileSize": 705
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-04-01T07:28:08.880179+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.1.0"
+  "git:tagName": "0.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/mio",
+      "repolex:packageName": "mio"
+    },
+    {
+      "@id": "https://repolex.ai/r/alexcrichton/scoped-tls",
+      "repolex:packageName": "scoped-tls",
+      "git:hexsha": "7c5293b307191d22705733206ffbf7659c265359",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/slab",
+      "repolex:packageName": "slab"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger"
+    }
+  ]
 }

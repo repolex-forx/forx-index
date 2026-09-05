@@ -42,10 +42,48 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 65478
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/e97cef2f9851103ff3cb1a6abc57b16b806adb15.nq.gz",
+      "repolex:graphFileSize": 27655
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/e97cef2f9851103ff3cb1a6abc57b16b806adb15.nq.gz",
+      "repolex:graphFileSize": 4649641
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e97cef2f9851103ff3cb1a6abc57b16b806adb15.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/e97cef2f9851103ff3cb1a6abc57b16b806adb15.nq.gz",
+      "repolex:graphFileSize": 505
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-31T07:37:41.942828+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.3.4"
+  "git:tagName": "v0.3.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "c88da144eef8cf78424331e5cbbde3e002eef43f",
+      "git:tagName": "7.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/TheKevJames/coveralls-python",
+      "repolex:packageName": "coveralls",
+      "git:hexsha": "7dbb2c46709c1da3d730dfd926de5994f942e19d",
+      "git:tagName": "4.1.0"
+    }
+  ]
 }

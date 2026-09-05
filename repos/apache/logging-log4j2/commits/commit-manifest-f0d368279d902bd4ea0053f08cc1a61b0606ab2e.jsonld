@@ -42,10 +42,174 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 3210439
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/f0d368279d902bd4ea0053f08cc1a61b0606ab2e.nq.gz",
+      "repolex:graphFileSize": 24510975
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/f0d368279d902bd4ea0053f08cc1a61b0606ab2e.nq.gz",
+      "repolex:graphFileSize": 96484614
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f0d368279d902bd4ea0053f08cc1a61b0606ab2e.nq.gz",
+      "repolex:graphFileSize": 7072475
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/f0d368279d902bd4ea0053f08cc1a61b0606ab2e.nq.gz",
+      "repolex:graphFileSize": 2010
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T19:35:17.495546+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "log4j-2.0-beta6"
+  "git:tagName": "log4j-2.0-beta6",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-api",
+      "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+      "git:tagName": "v_2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-ext",
+      "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+      "git:tagName": "v_2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/logback",
+      "repolex:packageName": "ch.qos.logback:logback-core",
+      "git:hexsha": "e807335a67535b4eacce94e942c0bcb649665d93",
+      "git:tagName": "v_1.5.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/logback",
+      "repolex:packageName": "ch.qos.logback:logback-classic",
+      "git:hexsha": "e807335a67535b4eacce94e942c0bcb649665d93",
+      "git:tagName": "v_1.5.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-api",
+      "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
+      "git:tagName": "rel/3.0.0-beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-core",
+      "git:hexsha": "28117e55f69892d3454672f9399e53fb7b74a321",
+      "git:tagName": "rel/3.0.0-beta3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-slf4j-impl",
+      "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
+      "git:tagName": "rel/3.0.0-beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-jcl",
+      "git:hexsha": "416cd4dcf419b59c88054d2001d34c7fec010560",
+      "git:tagName": "rel/3.0.0-beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-1.2-api",
+      "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
+      "git:tagName": "rel/3.0.0-beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/fusesource/jansi",
+      "repolex:packageName": "org.fusesource.jansi:jansi"
+    },
+    {
+      "@id": "https://repolex.ai/r/scm:git@github.com:LMAX-Exchange/disruptor",
+      "repolex:packageName": "com.lmax:disruptor"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.management:java.lang.management"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.text"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.net"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang.reflect"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.nio"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.concurrent"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.nio.charset"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:javax.crypto"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.io"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.security"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.management:javax.management"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.xml:javax.xml.parsers"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.xml:javax.xml.validation"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.desktop:javax.swing"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.management:javax.management.remote"
+    }
+  ]
 }

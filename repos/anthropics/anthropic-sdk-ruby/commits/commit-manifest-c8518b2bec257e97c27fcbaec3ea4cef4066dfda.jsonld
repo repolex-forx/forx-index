@@ -42,10 +42,96 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 56820
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/c8518b2bec257e97c27fcbaec3ea4cef4066dfda.nq.gz",
+      "repolex:graphFileSize": 1937111
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/c8518b2bec257e97c27fcbaec3ea4cef4066dfda.nq.gz",
+      "repolex:graphFileSize": 7526933
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c8518b2bec257e97c27fcbaec3ea4cef4066dfda.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/c8518b2bec257e97c27fcbaec3ea4cef4066dfda.nq.gz",
+      "repolex:graphFileSize": 1432
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T09:37:04.280000+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.1.0-beta.2"
+  "git:tagName": "v0.1.0-beta.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/ruby/rake",
+      "repolex:packageName": "rake",
+      "git:hexsha": "f0001c3eeada8220f2976170876c75d21ed0626f",
+      "git:tagName": "v13.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ruby/rbs",
+      "repolex:packageName": "rbs",
+      "git:hexsha": "ec514562d2f54be078d63877e612bbab87ab87b5",
+      "git:tagName": "v4.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop",
+      "repolex:packageName": "rubocop",
+      "git:hexsha": "2c1b30a47d357599f36ae69c41a63966e68d7592",
+      "git:tagName": "v1.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sorbet/sorbet",
+      "repolex:packageName": "sorbet"
+    },
+    {
+      "@id": "https://repolex.ai/r/soutaro/steep",
+      "repolex:packageName": "steep",
+      "git:hexsha": "bfa83623798279cb36f9c627fb68824e22ab9293",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/socketry/async",
+      "repolex:packageName": "async",
+      "git:hexsha": "975b9facea4bc3659471aec908079fcfda1ff904",
+      "git:tagName": "v2.38.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/minitest/minitest",
+      "repolex:packageName": "minitest",
+      "git:hexsha": "339492cbaec5c460ec278e754199619d6431af35",
+      "git:tagName": "v6.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jeremyevans/minitest-hooks",
+      "repolex:packageName": "minitest-hooks",
+      "git:hexsha": "e690c2ed2a6ad4ffa48e2232bb9c086851283899",
+      "git:tagName": "1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lsegal/yard",
+      "repolex:packageName": "yard",
+      "git:hexsha": "34796c5bfc0ce69a5fea1b38d96435fc4f5b7a75",
+      "git:tagName": "v0.9.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-ruby",
+      "repolex:packageName": "aws-sdk-bedrockruntime"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-auth-library-ruby",
+      "repolex:packageName": "googleauth"
+    }
+  ]
 }

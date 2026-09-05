@@ -11,29 +11,67 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "filetree",
       "repolex:graphFilePath": "filetree/4bc18c8407d052b9a5a0c164e712af65dc6e5b27.nq.gz",
-      "repolex:graphFileSize": 2246
+      "repolex:graphFileSize": 2332
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "commit",
       "repolex:graphFilePath": "commit/commit.nq.gz",
-      "repolex:graphFileSize": 2075
+      "repolex:graphFileSize": 2515
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 448
+      "repolex:graphFileSize": 446
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 358
+      "repolex:graphFileSize": 354
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/4bc18c8407d052b9a5a0c164e712af65dc6e5b27.nq.gz",
+      "repolex:graphFileSize": 7990
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4bc18c8407d052b9a5a0c164e712af65dc6e5b27.nq.gz",
+      "repolex:graphFileSize": 68087
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4bc18c8407d052b9a5a0c164e712af65dc6e5b27.nq.gz",
+      "repolex:graphFileSize": 2716
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/4bc18c8407d052b9a5a0c164e712af65dc6e5b27.nq.gz",
+      "repolex:graphFileSize": 505
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-03-27T01:40:59.376783+00:00",
-  "repolex:parserVersion": "0.0.7",
-  "git:tagName": "0.0.0"
+  "repolex:parsedAt": "2026-04-03T01:07:01.434341+00:00",
+  "repolex:parserVersion": "0.1.0",
+  "git:tagName": "0.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2",
+      "git:tagName": "9.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+      "git:tagName": "v82.0.1"
+    }
+  ]
 }

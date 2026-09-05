@@ -42,10 +42,264 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1066312
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/621d074bd87dd7a7064c5607dbed05b97f80fcc0.nq.gz",
+      "repolex:graphFileSize": 2100510
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/621d074bd87dd7a7064c5607dbed05b97f80fcc0.nq.gz",
+      "repolex:graphFileSize": 12495243
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/621d074bd87dd7a7064c5607dbed05b97f80fcc0.nq.gz",
+      "repolex:graphFileSize": 496611
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/621d074bd87dd7a7064c5607dbed05b97f80fcc0.nq.gz",
+      "repolex:graphFileSize": 4673
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-31T05:40:45.914280+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "4.8.8"
+  "git:tagName": "4.8.8",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/jshttp/accepts",
+      "repolex:packageName": "accepts",
+      "git:hexsha": "4f3ab6f74d496a499cd3fec213fe96fe7d8ca013",
+      "git:tagName": "1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/brianloveswords/buffer-crc32",
+      "repolex:packageName": "buffer-crc32",
+      "git:hexsha": "f06dc30bccbad685af30666268c6fd2670805998",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/debug-js/debug",
+      "repolex:packageName": "debug",
+      "git:hexsha": "abc10a5912f79d251752d18350e269fe0b0fbbf9",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/dougwilson/nodejs-depd",
+      "repolex:packageName": "depd",
+      "git:hexsha": "831f168cb0bc7c11affc1bb7e0b7ae6d9295d9fe",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/component/escape-html",
+      "repolex:packageName": "escape-html",
+      "git:hexsha": "d51fd386855557e3e604d3f97fe476e6920df5e8",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pillarjs/finalhandler",
+      "repolex:packageName": "finalhandler",
+      "git:hexsha": "9b1a0b951882ad95c02e21b2ee545766d6bd6be9",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/media-typer",
+      "repolex:packageName": "media-typer",
+      "git:hexsha": "531b0570c68725d5ded32209e0f00f43f2ec09cb",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/methods",
+      "repolex:packageName": "methods",
+      "git:hexsha": "42749476007afe2bb456f23e9fe459c42df6a1bc",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pillarjs/parseurl",
+      "repolex:packageName": "parseurl",
+      "git:hexsha": "03b7ccca240e2bef5df6c25797e99175d28fb2cb",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pillarjs/path-to-regexp",
+      "repolex:packageName": "path-to-regexp",
+      "git:hexsha": "8f91a833692bba3d1d3bf6b227544967ff938b40",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/proxy-addr",
+      "repolex:packageName": "proxy-addr",
+      "git:hexsha": "07f65997d649907c23694efd4ddb1450f74bd960",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ljharb/qs",
+      "repolex:packageName": "qs",
+      "git:hexsha": "2d954c31a94bf8468f890636c3bb0661f8c2636c",
+      "git:tagName": "v2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/range-parser",
+      "repolex:packageName": "range-parser",
+      "git:hexsha": "261ad1e18ffc08df62352fa9350ab0724fed7c5d",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pillarjs/send",
+      "repolex:packageName": "send",
+      "git:hexsha": "c4fcb5daaca40bf4cf73e28dadbbe095ba44eeb3",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/serve-static",
+      "repolex:packageName": "serve-static",
+      "git:hexsha": "8f3185f75261cc7b2e87c04cf1377e154bdae1a7",
+      "git:tagName": "v1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/type-is",
+      "repolex:packageName": "type-is",
+      "git:hexsha": "d76790909638d4cf1785e09858db5576f91f710f",
+      "git:tagName": "1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/vary",
+      "repolex:packageName": "vary",
+      "git:hexsha": "a1c2e035c559ff1c28a507d9603f8adc25fa2b17",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/cookie",
+      "repolex:packageName": "cookie",
+      "git:hexsha": "244dabd7bc3e2d3482b121c816b4b4e034822b6f",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/fresh",
+      "repolex:packageName": "fresh",
+      "git:hexsha": "4a5580a92121c161522e7a3ae9eb63c31d31e596",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/visionmedia/node-cookie-signature",
+      "repolex:packageName": "cookie-signature",
+      "git:hexsha": "2c4df6b6cee540f30876198cd0b5bebf28528c07",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/merge-descriptors",
+      "repolex:packageName": "merge-descriptors",
+      "git:hexsha": "c206b8b7e52238f47a14022e94f231d79dc1ac3b",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaredhanson/utils-merge",
+      "repolex:packageName": "utils-merge",
+      "git:hexsha": "80f8533cde3039ff68efead269c41fb5f1a0e59b",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Raynos/after",
+      "repolex:packageName": "after",
+      "git:hexsha": "c9f24f4019937b76a85f919979165401b58ae1cf",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/gotwarlost/istanbul",
+      "repolex:packageName": "istanbul"
+    },
+    {
+      "@id": "https://repolex.ai/r/mochajs/mocha",
+      "repolex:packageName": "mocha",
+      "git:hexsha": "bfb4ec14f0403450e4c6a7ff190eb0596880edcc",
+      "git:tagName": "1.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/shouldjs/should.js",
+      "repolex:packageName": "should",
+      "git:hexsha": "7f7bbe0a104fcbe169d9e4176e6b460ee4b94ec2",
+      "git:tagName": "4.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ladjs/supertest",
+      "repolex:packageName": "supertest",
+      "git:hexsha": "f3220748ed97c835fd3fe2c779410d8367bf6595",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tj/connect-redis",
+      "repolex:packageName": "connect-redis",
+      "git:hexsha": "f2d8269280041882a323b0ba235e77df1c79608f",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mde/ejs",
+      "repolex:packageName": "ejs"
+    },
+    {
+      "@id": "https://repolex.ai/r/markedjs/marked",
+      "repolex:packageName": "marked",
+      "git:hexsha": "43db549e31af5ff6e4a3b12e41a23513b9f88c99",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/nullfirm/hjs",
+      "repolex:packageName": "hjs"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/body-parser",
+      "repolex:packageName": "body-parser",
+      "git:hexsha": "9e3906d7fd3ac0d0d01d828774051ae28a64f17a",
+      "git:tagName": "1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/cookie-parser",
+      "repolex:packageName": "cookie-parser",
+      "git:hexsha": "48b352c6076cc6230c613ef1ad17d22b5a09992d",
+      "git:tagName": "1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/session",
+      "repolex:packageName": "express-session",
+      "git:hexsha": "aff4daf63a8a989e26c8e2bfd144fd69c753425b",
+      "git:tagName": "v1.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jadejs/jade",
+      "repolex:packageName": "jade",
+      "git:hexsha": "73f0cb44e77e514a9d03de6b7859426fb7129588",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/method-override",
+      "repolex:packageName": "method-override",
+      "git:hexsha": "136ae0ed23ba7042572f5ce3474fc760a4fe6c84",
+      "git:tagName": "2.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/morgan",
+      "repolex:packageName": "morgan",
+      "git:hexsha": "733e01ec43b0b25c1a2b6bd1a6d3e5ca845ac95a",
+      "git:tagName": "1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pillarjs/multiparty",
+      "repolex:packageName": "multiparty",
+      "git:hexsha": "96e1b70c7a9844689f85ba56e1c4437240ae58ea",
+      "git:tagName": "3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/vhost",
+      "repolex:packageName": "vhost",
+      "git:hexsha": "ca444a5351d7e499b8e2b5056163573cd6e671a1",
+      "git:tagName": "v3.0.0"
+    }
+  ]
 }

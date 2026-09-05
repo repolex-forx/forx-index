@@ -42,10 +42,68 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1936573
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/8bff294b2aaca16fda5a8928ddda041541fa3fc4.nq.gz",
+      "repolex:graphFileSize": 6984788
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/8bff294b2aaca16fda5a8928ddda041541fa3fc4.nq.gz",
+      "repolex:graphFileSize": 36008424
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8bff294b2aaca16fda5a8928ddda041541fa3fc4.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/8bff294b2aaca16fda5a8928ddda041541fa3fc4.nq.gz",
+      "repolex:graphFileSize": 855
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T16:26:39.930134+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.26.1"
+  "git:tagName": "v0.26.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python-attrs/attrs",
+      "repolex:packageName": "attrs",
+      "git:hexsha": "9e443b18527dc96b194e92805fa751cbf8434ba9",
+      "git:tagName": "23.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/outcome",
+      "repolex:packageName": "outcome",
+      "git:hexsha": "bf687c97ce6f010d092bfcaecad51132fb978725",
+      "git:tagName": "v1.3.0.post0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/sniffio",
+      "repolex:packageName": "sniffio",
+      "git:hexsha": "cb8a03d45371efb20156ec895003a9bd988ac89b",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-cffi/cffi",
+      "repolex:packageName": "cffi"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/exceptiongroup",
+      "repolex:packageName": "exceptiongroup",
+      "git:hexsha": "ddddb6fdf8582c4ae5187dc1bd258115974229fe",
+      "git:tagName": "1.3.1"
+    }
+  ]
 }

@@ -42,10 +42,52 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 28768
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/17c7bfac3ceec193bdeb03f5f6d26155e78108c4.nq.gz",
+      "repolex:graphFileSize": 61645
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/17c7bfac3ceec193bdeb03f5f6d26155e78108c4.nq.gz",
+      "repolex:graphFileSize": 549281
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/17c7bfac3ceec193bdeb03f5f6d26155e78108c4.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/17c7bfac3ceec193bdeb03f5f6d26155e78108c4.nq.gz",
+      "repolex:graphFileSize": 564
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T22:04:16.826069+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.2"
+  "git:tagName": "v0.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/toml-rs/toml",
+      "repolex:packageName": "toml"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "234fbfd7e355fa100ffd1402458e0fa061761478",
+      "git:tagName": "v1.0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "7e591e310cfde03ad58900084993287cb0a18817",
+      "git:tagName": "v0.8.5"
+    }
+  ]
 }

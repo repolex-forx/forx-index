@@ -42,10 +42,54 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 509957
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/f97607b89807936ac4ff96748d766cf4b9711f78.nq.gz",
+      "repolex:graphFileSize": 2493
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/f97607b89807936ac4ff96748d766cf4b9711f78.nq.gz",
+      "repolex:graphFileSize": 19019273
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f97607b89807936ac4ff96748d766cf4b9711f78.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/f97607b89807936ac4ff96748d766cf4b9711f78.nq.gz",
+      "repolex:graphFileSize": 629
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T09:11:24.251536+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v1.8.4"
+  "git:tagName": "v1.8.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/davecgh/go-spew",
+      "repolex:packageName": "github.com/davecgh/go-spew",
+      "git:hexsha": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pmezard/go-difflib",
+      "repolex:packageName": "github.com/pmezard/go-difflib",
+      "git:hexsha": "792786c7400a136282c1664665ae0a8db921c6c2",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stretchr/objx",
+      "repolex:packageName": "github.com/stretchr/objx",
+      "git:hexsha": "50a2c064be99303c5dddf725da60e30fbc4f6ede",
+      "git:tagName": "v0.5.0"
+    }
+  ]
 }

@@ -42,10 +42,48 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1287671
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "repolex:graphFileSize": 4175
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "repolex:graphFileSize": 14264962
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "repolex:graphFileSize": 483
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T01:14:10.679546+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v1.1.0"
+  "git:tagName": "v1.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2",
+      "git:tagName": "9.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "cc7c6f435ad37bb12264f8118c8461b230e6830c",
+      "git:tagName": "v9.1.0"
+    }
+  ]
 }

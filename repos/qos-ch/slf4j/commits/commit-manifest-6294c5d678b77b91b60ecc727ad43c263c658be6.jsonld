@@ -42,10 +42,82 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 126490
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/6294c5d678b77b91b60ecc727ad43c263c658be6.nq.gz",
+      "repolex:graphFileSize": 3742684
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/6294c5d678b77b91b60ecc727ad43c263c658be6.nq.gz",
+      "repolex:graphFileSize": 12350785
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6294c5d678b77b91b60ecc727ad43c263c658be6.nq.gz",
+      "repolex:graphFileSize": 966398
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/6294c5d678b77b91b60ecc727ad43c263c658be6.nq.gz",
+      "repolex:graphFileSize": 832
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T17:47:34.645700+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "SLF4J_1.5.5"
+  "git:tagName": "SLF4J_1.5.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-api",
+      "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+      "git:tagName": "v_2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.xml.crypto:com.sun.org.slf4j.internal"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.desktop:javax.swing"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.desktop:java.awt"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.security"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.text"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.logging:java.util.logging"
+    }
+  ]
 }

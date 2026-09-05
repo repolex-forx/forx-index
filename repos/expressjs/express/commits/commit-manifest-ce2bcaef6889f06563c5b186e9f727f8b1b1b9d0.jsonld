@@ -42,10 +42,100 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1062930
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/ce2bcaef6889f06563c5b186e9f727f8b1b1b9d0.nq.gz",
+      "repolex:graphFileSize": 733326
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/ce2bcaef6889f06563c5b186e9f727f8b1b1b9d0.nq.gz",
+      "repolex:graphFileSize": 5881053
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ce2bcaef6889f06563c5b186e9f727f8b1b1b9d0.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/ce2bcaef6889f06563c5b186e9f727f8b1b1b9d0.nq.gz",
+      "repolex:graphFileSize": 1461
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T16:13:12.548452+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "2.3.12"
+  "git:tagName": "2.3.12",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/senchalabs/connect",
+      "repolex:packageName": "connect"
+    },
+    {
+      "@id": "https://repolex.ai/r/broofa/mime",
+      "repolex:packageName": "mime"
+    },
+    {
+      "@id": "https://repolex.ai/r/ljharb/qs",
+      "repolex:packageName": "qs",
+      "git:hexsha": "e35b2c8f37b46efb080c607a2b6bd690eafac303",
+      "git:tagName": "v0.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/mde/ejs",
+      "repolex:packageName": "ejs"
+    },
+    {
+      "@id": "https://repolex.ai/r/visionmedia/expresso",
+      "repolex:packageName": "expresso",
+      "git:hexsha": "a632633104bb8da4eff0f3d0c15ca68997d5df84",
+      "git:tagName": "0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/visionmedia/haml.js",
+      "repolex:packageName": "hamljs",
+      "git:hexsha": "55bb6fdc79085d8091ab6db3f8b716686fcb1875",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jadejs/jade",
+      "repolex:packageName": "jade",
+      "git:hexsha": "02f6fa456fb6866f7646131ad2ec406fe87ddabc",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stylus/stylus",
+      "repolex:packageName": "stylus",
+      "git:hexsha": "443ccb7e69317968615df83d9db6b9592f9323c5",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/shouldjs/should.js",
+      "repolex:packageName": "should",
+      "git:hexsha": "1b5d13036deb82c3d5b3341ca4772e0a3e3bc682",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/expressjs/express-messages",
+      "repolex:packageName": "express-messages",
+      "git:hexsha": "e39a162878978d2735114245c980be3a7829480e",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/andris9/node-markdown",
+      "repolex:packageName": "node-markdown"
+    },
+    {
+      "@id": "https://repolex.ai/r/tj/connect-redis",
+      "repolex:packageName": "connect-redis",
+      "git:hexsha": "6476e57bcac185bc266adc1ab3b4698801649194",
+      "git:tagName": "0.0.1"
+    }
+  ]
 }

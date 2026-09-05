@@ -42,10 +42,78 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 4352728
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/4e2b3fde9f3581e69034b37bd1764e531a873409.nq.gz",
+      "repolex:graphFileSize": 1612
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4e2b3fde9f3581e69034b37bd1764e531a873409.nq.gz",
+      "repolex:graphFileSize": 1308039
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4e2b3fde9f3581e69034b37bd1764e531a873409.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/4e2b3fde9f3581e69034b37bd1764e531a873409.nq.gz",
+      "repolex:graphFileSize": 936
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-27T01:47:03.748603+00:00",
   "repolex:parserVersion": "0.0.7",
-  "git:tagName": "v0.0.1"
+  "git:tagName": "v0.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/cypress-io/cypress",
+      "repolex:packageName": "cypress",
+      "repolex:packageVersion": "9.7.0",
+      "git:hexsha": "d681fd929bfeb4ca297d42ad77fc3d0e33dae793",
+      "git:tagName": "v9.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/eslint-plugin-prettier",
+      "repolex:packageName": "eslint-plugin-prettier",
+      "repolex:packageVersion": "5.5.5",
+      "git:hexsha": "e2c154a7214d4548dad225a56ee1e333d6389b66",
+      "git:tagName": "v5.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lerna/lerna",
+      "repolex:packageName": "lerna",
+      "repolex:packageVersion": "9.0.7",
+      "git:hexsha": "4322536e385c067afe743c089430dd5cfe35d010",
+      "git:tagName": "v9.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "repolex:packageVersion": "4.0.0-alpha.9",
+      "git:hexsha": "1a05fe4ccb3be22bddc78cfaf8fac12f9e5c2f5e",
+      "git:tagName": "4.0.0-alpha.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaredpalmer/tsdx",
+      "repolex:packageName": "tsdx",
+      "repolex:packageVersion": "2.0.0",
+      "git:hexsha": "5b1aa0d67788bfb5ae46e6845e2e4e07c1c73e99",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "repolex:packageVersion": "6.0.2",
+      "git:hexsha": "607a22a90d1a5a1b507ce01bb8cd7ec020f954e7",
+      "git:tagName": "v6.0.2"
+    }
+  ]
 }

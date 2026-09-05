@@ -42,10 +42,64 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 126490
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/04a8c2c2cf42307e655ce14872c6bcecefc3babc.nq.gz",
+      "repolex:graphFileSize": 2071570
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/04a8c2c2cf42307e655ce14872c6bcecefc3babc.nq.gz",
+      "repolex:graphFileSize": 6860126
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/04a8c2c2cf42307e655ce14872c6bcecefc3babc.nq.gz",
+      "repolex:graphFileSize": 481013
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/04a8c2c2cf42307e655ce14872c6bcecefc3babc.nq.gz",
+      "repolex:graphFileSize": 607
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T10:39:07.484981+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "SLF4J_1.4.3"
+  "git:tagName": "SLF4J_1.4.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.xml.crypto:com.sun.org.slf4j.internal"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.logging:java.util.logging"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.security"
+    }
+  ]
 }

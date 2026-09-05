@@ -42,10 +42,42 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 864067
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/f7cdff5cfc614f34025d1fc238642be029dca1f3.nq.gz",
+      "repolex:graphFileSize": 3631
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/f7cdff5cfc614f34025d1fc238642be029dca1f3.nq.gz",
+      "repolex:graphFileSize": 21855500
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f7cdff5cfc614f34025d1fc238642be029dca1f3.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/f7cdff5cfc614f34025d1fc238642be029dca1f3.nq.gz",
+      "repolex:graphFileSize": 372
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T13:36:38.032553+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "8.2.2"
+  "git:tagName": "8.2.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tartley/colorama",
+      "repolex:packageName": "colorama",
+      "git:hexsha": "3de9f013df4b470069d03d250224062e8cf15c49",
+      "git:tagName": "0.4.6"
+    }
+  ]
 }

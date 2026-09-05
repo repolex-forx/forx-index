@@ -42,10 +42,54 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 569391
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/aa3d688a15aece0a0de0b59f94dda870c724bc87.nq.gz",
+      "repolex:graphFileSize": 5827828
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/aa3d688a15aece0a0de0b59f94dda870c724bc87.nq.gz",
+      "repolex:graphFileSize": 22328573
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/aa3d688a15aece0a0de0b59f94dda870c724bc87.nq.gz",
+      "repolex:graphFileSize": 1551972
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/aa3d688a15aece0a0de0b59f94dda870c724bc87.nq.gz",
+      "repolex:graphFileSize": 606
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-04-01T00:57:54.699095+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "2.11.x"
+  "git:tagName": "2.11.x",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets/markupsafe",
+      "repolex:packageName": "markupsafe",
+      "git:hexsha": "297fc8e356e6836a62087949245d09a28e9f1b13",
+      "git:tagName": "3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+      "git:tagName": "v82.0.1"
+    }
+  ]
 }

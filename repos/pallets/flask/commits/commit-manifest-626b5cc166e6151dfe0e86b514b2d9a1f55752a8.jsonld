@@ -42,10 +42,60 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1442472
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/626b5cc166e6151dfe0e86b514b2d9a1f55752a8.nq.gz",
+      "repolex:graphFileSize": 3944472
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/626b5cc166e6151dfe0e86b514b2d9a1f55752a8.nq.gz",
+      "repolex:graphFileSize": 16249097
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/626b5cc166e6151dfe0e86b514b2d9a1f55752a8.nq.gz",
+      "repolex:graphFileSize": 1000871
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/626b5cc166e6151dfe0e86b514b2d9a1f55752a8.nq.gz",
+      "repolex:graphFileSize": 694
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T19:03:36.836371+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "1.0.4"
+  "git:tagName": "1.0.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click",
+      "git:hexsha": "1d038f270701498433cb432f54db89f95f07a845",
+      "git:tagName": "8.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+      "git:tagName": "v82.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/markupsafe",
+      "repolex:packageName": "markupsafe",
+      "git:hexsha": "297fc8e356e6836a62087949245d09a28e9f1b13",
+      "git:tagName": "3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    }
+  ]
 }

@@ -42,10 +42,64 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 28768
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/a957d04c4a32de00a5901a9dd78df559b7cd901e.nq.gz",
+      "repolex:graphFileSize": 156447
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/a957d04c4a32de00a5901a9dd78df559b7cd901e.nq.gz",
+      "repolex:graphFileSize": 1524892
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a957d04c4a32de00a5901a9dd78df559b7cd901e.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/a957d04c4a32de00a5901a9dd78df559b7cd901e.nq.gz",
+      "repolex:graphFileSize": 807
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T21:51:48.905589+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.12"
+  "git:tagName": "v0.12",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/toml-rs/toml",
+      "repolex:packageName": "toml"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "d9c338ec4abd1dd6fdd305e208bff1fd7faaabff",
+      "git:tagName": "v1.0.126"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "b5599dcdb0f24274988e3136f04895bfd67f6a40",
+      "git:tagName": "v0.23.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkaitchuck/ahash",
+      "repolex:packageName": "ahash",
+      "git:hexsha": "673c17c930ef201233c14ee81136bad447cc2a5c",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/paritytech/nohash-hasher",
+      "repolex:packageName": "nohash-hasher",
+      "git:hexsha": "99b021664e9d7fd3e1f7ffb8633a137e21e12149",
+      "git:tagName": "v0.2.0"
+    }
+  ]
 }

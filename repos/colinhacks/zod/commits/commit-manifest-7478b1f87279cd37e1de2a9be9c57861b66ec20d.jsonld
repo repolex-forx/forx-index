@@ -42,10 +42,92 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 798496
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/7478b1f87279cd37e1de2a9be9c57861b66ec20d.nq.gz",
+      "repolex:graphFileSize": 2432
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/7478b1f87279cd37e1de2a9be9c57861b66ec20d.nq.gz",
+      "repolex:graphFileSize": 1810967
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7478b1f87279cd37e1de2a9be9c57861b66ec20d.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/7478b1f87279cd37e1de2a9be9c57861b66ec20d.nq.gz",
+      "repolex:graphFileSize": 1190
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-27T01:43:12.011210+00:00",
   "repolex:parserVersion": "0.0.7",
-  "git:tagName": "v1.1.2"
+  "git:tagName": "v1.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/jestjs/jest",
+      "repolex:packageName": "jest",
+      "repolex:packageVersion": "30.3.0",
+      "git:hexsha": "efb59c2e81083f8dc941f20d6d20a3af2dc8d068",
+      "git:tagName": "v30.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tlvince/make-coverage-badge",
+      "repolex:packageName": "make-coverage-badge",
+      "repolex:packageVersion": "1.2.0",
+      "git:hexsha": "678a2f82dab365f0436d514f695a61189e1f6ac7",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/remy/nodemon",
+      "repolex:packageName": "nodemon",
+      "repolex:packageVersion": "3.1.9",
+      "git:hexsha": "9c9de6eb075c62650145bfebfac3680923f172d6",
+      "git:tagName": "v3.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "repolex:packageVersion": "4.0.0-alpha.9",
+      "git:hexsha": "1a05fe4ccb3be22bddc78cfaf8fac12f9e5c2f5e",
+      "git:tagName": "4.0.0-alpha.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/kulshekhar/ts-jest",
+      "repolex:packageName": "ts-jest",
+      "repolex:packageVersion": "29.4.6",
+      "git:hexsha": "202bde5a7c472b288db6cb397bbf2493225628be",
+      "git:tagName": "v29.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/palantir/tslint",
+      "repolex:packageName": "tslint",
+      "repolex:packageVersion": "6.1.3",
+      "git:hexsha": "10fc233b2555044b145c9bbd9f602d43e8df2216",
+      "git:tagName": "6.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/alexjoverm/tslint-config-prettier",
+      "repolex:packageName": "tslint-config-prettier",
+      "repolex:packageVersion": "1.9.0",
+      "git:hexsha": "5bace45ae61ec1892fbe636a7678bc1185ce6d0f",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "repolex:packageVersion": "6.0.2",
+      "git:hexsha": "607a22a90d1a5a1b507ce01bb8cd7ec020f954e7",
+      "git:tagName": "v6.0.2"
+    }
+  ]
 }

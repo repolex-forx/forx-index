@@ -36,10 +36,178 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1355287
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/26d48e0634e6ee9cdc0533996db289ce4b430177.nq.gz",
+      "repolex:graphFileSize": 3488
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/26d48e0634e6ee9cdc0533996db289ce4b430177.nq.gz",
+      "repolex:graphFileSize": 22436940
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/26d48e0634e6ee9cdc0533996db289ce4b430177.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/26d48e0634e6ee9cdc0533996db289ce4b430177.nq.gz",
+      "repolex:graphFileSize": 2881
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T12:24:55.743726+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.28.1"
+  "git:tagName": "0.28.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/certifi/python-certifi",
+      "repolex:packageName": "certifi"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/httpcore",
+      "repolex:packageName": "httpcore"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "afbe93ca9d0c447adf26e9c1715ac20870622bf2",
+      "git:tagName": "4.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/brotli",
+      "repolex:packageName": "brotli",
+      "git:hexsha": "028fb5a23661f123017c060daa546b55cf4bde29",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-hyper/brotlicffi",
+      "repolex:packageName": "brotlicffi",
+      "git:hexsha": "3fd4d205e1a356c9b02faccfbe449e774537ddf2",
+      "git:tagName": "v1.2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click"
+    },
+    {
+      "@id": "https://repolex.ai/r/pygments/pygments",
+      "repolex:packageName": "pygments"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-hyper/h2",
+      "repolex:packageName": "h2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sethmlarson/socksio",
+      "repolex:packageName": "socksio"
+    },
+    {
+      "@id": "https://repolex.ai/r/indygreg/python-zstandard",
+      "repolex:packageName": "zstandard",
+      "git:hexsha": "20e07de1a9d995766fa24606d5a74bac40b53c6a",
+      "git:tagName": "0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/chardet/chardet",
+      "repolex:packageName": "chardet",
+      "git:hexsha": "fa905b359cbcaba93a35fd6429ba9ec4b156c1c1",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mkdocs/mkdocs",
+      "repolex:packageName": "mkdocs",
+      "git:hexsha": "bb7e8b62185b11d9f59bb7f50b13c15134f62f8a",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tomchristie/mkautodoc",
+      "repolex:packageName": "mkautodoc",
+      "git:hexsha": "ad41abc4a94c4d63347e808ce6ca1dc0fb800bfb",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/squidfunk/mkdocs-material",
+      "repolex:packageName": "mkdocs-material",
+      "git:hexsha": "65997ae16ebe4c94c015dea968c3ec5d85a1060e",
+      "git:tagName": "9.5.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/build",
+      "repolex:packageName": "build"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/twine",
+      "repolex:packageName": "twine",
+      "git:hexsha": "a723876fd4398be57838873e60867566b6220a53",
+      "git:tagName": "6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "29f5898c571aac9d6380203179ba9d6c28195c62",
+      "git:tagName": "7.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography",
+      "repolex:packageName": "cryptography",
+      "git:hexsha": "f299a48153650f2dd87716343f2daa7cd39a1f59",
+      "git:tagName": "44.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "eb310343be0399ea6755fabc259755ce1f6711e8",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "53f8b4e634c5066c4f797a87b20060edbb086240",
+      "git:tagName": "8.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff",
+      "git:hexsha": "b3b2c982cdfb487bec7c38ca4e04cebbe0f1964e",
+      "git:tagName": "0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/trio",
+      "repolex:packageName": "trio",
+      "git:hexsha": "11a7fc6c3b483bac1c39a170d0c1f0284cdf9505",
+      "git:tagName": "v0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/trio-typing",
+      "repolex:packageName": "trio-typing",
+      "git:hexsha": "422d8fc816d40251d9e59b4afeec12c7fd3f9978",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/trustme",
+      "repolex:packageName": "trustme",
+      "git:hexsha": "054735218397d39c46e4b09bf19b54b20f27bb16",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sponsors/encode",
+      "repolex:packageName": "uvicorn"
+    }
+  ]
 }

@@ -42,10 +42,64 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1936573
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/8741c58def83defc84ab2734f95f2f8d51c21920.nq.gz",
+      "repolex:graphFileSize": 9573040
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/8741c58def83defc84ab2734f95f2f8d51c21920.nq.gz",
+      "repolex:graphFileSize": 34717321
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8741c58def83defc84ab2734f95f2f8d51c21920.nq.gz",
+      "repolex:graphFileSize": 2374764
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/8741c58def83defc84ab2734f95f2f8d51c21920.nq.gz",
+      "repolex:graphFileSize": 801
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T08:48:36.805717+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.22.2"
+  "git:tagName": "v0.22.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/denis-ryzhkov/attr",
+      "repolex:packageName": "attr",
+      "git:hexsha": "27ae02f3d5f896dbfbce232085bdd7d0e0ded89c",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+      "git:tagName": "v82.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-attrs/attrs",
+      "repolex:packageName": "attrs",
+      "git:hexsha": "7bfc49e9b22d5ba25b6e429524c3d49fee27cb36",
+      "git:tagName": "26.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "9d1637e264b5c1a6b7acee3e907015f89b20c2c9",
+      "git:tagName": "4.15.0"
+    }
+  ]
 }

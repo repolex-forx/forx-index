@@ -42,10 +42,60 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1287671
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/3235766d67aecc8db3b343f40d190e9d4752c071.nq.gz",
+      "repolex:graphFileSize": 4473
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/3235766d67aecc8db3b343f40d190e9d4752c071.nq.gz",
+      "repolex:graphFileSize": 16491679
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3235766d67aecc8db3b343f40d190e9d4752c071.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/3235766d67aecc8db3b343f40d190e9d4752c071.nq.gz",
+      "repolex:graphFileSize": 702
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T01:50:11.757586+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v2.1.0"
+  "git:tagName": "v2.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "b5955c59793b924a14e3ab185f38d690cef32fb3",
+      "git:tagName": "2.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "c585e272d4ed01dc8bac05030648d3a78dd19fbf",
+      "git:tagName": "v1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyinvoke/invoke",
+      "repolex:packageName": "invoke",
+      "git:hexsha": "86494344593034e8c7b21bce7e73a2bf2e6e3268",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/wheel",
+      "repolex:packageName": "wheel",
+      "git:hexsha": "8b6fa740a7101edacb42b0f8e83a1b659ff61033",
+      "git:tagName": "0.46.3"
+    }
+  ]
 }

@@ -42,10 +42,94 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 27665
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "repolex:graphFileSize": 11636762
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "repolex:graphFileSize": 40190793
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "repolex:graphFileSize": 3533131
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "repolex:graphFileSize": 1084
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T15:51:21.587262+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v1.0.0.rc2"
+  "git:tagName": "v1.0.0.rc2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-arq",
+      "git:hexsha": "a35bad974eb24e4ed03af195c7adef72039cd030",
+      "git:tagName": "jena-3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-api",
+      "git:hexsha": "25aba2ea4febeb35ba910c249826b5a62001a7e4",
+      "git:tagName": "v_1.7.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-log4j12",
+      "git:hexsha": "25aba2ea4febeb35ba910c249826b5a62001a7e4",
+      "git:tagName": "v_1.7.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-core",
+      "git:hexsha": "a35bad974eb24e4ed03af195c7adef72039cd030",
+      "git:tagName": "jena-3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.net"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util.regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-base",
+      "git:hexsha": "a35bad974eb24e4ed03af195c7adef72039cd030",
+      "git:tagName": "jena-3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang",
+      "repolex:packageName": "org.apache.commons:commons-lang3"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.xml:javax.xml.transform"
+    }
+  ]
 }

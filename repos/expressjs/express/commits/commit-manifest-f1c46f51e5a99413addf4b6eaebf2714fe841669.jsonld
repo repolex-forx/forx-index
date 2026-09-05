@@ -42,10 +42,140 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1062930
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/f1c46f51e5a99413addf4b6eaebf2714fe841669.nq.gz",
+      "repolex:graphFileSize": 1080938
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/f1c46f51e5a99413addf4b6eaebf2714fe841669.nq.gz",
+      "repolex:graphFileSize": 8192066
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f1c46f51e5a99413addf4b6eaebf2714fe841669.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/f1c46f51e5a99413addf4b6eaebf2714fe841669.nq.gz",
+      "repolex:graphFileSize": 2186
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T22:10:44.046400+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "3.3.8"
+  "git:tagName": "3.3.8",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/senchalabs/connect",
+      "repolex:packageName": "connect",
+      "git:hexsha": "8623ca7fef395471df033f9d6cd78be0f9b0b28a",
+      "git:tagName": "2.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tj/commander.js",
+      "repolex:packageName": "commander",
+      "git:hexsha": "fc560de5a5951e8d852c7bb4975010f59299f09c",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/range-parser",
+      "repolex:packageName": "range-parser",
+      "git:hexsha": "1f0aa8a07fee8aebd52f11a0a224af91c3b8db57",
+      "git:tagName": "v0.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/isaacs/node-mkdirp",
+      "repolex:packageName": "mkdirp",
+      "git:hexsha": "f104bbb4c2044892dc95300a5f397657919a858a",
+      "git:tagName": "0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/cookie",
+      "repolex:packageName": "cookie",
+      "git:hexsha": "ccea5901180fc9c4c2c73bd4a445903faf7b1163",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/brianloveswords/buffer-crc32",
+      "repolex:packageName": "buffer-crc32",
+      "git:hexsha": "1b7489d30484130d2dcddfbe888fb0d03149127b",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/fresh",
+      "repolex:packageName": "fresh",
+      "git:hexsha": "420bb9fed71862aafb6d833fdcd23b4a1b6c9ecf",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jshttp/methods",
+      "repolex:packageName": "methods",
+      "git:hexsha": "ef60e88b8df3bffa47639bc28f523dbf30c4dff1",
+      "git:tagName": "v0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pillarjs/send",
+      "repolex:packageName": "send",
+      "git:hexsha": "a5e5e05a40bd44aaa7dba3db71540c56dfcd7ac7",
+      "git:tagName": "0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/visionmedia/node-cookie-signature",
+      "repolex:packageName": "cookie-signature",
+      "git:hexsha": "9de1b41f7ef6d3c23dcb04279a4b0fa1353c4e2c",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/debug-js/debug",
+      "repolex:packageName": "debug"
+    },
+    {
+      "@id": "https://repolex.ai/r/mde/ejs",
+      "repolex:packageName": "ejs"
+    },
+    {
+      "@id": "https://repolex.ai/r/mochajs/mocha",
+      "repolex:packageName": "mocha"
+    },
+    {
+      "@id": "https://repolex.ai/r/jadejs/jade",
+      "repolex:packageName": "jade",
+      "git:hexsha": "9e287a2a4cff90525c33366491941cf85c577dec",
+      "git:tagName": "0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/nullfirm/hjs",
+      "repolex:packageName": "hjs"
+    },
+    {
+      "@id": "https://repolex.ai/r/stylus/stylus",
+      "repolex:packageName": "stylus"
+    },
+    {
+      "@id": "https://repolex.ai/r/shouldjs/should.js",
+      "repolex:packageName": "should"
+    },
+    {
+      "@id": "https://repolex.ai/r/tj/connect-redis",
+      "repolex:packageName": "connect-redis"
+    },
+    {
+      "@id": "https://repolex.ai/r/markedjs/marked",
+      "repolex:packageName": "marked"
+    },
+    {
+      "@id": "https://repolex.ai/r/ladjs/supertest",
+      "repolex:packageName": "supertest",
+      "git:hexsha": "e05d9babe80237cc34f286830c1463d88454625b",
+      "git:tagName": "0.6.0"
+    }
+  ]
 }

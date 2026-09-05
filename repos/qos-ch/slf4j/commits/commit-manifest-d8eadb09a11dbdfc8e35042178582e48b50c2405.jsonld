@@ -42,10 +42,60 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 126490
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/d8eadb09a11dbdfc8e35042178582e48b50c2405.nq.gz",
+      "repolex:graphFileSize": 1718050
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/d8eadb09a11dbdfc8e35042178582e48b50c2405.nq.gz",
+      "repolex:graphFileSize": 5701942
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d8eadb09a11dbdfc8e35042178582e48b50c2405.nq.gz",
+      "repolex:graphFileSize": 345599
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/d8eadb09a11dbdfc8e35042178582e48b50c2405.nq.gz",
+      "repolex:graphFileSize": 571
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T05:10:45.313858+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "SLF4J_1.4.0"
+  "git:tagName": "SLF4J_1.4.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.xml.crypto:com.sun.org.slf4j.internal"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.util"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.security"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.logging:java.util.logging"
+    }
+  ]
 }

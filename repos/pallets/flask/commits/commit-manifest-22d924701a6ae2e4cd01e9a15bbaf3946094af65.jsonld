@@ -42,10 +42,88 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1442472
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/22d924701a6ae2e4cd01e9a15bbaf3946094af65.nq.gz",
+      "repolex:graphFileSize": 4831
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/22d924701a6ae2e4cd01e9a15bbaf3946094af65.nq.gz",
+      "repolex:graphFileSize": 13005481
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/22d924701a6ae2e4cd01e9a15bbaf3946094af65.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/22d924701a6ae2e4cd01e9a15bbaf3946094af65.nq.gz",
+      "repolex:graphFileSize": 1228
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T05:43:53.332360+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "3.1.3"
+  "git:tagName": "3.1.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets-eco/blinker",
+      "repolex:packageName": "blinker",
+      "git:hexsha": "669f3a027828d19786e708b511277fabcd6b9532",
+      "git:tagName": "1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click",
+      "git:hexsha": "9c6f4c8e1bb8670ce827c98559f57f6ee5935cd0",
+      "git:tagName": "8.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata",
+      "git:hexsha": "73cf0a96d1681b6423ae224cceaaebda58cd4a36",
+      "git:tagName": "v3.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/itsdangerous",
+      "repolex:packageName": "itsdangerous",
+      "git:hexsha": "096c8d42545d3b68ea21a4f890fb2b2d8979c0bd",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "b08cd4bc64bb980df86ed2876978ae5735572280",
+      "git:tagName": "3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/markupsafe",
+      "repolex:packageName": "markupsafe",
+      "git:hexsha": "b90a42e08121f2cd9ff5dd8e5eef32a70e9959e3",
+      "git:tagName": "2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/werkzeug",
+      "repolex:packageName": "werkzeug",
+      "git:hexsha": "df655e6ce6bc77adc7833619a079e66eba566aee",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/django/asgiref",
+      "repolex:packageName": "asgiref"
+    },
+    {
+      "@id": "https://repolex.ai/r/theskumar/python-dotenv",
+      "repolex:packageName": "python-dotenv",
+      "git:hexsha": "36004e0e34be7665ff2b11a8a4005144f76f176d",
+      "git:tagName": "v1.2.2"
+    }
+  ]
 }

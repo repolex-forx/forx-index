@@ -42,10 +42,64 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 405968
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/c5769e0fe27064c77cd5b09512d686913d420f95.nq.gz",
+      "repolex:graphFileSize": 807093
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/c5769e0fe27064c77cd5b09512d686913d420f95.nq.gz",
+      "repolex:graphFileSize": 4687185
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c5769e0fe27064c77cd5b09512d686913d420f95.nq.gz",
+      "repolex:graphFileSize": 112496
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/c5769e0fe27064c77cd5b09512d686913d420f95.nq.gz",
+      "repolex:graphFileSize": 791
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T05:00:12.453113+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "3.8.0"
+  "git:tagName": "3.8.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata",
+      "git:hexsha": "a9f883fef337c667a81a987bc0cbc0dbb43b2bfe",
+      "git:tagName": "v9.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "bc04dfd6dad4cb02cd92f5daa81eb562d280a761",
+      "git:tagName": "v2.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "0248277dd7ac0239204889ca991353ad3e3a1ddc",
+      "git:tagName": "2.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "75bdb6c379bcfc6c592b6342dc791a092b5d6ae0",
+      "git:tagName": "v4.67.3"
+    }
+  ]
 }

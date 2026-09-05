@@ -42,10 +42,50 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 682350
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/e7e064611e1004ec62b593ec993a06d967d6c72e.nq.gz",
+      "repolex:graphFileSize": 7136
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/e7e064611e1004ec62b593ec993a06d967d6c72e.nq.gz",
+      "repolex:graphFileSize": 13000568
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e7e064611e1004ec62b593ec993a06d967d6c72e.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/e7e064611e1004ec62b593ec993a06d967d6c72e.nq.gz",
+      "repolex:graphFileSize": 533
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T14:39:39.819117+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "1.5.5"
+  "git:tagName": "1.5.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/saks/ruby-fcgi",
+      "repolex:packageName": "ruby-fcgi"
+    },
+    {
+      "@id": "https://repolex.ai/r/fauna/mongrel",
+      "repolex:packageName": "mongrel"
+    },
+    {
+      "@id": "https://repolex.ai/r/macournoyer/thin",
+      "repolex:packageName": "thin",
+      "git:hexsha": "84a5188612d84bcf5c6ad1f1c27c750645917f5c",
+      "git:tagName": "v2.0.1"
+    }
+  ]
 }

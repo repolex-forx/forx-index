@@ -42,10 +42,42 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 3526827
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/b5955c59793b924a14e3ab185f38d690cef32fb3.nq.gz",
+      "repolex:graphFileSize": 4455114
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/b5955c59793b924a14e3ab185f38d690cef32fb3.nq.gz",
+      "repolex:graphFileSize": 22069627
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b5955c59793b924a14e3ab185f38d690cef32fb3.nq.gz",
+      "repolex:graphFileSize": 225348
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/b5955c59793b924a14e3ab185f38d690cef32fb3.nq.gz",
+      "repolex:graphFileSize": 379
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-31T03:20:43.253326+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "2.3.4"
+  "git:tagName": "2.3.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+      "git:tagName": "v82.0.1"
+    }
+  ]
 }

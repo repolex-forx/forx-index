@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 1563
+      "repolex:graphFileSize": 1570
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 2283
+      "repolex:graphFileSize": 2242
     },
     {
       "@type": "repolex:GraphFile",
@@ -41,29 +41,199 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
-      "repolex:graphFileSize": 1201101
+      "repolex:graphFileSize": 1180146
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/73726dc606796a025971fe451f0aa6f1b9b847f6.nq.gz",
-      "repolex:graphFileSize": 5770
+      "repolex:graphFileSize": 5745
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/73726dc606796a025971fe451f0aa6f1b9b847f6.nq.gz",
-      "repolex:graphFileSize": 24180798
+      "repolex:graphFileSize": 24273738
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/73726dc606796a025971fe451f0aa6f1b9b847f6.nq.gz",
       "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/73726dc606796a025971fe451f0aa6f1b9b847f6.nq.gz",
+      "repolex:graphFileSize": 3414
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-03-27T04:00:59.904318+00:00",
-  "repolex:parserVersion": "0.0.8",
-  "git:tagName": "v1.12.0"
+  "repolex:parsedAt": "2026-03-29T19:23:28.183031+00:00",
+  "repolex:parserVersion": "0.1.0",
+  "git:tagName": "v1.12.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bytedance/sonic",
+      "repolex:packageName": "github.com/bytedance/sonic",
+      "git:hexsha": "afa2fcee563e04e912786ebd77b53760181fa622",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gin-contrib/sse",
+      "repolex:packageName": "github.com/gin-contrib/sse",
+      "git:hexsha": "92464755282db4dd120d064c6dd8f7f433fe3db8",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-playground/validator",
+      "repolex:packageName": "github.com/go-playground/validator/v10",
+      "git:hexsha": "5010f83a6354aa3eac70826f74b87f73837ea10f",
+      "git:tagName": "v10.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/goccy/go-json",
+      "repolex:packageName": "github.com/goccy/go-json",
+      "git:hexsha": "9872089c316cfe2d0f29b331b75d45bf6d522d96",
+      "git:tagName": "v0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/goccy/go-yaml",
+      "repolex:packageName": "github.com/goccy/go-yaml",
+      "git:hexsha": "92bc79cb5f685e999ad131473168fc45215d12d9",
+      "git:tagName": "v1.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/json-iterator/go",
+      "repolex:packageName": "github.com/json-iterator/go",
+      "git:hexsha": "024077e996b048517130b21ea6bf12aa23055d3d",
+      "git:tagName": "v1.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/mattn/go-isatty",
+      "repolex:packageName": "github.com/mattn/go-isatty",
+      "git:hexsha": "a7c02353c47bc4ec6b30dc9628154ae4fe760c11",
+      "git:tagName": "v0.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/modern-go/reflect2",
+      "repolex:packageName": "github.com/modern-go/reflect2",
+      "git:hexsha": "2b33151c9bbc5231aea69b8861c540102b087070",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pelletier/go-toml",
+      "repolex:packageName": "github.com/pelletier/go-toml/v2",
+      "git:hexsha": "ee07c9203b72060f12e31c04ace80e8a187d5a67",
+      "git:tagName": "v2.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go",
+      "repolex:packageName": "github.com/quic-go/quic-go",
+      "git:hexsha": "7659dd8e0fa06b41290ad29af323d93d673c6b36",
+      "git:tagName": "v0.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stretchr/testify",
+      "repolex:packageName": "github.com/stretchr/testify",
+      "git:hexsha": "2a57335dc9cd6833daa820bc94d9b40c26a7917d",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ugorji/go",
+      "repolex:packageName": "github.com/ugorji/go/codec"
+    },
+    {
+      "@id": "https://repolex.ai/r/mongodb/mongo-go-driver",
+      "repolex:packageName": "go.mongodb.org/mongo-driver/v2",
+      "git:hexsha": "2039b58027ab614c0429626e1eb72b6cbe9e4ce8",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytedance/gopkg",
+      "repolex:packageName": "github.com/bytedance/gopkg",
+      "git:hexsha": "c97c000df42d1e797ab1e1bc107c98f4ec442112",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytedance/sonic",
+      "repolex:packageName": "github.com/bytedance/sonic/loader"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudwego/base64x",
+      "repolex:packageName": "github.com/cloudwego/base64x",
+      "git:hexsha": "b1a66433e2aaf4e90a73578a914a25afff44c28c",
+      "git:tagName": "v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/davecgh/go-spew",
+      "repolex:packageName": "github.com/davecgh/go-spew",
+      "git:hexsha": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/gabriel-vasile/mimetype",
+      "repolex:packageName": "github.com/gabriel-vasile/mimetype",
+      "git:hexsha": "6b840f6e5c8121eaaea8aecfb8594d9f5b285271",
+      "git:tagName": "v1.4.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-playground/locales",
+      "repolex:packageName": "github.com/go-playground/locales",
+      "git:hexsha": "ce315c8672599942003599943a1e64288f55b03f",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-playground/universal-translator",
+      "repolex:packageName": "github.com/go-playground/universal-translator",
+      "git:hexsha": "f83cd526536e253181a13835b00cd107f627c505",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klauspost/cpuid",
+      "repolex:packageName": "github.com/klauspost/cpuid/v2",
+      "git:hexsha": "f871662950fd6434e19bb056fb1f6efb6eba6144",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kr/text",
+      "repolex:packageName": "github.com/kr/text",
+      "git:hexsha": "702c74938df48b97370179f33ce2107bd7ff3b3e",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/leodido/go-urn",
+      "repolex:packageName": "github.com/leodido/go-urn",
+      "git:hexsha": "d725923fe33ce69c89b9e2033d069099b498224f",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/modern-go/concurrent",
+      "repolex:packageName": "github.com/modern-go/concurrent"
+    },
+    {
+      "@id": "https://repolex.ai/r/pmezard/go-difflib",
+      "repolex:packageName": "github.com/pmezard/go-difflib",
+      "git:hexsha": "792786c7400a136282c1664665ae0a8db921c6c2",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/qpack",
+      "repolex:packageName": "github.com/quic-go/qpack",
+      "git:hexsha": "1661efa70093a118695f62e222b94ce192119092",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/twitchyliquid64/golang-asm",
+      "repolex:packageName": "github.com/twitchyliquid64/golang-asm",
+      "git:hexsha": "8d7f1f783b11f9a00f5bcdfcae17f5ac8f22512e",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/uber/mock",
+      "repolex:packageName": "go.uber.org/mock",
+      "git:hexsha": "2d1c58167e30f380cf78e44a43b100a14767e817",
+      "git:tagName": "v0.6.0"
+    }
+  ]
 }

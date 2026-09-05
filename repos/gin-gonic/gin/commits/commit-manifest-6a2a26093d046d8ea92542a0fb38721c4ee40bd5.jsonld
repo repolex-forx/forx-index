@@ -42,10 +42,124 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1180146
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/6a2a26093d046d8ea92542a0fb38721c4ee40bd5.nq.gz",
+      "repolex:graphFileSize": 5515
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/6a2a26093d046d8ea92542a0fb38721c4ee40bd5.nq.gz",
+      "repolex:graphFileSize": 17972977
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6a2a26093d046d8ea92542a0fb38721c4ee40bd5.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/6a2a26093d046d8ea92542a0fb38721c4ee40bd5.nq.gz",
+      "repolex:graphFileSize": 2007
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T18:53:43.299836+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v1.8.2"
+  "git:tagName": "v1.8.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/gin-contrib/sse",
+      "repolex:packageName": "github.com/gin-contrib/sse",
+      "git:hexsha": "54d8467d122d380a14768b6b4e5cd7ca4755938f",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-playground/validator",
+      "repolex:packageName": "github.com/go-playground/validator/v10",
+      "git:hexsha": "c7e0172e0fd176bdc521afb5186818a7db6b77ac",
+      "git:tagName": "v10.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/goccy/go-json",
+      "repolex:packageName": "github.com/goccy/go-json",
+      "git:hexsha": "30713917a8e5740aa161ddd53f1be7fb74764533",
+      "git:tagName": "v0.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/json-iterator/go",
+      "repolex:packageName": "github.com/json-iterator/go",
+      "git:hexsha": "024077e996b048517130b21ea6bf12aa23055d3d",
+      "git:tagName": "v1.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/mattn/go-isatty",
+      "repolex:packageName": "github.com/mattn/go-isatty",
+      "git:hexsha": "13e91bf4058fb93d5629deb7b2e3763ec8f4fdf8",
+      "git:tagName": "v0.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/pelletier/go-toml",
+      "repolex:packageName": "github.com/pelletier/go-toml/v2",
+      "git:hexsha": "94bd3ddcd650ed7a329f9f01c0b5926b8146b56a",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/stretchr/testify",
+      "repolex:packageName": "github.com/stretchr/testify",
+      "git:hexsha": "b747d7c5f853d017ddbc5e623d026d7fc2770a58",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ugorji/go",
+      "repolex:packageName": "github.com/ugorji/go/codec",
+      "git:hexsha": "b4c725930670fc2d46721b17f4d6974c66fb50c1",
+      "git:tagName": "v1.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/davecgh/go-spew",
+      "repolex:packageName": "github.com/davecgh/go-spew",
+      "git:hexsha": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-playground/locales",
+      "repolex:packageName": "github.com/go-playground/locales",
+      "git:hexsha": "52f01e016def96714dc09cf5cdd58f5660eeca02",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-playground/universal-translator",
+      "repolex:packageName": "github.com/go-playground/universal-translator",
+      "git:hexsha": "04491fe06b0ce6efc083d9a94f982008753a4339",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/leodido/go-urn",
+      "repolex:packageName": "github.com/leodido/go-urn",
+      "git:hexsha": "6c96508144d00b380edbc8bda077e27b832d0c7b",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/modern-go/concurrent",
+      "repolex:packageName": "github.com/modern-go/concurrent"
+    },
+    {
+      "@id": "https://repolex.ai/r/modern-go/reflect2",
+      "repolex:packageName": "github.com/modern-go/reflect2",
+      "git:hexsha": "2b33151c9bbc5231aea69b8861c540102b087070",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pmezard/go-difflib",
+      "repolex:packageName": "github.com/pmezard/go-difflib",
+      "git:hexsha": "792786c7400a136282c1664665ae0a8db921c6c2",
+      "git:tagName": "v1.0.0"
+    }
+  ]
 }

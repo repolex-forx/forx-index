@@ -42,10 +42,46 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 682350
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/85684323f8f58409e717af91e446d257d496f8b8.nq.gz",
+      "repolex:graphFileSize": 7354
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/85684323f8f58409e717af91e446d257d496f8b8.nq.gz",
+      "repolex:graphFileSize": 14289282
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/85684323f8f58409e717af91e446d257d496f8b8.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/85684323f8f58409e717af91e446d257d496f8b8.nq.gz",
+      "repolex:graphFileSize": 431
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T14:53:03.453841+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "2.0.9"
+  "git:tagName": "2.0.9",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/macournoyer/thin",
+      "repolex:packageName": "thin",
+      "git:hexsha": "84a5188612d84bcf5c6ad1f1c27c750645917f5c",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ruby/ruby",
+      "repolex:packageName": "rdoc"
+    }
+  ]
 }

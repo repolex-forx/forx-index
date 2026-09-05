@@ -42,10 +42,106 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 285624
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/b5b633a8415de721b18e79bdf5d72a4973496fec.nq.gz",
+      "repolex:graphFileSize": 204536
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/b5b633a8415de721b18e79bdf5d72a4973496fec.nq.gz",
+      "repolex:graphFileSize": 1248285
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b5b633a8415de721b18e79bdf5d72a4973496fec.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/b5b633a8415de721b18e79bdf5d72a4973496fec.nq.gz",
+      "repolex:graphFileSize": 1607
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T20:59:06.525737+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.1.8"
+  "git:tagName": "0.1.8",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/chriseppstein/compass",
+      "repolex:packageName": "compass",
+      "git:hexsha": "c2057c4f121ac32522972967d1b2ee535d67bd6c",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt",
+      "repolex:packageName": "grunt",
+      "git:hexsha": "c5cb63483aa5d0f933b914a1872b8c2366203a2e",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-sass",
+      "repolex:packageName": "grunt-contrib-sass",
+      "git:hexsha": "a4d1e568614284527efce82895b44b855fe27c4d",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-watch",
+      "repolex:packageName": "grunt-contrib-watch",
+      "git:hexsha": "c33545f2971a9e09825465a160694db60d8f4eb2",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-connect",
+      "repolex:packageName": "grunt-contrib-connect"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-clean",
+      "repolex:packageName": "grunt-contrib-clean",
+      "git:hexsha": "3cce2f7a74164efe1e9f650e6f634c29979f07cd",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-copy",
+      "repolex:packageName": "grunt-contrib-copy",
+      "git:hexsha": "a29fe846dc7ed0ccb4c217727c0feeb686cef66c",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/intesso/connect-livereload",
+      "repolex:packageName": "connect-livereload",
+      "git:hexsha": "5ca4986fa524a6c3e2147eb6a005ac3a79cf0aab",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jharding/grunt-exec",
+      "repolex:packageName": "grunt-exec",
+      "git:hexsha": "0ca31e984570b51e6a6d0b568503f4183badccd8",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/onehealth/grunt-open",
+      "repolex:packageName": "grunt-open",
+      "git:hexsha": "5b60db320ad52045622ed656f1ffe5796de2b527",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkellen/js-matchdep",
+      "repolex:packageName": "matchdep",
+      "git:hexsha": "158bedb625a14a91f52241c86944123de8a66a5a",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "b87ce32e7dc09773f9e71305e66e8d6aead53dd1",
+      "git:tagName": "v1.3"
+    }
+  ]
 }

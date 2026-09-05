@@ -42,10 +42,122 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1291465
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/5091c15bd71ec934423a71ce1b53668cd15db68f.nq.gz",
+      "repolex:graphFileSize": 2081169
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/5091c15bd71ec934423a71ce1b53668cd15db68f.nq.gz",
+      "repolex:graphFileSize": 9502587
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5091c15bd71ec934423a71ce1b53668cd15db68f.nq.gz",
+      "repolex:graphFileSize": 366120
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/5091c15bd71ec934423a71ce1b53668cd15db68f.nq.gz",
+      "repolex:graphFileSize": 1832
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-31T15:28:57.918976+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v2.17.3"
+  "git:tagName": "v2.17.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "1aca998f3f75a533888db079bb05dd646957e149",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/codecov/codecov-python",
+      "repolex:packageName": "codecov",
+      "git:hexsha": "a78512e4b00e67cfb3fccb530c9ca97a6c42eae5",
+      "git:tagName": "v2.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/kevin1024/pytest-httpbin",
+      "repolex:packageName": "pytest-httpbin"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-mock",
+      "repolex:packageName": "pytest-mock",
+      "git:hexsha": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+      "git:tagName": "v3.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-xdist",
+      "repolex:packageName": "pytest-xdist",
+      "git:hexsha": "1e3e4dc16523c8a8f6c67d95a950166420718c99",
+      "git:tagName": "v3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/alabaster",
+      "repolex:packageName": "alabaster",
+      "git:hexsha": "fba58a43980385019ceb593f88ab8821e17840c0",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/readme_renderer",
+      "repolex:packageName": "readme-renderer"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "5dd51a7fa490d96425962fd6e942d6ae6ca74cd2",
+      "git:tagName": "v1.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/Anorov/PySocks",
+      "repolex:packageName": "pysocks"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "d76ce5c06cb8c290e8f2cc803c85ae97543a3de2",
+      "git:tagName": "18.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycqa/flake8",
+      "repolex:packageName": "flake8",
+      "git:hexsha": "c48217e1fc006c2dddd14df54e83b67da15de5cd",
+      "git:tagName": "7.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/tox",
+      "repolex:packageName": "tox",
+      "git:hexsha": "d83d57779a5a2637cc4ee904d9cba1ec885561e5",
+      "git:tagName": "4.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/detox",
+      "repolex:packageName": "detox"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "0248277dd7ac0239204889ca991353ad3e3a1ddc",
+      "git:tagName": "2.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    }
+  ]
 }

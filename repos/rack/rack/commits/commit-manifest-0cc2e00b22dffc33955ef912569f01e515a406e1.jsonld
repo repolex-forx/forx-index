@@ -42,10 +42,56 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 682350
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/0cc2e00b22dffc33955ef912569f01e515a406e1.nq.gz",
+      "repolex:graphFileSize": 7501
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/0cc2e00b22dffc33955ef912569f01e515a406e1.nq.gz",
+      "repolex:graphFileSize": 16658410
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0cc2e00b22dffc33955ef912569f01e515a406e1.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/0cc2e00b22dffc33955ef912569f01e515a406e1.nq.gz",
+      "repolex:graphFileSize": 578
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T15:06:50.296525+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v2.2.22"
+  "git:tagName": "v2.2.22",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rubocop/rubocop",
+      "repolex:packageName": "rubocop",
+      "git:hexsha": "2c1b30a47d357599f36ae69c41a63966e68d7592",
+      "git:tagName": "v1.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ruby/ruby",
+      "repolex:packageName": "psych"
+    },
+    {
+      "@id": "https://repolex.ai/r/macournoyer/thin",
+      "repolex:packageName": "thin",
+      "git:hexsha": "84a5188612d84bcf5c6ad1f1c27c750645917f5c",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ruby/ruby",
+      "repolex:packageName": "rdoc"
+    }
+  ]
 }

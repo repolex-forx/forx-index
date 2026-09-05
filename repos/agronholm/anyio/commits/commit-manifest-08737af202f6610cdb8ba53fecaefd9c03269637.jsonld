@@ -42,10 +42,72 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 245905
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/08737af202f6610cdb8ba53fecaefd9c03269637.nq.gz",
+      "repolex:graphFileSize": 6855436
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/08737af202f6610cdb8ba53fecaefd9c03269637.nq.gz",
+      "repolex:graphFileSize": 27132978
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/08737af202f6610cdb8ba53fecaefd9c03269637.nq.gz",
+      "repolex:graphFileSize": 1719077
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/08737af202f6610cdb8ba53fecaefd9c03269637.nq.gz",
+      "repolex:graphFileSize": 950
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-31T03:28:15.992576+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "4.11.0"
+  "git:tagName": "4.11.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/agronholm/exceptiongroup",
+      "repolex:packageName": "exceptiongroup",
+      "git:hexsha": "5bf369206f39d4c33516bb8010ef51b59ffa6ca9",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna",
+      "git:hexsha": "1cdf175e259b299be76f49c3ddc8794214f9931f",
+      "git:tagName": "v2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/sniffio",
+      "repolex:packageName": "sniffio"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/trio",
+      "repolex:packageName": "trio",
+      "git:hexsha": "94b7244505212061e21507c84725ef28be2705dd",
+      "git:tagName": "v0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil",
+      "repolex:packageName": "psutil",
+      "git:hexsha": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+      "git:tagName": "v7.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    }
+  ]
 }

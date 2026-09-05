@@ -42,10 +42,76 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 405968
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/22e2e6160e0930354ff9f11e036b2800feef68e2.nq.gz",
+      "repolex:graphFileSize": 651598
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/22e2e6160e0930354ff9f11e036b2800feef68e2.nq.gz",
+      "repolex:graphFileSize": 4630410
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/22e2e6160e0930354ff9f11e036b2800feef68e2.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/22e2e6160e0930354ff9f11e036b2800feef68e2.nq.gz",
+      "repolex:graphFileSize": 1012
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T10:49:31.270632+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "6.0.0"
+  "git:tagName": "6.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/readme_renderer",
+      "repolex:packageName": "readme-renderer",
+      "git:hexsha": "68a9df9e500e0f67b0e803cac45dd83315d96fb2",
+      "git:tagName": "35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests"
+    },
+    {
+      "@id": "https://repolex.ai/r/requests/toolbelt",
+      "repolex:packageName": "requests-toolbelt",
+      "git:hexsha": "94870f3f8e4e3507218a07f9d730c38abc42c219",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "ddb8c96bd93f3a00fe9eba142e6739533c2b7164",
+      "git:tagName": "1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/keyring",
+      "repolex:packageName": "keyring"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "656b7a185d7f7c3a1f28e58f74683d03ab4349a9",
+      "git:tagName": "v12.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    }
+  ]
 }

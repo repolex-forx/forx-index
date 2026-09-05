@@ -42,10 +42,144 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 1291465
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "repolex:graphFileSize": 1983687
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "repolex:graphFileSize": 20874689
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "repolex:graphFileSize": 2227
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-30T20:05:11.286373+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v2.10.0"
+  "git:tagName": "v2.10.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/alabaster",
+      "repolex:packageName": "alabaster",
+      "git:hexsha": "c3dace75c87a089a5ee585468660b7a4a01eebb0",
+      "git:tagName": "0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-babel/babel",
+      "repolex:packageName": "babel",
+      "git:hexsha": "327bcdf9e83d3e07619912a980e3b1e5eba38a89",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/flask",
+      "repolex:packageName": "flask",
+      "git:hexsha": "298334fffc8288b5a9a45ef4150e3c4292e45318",
+      "git:tagName": "0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/httpbin",
+      "repolex:packageName": "httpbin"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/itsdangerous",
+      "repolex:packageName": "itsdangerous",
+      "git:hexsha": "4c3923561fd7d3aa53013b0b6b27bb3221bd473a",
+      "git:tagName": "0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "966e1a409f02de57b75a0463fc953d54dad2a205",
+      "git:tagName": "2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/markupsafe",
+      "repolex:packageName": "markupsafe",
+      "git:hexsha": "feb1d70c16df62f60dcb521d127fdad8819fc036",
+      "git:tagName": "0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/pygments/pygments",
+      "repolex:packageName": "pygments",
+      "git:hexsha": "91301c1560a83e2dce84ef282cb7cd89fb8c4485",
+      "git:tagName": "2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "3315b3a12fdd9ef8e05d4efb6d6bea52aa750668",
+      "git:tagName": "2.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "4b3d73d6e5a8e7b2baf61283857d9206c60cccb6",
+      "git:tagName": "v2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/kevin1024/pytest-httpbin",
+      "repolex:packageName": "pytest-httpbin",
+      "git:hexsha": "ae314b2a18eecac2a9d3b2034bfede9805ce7907",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-mock",
+      "repolex:packageName": "pytest-mock",
+      "git:hexsha": "bea94a027d569a964fe6553592ec2262d14e275b",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/benjaminp/six",
+      "repolex:packageName": "six",
+      "git:hexsha": "c3ec058bf8c4d6329224eac53366c8e9ce511417",
+      "git:tagName": "1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/snowballstem/snowball",
+      "repolex:packageName": "snowballstemmer"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "50951bdc9814109df848e12dd08b6a6bbdb01889",
+      "git:tagName": "v1.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/readthedocs/sphinx_rtd_theme",
+      "repolex:packageName": "sphinx-rtd-theme",
+      "git:hexsha": "84b5075f5b8a272b9a6d2689c551a947383bfda7",
+      "git:tagName": "0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/werkzeug",
+      "repolex:packageName": "werkzeug",
+      "git:hexsha": "09c68ea9325095c9cb49659d8e003f75377b1b0c",
+      "git:tagName": "0.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/wheel",
+      "repolex:packageName": "wheel",
+      "git:hexsha": "bc574d6ed73dabee02e4e00764172d6284a37cb4",
+      "git:tagName": "0.29.0"
+    }
+  ]
 }
