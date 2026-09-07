@@ -1,0 +1,850 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/tokio-rs/axum",
+  "@type": "gh:Repository",
+  "gh:name": "axum",
+  "gh:owner": "tokio-rs",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/c59208c86fded335cd85e388030ad59347b0e5ae",
+      "git:hexsha": "c59208c86fded335cd85e388030ad59347b0e5ae",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "axum-v0.8.9",
+      "repolex:parsedAt": "2026-09-05T05:00:56.377045+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a63843d6c5039ee843469d1e0f9542205150b4fa",
+      "git:hexsha": "a63843d6c5039ee843469d1e0f9542205150b4fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/8e1341d1f6a8410040d8a52f048e3cb0c0c47ef5",
+      "git:hexsha": "8e1341d1f6a8410040d8a52f048e3cb0c0c47ef5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/263e58e2c3f0398e95685c78b9a4219a4977eda9",
+      "git:hexsha": "263e58e2c3f0398e95685c78b9a4219a4977eda9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fba2faa38f02849cb2dfa60e420f300624409999",
+      "git:hexsha": "fba2faa38f02849cb2dfa60e420f300624409999",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/bcda1a97dbfe616c168ea64addc8477865946a34",
+      "git:hexsha": "bcda1a97dbfe616c168ea64addc8477865946a34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/598e6935df0e27b9b268b7d06d039a847181546a",
+      "git:hexsha": "598e6935df0e27b9b268b7d06d039a847181546a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/0702c59c7dfa88828278abb846648f55fede2baa",
+      "git:hexsha": "0702c59c7dfa88828278abb846648f55fede2baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/5be73c106437789f95e8dc85c13abf8ea1e3d873",
+      "git:hexsha": "5be73c106437789f95e8dc85c13abf8ea1e3d873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a9eb4ac527c828bab227e4ccc5f88c0fc85f3e5e",
+      "git:hexsha": "a9eb4ac527c828bab227e4ccc5f88c0fc85f3e5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/7deaff7e1ece0e5d0ba99043fe2bf4b807433ea1",
+      "git:hexsha": "7deaff7e1ece0e5d0ba99043fe2bf4b807433ea1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/ed398c181e3d1bbafc1b2360531ac1f40b95e145",
+      "git:hexsha": "ed398c181e3d1bbafc1b2360531ac1f40b95e145",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fcc1c9d94da530cc32eceae26fef8b3e89f0ce67",
+      "git:hexsha": "fcc1c9d94da530cc32eceae26fef8b3e89f0ce67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/23ded07e514c7446c1b253b37590608321c330c6",
+      "git:hexsha": "23ded07e514c7446c1b253b37590608321c330c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/1b6780cf6cfe28fa24744bb2d9581cd01577c464",
+      "git:hexsha": "1b6780cf6cfe28fa24744bb2d9581cd01577c464",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b315b60bca6416d6bf13656e44ea0f49ac0bd6f7",
+      "git:hexsha": "b315b60bca6416d6bf13656e44ea0f49ac0bd6f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/54d8439e35f05c346c7f30b9c974b18fa9becb68",
+      "git:hexsha": "54d8439e35f05c346c7f30b9c974b18fa9becb68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/e39d053d2f7ab22c8ef8ca49229eaa37b7b88aa4",
+      "git:hexsha": "e39d053d2f7ab22c8ef8ca49229eaa37b7b88aa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/e3aaeb3cb7be5ae694c1d9c7a414790de7a23d30",
+      "git:hexsha": "e3aaeb3cb7be5ae694c1d9c7a414790de7a23d30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/6ff6b36293b4a24f3be8a8ab7d33981705cd2d86",
+      "git:hexsha": "6ff6b36293b4a24f3be8a8ab7d33981705cd2d86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/bc3c35ea5aa4e7c3272c322ed118422832913615",
+      "git:hexsha": "bc3c35ea5aa4e7c3272c322ed118422832913615",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/51edc9c8958b155259e7b0ec1fc3a04864203461",
+      "git:hexsha": "51edc9c8958b155259e7b0ec1fc3a04864203461",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b7d14d3602c401c7f0ece6b51e995d82ddccb1e1",
+      "git:hexsha": "b7d14d3602c401c7f0ece6b51e995d82ddccb1e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/ab36eda6aaad629ca48e9ec64ca81f1dbcea24f7",
+      "git:hexsha": "ab36eda6aaad629ca48e9ec64ca81f1dbcea24f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fe89ab5592fe243a2a80d87b5c8d658ecf857f71",
+      "git:hexsha": "fe89ab5592fe243a2a80d87b5c8d658ecf857f71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9ebd105d0410dcb8a4133374c32415b5a6950371",
+      "git:hexsha": "9ebd105d0410dcb8a4133374c32415b5a6950371",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a73dab417d592aa46a013342388340b6fe719bac",
+      "git:hexsha": "a73dab417d592aa46a013342388340b6fe719bac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fe56a310efbb30b3b178059c48a31d1000ed5f62",
+      "git:hexsha": "fe56a310efbb30b3b178059c48a31d1000ed5f62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/926543f2077d25541785648d8451c9b570f5021d",
+      "git:hexsha": "926543f2077d25541785648d8451c9b570f5021d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9a69e415fb9049ba1333a5d66ee3121dbe201da6",
+      "git:hexsha": "9a69e415fb9049ba1333a5d66ee3121dbe201da6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.0-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/5cdd8a4f184d2843bd1f970803fdbb31b47d61d6",
+      "git:hexsha": "5cdd8a4f184d2843bd1f970803fdbb31b47d61d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/5966849f1465be80b10b0c22c475d3dcbaec0315",
+      "git:hexsha": "5966849f1465be80b10b0c22c475d3dcbaec0315",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b150ac028b64fb7584b6f1a30172f8a5b984d51d",
+      "git:hexsha": "b150ac028b64fb7584b6f1a30172f8a5b984d51d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a1d22f68a593967a83c1028efb70554b88525cf2",
+      "git:hexsha": "a1d22f68a593967a83c1028efb70554b88525cf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/c720f568da42909580a7876af1b8f50438cb1834",
+      "git:hexsha": "c720f568da42909580a7876af1b8f50438cb1834",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/c1bb9c3e90625fb8de4f9c9750f669cb4edac3df",
+      "git:hexsha": "c1bb9c3e90625fb8de4f9c9750f669cb4edac3df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/e710a97a5a8e1e2f629f78e0377d7ab17e597eaf",
+      "git:hexsha": "e710a97a5a8e1e2f629f78e0377d7ab17e597eaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-core-v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/e58336621d9f7d87300bb7ce20e19a2ac65cd3b4",
+      "git:hexsha": "e58336621d9f7d87300bb7ce20e19a2ac65cd3b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-debug-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/44a49cb1992c466e48cfbfd896d2d34e76b6f20c",
+      "git:hexsha": "44a49cb1992c466e48cfbfd896d2d34e76b6f20c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-debug-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/6d0abd447c0d2b4cdfa192c0040d9c426c820366",
+      "git:hexsha": "6d0abd447c0d2b4cdfa192c0040d9c426c820366",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-debug-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/628921bcad878ab4396705e0798494fbc9ebd3c5",
+      "git:hexsha": "628921bcad878ab4396705e0798494fbc9ebd3c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-debug-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/3a259dcec7e3ccbabe49c3bd07da04cb02029e8f",
+      "git:hexsha": "3a259dcec7e3ccbabe49c3bd07da04cb02029e8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-debug-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9ddcd22031ef626ac5f4a5d2cbaa4218e9745e2b",
+      "git:hexsha": "9ddcd22031ef626ac5f4a5d2cbaa4218e9745e2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-debug-v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9f5f29dfba12377b03fd3a6405dd2b3c49ad2c40",
+      "git:hexsha": "9f5f29dfba12377b03fd3a6405dd2b3c49ad2c40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/6d01f3968e696e8118412d75dfefa242b89fedd8",
+      "git:hexsha": "6d01f3968e696e8118412d75dfefa242b89fedd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/aa4ab8b0841df0853e47b102e8f4f9eea8ee2d18",
+      "git:hexsha": "aa4ab8b0841df0853e47b102e8f4f9eea8ee2d18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/36da5fceab5b70e25a76bd4cc13ab6b49c6d9b02",
+      "git:hexsha": "36da5fceab5b70e25a76bd4cc13ab6b49c6d9b02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/ca8a6c08c2c45ee51150b77936bf1f9395a68afd",
+      "git:hexsha": "ca8a6c08c2c45ee51150b77936bf1f9395a68afd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/914a35a012c70d13d4f26cc8564f76525e26afeb",
+      "git:hexsha": "914a35a012c70d13d4f26cc8564f76525e26afeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/4404f27cea206b0dca63637b1c76dff23772a5cc",
+      "git:hexsha": "4404f27cea206b0dca63637b1c76dff23772a5cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/d07863f97d2649c414d2cdd162d1a10750e29a25",
+      "git:hexsha": "d07863f97d2649c414d2cdd162d1a10750e29a25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/4e2bc8c92a570ff98dd5b774a0449092e407a942",
+      "git:hexsha": "4e2bc8c92a570ff98dd5b774a0449092e407a942",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/d9f79f56169896cec0fa47619fc40df23585a085",
+      "git:hexsha": "d9f79f56169896cec0fa47619fc40df23585a085",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/5d0a7b440c15c2eda5b1e90b512c29167c440c32",
+      "git:hexsha": "5d0a7b440c15c2eda5b1e90b512c29167c440c32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/950dde26640095d1c7f696ddfdace96cdce6689a",
+      "git:hexsha": "950dde26640095d1c7f696ddfdace96cdce6689a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a3b6cbc99c71e0184c2fb175bbe05120a180237b",
+      "git:hexsha": "a3b6cbc99c71e0184c2fb175bbe05120a180237b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/cfdac03c8da9dc9ec1e81ba5fbe9ef2f2d449b65",
+      "git:hexsha": "cfdac03c8da9dc9ec1e81ba5fbe9ef2f2d449b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/61c4e1959822c1dd64ac97ca76f33ff32a64abb4",
+      "git:hexsha": "61c4e1959822c1dd64ac97ca76f33ff32a64abb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/1d7878c3c8e961156a1ba151918ffc7f30a70531",
+      "git:hexsha": "1d7878c3c8e961156a1ba151918ffc7f30a70531",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fbb47868512119a07552686e979f5c1adb1450ff",
+      "git:hexsha": "fbb47868512119a07552686e979f5c1adb1450ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/905bbfb8e22a08e7b4e9c596b76054904a4faa0f",
+      "git:hexsha": "905bbfb8e22a08e7b4e9c596b76054904a4faa0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/305331e6188b10027004ed33659faa408d28f822",
+      "git:hexsha": "305331e6188b10027004ed33659faa408d28f822",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/3990c3a6eb3a438b7d0a4a068409e377d9f6a005",
+      "git:hexsha": "3990c3a6eb3a438b7d0a4a068409e377d9f6a005",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/99c0224a7c6cc95405476e872dd65e3ce8f01cae",
+      "git:hexsha": "99c0224a7c6cc95405476e872dd65e3ce8f01cae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.4.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/2121979a487b1bdb3c40892212548c33dbf25ab6",
+      "git:hexsha": "2121979a487b1bdb3c40892212548c33dbf25ab6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/ee3cb971f759581dd7d8e06df74cc70f74446d52",
+      "git:hexsha": "ee3cb971f759581dd7d8e06df74cc70f74446d52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/c18ff9dd63b2eb958806d280ef66ff0a4ce0cea9",
+      "git:hexsha": "c18ff9dd63b2eb958806d280ef66ff0a4ce0cea9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/08bac36519d134b99340c13fa7783f01f10b8b69",
+      "git:hexsha": "08bac36519d134b99340c13fa7783f01f10b8b69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/1133425d6b755ffd57494c95c3e1d4d771d3f13d",
+      "git:hexsha": "1133425d6b755ffd57494c95c3e1d4d771d3f13d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/562fa206f09514e7503e898decf73024f5ce6fd4",
+      "git:hexsha": "562fa206f09514e7503e898decf73024f5ce6fd4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/c31bea2f96d6e4ce20b32e556b56cca0b51c41de",
+      "git:hexsha": "c31bea2f96d6e4ce20b32e556b56cca0b51c41de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/67f64943831c288f1434c7dee7e732e3f86bda69",
+      "git:hexsha": "67f64943831c288f1434c7dee7e732e3f86bda69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a25ed293d75aebc1ce7ea3500c88d7d88e669e5e",
+      "git:hexsha": "a25ed293d75aebc1ce7ea3500c88d7d88e669e5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/3b92cd7593a900d3c79c2aeb411f90be052a9a5c",
+      "git:hexsha": "3b92cd7593a900d3c79c2aeb411f90be052a9a5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/3407de82c89931d87de49f57e23fa91343c959df",
+      "git:hexsha": "3407de82c89931d87de49f57e23fa91343c959df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-extra-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/ef8a9e812c1b49b61d21813cb30f5982d8da56df",
+      "git:hexsha": "ef8a9e812c1b49b61d21813cb30f5982d8da56df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/feee742ca14bcf68b826f304e39f92db5f7d76e5",
+      "git:hexsha": "feee742ca14bcf68b826f304e39f92db5f7d76e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9983bc1da460becd3a0f08c513d610411e84dd43",
+      "git:hexsha": "9983bc1da460becd3a0f08c513d610411e84dd43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/c1cc4b515ad8b5d271e8b8bd7e6d7105364cab4a",
+      "git:hexsha": "c1cc4b515ad8b5d271e8b8bd7e6d7105364cab4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b2267be2d59bddd41cafefab4241711042b40ace",
+      "git:hexsha": "b2267be2d59bddd41cafefab4241711042b40ace",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/87638d07cfb976a67ce212641c87623857acba89",
+      "git:hexsha": "87638d07cfb976a67ce212641c87623857acba89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/f69d2dbf40c17b867f3d89a3182dd52501bf53c8",
+      "git:hexsha": "f69d2dbf40c17b867f3d89a3182dd52501bf53c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/46e6d3493bf991a8279fb060e7bf22001cfdac66",
+      "git:hexsha": "46e6d3493bf991a8279fb060e7bf22001cfdac66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/80d0cc19e661c0c698cef83e135605e84a5b90f7",
+      "git:hexsha": "80d0cc19e661c0c698cef83e135605e84a5b90f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b10c9d34bdea117a3c052be9aa8334342e397d9a",
+      "git:hexsha": "b10c9d34bdea117a3c052be9aa8334342e397d9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-macros-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/878ae73e6da1a50e9bab37ba13f6be0a8966d00a",
+      "git:hexsha": "878ae73e6da1a50e9bab37ba13f6be0a8966d00a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/4a5dc4391cc94640eca5eab61de7d5fb508b0145",
+      "git:hexsha": "4a5dc4391cc94640eca5eab61de7d5fb508b0145",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/93ecabf449a94e470c906a63121d059c3d09a66f",
+      "git:hexsha": "93ecabf449a94e470c906a63121d059c3d09a66f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/6c1279a415174573779e66a056f20d1b1889b8c2",
+      "git:hexsha": "6c1279a415174573779e66a056f20d1b1889b8c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/55c1a294206bc7e9fce940a81582e875e98eefda",
+      "git:hexsha": "55c1a294206bc7e9fce940a81582e875e98eefda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/02e61dfdd6f05cd87f2edc9475b47974a50ce9f7",
+      "git:hexsha": "02e61dfdd6f05cd87f2edc9475b47974a50ce9f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/7b391d85c8b5fc820b1734a7e42469fb78408588",
+      "git:hexsha": "7b391d85c8b5fc820b1734a7e42469fb78408588",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/36665793c3baacfb6a4fbec73e12b6cbb4c8091a",
+      "git:hexsha": "36665793c3baacfb6a4fbec73e12b6cbb4c8091a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/7fae35020a4e177d7da142f23ffebf02dfa532e5",
+      "git:hexsha": "7fae35020a4e177d7da142f23ffebf02dfa532e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a026217c6180ffadddb08202365922a2068f744c",
+      "git:hexsha": "a026217c6180ffadddb08202365922a2068f744c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/09bcd8862d4d008f482c6383d21e4507f85ed0b9",
+      "git:hexsha": "09bcd8862d4d008f482c6383d21e4507f85ed0b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b9dfea636071c2c194c8251612beba9d0515e9fe",
+      "git:hexsha": "b9dfea636071c2c194c8251612beba9d0515e9fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9f6be24ecd268bca80637415c04481f104401996",
+      "git:hexsha": "9f6be24ecd268bca80637415c04481f104401996",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/4c48efc86144ff982b13aec99347a202e371dd60",
+      "git:hexsha": "4c48efc86144ff982b13aec99347a202e371dd60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/5fe981a1da028e1d3444581d29ec2c57dc13d436",
+      "git:hexsha": "5fe981a1da028e1d3444581d29ec2c57dc13d436",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/cab7d671babf36f097d3dfb0d080049efaef20e9",
+      "git:hexsha": "cab7d671babf36f097d3dfb0d080049efaef20e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/4b0b4c877271748dcba08564c1bf8f9a4bbdd436",
+      "git:hexsha": "4b0b4c877271748dcba08564c1bf8f9a4bbdd436",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/558a4d05b0d231f17a26716af9115802af7ebc8f",
+      "git:hexsha": "558a4d05b0d231f17a26716af9115802af7ebc8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/4562cf3f26eb16ed49a603a7756e4f32edc2daf9",
+      "git:hexsha": "4562cf3f26eb16ed49a603a7756e4f32edc2daf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fec64bc1b664259caf0448588c99dd622ab3f6ef",
+      "git:hexsha": "fec64bc1b664259caf0448588c99dd622ab3f6ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/3e716f303f4cec09a0c588142ddfeba94434a39b",
+      "git:hexsha": "3e716f303f4cec09a0c588142ddfeba94434a39b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/7e794e9d1d421793485fbe374fb18d5f0dd2e404",
+      "git:hexsha": "7e794e9d1d421793485fbe374fb18d5f0dd2e404",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a05f6a05190b6f0c654230bcaa8e33e6a5577615",
+      "git:hexsha": "a05f6a05190b6f0c654230bcaa8e33e6a5577615",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/27786a5fefb203d8076b53ea4bc92f629f96f76e",
+      "git:hexsha": "27786a5fefb203d8076b53ea4bc92f629f96f76e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b7e70a2787802740fe2e78c067a8860d52ac58c2",
+      "git:hexsha": "b7e70a2787802740fe2e78c067a8860d52ac58c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/e6a75a22ec165a47a4d65d5c3a7dd4c365b17014",
+      "git:hexsha": "e6a75a22ec165a47a4d65d5c3a7dd4c365b17014",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/849abb1ad852dd79e473c7d56699c7fccc56550c",
+      "git:hexsha": "849abb1ad852dd79e473c7d56699c7fccc56550c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/76f76883830c07f78f766a776bf7434430a723ee",
+      "git:hexsha": "76f76883830c07f78f766a776bf7434430a723ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/2c00e61d8202b8ef4f872ab12688e427827f3dfe",
+      "git:hexsha": "2c00e61d8202b8ef4f872ab12688e427827f3dfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/883a1cfd8f3f536a762b4347242ffb70b72b3b85",
+      "git:hexsha": "883a1cfd8f3f536a762b4347242ffb70b72b3b85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/061e66c236ed1278c0dc4e67edffa8b36a8bb646",
+      "git:hexsha": "061e66c236ed1278c0dc4e67edffa8b36a8bb646",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/a723ed14539b3a12c4b9ea803f0772b699603e6d",
+      "git:hexsha": "a723ed14539b3a12c4b9ea803f0772b699603e6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/96aaac4865d1c7b2a014564fe906ae0ed06998c9",
+      "git:hexsha": "96aaac4865d1c7b2a014564fe906ae0ed06998c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/316e20fbd96d9255814445a3a02a53b5a71bb2c5",
+      "git:hexsha": "316e20fbd96d9255814445a3a02a53b5a71bb2c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/7aa3f35129dd9a8022d2cc89ba4001c0c39c90c9",
+      "git:hexsha": "7aa3f35129dd9a8022d2cc89ba4001c0c39c90c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/5ac0b2b3d7abe4946277ee17cfdb3c6594344d80",
+      "git:hexsha": "5ac0b2b3d7abe4946277ee17cfdb3c6594344d80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/fabb205a9eadf539420c0ea09fbf315adb7c9ffd",
+      "git:hexsha": "fabb205a9eadf539420c0ea09fbf315adb7c9ffd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/74bbe80f8ae17f712f0870623804d86b06cbbd6f",
+      "git:hexsha": "74bbe80f8ae17f712f0870623804d86b06cbbd6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/87a80ec47bfd2c39ac4ea3d1acffb5d1ff540f63",
+      "git:hexsha": "87a80ec47bfd2c39ac4ea3d1acffb5d1ff540f63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b92b91e75e2c41ebe9b6bc3c8a715334dff304e1",
+      "git:hexsha": "b92b91e75e2c41ebe9b6bc3c8a715334dff304e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/cf1ed9bb546354fc075d59cdc02419297f1afe2c",
+      "git:hexsha": "cf1ed9bb546354fc075d59cdc02419297f1afe2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/b7baac2638ecc5cfc6c8580e125741ff9c9d78e7",
+      "git:hexsha": "b7baac2638ecc5cfc6c8580e125741ff9c9d78e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/79ea2747e9e480a9c9cfa84183a83aca1566b635",
+      "git:hexsha": "79ea2747e9e480a9c9cfa84183a83aca1566b635",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/277be8f8136000f3b2624a910ded9e7cdaeab73d",
+      "git:hexsha": "277be8f8136000f3b2624a910ded9e7cdaeab73d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/37478772bc16c210afdd04a6af4b990844cd1cba",
+      "git:hexsha": "37478772bc16c210afdd04a6af4b990844cd1cba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/773bb5db6949b315818bdaa5828c5d5d0ee24823",
+      "git:hexsha": "773bb5db6949b315818bdaa5828c5d5d0ee24823",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/8762520da82cd99b78b35869069b36cfa305d4b9",
+      "git:hexsha": "8762520da82cd99b78b35869069b36cfa305d4b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "axum-v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/e13f1da11d2726997669c15ca4c294b063ec6b65",
+      "git:hexsha": "e13f1da11d2726997669c15ca4c294b063ec6b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/9a082a74b0a1641b44e31cfaac9cbc69a2e0e238",
+      "git:hexsha": "9a082a74b0a1641b44e31cfaac9cbc69a2e0e238",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/bdc39deef221f01d648bd3dcd247221080560adf",
+      "git:hexsha": "bdc39deef221f01d648bd3dcd247221080560adf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/bb5bcab11668940bd1c1232bdb980baab8ef6aa5",
+      "git:hexsha": "bb5bcab11668940bd1c1232bdb980baab8ef6aa5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/76d40aea914d347c9d52de1fe9b3b7bb52dbc769",
+      "git:hexsha": "76d40aea914d347c9d52de1fe9b3b7bb52dbc769",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/85731a4f1d7bfdcd984ea79c920f733f60527260",
+      "git:hexsha": "85731a4f1d7bfdcd984ea79c920f733f60527260",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/3d78711e47351d9ac02837eff527703d4f88c454",
+      "git:hexsha": "3d78711e47351d9ac02837eff527703d4f88c454",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum/commit/cb4f64375bab27d0439a82bee74fc4f0d06a5ef8",
+      "git:hexsha": "cb4f64375bab27d0439a82bee74fc4f0d06a5ef8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.4"
+    }
+  ]
+}
