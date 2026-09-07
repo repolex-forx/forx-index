@@ -1,0 +1,988 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+  "@type": "gh:Repository",
+  "gh:name": "proc-macro2",
+  "gh:owner": "dtolnay",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/58ab776b95a4c2865554badbb6629c50971a9118",
+      "git:hexsha": "58ab776b95a4c2865554badbb6629c50971a9118",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "1.0.106",
+      "repolex:parsedAt": "2026-09-07T04:24:24.192947+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f8ec9c2a7b379af4d708336b52b364a00bda9677",
+      "git:hexsha": "f8ec9c2a7b379af4d708336b52b364a00bda9677",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/7f460623ef691b5443535ebdbc8b7b61a9c98b6c",
+      "git:hexsha": "7f460623ef691b5443535ebdbc8b7b61a9c98b6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/c2f9c6ac7ec29dc0a4b69ba5deda7a5c29363270",
+      "git:hexsha": "c2f9c6ac7ec29dc0a4b69ba5deda7a5c29363270",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/74bf645efa184f73debc32f79971045154fe7e0a",
+      "git:hexsha": "74bf645efa184f73debc32f79971045154fe7e0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/e919de990df3cde676605732c53b0f98510d6baf",
+      "git:hexsha": "e919de990df3cde676605732c53b0f98510d6baf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/5d6580725f5011c9f567268cb377338e79e44eb4",
+      "git:hexsha": "5d6580725f5011c9f567268cb377338e79e44eb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ecfd0c592517bf5383617188b44070d6bfb67fd5",
+      "git:hexsha": "ecfd0c592517bf5383617188b44070d6bfb67fd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/7b7157c7b1769e63ae040c47f2fead65becf98b6",
+      "git:hexsha": "7b7157c7b1769e63ae040c47f2fead65becf98b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/fa1864f185f7685a1e023f06dece014bf9b32d33",
+      "git:hexsha": "fa1864f185f7685a1e023f06dece014bf9b32d33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/12f379eab653ef285b1294a8b2c041678c3e9f04",
+      "git:hexsha": "12f379eab653ef285b1294a8b2c041678c3e9f04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/71c4b88c5c2814928a02ab2e72829712f76701f7",
+      "git:hexsha": "71c4b88c5c2814928a02ab2e72829712f76701f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/34231875b834515eb3c8d2ac2eb6bf4c6070f136",
+      "git:hexsha": "34231875b834515eb3c8d2ac2eb6bf4c6070f136",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/36931ed936cdd88848a2116a50bc9af8a033f71a",
+      "git:hexsha": "36931ed936cdd88848a2116a50bc9af8a033f71a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/eca28d42767412e3f8ad670e271a09aed6e05a10",
+      "git:hexsha": "eca28d42767412e3f8ad670e271a09aed6e05a10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/1856584c204f888a73dfa7da6f16d680875d56cc",
+      "git:hexsha": "1856584c204f888a73dfa7da6f16d680875d56cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2794f105e4c139d706250383086e2e1402fda5d2",
+      "git:hexsha": "2794f105e4c139d706250383086e2e1402fda5d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/e3573b9c02c2b820f216afd9c405096df6d4d5e1",
+      "git:hexsha": "e3573b9c02c2b820f216afd9c405096df6d4d5e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/99d9630273a9c102b80f902e85aed076e241ece6",
+      "git:hexsha": "99d9630273a9c102b80f902e85aed076e241ece6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/dfd23e414fc16877ef7abfae0a08744584b5202e",
+      "git:hexsha": "dfd23e414fc16877ef7abfae0a08744584b5202e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2f7460bcd3dfc3d09acac92fe5b1061f8356a690",
+      "git:hexsha": "2f7460bcd3dfc3d09acac92fe5b1061f8356a690",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/6de51290de1c63bf0d35065586eca954d7dc4b67",
+      "git:hexsha": "6de51290de1c63bf0d35065586eca954d7dc4b67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/11437353d289246664673b43be7c608a37cc4e3f",
+      "git:hexsha": "11437353d289246664673b43be7c608a37cc4e3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2c1dac54aa234567acf5050fc5c4e7ef7bd6be01",
+      "git:hexsha": "2c1dac54aa234567acf5050fc5c4e7ef7bd6be01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/47c93010318ec46b34b8d0c2d039e1d17125eed6",
+      "git:hexsha": "47c93010318ec46b34b8d0c2d039e1d17125eed6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ca3dcad2f575e9106f1f0459845d0b8aa489bc58",
+      "git:hexsha": "ca3dcad2f575e9106f1f0459845d0b8aa489bc58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/de57017f6ad555ad675f6528af78e38c23c6e4b7",
+      "git:hexsha": "de57017f6ad555ad675f6528af78e38c23c6e4b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f96d995cc4a1e5ba7aa054899d800e4cf7da74e3",
+      "git:hexsha": "f96d995cc4a1e5ba7aa054899d800e4cf7da74e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/42739ba630e72310c1047e3d5e64449b47ca6017",
+      "git:hexsha": "42739ba630e72310c1047e3d5e64449b47ca6017",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/60b48bd560f89fd8f0aa499803109126f30c079e",
+      "git:hexsha": "60b48bd560f89fd8f0aa499803109126f30c079e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ff8e52f171ed65b04993829f1f6fb7be54079661",
+      "git:hexsha": "ff8e52f171ed65b04993829f1f6fb7be54079661",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/e9d344f6d8d89cac042fcf5489e7cac0b5568838",
+      "git:hexsha": "e9d344f6d8d89cac042fcf5489e7cac0b5568838",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/b07f847a3eb263a9768927187732cdd9c39c1fe8",
+      "git:hexsha": "b07f847a3eb263a9768927187732cdd9c39c1fe8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/aeae459e5713913c2e79028c5836a3b89f71d031",
+      "git:hexsha": "aeae459e5713913c2e79028c5836a3b89f71d031",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d4286c8eaed5ebc215ef9dd49fe0e06b283595a5",
+      "git:hexsha": "d4286c8eaed5ebc215ef9dd49fe0e06b283595a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/1ded3508037f4fdea406e79b6224188b045d44b7",
+      "git:hexsha": "1ded3508037f4fdea406e79b6224188b045d44b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/262c9579580acc784dc73537e0cd81ea58c9bcad",
+      "git:hexsha": "262c9579580acc784dc73537e0cd81ea58c9bcad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2c8e9174565a228dcaed0912ce39efa31081f7ca",
+      "git:hexsha": "2c8e9174565a228dcaed0912ce39efa31081f7ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/92bca9697992e0673c0ce9d65f65d0ec9622bbb4",
+      "git:hexsha": "92bca9697992e0673c0ce9d65f65d0ec9622bbb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/3f8382d1bb42f0121707660b9b7f0628a371c840",
+      "git:hexsha": "3f8382d1bb42f0121707660b9b7f0628a371c840",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/553aaa900be64c2b36ec34b90c54c4b493500f79",
+      "git:hexsha": "553aaa900be64c2b36ec34b90c54c4b493500f79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/102ee29e36c15ca68a6f6ec7d37b04571997a8f4",
+      "git:hexsha": "102ee29e36c15ca68a6f6ec7d37b04571997a8f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f6674da9ab419923c605165e88dd571c83821f74",
+      "git:hexsha": "f6674da9ab419923c605165e88dd571c83821f74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/dd1af4320c21a93220333917feeea2f7d5e91f67",
+      "git:hexsha": "dd1af4320c21a93220333917feeea2f7d5e91f67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/c34356aaef1c613dd2b051a8838944037543e0c4",
+      "git:hexsha": "c34356aaef1c613dd2b051a8838944037543e0c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/7b9bd94a779ab0317979c2a1cb3f9096aafa2085",
+      "git:hexsha": "7b9bd94a779ab0317979c2a1cb3f9096aafa2085",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/16c2b45e92b54e7aedf1ff1e55238ff08b9cd948",
+      "git:hexsha": "16c2b45e92b54e7aedf1ff1e55238ff08b9cd948",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/79c8ed793f9afe4bc491575a86256651dcf777b6",
+      "git:hexsha": "79c8ed793f9afe4bc491575a86256651dcf777b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f8d09b4362fa67f2a4259489321662f7fd843c19",
+      "git:hexsha": "f8d09b4362fa67f2a4259489321662f7fd843c19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f514921bb4405fea72b6289c200152f797d8b127",
+      "git:hexsha": "f514921bb4405fea72b6289c200152f797d8b127",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/8d71928e11e0f0dba74df00982fe997bd784e262",
+      "git:hexsha": "8d71928e11e0f0dba74df00982fe997bd784e262",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/35856294055359e965bf7763dfc8873210684fe7",
+      "git:hexsha": "35856294055359e965bf7763dfc8873210684fe7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/b761e47aad488c96baa834641d471b86bbf8829f",
+      "git:hexsha": "b761e47aad488c96baa834641d471b86bbf8829f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/1e221fa07849eeffe7120cde5a33d61d1b6a1f0e",
+      "git:hexsha": "1e221fa07849eeffe7120cde5a33d61d1b6a1f0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/1aa19432fb135be3fcb71b3b7989e05044fef9c7",
+      "git:hexsha": "1aa19432fb135be3fcb71b3b7989e05044fef9c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/8187e1eda8dc726ef524c574c900caf0ca41a6f5",
+      "git:hexsha": "8187e1eda8dc726ef524c574c900caf0ca41a6f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/eecff60057c49e4f42b27330d7d05f0ce835561a",
+      "git:hexsha": "eecff60057c49e4f42b27330d7d05f0ce835561a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/5956a965d76d0fffa3f41323d7a054220da511e1",
+      "git:hexsha": "5956a965d76d0fffa3f41323d7a054220da511e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/4173a21dc497c67326095e438ff989cc63cd9279",
+      "git:hexsha": "4173a21dc497c67326095e438ff989cc63cd9279",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/fdc853a4af19b40a7fc453ab8d4b4688839ed6c0",
+      "git:hexsha": "fdc853a4af19b40a7fc453ab8d4b4688839ed6c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.100"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d3188ea889e55be0433326695b2773c717b39bb9",
+      "git:hexsha": "d3188ea889e55be0433326695b2773c717b39bb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.101"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/39b016a50ce68b16f5e007f153ebf4e2a8b7c0d0",
+      "git:hexsha": "39b016a50ce68b16f5e007f153ebf4e2a8b7c0d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.102"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d1bf13ac1d90c3b65c1b7fc131a26f37a8e2d0db",
+      "git:hexsha": "d1bf13ac1d90c3b65c1b7fc131a26f37a8e2d0db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.103"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/43213695a9a04a0e33a72595f3d635b45a7ed07a",
+      "git:hexsha": "43213695a9a04a0e33a72595f3d635b45a7ed07a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/8c4135f768d35f141326d7d9b2ebbcc892eddafe",
+      "git:hexsha": "8c4135f768d35f141326d7d9b2ebbcc892eddafe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.105"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/4014c744422a4eeedca98f59a40fa6e46af9fe74",
+      "git:hexsha": "4014c744422a4eeedca98f59a40fa6e46af9fe74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/7526e00148098e0e5d4a5e3fc721e754257b04e7",
+      "git:hexsha": "7526e00148098e0e5d4a5e3fc721e754257b04e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/3f9b24d63611b82d9378c6d794dd93ef6007a79d",
+      "git:hexsha": "3f9b24d63611b82d9378c6d794dd93ef6007a79d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f4c40170402d8f9ba7a19418b2e528af8daa1052",
+      "git:hexsha": "f4c40170402d8f9ba7a19418b2e528af8daa1052",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/0f91e819bc55af9822f18bac6c4a4446aa7ab60a",
+      "git:hexsha": "0f91e819bc55af9822f18bac6c4a4446aa7ab60a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a5c51b0aa223e37d814094e6b1f3be0cb4248e3d",
+      "git:hexsha": "a5c51b0aa223e37d814094e6b1f3be0cb4248e3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/124cb2e77a83a54ec7fa9df9df9fc412b56c5410",
+      "git:hexsha": "124cb2e77a83a54ec7fa9df9df9fc412b56c5410",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/77c846d5907f32d1af5ee5631884f55838fc41a9",
+      "git:hexsha": "77c846d5907f32d1af5ee5631884f55838fc41a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d4e3d976badf1c3259dcdc05e32a0a73ddac55cb",
+      "git:hexsha": "d4e3d976badf1c3259dcdc05e32a0a73ddac55cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f75cb3278e8ab144315bd87ec8f2812c0dd96b2e",
+      "git:hexsha": "f75cb3278e8ab144315bd87ec8f2812c0dd96b2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/49e8bd201fb66c522e1f83b0f28104a105c80788",
+      "git:hexsha": "49e8bd201fb66c522e1f83b0f28104a105c80788",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/285269ec538c805c6d5b31d5e2fda0e2afc8c0c1",
+      "git:hexsha": "285269ec538c805c6d5b31d5e2fda0e2afc8c0c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/92c9551f1afdea33211c44bb115210738871e043",
+      "git:hexsha": "92c9551f1afdea33211c44bb115210738871e043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/4e42b88b24bb44fe70b225bfc8f03928201daf38",
+      "git:hexsha": "4e42b88b24bb44fe70b225bfc8f03928201daf38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d2c09ab64006df180b2a41b2050336e73a7a531c",
+      "git:hexsha": "d2c09ab64006df180b2a41b2050336e73a7a531c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/cd58340a14699b87866cc5f26c46b3a8dd8b4b3c",
+      "git:hexsha": "cd58340a14699b87866cc5f26c46b3a8dd8b4b3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/56043a1715cf9c458e5203bdf792668e3b271651",
+      "git:hexsha": "56043a1715cf9c458e5203bdf792668e3b271651",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2517d6283f4e6a308519881bf7222f60c785626d",
+      "git:hexsha": "2517d6283f4e6a308519881bf7222f60c785626d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/93c4df24e2d5ef9ddff484a7086f2e0018a13507",
+      "git:hexsha": "93c4df24e2d5ef9ddff484a7086f2e0018a13507",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/4fc89676e7bdef2ba68e8a1383d07df0bb7bbeb0",
+      "git:hexsha": "4fc89676e7bdef2ba68e8a1383d07df0bb7bbeb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/cf62a7bac077a1755d254f5bfca6f097e56efe84",
+      "git:hexsha": "cf62a7bac077a1755d254f5bfca6f097e56efe84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/10239028f8e14e5c15cbdbf196291426e889454c",
+      "git:hexsha": "10239028f8e14e5c15cbdbf196291426e889454c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/37484ecac4fee2fe0f6f36e4929d96d6037a48a5",
+      "git:hexsha": "37484ecac4fee2fe0f6f36e4929d96d6037a48a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/124002dbafebe64bbc5569498fc3459e02696cc7",
+      "git:hexsha": "124002dbafebe64bbc5569498fc3459e02696cc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/9f100ba092c03d83912c7a3d595ddb33b716e20d",
+      "git:hexsha": "9f100ba092c03d83912c7a3d595ddb33b716e20d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/3ff70daead32a9b485eea0c4d3719aff04117ab2",
+      "git:hexsha": "3ff70daead32a9b485eea0c4d3719aff04117ab2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a7eabbdda69711f07dc29b71b79aadeb1074b219",
+      "git:hexsha": "a7eabbdda69711f07dc29b71b79aadeb1074b219",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/7ecea3b88fe72672ca4270631b5d4585c0f7c715",
+      "git:hexsha": "7ecea3b88fe72672ca4270631b5d4585c0f7c715",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/df73b6a9666ce84cb940a5bd871f3e3ba71e6f82",
+      "git:hexsha": "df73b6a9666ce84cb940a5bd871f3e3ba71e6f82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/b501cdf2f4d7ca856dcca81d8dd97447b7a53a36",
+      "git:hexsha": "b501cdf2f4d7ca856dcca81d8dd97447b7a53a36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/6e59fa09594a66be7c3bae56224be3de4ac3444b",
+      "git:hexsha": "6e59fa09594a66be7c3bae56224be3de4ac3444b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/bdac3732544a3cfb73afe4548f550c369e906856",
+      "git:hexsha": "bdac3732544a3cfb73afe4548f550c369e906856",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/e6bc8739484a4a9307b1f5cc8b26422bd85d88d6",
+      "git:hexsha": "e6bc8739484a4a9307b1f5cc8b26422bd85d88d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/67778bc3d2660e5ba2e39b4525e06676e1f04a66",
+      "git:hexsha": "67778bc3d2660e5ba2e39b4525e06676e1f04a66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a77588be7e160a502b06e1715efb6dc25a66e7f9",
+      "git:hexsha": "a77588be7e160a502b06e1715efb6dc25a66e7f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/774a26580447c838bcf668e497d293b87004daaf",
+      "git:hexsha": "774a26580447c838bcf668e497d293b87004daaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/8f4fd2c7ac7effbc13ffc37e510ef1df6b22f4d1",
+      "git:hexsha": "8f4fd2c7ac7effbc13ffc37e510ef1df6b22f4d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/f26128d5d6c94c62ce70683f6f4363766963a256",
+      "git:hexsha": "f26128d5d6c94c62ce70683f6f4363766963a256",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/69150f4ff28c07aedcd9a7f61b7426c056fc7c73",
+      "git:hexsha": "69150f4ff28c07aedcd9a7f61b7426c056fc7c73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/47c91c8525088a055bbfec5df6ea4cd131d01504",
+      "git:hexsha": "47c91c8525088a055bbfec5df6ea4cd131d01504",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a83ad604b1ac46072e24c6fc6e6f9d8e828358e4",
+      "git:hexsha": "a83ad604b1ac46072e24c6fc6e6f9d8e828358e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/293705d8dfe424bd3062195b17b41d7d935dc08f",
+      "git:hexsha": "293705d8dfe424bd3062195b17b41d7d935dc08f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a4e90503a3b336c46f369dca65dfb571069c657d",
+      "git:hexsha": "a4e90503a3b336c46f369dca65dfb571069c657d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/94c7519134870407960957156f62d62e93ebffc3",
+      "git:hexsha": "94c7519134870407960957156f62d62e93ebffc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/bc369f088f1b4067bc08848e8c6060b51a00e9df",
+      "git:hexsha": "bc369f088f1b4067bc08848e8c6060b51a00e9df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.51"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ab254879e7cce3a16360f2e64061c7b307cbe123",
+      "git:hexsha": "ab254879e7cce3a16360f2e64061c7b307cbe123",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/98645fdcf66741e509ee5d5444154038db369973",
+      "git:hexsha": "98645fdcf66741e509ee5d5444154038db369973",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/9f9328b7f016d3f7782ee9443dc441d63abe5b09",
+      "git:hexsha": "9f9328b7f016d3f7782ee9443dc441d63abe5b09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/c4a3e197f086b9f21880c979f7c87a04808660ac",
+      "git:hexsha": "c4a3e197f086b9f21880c979f7c87a04808660ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.55"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/72ee0b3b0523395e75bf71ae7702e93a7c506f1a",
+      "git:hexsha": "72ee0b3b0523395e75bf71ae7702e93a7c506f1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2c1b1021cff64aa6c29dd2c82bcb87b369013d00",
+      "git:hexsha": "2c1b1021cff64aa6c29dd2c82bcb87b369013d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ff03842931368a6c3074aa1579a1656e15d4ce23",
+      "git:hexsha": "ff03842931368a6c3074aa1579a1656e15d4ce23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.58"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/42f4f233bebf21cd2b9fb372ccb493d1caf78809",
+      "git:hexsha": "42f4f233bebf21cd2b9fb372ccb493d1caf78809",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.59"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/e82e8571460a0a0e00f52f011a74a5e0359acf3e",
+      "git:hexsha": "e82e8571460a0a0e00f52f011a74a5e0359acf3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/549377bc50460274d55aa1fd022f05c1d5d8472f",
+      "git:hexsha": "549377bc50460274d55aa1fd022f05c1d5d8472f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.60"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/231a097371f589bace25c3daec898fdc0b3d32d3",
+      "git:hexsha": "231a097371f589bace25c3daec898fdc0b3d32d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.61"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/cfa1524b7f8e67a5d9b1668a9bbbeead9223682b",
+      "git:hexsha": "cfa1524b7f8e67a5d9b1668a9bbbeead9223682b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.62"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/10f5dc398329d35a266b40f096671e2c278a633f",
+      "git:hexsha": "10f5dc398329d35a266b40f096671e2c278a633f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.63"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/075af3483426c4ea1ada2521275d6b5796dfa0af",
+      "git:hexsha": "075af3483426c4ea1ada2521275d6b5796dfa0af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.64"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ee27bdc067eccd8e0234bdb12940a695f3fbcb8e",
+      "git:hexsha": "ee27bdc067eccd8e0234bdb12940a695f3fbcb8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.65"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/64b4608278be46fcc8d63ae1138da8cb600e258a",
+      "git:hexsha": "64b4608278be46fcc8d63ae1138da8cb600e258a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.66"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a803dd15053e144606f362b86d4472fa35af428b",
+      "git:hexsha": "a803dd15053e144606f362b86d4472fa35af428b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.67"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/a3e94dfa66aa4b2ca1efbf443f44ca31a6f777ed",
+      "git:hexsha": "a3e94dfa66aa4b2ca1efbf443f44ca31a6f777ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.68"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/937bbcdcc15ef7bc7ee90813dc72093a2beb30c5",
+      "git:hexsha": "937bbcdcc15ef7bc7ee90813dc72093a2beb30c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.69"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d5d48eddca4566e5438e8a2cbed4a74e049544de",
+      "git:hexsha": "d5d48eddca4566e5438e8a2cbed4a74e049544de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/cd31a69e9c6ece9e6a1bf366aae37ae5b00cef82",
+      "git:hexsha": "cd31a69e9c6ece9e6a1bf366aae37ae5b00cef82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.70"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/593681be682300bcd7548018d782f5cae9026704",
+      "git:hexsha": "593681be682300bcd7548018d782f5cae9026704",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.71"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/643cb897d75e2d0b4d959c1d903b3ded4d21e1e9",
+      "git:hexsha": "643cb897d75e2d0b4d959c1d903b3ded4d21e1e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.72"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/4dce5d7ebd3c9eb4f67da05581d6c83633191dc0",
+      "git:hexsha": "4dce5d7ebd3c9eb4f67da05581d6c83633191dc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.73"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/6cb41f895657424f8f64eecbd7e8ad392b0b26e0",
+      "git:hexsha": "6cb41f895657424f8f64eecbd7e8ad392b0b26e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.74"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/2a9b955ec822f0483e796c103768f43c47600b71",
+      "git:hexsha": "2a9b955ec822f0483e796c103768f43c47600b71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.75"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ea778eb80729a01094b033c45633122052d96fd4",
+      "git:hexsha": "ea778eb80729a01094b033c45633122052d96fd4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.76"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/da1be4d1aea56dcfd5e515b7bded9283323320f5",
+      "git:hexsha": "da1be4d1aea56dcfd5e515b7bded9283323320f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.77"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/d850a1db5e3fe7732d62cacbfc4145e496c2a80e",
+      "git:hexsha": "d850a1db5e3fe7732d62cacbfc4145e496c2a80e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.78"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/4ba4ab1ec52d9e8286826a898430683ba002a002",
+      "git:hexsha": "4ba4ab1ec52d9e8286826a898430683ba002a002",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.79"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/903a97275caad3a45b1ce2f1dd8a35faee70f4fe",
+      "git:hexsha": "903a97275caad3a45b1ce2f1dd8a35faee70f4fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/da51f8d005cc5d8299c1872fad9bbe63b07c31c7",
+      "git:hexsha": "da51f8d005cc5d8299c1872fad9bbe63b07c31c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.80"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/fd2c998967a65d3378f06f2480abd4d34f4697ab",
+      "git:hexsha": "fd2c998967a65d3378f06f2480abd4d34f4697ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.81"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/8dc63f36f6735ff2e384e34422f57f393929f09f",
+      "git:hexsha": "8dc63f36f6735ff2e384e34422f57f393929f09f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.82"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/1b77aca69bb7a306a5c03421ecc58ca158acebed",
+      "git:hexsha": "1b77aca69bb7a306a5c03421ecc58ca158acebed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.83"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/33c95785826bbd1fa353c48989dfc5a7ca62f54c",
+      "git:hexsha": "33c95785826bbd1fa353c48989dfc5a7ca62f54c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.84"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/5ee1cabadb40abe12abe27e3b34de8fc6f60bc0a",
+      "git:hexsha": "5ee1cabadb40abe12abe27e3b34de8fc6f60bc0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.85"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/aa9476b27932ae1b1b50bbfe0530b3b261fc1b72",
+      "git:hexsha": "aa9476b27932ae1b1b50bbfe0530b3b261fc1b72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.86"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/50b477d6dc0d1a781f91bf1f979ae138dadf795f",
+      "git:hexsha": "50b477d6dc0d1a781f91bf1f979ae138dadf795f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.87"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/6b3395a280b613d471e005ca7f486239ca85ff24",
+      "git:hexsha": "6b3395a280b613d471e005ca7f486239ca85ff24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.88"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/671d87da32779e3a5c4cecacd8a9234e0e27630c",
+      "git:hexsha": "671d87da32779e3a5c4cecacd8a9234e0e27630c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.89"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/b7daef7967be1e71a3d5525e3298241c42a19215",
+      "git:hexsha": "b7daef7967be1e71a3d5525e3298241c42a19215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/ec556456634f42cb1f97ca2788dd20ac6b29f48c",
+      "git:hexsha": "ec556456634f42cb1f97ca2788dd20ac6b29f48c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.90"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/5046761b9689109142a02c71736284013673f0bd",
+      "git:hexsha": "5046761b9689109142a02c71736284013673f0bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.91"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/acc7d368209b3af57bba8c470f3c8f5f9234ec04",
+      "git:hexsha": "acc7d368209b3af57bba8c470f3c8f5f9234ec04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.92"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/83519e88337217c75794935381de61ab02c60a9b",
+      "git:hexsha": "83519e88337217c75794935381de61ab02c60a9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.93"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/7cb0f3cdee5888a581c0041ba9acae5727372277",
+      "git:hexsha": "7cb0f3cdee5888a581c0041ba9acae5727372277",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.94"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/24bbf16d9df01d5f7d9ac39bdfbaea85f4c194fb",
+      "git:hexsha": "24bbf16d9df01d5f7d9ac39bdfbaea85f4c194fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.95"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/21f89e7dcf2298c217e431633b78d0aacf63fda7",
+      "git:hexsha": "21f89e7dcf2298c217e431633b78d0aacf63fda7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.96"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/b61379bb76d6079cc0f43495d97759462d5a3d6b",
+      "git:hexsha": "b61379bb76d6079cc0f43495d97759462d5a3d6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.97"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/658045d7d9574862f0c0835e41520e4d07f2e023",
+      "git:hexsha": "658045d7d9574862f0c0835e41520e4d07f2e023",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.98"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2/commit/8768125ebcc53a8c68a9331bb3203824ce542e17",
+      "git:hexsha": "8768125ebcc53a8c68a9331bb3203824ce542e17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.99"
+    }
+  ]
+}
