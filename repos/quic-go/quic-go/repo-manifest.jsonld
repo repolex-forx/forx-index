@@ -1,0 +1,796 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/quic-go/quic-go",
+  "@type": "gh:Repository",
+  "gh:name": "quic-go",
+  "gh:owner": "quic-go",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/7659dd8e0fa06b41290ad29af323d93d673c6b36",
+      "git:hexsha": "7659dd8e0fa06b41290ad29af323d93d673c6b36",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.59.0",
+      "repolex:parsedAt": "2026-09-16T11:19:40.339614+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/60f32541e1c3dc787ab747a2f6a243a57ade5e59",
+      "git:hexsha": "60f32541e1c3dc787ab747a2f6a243a57ade5e59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "race"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/af3e1008ad94c64d5a60d1d7b2ddc579bca4ca79",
+      "git:hexsha": "af3e1008ad94c64d5a60d1d7b2ddc579bca4ca79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/fb4009857e8cb00c245910a5ffd1a4cd276bd051",
+      "git:hexsha": "fb4009857e8cb00c245910a5ffd1a4cd276bd051",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/71635f6961ad00ca5c088be625624e4a2cd1c066",
+      "git:hexsha": "71635f6961ad00ca5c088be625624e4a2cd1c066",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0-no-integrationtests"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/714f38d5d0aff85894fd890718b991e361f03e7d",
+      "git:hexsha": "714f38d5d0aff85894fd890718b991e361f03e7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/f90751eabaa39364e3861ee5a8b179f140847d7e",
+      "git:hexsha": "f90751eabaa39364e3861ee5a8b179f140847d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1-no-integrationtests"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/24fed6dc9757399d276689fb4008b09e51f69308",
+      "git:hexsha": "24fed6dc9757399d276689fb4008b09e51f69308",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/31fd8f1a4516c28548ad55e3f94b7dc67652df93",
+      "git:hexsha": "31fd8f1a4516c28548ad55e3f94b7dc67652df93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/8dcdf12ff78def6cfd36107d8bf42aa38110fa94",
+      "git:hexsha": "8dcdf12ff78def6cfd36107d8bf42aa38110fa94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4355e1a7e961ba3b6005cb035ae17732181c9508",
+      "git:hexsha": "4355e1a7e961ba3b6005cb035ae17732181c9508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/df82f9ca2f5cd164a30e2a22855044358d1e842c",
+      "git:hexsha": "df82f9ca2f5cd164a30e2a22855044358d1e842c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/cf203d84cabc395f674d10252da3a375e6ca5f6c",
+      "git:hexsha": "cf203d84cabc395f674d10252da3a375e6ca5f6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/1c3600fe767a6606056bec8971b9878f24c5061e",
+      "git:hexsha": "1c3600fe767a6606056bec8971b9878f24c5061e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/87ea3339f5f3b43ffe70448cc5d74def1ad986c9",
+      "git:hexsha": "87ea3339f5f3b43ffe70448cc5d74def1ad986c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/02e485e62ca96ed4a2efbfedad31399d208b9824",
+      "git:hexsha": "02e485e62ca96ed4a2efbfedad31399d208b9824",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/920c5004aff2dd3e811cb42c15f3c5948077ba87",
+      "git:hexsha": "920c5004aff2dd3e811cb42c15f3c5948077ba87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/2e1387c1b1eef4ee835dc9bc5e00f428f55cfa09",
+      "git:hexsha": "2e1387c1b1eef4ee835dc9bc5e00f428f55cfa09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/038cd1d6800983e105ec49cfbb16810c96e0dd88",
+      "git:hexsha": "038cd1d6800983e105ec49cfbb16810c96e0dd88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/21801084fa82db6373ffd4fe48e1540ddaa03a17",
+      "git:hexsha": "21801084fa82db6373ffd4fe48e1540ddaa03a17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/9de73d2fa7a8ac2211ae8c91b6ad371cc8b7c600",
+      "git:hexsha": "9de73d2fa7a8ac2211ae8c91b6ad371cc8b7c600",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/3270565fe5bcc733b2fd7a28dc4746950b8204fb",
+      "git:hexsha": "3270565fe5bcc733b2fd7a28dc4746950b8204fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/094e399f496660d4ab7700b989a94efe7742d3f2",
+      "git:hexsha": "094e399f496660d4ab7700b989a94efe7742d3f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/63b4c993c1d8a5808bab48d4f26d1c5fb1bf3a64",
+      "git:hexsha": "63b4c993c1d8a5808bab48d4f26d1c5fb1bf3a64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/a19953d79b95dcfb1e7a5b0a1e3df25b1f363576",
+      "git:hexsha": "a19953d79b95dcfb1e7a5b0a1e3df25b1f363576",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/5cdb041f404282b1950af529600ed9efbf76ca83",
+      "git:hexsha": "5cdb041f404282b1950af529600ed9efbf76ca83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/1487da52b0ceb1fc04bab6f2ac563d8846af5445",
+      "git:hexsha": "1487da52b0ceb1fc04bab6f2ac563d8846af5445",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/59555a8db81ce9a182b6b415630e45b38f88eb78",
+      "git:hexsha": "59555a8db81ce9a182b6b415630e45b38f88eb78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/2cf0ad37f935ddb229f44c884497df757ef180d9",
+      "git:hexsha": "2cf0ad37f935ddb229f44c884497df757ef180d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/1890a2a92a8dbe9e17e5fc9bdb42a3c680e5b603",
+      "git:hexsha": "1890a2a92a8dbe9e17e5fc9bdb42a3c680e5b603",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4a7eff98c74b52b79275cd2ff017fd67f356869d",
+      "git:hexsha": "4a7eff98c74b52b79275cd2ff017fd67f356869d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/5d246766269d280af4385efc175aea76e9e10ca1",
+      "git:hexsha": "5d246766269d280af4385efc175aea76e9e10ca1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/361d870c46924bfb70e1b53931841df9530fe72a",
+      "git:hexsha": "361d870c46924bfb70e1b53931841df9530fe72a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/6125b903c9ba0b80d4120f5363a809b2730007ad",
+      "git:hexsha": "6125b903c9ba0b80d4120f5363a809b2730007ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/c3a6f3ce2cf613283c22db5b7c33fb7daa2cd522",
+      "git:hexsha": "c3a6f3ce2cf613283c22db5b7c33fb7daa2cd522",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d764a2574b84509a59257026e4a0e7057775ee8b",
+      "git:hexsha": "d764a2574b84509a59257026e4a0e7057775ee8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/36a7b1a54673218fbd63660e5ec9ab6d51fda5ad",
+      "git:hexsha": "36a7b1a54673218fbd63660e5ec9ab6d51fda5ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/01df4009f37000cc5e19122cd49f91cf276e41db",
+      "git:hexsha": "01df4009f37000cc5e19122cd49f91cf276e41db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/9fe4f6961d50c8eb8ebf715592870005e5844575",
+      "git:hexsha": "9fe4f6961d50c8eb8ebf715592870005e5844575",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/52b8d01485574976c80f1de5b4a930c72afddb1a",
+      "git:hexsha": "52b8d01485574976c80f1de5b4a930c72afddb1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/c945c4c1256d5c24060836666ac9f82caf263118",
+      "git:hexsha": "c945c4c1256d5c24060836666ac9f82caf263118",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/49478404e857ba42d181ffed674fc94eee8233be",
+      "git:hexsha": "49478404e857ba42d181ffed674fc94eee8233be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/40b124d209d1a1bea3aeed95438f412e96b81bf8",
+      "git:hexsha": "40b124d209d1a1bea3aeed95438f412e96b81bf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/09155eaf6d1f842beb2f5056e5e20fe99aacf687",
+      "git:hexsha": "09155eaf6d1f842beb2f5056e5e20fe99aacf687",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/f4f391260f61b8946b6dc0b096e3fe814d834a53",
+      "git:hexsha": "f4f391260f61b8946b6dc0b096e3fe814d834a53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/29452277517826b3c0c450dc8bd0a351edc9e8d9",
+      "git:hexsha": "29452277517826b3c0c450dc8bd0a351edc9e8d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/44b0ad237c214d6f8516bdb30c6b9ea58d80bdb2",
+      "git:hexsha": "44b0ad237c214d6f8516bdb30c6b9ea58d80bdb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/89061486820236ffe76c3770d04fd455f5455251",
+      "git:hexsha": "89061486820236ffe76c3770d04fd455f5455251",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/f0fd96090209ecced7e12038ef089d3fd011ce2a",
+      "git:hexsha": "f0fd96090209ecced7e12038ef089d3fd011ce2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/0f3c94f92d9370eba392db7258f9d22435199b6d",
+      "git:hexsha": "0f3c94f92d9370eba392db7258f9d22435199b6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/b935a54c295e2a91e21302c3e48cb46646d635b8",
+      "git:hexsha": "b935a54c295e2a91e21302c3e48cb46646d635b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/496fbe9fda4bb094b1cbdb162a52130b6beda6b1",
+      "git:hexsha": "496fbe9fda4bb094b1cbdb162a52130b6beda6b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d4293fb274084bc8fda54d39941c1856cf00d3ed",
+      "git:hexsha": "d4293fb274084bc8fda54d39941c1856cf00d3ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/fa0dba963a29dca6309a8dbd2490caa00d832a3f",
+      "git:hexsha": "fa0dba963a29dca6309a8dbd2490caa00d832a3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/fdc52275ca084f771a7aa98e074949c43dae11c2",
+      "git:hexsha": "fdc52275ca084f771a7aa98e074949c43dae11c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4251172648ee521564f9a1e92951a5c1203c0bf2",
+      "git:hexsha": "4251172648ee521564f9a1e92951a5c1203c0bf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.27.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/f29dd273b40d37b6ea8206350b2d96e8779161e5",
+      "git:hexsha": "f29dd273b40d37b6ea8206350b2d96e8779161e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/56a24f3e4c93be1c944eb7006f8d36e35abeb2a5",
+      "git:hexsha": "56a24f3e4c93be1c944eb7006f8d36e35abeb2a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/07412be8a02ef0e55580ebf8db9c38a759c0a0e5",
+      "git:hexsha": "07412be8a02ef0e55580ebf8db9c38a759c0a0e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/bf29e688246645eb2aa6b6e2f39a22bb3622ee70",
+      "git:hexsha": "bf29e688246645eb2aa6b6e2f39a22bb3622ee70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/eb0678b1c5a9e95e86ac90ba789f8168e5f30cae",
+      "git:hexsha": "eb0678b1c5a9e95e86ac90ba789f8168e5f30cae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/af30cef57c5c20ebcb599200a96d89f7c33c3d50",
+      "git:hexsha": "af30cef57c5c20ebcb599200a96d89f7c33c3d50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/8d496ebb5e3574a687d8a3b99988a5a51184884b",
+      "git:hexsha": "8d496ebb5e3574a687d8a3b99988a5a51184884b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d2512193dac18f24b31bb3f1f50ac60adb448ee4",
+      "git:hexsha": "d2512193dac18f24b31bb3f1f50ac60adb448ee4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/1cea56ac29a7921efacec8d22238887b1fc63277",
+      "git:hexsha": "1cea56ac29a7921efacec8d22238887b1fc63277",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/a92238b73cc14632f2244fbf13bad9e2a4e54f26",
+      "git:hexsha": "a92238b73cc14632f2244fbf13bad9e2a4e54f26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/046a7a5cdba689c2430159b93156a103f3b77b4e",
+      "git:hexsha": "046a7a5cdba689c2430159b93156a103f3b77b4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.33.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4a2a5740b2bb2090867efb61eab1b79bb508aafc",
+      "git:hexsha": "4a2a5740b2bb2090867efb61eab1b79bb508aafc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/fce0261c3433532fecc88bd322f985b55c2381df",
+      "git:hexsha": "fce0261c3433532fecc88bd322f985b55c2381df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/9237dbb1678ee88da4afba295d44d5d100a2fdc2",
+      "git:hexsha": "9237dbb1678ee88da4afba295d44d5d100a2fdc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/da298d09e159fd545a3a90bd54771aabfe9e9162",
+      "git:hexsha": "da298d09e159fd545a3a90bd54771aabfe9e9162",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4384df18a317f5c103b7b5f653c2968eeda62a34",
+      "git:hexsha": "4384df18a317f5c103b7b5f653c2968eeda62a34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/7c1df911f7fa401dd65a1c312132a497683ff40d",
+      "git:hexsha": "7c1df911f7fa401dd65a1c312132a497683ff40d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/2659e13ca22565797fc296cc00a294a30a8a812b",
+      "git:hexsha": "2659e13ca22565797fc296cc00a294a30a8a812b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/6e1ebcf869a014da6cac1e43e33d366b3384c34e",
+      "git:hexsha": "6e1ebcf869a014da6cac1e43e33d366b3384c34e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/469a6153b6798780bf90e8be37f197d0fcb18af2",
+      "git:hexsha": "469a6153b6798780bf90e8be37f197d0fcb18af2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/f3a0ce1599732cb56b958c2f0903074b62a7e9bf",
+      "git:hexsha": "f3a0ce1599732cb56b958c2f0903074b62a7e9bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/a0a2e5ff26e4c5568a28b3bbc2882e0a3a36a9a3",
+      "git:hexsha": "a0a2e5ff26e4c5568a28b3bbc2882e0a3a36a9a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/b6a4725b60f1fe04e8f1ddcc3114e290fcea1617",
+      "git:hexsha": "b6a4725b60f1fe04e8f1ddcc3114e290fcea1617",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4345a2ddbf45a4964afcb010fc7878080483c2b4",
+      "git:hexsha": "4345a2ddbf45a4964afcb010fc7878080483c2b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/e9f7f460bc7941a4cee7e516098ba44d5a98471c",
+      "git:hexsha": "e9f7f460bc7941a4cee7e516098ba44d5a98471c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/e2c360ceec4689af76720ce79d3c2aeb1569694f",
+      "git:hexsha": "e2c360ceec4689af76720ce79d3c2aeb1569694f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/21609ddfeff93668c7625a85eb09f1541fdad965",
+      "git:hexsha": "21609ddfeff93668c7625a85eb09f1541fdad965",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/824fd8a2f2eb8a08fe6cef7a693fee6be3819e01",
+      "git:hexsha": "824fd8a2f2eb8a08fe6cef7a693fee6be3819e01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d22854641ace1792ca27d7d911a6d62c0075e2c2",
+      "git:hexsha": "d22854641ace1792ca27d7d911a6d62c0075e2c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.38.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/9aaefe19fc3dc8c8917cc87e6128bb56d9e9e6cc",
+      "git:hexsha": "9aaefe19fc3dc8c8917cc87e6128bb56d9e9e6cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.38.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/9a397abc177badb035e63b4d9321fc287430ee2d",
+      "git:hexsha": "9a397abc177badb035e63b4d9321fc287430ee2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/2b290742f6b91718681cc38ae1b5c989aef5ec25",
+      "git:hexsha": "2b290742f6b91718681cc38ae1b5c989aef5ec25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/9f1e5762da7582675336bfdb88cd5d9253e9f267",
+      "git:hexsha": "9f1e5762da7582675336bfdb88cd5d9253e9f267",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/7da12a670eafbbdc32c9613826cc03e447b4d21d",
+      "git:hexsha": "7da12a670eafbbdc32c9613826cc03e447b4d21d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/6cc3d58935426191296171a6c0d1ee965e10534e",
+      "git:hexsha": "6cc3d58935426191296171a6c0d1ee965e10534e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/1d7cf74e485beeb6abf6b4a232ef3458042c0192",
+      "git:hexsha": "1d7cf74e485beeb6abf6b4a232ef3458042c0192",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/a3603549eebd4e22fd8ea4d4fe0c9011bc08daa4",
+      "git:hexsha": "a3603549eebd4e22fd8ea4d4fe0c9011bc08daa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/554d543b50b917369fb1394cc5396d928166cf49",
+      "git:hexsha": "554d543b50b917369fb1394cc5396d928166cf49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.40.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d3c2020ecd0d90f80797acb06bf1b0476caf651a",
+      "git:hexsha": "d3c2020ecd0d90f80797acb06bf1b0476caf651a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4a99b816ae3ab03ae5449d15aac45147c85ed47a",
+      "git:hexsha": "4a99b816ae3ab03ae5449d15aac45147c85ed47a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/93c4785521c0622e7c4e04d681404f1c802e18c4",
+      "git:hexsha": "93c4785521c0622e7c4e04d681404f1c802e18c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/e6b5db0c0486a2a2097c3de562bbb5730c657fb4",
+      "git:hexsha": "e6b5db0c0486a2a2097c3de562bbb5730c657fb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.43.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/e2fbf3cdcd4b803d237ef9752f1a555b022f47a4",
+      "git:hexsha": "e2fbf3cdcd4b803d237ef9752f1a555b022f47a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4d0562d13c5a55ff04b05d1e4db1c67ce7159df4",
+      "git:hexsha": "4d0562d13c5a55ff04b05d1e4db1c67ce7159df4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/93c94278f2e3d148a99e4371aa13a4a76b5dbcaa",
+      "git:hexsha": "93c94278f2e3d148a99e4371aa13a4a76b5dbcaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.45.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4470c16c576a40f2a997980cc6cab08f80cc7515",
+      "git:hexsha": "4470c16c576a40f2a997980cc6cab08f80cc7515",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.45.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/0b033db188ea2339a458e9680e28110494f888a8",
+      "git:hexsha": "0b033db188ea2339a458e9680e28110494f888a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/8fc04bf1e010db167b5b3d6c377878084dffdc6c",
+      "git:hexsha": "8fc04bf1e010db167b5b3d6c377878084dffdc6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/6af2b1a478211ebf98125b996e13f6d994e6ba3e",
+      "git:hexsha": "6af2b1a478211ebf98125b996e13f6d994e6ba3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/98de6aebf7b139cd7ab3a93972ef9b9c1e378c1d",
+      "git:hexsha": "98de6aebf7b139cd7ab3a93972ef9b9c1e378c1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/34157e6455b07723d11385212a4e1328f57f1da5",
+      "git:hexsha": "34157e6455b07723d11385212a4e1328f57f1da5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/c385cd10f133482a24979bd4a7dadb847f9ef146",
+      "git:hexsha": "c385cd10f133482a24979bd4a7dadb847f9ef146",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/275c172fec2b4dae0eea5ac2052a28848b4363ea",
+      "git:hexsha": "275c172fec2b4dae0eea5ac2052a28848b4363ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d51a4a1ba70df8c2d5c4522c071aaa225690a11d",
+      "git:hexsha": "d51a4a1ba70df8c2d5c4522c071aaa225690a11d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d726a795db8391d29b180f684f74b223d40471a1",
+      "git:hexsha": "d726a795db8391d29b180f684f74b223d40471a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/b90058aba5f65f48e0e150c89bbaa21a72dda4de",
+      "git:hexsha": "b90058aba5f65f48e0e150c89bbaa21a72dda4de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.50.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/d35b5ac187da3f56eb0026fc79c27254b95ca366",
+      "git:hexsha": "d35b5ac187da3f56eb0026fc79c27254b95ca366",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/04eab2289395a5ad6698fef97e4a62c02ea49d97",
+      "git:hexsha": "04eab2289395a5ad6698fef97e4a62c02ea49d97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/b94fc4d2d4aaac6f799c2bb05abd9288a974b121",
+      "git:hexsha": "b94fc4d2d4aaac6f799c2bb05abd9288a974b121",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/c2e784aaf21fe66f55b166249d8c9dc9b0aa0fc7",
+      "git:hexsha": "c2e784aaf21fe66f55b166249d8c9dc9b0aa0fc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/0264fbc02e94a24370ff68005e02aa53f10add58",
+      "git:hexsha": "0264fbc02e94a24370ff68005e02aa53f10add58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.54.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/7c1ce0efe280e4d82acad43b8cd8284596361103",
+      "git:hexsha": "7c1ce0efe280e4d82acad43b8cd8284596361103",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/eb7fcf5637f780fe1355002534430d95bb5b53c8",
+      "git:hexsha": "eb7fcf5637f780fe1355002534430d95bb5b53c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/5b2d2129f8315da41e01eff0a847ab38a34e83a8",
+      "git:hexsha": "5b2d2129f8315da41e01eff0a847ab38a34e83a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/4b0ab7e48554e4440448c9252a92d7c065d88331",
+      "git:hexsha": "4b0ab7e48554e4440448c9252a92d7c065d88331",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.57.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/96b8144b2b365895e0b06f25849459ae0c314f95",
+      "git:hexsha": "96b8144b2b365895e0b06f25849459ae0c314f95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/e5ae49f5f493a6c95fcc1939900e98c7bf15b85a",
+      "git:hexsha": "e5ae49f5f493a6c95fcc1939900e98c7bf15b85a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/438abf0e467326af9fd964636b4cc18cfbaf5298",
+      "git:hexsha": "438abf0e467326af9fd964636b4cc18cfbaf5298",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/ded0eb4f6f30a8049bd334a26ff7ff728648fe13",
+      "git:hexsha": "ded0eb4f6f30a8049bd334a26ff7ff728648fe13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/7612ad1036957cde45d672bebb8b9ec9c2e9b2a7",
+      "git:hexsha": "7612ad1036957cde45d672bebb8b9ec9c2e9b2a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/579ee19d5b54c4f9320ffca668113c3513a138e5",
+      "git:hexsha": "579ee19d5b54c4f9320ffca668113c3513a138e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/793f74d8e03368c5aded128af6f48d21dbb47f73",
+      "git:hexsha": "793f74d8e03368c5aded128af6f48d21dbb47f73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/30851b9a3b4e958490b476fe72adafa67641361a",
+      "git:hexsha": "30851b9a3b4e958490b476fe72adafa67641361a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/deffae864a3363cf4cd4a0030fc8106e16ec5723",
+      "git:hexsha": "deffae864a3363cf4cd4a0030fc8106e16ec5723",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/quic-go/quic-go/commit/893f99a31f8e18bd35b6e2e927bbebb923e73ca3",
+      "git:hexsha": "893f99a31f8e18bd35b6e2e927bbebb923e73ca3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    }
+  ]
+}
