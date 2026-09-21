@@ -42,10 +42,102 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 121457
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e754e1d33a1a540ebc9226e36f11d3f401852c9e.nq.gz",
+      "repolex:graphFileSize": 1253254
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T03:12:29.190178+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v0.1.9"
+  "git:tagName": "v0.1.9",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tafia/calamine",
+      "repolex:packageName": "calamine",
+      "git:hexsha": "0a24c2a9f1e38c0932c1299e633270dc730db505",
+      "git:tagName": "v0.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/mdsteele/rust-cfb",
+      "repolex:packageName": "cfb",
+      "git:hexsha": "45d0d07adc8e95f9c239ac7dcc42761b1347ed3e",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/rust-csv",
+      "repolex:packageName": "csv",
+      "git:hexsha": "4a3997e91d668ea1d8595bdef15625a77cf2308a",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2"
+    },
+    {
+      "@id": "https://repolex.ai/r/hsivonen/encoding_rs",
+      "repolex:packageName": "encoding_rs",
+      "git:hexsha": "2fa58aecf537cc76ff52c0eb3d5e9f8fda466844",
+      "git:tagName": "v0.8.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log"
+    },
+    {
+      "@id": "https://repolex.ai/r/firecrawl/pdf-inspector",
+      "repolex:packageName": "pdf-inspector",
+      "git:hexsha": "4bee4f993ba28bd6a3334fa55e699b318663fba3",
+      "git:tagName": "v1.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tafia/quick-xml",
+      "repolex:packageName": "quick-xml",
+      "git:hexsha": "4deda08abeffdc188c269360229cf47e12a77a9f",
+      "git:tagName": "v0.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/zip-rs/zip2",
+      "repolex:packageName": "zip",
+      "git:hexsha": "771dfc534d2614158af5497ea3dff4d4208d7db1",
+      "git:tagName": "v8.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mitsuhiko/insta",
+      "repolex:packageName": "insta"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hybrid-array",
+      "repolex:packageName": "hybrid-array",
+      "git:hexsha": "1b65ce708c931d27b2a17400d0dad92500f23f30",
+      "git:tagName": "v0.4.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "d7ad41f1fe4c10e46d08e4209fbb5ad2f5253e40",
+      "git:tagName": "v0.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/napi-rs/napi-rs",
+      "repolex:packageName": "napi"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    }
+  ]
 }
