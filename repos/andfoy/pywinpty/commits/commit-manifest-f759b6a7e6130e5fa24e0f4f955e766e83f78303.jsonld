@@ -42,10 +42,30 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 423455
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f759b6a7e6130e5fa24e0f4f955e766e83f78303.nq.gz",
+      "repolex:graphFileSize": 50898
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T03:10:28.454457+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v2.0.7"
+  "git:tagName": "v2.0.7",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/andfoy/winpty-rs",
+      "repolex:packageName": "winpty-rs",
+      "git:hexsha": "3b9355c64230d7b959f03b6bf259261e76efa238",
+      "git:tagName": "v0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "922bbfc92da63d37b24946afdb651d9ae2a0ee47",
+      "git:tagName": "v0.16.2"
+    }
+  ]
 }
