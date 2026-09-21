@@ -48,10 +48,40 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/510cd9f67192982d97a5ff8a5bc09d0d5edd72a1/chunk-001.nq.gz",
       "repolex:graphFileSize": 533423
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/510cd9f67192982d97a5ff8a5bc09d0d5edd72a1.nq.gz",
+      "repolex:graphFileSize": 62173
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T03:41:43.490593+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "3.2.0"
+  "git:tagName": "3.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/benjaminp/six",
+      "repolex:packageName": "six",
+      "git:hexsha": "1910297e89d7490f9cd137b17d4578be3c6094a0",
+      "git:tagName": "1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/pythonfutures",
+      "repolex:packageName": "futures"
+    },
+    {
+      "@id": "https://repolex.ai/r/atdt/monotonic",
+      "repolex:packageName": "monotonic",
+      "git:hexsha": "945f25554575287808cfb0682096ef7e3d8bdc38",
+      "git:tagName": "0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    }
+  ]
 }
