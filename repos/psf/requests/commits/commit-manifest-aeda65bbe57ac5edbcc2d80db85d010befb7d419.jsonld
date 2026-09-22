@@ -48,10 +48,38 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/aeda65bbe57ac5edbcc2d80db85d010befb7d419/chunk-001.nq.gz",
       "repolex:graphFileSize": 5272292
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/aeda65bbe57ac5edbcc2d80db85d010befb7d419.nq.gz",
+      "repolex:graphFileSize": 479716
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T05:34:55.459771+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.22.0"
+  "git:tagName": "v2.22.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    },
+    {
+      "@id": "https://repolex.ai/r/certifi/python-certifi",
+      "repolex:packageName": "certifi"
+    }
+  ]
 }

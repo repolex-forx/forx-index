@@ -42,10 +42,118 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 3603618
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/12ea7be0bed9dc13a4dd859a7c96970355140333.nq.gz",
+      "repolex:graphFileSize": 3304604
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T01:20:49.137425+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.135.0"
+  "git:tagName": "0.135.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Kludex/starlette",
+      "repolex:packageName": "starlette",
+      "git:hexsha": "a404872b9192297ccfe93ff036faf884e4d35c08",
+      "git:tagName": "0.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "7af856a1098406aea84bcadfd0f3de6b7901526c",
+      "git:tagName": "v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "c17c499b865585458bc334a1f895ebaedd2ab854",
+      "git:tagName": "4.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/typing-inspection",
+      "repolex:packageName": "typing-inspection",
+      "git:hexsha": "8db011350942f33ac4b5d7db60d4d9ea83ab480f",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/annotated-doc",
+      "repolex:packageName": "annotated-doc",
+      "git:hexsha": "4cff021a7cc5fe3009a49ec655f2e3e920f73e0c",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/fastapi-cli",
+      "repolex:packageName": "fastapi-cli",
+      "git:hexsha": "77e6d1f7dea4b783d9e2080d98f6bb83234a2efc",
+      "git:tagName": "0.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx",
+      "git:hexsha": "89cdd903b2f339c6ae319773c31b8c9352bd9cd8",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "877f6e51be8e1765b06d911cfaa9033775f051d1",
+      "git:tagName": "3.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/Kludex/python-multipart",
+      "repolex:packageName": "python-multipart",
+      "git:hexsha": "5b1aed83adadbff1677779cd0df53723cd80a0d6",
+      "git:tagName": "0.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/JoshData/python-email-validator",
+      "repolex:packageName": "email-validator",
+      "git:hexsha": "1b3e4c669499cc966c55bc87a11d2cc0a633f726",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sponsors/Kludex",
+      "repolex:packageName": "uvicorn"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic-settings",
+      "repolex:packageName": "pydantic-settings",
+      "git:hexsha": "107e8def2c0cc6d187bfdece1ab3200e26f3a908",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic-extra-types",
+      "repolex:packageName": "pydantic-extra-types",
+      "git:hexsha": "94cad5fcf049a64802dbddf150de0871ed27dfeb",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/itsdangerous",
+      "repolex:packageName": "itsdangerous",
+      "git:hexsha": "6e6359864be6055860adf1e11d8bb0db69ff1840",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/yaml/pyyaml",
+      "repolex:packageName": "pyyaml",
+      "git:hexsha": "538b5c93f7d5dee40322893c1e524e94a4f8bbde",
+      "git:tagName": "5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/typer",
+      "repolex:packageName": "typer",
+      "git:hexsha": "99eb220df7c69a0f14a0b69214042677e0760b9d",
+      "git:tagName": "0.27.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "ffcd1542cd6d127980205f90a0100078849dd703",
+      "git:tagName": "4.15.1"
+    }
+  ]
 }
