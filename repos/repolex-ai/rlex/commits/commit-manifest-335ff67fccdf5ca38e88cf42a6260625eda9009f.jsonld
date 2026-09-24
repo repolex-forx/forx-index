@@ -42,9 +42,125 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/335ff67fccdf5ca38e88cf42a6260625eda9009f/chunk-001.nq.gz",
       "repolex:graphFileSize": 3195032
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/335ff67fccdf5ca38e88cf42a6260625eda9009f.nq.gz",
+      "repolex:graphFileSize": 312926
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-22T12:12:29.925179+00:00",
-  "repolex:parserVersion": "0.1.10"
+  "repolex:parserVersion": "0.1.10",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2",
+      "git:hexsha": "19ddb18bf11199858fbc6504d079448fafd1606e",
+      "git:tagName": "1.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "5c657b32522023a9f7ef883fb08582fd8e656b1a",
+      "git:tagName": "1.0.102"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/walkdir",
+      "repolex:packageName": "walkdir",
+      "git:hexsha": "4f26be4d450910916ea11533b2efc52b9a6483bc",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxigraph",
+      "git:hexsha": "45e892308368d8b2c271d06dc04de17dfb6de80f",
+      "git:tagName": "v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "4f6dbfac79647d032b0997b5ab73022340c6dab7",
+      "git:tagName": "v1.0.149"
+    },
+    {
+      "@id": "https://repolex.ai/r/timothee-haudebourg/json-ld",
+      "repolex:packageName": "json-ld-core",
+      "git:hexsha": "17854d02835dcac70f6e9b40f028e1b61e6ae8fd",
+      "git:tagName": "v0.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdf",
+      "git:hexsha": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-web",
+      "repolex:packageName": "actix-web"
+    },
+    {
+      "@id": "https://repolex.ai/r/toml-rs/toml",
+      "repolex:packageName": "toml"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest",
+      "git:hexsha": "d97859910c357827ad5993d37ce750ad595f4fff",
+      "git:tagName": "v0.12.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "b9625d83b524f7a8306883484f29a746eefc1bab",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "spareval"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdfio",
+      "git:hexsha": "3e05c6ef4049623e77500196b4136e25b6f7789d",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "b028e4f40eac8959d05e82abf8404906b1c565c0",
+      "git:tagName": "1.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower-http",
+      "repolex:packageName": "tower-http",
+      "git:hexsha": "33166c8104be9b40ec15c480503d50d8c2312062",
+      "git:tagName": "tower-http-0.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/kornelski/rust_urlencoding",
+      "repolex:packageName": "urlencoding"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "0af06b7bab12c58161b1d0ae79bdf4452305d42f",
+      "git:tagName": "tokio-1.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    }
+  ]
 }

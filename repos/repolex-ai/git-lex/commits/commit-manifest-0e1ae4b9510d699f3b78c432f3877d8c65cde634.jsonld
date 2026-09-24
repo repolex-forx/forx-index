@@ -48,9 +48,147 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0e1ae4b9510d699f3b78c432f3877d8c65cde634/chunk-001.nq.gz",
       "repolex:graphFileSize": 17713746
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0e1ae4b9510d699f3b78c432f3877d8c65cde634.nq.gz",
+      "repolex:graphFileSize": 1809740
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-22T23:05:13.233857+00:00",
-  "repolex:parserVersion": "0.1.10"
+  "repolex:parserVersion": "0.1.10",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap_mangen"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxigraph",
+      "git:hexsha": "45e892308368d8b2c271d06dc04de17dfb6de80f",
+      "git:tagName": "v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/git2-rs",
+      "repolex:packageName": "git2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/serde-yaml",
+      "repolex:packageName": "serde_yaml"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/rudof-project/rudof",
+      "repolex:packageName": "shacl_validation"
+    },
+    {
+      "@id": "https://repolex.ai/r/rudof-project/rudof",
+      "repolex:packageName": "shacl_ir"
+    },
+    {
+      "@id": "https://repolex.ai/r/rudof-project/rudof",
+      "repolex:packageName": "shacl_rdf"
+    },
+    {
+      "@id": "https://repolex.ai/r/rudof-project/rudof",
+      "repolex:packageName": "rudof_rdf"
+    },
+    {
+      "@id": "https://repolex.ai/r/rudof-project/rudof",
+      "repolex:packageName": "sparql_service"
+    },
+    {
+      "@id": "https://repolex.ai/r/tree-sitter/tree-sitter",
+      "repolex:packageName": "tree-sitter"
+    },
+    {
+      "@id": "https://repolex.ai/r/tree-sitter-grammars/tree-sitter-markdown",
+      "repolex:packageName": "tree-sitter-md"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "form_urlencoded"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/algesten/ureq",
+      "repolex:packageName": "ureq"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdf",
+      "git:hexsha": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "spareval"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "sparesults",
+      "git:hexsha": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdfio",
+      "git:hexsha": "a21dcbb4f7355d7a00a86fbc5ad2c350a53629c4",
+      "git:tagName": "v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "b9625d83b524f7a8306883484f29a746eefc1bab",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap_builder",
+      "git:hexsha": "9ab6dee710aa384e02ec5e9e2cfeadb2f35abf2a",
+      "git:tagName": "v4.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes",
+      "git:hexsha": "417dccdeff249e0c011327de7d92e0d6fbe7cc43",
+      "git:tagName": "v1.11.1"
+    }
+  ]
 }

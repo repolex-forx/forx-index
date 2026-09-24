@@ -42,9 +42,95 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/29ff722b9109f8c418fd9848cf33fae3a9377550/chunk-001.nq.gz",
       "repolex:graphFileSize": 4274724
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/29ff722b9109f8c418fd9848cf33fae3a9377550.nq.gz",
+      "repolex:graphFileSize": 448389
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-22T19:03:43.916074+00:00",
-  "repolex:parserVersion": "0.1.10"
+  "repolex:parserVersion": "0.1.10",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxigraph",
+      "git:hexsha": "45e892308368d8b2c271d06dc04de17dfb6de80f",
+      "git:tagName": "v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono",
+      "repolex:packageName": "chrono"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/serde-yaml",
+      "repolex:packageName": "serde_yaml"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdf",
+      "git:hexsha": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "spareval"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdfio",
+      "git:hexsha": "a21dcbb4f7355d7a00a86fbc5ad2c350a53629c4",
+      "git:tagName": "v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "sparesults",
+      "git:hexsha": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+      "git:tagName": "v1.5.0"
+    }
+  ]
 }

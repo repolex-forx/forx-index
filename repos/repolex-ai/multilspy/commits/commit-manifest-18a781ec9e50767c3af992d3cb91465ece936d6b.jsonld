@@ -48,9 +48,47 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/18a781ec9e50767c3af992d3cb91465ece936d6b/chunk-001.nq.gz",
       "repolex:graphFileSize": 8937251
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/18a781ec9e50767c3af992d3cb91465ece936d6b.nq.gz",
+      "repolex:graphFileSize": 786679
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-18T19:21:09.383350+00:00",
-  "repolex:parserVersion": "0.1.8"
+  "repolex:parserVersion": "0.1.8",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "0e322af87745eff34caffe4df68456ebc20d9068",
+      "git:tagName": "v2.32.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "7d76a775b0ddd7632e654adc05ab2968727a2807",
+      "git:tagName": "4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil",
+      "repolex:packageName": "psutil",
+      "git:hexsha": "ea5b55605f857affa4e65fa27eb80f4f2bfebd63",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "dab199281c8f969ef870d842a660e40872785bd4",
+      "git:tagName": "7.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-asyncio",
+      "repolex:packageName": "pytest-asyncio",
+      "git:hexsha": "a10cbde05ff46b44f37a79b937a8dd38230f232a",
+      "git:tagName": "v0.21.1"
+    }
+  ]
 }

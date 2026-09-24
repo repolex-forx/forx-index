@@ -42,9 +42,25 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3fc54e02b9979427aa8c5bcb1e0c50eb29f552dd/chunk-001.nq.gz",
       "repolex:graphFileSize": 2047519
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3fc54e02b9979427aa8c5bcb1e0c50eb29f552dd.nq.gz",
+      "repolex:graphFileSize": 127742
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-22T12:15:46.511716+00:00",
-  "repolex:parserVersion": "0.1.10"
+  "repolex:parserVersion": "0.1.10",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich"
+    }
+  ]
 }
