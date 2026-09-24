@@ -48,10 +48,40 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2b2327f2a007a32d736fffa4ab87d3f207053a49/chunk-001.nq.gz",
       "repolex:graphFileSize": 1959264
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2b2327f2a007a32d736fffa4ab87d3f207053a49.nq.gz",
+      "repolex:graphFileSize": 188531
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-24T09:53:33.929510+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.1"
+  "git:tagName": "v1.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "d1072ba2c5621b70a0086cc765bb8c96d0376160",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/crossbeam-rs/crossbeam",
+      "repolex:packageName": "crossbeam-channel"
+    },
+    {
+      "@id": "https://repolex.ai/r/notify-rs/notify",
+      "repolex:packageName": "notify",
+      "git:hexsha": "48541cb70fd4bcca131f39878194d0a22bb776f6",
+      "git:tagName": "notify-8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "4502c2e786b53e16ded3b8afbe46202f6707e46c",
+      "git:tagName": "v0.26.0"
+    }
+  ]
 }
