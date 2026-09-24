@@ -48,10 +48,28 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8a0801f35176710f17afb3b73951fbec629bcb7c/chunk-001.nq.gz",
       "repolex:graphFileSize": 563166
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8a0801f35176710f17afb3b73951fbec629bcb7c.nq.gz",
+      "repolex:graphFileSize": 49792
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-24T08:52:41.759330+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/modelcontextprotocol/typescript-sdk",
+      "repolex:packageName": "@modelcontextprotocol/sdk",
+      "git:hexsha": "4faa8c899c069a98f8a0c3f804ec1a50dc2bae64",
+      "git:tagName": "v1.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/bun"
+    }
+  ]
 }

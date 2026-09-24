@@ -36,10 +36,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/393e8ed136648c4fd482aaa1e9e80be65daae76c/chunk-001.nq.gz",
       "repolex:graphFileSize": 3389753
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/393e8ed136648c4fd482aaa1e9e80be65daae76c.nq.gz",
+      "repolex:graphFileSize": 338406
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-24T08:48:09.546790+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/serde-yaml",
+      "repolex:packageName": "serde_yaml"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/Byron/open-rs",
+      "repolex:packageName": "open"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+      "git:tagName": "v1.5.0"
+    }
+  ]
 }
