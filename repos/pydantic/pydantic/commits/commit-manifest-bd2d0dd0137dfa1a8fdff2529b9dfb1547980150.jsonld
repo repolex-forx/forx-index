@@ -48,10 +48,84 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/bd2d0dd0137dfa1a8fdff2529b9dfb1547980150/chunk-001.nq.gz",
       "repolex:graphFileSize": 69425114
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/bd2d0dd0137dfa1a8fdff2529b9dfb1547980150.nq.gz",
+      "repolex:graphFileSize": 6771853
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T05:30:42.000895+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.12.5"
+  "git:tagName": "v2.12.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "42027aba3558c9d9133a90bca17f6fecaecc48d8",
+      "git:tagName": "4.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/annotated-types/annotated-types",
+      "repolex:packageName": "annotated-types",
+      "git:hexsha": "18584dffd31a845c25b92857b73ea76d10ea3d0d",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/typing-inspection",
+      "repolex:packageName": "typing-inspection",
+      "git:hexsha": "8db011350942f33ac4b5d7db60d4d9ea83ab480f",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/JoshData/python-email-validator",
+      "repolex:packageName": "email-validator",
+      "git:hexsha": "1b3e4c669499cc966c55bc87a11d2cc0a633f726",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/tzdata",
+      "repolex:packageName": "tzdata"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudpipe/cloudpickle",
+      "repolex:packageName": "cloudpickle",
+      "git:hexsha": "7576fff24b9769432f76cc6d2c01282583ee87a9",
+      "git:tagName": "v3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+      "git:tagName": "v4.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+      "git:tagName": "v2.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+      "git:tagName": "v15.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    }
+  ]
 }
