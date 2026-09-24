@@ -48,4 +48,4 @@ for row in g.query("""
 
 - [forx](https://github.com/repolex-ai/forx) — orchestrator
 - [repolex](https://repolex.ai) — parser
-- [lexq](https://github.com/repolex-ai/lexq) — query tool
+- [rlex](https://github.com/repolex-ai/rlex) — query tool
