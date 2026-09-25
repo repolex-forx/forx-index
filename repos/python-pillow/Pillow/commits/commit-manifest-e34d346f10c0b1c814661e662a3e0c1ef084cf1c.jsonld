@@ -48,10 +48,40 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e34d346f10c0b1c814661e662a3e0c1ef084cf1c/chunk-001.nq.gz",
       "repolex:graphFileSize": 54187287
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e34d346f10c0b1c814661e662a3e0c1ef084cf1c.nq.gz",
+      "repolex:graphFileSize": 3948108
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-24T13:11:02.278414+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "10.0.1"
+  "git:tagName": "10.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tiran/defusedxml",
+      "repolex:packageName": "defusedxml",
+      "git:hexsha": "ebff1b493751e2f0775314bdd4188d64f07ea184",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+      "git:tagName": "v2.5.3"
+    }
+  ]
 }
