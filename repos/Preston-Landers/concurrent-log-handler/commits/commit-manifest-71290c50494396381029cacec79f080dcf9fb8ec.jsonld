@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/71290c50494396381029cacec79f080dcf9fb8ec/chunk-001.nq.gz",
       "repolex:graphFileSize": 1965147
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/71290c50494396381029cacec79f080dcf9fb8ec.nq.gz",
+      "repolex:graphFileSize": 154533
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-21T03:15:38.999036+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.9.27"
+  "git:tagName": "0.9.27",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/wolph/portalocker",
+      "repolex:packageName": "portalocker",
+      "git:hexsha": "af69ab5be19df8e2a34c552c6154efc9a31a880d",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sponsors/ofek",
+      "repolex:packageName": "hatch"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "cf470ec0bf7eb89cd97dd56df4859eae5db46447",
+      "git:tagName": "9.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "ccbb99245dcb4e51a35087285499cdb22b164ccc",
+      "git:tagName": "7.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-mock",
+      "repolex:packageName": "pytest-mock",
+      "git:hexsha": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+      "git:tagName": "v3.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/Teemu/pytest-sugar",
+      "repolex:packageName": "pytest-sugar",
+      "git:hexsha": "81335030b95741d90ae489f9216759c009854fa9",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black",
+      "git:hexsha": "87928e6d6761a4a6d22250e1fee5601b3998086e",
+      "git:tagName": "26.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff",
+      "git:hexsha": "0be08a206f9c3180afd3e93bcc792ed5cb1f4db1",
+      "git:tagName": "0.16.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil",
+      "repolex:packageName": "psutil",
+      "git:hexsha": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+      "git:tagName": "v7.2.2"
+    }
+  ]
 }

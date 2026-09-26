@@ -57,19 +57,45 @@
     },
     {
       "@type": "repolex:GraphFile",
-      "repolex:graphType": "lsp",
-      "repolex:graphFilePath": "aggregate/lsp/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz",
-      "repolex:graphFileSize": 934801
-    },
-    {
-      "@type": "repolex:GraphFile",
       "repolex:graphType": "dep",
       "repolex:graphFilePath": "dep/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz",
       "repolex:graphFileSize": 705
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8.nq.gz",
+      "repolex:graphFileSize": 935078
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-05T03:30:45.665181+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v1.0.229"
+  "git:tagName": "v1.0.229",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test",
+      "git:hexsha": "bbb18e2db032ec5da07e07368e4d55647cf10229",
+      "git:tagName": "1.0.177"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "559cab55ef0c644f77660840edc3620d0d99d3d7",
+      "git:tagName": "3.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    }
+  ]
 }
