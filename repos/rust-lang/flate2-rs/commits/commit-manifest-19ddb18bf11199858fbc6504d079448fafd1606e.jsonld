@@ -42,10 +42,68 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 135841
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/19ddb18bf11199858fbc6504d079448fafd1606e.nq.gz",
+      "repolex:graphFileSize": 348488
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-07T04:24:53.968766+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "1.1.9"
+  "git:tagName": "1.1.9",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libz-sys",
+      "repolex:packageName": "libz-sys",
+      "git:hexsha": "38087fcfacc76d85f7360db549438ff490b3efe5",
+      "git:tagName": "1.1.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libz-sys",
+      "repolex:packageName": "libz-ng-sys",
+      "git:hexsha": "bbcc79650222ea75d335638ac6896f13000eef54",
+      "git:tagName": "1.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/trifectatechfoundation/zlib-rs",
+      "repolex:packageName": "zlib-rs",
+      "git:hexsha": "14e15a257f022c18e505fe5ea830139da47dac9d",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudflare/zlib",
+      "repolex:packageName": "cloudflare-zlib-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/Frommi/miniz_oxide",
+      "repolex:packageName": "miniz_oxide",
+      "git:hexsha": "341edf5d7985e00d05512d221c84049129628718",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/srijs/rust-crc32fast",
+      "repolex:packageName": "crc32fast",
+      "git:hexsha": "6cc30a5a4643f6a5b1b3339d8a8c23f7dd902fc2",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/slint-ui/document-features",
+      "repolex:packageName": "document-features"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/quickcheck",
+      "repolex:packageName": "quickcheck"
+    }
+  ]
 }
