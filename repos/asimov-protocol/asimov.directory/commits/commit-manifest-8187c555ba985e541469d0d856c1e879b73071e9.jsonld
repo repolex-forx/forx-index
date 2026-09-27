@@ -42,10 +42,164 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8187c555ba985e541469d0d856c1e879b73071e9/chunk-001.nq.gz",
       "repolex:graphFileSize": 740444
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8187c555ba985e541469d0d856c1e879b73071e9.nq.gz",
+      "repolex:graphFileSize": 51176
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:22:07.441128+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "master"
+  "git:tagName": "master",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/withastro/astro",
+      "repolex:packageName": "@astrojs/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/withastro/astro",
+      "repolex:packageName": "@astrojs/react"
+    },
+    {
+      "@id": "https://repolex.ai/r/phosphor-icons/react",
+      "repolex:packageName": "@phosphor-icons/react",
+      "git:hexsha": "57424d5f99b793b585f5c6f5cab76f79772510e5",
+      "git:tagName": "v2.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/tailwindcss",
+      "repolex:packageName": "@tailwindcss/vite",
+      "git:hexsha": "b24457a9f4101f20a3c3ab8df39debe87564fe8a",
+      "git:tagName": "v4.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/TanStack/query",
+      "repolex:packageName": "@tanstack/react-query",
+      "git:hexsha": "0db1056fdb8b9d71b42bb27d5522af7805580123",
+      "git:tagName": "v5.84.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/react"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/react-dom"
+    },
+    {
+      "@id": "https://repolex.ai/r/withastro/astro",
+      "repolex:packageName": "astro"
+    },
+    {
+      "@id": "https://repolex.ai/r/react/react",
+      "repolex:packageName": "react",
+      "git:hexsha": "02ef49580922f87180f32618b9d1c70b75b968b7",
+      "git:tagName": "v19.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/react/react",
+      "repolex:packageName": "react-dom",
+      "git:hexsha": "02ef49580922f87180f32618b9d1c70b75b968b7",
+      "git:tagName": "v19.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ankeetmaini/react-infinite-scroll-component",
+      "repolex:packageName": "react-infinite-scroll-component",
+      "git:hexsha": "d5b4e5250669022db5217763afd22fb3995a505a",
+      "git:tagName": "v6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/tailwindcss",
+      "repolex:packageName": "tailwindcss",
+      "git:hexsha": "b24457a9f4101f20a3c3ab8df39debe87564fe8a",
+      "git:tagName": "v4.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/eemeli/yaml",
+      "repolex:packageName": "yaml",
+      "git:hexsha": "1dc3c3ba06971613d0bcb772da4711ca25343dac",
+      "git:tagName": "v2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/withastro/astro",
+      "repolex:packageName": "@astrojs/sitemap"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/rewrite",
+      "repolex:packageName": "@eslint/compat"
+    },
+    {
+      "@id": "https://repolex.ai/r/typescript-eslint/typescript-eslint",
+      "repolex:packageName": "@typescript-eslint/eslint-plugin",
+      "git:hexsha": "1db993aa9c4ffa19ea06ad5349310101af71680e",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/typescript-eslint/typescript-eslint",
+      "repolex:packageName": "@typescript-eslint/parser",
+      "git:hexsha": "1db993aa9c4ffa19ea06ad5349310101af71680e",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "2364031090daafe34e80904c32065bfe4692d7a2",
+      "git:tagName": "v9.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/eslint-config-prettier",
+      "repolex:packageName": "eslint-config-prettier",
+      "git:hexsha": "40c7f3d0624129934bc3b40ab13a8ed938c6313b",
+      "git:tagName": "v9.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ota-meshi/eslint-plugin-astro",
+      "repolex:packageName": "eslint-plugin-astro",
+      "git:hexsha": "37a77ef36745ab410963e90ac2c9b6b4da167aad",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jsx-eslint/eslint-plugin-jsx-a11y",
+      "repolex:packageName": "eslint-plugin-jsx-a11y",
+      "git:hexsha": "65c9338c62c558d3c1c2dbf5ecc55cf04dbfe80c",
+      "git:tagName": "v6.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jsx-eslint/eslint-plugin-react",
+      "repolex:packageName": "eslint-plugin-react",
+      "git:hexsha": "ec27e20c67c125321d645a9eaa461dec7dc65421",
+      "git:tagName": "v7.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/facebook/react",
+      "repolex:packageName": "eslint-plugin-react-hooks"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "7a8b05f41574633fd3af5298f3eeaf33567ad3d3",
+      "git:tagName": "3.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/withastro/prettier-plugin-astro",
+      "repolex:packageName": "prettier-plugin-astro",
+      "git:hexsha": "1150195386a80221882d603dffa94990709395fb",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/prettier-plugin-tailwindcss",
+      "repolex:packageName": "prettier-plugin-tailwindcss",
+      "git:hexsha": "64373cf9c4edb260bb482a0a55b65230df3d1e8b",
+      "git:tagName": "v0.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/typescript-eslint/typescript-eslint",
+      "repolex:packageName": "typescript-eslint",
+      "git:hexsha": "1db993aa9c4ffa19ea06ad5349310101af71680e",
+      "git:tagName": "v8.0.0"
+    }
+  ]
 }
