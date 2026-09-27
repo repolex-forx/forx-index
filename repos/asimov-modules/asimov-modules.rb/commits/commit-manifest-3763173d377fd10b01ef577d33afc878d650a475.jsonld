@@ -36,10 +36,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3763173d377fd10b01ef577d33afc878d650a475/chunk-001.nq.gz",
       "repolex:graphFileSize": 20769
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3763173d377fd10b01ef577d33afc878d650a475.nq.gz",
+      "repolex:graphFileSize": 69
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:41:38.321286+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "25.0.0.dev.0"
+  "git:tagName": "25.0.0.dev.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/anthropics/anthropic-sdk-python",
+      "repolex:packageName": "anthropic",
+      "git:hexsha": "4421d56a4dd23550c7097c9b7ab5668bd11e09c4",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sefakilic/goodreads",
+      "repolex:packageName": "goodreads"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python",
+      "repolex:packageName": "openai",
+      "git:hexsha": "d9f7b7a085d4f2173756590abeffeb7a8c7641dd",
+      "git:tagName": "v3.19.2"
+    }
+  ]
 }
