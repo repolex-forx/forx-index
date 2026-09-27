@@ -42,10 +42,48 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 126490
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz",
+      "repolex:graphFileSize": 1458842
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-04-08T14:18:12.579957+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "v_1.7.14"
+  "git:tagName": "v_1.7.14",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-api",
+      "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+      "git:tagName": "v_2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-jdk14",
+      "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+      "git:tagName": "v_2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/cal10n",
+      "repolex:packageName": "ch.qos.cal10n:cal10n-api",
+      "git:hexsha": "3dd668da2c610c9da32f2d4b3115644577574f12",
+      "git:tagName": "v_0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.lang"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.desktop:javax.swing"
+    }
+  ]
 }

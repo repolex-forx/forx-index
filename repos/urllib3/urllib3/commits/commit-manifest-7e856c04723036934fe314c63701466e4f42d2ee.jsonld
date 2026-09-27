@@ -48,10 +48,28 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7e856c04723036934fe314c63701466e4f42d2ee/chunk-001.nq.gz",
       "repolex:graphFileSize": 11456137
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7e856c04723036934fe314c63701466e4f42d2ee.nq.gz",
+      "repolex:graphFileSize": 1142676
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-26T00:34:42.497901+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.25.4"
+  "git:tagName": "1.25.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    }
+  ]
 }

@@ -42,10 +42,218 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 236767
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1d082ef7bdb6d80a2964698804a46c338b4c6a99.nq.gz",
+      "repolex:graphFileSize": 1480576
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-07T04:33:22.210019+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "tower-http-0.6.11"
+  "git:tagName": "tower-http-0.6.11",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "75fef53d0a8590c2d1dbb63672aa7b7d1ef51155",
+      "git:tagName": "tokio-1.53.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower",
+      "repolex:packageName": "tower",
+      "git:hexsha": "4b0a6b0e688bd177eb2c9c97f5268dd9703c66fc",
+      "git:tagName": "tower-0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64",
+      "git:hexsha": "e14400697453bcc85997119b874bc03d9601d0af",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-core",
+      "git:hexsha": "5a141ea9c16ccacf411b9b917a07e216ff5c6b4d",
+      "git:tagName": "tracing-0.1.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http-body",
+      "repolex:packageName": "http-body-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2",
+      "git:hexsha": "ed93d4fc60eaf876c6aded741bf992d524551930",
+      "git:tagName": "1.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/Nullus157/async-compression",
+      "repolex:packageName": "async-compression"
+    },
+    {
+      "@id": "https://repolex.ai/r/abonander/mime_guess",
+      "repolex:packageName": "mime_guess"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/mime",
+      "repolex:packageName": "mime",
+      "git:hexsha": "ce5062d216bf757a0ed3fc70f0fe255d1c8d74ae",
+      "git:tagName": "v0.3.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/dropbox/rust-brotli-decompressor",
+      "repolex:packageName": "brotli-decompressor",
+      "git:hexsha": "8dd9ab9fa41ec57de152ed61628f7bff7fb4ff04",
+      "git:tagName": "5.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/gyscos/zstd-rs",
+      "repolex:packageName": "zstd",
+      "git:hexsha": "52e9d41a645fb49edcf1ed3df765f380dbcf13b2",
+      "git:tagName": "v0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/taiki-e/pin-project-lite",
+      "repolex:packageName": "pin-project-lite",
+      "git:hexsha": "3bdf763446aa78f90e3bdac1ef583e014832ab4c",
+      "git:tagName": "v0.2.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/once_cell",
+      "repolex:packageName": "once_cell",
+      "git:hexsha": "80fe900b21f6d76c1a2ed74d3343e8a3a88c46d0",
+      "git:tagName": "v1.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "2d55f6faf9be83e7e4634129fb96813241aac2b8",
+      "git:tagName": "tracing-0.1.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes",
+      "git:hexsha": "76c0fbb54ed4336caf9d2311658a2f4a5627c21d",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http-body",
+      "repolex:packageName": "http-body",
+      "git:hexsha": "3396328602f7b147ae7b13f022c2b94dff9434e3",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/MarcusGrass/parse-range-headers",
+      "repolex:packageName": "http-range-header",
+      "git:hexsha": "0aa53aa14bbb7e292134414716fdafb20ac10977",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower",
+      "repolex:packageName": "tower-service"
+    },
+    {
+      "@id": "https://repolex.ai/r/uuid-rs/uuid",
+      "repolex:packageName": "uuid",
+      "git:hexsha": "9f927126c89892ddfed6cd2f92df16852f3f9aa6",
+      "git:tagName": "v1.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/hyper-util",
+      "repolex:packageName": "hyper-util",
+      "git:hexsha": "23a868965964c1d6bb1b94f30ba4c420a4bebe7c",
+      "git:tagName": "v0.1.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/Nullus157/async-compression",
+      "repolex:packageName": "compression-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/Nullus157/async-compression",
+      "repolex:packageName": "compression-codecs"
+    },
+    {
+      "@id": "https://repolex.ai/r/Actyx/sync_wrapper",
+      "repolex:packageName": "sync_wrapper"
+    },
+    {
+      "@id": "https://repolex.ai/r/bitflags/bitflags",
+      "repolex:packageName": "bitflags",
+      "git:hexsha": "80ce9b545acb0bd42150695fc351889cac1d8eb4",
+      "git:tagName": "2.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "percent-encoding"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest",
+      "git:hexsha": "de55373434f07f42926599dbb5a88550d8e55112",
+      "git:tagName": "v0.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/warp",
+      "repolex:packageName": "warp",
+      "git:hexsha": "707866ca367dd7e40082c31fbce88624f7059df0",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/hyper",
+      "repolex:packageName": "hyper",
+      "git:hexsha": "6371cd425017155f7fbecef0e57b218edbe6a93a",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-subscriber"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-stream",
+      "git:hexsha": "62f34e15ce6294f6273c33548772a70d76f2ea61",
+      "git:tagName": "tokio-0.1.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/tonic",
+      "repolex:packageName": "tonic"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyfisch/httpdate",
+      "repolex:packageName": "httpdate",
+      "git:hexsha": "638da761065df8b67282b0a1d139c0a7e4a02429",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/andrewhickman/protox",
+      "repolex:packageName": "protox"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/tonic",
+      "repolex:packageName": "tonic-prost-build"
+    }
+  ]
 }

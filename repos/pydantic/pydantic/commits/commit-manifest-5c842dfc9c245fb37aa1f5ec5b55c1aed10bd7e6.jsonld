@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6/chunk-001.nq.gz",
       "repolex:graphFileSize": 69388211
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6.nq.gz",
+      "repolex:graphFileSize": 6463649
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-25T07:21:29.182012+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.12.4"
+  "git:tagName": "v2.12.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "42027aba3558c9d9133a90bca17f6fecaecc48d8",
+      "git:tagName": "4.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/annotated-types/annotated-types",
+      "repolex:packageName": "annotated-types",
+      "git:hexsha": "18584dffd31a845c25b92857b73ea76d10ea3d0d",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/typing-inspection",
+      "repolex:packageName": "typing-inspection",
+      "git:hexsha": "8db011350942f33ac4b5d7db60d4d9ea83ab480f",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/JoshData/python-email-validator",
+      "repolex:packageName": "email-validator",
+      "git:hexsha": "1b3e4c669499cc966c55bc87a11d2cc0a633f726",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/tzdata",
+      "repolex:packageName": "tzdata"
+    }
+  ]
 }

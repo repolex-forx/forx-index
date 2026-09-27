@@ -48,10 +48,98 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a7a60166ad8f686f388719a147f815b053c9e885/chunk-001.nq.gz",
       "repolex:graphFileSize": 54524320
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a7a60166ad8f686f388719a147f815b053c9e885.nq.gz",
+      "repolex:graphFileSize": 5816813
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-25T19:11:47.205803+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.18.0"
+  "git:tagName": "v2.18.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx",
+      "git:hexsha": "89cdd903b2f339c6ae319773c31b8c9352bd9cd8",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "fbf8002cefd1ba7b263f63545fff2e48a378189d",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "ac3e7c619913bd0ddf9c36b6e633b278d07405b7",
+      "git:tagName": "3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-distro/distro",
+      "repolex:packageName": "distro",
+      "git:hexsha": "697b2dbb20ab12cb86becf57f062645de723d5ac",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/sniffio",
+      "repolex:packageName": "sniffio",
+      "git:hexsha": "ae020e13b98d276a6558ffc25e82509fd4c288f0",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/jiter",
+      "repolex:packageName": "jiter",
+      "git:hexsha": "4f0651417714fef98db51ad4b53ea18278fc4fcc",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/aiohttp",
+      "repolex:packageName": "aiohttp",
+      "git:hexsha": "5e392ce0456f5235a4ee6ad46f0e806df2f15873",
+      "git:tagName": "v3.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/karpetrosyan/httpx-aiohttp",
+      "repolex:packageName": "httpx-aiohttp",
+      "git:hexsha": "2fcfccd91211bc5e65abcc396e058e8de423136a",
+      "git:tagName": "0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-websockets/websockets",
+      "repolex:packageName": "websockets"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy"
+    },
+    {
+      "@id": "https://repolex.ai/r/pandas-dev/pandas",
+      "repolex:packageName": "pandas",
+      "git:hexsha": "f2c8480af2f25efdbd803218b9d87980f416563e",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pandas-dev/pandas-stubs",
+      "repolex:packageName": "pandas-stubs"
+    },
+    {
+      "@id": "https://repolex.ai/r/spatialaudio/python-sounddevice",
+      "repolex:packageName": "sounddevice",
+      "git:hexsha": "25894e326fce2dd8b5172624b621c32a3550c5b4",
+      "git:tagName": "0.5.1"
+    }
+  ]
 }
