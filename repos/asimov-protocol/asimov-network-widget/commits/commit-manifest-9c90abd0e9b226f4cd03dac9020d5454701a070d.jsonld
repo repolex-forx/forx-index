@@ -42,10 +42,136 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/9c90abd0e9b226f4cd03dac9020d5454701a070d/chunk-001.nq.gz",
       "repolex:graphFileSize": 386989
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/9c90abd0e9b226f4cd03dac9020d5454701a070d.nq.gz",
+      "repolex:graphFileSize": 39661
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:30:32.395213+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/visjs/vis-data",
+      "repolex:packageName": "vis-data",
+      "git:hexsha": "254eb5ef40f51c85380b2115987efdc73b4ae1e8",
+      "git:tagName": "v7.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/visjs/vis-network",
+      "repolex:packageName": "vis-network",
+      "git:hexsha": "ab248e5f6ce2a882a84e4664e1d3c26307e9fdf4",
+      "git:tagName": "v9.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "@eslint/js",
+      "git:hexsha": "60a78e7964fbb79c0e55e86845a87e0eb22d4de3",
+      "git:tagName": "v9.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/tailwindcss",
+      "repolex:packageName": "@tailwindcss/vite",
+      "git:hexsha": "25539e3533849d6d3d09942bbd18421fb5197008",
+      "git:tagName": "v4.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/testing-library/jest-dom",
+      "repolex:packageName": "@testing-library/jest-dom",
+      "git:hexsha": "5ba015651c7b10c154e5a4ae54f85df6010c5295",
+      "git:tagName": "v6.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/testing-library/react-testing-library",
+      "repolex:packageName": "@testing-library/react",
+      "git:hexsha": "9fc6a75d74bb8e03a48d3339efde4dd83cd5328b",
+      "git:tagName": "v16.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/react"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/react-dom"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitejs/vite-plugin-react",
+      "repolex:packageName": "@vitejs/plugin-react",
+      "git:hexsha": "2e368a65aaf8314142538c369c296e277fdfb69b",
+      "git:tagName": "v4.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "60a78e7964fbb79c0e55e86845a87e0eb22d4de3",
+      "git:tagName": "v9.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/facebook/react",
+      "repolex:packageName": "eslint-plugin-react-hooks"
+    },
+    {
+      "@id": "https://repolex.ai/r/ArnaudBarre/eslint-plugin-react-refresh",
+      "repolex:packageName": "eslint-plugin-react-refresh",
+      "git:hexsha": "b054ab4c1c2dd851f927f43024b4348c11a59325",
+      "git:tagName": "v0.4.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/globals",
+      "repolex:packageName": "globals",
+      "git:hexsha": "efb324782720e6f97d13651fa73ae32ef4ca01b4",
+      "git:tagName": "v16.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jsdom/jsdom",
+      "repolex:packageName": "jsdom",
+      "git:hexsha": "1911c806c0d5a1b7e27686e09369f36c58dd3cc5",
+      "git:tagName": "v26.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/tailwindcss",
+      "repolex:packageName": "tailwindcss",
+      "git:hexsha": "25539e3533849d6d3d09942bbd18421fb5197008",
+      "git:tagName": "v4.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "git:hexsha": "d701d908d534e68cfab24b6df15539014ac348a3",
+      "git:tagName": "v5.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/typescript-eslint/typescript-eslint",
+      "repolex:packageName": "typescript-eslint",
+      "git:hexsha": "9aa0b6b49807599b1c2b704b778df74c91084a7c",
+      "git:tagName": "v8.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitejs/vite",
+      "repolex:packageName": "vite",
+      "git:hexsha": "a7349ef31e3c2d7d9889ca629d43935745b7044e",
+      "git:tagName": "v6.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/qmhc/unplugin-dts",
+      "repolex:packageName": "vite-plugin-dts",
+      "git:hexsha": "a1a26a576cd4607f6f3cd9af45f4681b5473b0b3",
+      "git:tagName": "v4.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "vitest",
+      "git:hexsha": "a9d36c719f8ce5551f61da20181490d3673bdf99",
+      "git:tagName": "v3.1.1"
+    }
+  ]
 }
