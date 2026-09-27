@@ -42,10 +42,48 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4abf23e71987124f71711c4f26d0aaff409425c9/chunk-001.nq.gz",
       "repolex:graphFileSize": 237861
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4abf23e71987124f71711c4f26d0aaff409425c9.nq.gz",
+      "repolex:graphFileSize": 6273
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:08:20.051951+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "master"
+  "git:tagName": "master",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/scm:git@github.com:micronaut-projects/micronaut-test",
+      "repolex:packageName": "io.micronaut.test:micronaut-test-junit5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scm:git@github.com:micronaut-projects/micronaut-core",
+      "repolex:packageName": "io.micronaut:micronaut-jackson-databind"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit-framework",
+      "repolex:packageName": "org.junit.jupiter:junit-jupiter-engine"
+    },
+    {
+      "@id": "https://repolex.ai/r/hamcrest/JavaHamcrest",
+      "repolex:packageName": "org.hamcrest:hamcrest",
+      "git:hexsha": "68984b85e869df6a888fffcad87e4b676a8fc0ac",
+      "git:tagName": "v3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/hamcrest/JavaHamcrest",
+      "repolex:packageName": "org.hamcrest:hamcrest-library",
+      "git:hexsha": "68984b85e869df6a888fffcad87e4b676a8fc0ac",
+      "git:tagName": "v3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/allure-framework/allure-java",
+      "repolex:packageName": "io.qameta.allure:allure-junit5",
+      "git:hexsha": "8fc77b601516c7447a51b048ffad8fed5c7936cd",
+      "git:tagName": "2.35.5"
+    }
+  ]
 }

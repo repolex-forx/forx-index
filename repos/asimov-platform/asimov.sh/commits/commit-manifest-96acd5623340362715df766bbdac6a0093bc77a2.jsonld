@@ -42,10 +42,134 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/96acd5623340362715df766bbdac6a0093bc77a2/chunk-001.nq.gz",
       "repolex:graphFileSize": 107273
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/96acd5623340362715df766bbdac6a0093bc77a2.nq.gz",
+      "repolex:graphFileSize": 13603
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:08:55.147983+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "master"
+  "git:tagName": "master",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/TanStack/query",
+      "repolex:packageName": "@tanstack/svelte-query",
+      "git:hexsha": "6f3d93c2bfc65442936afaa97aa159f77ceffe50",
+      "git:tagName": "v5.80.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/echarts",
+      "repolex:packageName": "echarts",
+      "git:hexsha": "fe42bc1ea3a8d2ef7864cfe303de34f480149d09",
+      "git:tagName": "5.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bherbruck/svelte-echarts",
+      "repolex:packageName": "svelte-echarts",
+      "git:hexsha": "18c86705ed4697f6a63a99dd1c17c9795f3906eb",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/rewrite",
+      "repolex:packageName": "@eslint/compat"
+    },
+    {
+      "@id": "https://repolex.ai/r/sveltejs/vite-plugin-svelte",
+      "repolex:packageName": "@sveltejs/vite-plugin-svelte"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/tailwindcss",
+      "repolex:packageName": "@tailwindcss/vite",
+      "git:hexsha": "74e084ad2754fe687349042015196addc9cb1327",
+      "git:tagName": "v4.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tsconfig/bases",
+      "repolex:packageName": "@tsconfig/svelte"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "b9080cf28d88f934941a545a033eb960eceeadbd",
+      "git:tagName": "v9.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/eslint-config-prettier",
+      "repolex:packageName": "eslint-config-prettier",
+      "git:hexsha": "4c9489339d37bf96d31e0596e64bb8d4cb4308ef",
+      "git:tagName": "v10.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sveltejs/eslint-plugin-svelte",
+      "repolex:packageName": "eslint-plugin-svelte"
+    },
+    {
+      "@id": "https://repolex.ai/r/typicode/husky",
+      "repolex:packageName": "husky",
+      "git:hexsha": "799e84b716d0e03db80db5d5b0dcdd15b9d555fc",
+      "git:tagName": "v9.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/haruaki07/phosphor-svelte",
+      "repolex:packageName": "phosphor-svelte",
+      "git:hexsha": "5259cb35a2b13107ffbaecb8f011a4ddc41ef34c",
+      "git:tagName": "v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "4ff5dc540fa09b25fb0c02709d227af5ca53cfbf",
+      "git:tagName": "3.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sveltejs/prettier-plugin-svelte",
+      "repolex:packageName": "prettier-plugin-svelte"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/prettier-plugin-tailwindcss",
+      "repolex:packageName": "prettier-plugin-tailwindcss",
+      "git:hexsha": "b5fb12c15b0dc881f6df55a6c21d30dc98830060",
+      "git:tagName": "v0.6.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/sveltejs/svelte",
+      "repolex:packageName": "svelte"
+    },
+    {
+      "@id": "https://repolex.ai/r/sveltejs/language-tools",
+      "repolex:packageName": "svelte-check"
+    },
+    {
+      "@id": "https://repolex.ai/r/tailwindlabs/tailwindcss",
+      "repolex:packageName": "tailwindcss",
+      "git:hexsha": "74e084ad2754fe687349042015196addc9cb1327",
+      "git:tagName": "v4.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "git:hexsha": "68cead182cc24afdc3f1ce7c8ff5853aba14b65a",
+      "git:tagName": "v5.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/typescript-eslint/typescript-eslint",
+      "repolex:packageName": "typescript-eslint",
+      "git:hexsha": "dca57b3e6643fdd533f2939c5322ffb9c6044e63",
+      "git:tagName": "v8.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitejs/vite",
+      "repolex:packageName": "vite",
+      "git:hexsha": "84e4647efac01efafcef95fb1c7ec9336fe0a94c",
+      "git:tagName": "v6.3.5"
+    }
+  ]
 }
