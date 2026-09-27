@@ -36,10 +36,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/973897c56692a4be0f664a2606bf1b6e16c8da24/chunk-001.nq.gz",
       "repolex:graphFileSize": 505917
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/973897c56692a4be0f664a2606bf1b6e16c8da24.nq.gz",
+      "repolex:graphFileSize": 69
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:20:56.092443+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "25.0.0.dev.6"
+  "git:tagName": "25.0.0.dev.6",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov-sdk",
+      "repolex:packageName": "asimov.rb"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-config"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-construct"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-dataset"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-flow"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-module"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-ontology"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-protocol"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-sdk"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rb",
+      "repolex:packageName": "asimov-vault"
+    }
+  ]
 }

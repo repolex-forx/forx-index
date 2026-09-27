@@ -36,10 +36,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b058535a14de6b810854d1159783aaf677244101/chunk-001.nq.gz",
       "repolex:graphFileSize": 8433
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b058535a14de6b810854d1159783aaf677244101.nq.gz",
+      "repolex:graphFileSize": 1477
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:20:41.349607+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "26.0.0.dev1"
+  "git:tagName": "26.0.0.dev1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic"
+    },
+    {
+      "@id": "https://repolex.ai/r/JelteF/derive_more",
+      "repolex:packageName": "derive_more"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3"
+    }
+  ]
 }
