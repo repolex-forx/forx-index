@@ -36,10 +36,68 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/31de201485f5ac45955497f9fce95fc27928158d/chunk-001.nq.gz",
       "repolex:graphFileSize": 145747
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/31de201485f5ac45955497f9fce95fc27928158d.nq.gz",
+      "repolex:graphFileSize": 14568
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:17:42.514526+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.0"
+  "git:tagName": "0.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "cf495549f9c4c40fafee9770913ae90baff78f7d",
+      "git:tagName": "25.0.0-dev.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/dogmatists/dogma.rs",
+      "repolex:packageName": "dogma",
+      "git:hexsha": "05158408aca889a5bcc4ede013c42603f4e1c3c8",
+      "git:tagName": "0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/know-ontology/know.rs",
+      "repolex:packageName": "know",
+      "git:hexsha": "9b60d4dc78baad0394f5871f7b411575e2c3c447",
+      "git:tagName": "0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/stalwartlabs/mail-parser",
+      "repolex:packageName": "mail-parser"
+    },
+    {
+      "@id": "https://repolex.ai/r/djc/mbox-reader",
+      "repolex:packageName": "mbox-reader"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ctron/colored_json",
+      "repolex:packageName": "colored_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }
