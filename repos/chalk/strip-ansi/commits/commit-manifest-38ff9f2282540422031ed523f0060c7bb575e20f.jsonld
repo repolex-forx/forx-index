@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/38ff9f2282540422031ed523f0060c7bb575e20f/chunk-001.nq.gz",
       "repolex:graphFileSize": 28352
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/38ff9f2282540422031ed523f0060c7bb575e20f.nq.gz",
+      "repolex:graphFileSize": 2699
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T08:20:32.412663+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v7.2.0"
+  "git:tagName": "v7.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/chalk/ansi-regex",
+      "repolex:packageName": "ansi-regex",
+      "git:hexsha": "94983fc6ba00e1e9657f72c07eb7b9c75e4011a2",
+      "git:tagName": "v6.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/avajs/ava",
+      "repolex:packageName": "ava",
+      "git:hexsha": "603d7ca2ada70f3e9e79ee5002a509f0646cb37c",
+      "git:tagName": "v6.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tsdjs/tsd",
+      "repolex:packageName": "tsd",
+      "git:hexsha": "9b8d615abd09c6760988b4499b53ac7074f8cc92",
+      "git:tagName": "v0.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/xojs/xo",
+      "repolex:packageName": "xo",
+      "git:hexsha": "5477c4a75911ef8aa219d3258886148a130c118a",
+      "git:tagName": "v1.2.3"
+    }
+  ]
 }
