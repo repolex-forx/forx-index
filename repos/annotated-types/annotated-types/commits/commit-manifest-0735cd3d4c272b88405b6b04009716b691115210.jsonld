@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0735cd3d4c272b88405b6b04009716b691115210/chunk-001.nq.gz",
       "repolex:graphFileSize": 456146
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0735cd3d4c272b88405b6b04009716b691115210.nq.gz",
+      "repolex:graphFileSize": 40309
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:40:27.895002+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.7.0"
+  "git:tagName": "v0.7.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "cf75e420a23c28fd6fd963573a55450db7237ab7",
+      "git:tagName": "4.0.0"
+    }
+  ]
 }
