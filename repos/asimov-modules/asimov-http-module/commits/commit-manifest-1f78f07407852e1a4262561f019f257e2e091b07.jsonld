@@ -42,10 +42,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/1f78f07407852e1a4262561f019f257e2e091b07/chunk-001.nq.gz",
       "repolex:graphFileSize": 23611
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1f78f07407852e1a4262561f019f257e2e091b07.nq.gz",
+      "repolex:graphFileSize": 3479
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:46:23.865004+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.1"
+  "git:tagName": "0.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "c123f9792eb8843bad3e00f4dd586e037bca4858",
+      "git:tagName": "25.0.0-dev.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "afb2881b9b9156588ff4b270da93718a3a4770f8",
+      "git:tagName": "0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/gofer.rs",
+      "repolex:packageName": "gofer",
+      "git:hexsha": "a6234b5e6954779a8ee1fdf854e99b1d9b69d90b",
+      "git:tagName": "0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }
