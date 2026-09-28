@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/52a64313bb95aba5fbfddd1b0256aa0fce229bb2/chunk-001.nq.gz",
       "repolex:graphFileSize": 1596558
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/52a64313bb95aba5fbfddd1b0256aa0fce229bb2.nq.gz",
+      "repolex:graphFileSize": 219130
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T08:00:35.707544+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "5.3.1"
+  "git:tagName": "5.3.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/acornjs/acorn",
+      "repolex:packageName": "acorn",
+      "git:hexsha": "116733e6f3e5caffaf566d93f721eeeefb5d621a",
+      "git:tagName": "8.0.1"
+    }
+  ]
 }
