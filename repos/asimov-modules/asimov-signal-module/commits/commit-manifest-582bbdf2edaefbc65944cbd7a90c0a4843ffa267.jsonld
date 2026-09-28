@@ -42,10 +42,80 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/582bbdf2edaefbc65944cbd7a90c0a4843ffa267/chunk-001.nq.gz",
       "repolex:graphFileSize": 304398
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/582bbdf2edaefbc65944cbd7a90c0a4843ffa267.nq.gz",
+      "repolex:graphFileSize": 33720
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:21:07.549104+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.3"
+  "git:tagName": "0.0.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "3df82e987f30ab589274c6102831086fc03eb1fa",
+      "git:tagName": "25.0.0-dev.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/dogmatists/dogma.rs",
+      "repolex:packageName": "dogma",
+      "git:hexsha": "05158408aca889a5bcc4ede013c42603f4e1c3c8",
+      "git:tagName": "0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex"
+    },
+    {
+      "@id": "https://repolex.ai/r/keepsimple1/libaes",
+      "repolex:packageName": "libaes"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/password-hashes",
+      "repolex:packageName": "pbkdf2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rusqlite/rusqlite",
+      "repolex:packageName": "rusqlite"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/getenv.rs",
+      "repolex:packageName": "getenv",
+      "git:hexsha": "6fafcf5587045ec427a804d3ea3da9b63e0605dd",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/iqlusioninc/crates",
+      "repolex:packageName": "secrecy"
+    }
+  ]
 }

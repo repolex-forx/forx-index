@@ -48,10 +48,120 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/25bb6dd5de984e56a81bff0e364dec365dd93383/chunk-001.nq.gz",
       "repolex:graphFileSize": 523671
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/25bb6dd5de984e56a81bff0e364dec365dd93383.nq.gz",
+      "repolex:graphFileSize": 51824
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:20:12.077908+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.7"
+  "git:tagName": "0.1.7",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "6d57c34e594b4fe891e1d606a2de6fbddb6e77f4",
+      "git:tagName": "25.0.0-dev.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/dogmatists/dogma.rs",
+      "repolex:packageName": "dogma",
+      "git:hexsha": "05158408aca889a5bcc4ede013c42603f4e1c3c8",
+      "git:tagName": "0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/jonhoo/rust-imap",
+      "repolex:packageName": "imap",
+      "git:hexsha": "70ed8f170902b7b968c455b5c65eebc8c0508449",
+      "git:tagName": "v3.0.0-alpha.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/djc/tokio-imap",
+      "repolex:packageName": "imap-proto"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/jiff",
+      "repolex:packageName": "jiff"
+    },
+    {
+      "@id": "https://repolex.ai/r/know-ontology/know.rs",
+      "repolex:packageName": "know",
+      "git:hexsha": "bf6e15d559e2c2e1afcc0855248681850b466024",
+      "git:tagName": "0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/stalwartlabs/mail-parser",
+      "repolex:packageName": "mail-parser"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "percent-encoding"
+    },
+    {
+      "@id": "https://repolex.ai/r/TornaxO7/rfc2047-decoder",
+      "repolex:packageName": "rfc2047-decoder"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rustls",
+      "repolex:packageName": "rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/iqlusioninc/crates",
+      "repolex:packageName": "secrecy"
+    },
+    {
+      "@id": "https://repolex.ai/r/rilut/rust-tldr",
+      "repolex:packageName": "tldr"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ctron/colored_json",
+      "repolex:packageName": "colored_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/gribouille/netrc",
+      "repolex:packageName": "rust-netrc"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "0ca78870815a34a345a908f48db057057e8803d2",
+      "git:tagName": "tracing-0.1.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/tldr.rs",
+      "repolex:packageName": "tldr-traits",
+      "git:hexsha": "547a4c433563aa783b368cac1cc0dc443569ee26",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/getenv.rs",
+      "repolex:packageName": "getenv",
+      "git:hexsha": "6fafcf5587045ec427a804d3ea3da9b63e0605dd",
+      "git:tagName": "0.1.2"
+    }
+  ]
 }

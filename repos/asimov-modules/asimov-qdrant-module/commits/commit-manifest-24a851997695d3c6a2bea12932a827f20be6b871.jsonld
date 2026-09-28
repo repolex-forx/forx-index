@@ -36,10 +36,66 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/24a851997695d3c6a2bea12932a827f20be6b871/chunk-001.nq.gz",
       "repolex:graphFileSize": 73277
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/24a851997695d3c6a2bea12932a827f20be6b871.nq.gz",
+      "repolex:graphFileSize": 5767
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:20:06.444878+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.1"
+  "git:tagName": "0.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "e9ff59156d04f9d9a43fc27b5d8409455cdf527c",
+      "git:tagName": "25.0.0-dev.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/dogmatists/dogma.rs",
+      "repolex:packageName": "dogma",
+      "git:hexsha": "05158408aca889a5bcc4ede013c42603f4e1c3c8",
+      "git:tagName": "0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/Anush008/fastembed-rs",
+      "repolex:packageName": "fastembed"
+    },
+    {
+      "@id": "https://repolex.ai/r/qdrant/rust-client",
+      "repolex:packageName": "qdrant-client"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/uuid-rs/uuid",
+      "repolex:packageName": "uuid"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }
