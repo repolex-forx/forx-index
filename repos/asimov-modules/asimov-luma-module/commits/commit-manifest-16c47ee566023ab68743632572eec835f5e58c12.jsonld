@@ -48,10 +48,74 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/16c47ee566023ab68743632572eec835f5e58c12/chunk-001.nq.gz",
       "repolex:graphFileSize": 344922
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/16c47ee566023ab68743632572eec835f5e58c12.nq.gz",
+      "repolex:graphFileSize": 27526
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:24:12.089503+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.4"
+  "git:tagName": "0.1.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "eeca92906a8e6fab3ce49d3b0bf90a3b8e8def66",
+      "git:tagName": "25.0.0-dev.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/jq.rs",
+      "repolex:packageName": "jq"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "0ca78870815a34a345a908f48db057057e8803d2",
+      "git:tagName": "tracing-0.1.41"
+    }
+  ]
 }

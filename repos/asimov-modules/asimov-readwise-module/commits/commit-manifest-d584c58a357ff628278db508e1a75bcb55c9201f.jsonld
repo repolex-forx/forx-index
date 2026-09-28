@@ -42,10 +42,80 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d584c58a357ff628278db508e1a75bcb55c9201f/chunk-001.nq.gz",
       "repolex:graphFileSize": 343839
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d584c58a357ff628278db508e1a75bcb55c9201f.nq.gz",
+      "repolex:graphFileSize": 37773
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:22:54.909489+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.1.0"
+  "git:tagName": "v0.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "eeca92906a8e6fab3ce49d3b0bf90a3b8e8def66",
+      "git:tagName": "25.0.0-dev.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/jq.rs",
+      "repolex:packageName": "jq"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-subscriber"
+    },
+    {
+      "@id": "https://repolex.ai/r/ctron/colored_json",
+      "repolex:packageName": "colored_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/algesten/ureq",
+      "repolex:packageName": "ureq",
+      "git:hexsha": "1791e181b5c316b8a70a9e52427448d760ce591a",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/getenv.rs",
+      "repolex:packageName": "getenv",
+      "git:hexsha": "6fafcf5587045ec427a804d3ea3da9b63e0605dd",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/iqlusioninc/crates",
+      "repolex:packageName": "secrecy"
+    }
+  ]
 }

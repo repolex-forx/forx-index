@@ -42,10 +42,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/381597e02648ab4fb97069d3c33968f7e1c21574/chunk-001.nq.gz",
       "repolex:graphFileSize": 158228
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/381597e02648ab4fb97069d3c33968f7e1c21574.nq.gz",
+      "repolex:graphFileSize": 12713
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:26:00.699342+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.0"
+  "git:tagName": "0.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "3df82e987f30ab589274c6102831086fc03eb1fa",
+      "git:tagName": "25.0.0-dev.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/redis-rs/redis-rs",
+      "repolex:packageName": "redis"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "6843c3660ec3394b15da016902e001f8381dfe92",
+      "git:tagName": "v1.0.141"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/getenv.rs",
+      "repolex:packageName": "getenv",
+      "git:hexsha": "6fafcf5587045ec427a804d3ea3da9b63e0605dd",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }
