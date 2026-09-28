@@ -42,10 +42,108 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/775675ed8b9ac96f51844d2a32178014c255db47/chunk-001.nq.gz",
       "repolex:graphFileSize": 683478
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/775675ed8b9ac96f51844d2a32178014c255db47.nq.gz",
+      "repolex:graphFileSize": 82877
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:31:19.464132+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.1"
+  "git:tagName": "0.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "3df82e987f30ab589274c6102831086fc03eb1fa",
+      "git:tagName": "25.0.0-dev.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "whatsapp-rust",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "wacore-binary",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "waproto",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kennytm/qrcode-rust",
+      "repolex:packageName": "qrcode",
+      "git:hexsha": "0695f037c5b43999a6cdf08984974b8d0388ad78",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "e3b89bbefa7564e2eba2fb9f849ef7bf87d60fad",
+      "git:tagName": "tokio-1.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/zkat/miette",
+      "repolex:packageName": "miette",
+      "git:hexsha": "907857058dc255caeae456e87146c629ce69cf5c",
+      "git:tagName": "v7.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "whatsapp-rust-ureq-http-client",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "whatsapp-rust-tokio-transport",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "whatsapp-rust-sqlite-storage",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jlucaso1/whatsapp-rust",
+      "repolex:packageName": "wacore",
+      "git:hexsha": "f61297b42942964002b7826508cf166169cebb60",
+      "git:tagName": "v0.2.0"
+    }
+  ]
 }

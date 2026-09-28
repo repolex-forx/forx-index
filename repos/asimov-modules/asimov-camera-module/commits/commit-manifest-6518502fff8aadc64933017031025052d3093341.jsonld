@@ -48,10 +48,88 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6518502fff8aadc64933017031025052d3093341/chunk-001.nq.gz",
       "repolex:graphFileSize": 1306086
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6518502fff8aadc64933017031025052d3093341.nq.gz",
+      "repolex:graphFileSize": 104068
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:31:16.448358+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.3"
+  "git:tagName": "0.0.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module"
+    },
+    {
+      "@id": "https://repolex.ai/r/Detegr/rust-ctrlc",
+      "repolex:packageName": "ctrlc"
+    },
+    {
+      "@id": "https://repolex.ai/r/JelteF/derive_more",
+      "repolex:packageName": "derive_more"
+    },
+    {
+      "@id": "https://repolex.ai/r/dogmatists/dogma.rs",
+      "repolex:packageName": "dogma"
+    },
+    {
+      "@id": "https://repolex.ai/r/image-rs/image",
+      "repolex:packageName": "image"
+    },
+    {
+      "@id": "https://repolex.ai/r/qarmin/img_hash",
+      "repolex:packageName": "image_hasher"
+    },
+    {
+      "@id": "https://repolex.ai/r/know-ontology/know.rs",
+      "repolex:packageName": "know"
+    },
+    {
+      "@id": "https://repolex.ai/r/bluss/scopeguard",
+      "repolex:packageName": "scopeguard"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "9f598d245e18ecb243118cfde095f24598ec9d5b",
+      "git:tagName": "0.2.177"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }
