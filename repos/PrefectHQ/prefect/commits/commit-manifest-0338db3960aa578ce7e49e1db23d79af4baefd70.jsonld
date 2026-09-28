@@ -42,10 +42,170 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 13664774
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0338db3960aa578ce7e49e1db23d79af4baefd70.nq.gz",
+      "repolex:graphFileSize": 19129595
     }
   ],
-  "repolex:parseStatus": "parsed",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-17T00:39:06.270352+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "prefect-snowflake-0.28.0rc1"
+  "git:tagName": "prefect-snowflake-0.28.0rc1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/omnilib/aiosqlite",
+      "repolex:packageName": "aiosqlite",
+      "git:hexsha": "9bab000978e7ad0a6153afc4fad3fd8eaa4a00ad",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic",
+      "repolex:packageName": "alembic"
+    },
+    {
+      "@id": "https://repolex.ai/r/caronc/apprise",
+      "repolex:packageName": "apprise",
+      "git:hexsha": "1228b3884e66b347dbbe8b36c397790e6b501f86",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/MagicStack/asyncpg",
+      "repolex:packageName": "asyncpg"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography",
+      "repolex:packageName": "cryptography",
+      "git:hexsha": "3fd9d5a8424eef3e08260a622ae3644777ac5339",
+      "git:tagName": "36.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scrapinghub/dateparser",
+      "repolex:packageName": "dateparser",
+      "git:hexsha": "89b7fda98c6093648a15db5511e48503ea6a43b7",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/docker/docker-py",
+      "repolex:packageName": "docker"
+    },
+    {
+      "@id": "https://repolex.ai/r/xflr6/graphviz",
+      "repolex:packageName": "graphviz",
+      "git:hexsha": "1a9ebd130c029677aff37fd9d8733f4685a7d9a9",
+      "git:tagName": "0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/mkdocstrings/griffe",
+      "repolex:packageName": "griffe",
+      "git:hexsha": "c1c5c9c5bcb4d33bf7fe8e4f83dbc3a2c38db04f",
+      "git:tagName": "0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "417f822196f66155e8c121e5229cc12a6b02ce14",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/metwork-framework/jinja2_humanize_extension",
+      "repolex:packageName": "jinja2-humanize-extension",
+      "git:hexsha": "d3c9aeb92a48ee6f165e555d55aa47d257aead47",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-humanize/humanize",
+      "repolex:packageName": "humanize",
+      "git:hexsha": "35e2d21b4b3030c03f106344cbdb851a2dbbbbb3",
+      "git:tagName": "4.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kubernetes-client/python",
+      "repolex:packageName": "kubernetes",
+      "git:hexsha": "0406e1c320d3d3c82179e4a8dcc29d4ff6fd1b33",
+      "git:tagName": "v24.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stub42/pytz",
+      "repolex:packageName": "pytz"
+    },
+    {
+      "@id": "https://repolex.ai/r/magmax/python-readchar",
+      "repolex:packageName": "readchar",
+      "git:hexsha": "8815537a60104728cc8ca5f14f5e8863a605893f",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/sqlalchemy",
+      "repolex:packageName": "sqlalchemy"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/typer",
+      "repolex:packageName": "typer",
+      "git:hexsha": "ef9beaf521047d44b0588f9f6927aa128d6b3f72",
+      "git:tagName": "0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "001dea020e0809844e5b17666432c9135a976f46",
+      "git:tagName": "v2.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "ffcd1542cd6d127980205f90a0100078849dd703",
+      "git:tagName": "4.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx",
+      "git:hexsha": "9904684d353f8d806755918533487b78138f7c08",
+      "git:tagName": "0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkem/cachetools",
+      "repolex:packageName": "cachetools",
+      "git:hexsha": "3c082c654c2804b9354e4b62dbd2994f1aac464d",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudpipe/cloudpickle",
+      "repolex:packageName": "cloudpickle",
+      "git:hexsha": "7576fff24b9769432f76cc6d2c01282583ee87a9",
+      "git:tagName": "v3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+      "git:tagName": "v15.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+      "git:tagName": "v2.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    }
+  ]
 }

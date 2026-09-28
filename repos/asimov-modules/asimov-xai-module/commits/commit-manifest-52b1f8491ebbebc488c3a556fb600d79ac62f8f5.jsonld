@@ -36,10 +36,68 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/52b1f8491ebbebc488c3a556fb600d79ac62f8f5/chunk-001.nq.gz",
       "repolex:graphFileSize": 130284
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/52b1f8491ebbebc488c3a556fb600d79ac62f8f5.nq.gz",
+      "repolex:graphFileSize": 11485
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:43:02.189523+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.3"
+  "git:tagName": "0.0.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow"
+    },
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "3df82e987f30ab589274c6102831086fc03eb1fa",
+      "git:tagName": "25.0.0-dev.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/elastio/bon",
+      "repolex:packageName": "bon",
+      "git:hexsha": "bbd8b099ea52bf4de18051d012c8113cf0dca23a",
+      "git:tagName": "v3.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/algesten/ureq",
+      "repolex:packageName": "ureq"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "0ca78870815a34a345a908f48db057057e8803d2",
+      "git:tagName": "tracing-0.1.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }

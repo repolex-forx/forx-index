@@ -48,10 +48,70 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e83647ba9c024bd85cd16d4fc7bdcb1d3ef606b5/chunk-001.nq.gz",
       "repolex:graphFileSize": 39655655
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e83647ba9c024bd85cd16d4fc7bdcb1d3ef606b5.nq.gz",
+      "repolex:graphFileSize": 3617030
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-26T19:50:52.580940+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.9.9"
+  "git:tagName": "1.9.9",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tox-dev/tox",
+      "repolex:packageName": "tox",
+      "git:hexsha": "1e888ce9b87d87045479ed4c320be803b05b0f38",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dateutil/dateutil",
+      "repolex:packageName": "python-dateutil",
+      "git:hexsha": "41d96ae8239a1643d0b1214238b8398deb823f18",
+      "git:tagName": "2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/testing-cabal/mock",
+      "repolex:packageName": "mock",
+      "git:hexsha": "e34a7cb293a40f03b8d5a5e7d95f60429233c471",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/wheel",
+      "repolex:packageName": "wheel",
+      "git:hexsha": "cd0935c4fe92a15ea83057a9357347ae8d6a138e",
+      "git:tagName": "0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/behave/behave",
+      "repolex:packageName": "behave",
+      "git:hexsha": "9220931c751e7f9b7fbc5e1941449786fe50f1a2",
+      "git:tagName": "v1.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-jsonschema/jsonschema",
+      "repolex:packageName": "jsonschema",
+      "git:hexsha": "3f459b73a2c27fcbf9356e7bd9ff5ac27fb5bac7",
+      "git:tagName": "v2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/certifi/python-certifi",
+      "repolex:packageName": "certifi"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    }
+  ]
 }
