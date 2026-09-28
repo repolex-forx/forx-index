@@ -42,10 +42,44 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0ab8888d3b30f68177ca5a7a47dff34e3bfeb41f/chunk-001.nq.gz",
       "repolex:graphFileSize": 182144
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0ab8888d3b30f68177ca5a7a47dff34e3bfeb41f.nq.gz",
+      "repolex:graphFileSize": 10573
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:05:38.396698+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.1"
+  "git:tagName": "0.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/jugglerchris/rust-html2text",
+      "repolex:packageName": "html2text"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    }
+  ]
 }

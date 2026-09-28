@@ -42,10 +42,130 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a8e8d662fd4faca68d0f5b7a27186d5445ae535a/chunk-001.nq.gz",
       "repolex:graphFileSize": 550448
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a8e8d662fd4faca68d0f5b7a27186d5445ae535a.nq.gz",
+      "repolex:graphFileSize": 55459
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-27T19:47:52.385231+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.3"
+  "git:tagName": "0.0.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.rs",
+      "repolex:packageName": "asimov-module",
+      "git:hexsha": "3df82e987f30ab589274c6102831086fc03eb1fa",
+      "git:tagName": "25.0.0-dev.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/clientele.rs",
+      "repolex:packageName": "clientele",
+      "git:hexsha": "18a9d41f329119836131c590ec8710bdddc65862",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/jq.rs",
+      "repolex:packageName": "jq"
+    },
+    {
+      "@id": "https://repolex.ai/r/zkat/miette",
+      "repolex:packageName": "miette"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdf",
+      "git:hexsha": "3e05c6ef4049623e77500196b4136e25b6f7789d",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/oxigraph/oxigraph",
+      "repolex:packageName": "oxrdfio"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/FedericoBruzzone/tdlib-rs",
+      "repolex:packageName": "tdlib-rs",
+      "git:hexsha": "73f220ae28dfd612e1e6ca6f9adfb4b69d411477",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "0ca78870815a34a345a908f48db057057e8803d2",
+      "git:tagName": "tracing-0.1.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-subscriber"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures",
+      "git:hexsha": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+      "git:tagName": "0.3.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/async-stream",
+      "repolex:packageName": "async-stream",
+      "git:hexsha": "b0b2f22df8e87b7fed7b2fa234509797adbff7db",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-source-cooperative/keyring-rs",
+      "repolex:packageName": "keyring"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url",
+      "git:hexsha": "d77dfb467f8dd0c1fa181b3dfbc46e7cbe252021",
+      "git:tagName": "v2.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/CasualX/obfstr",
+      "repolex:packageName": "obfstr",
+      "git:hexsha": "5431a54f8bcdeb5b7ab0f635f347d64f51cc6837",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "89a1336b934c68ddce548127c6f8afd910b35a18",
+      "git:tagName": "v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/dryrust/getenv.rs",
+      "repolex:packageName": "getenv",
+      "git:hexsha": "6fafcf5587045ec427a804d3ea3da9b63e0605dd",
+      "git:tagName": "0.1.2"
+    }
+  ]
 }
