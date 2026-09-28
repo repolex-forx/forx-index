@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b7a9bf029ea986a5826cf561a5c2295156ed4632/chunk-001.nq.gz",
       "repolex:graphFileSize": 331308
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b7a9bf029ea986a5826cf561a5c2295156ed4632.nq.gz",
+      "repolex:graphFileSize": 26107
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T19:10:34.630598+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.2.0"
+  "git:tagName": "v0.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "babel-cli",
+      "git:hexsha": "57ef6a2b6a213c1424875cd02814f58eed95e669",
+      "git:tagName": "v6.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "babel-preset-es2015",
+      "git:hexsha": "f34e6518ff77a8a1940c7b5fa89d7b740d243ad3",
+      "git:tagName": "v6.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/wavded/babel-tape-runner",
+      "repolex:packageName": "babel-tape-runner",
+      "git:hexsha": "3dd8ce22cb666c29dcfb6ab06a44dfd3f7b09f4d",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "b8f5c2ce7af443dbbfd3c23923ed24dd47cbbeaa",
+      "git:tagName": "v2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/airbnb/javascript",
+      "repolex:packageName": "eslint-config-airbnb"
+    },
+    {
+      "@id": "https://repolex.ai/r/jsx-eslint/eslint-plugin-react",
+      "repolex:packageName": "eslint-plugin-react",
+      "git:hexsha": "33652317e7f1e96ad0b2377a4bad7d33354038b4",
+      "git:tagName": "v4.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tape-testing/tape",
+      "repolex:packageName": "tape",
+      "git:hexsha": "3c41af57070f9a6cedfb62e2a6d543b0b15e69ba",
+      "git:tagName": "v4.6.0"
+    }
+  ]
 }
