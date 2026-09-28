@@ -48,10 +48,82 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/dcdc93df6b9c6eb53facb0fff725069d9528d735/chunk-001.nq.gz",
       "repolex:graphFileSize": 4256895
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/dcdc93df6b9c6eb53facb0fff725069d9528d735.nq.gz",
+      "repolex:graphFileSize": 408578
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T07:40:47.489308+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.14.0"
+  "git:tagName": "v0.14.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "de8500740cdcabffb9734f503e4889def823cf10",
+      "git:tagName": "v1.0.151"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-bigint",
+      "repolex:packageName": "num-bigint",
+      "git:hexsha": "65330056d6c00def4c6cda78c87453f4c2a76913",
+      "git:tagName": "num-bigint-0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "743af645e7143be6abe2217aafaa0540cf532af4",
+      "git:tagName": "v0.28.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-smallvec",
+      "repolex:packageName": "smallvec",
+      "git:hexsha": "ccf5fc71044d491c46a3d79e7ed53948e6da1590",
+      "git:tagName": "v1.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bitvecto-rs/bitvec",
+      "repolex:packageName": "bitvec"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkaitchuck/ahash",
+      "repolex:packageName": "ahash",
+      "git:hexsha": "10c4f487e85c62bb12618ab5a4bb84b16802cdad",
+      "git:tagName": "v0.8.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3-ffi",
+      "git:hexsha": "743af645e7143be6abe2217aafaa0540cf532af4",
+      "git:tagName": "v0.28.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/Alexhuszagh/rust-lexical",
+      "repolex:packageName": "lexical-parse-float",
+      "git:hexsha": "c37664bb94219505c0007d590454337f72411f70",
+      "git:tagName": "v1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/CodSpeedHQ/codspeed-rust",
+      "repolex:packageName": "codspeed-criterion-compat-walltime",
+      "git:hexsha": "071a15cf33fc266221ba444ef0734e5622655556",
+      "git:tagName": "v2.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3-build-config",
+      "git:hexsha": "743af645e7143be6abe2217aafaa0540cf532af4",
+      "git:tagName": "v0.28.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-traits",
+      "repolex:packageName": "num-traits",
+      "git:hexsha": "7ec3d41d39b28190ec1d42db38021107b3951f3a",
+      "git:tagName": "num-traits-0.2.19"
+    }
+  ]
 }
