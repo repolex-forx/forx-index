@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7249f8c5d4825550f70bc1ea98652639933d3bbd/chunk-001.nq.gz",
       "repolex:graphFileSize": 484808
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7249f8c5d4825550f70bc1ea98652639933d3bbd.nq.gz",
+      "repolex:graphFileSize": 43851
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-28T08:04:22.580930+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.1"
+  "git:tagName": "v1.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/doowb/ansi-colors",
+      "repolex:packageName": "ansi-colors",
+      "git:hexsha": "2f354b71bdbad9d3f5d705c78966378f83e5e080",
+      "git:tagName": "4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/chalk/chalk",
+      "repolex:packageName": "chalk",
+      "git:hexsha": "95d74cbe8d3df3674dec1445a4608d3288d8b73c",
+      "git:tagName": "v4.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/shashkovdanil/clean-publish",
+      "repolex:packageName": "clean-publish",
+      "git:hexsha": "555c26c2a37781aa6ab1f67c50f3c4d2d5c78dc8",
+      "git:tagName": "3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/medikoo/cli-color",
+      "repolex:packageName": "cli-color",
+      "git:hexsha": "1127ad036e2851bd406ba6d573c3b59425f7341b",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jorgebucaran/colorette",
+      "repolex:packageName": "colorette",
+      "git:hexsha": "bad64649c74a048186f325d31b6d5a3d45a2559b",
+      "git:tagName": "2.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lukeed/kleur",
+      "repolex:packageName": "kleur",
+      "git:hexsha": "598f24cb7f5054b7c504e9ab89251305311131b1",
+      "git:tagName": "v4.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/evanwashere/mitata",
+      "repolex:packageName": "mitata"
+    },
+    {
+      "@id": "https://repolex.ai/r/ai/nanocolors",
+      "repolex:packageName": "nanocolors",
+      "git:hexsha": "d2aacecf8386cadb9b1561dfabae4980701b2fb7",
+      "git:tagName": "0.2.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "52829385bcc4d785e58ae2602c0b098a643523c9",
+      "git:tagName": "3.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/yoctocolors",
+      "repolex:packageName": "yoctocolors",
+      "git:hexsha": "6b562004a4633abbdeec802768f64a7bce40d575",
+      "git:tagName": "v2.1.1"
+    }
+  ]
 }
