@@ -36,10 +36,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d798057e93c85198121cfd6ebf70a529559d38e6/chunk-001.nq.gz",
       "repolex:graphFileSize": 820765
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d798057e93c85198121cfd6ebf70a529559d38e6.nq.gz",
+      "repolex:graphFileSize": 50560
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-29T08:25:10.205347+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/supermemoryai/python-sdk",
+      "repolex:packageName": "supermemory",
+      "git:hexsha": "7879cf307212695a95e3c0c97072dbae91cd8156",
+      "git:tagName": "v3.50.0"
+    }
+  ]
 }
