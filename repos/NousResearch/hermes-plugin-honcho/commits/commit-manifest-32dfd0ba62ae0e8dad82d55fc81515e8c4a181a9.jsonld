@@ -36,10 +36,26 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/32dfd0ba62ae0e8dad82d55fc81515e8c4a181a9/chunk-001.nq.gz",
       "repolex:graphFileSize": 5975716
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/32dfd0ba62ae0e8dad82d55fc81515e8c4a181a9.nq.gz",
+      "repolex:graphFileSize": 447778
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-29T08:27:42.852429+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/plastic-labs/honcho",
+      "repolex:packageName": "honcho-ai"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx"
+    }
+  ]
 }
