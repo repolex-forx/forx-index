@@ -1,0 +1,225 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/coplan/commit/5640e3881f9b4d8c52bb16e38fe63535635df1cb",
+  "@type": "git:Commit",
+  "git:hexsha": "5640e3881f9b4d8c52bb16e38fe63535635df1cb",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/coplan"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/5640e3881f9b4d8c52bb16e38fe63535635df1cb.nq.gz",
+      "repolex:graphFileSize": 184357
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 420460
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 8654
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 526
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 5456
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 241706
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/5640e3881f9b4d8c52bb16e38fe63535635df1cb/chunk-001.nq.gz",
+      "repolex:graphFileSize": 5901304
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/5640e3881f9b4d8c52bb16e38fe63535635df1cb/chunk-001.nq.gz",
+      "repolex:graphFileSize": 24177716
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5640e3881f9b4d8c52bb16e38fe63535635df1cb.nq.gz",
+      "repolex:graphFileSize": 417395
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/5640e3881f9b4d8c52bb16e38fe63535635df1cb.nq.gz",
+      "repolex:graphFileSize": 3128
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T09:37:15.898771+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rails/rails",
+      "repolex:packageName": "rails",
+      "git:hexsha": "c3466ea00d7121798e3aa3144ffdf7174b81d8cb",
+      "git:tagName": "v8.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/brianmario/mysql2",
+      "repolex:packageName": "mysql2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ged/ruby-pg",
+      "repolex:packageName": "pg"
+    },
+    {
+      "@id": "https://repolex.ai/r/puma/puma",
+      "repolex:packageName": "puma"
+    },
+    {
+      "@id": "https://repolex.ai/r/rails/importmap-rails",
+      "repolex:packageName": "importmap-rails",
+      "git:hexsha": "6fb2bd58e3709d4996179de06aa687d6abae8a0e",
+      "git:tagName": "v2.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/hotwired/stimulus-rails",
+      "repolex:packageName": "stimulus-rails",
+      "git:hexsha": "8e34f2e4dd7716224317b635db1e5d9ed58324b1",
+      "git:tagName": "v1.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rails/jbuilder",
+      "repolex:packageName": "jbuilder",
+      "git:hexsha": "31eb6e909968adafb3dbd6ca7a603d23f738f154",
+      "git:tagName": "v2.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/codahale/bcrypt-ruby",
+      "repolex:packageName": "bcrypt",
+      "git:hexsha": "f167f92c702ea6b01a9995e3089f49b95c34eecb",
+      "git:tagName": "v3.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tzinfo/tzinfo-data",
+      "repolex:packageName": "tzinfo-data",
+      "git:hexsha": "8df8badc7bed5b6ad5b54440dd9985be8ef54121",
+      "git:tagName": "v1.2026.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rails/solid_cache",
+      "repolex:packageName": "solid_cache",
+      "git:hexsha": "004e1011d4bef9f77a5701ce8a4051d14ecd7b8e",
+      "git:tagName": "v1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/rails/solid_queue",
+      "repolex:packageName": "solid_queue",
+      "git:hexsha": "e2b53849c715b29fa2d97a939097bd1beaea4bc9",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rails/solid_cable",
+      "repolex:packageName": "solid_cable",
+      "git:hexsha": "1e4217e51db6e116318804776d30c3f4c2b776a4",
+      "git:tagName": "v4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rails/bootsnap",
+      "repolex:packageName": "bootsnap",
+      "git:hexsha": "67a7290e0318ad59e8c97bb81c816dcf23801f20",
+      "git:tagName": "v1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gjtorikian/commonmarker",
+      "repolex:packageName": "commonmarker",
+      "git:hexsha": "0e629d65db2ebfe40f8cf9b5ee6de2bd77dbd085",
+      "git:tagName": "v2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/alexrudall/ruby-openai",
+      "repolex:packageName": "ruby-openai",
+      "git:hexsha": "adde60df1b1ff273970c40e98ba931ad9b4dd33a",
+      "git:tagName": "v8.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/activeadmin/activeadmin",
+      "repolex:packageName": "activeadmin"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaynetics/activeadmin_assets",
+      "repolex:packageName": "activeadmin_assets",
+      "git:hexsha": "0277c544d7bcea8a7dafef076cee08595048c791",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rack/rack-attack",
+      "repolex:packageName": "rack-attack",
+      "git:hexsha": "65f1ead3bc648b1e972fd8df0078949f056699d9",
+      "git:tagName": "v6.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ruby/debug",
+      "repolex:packageName": "debug",
+      "git:hexsha": "bad4d38f8330219b62f2b253d59146f5a71fd39a",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/faker-ruby/faker",
+      "repolex:packageName": "faker",
+      "git:hexsha": "e48d35f4fa0d4bda8257975d9549e4d9422a0ba4",
+      "git:tagName": "v3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rubysec/bundler-audit",
+      "repolex:packageName": "bundler-audit",
+      "git:hexsha": "f8b06ebbefdd223e6eb21b9b258d75e6cfa9442a",
+      "git:tagName": "v0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/presidentbeef/brakeman",
+      "repolex:packageName": "brakeman",
+      "git:hexsha": "c7781648630c789dd1a2f089e94b5d8c463169fb",
+      "git:tagName": "v8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rspec/rspec-rails",
+      "repolex:packageName": "rspec-rails",
+      "git:hexsha": "222fb5518a7c9c1b9a0a06d950c2dfa2d3fa69e9",
+      "git:tagName": "v8.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/teamcapybara/capybara",
+      "repolex:packageName": "capybara",
+      "git:hexsha": "a210c6e57872416ca689091614e65163e2886694",
+      "git:tagName": "3.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/SeleniumHQ/selenium",
+      "repolex:packageName": "selenium-webdriver",
+      "git:hexsha": "ca2a96694916c818db1c388b7a1c14cf3380c098",
+      "git:tagName": "selenium-4.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/aiohttp",
+      "repolex:packageName": "aiohttp",
+      "git:hexsha": "5e392ce0456f5235a4ee6ad46f0e806df2f15873",
+      "git:tagName": "v3.14.3"
+    }
+  ]
+}
