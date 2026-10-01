@@ -1,0 +1,341 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/version-guard/commit/6444604ef8536901b3bf2831fe55d27b2e7c2c4b",
+  "@type": "git:Commit",
+  "git:hexsha": "6444604ef8536901b3bf2831fe55d27b2e7c2c4b",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/version-guard"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/6444604ef8536901b3bf2831fe55d27b2e7c2c4b.nq.gz",
+      "repolex:graphFileSize": 23135
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 103828
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 1394
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 2485
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 2098
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 96415
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/6444604ef8536901b3bf2831fe55d27b2e7c2c4b/chunk-001.nq.gz",
+      "repolex:graphFileSize": 1842320
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/6444604ef8536901b3bf2831fe55d27b2e7c2c4b/chunk-001.nq.gz",
+      "repolex:graphFileSize": 10554038
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6444604ef8536901b3bf2831fe55d27b2e7c2c4b.nq.gz",
+      "repolex:graphFileSize": 2104
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/6444604ef8536901b3bf2831fe55d27b2e7c2c4b.nq.gz",
+      "repolex:graphFileSize": 5626
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T08:51:10.900011+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/alecthomas/kong",
+      "repolex:packageName": "github.com/alecthomas/kong",
+      "git:hexsha": "14c97a2bfca94fff8da01fef6ceb1fc746303044",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2",
+      "git:hexsha": "90650dd22735ab68f6089ae5c39b6614286ae9ec",
+      "git:tagName": "v1.41.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/config"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/s3"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/uuid",
+      "repolex:packageName": "github.com/google/uuid",
+      "git:hexsha": "0f11ee6918f41a04c201eceeadf612a377bc7fbc",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pkg/errors",
+      "repolex:packageName": "github.com/pkg/errors",
+      "git:hexsha": "614d223910a179a466c1767a985424175c39b465",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/prometheus/client_golang",
+      "repolex:packageName": "github.com/prometheus/client_golang",
+      "git:hexsha": "8179a560819f2c64ef6ade70e6ae4c73aecaca3c",
+      "git:tagName": "v1.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/stretchr/testify",
+      "repolex:packageName": "github.com/stretchr/testify",
+      "git:hexsha": "2a57335dc9cd6833daa820bc94d9b40c26a7917d",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/uber-go/tally",
+      "repolex:packageName": "github.com/uber-go/tally/v4",
+      "git:hexsha": "12d200cf909b1094affc40bf4bf70fc99c5f39a3",
+      "git:tagName": "v4.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/temporalio/sdk-go",
+      "repolex:packageName": "go.temporal.io/sdk",
+      "git:hexsha": "9cf4aa8d9e92bfeb90193c98f112084ea6a22771",
+      "git:tagName": "v1.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/temporalio/sdk-go",
+      "repolex:packageName": "go.temporal.io/sdk/contrib/tally"
+    },
+    {
+      "@id": "https://repolex.ai/r/grpc/grpc-go",
+      "repolex:packageName": "google.golang.org/grpc",
+      "git:hexsha": "dda86dbd9cecb8b35b58c73d507d81d67761205f",
+      "git:tagName": "v1.79.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/credentials"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/internal/configsources"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/internal/ini"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/internal/v4a"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/internal/checksum"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/signin"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/sso"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/ssooidc"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-sdk-go-v2",
+      "repolex:packageName": "github.com/aws/aws-sdk-go-v2/service/sts",
+      "git:hexsha": "b4d02c534cf7f5c782e10bc3f66e40c081a7bb3a",
+      "git:tagName": "v1.41.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/smithy-go",
+      "repolex:packageName": "github.com/aws/smithy-go",
+      "git:hexsha": "b860661df961e236ca154f5a66e1f01216639738",
+      "git:tagName": "v1.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/beorn7/perks",
+      "repolex:packageName": "github.com/beorn7/perks",
+      "git:hexsha": "37c8de3658fcb183f997c4e13e8337516ab753e6",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cespare/xxhash",
+      "repolex:packageName": "github.com/cespare/xxhash/v2",
+      "git:hexsha": "998dce232f17418a7a5721ecf87ca714025a3243",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/davecgh/go-spew",
+      "repolex:packageName": "github.com/davecgh/go-spew",
+      "git:hexsha": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/facebookgo/clock",
+      "repolex:packageName": "github.com/facebookgo/clock"
+    },
+    {
+      "@id": "https://repolex.ai/r/gogo/protobuf",
+      "repolex:packageName": "github.com/gogo/protobuf",
+      "git:hexsha": "b03c65ea87cdc3521ede29f62fe3ce239267c1bc",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/golang/mock",
+      "repolex:packageName": "github.com/golang/mock",
+      "git:hexsha": "aba2ff9a6844d5e3289e8472d3217d5b3090f083",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/grpc-ecosystem/go-grpc-middleware",
+      "repolex:packageName": "github.com/grpc-ecosystem/go-grpc-middleware/v2",
+      "git:hexsha": "26edc2647555e12050b6def407c0544a49713529",
+      "git:tagName": "v2.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/grpc-ecosystem/grpc-gateway",
+      "repolex:packageName": "github.com/grpc-ecosystem/grpc-gateway/v2",
+      "git:hexsha": "0b14a81276e64dcbf611990bc211082b62a334e6",
+      "git:tagName": "v2.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kylelemons/godebug",
+      "repolex:packageName": "github.com/kylelemons/godebug",
+      "git:hexsha": "9ff306d4fbead574800b66369df5b6144732d58e",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/munnerz/goautoneg",
+      "repolex:packageName": "github.com/munnerz/goautoneg"
+    },
+    {
+      "@id": "https://repolex.ai/r/nexus-rpc/sdk-go",
+      "repolex:packageName": "github.com/nexus-rpc/sdk-go",
+      "git:hexsha": "26b0b4c584e51b1c489ff4ef671995238952ce19",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pmezard/go-difflib",
+      "repolex:packageName": "github.com/pmezard/go-difflib",
+      "git:hexsha": "792786c7400a136282c1664665ae0a8db921c6c2",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prometheus/client_model",
+      "repolex:packageName": "github.com/prometheus/client_model",
+      "git:hexsha": "eb136e513d419e0c31ad750922f0a6f7675c2dee",
+      "git:tagName": "v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/prometheus/common",
+      "repolex:packageName": "github.com/prometheus/common",
+      "git:hexsha": "8975dde6db7208309e9872891f24c7301aa77dfb",
+      "git:tagName": "v0.66.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/prometheus/procfs",
+      "repolex:packageName": "github.com/prometheus/procfs",
+      "git:hexsha": "cff69b9d9aa77a0793276da74310e38422864e28",
+      "git:tagName": "v0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/robfig/cron",
+      "repolex:packageName": "github.com/robfig/cron",
+      "git:hexsha": "b41be1df696709bb6395fe435af20370037c0b4c",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stretchr/objx",
+      "repolex:packageName": "github.com/stretchr/objx",
+      "git:hexsha": "307d0db21292676ac9d469826525c3630f47f63a",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/twmb/murmur3",
+      "repolex:packageName": "github.com/twmb/murmur3",
+      "git:hexsha": "3fcd9c20f2443ea2612fca5675f4cf6849e809b9",
+      "git:tagName": "v1.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/temporalio/api-go",
+      "repolex:packageName": "go.temporal.io/api",
+      "git:hexsha": "d9c3ccbc59833ce2701f3d478dec5e9e1feaa718",
+      "git:tagName": "v1.62.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/uber-go/atomic",
+      "repolex:packageName": "go.uber.org/atomic",
+      "git:hexsha": "76f817c8b7e771cdffc2b9f11a7ebb80333ca92b",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/yaml/go-yaml",
+      "repolex:packageName": "go.yaml.in/yaml/v2",
+      "git:hexsha": "246a95c22c57f15ef6d3305a1f1b8a0b05e4d560",
+      "git:tagName": "v2.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/go-genproto",
+      "repolex:packageName": "google.golang.org/genproto/googleapis/api"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/go-genproto",
+      "repolex:packageName": "google.golang.org/genproto/googleapis/rpc"
+    }
+  ]
+}
