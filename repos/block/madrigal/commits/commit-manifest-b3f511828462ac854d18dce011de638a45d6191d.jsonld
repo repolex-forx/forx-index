@@ -1,0 +1,155 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/madrigal/commit/b3f511828462ac854d18dce011de638a45d6191d",
+  "@type": "git:Commit",
+  "git:hexsha": "b3f511828462ac854d18dce011de638a45d6191d",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/madrigal"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/b3f511828462ac854d18dce011de638a45d6191d.nq.gz",
+      "repolex:graphFileSize": 23266
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 19451
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 1789
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 32
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 2534
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 14276
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/b3f511828462ac854d18dce011de638a45d6191d/chunk-001.nq.gz",
+      "repolex:graphFileSize": 1708848
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/b3f511828462ac854d18dce011de638a45d6191d/chunk-001.nq.gz",
+      "repolex:graphFileSize": 6778642
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b3f511828462ac854d18dce011de638a45d6191d.nq.gz",
+      "repolex:graphFileSize": 777333
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/b3f511828462ac854d18dce011de638a45d6191d.nq.gz",
+      "repolex:graphFileSize": 1799
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T09:50:57.086877+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/honojs/node-server",
+      "repolex:packageName": "@hono/node-server",
+      "git:hexsha": "64a4a91bc68ba0a4a2ece4a001b98fef6abc397c",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrmlnc/fast-glob",
+      "repolex:packageName": "fast-glob",
+      "git:hexsha": "e60a9f5f09bc58a3b22b1d7fb767c25f62df0d07",
+      "git:tagName": "3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jonschlinkert/gray-matter",
+      "repolex:packageName": "gray-matter"
+    },
+    {
+      "@id": "https://repolex.ai/r/honojs/hono",
+      "repolex:packageName": "hono",
+      "git:hexsha": "73ff6c0e82d66468e28ed439481220f56ab03882",
+      "git:tagName": "v4.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/eemeli/yaml",
+      "repolex:packageName": "yaml",
+      "git:hexsha": "b7696fc001837a2e9d66ad78d7c04f47943daeca",
+      "git:tagName": "v2.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/anthropics/anthropic-sdk-typescript",
+      "repolex:packageName": "@anthropic-ai/sdk"
+    },
+    {
+      "@id": "https://repolex.ai/r/biomejs/biome",
+      "repolex:packageName": "@biomejs/biome"
+    },
+    {
+      "@id": "https://repolex.ai/r/changesets/changesets",
+      "repolex:packageName": "@changesets/changelog-github"
+    },
+    {
+      "@id": "https://repolex.ai/r/changesets/changesets",
+      "repolex:packageName": "@changesets/cli"
+    },
+    {
+      "@id": "https://repolex.ai/r/modelcontextprotocol/typescript-sdk",
+      "repolex:packageName": "@modelcontextprotocol/sdk",
+      "git:hexsha": "a0565695218544fc53e99bf5b544a887d373cefa",
+      "git:tagName": "v1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/evilmartians/lefthook",
+      "repolex:packageName": "lefthook",
+      "git:hexsha": "83ec3a9212b41d20576c45a4b5dc5bccff2d5e8a",
+      "git:tagName": "v2.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "git:hexsha": "63717cf44a64585175c76c336c8f8d87d5384d16",
+      "git:tagName": "v5.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "vitest",
+      "git:hexsha": "b561c3290de85c58daf7f062cfa0fc163425199e",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/colinhacks/zod",
+      "repolex:packageName": "zod",
+      "git:hexsha": "ca3c8629c0c2715571f70b44c2433cad3db7fe4e",
+      "git:tagName": "v4.3.6"
+    }
+  ]
+}
