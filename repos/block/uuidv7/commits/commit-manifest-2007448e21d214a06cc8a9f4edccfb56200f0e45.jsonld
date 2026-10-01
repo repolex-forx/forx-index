@@ -1,0 +1,93 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/uuidv7/commit/2007448e21d214a06cc8a9f4edccfb56200f0e45",
+  "@type": "git:Commit",
+  "git:hexsha": "2007448e21d214a06cc8a9f4edccfb56200f0e45",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/uuidv7"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/2007448e21d214a06cc8a9f4edccfb56200f0e45.nq.gz",
+      "repolex:graphFileSize": 11612
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 27508
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 636
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 575
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 2266
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 12518
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/2007448e21d214a06cc8a9f4edccfb56200f0e45/chunk-001.nq.gz",
+      "repolex:graphFileSize": 811454
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/2007448e21d214a06cc8a9f4edccfb56200f0e45/chunk-001.nq.gz",
+      "repolex:graphFileSize": 2595703
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2007448e21d214a06cc8a9f4edccfb56200f0e45.nq.gz",
+      "repolex:graphFileSize": 169301
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/2007448e21d214a06cc8a9f4edccfb56200f0e45.nq.gz",
+      "repolex:graphFileSize": 564
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T08:22:25.707063+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "3474ec047279e5de32676c50154ff7d76d12a94e",
+      "git:tagName": "0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/getrandom",
+      "repolex:packageName": "getrandom",
+      "git:hexsha": "38e4ad38309a85b56eef4fc759535ccfc322ba9a",
+      "git:tagName": "v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    }
+  ]
+}
