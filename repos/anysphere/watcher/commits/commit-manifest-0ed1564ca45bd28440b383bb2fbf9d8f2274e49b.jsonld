@@ -1,0 +1,143 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/anysphere/watcher/commit/0ed1564ca45bd28440b383bb2fbf9d8f2274e49b",
+  "@type": "git:Commit",
+  "git:hexsha": "0ed1564ca45bd28440b383bb2fbf9d8f2274e49b",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/anysphere/watcher"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/0ed1564ca45bd28440b383bb2fbf9d8f2274e49b.nq.gz",
+      "repolex:graphFileSize": 9710
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 85383
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 1594
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 1706
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 3696
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/0ed1564ca45bd28440b383bb2fbf9d8f2274e49b/chunk-001.nq.gz",
+      "repolex:graphFileSize": 835153
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/0ed1564ca45bd28440b383bb2fbf9d8f2274e49b/chunk-001.nq.gz",
+      "repolex:graphFileSize": 3272318
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0ed1564ca45bd28440b383bb2fbf9d8f2274e49b.nq.gz",
+      "repolex:graphFileSize": 248846
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/0ed1564ca45bd28440b383bb2fbf9d8f2274e49b.nq.gz",
+      "repolex:graphFileSize": 1670
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T07:29:22.352322+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "v2.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/lovell/detect-libc",
+      "repolex:packageName": "detect-libc",
+      "git:hexsha": "88df1a5950bf3cd9bffa1e0137ab6471c4546118",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/micromatch/is-glob",
+      "repolex:packageName": "is-glob",
+      "git:hexsha": "627ca7e552c69e8d62d620b4715a2658267b3d17",
+      "git:tagName": "v4.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/micromatch/micromatch",
+      "repolex:packageName": "micromatch",
+      "git:hexsha": "002d0d184c95e76775528fa1dbe0c446518879b2",
+      "git:tagName": "4.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/nodejs/node-addon-api",
+      "repolex:packageName": "node-addon-api",
+      "git:hexsha": "39a25bf27788ff7a7ea5c64978c4dcd1e7b9d80d",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/evanw/esbuild",
+      "repolex:packageName": "esbuild",
+      "git:hexsha": "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "git:tagName": "v0.19.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jprichardson/node-fs-extra",
+      "repolex:packageName": "fs-extra",
+      "git:hexsha": "fb6c0ca16baec6a3f5138685e72cf3659c493017",
+      "git:tagName": "10.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/typicode/husky",
+      "repolex:packageName": "husky",
+      "git:hexsha": "74ce9c581b115654cc7a31afaba73a6bf332975e",
+      "git:tagName": "v7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lint-staged/lint-staged",
+      "repolex:packageName": "lint-staged",
+      "git:hexsha": "b3d97cf4cfb115e51908cd92b95896442494c778",
+      "git:tagName": "v11.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/mochajs/mocha",
+      "repolex:packageName": "mocha",
+      "git:hexsha": "654b5df4391172e69fe226dc36ebd1c89b20be53",
+      "git:tagName": "v9.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/devongovett/napi-wasm",
+      "repolex:packageName": "napi-wasm",
+      "git:hexsha": "e596b7a8e37f72fe2340e37d520183fc65afe3a2",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prebuild/prebuildify",
+      "repolex:packageName": "prebuildify",
+      "git:hexsha": "7c86817913b029cda87268a113718f2523d6b40b",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "9a8b579d368db99394ab9da114cc37ba772fc887",
+      "git:tagName": "2.3.2"
+    }
+  ]
+}
