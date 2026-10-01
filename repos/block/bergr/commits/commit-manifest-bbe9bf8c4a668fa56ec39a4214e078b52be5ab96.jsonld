@@ -1,0 +1,219 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/bergr/commit/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
+  "@type": "git:Commit",
+  "git:hexsha": "bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/bergr"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96.nq.gz",
+      "repolex:graphFileSize": 6431
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 46398
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 1218
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 415
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 3157
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 45614
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96/chunk-001.nq.gz",
+      "repolex:graphFileSize": 304337
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96/chunk-001.nq.gz",
+      "repolex:graphFileSize": 1209689
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96.nq.gz",
+      "repolex:graphFileSize": 118161
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96.nq.gz",
+      "repolex:graphFileSize": 2646
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T09:43:36.726133+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "18c2598afa0f996f56217ef128aa3a20ea1e9512",
+      "git:tagName": "1.0.100"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/async-stream",
+      "repolex:packageName": "async-stream",
+      "git:hexsha": "b0b2f22df8e87b7fed7b2fa234509797adbff7db",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/async-trait",
+      "repolex:packageName": "async-trait"
+    },
+    {
+      "@id": "https://repolex.ai/r/smithy-lang/smithy-rs",
+      "repolex:packageName": "aws-config"
+    },
+    {
+      "@id": "https://repolex.ai/r/smithy-lang/smithy-rs",
+      "repolex:packageName": "aws-credential-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/awslabs/aws-sdk-rust",
+      "repolex:packageName": "aws-sdk-s3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes",
+      "git:hexsha": "a7952fb4478f6dc226f623b217432fbc6f8dad24",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "8d87e70789ed7832aa93473779d248090712d66b",
+      "git:tagName": "v4.5.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures",
+      "git:hexsha": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+      "git:tagName": "0.3.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "8c1fb204b8594ce5cf198af8568453f9df4ed953",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/iceberg-rust",
+      "repolex:packageName": "iceberg",
+      "git:hexsha": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/iceberg-rust",
+      "repolex:packageName": "iceberg-catalog-glue",
+      "git:hexsha": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/iceberg-rust",
+      "repolex:packageName": "iceberg-catalog-rest",
+      "git:hexsha": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/iceberg-rust",
+      "repolex:packageName": "iceberg-storage-opendal",
+      "git:hexsha": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/opendal-reqsign",
+      "repolex:packageName": "reqsign-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "efa66e3a1d61459ab2d325f92ebe3acbd6ca18b1",
+      "git:tagName": "v1.0.145"
+    },
+    {
+      "@id": "https://repolex.ai/r/Peternator7/strum",
+      "repolex:packageName": "strum",
+      "git:hexsha": "7376771128834d28bb9beba5c39846cba62e71ec",
+      "git:tagName": "v0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "556820ff84030b37e74e11b86b7733f5795770ea",
+      "git:tagName": "tokio-1.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "0ca78870815a34a345a908f48db057057e8803d2",
+      "git:tagName": "tracing-0.1.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-subscriber"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url",
+      "git:hexsha": "43f47e2fcfdd132c531fb05aa16171ca85be95f4",
+      "git:tagName": "v2.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "d9bba94c239daa1175a5bb2958f37a5c72db3f6a",
+      "git:tagName": "0.3.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/smithy-lang/smithy-rs",
+      "repolex:packageName": "aws-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/smithy-lang/smithy-rs",
+      "repolex:packageName": "aws-smithy-runtime-api"
+    },
+    {
+      "@id": "https://repolex.ai/r/smithy-lang/smithy-rs",
+      "repolex:packageName": "aws-smithy-async"
+    }
+  ]
+}
