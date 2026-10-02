@@ -1,0 +1,125 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/lhm/commit/40f0d6076d88e997ddad1514c1d055d803219ff8",
+  "@type": "git:Commit",
+  "git:hexsha": "40f0d6076d88e997ddad1514c1d055d803219ff8",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/lhm"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/40f0d6076d88e997ddad1514c1d055d803219ff8.nq.gz",
+      "repolex:graphFileSize": 9487
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 19119
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 715
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 1060
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 1663
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 21701
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/40f0d6076d88e997ddad1514c1d055d803219ff8/chunk-001.nq.gz",
+      "repolex:graphFileSize": 963398
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/40f0d6076d88e997ddad1514c1d055d803219ff8/chunk-001.nq.gz",
+      "repolex:graphFileSize": 3178318
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/40f0d6076d88e997ddad1514c1d055d803219ff8.nq.gz",
+      "repolex:graphFileSize": 375726
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/40f0d6076d88e997ddad1514c1d055d803219ff8.nq.gz",
+      "repolex:graphFileSize": 1152
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-02T10:45:55.473462+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "48c3b1139785a29f24cf18989f551622123275c0",
+      "git:tagName": "v4.5.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger",
+      "git:hexsha": "2f06b4c7cf359b348cf92f95f83176897cedc838",
+      "git:tagName": "v0.11.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "42620ffc4109dc32e02f1cae9e63a3f4311b4b71",
+      "git:tagName": "0.2.186"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "b1e2df7bce7a1b685aa9bfd1db0a5cac1f0fc27d",
+      "git:tagName": "0.4.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/serde-yaml",
+      "repolex:packageName": "serde_yaml"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/harryfei/which-rs",
+      "repolex:packageName": "which",
+      "git:hexsha": "5bb3e82a82a6ef8f56a3a455125680fd6579c7ca",
+      "git:tagName": "8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/acatton/serde-yaml-ng",
+      "repolex:packageName": "serde_yaml_ng"
+    }
+  ]
+}

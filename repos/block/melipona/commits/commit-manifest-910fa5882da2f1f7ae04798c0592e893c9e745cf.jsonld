@@ -47,17 +47,123 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/910fa5882da2f1f7ae04798c0592e893c9e745cf/chunk-001.nq.gz",
-      "repolex:graphFileSize": 1030929
+      "repolex:graphFileSize": 1436843
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/910fa5882da2f1f7ae04798c0592e893c9e745cf/chunk-001.nq.gz",
       "repolex:graphFileSize": 5560319
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz",
+      "repolex:graphFileSize": 503733
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz",
+      "repolex:graphFileSize": 1794
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-10-01T06:37:32.403496+00:00",
+  "repolex:parsedAt": "2026-10-02T10:55:25.041423+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc"
+    },
+    {
+      "@id": "https://repolex.ai/r/modelcontextprotocol/rust-sdk",
+      "repolex:packageName": "rmcp"
+    },
+    {
+      "@id": "https://repolex.ai/r/watchexec/process-wrap",
+      "repolex:packageName": "process-wrap"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stranger6667/jsonschema",
+      "repolex:packageName": "jsonschema"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/snapview/tokio-tungstenite",
+      "repolex:packageName": "tokio-tungstenite"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url"
+    },
+    {
+      "@id": "https://repolex.ai/r/uuid-rs/uuid",
+      "repolex:packageName": "uuid"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/webpki-roots",
+      "repolex:packageName": "webpki-roots"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rustls",
+      "repolex:packageName": "rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rcgen",
+      "repolex:packageName": "rcgen"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/tokio-rustls",
+      "repolex:packageName": "tokio-rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/pki-types",
+      "repolex:packageName": "rustls-pki-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/snapview/tungstenite-rs",
+      "repolex:packageName": "tungstenite",
+      "git:hexsha": "7f4aeaf0944992c5664c8fb8e0d54577c7e18020",
+      "git:tagName": "v0.30.0"
+    }
+  ]
 }
