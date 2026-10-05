@@ -1,0 +1,83 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/anysphere/gpt-4-for-code/commit/44a2b9718117b7c35646ed67d6493db2c1a38019",
+  "@type": "git:Commit",
+  "git:hexsha": "44a2b9718117b7c35646ed67d6493db2c1a38019",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/anysphere/gpt-4-for-code"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/44a2b9718117b7c35646ed67d6493db2c1a38019.nq.gz",
+      "repolex:graphFileSize": 7719
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 3350
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 416
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 32
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/44a2b9718117b7c35646ed67d6493db2c1a38019/chunk-001.nq.gz",
+      "repolex:graphFileSize": 168699
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/44a2b9718117b7c35646ed67d6493db2c1a38019/chunk-001.nq.gz",
+      "repolex:graphFileSize": 729969
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/44a2b9718117b7c35646ed67d6493db2c1a38019.nq.gz",
+      "repolex:graphFileSize": 63581
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/44a2b9718117b7c35646ed67d6493db2c1a38019.nq.gz",
+      "repolex:graphFileSize": 618
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-05T09:48:22.123627+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "08f8d6ca30a2b9f73ec981e55560585dea0f6709",
+      "git:tagName": "v3.2.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-rocksdb/rust-rocksdb",
+      "repolex:packageName": "rocksdb",
+      "git:hexsha": "9118a60fe265f4c425a162a3958a96e008be646f",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2",
+      "git:hexsha": "8431d9e0c0fdaea16c4643c723631223802b2c86",
+      "git:tagName": "1.0.25"
+    }
+  ]
+}
