@@ -1,0 +1,135 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/bitcoin-augur-benchmarking/commit/55b4818186834f62983a191f8e734200c74a53ee",
+  "@type": "git:Commit",
+  "git:hexsha": "55b4818186834f62983a191f8e734200c74a53ee",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/block/bitcoin-augur-benchmarking"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/55b4818186834f62983a191f8e734200c74a53ee.nq.gz",
+      "repolex:graphFileSize": 1229
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 1620
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 507
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 32
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 1104
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/55b4818186834f62983a191f8e734200c74a53ee/chunk-001.nq.gz",
+      "repolex:graphFileSize": 69737
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/55b4818186834f62983a191f8e734200c74a53ee/chunk-001.nq.gz",
+      "repolex:graphFileSize": 324695
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/55b4818186834f62983a191f8e734200c74a53ee.nq.gz",
+      "repolex:graphFileSize": 16064
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/55b4818186834f62983a191f8e734200c74a53ee.nq.gz",
+      "repolex:graphFileSize": 1481
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-08T11:22:01.372292+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pandas-dev/pandas",
+      "repolex:packageName": "pandas",
+      "git:hexsha": "478d340667831908b5b4bf09a2787a11a14560c9",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "8cec82012694571156e8d7696307c848a7603b4e",
+      "git:tagName": "v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "0bb91857eca0d4aea08f66cf1c8949abe0cd6b7a",
+      "git:tagName": "v4.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tartley/colorama",
+      "repolex:packageName": "colorama",
+      "git:hexsha": "3de9f013df4b470069d03d250224062e8cf15c49",
+      "git:tagName": "0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/astanin/python-tabulate",
+      "repolex:packageName": "tabulate",
+      "git:hexsha": "bf58e37e6b35e3cc9a0bd740f752abfd32b6e6f8",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "3554b833c24f541af5c7272e47cfa52b89d8138d",
+      "git:tagName": "7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "28db055bebbf3ee016a2144c8b69dd7b80b48cc5",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyCQA/isort",
+      "repolex:packageName": "isort",
+      "git:hexsha": "c154ecff496bf9309eaf5d887f4aa4a0abba28a2",
+      "git:tagName": "5.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycqa/flake8",
+      "repolex:packageName": "flake8",
+      "git:hexsha": "c7c6218e58f0fc005bd80f1872da63cd51afe71a",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "bc18017c19eb81bf5c11756f4e7dede4791e2823",
+      "git:tagName": "v1.0.0"
+    }
+  ]
+}
