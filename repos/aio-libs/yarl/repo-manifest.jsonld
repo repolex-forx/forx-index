@@ -1,0 +1,945 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/aio-libs/yarl",
+  "@type": "gh:Repository",
+  "gh:name": "yarl",
+  "gh:owner": "aio-libs",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d0d6a37515189b284583e5b25ae83975eff222b3",
+      "git:hexsha": "d0d6a37515189b284583e5b25ae83975eff222b3",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-10T16:12:55.708581+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d2e13bf85fb88a86049b21b31d5ba87be38bce7b",
+      "git:hexsha": "d2e13bf85fb88a86049b21b31d5ba87be38bce7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/96d36c6ed95bf01018504c10d3d4a9fb3ffbd215",
+      "git:hexsha": "96d36c6ed95bf01018504c10d3d4a9fb3ffbd215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/81599968d632208adb1bbccc0d18a918e888dd38",
+      "git:hexsha": "81599968d632208adb1bbccc0d18a918e888dd38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/aea25fc981227ee12313b5b247f9b327fe3eaa2b",
+      "git:hexsha": "aea25fc981227ee12313b5b247f9b327fe3eaa2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/b6a94daf05fbfbcdb52337eb1b571ef7cb8cb66d",
+      "git:hexsha": "b6a94daf05fbfbcdb52337eb1b571ef7cb8cb66d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/b1930ea3d98050006165326eebadabe5f98065dc",
+      "git:hexsha": "b1930ea3d98050006165326eebadabe5f98065dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/46d5ea54e0ac6c37b692a84a65cbb776615d5251",
+      "git:hexsha": "46d5ea54e0ac6c37b692a84a65cbb776615d5251",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/0fab423e94cc3ecd7bc76b6068421ff6daef5c6d",
+      "git:hexsha": "0fab423e94cc3ecd7bc76b6068421ff6daef5c6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/7e9e07cc652b9ba230924b47380e12e83f2fb8b8",
+      "git:hexsha": "7e9e07cc652b9ba230924b47380e12e83f2fb8b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/cb1a89560a4b5e630e287f11dfdd7730ba9ff9ad",
+      "git:hexsha": "cb1a89560a4b5e630e287f11dfdd7730ba9ff9ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/cf846e840c0e7c21b77b732ff503907fa196ebd0",
+      "git:hexsha": "cf846e840c0e7c21b77b732ff503907fa196ebd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/fa32dfd0d2c21033768c727b9b65231c22bf9f49",
+      "git:hexsha": "fa32dfd0d2c21033768c727b9b65231c22bf9f49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/f8e51d9906d8a762b919ca9728ee706d8c34e5bc",
+      "git:hexsha": "f8e51d9906d8a762b919ca9728ee706d8c34e5bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/50970131e02794a65a9a8b5c0c09cfa5751afce1",
+      "git:hexsha": "50970131e02794a65a9a8b5c0c09cfa5751afce1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/24fca8f9bb9468f85a2fffb702e46ee1fe8f7d7f",
+      "git:hexsha": "24fca8f9bb9468f85a2fffb702e46ee1fe8f7d7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/5f3266da2b2f1cff99e9ea795dafab85e8818a72",
+      "git:hexsha": "5f3266da2b2f1cff99e9ea795dafab85e8818a72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/ee6f2f75054e47278c62af976986f4dffc0bfe32",
+      "git:hexsha": "ee6f2f75054e47278c62af976986f4dffc0bfe32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/52c1f0d620ae7391fd257497c618e148c3ba5add",
+      "git:hexsha": "52c1f0d620ae7391fd257497c618e148c3ba5add",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/c405598a6a94766cf399aafb813243a1168d49be",
+      "git:hexsha": "c405598a6a94766cf399aafb813243a1168d49be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/1afc1dee31a5ddda98850aec85f8564d0d03dcba",
+      "git:hexsha": "1afc1dee31a5ddda98850aec85f8564d0d03dcba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/406cf3d93768164ef4d92fb22c75e6d1e75a4cdc",
+      "git:hexsha": "406cf3d93768164ef4d92fb22c75e6d1e75a4cdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/4c4c4b87019952078f1c90e1c9adb8a4e2010c1b",
+      "git:hexsha": "4c4c4b87019952078f1c90e1c9adb8a4e2010c1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/35b2e77d5ce852545f1755abfdf1eb947d7624b1",
+      "git:hexsha": "35b2e77d5ce852545f1755abfdf1eb947d7624b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/1fcc3c4eaa775064a5b386537b37d907b17cec39",
+      "git:hexsha": "1fcc3c4eaa775064a5b386537b37d907b17cec39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/cb4217c1a3cc488a2ba5e052404e5ac8c49785ad",
+      "git:hexsha": "cb4217c1a3cc488a2ba5e052404e5ac8c49785ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/2bdb8bc11cfc159fd74d6eb9019d5143bc24ad26",
+      "git:hexsha": "2bdb8bc11cfc159fd74d6eb9019d5143bc24ad26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/0019f4caff6c256a1e4c9f91769a8197cc59350e",
+      "git:hexsha": "0019f4caff6c256a1e4c9f91769a8197cc59350e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/35415a1239ca8d2d37954b6a6489066a13a5f6da",
+      "git:hexsha": "35415a1239ca8d2d37954b6a6489066a13a5f6da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/a31d93ffc888b0bb754a343f8099a25825993a1f",
+      "git:hexsha": "a31d93ffc888b0bb754a343f8099a25825993a1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/ce9070730c08b9785aa36d9522d756cf369743c3",
+      "git:hexsha": "ce9070730c08b9785aa36d9522d756cf369743c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/dca37a9a47d954d3daf94bc8d675957e61cefd40",
+      "git:hexsha": "dca37a9a47d954d3daf94bc8d675957e61cefd40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/4f736f85d7f670c9bbd52388f0ee0aecc3821fb3",
+      "git:hexsha": "4f736f85d7f670c9bbd52388f0ee0aecc3821fb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/bd216a2e7393d8c8e833892820edb47eb3e642cc",
+      "git:hexsha": "bd216a2e7393d8c8e833892820edb47eb3e642cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/e9588a49b4bd7bcf5113ed39fb80adb622206276",
+      "git:hexsha": "e9588a49b4bd7bcf5113ed39fb80adb622206276",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/3b43b4fb25e23f0b9237eabebda1f6fdcc9d0fb5",
+      "git:hexsha": "3b43b4fb25e23f0b9237eabebda1f6fdcc9d0fb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/597ff48cb6bc6b2970eb3dc0a23ca7540ac114a1",
+      "git:hexsha": "597ff48cb6bc6b2970eb3dc0a23ca7540ac114a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/34a91a61f56a62185eb7bf02348d2bd8e7adb51f",
+      "git:hexsha": "34a91a61f56a62185eb7bf02348d2bd8e7adb51f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/5cce492b6c5f6e213dd9ae7d940f477422f81d9f",
+      "git:hexsha": "5cce492b6c5f6e213dd9ae7d940f477422f81d9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/ccd79b4b29c81f7c5fe3c79554a753f66ad9d84e",
+      "git:hexsha": "ccd79b4b29c81f7c5fe3c79554a753f66ad9d84e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/3ae6d91dfcdb93a6732b58d817bee52e248909e8",
+      "git:hexsha": "3ae6d91dfcdb93a6732b58d817bee52e248909e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/7965882d1d53f1b0e5483aec2d46fe561f638a02",
+      "git:hexsha": "7965882d1d53f1b0e5483aec2d46fe561f638a02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0b0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/99bc41825dded58d67c82011f28e473b53178ee6",
+      "git:hexsha": "99bc41825dded58d67c82011f28e473b53178ee6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/8a267c04d92649a28afe490eaab9ae112428a76d",
+      "git:hexsha": "8a267c04d92649a28afe490eaab9ae112428a76d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/5318ede148113dda2181a7ed21707f55817de4ba",
+      "git:hexsha": "5318ede148113dda2181a7ed21707f55817de4ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0b3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/37e7cdf8e5b40040a3834640b4cba5c2e5f48483",
+      "git:hexsha": "37e7cdf8e5b40040a3834640b4cba5c2e5f48483",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0b4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/11b7c411ec618ddd3d756e166829ff0f9e258505",
+      "git:hexsha": "11b7c411ec618ddd3d756e166829ff0f9e258505",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0b5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/cf2e2e3e28c638647993678397f520571836f1bc",
+      "git:hexsha": "cf2e2e3e28c638647993678397f520571836f1bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/7cf6aa40e50fa76a66be6288692f1a87b1a2c0c4",
+      "git:hexsha": "7cf6aa40e50fa76a66be6288692f1a87b1a2c0c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/183e50f90d3b622f9f8222d9df9ed51921c11014",
+      "git:hexsha": "183e50f90d3b622f9f8222d9df9ed51921c11014",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/e3bb7499af3a7bcbb557dfa994928b21d9a6a145",
+      "git:hexsha": "e3bb7499af3a7bcbb557dfa994928b21d9a6a145",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/88a9bfc30035cc5af8cb9582ea245271b9b7e4f4",
+      "git:hexsha": "88a9bfc30035cc5af8cb9582ea245271b9b7e4f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d8a686943460add587fb648910b6970520740ba8",
+      "git:hexsha": "d8a686943460add587fb648910b6970520740ba8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/0b01b34a096ff9d064044087024b8d781712f24a",
+      "git:hexsha": "0b01b34a096ff9d064044087024b8d781712f24a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/99b05d5ebad39c38f88d889a18426ed144d7cffb",
+      "git:hexsha": "99b05d5ebad39c38f88d889a18426ed144d7cffb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/829f6568916f9f3219a940720bee65103ca591c2",
+      "git:hexsha": "829f6568916f9f3219a940720bee65103ca591c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/dfd9198444d8073aeeea0d2d2799a1782402bca5",
+      "git:hexsha": "dfd9198444d8073aeeea0d2d2799a1782402bca5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/4a5d2ddd9c6fe57785a902bfe819d4b6f695afd0",
+      "git:hexsha": "4a5d2ddd9c6fe57785a902bfe819d4b6f695afd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/67c2c02243d4e2417fc22f23151764ff32d9c5a0",
+      "git:hexsha": "67c2c02243d4e2417fc22f23151764ff32d9c5a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/1bd09379a9bf7f82a9db49c9520e4c5d3f7b800e",
+      "git:hexsha": "1bd09379a9bf7f82a9db49c9520e4c5d3f7b800e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/134d4cd82147c29488ca0d798042498d95725814",
+      "git:hexsha": "134d4cd82147c29488ca0d798042498d95725814",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/56e51de88feab4ae65dac64cda80e8dfdafb9f67",
+      "git:hexsha": "56e51de88feab4ae65dac64cda80e8dfdafb9f67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/19f25164d5f941cf3b6d47174b6ad876be96123f",
+      "git:hexsha": "19f25164d5f941cf3b6d47174b6ad876be96123f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/eaae7fd940cb561b6c888b1dc2e1fc12f02be1ec",
+      "git:hexsha": "eaae7fd940cb561b6c888b1dc2e1fc12f02be1ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/4a773911993bacf08ae6aa3137429f0004355773",
+      "git:hexsha": "4a773911993bacf08ae6aa3137429f0004355773",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/5a4f23dc6198d51a8ac5e6d8e1123c27a3c8d593",
+      "git:hexsha": "5a4f23dc6198d51a8ac5e6d8e1123c27a3c8d593",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d282f6fd7619fe68973b51b818435a05d6852185",
+      "git:hexsha": "d282f6fd7619fe68973b51b818435a05d6852185",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/aacb77f459b1c739fb10d360612dc32d98c62873",
+      "git:hexsha": "aacb77f459b1c739fb10d360612dc32d98c62873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/33294bf084d2dde1ac1e8133b0125e1f142a8274",
+      "git:hexsha": "33294bf084d2dde1ac1e8133b0125e1f142a8274",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/099b4efb51f725bed0b2c2c26b621fc9c1919ec4",
+      "git:hexsha": "099b4efb51f725bed0b2c2c26b621fc9c1919ec4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/f75a81dc5751d7c20e5395c6fc9a0ed1d1a0ccf6",
+      "git:hexsha": "f75a81dc5751d7c20e5395c6fc9a0ed1d1a0ccf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/016eb59307bd2862cf3391509aca5d290a5b006a",
+      "git:hexsha": "016eb59307bd2862cf3391509aca5d290a5b006a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/a147d2ea743f8cf83798ef8f8d54e564f6765f6e",
+      "git:hexsha": "a147d2ea743f8cf83798ef8f8d54e564f6765f6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/e464bfe161171be71be35786572134cda62b1f2f",
+      "git:hexsha": "e464bfe161171be71be35786572134cda62b1f2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/6c36cfb870636329db7b28ba78feac8af0b0e135",
+      "git:hexsha": "6c36cfb870636329db7b28ba78feac8af0b0e135",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/f7b83d7216cd9044777dd055dd482fb2e549eaa8",
+      "git:hexsha": "f7b83d7216cd9044777dd055dd482fb2e549eaa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/4ab9b12babeb429b36de2276524b2b26e225e4de",
+      "git:hexsha": "4ab9b12babeb429b36de2276524b2b26e225e4de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/2e8cd0d53a864d3316c15aed45f30ab2d3933b0a",
+      "git:hexsha": "2e8cd0d53a864d3316c15aed45f30ab2d3933b0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/2cc2ebfcccb5ab20c15533ea4f8f17e599bdb451",
+      "git:hexsha": "2cc2ebfcccb5ab20c15533ea4f8f17e599bdb451",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/65d3aed2f2dd5ca3494d6de2ccdc150422e09ca2",
+      "git:hexsha": "65d3aed2f2dd5ca3494d6de2ccdc150422e09ca2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/5862a36c1a228e28bd830eedb5c2ef2b39523657",
+      "git:hexsha": "5862a36c1a228e28bd830eedb5c2ef2b39523657",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/116dbdaf964478f00ce42bcf1646cbaae3a31ebc",
+      "git:hexsha": "116dbdaf964478f00ce42bcf1646cbaae3a31ebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/ce946894a0ce80512836e367099a2bb8410db513",
+      "git:hexsha": "ce946894a0ce80512836e367099a2bb8410db513",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/46e164113258940002876756d6a471b16ccd6f36",
+      "git:hexsha": "46e164113258940002876756d6a471b16ccd6f36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/cbd7e15dfa3f87ad32093e857bc4f80d0f09e73a",
+      "git:hexsha": "cbd7e15dfa3f87ad32093e857bc4f80d0f09e73a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/62aa58651ec126735993fe9f22336f553b8232dc",
+      "git:hexsha": "62aa58651ec126735993fe9f22336f553b8232dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/f1b36e6e898ecd77aa4101ca08702202cc3f2967",
+      "git:hexsha": "f1b36e6e898ecd77aa4101ca08702202cc3f2967",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/c2eecdc92be91675921a15ca2d216017dc6c0340",
+      "git:hexsha": "c2eecdc92be91675921a15ca2d216017dc6c0340",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/10d0f065cde15deca9eaf6cda2445be9745fd71b",
+      "git:hexsha": "10d0f065cde15deca9eaf6cda2445be9745fd71b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/585e6fa01e3517232c84753bdeec0f179202c8fa",
+      "git:hexsha": "585e6fa01e3517232c84753bdeec0f179202c8fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/e7e2e37af8037dc2bbbd39b7e8cd1d18717e0d25",
+      "git:hexsha": "e7e2e37af8037dc2bbbd39b7e8cd1d18717e0d25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/c289a4d54635b6b1cb54c78d85ca9fc51242c031",
+      "git:hexsha": "c289a4d54635b6b1cb54c78d85ca9fc51242c031",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/6829dd8f3de231ea797720aa26fb370552df2ee7",
+      "git:hexsha": "6829dd8f3de231ea797720aa26fb370552df2ee7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/513ce5631eea99c9ded6c9c85b535c8d8aafca60",
+      "git:hexsha": "513ce5631eea99c9ded6c9c85b535c8d8aafca60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/8c6a3324de2bc8de6a20507ac06616bde6163bbf",
+      "git:hexsha": "8c6a3324de2bc8de6a20507ac06616bde6163bbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/2127e8dee07ecc92d2d98b708ff23fb80f121ecb",
+      "git:hexsha": "2127e8dee07ecc92d2d98b708ff23fb80f121ecb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/7bd94424149b6d53ff7ce31a0602a6de4356c175",
+      "git:hexsha": "7bd94424149b6d53ff7ce31a0602a6de4356c175",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d6d21162bae44cf0b256b9ae202509d71382dbdc",
+      "git:hexsha": "d6d21162bae44cf0b256b9ae202509d71382dbdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/ed241dedafda3a75ce17002aac28aa93927cff24",
+      "git:hexsha": "ed241dedafda3a75ce17002aac28aa93927cff24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/3d05d4c25b9924acf49b35fb04355c37ae708a87",
+      "git:hexsha": "3d05d4c25b9924acf49b35fb04355c37ae708a87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/98425c28998888ebad2c88572268d28ea1754013",
+      "git:hexsha": "98425c28998888ebad2c88572268d28ea1754013",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/10de97186fd21dec6abd3a6feb6f83d7d138c1a1",
+      "git:hexsha": "10de97186fd21dec6abd3a6feb6f83d7d138c1a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d7d5867f38d9b866a774d8976b1c3064538f5807",
+      "git:hexsha": "d7d5867f38d9b866a774d8976b1c3064538f5807",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/f9d10fbaea4108793238d0aae13e684c153e8ecf",
+      "git:hexsha": "f9d10fbaea4108793238d0aae13e684c153e8ecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/515adcad737941336406b3e5262750fd80b52b0e",
+      "git:hexsha": "515adcad737941336406b3e5262750fd80b52b0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/0b30cb02d07f8ac454762eed3c2edea0892e9a24",
+      "git:hexsha": "0b30cb02d07f8ac454762eed3c2edea0892e9a24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/3dc4b26db6be0cca8ae5d3ed0b85eb73479ff052",
+      "git:hexsha": "3dc4b26db6be0cca8ae5d3ed0b85eb73479ff052",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/604eb6da83267f4e8faf1512ffeabc23df10052e",
+      "git:hexsha": "604eb6da83267f4e8faf1512ffeabc23df10052e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/619cc2203b8888fb9ad552c4a3da6f8b31d1fbac",
+      "git:hexsha": "619cc2203b8888fb9ad552c4a3da6f8b31d1fbac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/54ee226f74f7093a90559fe4bc778d39a8343edc",
+      "git:hexsha": "54ee226f74f7093a90559fe4bc778d39a8343edc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/50028fa5d8543899ab49719bf465869046d22f0b",
+      "git:hexsha": "50028fa5d8543899ab49719bf465869046d22f0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/7235202f3fdd941b326a2fa92e08deae1a401232",
+      "git:hexsha": "7235202f3fdd941b326a2fa92e08deae1a401232",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/68b86aa86bb018a6a6ba3023e60c9760e9c869e1",
+      "git:hexsha": "68b86aa86bb018a6a6ba3023e60c9760e9c869e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a10"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/bef88456ffcfaff610ce04410aed7ed607dafd97",
+      "git:hexsha": "bef88456ffcfaff610ce04410aed7ed607dafd97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a11"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/91941a33b60a85b105e2aff3c1882994fec3b3c8",
+      "git:hexsha": "91941a33b60a85b105e2aff3c1882994fec3b3c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/8e72e20fac05295e8cf57030732662229eaa6099",
+      "git:hexsha": "8e72e20fac05295e8cf57030732662229eaa6099",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d0e026edf2ea16f466b03990a326e2a4b2717945",
+      "git:hexsha": "d0e026edf2ea16f466b03990a326e2a4b2717945",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/2835df884c98f45125cfe2b396394efb5bdc66e7",
+      "git:hexsha": "2835df884c98f45125cfe2b396394efb5bdc66e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/58acb5d6b36cffc0dcfa6cc361525fc4224f586e",
+      "git:hexsha": "58acb5d6b36cffc0dcfa6cc361525fc4224f586e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/309d116fb2a0d417fcd5ab8400489dab1e4eac4d",
+      "git:hexsha": "309d116fb2a0d417fcd5ab8400489dab1e4eac4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/5afbdf1ba48a1e8c55a7fd97d450585e0dacadd8",
+      "git:hexsha": "5afbdf1ba48a1e8c55a7fd97d450585e0dacadd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/60d2c1321baa2b5ee67eafe4f94c1db8e2ab2b43",
+      "git:hexsha": "60d2c1321baa2b5ee67eafe4f94c1db8e2ab2b43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0a9"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/b5413cd0d344284806e299ec1c5abcb057aab838",
+      "git:hexsha": "b5413cd0d344284806e299ec1c5abcb057aab838",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/8218ec7602b844f6a2a6d268cb66f67db60ddaf4",
+      "git:hexsha": "8218ec7602b844f6a2a6d268cb66f67db60ddaf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/610d21ec66da2d47b4a903ce852d1a89fcbe7195",
+      "git:hexsha": "610d21ec66da2d47b4a903ce852d1a89fcbe7195",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/56c47c6f60c3815feac259c668a9b8c13e3f2b14",
+      "git:hexsha": "56c47c6f60c3815feac259c668a9b8c13e3f2b14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/9794e632eb290862eee53558760a106e2163bb59",
+      "git:hexsha": "9794e632eb290862eee53558760a106e2163bb59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/36bc47cd3b9a9168af100f421d7e31c6dc6b0578",
+      "git:hexsha": "36bc47cd3b9a9168af100f421d7e31c6dc6b0578",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/c69acfeea570db656ac5f13afcfb8cab7e080d73",
+      "git:hexsha": "c69acfeea570db656ac5f13afcfb8cab7e080d73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/43c9c21e4e2ae5a0d9ab7e98ec8a130f4b80781e",
+      "git:hexsha": "43c9c21e4e2ae5a0d9ab7e98ec8a130f4b80781e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/7fc35c68f23c2fe43069c9f5696f952b8ec485e8",
+      "git:hexsha": "7fc35c68f23c2fe43069c9f5696f952b8ec485e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/94faa90c3c3e6d8ac519fa4b6bee154bc090e34b",
+      "git:hexsha": "94faa90c3c3e6d8ac519fa4b6bee154bc090e34b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/8590fb292bd265e9754de9b64bb5836d72adfc4b",
+      "git:hexsha": "8590fb292bd265e9754de9b64bb5836d72adfc4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/2c59e3818df61e4321795106cf3a91a86b32784e",
+      "git:hexsha": "2c59e3818df61e4321795106cf3a91a86b32784e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/603cd9897e7f5ea30ea9e76d2903099cfeee444e",
+      "git:hexsha": "603cd9897e7f5ea30ea9e76d2903099cfeee444e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/ad9be1ae8a63979a590e8eb07f82805b5aa48511",
+      "git:hexsha": "ad9be1ae8a63979a590e8eb07f82805b5aa48511",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/15af3fcfc92c3326fbe4bde49b3fcc1a65c7e584",
+      "git:hexsha": "15af3fcfc92c3326fbe4bde49b3fcc1a65c7e584",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/6f0cfff1aa80973442ed62d4b50cf79eba93e243",
+      "git:hexsha": "6f0cfff1aa80973442ed62d4b50cf79eba93e243",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/8d586205e459ff0200d5620159a824c6f016ffe4",
+      "git:hexsha": "8d586205e459ff0200d5620159a824c6f016ffe4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/51a54839a8de8c432817d5be496e85def3882b5b",
+      "git:hexsha": "51a54839a8de8c432817d5be496e85def3882b5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/6b296705c4aa5d2274b05b04eb72da5595e38bf5",
+      "git:hexsha": "6b296705c4aa5d2274b05b04eb72da5595e38bf5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0--failed-release-attempt"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/68e7d9312ad9eccb695dbc174a4705e9a238c1fa",
+      "git:hexsha": "68e7d9312ad9eccb695dbc174a4705e9a238c1fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/def49700ae4b22dbb9e07fcc31713bbfe9ea7c0b",
+      "git:hexsha": "def49700ae4b22dbb9e07fcc31713bbfe9ea7c0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/a42bda20249ae4319a09fe148d4ac4a319df2ecb",
+      "git:hexsha": "a42bda20249ae4319a09fe148d4ac4a319df2ecb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/6f06f5cb9933603c0ebeb72ed673af4d7afdc39e",
+      "git:hexsha": "6f06f5cb9933603c0ebeb72ed673af4d7afdc39e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/bfef13050dd7d299f7b993b058e61cb50eacbd63",
+      "git:hexsha": "bfef13050dd7d299f7b993b058e61cb50eacbd63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/29d693deb083287745b41138db6597a4ed2da59b",
+      "git:hexsha": "29d693deb083287745b41138db6597a4ed2da59b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/cfc634eb6adbf65828dfe7052838023280d50c57",
+      "git:hexsha": "cfc634eb6adbf65828dfe7052838023280d50c57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/0698dc947772786fcff467b12cfb1f3921c7ff31",
+      "git:hexsha": "0698dc947772786fcff467b12cfb1f3921c7ff31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/6362ff155ba02964a5e773927412f7cf4ca23cd1",
+      "git:hexsha": "6362ff155ba02964a5e773927412f7cf4ca23cd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/10635f8b9c038a49ea7b5a6421c534aad80b8630",
+      "git:hexsha": "10635f8b9c038a49ea7b5a6421c534aad80b8630",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/d223009f4ef247b0d6f699a9d20ec8718a8d8249",
+      "git:hexsha": "d223009f4ef247b0d6f699a9d20ec8718a8d8249",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/845f017dc525151e2a02a0bc2e855d68d761d25a",
+      "git:hexsha": "845f017dc525151e2a02a0bc2e855d68d761d25a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/23b266ebba13bfb73df297ef9b103634d3871b62",
+      "git:hexsha": "23b266ebba13bfb73df297ef9b103634d3871b62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/146e70efd40d2798615a8c37aee26e9601d14039",
+      "git:hexsha": "146e70efd40d2798615a8c37aee26e9601d14039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.8rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/yarl/commit/1466ce8b71ca8481b4d132e5c1239fbf87ee45c4",
+      "git:hexsha": "1466ce8b71ca8481b4d132e5c1239fbf87ee45c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.9"
+    }
+  ]
+}
