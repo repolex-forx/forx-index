@@ -1,0 +1,1767 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/piccolo-orm/piccolo",
+  "@type": "gh:Repository",
+  "gh:name": "piccolo",
+  "gh:owner": "piccolo-orm",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2556bbf2af69070d9a0d2ea468d7b9cd576fd2d3",
+      "git:hexsha": "2556bbf2af69070d9a0d2ea468d7b9cd576fd2d3",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T20:25:34.512298+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b4a4d4a38d1f9951ace5539ae75c376786296650",
+      "git:hexsha": "b4a4d4a38d1f9951ace5539ae75c376786296650",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/683db1feb7f54213f8d0ca1cceeb030ea8e958f5",
+      "git:hexsha": "683db1feb7f54213f8d0ca1cceeb030ea8e958f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e5e71dfa734504a1eb213e93b9bd1d7c1abdd831",
+      "git:hexsha": "e5e71dfa734504a1eb213e93b9bd1d7c1abdd831",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0b7efd1ddb6c7ab6b2d45ae5b3e9e2190b855a3a",
+      "git:hexsha": "0b7efd1ddb6c7ab6b2d45ae5b3e9e2190b855a3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8cd11175bbaf6bf7553c74bc0dad8cd90cb788dc",
+      "git:hexsha": "8cd11175bbaf6bf7553c74bc0dad8cd90cb788dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e07fd6f085b5d4a7b5ac8d6ff50af6827e7cab05",
+      "git:hexsha": "e07fd6f085b5d4a7b5ac8d6ff50af6827e7cab05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2f2c62c2acf164b675ae94cdf1465e33c958d693",
+      "git:hexsha": "2f2c62c2acf164b675ae94cdf1465e33c958d693",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/509b521a1effcb9ba889f5d87303c84fbf88dd5f",
+      "git:hexsha": "509b521a1effcb9ba889f5d87303c84fbf88dd5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2d3c94f211b717368ceb8f8ee83f362401cfe5d4",
+      "git:hexsha": "2d3c94f211b717368ceb8f8ee83f362401cfe5d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0518cfdb89c2d3c21cc554a51f9e6c5d57b83439",
+      "git:hexsha": "0518cfdb89c2d3c21cc554a51f9e6c5d57b83439",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/52b3470b7fc62ec9b090d6ce03401e9168d27299",
+      "git:hexsha": "52b3470b7fc62ec9b090d6ce03401e9168d27299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b6e75fad8bb088d4c355b4270c00ea37d035254c",
+      "git:hexsha": "b6e75fad8bb088d4c355b4270c00ea37d035254c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/94c55f803f7757d266b9dd2d2498e44c52467224",
+      "git:hexsha": "94c55f803f7757d266b9dd2d2498e44c52467224",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.100.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f8a7eee99fda67ed94627ce5e4410406bd1a2070",
+      "git:hexsha": "f8a7eee99fda67ed94627ce5e4410406bd1a2070",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.101.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/35d33465484dddbbc5a9b59e774bb75db3d18319",
+      "git:hexsha": "35d33465484dddbbc5a9b59e774bb75db3d18319",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.102.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5e5cabc403e106c0ae1985a35c0d2449ccb76b3c",
+      "git:hexsha": "5e5cabc403e106c0ae1985a35c0d2449ccb76b3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.103.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fdb703f4abf461dc323776d9f2611a1dc92a6c92",
+      "git:hexsha": "fdb703f4abf461dc323776d9f2611a1dc92a6c92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.104.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/667b8c3ec026cee917dc9451ec9a568e922613e9",
+      "git:hexsha": "667b8c3ec026cee917dc9451ec9a568e922613e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.105.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7e6012b8fe83f89ec6faf4a75be828e289815c3f",
+      "git:hexsha": "7e6012b8fe83f89ec6faf4a75be828e289815c3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.106.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/021d782b706ec6ed33b88355477c31b5826d8d26",
+      "git:hexsha": "021d782b706ec6ed33b88355477c31b5826d8d26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.107.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/356421134230818f5c1a70812a9913cb4e0abe9c",
+      "git:hexsha": "356421134230818f5c1a70812a9913cb4e0abe9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.108.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ff26a8805f5d4ddd906388bdfdb51f66bce93bc8",
+      "git:hexsha": "ff26a8805f5d4ddd906388bdfdb51f66bce93bc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.109.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9449286c934736014caceab8ab40c7cb53bf270f",
+      "git:hexsha": "9449286c934736014caceab8ab40c7cb53bf270f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3063a4a3b35fe0c6b99b7a7459b5161f0ecda25c",
+      "git:hexsha": "3063a4a3b35fe0c6b99b7a7459b5161f0ecda25c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3f4864e07e0ba3dd0657de6a407487dd42bdc77b",
+      "git:hexsha": "3f4864e07e0ba3dd0657de6a407487dd42bdc77b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f6e74af02af7cc9816fc9872ca4f0e8c2834b91a",
+      "git:hexsha": "f6e74af02af7cc9816fc9872ca4f0e8c2834b91a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8261ed0f40d9cca98147a9356c1640773c33ea3c",
+      "git:hexsha": "8261ed0f40d9cca98147a9356c1640773c33ea3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ed891963c9923c30e26988bbd7bb7207e4887696",
+      "git:hexsha": "ed891963c9923c30e26988bbd7bb7207e4887696",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/298554bf21d7d9ada33b3096b7932a54f1f9ef2a",
+      "git:hexsha": "298554bf21d7d9ada33b3096b7932a54f1f9ef2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ab79fdb503631ad8ddd217d72cd214997144a83d",
+      "git:hexsha": "ab79fdb503631ad8ddd217d72cd214997144a83d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/00eba40bb45dc6bce53017b80b4aece50b95566a",
+      "git:hexsha": "00eba40bb45dc6bce53017b80b4aece50b95566a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/98417309a798e8c985081999e253a7582f3fa65c",
+      "git:hexsha": "98417309a798e8c985081999e253a7582f3fa65c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.110.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2786348bc0f7eabad99486197b0789c52f3d7c25",
+      "git:hexsha": "2786348bc0f7eabad99486197b0789c52f3d7c25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.111.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/6a350dd8e0f8972fe76db45d185c919a250fae31",
+      "git:hexsha": "6a350dd8e0f8972fe76db45d185c919a250fae31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.111.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b81e12b49280acd997d5d512f11f299e19c93024",
+      "git:hexsha": "b81e12b49280acd997d5d512f11f299e19c93024",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.112.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/cf276a8b18f229cf62023bed9f22c1524f8c63b6",
+      "git:hexsha": "cf276a8b18f229cf62023bed9f22c1524f8c63b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.112.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/87dc9de542a3c5c39b194610a1df94d27f292da2",
+      "git:hexsha": "87dc9de542a3c5c39b194610a1df94d27f292da2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.113.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/cd5595c08d94dcf048f30ae68812379e9bb0d992",
+      "git:hexsha": "cd5595c08d94dcf048f30ae68812379e9bb0d992",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.114.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/74ea10d427464b05d4a0caba05ce317582d74203",
+      "git:hexsha": "74ea10d427464b05d4a0caba05ce317582d74203",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.115.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/36e80f58b87822244e405736be141e68b5ae7fa4",
+      "git:hexsha": "36e80f58b87822244e405736be141e68b5ae7fa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.116.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0cd93f009d3ab9d2c2ac8360dab3d0a3ffad2fd9",
+      "git:hexsha": "0cd93f009d3ab9d2c2ac8360dab3d0a3ffad2fd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.117.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/aa49dd7bc7c8f7b42eac73bdba487f8dad9ca58f",
+      "git:hexsha": "aa49dd7bc7c8f7b42eac73bdba487f8dad9ca58f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.118.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1d2a224aa471daec21803badc789f85628f50e3d",
+      "git:hexsha": "1d2a224aa471daec21803badc789f85628f50e3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.119.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/91283264c828bdd2a6ba74903cf7127da2230088",
+      "git:hexsha": "91283264c828bdd2a6ba74903cf7127da2230088",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f331b8f972363d9694f581baa1a9b788c9c8b144",
+      "git:hexsha": "f331b8f972363d9694f581baa1a9b788c9c8b144",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9086be9dabcf1ea1e4a7aded030d43acee407836",
+      "git:hexsha": "9086be9dabcf1ea1e4a7aded030d43acee407836",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a8edff5908face82454e6357219c694acd1577aa",
+      "git:hexsha": "a8edff5908face82454e6357219c694acd1577aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2b2424d58455f58af5533626902d530e580aa237",
+      "git:hexsha": "2b2424d58455f58af5533626902d530e580aa237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/eeff93dc80f7b796a057ba01347785e91c1e8ee4",
+      "git:hexsha": "eeff93dc80f7b796a057ba01347785e91c1e8ee4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a63f2e5132acf1033fe5130b54f0b0e23ea817cd",
+      "git:hexsha": "a63f2e5132acf1033fe5130b54f0b0e23ea817cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e12c4694ed2068fb08e40209b4dcd2609796752b",
+      "git:hexsha": "e12c4694ed2068fb08e40209b4dcd2609796752b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.120.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/84e943264161cae314502b9c2e4a3673b492b54a",
+      "git:hexsha": "84e943264161cae314502b9c2e4a3673b492b54a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.121.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f7a6520ae026ef464d8d0d86d73034964528f5f6",
+      "git:hexsha": "f7a6520ae026ef464d8d0d86d73034964528f5f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e0ce22d40d802b579ef3ed45a3279cbd8b4217b3",
+      "git:hexsha": "e0ce22d40d802b579ef3ed45a3279cbd8b4217b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a949760b53bf61615968a7d99c06f6b8376b0a6f",
+      "git:hexsha": "a949760b53bf61615968a7d99c06f6b8376b0a6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ede76b0697ac7dc60363042c6ded02614015233a",
+      "git:hexsha": "ede76b0697ac7dc60363042c6ded02614015233a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c8c439ff7a92fb3a64ab1ced229c7887e4cf3b5a",
+      "git:hexsha": "c8c439ff7a92fb3a64ab1ced229c7887e4cf3b5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e1c15355efa89887e67caac7430002e250bc6f1a",
+      "git:hexsha": "e1c15355efa89887e67caac7430002e250bc6f1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e1f8e9e7c60ad7a4a47f552891b50a92b696cd52",
+      "git:hexsha": "e1f8e9e7c60ad7a4a47f552891b50a92b696cd52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/872771ecec9a1629a2fb2aaceed32168936c01c0",
+      "git:hexsha": "872771ecec9a1629a2fb2aaceed32168936c01c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5d7a468a4d4a939423a63207a69bc9b4e2b87e53",
+      "git:hexsha": "5d7a468a4d4a939423a63207a69bc9b4e2b87e53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fdabb8ba378651e7fc867b97d1e8714f62a05b7e",
+      "git:hexsha": "fdabb8ba378651e7fc867b97d1e8714f62a05b7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/df3e287882c31247cc90e8e1e5144b4bdfb7bfe6",
+      "git:hexsha": "df3e287882c31247cc90e8e1e5144b4bdfb7bfe6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9a0bc3004ce79f3bc3df76499bc5bc7f53ac48ac",
+      "git:hexsha": "9a0bc3004ce79f3bc3df76499bc5bc7f53ac48ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f6f919b23de9130d5f54b76e750182b3a6af6f7d",
+      "git:hexsha": "f6f919b23de9130d5f54b76e750182b3a6af6f7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/77afec42d0e1498e5cf55bf34afc27e741cee74b",
+      "git:hexsha": "77afec42d0e1498e5cf55bf34afc27e741cee74b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f24365ad86377066b7fb19894eadc6e4c4a22640",
+      "git:hexsha": "f24365ad86377066b7fb19894eadc6e4c4a22640",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3d72c4a604d6d758a07a668e55ca81edbacac0da",
+      "git:hexsha": "3d72c4a604d6d758a07a668e55ca81edbacac0da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bdecb8dd7c0a58803aa880280b5a6b17f51af3cb",
+      "git:hexsha": "bdecb8dd7c0a58803aa880280b5a6b17f51af3cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9b55430980340a7a60d4a478c8fbdabe2fc1db26",
+      "git:hexsha": "9b55430980340a7a60d4a478c8fbdabe2fc1db26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2c50122733004976229a255cf25f108d483578a7",
+      "git:hexsha": "2c50122733004976229a255cf25f108d483578a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/acd8ebbdd58d3c034bb11e68486e1128d3784b3b",
+      "git:hexsha": "acd8ebbdd58d3c034bb11e68486e1128d3784b3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/733b37debcc0939c04097c54d539930f59677faa",
+      "git:hexsha": "733b37debcc0939c04097c54d539930f59677faa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/653fcd995e4690f77ca2cb0949b5c0fcfd5de715",
+      "git:hexsha": "653fcd995e4690f77ca2cb0949b5c0fcfd5de715",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3b19aa0262c81a3b1a8b6e381b351fa503aa7a25",
+      "git:hexsha": "3b19aa0262c81a3b1a8b6e381b351fa503aa7a25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/48ce96439b635e13e44ace2bd09ffbcc154936d4",
+      "git:hexsha": "48ce96439b635e13e44ace2bd09ffbcc154936d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fcf58ac329114ceb269732b6a8d888f79ea137d4",
+      "git:hexsha": "fcf58ac329114ceb269732b6a8d888f79ea137d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9091e2a14aa7ac93937c1f5602721d97c975662e",
+      "git:hexsha": "9091e2a14aa7ac93937c1f5602721d97c975662e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/86ce2e46cf70d9baffcf25ed8a798ce646ae5aac",
+      "git:hexsha": "86ce2e46cf70d9baffcf25ed8a798ce646ae5aac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a2828839bae31bf165aec1e46232015fe120d05a",
+      "git:hexsha": "a2828839bae31bf165aec1e46232015fe120d05a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b31d26d9bdde7fa1eacb15049ae63ec700d15ace",
+      "git:hexsha": "b31d26d9bdde7fa1eacb15049ae63ec700d15ace",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/6bcfa66cbfebae226b2d413ab7b7fd043f5e76c8",
+      "git:hexsha": "6bcfa66cbfebae226b2d413ab7b7fd043f5e76c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/19c08fcadb860f563f5796132349ab06494ca464",
+      "git:hexsha": "19c08fcadb860f563f5796132349ab06494ca464",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5341447d20350f011abf683e0a64559b61f15635",
+      "git:hexsha": "5341447d20350f011abf683e0a64559b61f15635",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8a7c1501d87aff5ba105aaebd22bd567f4e1bf26",
+      "git:hexsha": "8a7c1501d87aff5ba105aaebd22bd567f4e1bf26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e5c32a4810badf39fc61e465747b7343309d7e12",
+      "git:hexsha": "e5c32a4810badf39fc61e465747b7343309d7e12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7b7955d38f05bc34ef170e3966120a12b0a5f40f",
+      "git:hexsha": "7b7955d38f05bc34ef170e3966120a12b0a5f40f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/90ac5f62012d207d2604cff4772127aa98f39375",
+      "git:hexsha": "90ac5f62012d207d2604cff4772127aa98f39375",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5d0b740b9ebf591d275d944b36da09dce22a9dcf",
+      "git:hexsha": "5d0b740b9ebf591d275d944b36da09dce22a9dcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0488cffb1b156e27fe25619342a7960d644080fb",
+      "git:hexsha": "0488cffb1b156e27fe25619342a7960d644080fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ff45e3ec137fb656ee6f6be15034f34414f62ae8",
+      "git:hexsha": "ff45e3ec137fb656ee6f6be15034f34414f62ae8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/6aa4917325fb119c1fbf0a8a5128bf462b3273f2",
+      "git:hexsha": "6aa4917325fb119c1fbf0a8a5128bf462b3273f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c8d52c59f49a6aa5fecfa5d002f4e021121a12df",
+      "git:hexsha": "c8d52c59f49a6aa5fecfa5d002f4e021121a12df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3130bbcf9fe7b497b7485c1d41905cc2182e4a09",
+      "git:hexsha": "3130bbcf9fe7b497b7485c1d41905cc2182e4a09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d0a91c7ec718573b02b0d8bab186c25890a8fc87",
+      "git:hexsha": "d0a91c7ec718573b02b0d8bab186c25890a8fc87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/969c6371c0b2e4c428b89d868de2c86c760fb01c",
+      "git:hexsha": "969c6371c0b2e4c428b89d868de2c86c760fb01c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0597aba059a4717715ac4a918085394b3c33f376",
+      "git:hexsha": "0597aba059a4717715ac4a918085394b3c33f376",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fbcadb0c800735cd5f09f379bd549067ead72f04",
+      "git:hexsha": "fbcadb0c800735cd5f09f379bd549067ead72f04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/49562c2c94540c219f7b67ccaf180a3bbf48787d",
+      "git:hexsha": "49562c2c94540c219f7b67ccaf180a3bbf48787d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4cb2cf473cd5a213cc2e7ba6f6d3c39082a9fb76",
+      "git:hexsha": "4cb2cf473cd5a213cc2e7ba6f6d3c39082a9fb76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/98de5b6fe1ae30f90299fbb258995f87f9e04f10",
+      "git:hexsha": "98de5b6fe1ae30f90299fbb258995f87f9e04f10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/15bd78fc27ee1753e9f0a1eb0e5e8c8cc51189d3",
+      "git:hexsha": "15bd78fc27ee1753e9f0a1eb0e5e8c8cc51189d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e7a36d4b4eb1dd691bb53d1307f35df41655a0f4",
+      "git:hexsha": "e7a36d4b4eb1dd691bb53d1307f35df41655a0f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8faa66de7a04a5319d982f9a91f13abd8bfc35fc",
+      "git:hexsha": "8faa66de7a04a5319d982f9a91f13abd8bfc35fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0d14cfb10b71ba0670dc206e42055f3bcd74fec6",
+      "git:hexsha": "0d14cfb10b71ba0670dc206e42055f3bcd74fec6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7dfce9c4d75ad1a370b2efb9ded1fb55cae49e70",
+      "git:hexsha": "7dfce9c4d75ad1a370b2efb9ded1fb55cae49e70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/96965cad4bd9d2ba6a9ccd334b996d83d9577373",
+      "git:hexsha": "96965cad4bd9d2ba6a9ccd334b996d83d9577373",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f05270cade6031caa9122b3d6d1ff52464ec52c9",
+      "git:hexsha": "f05270cade6031caa9122b3d6d1ff52464ec52c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f6a5295c8960852650727fdc49772e171b3f4af4",
+      "git:hexsha": "f6a5295c8960852650727fdc49772e171b3f4af4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/494fcb9689b1efbd1d8d90569be2fb5ca37c0546",
+      "git:hexsha": "494fcb9689b1efbd1d8d90569be2fb5ca37c0546",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d82b32ff80a7315ae757969c4c79abe50f8d7ef2",
+      "git:hexsha": "d82b32ff80a7315ae757969c4c79abe50f8d7ef2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/140e7069ec5d451f3c765e93f746c1ae3955530c",
+      "git:hexsha": "140e7069ec5d451f3c765e93f746c1ae3955530c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a36ace49066626ecd01b8f2fb143d05bfd50ce91",
+      "git:hexsha": "a36ace49066626ecd01b8f2fb143d05bfd50ce91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b0097696564b67d5ff4d131100b10ef17e4f5623",
+      "git:hexsha": "b0097696564b67d5ff4d131100b10ef17e4f5623",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9521687217ecc85bbadd68ce62b060ba974bbd99",
+      "git:hexsha": "9521687217ecc85bbadd68ce62b060ba974bbd99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/17832f8432a9c99422fee5d22d987d292e786204",
+      "git:hexsha": "17832f8432a9c99422fee5d22d987d292e786204",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/14e7c72634a8614edec87e8cbbd8eb2101d84f93",
+      "git:hexsha": "14e7c72634a8614edec87e8cbbd8eb2101d84f93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/61f2738996c7abe150ea1626ad352c576fe9b992",
+      "git:hexsha": "61f2738996c7abe150ea1626ad352c576fe9b992",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bf63f911326caac21ecf5f09848b0dab309fec70",
+      "git:hexsha": "bf63f911326caac21ecf5f09848b0dab309fec70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1b645cb5a1b30282ca2f72b184c721f1dc8175d1",
+      "git:hexsha": "1b645cb5a1b30282ca2f72b184c721f1dc8175d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/26c1ccc619adc176782b3b9a3529bfbd0a7ea48b",
+      "git:hexsha": "26c1ccc619adc176782b3b9a3529bfbd0a7ea48b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9bddedb90032e2cdb836cf097545b4039b1d5f4e",
+      "git:hexsha": "9bddedb90032e2cdb836cf097545b4039b1d5f4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7d99e8323246ad0233a6e706df876732981df1dc",
+      "git:hexsha": "7d99e8323246ad0233a6e706df876732981df1dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/df10b499b0dac68e860281ccd88058b65011abe5",
+      "git:hexsha": "df10b499b0dac68e860281ccd88058b65011abe5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bf280b18411a6dc2caa681a84473f91629a69522",
+      "git:hexsha": "bf280b18411a6dc2caa681a84473f91629a69522",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.38.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b04f695605c3748a1138fc227dcf61a550b7a838",
+      "git:hexsha": "b04f695605c3748a1138fc227dcf61a550b7a838",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.38.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ceb12d93a7b33048b19859d2724ac3ebef54770f",
+      "git:hexsha": "ceb12d93a7b33048b19859d2724ac3ebef54770f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5b5c98cb4724869111112d20cd27d74d4b6df097",
+      "git:hexsha": "5b5c98cb4724869111112d20cd27d74d4b6df097",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bd7da98201d4e3f073f2f5cab7494ff475beb919",
+      "git:hexsha": "bd7da98201d4e3f073f2f5cab7494ff475beb919",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/133e76dbb72eca39bdfffbbfc03af2054aee4db2",
+      "git:hexsha": "133e76dbb72eca39bdfffbbfc03af2054aee4db2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0132ae12d454939d3a17ea66f75e17d79ef1316b",
+      "git:hexsha": "0132ae12d454939d3a17ea66f75e17d79ef1316b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ff831cfae23e1f4f048dc4612c20b4671be6c81b",
+      "git:hexsha": "ff831cfae23e1f4f048dc4612c20b4671be6c81b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/240ef5d64f501585c53fa33643b6a1bd8165e1e0",
+      "git:hexsha": "240ef5d64f501585c53fa33643b6a1bd8165e1e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.41.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1c42d6a8cda2262e089df2610d29986bf6a13700",
+      "git:hexsha": "1c42d6a8cda2262e089df2610d29986bf6a13700",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fd72c6064188a4139238cf70b416a0b3862e0da0",
+      "git:hexsha": "fd72c6064188a4139238cf70b416a0b3862e0da0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ce5ed42b4849306f7d2d13faf86f62ca8f663d11",
+      "git:hexsha": "ce5ed42b4849306f7d2d13faf86f62ca8f663d11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/621c2aab235c5735381d1e938e8c61edd90fc6bd",
+      "git:hexsha": "621c2aab235c5735381d1e938e8c61edd90fc6bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.44.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f1244ecc530029cba4c2d47b8f6bd7d13dcff7a8",
+      "git:hexsha": "f1244ecc530029cba4c2d47b8f6bd7d13dcff7a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/27d6f5b344c0ef3c63d0a72afffc2345c883861b",
+      "git:hexsha": "27d6f5b344c0ef3c63d0a72afffc2345c883861b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.45.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/77b3d2792e62f7a9eaa383125f96b1152461c3d9",
+      "git:hexsha": "77b3d2792e62f7a9eaa383125f96b1152461c3d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ccdabaa341c317180659b665cecb763aba3a8873",
+      "git:hexsha": "ccdabaa341c317180659b665cecb763aba3a8873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9cd631ba49e617f203114d50be0c9fdcca84c891",
+      "git:hexsha": "9cd631ba49e617f203114d50be0c9fdcca84c891",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7f062ad9d8e3d5b96652f439093d82274f510e24",
+      "git:hexsha": "7f062ad9d8e3d5b96652f439093d82274f510e24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1206ad251d253c343ef288286c002b362bd5bdbb",
+      "git:hexsha": "1206ad251d253c343ef288286c002b362bd5bdbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7a0c9ee9197d27f82341d368134a0d9f9934e3e6",
+      "git:hexsha": "7a0c9ee9197d27f82341d368134a0d9f9934e3e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/aecca0c226053e2a4edbb63ffc995b0a92269013",
+      "git:hexsha": "aecca0c226053e2a4edbb63ffc995b0a92269013",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0f28e07233ea3aa490bbeb0c1b30ada08e4fb2b8",
+      "git:hexsha": "0f28e07233ea3aa490bbeb0c1b30ada08e4fb2b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8ec9d10313c9ac44916f01e27c9ef58eb22ae0d9",
+      "git:hexsha": "8ec9d10313c9ac44916f01e27c9ef58eb22ae0d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1cf5aa7dc5ea19bd3361e0506d8fc769362e5ecd",
+      "git:hexsha": "1cf5aa7dc5ea19bd3361e0506d8fc769362e5ecd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.51.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2bd60cfbac22a9091285ed7bde9eb4d9e11f46ba",
+      "git:hexsha": "2bd60cfbac22a9091285ed7bde9eb4d9e11f46ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bded0f62c6aa14ed4ac294cd560f56c6dd160f2e",
+      "git:hexsha": "bded0f62c6aa14ed4ac294cd560f56c6dd160f2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5a5ef2621b408728a861c3072e7107c3808a7a57",
+      "git:hexsha": "5a5ef2621b408728a861c3072e7107c3808a7a57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/dadd13c3dcf4322c3ae7bdefea76e16ad455ff9d",
+      "git:hexsha": "dadd13c3dcf4322c3ae7bdefea76e16ad455ff9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c774842cf12b8dc6666baa36a8447abba7648e74",
+      "git:hexsha": "c774842cf12b8dc6666baa36a8447abba7648e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/27539219431874bae99b7206df48133fbe1a27eb",
+      "git:hexsha": "27539219431874bae99b7206df48133fbe1a27eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e0f04a40e868e9fa3c4f6bb9ebb1128f74180b07",
+      "git:hexsha": "e0f04a40e868e9fa3c4f6bb9ebb1128f74180b07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3b47e45c6f41b63e8d95b178682244d8a4e3477f",
+      "git:hexsha": "3b47e45c6f41b63e8d95b178682244d8a4e3477f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2d96c3ab003a2ee479a7d852441ac793268b37f6",
+      "git:hexsha": "2d96c3ab003a2ee479a7d852441ac793268b37f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/77cf7f6819787391b19b26cc7880498c3cae4314",
+      "git:hexsha": "77cf7f6819787391b19b26cc7880498c3cae4314",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c569d1419e2c197c3954d457501055a2d83a5287",
+      "git:hexsha": "c569d1419e2c197c3954d457501055a2d83a5287",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/535fca7d20a84673f4f8985221773d2276321215",
+      "git:hexsha": "535fca7d20a84673f4f8985221773d2276321215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.60.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0840fe5141c55d93f2dd82d0e3285132e131d8a9",
+      "git:hexsha": "0840fe5141c55d93f2dd82d0e3285132e131d8a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.60.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2580d1eabeb2f5a9affa5a60509e8d76e1b35206",
+      "git:hexsha": "2580d1eabeb2f5a9affa5a60509e8d76e1b35206",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e800ec581fe59ef460c876c55849d730a5e60c20",
+      "git:hexsha": "e800ec581fe59ef460c876c55849d730a5e60c20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.61.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1c6654f52c64ed989829913d50aa88eb7314cd4e",
+      "git:hexsha": "1c6654f52c64ed989829913d50aa88eb7314cd4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.61.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/82c2e0384661b40e172571ed85a010a68c6073aa",
+      "git:hexsha": "82c2e0384661b40e172571ed85a010a68c6073aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f1b4fe120fcbef32e847e84663f634a7a5b43772",
+      "git:hexsha": "f1b4fe120fcbef32e847e84663f634a7a5b43772",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.62.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2d207d8f8a1ea501016337aea692e59461133301",
+      "git:hexsha": "2d207d8f8a1ea501016337aea692e59461133301",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.62.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e3d6a3850b0166b43df399dcca241ac60fb6a2cc",
+      "git:hexsha": "e3d6a3850b0166b43df399dcca241ac60fb6a2cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.62.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d84044dcc0bce8f2f3005cf081670a2e37eb82e9",
+      "git:hexsha": "d84044dcc0bce8f2f3005cf081670a2e37eb82e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/6b23206ac1b870a9f4bf4fd290cdec28e425867f",
+      "git:hexsha": "6b23206ac1b870a9f4bf4fd290cdec28e425867f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.63.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/442f8988a5abb02572c3ba505d2ea8f583edbc54",
+      "git:hexsha": "442f8988a5abb02572c3ba505d2ea8f583edbc54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/32654c1fbed91b5035dd318715033759ff94eec0",
+      "git:hexsha": "32654c1fbed91b5035dd318715033759ff94eec0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ad842c116a032b859360ec78f0ea6017119ede61",
+      "git:hexsha": "ad842c116a032b859360ec78f0ea6017119ede61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.65.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2c316b04ce0fb5aea3af55a25f03156cf4837d4d",
+      "git:hexsha": "2c316b04ce0fb5aea3af55a25f03156cf4837d4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/65586a79d6bf8be6d4e9cd2ab64c9c9d906921b3",
+      "git:hexsha": "65586a79d6bf8be6d4e9cd2ab64c9c9d906921b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.66.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c15eb0ec0bc04ee69b75b7627bb1ef7eb5507e17",
+      "git:hexsha": "c15eb0ec0bc04ee69b75b7627bb1ef7eb5507e17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/098cd4e99a82ed057f7fbf980e83b929e610784b",
+      "git:hexsha": "098cd4e99a82ed057f7fbf980e83b929e610784b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c5c382681d5ca05acd3e43a4ed53827ed7ad4cfb",
+      "git:hexsha": "c5c382681d5ca05acd3e43a4ed53827ed7ad4cfb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/87b231c6d19734deb92d18d0fe796baece3f13c9",
+      "git:hexsha": "87b231c6d19734deb92d18d0fe796baece3f13c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.69.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4904761cc1a346e9bb40993a05aeca3c4e413bfe",
+      "git:hexsha": "4904761cc1a346e9bb40993a05aeca3c4e413bfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.69.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5aea0fdc4f40a99615f534ec49a38b242a5f5cb0",
+      "git:hexsha": "5aea0fdc4f40a99615f534ec49a38b242a5f5cb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.69.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b384f718e4c3a1d7ce9291076419109ef8b73365",
+      "git:hexsha": "b384f718e4c3a1d7ce9291076419109ef8b73365",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.69.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bf14671a9580249cc5ac4bc6be3d76f6c6505894",
+      "git:hexsha": "bf14671a9580249cc5ac4bc6be3d76f6c6505894",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.69.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/70440ca2df169f4cbb39e7badb5bd6e9240fb832",
+      "git:hexsha": "70440ca2df169f4cbb39e7badb5bd6e9240fb832",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5b44952acd69efb482f85db1d1c472d0c5692b36",
+      "git:hexsha": "5b44952acd69efb482f85db1d1c472d0c5692b36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ac441f70433cf0e8e21f3f9510c343ad290d0c80",
+      "git:hexsha": "ac441f70433cf0e8e21f3f9510c343ad290d0c80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/24311fa7f899767d2f5cad9672923efab9bac94c",
+      "git:hexsha": "24311fa7f899767d2f5cad9672923efab9bac94c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7986a5f0fa5463dd7b77a6ea78c5781b66a81d42",
+      "git:hexsha": "7986a5f0fa5463dd7b77a6ea78c5781b66a81d42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/58c306d2a0e76d5468caf3cc9fa53e40ced279e9",
+      "git:hexsha": "58c306d2a0e76d5468caf3cc9fa53e40ced279e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/877bf21d6226fc1f237d9deb4d1dac5cbdac5eaf",
+      "git:hexsha": "877bf21d6226fc1f237d9deb4d1dac5cbdac5eaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5e58024f6d17c9a78258f4910fc3aa79436d5c4f",
+      "git:hexsha": "5e58024f6d17c9a78258f4910fc3aa79436d5c4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ddfc34488e7efc0ae0829207ee239fd242aca8ec",
+      "git:hexsha": "ddfc34488e7efc0ae0829207ee239fd242aca8ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2314736ee4657fbd5ad8d3c462bb749f30d800f4",
+      "git:hexsha": "2314736ee4657fbd5ad8d3c462bb749f30d800f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a529cdcf3303b1f16c9c6da5a64e4ea790de5255",
+      "git:hexsha": "a529cdcf3303b1f16c9c6da5a64e4ea790de5255",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/aca1500b829ecf8e9fcd9cac00494256c720be05",
+      "git:hexsha": "aca1500b829ecf8e9fcd9cac00494256c720be05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.71.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d01066002e9932ff7b7ea7e2e678b8a54faf666c",
+      "git:hexsha": "d01066002e9932ff7b7ea7e2e678b8a54faf666c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ffe173d69156cda0f0bd356175c4f40a9e0c6bdc",
+      "git:hexsha": "ffe173d69156cda0f0bd356175c4f40a9e0c6bdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a5e68d9a312c039d8906f9c7cea84a223bf35eef",
+      "git:hexsha": "a5e68d9a312c039d8906f9c7cea84a223bf35eef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.74.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9388f2854273b08a74c873578d4dea0d3c74b305",
+      "git:hexsha": "9388f2854273b08a74c873578d4dea0d3c74b305",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.74.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/32bd3b1d763e706c5b382c2e634c10ef1709ac57",
+      "git:hexsha": "32bd3b1d763e706c5b382c2e634c10ef1709ac57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.74.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/570b395d3adc81f344802484796c715aebdd39f3",
+      "git:hexsha": "570b395d3adc81f344802484796c715aebdd39f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.74.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a89c2fa57ba01f352e6830b99ff108b50b14c0e8",
+      "git:hexsha": "a89c2fa57ba01f352e6830b99ff108b50b14c0e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.74.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/21f3c82981b61062552cccad83c18182344787be",
+      "git:hexsha": "21f3c82981b61062552cccad83c18182344787be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.75.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/32aae5eccdf0cc5b940c3db7ea7599da87d01c50",
+      "git:hexsha": "32aae5eccdf0cc5b940c3db7ea7599da87d01c50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.76.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/36746e948ccbb6bed0bc7d382b51d57894ad7048",
+      "git:hexsha": "36746e948ccbb6bed0bc7d382b51d57894ad7048",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.76.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/079665c70e8176ef6670605422b5d38309e8291f",
+      "git:hexsha": "079665c70e8176ef6670605422b5d38309e8291f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.77.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ed239215256fc91182dcba02eaf943c8d251838b",
+      "git:hexsha": "ed239215256fc91182dcba02eaf943c8d251838b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.78.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/228859684736973e42d791ef8e248c597148590a",
+      "git:hexsha": "228859684736973e42d791ef8e248c597148590a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.79.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2f950c965258404c0539d0c907dac0678cca8f62",
+      "git:hexsha": "2f950c965258404c0539d0c907dac0678cca8f62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/278eda0dc5faa146711f4d91a9f477831e9303ce",
+      "git:hexsha": "278eda0dc5faa146711f4d91a9f477831e9303ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4528c22d706f8e7ac48f49c7ef0ac0b85e101c09",
+      "git:hexsha": "4528c22d706f8e7ac48f49c7ef0ac0b85e101c09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0fe970b5e7c3174bcf467edbf86a52ebbad0fb12",
+      "git:hexsha": "0fe970b5e7c3174bcf467edbf86a52ebbad0fb12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c8e3f1d421c7303d5418cf5695db45e8c3d77547",
+      "git:hexsha": "c8e3f1d421c7303d5418cf5695db45e8c3d77547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.80.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d02331fc54df930f0ed83a9f6e24c20acee5b7d8",
+      "git:hexsha": "d02331fc54df930f0ed83a9f6e24c20acee5b7d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.80.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/cacf7c507f20d153bd40306bf250816e6edb0512",
+      "git:hexsha": "cacf7c507f20d153bd40306bf250816e6edb0512",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.80.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7b0bb681c859560a6af7219c5476809eab4f660c",
+      "git:hexsha": "7b0bb681c859560a6af7219c5476809eab4f660c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.81.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0c44bb22be451e27318ddc2594e7e5a775494f80",
+      "git:hexsha": "0c44bb22be451e27318ddc2594e7e5a775494f80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.82.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fbaa412bf75c92f793f489d0ecb185241d63d420",
+      "git:hexsha": "fbaa412bf75c92f793f489d0ecb185241d63d420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.83.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8c1e8dc7919f88673c77fd131ed9bb6a7b62062c",
+      "git:hexsha": "8c1e8dc7919f88673c77fd131ed9bb6a7b62062c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.84.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c0a162abeb1a283d5d2621c2037371435f2d7815",
+      "git:hexsha": "c0a162abeb1a283d5d2621c2037371435f2d7815",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.85.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5c2b35b0d5671f41f3d79f5ef7d1c92cbd7a609a",
+      "git:hexsha": "5c2b35b0d5671f41f3d79f5ef7d1c92cbd7a609a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.85.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2c1a172b8bc4a1b0cb73a342581ab340145c9a3e",
+      "git:hexsha": "2c1a172b8bc4a1b0cb73a342581ab340145c9a3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/eea071723add422622ce7e340ad24bb83d8a4a8b",
+      "git:hexsha": "eea071723add422622ce7e340ad24bb83d8a4a8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.87.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/eedc8688bc32b859be44a870270e230ff8a85f72",
+      "git:hexsha": "eedc8688bc32b859be44a870270e230ff8a85f72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.88.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/69672fc050d6fb11511e0e4f16550216bd8f41de",
+      "git:hexsha": "69672fc050d6fb11511e0e4f16550216bd8f41de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.89.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0855fb4759447ece52f0b85c627d1d804c5c8d11",
+      "git:hexsha": "0855fb4759447ece52f0b85c627d1d804c5c8d11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/cae1a26f0da584be7f7eb0097073ea60ad86c528",
+      "git:hexsha": "cae1a26f0da584be7f7eb0097073ea60ad86c528",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c9bb7ffce36e076d793f09349d4291d03a981f47",
+      "git:hexsha": "c9bb7ffce36e076d793f09349d4291d03a981f47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.90.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4f3c1f30a75222452cce3a7b80ded98c1b78924d",
+      "git:hexsha": "4f3c1f30a75222452cce3a7b80ded98c1b78924d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.91.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0dabd027da37c70539d18f64a31b2821cebffaa1",
+      "git:hexsha": "0dabd027da37c70539d18f64a31b2821cebffaa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.92.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fc7694f53dbeae6d8c09f3650a320f767477e2e7",
+      "git:hexsha": "fc7694f53dbeae6d8c09f3650a320f767477e2e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.93.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/6c1571cfee945330135974eb1197892649f3c4d2",
+      "git:hexsha": "6c1571cfee945330135974eb1197892649f3c4d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.94.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/35bf736ffac8f9660cbf9ddef358492ef1b33622",
+      "git:hexsha": "35bf736ffac8f9660cbf9ddef358492ef1b33622",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.95.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/970bef9ccdefe212fd0d97f1d1c2cff6ea66e8ea",
+      "git:hexsha": "970bef9ccdefe212fd0d97f1d1c2cff6ea66e8ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.96.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/fafde35bccc3da6bd7cb49de4d960ca5832122af",
+      "git:hexsha": "fafde35bccc3da6bd7cb49de4d960ca5832122af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.97.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e01ba03ec0e252ab83b3d1e070b7d880ee9bd2d5",
+      "git:hexsha": "e01ba03ec0e252ab83b3d1e070b7d880ee9bd2d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.98.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/eb6ba32e85c2357969e0131a2991b7e50a1dcfb1",
+      "git:hexsha": "eb6ba32e85c2357969e0131a2991b7e50a1dcfb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.99.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/28fe3a4fe3266d17c7a37406dc7fdbd92223d5f6",
+      "git:hexsha": "28fe3a4fe3266d17c7a37406dc7fdbd92223d5f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e8c608a8fcf56c76973faa3a6a12dbbe84b1ad24",
+      "git:hexsha": "e8c608a8fcf56c76973faa3a6a12dbbe84b1ad24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4f898c1a2a971feb7bd77e36bfe7fc14dd7a5108",
+      "git:hexsha": "4f898c1a2a971feb7bd77e36bfe7fc14dd7a5108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bcd6b9cabd7ad8f152df850f2900d262cda444e6",
+      "git:hexsha": "bcd6b9cabd7ad8f152df850f2900d262cda444e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d4cf588b6a263659bf5fd3cf8544b6764ada3b4d",
+      "git:hexsha": "d4cf588b6a263659bf5fd3cf8544b6764ada3b4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bbd2e4ad6378b2080d58fb7c7ed392f0425f0f21",
+      "git:hexsha": "bbd2e4ad6378b2080d58fb7c7ed392f0425f0f21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2e40e68084c43edc06a78f527f3aaa5fc2680f58",
+      "git:hexsha": "2e40e68084c43edc06a78f527f3aaa5fc2680f58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b4d9b26186eabf03a2d3c0ed584fb77e621fe88c",
+      "git:hexsha": "b4d9b26186eabf03a2d3c0ed584fb77e621fe88c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/17c0a8859c19da48b33a19bb5a15d44d91bb6278",
+      "git:hexsha": "17c0a8859c19da48b33a19bb5a15d44d91bb6278",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ce250611adf6b0a1df7d03ca4bd8fecf698e83c1",
+      "git:hexsha": "ce250611adf6b0a1df7d03ca4bd8fecf698e83c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bd759a6dd33bf02caf1d99908f22ae726897bd75",
+      "git:hexsha": "bd759a6dd33bf02caf1d99908f22ae726897bd75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/748843e0ec1ea0997130ddac5606ef0e57d2c1d0",
+      "git:hexsha": "748843e0ec1ea0997130ddac5606ef0e57d2c1d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bb37027d2982ebb7ff69e37ca83c5a3fd1708707",
+      "git:hexsha": "bb37027d2982ebb7ff69e37ca83c5a3fd1708707",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/25897295f9e85c92986e9a8b7ad8939075a912e6",
+      "git:hexsha": "25897295f9e85c92986e9a8b7ad8939075a912e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e14b8a567b44028db9959bd742871fbb7fda4ee9",
+      "git:hexsha": "e14b8a567b44028db9959bd742871fbb7fda4ee9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/89f1adbe8147607ef0546534f668c8f58800ba4d",
+      "git:hexsha": "89f1adbe8147607ef0546534f668c8f58800ba4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/0f4716fde2ad6c23e3bcc45fa84c2d8f6dd7b299",
+      "git:hexsha": "0f4716fde2ad6c23e3bcc45fa84c2d8f6dd7b299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f044c21172a3defdb4b97f768508b35f06660da7",
+      "git:hexsha": "f044c21172a3defdb4b97f768508b35f06660da7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1b34405cd9ee211d9eff96fd30e91328fef0acc7",
+      "git:hexsha": "1b34405cd9ee211d9eff96fd30e91328fef0acc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/17e9448c987b0f320634f5c41e50ba2d1358573b",
+      "git:hexsha": "17e9448c987b0f320634f5c41e50ba2d1358573b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f4bf25a133dd6a0f28c95571ee97bf75be87befe",
+      "git:hexsha": "f4bf25a133dd6a0f28c95571ee97bf75be87befe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/67be2d6b3b834c56effcfd2b88312f437d3f5128",
+      "git:hexsha": "67be2d6b3b834c56effcfd2b88312f437d3f5128",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/db57d6e4f952ddd6e50d9fb10728ded4f4cdd4b3",
+      "git:hexsha": "db57d6e4f952ddd6e50d9fb10728ded4f4cdd4b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8fd69e710bc8a4e577c10e57d0a55058805c4acd",
+      "git:hexsha": "8fd69e710bc8a4e577c10e57d0a55058805c4acd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d7063bdc34ed1170f6a6cd5a3ea802732689dea6",
+      "git:hexsha": "d7063bdc34ed1170f6a6cd5a3ea802732689dea6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/9424f97c0460f1928f491b6a3d8151a04aa5d498",
+      "git:hexsha": "9424f97c0460f1928f491b6a3d8151a04aa5d498",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d0d5a2bd96230606546c6f1a3216e01e35259948",
+      "git:hexsha": "d0d5a2bd96230606546c6f1a3216e01e35259948",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/7cbd871c7b2fcdabbcfed0db9c69c6a72cdb3b37",
+      "git:hexsha": "7cbd871c7b2fcdabbcfed0db9c69c6a72cdb3b37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/85dc203946f3329995ce8191a301d8eaed60ee7c",
+      "git:hexsha": "85dc203946f3329995ce8191a301d8eaed60ee7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/1e69d7b16bad0a31ba329e79581723f95df5195b",
+      "git:hexsha": "1e69d7b16bad0a31ba329e79581723f95df5195b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/00017f0065a0a49d32cd5967171007f653c7b15f",
+      "git:hexsha": "00017f0065a0a49d32cd5967171007f653c7b15f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/ba84345014a051629a1730104df1c23866388a9a",
+      "git:hexsha": "ba84345014a051629a1730104df1c23866388a9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/16276c68395ebb20d291fdea3bb6cb94e9d2f5ec",
+      "git:hexsha": "16276c68395ebb20d291fdea3bb6cb94e9d2f5ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/8692ca5ce6a1a850533cdb4de3ae3edd78688eb7",
+      "git:hexsha": "8692ca5ce6a1a850533cdb4de3ae3edd78688eb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/46e72f439ba5e9e441c57e3942622d0d6d1024bf",
+      "git:hexsha": "46e72f439ba5e9e441c57e3942622d0d6d1024bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4f66bd89e6add8a2d78392b69a0d3e4cecd88222",
+      "git:hexsha": "4f66bd89e6add8a2d78392b69a0d3e4cecd88222",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/2322a075562f8256487ded97bdb3559ffb878eb3",
+      "git:hexsha": "2322a075562f8256487ded97bdb3559ffb878eb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f03e2dfda04f3e0f38ae48eb136b2166d2158f12",
+      "git:hexsha": "f03e2dfda04f3e0f38ae48eb136b2166d2158f12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c65785fee4ef1fe16ee9efff5392601a94703c56",
+      "git:hexsha": "c65785fee4ef1fe16ee9efff5392601a94703c56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/980dc23141971224a420bb504b122c3cfa21536c",
+      "git:hexsha": "980dc23141971224a420bb504b122c3cfa21536c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/d8b0721d039ab1a0c570bed8404ce7141fd0f6c2",
+      "git:hexsha": "d8b0721d039ab1a0c570bed8404ce7141fd0f6c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/05c480ee46efc7857a854da79e9eaf2e1f8d6114",
+      "git:hexsha": "05c480ee46efc7857a854da79e9eaf2e1f8d6114",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/4b0ec1ace8d0a6633d7eafd40c41d6e1a38893f8",
+      "git:hexsha": "4b0ec1ace8d0a6633d7eafd40c41d6e1a38893f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/f84645fc5e6cbe6696f37b3d52007646f84b97ac",
+      "git:hexsha": "f84645fc5e6cbe6696f37b3d52007646f84b97ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/bd5ef61a7b7cd45fc20c00b4e59e35646a009d9e",
+      "git:hexsha": "bd5ef61a7b7cd45fc20c00b4e59e35646a009d9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c55f8cf861f8c3f7522be90aaf52cf49a6e4382a",
+      "git:hexsha": "c55f8cf861f8c3f7522be90aaf52cf49a6e4382a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/e6dba01b96fa0ee77fcc7464428527623bbbf58c",
+      "git:hexsha": "e6dba01b96fa0ee77fcc7464428527623bbbf58c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/363d683e5279d2b0284318226c290cd794ed6b6d",
+      "git:hexsha": "363d683e5279d2b0284318226c290cd794ed6b6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/c29838a5a0cc942ef357dd87845fec488e8744fa",
+      "git:hexsha": "c29838a5a0cc942ef357dd87845fec488e8744fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/da92fbe0f40584c5a9bee4d3c9e6c199b247d99a",
+      "git:hexsha": "da92fbe0f40584c5a9bee4d3c9e6c199b247d99a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/b1de70a500a76e7cc679312ebebece2fbe252b1e",
+      "git:hexsha": "b1de70a500a76e7cc679312ebebece2fbe252b1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/a4d5a4e891348d5664a76af0e8957279dcabea27",
+      "git:hexsha": "a4d5a4e891348d5664a76af0e8957279dcabea27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/3e14d9c8c8a84e4fb40e1117ad51305207510574",
+      "git:hexsha": "3e14d9c8c8a84e4fb40e1117ad51305207510574",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piccolo-orm/piccolo/commit/5859917e572e0ee37656f5e2092b9b7434c7ba7c",
+      "git:hexsha": "5859917e572e0ee37656f5e2092b9b7434c7ba7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.0"
+    }
+  ]
+}

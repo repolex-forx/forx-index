@@ -1,0 +1,813 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/tortoise/tortoise-orm",
+  "@type": "gh:Repository",
+  "gh:name": "tortoise-orm",
+  "gh:owner": "tortoise",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a47e3f6c9eb787ad1cec9291926800e194d40062",
+      "git:hexsha": "a47e3f6c9eb787ad1cec9291926800e194d40062",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T20:38:42.183129+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/9ed30f06113d3470bec1008f9d251570805349c4",
+      "git:hexsha": "9ed30f06113d3470bec1008f9d251570805349c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/1c6231a245f95b19db69040b94cc0c9baece406d",
+      "git:hexsha": "1c6231a245f95b19db69040b94cc0c9baece406d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/ae45b43a2da19370a4660b9e051a7481fa9df633",
+      "git:hexsha": "ae45b43a2da19370a4660b9e051a7481fa9df633",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a5cdb784c598a40ae7addfb56f28912959adeb23",
+      "git:hexsha": "a5cdb784c598a40ae7addfb56f28912959adeb23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/77cb7e7651c9036cb6e133a86b56c423dd75747d",
+      "git:hexsha": "77cb7e7651c9036cb6e133a86b56c423dd75747d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/af5a6c3cd30051caa9cb7d51efc4ce9627c7713d",
+      "git:hexsha": "af5a6c3cd30051caa9cb7d51efc4ce9627c7713d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/2ed5fad574ddae48251532bc4ee5adec0ea9a4e9",
+      "git:hexsha": "2ed5fad574ddae48251532bc4ee5adec0ea9a4e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/b6348bed67259e86bebc62ef756dd2e9e976e9fc",
+      "git:hexsha": "b6348bed67259e86bebc62ef756dd2e9e976e9fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/67509b1be5fa5e6eaf50f609c893d8a778e62824",
+      "git:hexsha": "67509b1be5fa5e6eaf50f609c893d8a778e62824",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/2843cb7ca0d03db5a1cda5664fcf29e210e0f348",
+      "git:hexsha": "2843cb7ca0d03db5a1cda5664fcf29e210e0f348",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/fcfb635323919fb36408999c7728c07bd5a8f6d6",
+      "git:hexsha": "fcfb635323919fb36408999c7728c07bd5a8f6d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/b75bd0e6c550e97549f45745ca7d08088b346758",
+      "git:hexsha": "b75bd0e6c550e97549f45745ca7d08088b346758",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/9661ae3088d85120301446bd7dad367b6a94ed14",
+      "git:hexsha": "9661ae3088d85120301446bd7dad367b6a94ed14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/d6d3a8e1a1b7a5f383d774fd29ae560a40a6d10f",
+      "git:hexsha": "d6d3a8e1a1b7a5f383d774fd29ae560a40a6d10f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/97b96cb215ba853f817735ce98c74ac7d1524801",
+      "git:hexsha": "97b96cb215ba853f817735ce98c74ac7d1524801",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/c9844261023f32c70de04de7f5b6cb8b2540393f",
+      "git:hexsha": "c9844261023f32c70de04de7f5b6cb8b2540393f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/edf3defa4eb109e68e3f23311ff64a8f6450e2b7",
+      "git:hexsha": "edf3defa4eb109e68e3f23311ff64a8f6450e2b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/b2ec021296153679d39207804e78d0abf9dad551",
+      "git:hexsha": "b2ec021296153679d39207804e78d0abf9dad551",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/8ed1775b9654d9ca5d6e856b3574db91e0001c53",
+      "git:hexsha": "8ed1775b9654d9ca5d6e856b3574db91e0001c53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4bb36d05ea065b43ad79f7d1a74fcb70036937d6",
+      "git:hexsha": "4bb36d05ea065b43ad79f7d1a74fcb70036937d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/5f6bd8cc3c2ab557d2659830f5f651c2e2225717",
+      "git:hexsha": "5f6bd8cc3c2ab557d2659830f5f651c2e2225717",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/378c336c22a460849f8730ca2ec064307b0f2e41",
+      "git:hexsha": "378c336c22a460849f8730ca2ec064307b0f2e41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/968b2fedc97fb2a49c104d2aa02e5dad4ffad278",
+      "git:hexsha": "968b2fedc97fb2a49c104d2aa02e5dad4ffad278",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/cb2b04406e582e084228ca6dce9a2d9e091854b4",
+      "git:hexsha": "cb2b04406e582e084228ca6dce9a2d9e091854b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/ea91a717b18750347509f8147b9c355ba1203470",
+      "git:hexsha": "ea91a717b18750347509f8147b9c355ba1203470",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/c87bbc224eb2588d3771f265ab70fa320f3a2b45",
+      "git:hexsha": "c87bbc224eb2588d3771f265ab70fa320f3a2b45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/502d62f8e47cd3e7d7a18455b5b9400708728aee",
+      "git:hexsha": "502d62f8e47cd3e7d7a18455b5b9400708728aee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/736de2ee463b549cbafec3ee4bc66a691ce8ac8f",
+      "git:hexsha": "736de2ee463b549cbafec3ee4bc66a691ce8ac8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/028cda6bed442a91ff8594cf707498cee13784e2",
+      "git:hexsha": "028cda6bed442a91ff8594cf707498cee13784e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/c48262c4fd04f2d8e345d6fcd0d710a772a1a94d",
+      "git:hexsha": "c48262c4fd04f2d8e345d6fcd0d710a772a1a94d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/e6870a22414862068cbfcc1c94d23ab4f6817f2a",
+      "git:hexsha": "e6870a22414862068cbfcc1c94d23ab4f6817f2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a3e0a247a2530f9e548a3920d1862abf7c674989",
+      "git:hexsha": "a3e0a247a2530f9e548a3920d1862abf7c674989",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/2a4a77fed39f316c61803f928cb68046ac17f07e",
+      "git:hexsha": "2a4a77fed39f316c61803f928cb68046ac17f07e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/83eb5536759561b7549d810fff024def768c5709",
+      "git:hexsha": "83eb5536759561b7549d810fff024def768c5709",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/c13b49fae84a8357cfc4a2d1b879d2ea089d28ee",
+      "git:hexsha": "c13b49fae84a8357cfc4a2d1b879d2ea089d28ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/e0fea4f6ea690e89c15f009995cade77f1784b62",
+      "git:hexsha": "e0fea4f6ea690e89c15f009995cade77f1784b62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a36e45b0ebb88dfe1012c813818355e85f320cef",
+      "git:hexsha": "a36e45b0ebb88dfe1012c813818355e85f320cef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a217378a3d66502792783f9229111398813c7151",
+      "git:hexsha": "a217378a3d66502792783f9229111398813c7151",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/7a84cd054a7798741754009abfdacbaa30a77248",
+      "git:hexsha": "7a84cd054a7798741754009abfdacbaa30a77248",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/3e6e69d56236003c7de9a5aab31b579a6ca8e390",
+      "git:hexsha": "3e6e69d56236003c7de9a5aab31b579a6ca8e390",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a2ddb9d5056313ad7495317667e774df7cb7b48f",
+      "git:hexsha": "a2ddb9d5056313ad7495317667e774df7cb7b48f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4cbca0b856353895d59145745cea5de235e486f7",
+      "git:hexsha": "4cbca0b856353895d59145745cea5de235e486f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/f277a70b21e90553572c60970aa4a77e43cca573",
+      "git:hexsha": "f277a70b21e90553572c60970aa4a77e43cca573",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/b0390ebf42d86ef4c9632ce46926e91cd91ebab3",
+      "git:hexsha": "b0390ebf42d86ef4c9632ce46926e91cd91ebab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/b8d5570e1a6255383161d423941f91ffa472f26f",
+      "git:hexsha": "b8d5570e1a6255383161d423941f91ffa472f26f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/bfee17c1baeba2078d7306ede3ef6d116bbcf927",
+      "git:hexsha": "bfee17c1baeba2078d7306ede3ef6d116bbcf927",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/794679270dce420f0e9c89dab8d61cdfbf4b9c11",
+      "git:hexsha": "794679270dce420f0e9c89dab8d61cdfbf4b9c11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/93995aaa9a92048b4d962a98cfabaca0e82eaf92",
+      "git:hexsha": "93995aaa9a92048b4d962a98cfabaca0e82eaf92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/f2846ac20d225b80e03423d60f71e16c9f48f123",
+      "git:hexsha": "f2846ac20d225b80e03423d60f71e16c9f48f123",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/7573938846b7ae2e500f93fdbc7b08e364643b83",
+      "git:hexsha": "7573938846b7ae2e500f93fdbc7b08e364643b83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/517a56037d535f44ad162df75cb3b1d7ab05365e",
+      "git:hexsha": "517a56037d535f44ad162df75cb3b1d7ab05365e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/335f32065cf0ced96ae3cfaf0c084a4dfb942704",
+      "git:hexsha": "335f32065cf0ced96ae3cfaf0c084a4dfb942704",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/9ced660f589e524fedbf2e96b18e19440fb8f65c",
+      "git:hexsha": "9ced660f589e524fedbf2e96b18e19440fb8f65c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/71a91e66bbdbd476059d7fd19e7dd9aa8696afe8",
+      "git:hexsha": "71a91e66bbdbd476059d7fd19e7dd9aa8696afe8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/115b7b7aa81b7ea0671fc8aa1a5f048c090984f8",
+      "git:hexsha": "115b7b7aa81b7ea0671fc8aa1a5f048c090984f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/d9b0c2ded9ee5a140493f9940dc2abeae4c53aa5",
+      "git:hexsha": "d9b0c2ded9ee5a140493f9940dc2abeae4c53aa5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/6f5904feb998915facb6361d17842aac4a453f63",
+      "git:hexsha": "6f5904feb998915facb6361d17842aac4a453f63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/cbb4401c3ff4984a8e493e2ee3a46f8c2d242ef5",
+      "git:hexsha": "cbb4401c3ff4984a8e493e2ee3a46f8c2d242ef5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/468444af1414472c08984a596ec83ce5d8806e45",
+      "git:hexsha": "468444af1414472c08984a596ec83ce5d8806e45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/d029c12bf44a7e924915beaec1d0ce7c5fc72341",
+      "git:hexsha": "d029c12bf44a7e924915beaec1d0ce7c5fc72341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/8b6211a2b31ed98f17582815c9448e0fb0fa70e7",
+      "git:hexsha": "8b6211a2b31ed98f17582815c9448e0fb0fa70e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/38c4bb93bbd17cc2d7050e96fba92ecb041a6633",
+      "git:hexsha": "38c4bb93bbd17cc2d7050e96fba92ecb041a6633",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/33ccfd12a594daef66a6faec2f4fd50ef5e37aec",
+      "git:hexsha": "33ccfd12a594daef66a6faec2f4fd50ef5e37aec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/557374a266a31023b44d32c20967d3f7a4af08ef",
+      "git:hexsha": "557374a266a31023b44d32c20967d3f7a4af08ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/558f4651eeb13068b91ff6d50703480cd086fa49",
+      "git:hexsha": "558f4651eeb13068b91ff6d50703480cd086fa49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a6e5296134926b5325de35f15447a2097ff52f2b",
+      "git:hexsha": "a6e5296134926b5325de35f15447a2097ff52f2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/0352c202cc91d55df277ff430843189a16b15c65",
+      "git:hexsha": "0352c202cc91d55df277ff430843189a16b15c65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/fefb1eb656f7b4344679db3f6d5d14e4cad76412",
+      "git:hexsha": "fefb1eb656f7b4344679db3f6d5d14e4cad76412",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/59760d091606852def6eac64b374582c07e3a092",
+      "git:hexsha": "59760d091606852def6eac64b374582c07e3a092",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/bda38c6d955bf1499a054aba2f99b972f7268121",
+      "git:hexsha": "bda38c6d955bf1499a054aba2f99b972f7268121",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/bcf8a3b99ac84c5249e1420e956587306d7dfe1f",
+      "git:hexsha": "bcf8a3b99ac84c5249e1420e956587306d7dfe1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/ddabc4efa7af8aa4ecc74fcbda15548d78da3e4d",
+      "git:hexsha": "ddabc4efa7af8aa4ecc74fcbda15548d78da3e4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/2f15cb911f73cdb7b34f835eaafc907b7f5389f3",
+      "git:hexsha": "2f15cb911f73cdb7b34f835eaafc907b7f5389f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4fc58f6a4e4a3aca6f6eba4912f18243f39826ef",
+      "git:hexsha": "4fc58f6a4e4a3aca6f6eba4912f18243f39826ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/649877da0ad1fff3eac1f1db27eae0a21ba44c93",
+      "git:hexsha": "649877da0ad1fff3eac1f1db27eae0a21ba44c93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/7693805c7555ea6ea21503a408ea6c486427294d",
+      "git:hexsha": "7693805c7555ea6ea21503a408ea6c486427294d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a3f0ff621a449362f11461d670665afc2f20d31a",
+      "git:hexsha": "a3f0ff621a449362f11461d670665afc2f20d31a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/c816fea4f467a995065e8735e092e15dc40274bd",
+      "git:hexsha": "c816fea4f467a995065e8735e092e15dc40274bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/dee4de436e8f83e894833bd366d30e0cec400d0c",
+      "git:hexsha": "dee4de436e8f83e894833bd366d30e0cec400d0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4c6a09cb3e24eb2773630e52b3fbf54bf8439a7c",
+      "git:hexsha": "4c6a09cb3e24eb2773630e52b3fbf54bf8439a7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/b8c51dac5753881e55a96b76662311f20e54c99f",
+      "git:hexsha": "b8c51dac5753881e55a96b76662311f20e54c99f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/5d03e2f019ccf72f13974f39518a3e5fe439ac76",
+      "git:hexsha": "5d03e2f019ccf72f13974f39518a3e5fe439ac76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/50bf70855abbd10833131ff8f8ee3add5a563db7",
+      "git:hexsha": "50bf70855abbd10833131ff8f8ee3add5a563db7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4b6d0ac729c88862e4733f05a6ade673d7abf23b",
+      "git:hexsha": "4b6d0ac729c88862e4733f05a6ade673d7abf23b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/efd8dca51131f15777b36f6c30f793a05c848526",
+      "git:hexsha": "efd8dca51131f15777b36f6c30f793a05c848526",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/0d01d03ff0db0b0686cfe0fc64cc24e02902c304",
+      "git:hexsha": "0d01d03ff0db0b0686cfe0fc64cc24e02902c304",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/64f574eb8b8bdae3ca886af448e888464787c43d",
+      "git:hexsha": "64f574eb8b8bdae3ca886af448e888464787c43d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/525b84966d55985020bcd86fee657a46238a513a",
+      "git:hexsha": "525b84966d55985020bcd86fee657a46238a513a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/08a3ee3f6b772883a499ee4e5d0341fc8ab89dd6",
+      "git:hexsha": "08a3ee3f6b772883a499ee4e5d0341fc8ab89dd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/707000d02be01aad1fe92f544d3b3f9b2e9788ab",
+      "git:hexsha": "707000d02be01aad1fe92f544d3b3f9b2e9788ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/8bbc4e5a554bab7dab14fd68ea9155b0ba6864d2",
+      "git:hexsha": "8bbc4e5a554bab7dab14fd68ea9155b0ba6864d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/d3548615335fdb758e93b43230c0554b299b704a",
+      "git:hexsha": "d3548615335fdb758e93b43230c0554b299b704a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/97fa7933e97306b3c9205d4115731f97374190f2",
+      "git:hexsha": "97fa7933e97306b3c9205d4115731f97374190f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/af5d87e817de7c0858776ca7ed3ee8964cdb4d04",
+      "git:hexsha": "af5d87e817de7c0858776ca7ed3ee8964cdb4d04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4d71129f1a0f76b4217114a43a92908cee408b5e",
+      "git:hexsha": "4d71129f1a0f76b4217114a43a92908cee408b5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/40dc8b70bae0c3a40c9ef3a343620999fd85d37b",
+      "git:hexsha": "40dc8b70bae0c3a40c9ef3a343620999fd85d37b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4591ac25b25b487f366664e629909af0aff2054e",
+      "git:hexsha": "4591ac25b25b487f366664e629909af0aff2054e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/13c82f85170fbd89813435860b0958bb305b7514",
+      "git:hexsha": "13c82f85170fbd89813435860b0958bb305b7514",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/dbb66d2e6ca3c85e1aca691846957beba9dab8bf",
+      "git:hexsha": "dbb66d2e6ca3c85e1aca691846957beba9dab8bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/1c0dbbf69245dcead3d87a837ff203b15fdb80c2",
+      "git:hexsha": "1c0dbbf69245dcead3d87a837ff203b15fdb80c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/d8fef5fba5ebe9fcacaedef4f0cfd24810a62688",
+      "git:hexsha": "d8fef5fba5ebe9fcacaedef4f0cfd24810a62688",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/0c81200bbaa3f407c5dce9e6ae34894899eef0dc",
+      "git:hexsha": "0c81200bbaa3f407c5dce9e6ae34894899eef0dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/0031d7e4295035ad75c3203ad51fc2c8fb7b8c65",
+      "git:hexsha": "0031d7e4295035ad75c3203ad51fc2c8fb7b8c65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4bfc46e4f1e55dd9850dd62c190fc19f40ccb29a",
+      "git:hexsha": "4bfc46e4f1e55dd9850dd62c190fc19f40ccb29a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/7160e75a36b9f07be2d99551838bdb323d0b142b",
+      "git:hexsha": "7160e75a36b9f07be2d99551838bdb323d0b142b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/8f83a75cb4937fe2584b6a0139cce36869a15036",
+      "git:hexsha": "8f83a75cb4937fe2584b6a0139cce36869a15036",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/035187bee32aba5f14ce1c3dd0a389d89b36c1c8",
+      "git:hexsha": "035187bee32aba5f14ce1c3dd0a389d89b36c1c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/57ac9d6762d5aea50761dbb8e5511070f07cb695",
+      "git:hexsha": "57ac9d6762d5aea50761dbb8e5511070f07cb695",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/f49151ba4f77cbe1df1f868b7bcfbc850585453a",
+      "git:hexsha": "f49151ba4f77cbe1df1f868b7bcfbc850585453a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4e5847a227a8bda4282792516819bcd0ef7e79d2",
+      "git:hexsha": "4e5847a227a8bda4282792516819bcd0ef7e79d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/0ddf8d327949be3ad812c41e4215c85b997214b9",
+      "git:hexsha": "0ddf8d327949be3ad812c41e4215c85b997214b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/9758bd90a4c50a5e03d22f357abdb0ef2cbf1f6f",
+      "git:hexsha": "9758bd90a4c50a5e03d22f357abdb0ef2cbf1f6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/d3007540b7a0ffd04eb309a2301079ba6c2998e5",
+      "git:hexsha": "d3007540b7a0ffd04eb309a2301079ba6c2998e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/e5cadb5fa687631935c4cd3d2447964a13ba1b7d",
+      "git:hexsha": "e5cadb5fa687631935c4cd3d2447964a13ba1b7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/74bb0560b642bf9855aa1ae8d648dfcddf58c3d1",
+      "git:hexsha": "74bb0560b642bf9855aa1ae8d648dfcddf58c3d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/3a5e8361213752bd00ca456d062dfa8cb6cf70f4",
+      "git:hexsha": "3a5e8361213752bd00ca456d062dfa8cb6cf70f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/40b427d7efd644e2754c7e761fa2f5637e1a7097",
+      "git:hexsha": "40b427d7efd644e2754c7e761fa2f5637e1a7097",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a399d1a7910a90fff83498dddefe9645fda87cea",
+      "git:hexsha": "a399d1a7910a90fff83498dddefe9645fda87cea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/503c93bef09d94139c9d77ae4280ec30c7b619a9",
+      "git:hexsha": "503c93bef09d94139c9d77ae4280ec30c7b619a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/cb72b8afd0204d71bf851c22d90557581766a79c",
+      "git:hexsha": "cb72b8afd0204d71bf851c22d90557581766a79c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/bec3deb1f398233ff7124298d62d0e71ab832914",
+      "git:hexsha": "bec3deb1f398233ff7124298d62d0e71ab832914",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/a7259172a034208884f077a8ffcc5d49d599f3d9",
+      "git:hexsha": "a7259172a034208884f077a8ffcc5d49d599f3d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/5361b3022ca30faf26974869e8486b20c18c063c",
+      "git:hexsha": "5361b3022ca30faf26974869e8486b20c18c063c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/1f70faae84632e4cee8fc440070e099bae666955",
+      "git:hexsha": "1f70faae84632e4cee8fc440070e099bae666955",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/33bb44fb0b5fe2166d812e8e5de03cd86355e039",
+      "git:hexsha": "33bb44fb0b5fe2166d812e8e5de03cd86355e039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/35c19c849dddeebaec0ba1ab164726a9488af3da",
+      "git:hexsha": "35c19c849dddeebaec0ba1ab164726a9488af3da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/207dc0e9ccc74939e2b1cc1f346ef3b60316eccc",
+      "git:hexsha": "207dc0e9ccc74939e2b1cc1f346ef3b60316eccc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/30b55c5d3903c675b23b7a0b6826d833e8dbe769",
+      "git:hexsha": "30b55c5d3903c675b23b7a0b6826d833e8dbe769",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/937f600498d34a1660ea1d733f141f7ce2bb6dc9",
+      "git:hexsha": "937f600498d34a1660ea1d733f141f7ce2bb6dc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/314273c0359e06233b4563b3e967c9974f420c00",
+      "git:hexsha": "314273c0359e06233b4563b3e967c9974f420c00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/ebc28bf778177301f5a12985807facb5af9b9fc4",
+      "git:hexsha": "ebc28bf778177301f5a12985807facb5af9b9fc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/e272ab02a90d539cbae7b35e18eeea3135295d88",
+      "git:hexsha": "e272ab02a90d539cbae7b35e18eeea3135295d88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tortoise/tortoise-orm/commit/4aa379031b110312b133b0e8f91965566f7d165e",
+      "git:hexsha": "4aa379031b110312b133b0e8f91965566f7d165e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.8"
+    }
+  ]
+}
