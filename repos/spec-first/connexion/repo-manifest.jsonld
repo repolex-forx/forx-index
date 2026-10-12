@@ -1,0 +1,969 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/spec-first/connexion",
+  "@type": "gh:Repository",
+  "gh:name": "connexion",
+  "gh:owner": "spec-first",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a23d44e0e0421fd83f5ba132269bcfd04b855a16",
+      "git:hexsha": "a23d44e0e0421fd83f5ba132269bcfd04b855a16",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T20:11:09.193955+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/7a1893aadde55384670c440e1351953986ff4281",
+      "git:hexsha": "7a1893aadde55384670c440e1351953986ff4281",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/fdec5b090ec6323df4dd6227b062d4104da50c94",
+      "git:hexsha": "fdec5b090ec6323df4dd6227b062d4104da50c94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6281107fa664039703d4cff6a4fb068486a99765",
+      "git:hexsha": "6281107fa664039703d4cff6a4fb068486a99765",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/28d6b935d0405ebe502a18d1786c44ddce6ea701",
+      "git:hexsha": "28d6b935d0405ebe502a18d1786c44ddce6ea701",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/d097321011d02a61e9e81f3c6ddf243bc44ced9e",
+      "git:hexsha": "d097321011d02a61e9e81f3c6ddf243bc44ced9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/ea0215ee2d1a58edeaff64a3bf1719b415fb0b5b",
+      "git:hexsha": "ea0215ee2d1a58edeaff64a3bf1719b415fb0b5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/8c1a407416ab0b45212f6e9752be013f50fa356e",
+      "git:hexsha": "8c1a407416ab0b45212f6e9752be013f50fa356e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/52171ce21546cf9d65eb9d40907ebe1a5ba1fecf",
+      "git:hexsha": "52171ce21546cf9d65eb9d40907ebe1a5ba1fecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/fd556c71cb44ea846ec69ad2f32bcd01c74984e0",
+      "git:hexsha": "fd556c71cb44ea846ec69ad2f32bcd01c74984e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/d107fbc8ec9c8b6cd0cff4da6e61d8ebbfd485c3",
+      "git:hexsha": "d107fbc8ec9c8b6cd0cff4da6e61d8ebbfd485c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/230ee6780a9816d15a29b1a2f128d354ede67930",
+      "git:hexsha": "230ee6780a9816d15a29b1a2f128d354ede67930",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/bb812868e665d685b27f709dec090d793125ef75",
+      "git:hexsha": "bb812868e665d685b27f709dec090d793125ef75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/bd3b074adc9066b051bd8d736cb04f25d5b329cb",
+      "git:hexsha": "bd3b074adc9066b051bd8d736cb04f25d5b329cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6ba40bc1b6e5a21fbfa893ab48149e4c9e17d2cf",
+      "git:hexsha": "6ba40bc1b6e5a21fbfa893ab48149e4c9e17d2cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/66a96eb6b5c5ad36b542090d98891a44a745402e",
+      "git:hexsha": "66a96eb6b5c5ad36b542090d98891a44a745402e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1d536f7224b2286bbdb74183a92d4eae968c102e",
+      "git:hexsha": "1d536f7224b2286bbdb74183a92d4eae968c102e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6935425f2318f7241556bf0f5517531b4875a71a",
+      "git:hexsha": "6935425f2318f7241556bf0f5517531b4875a71a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f225254a24d5a3caf55b3fd63eea7483159cc139",
+      "git:hexsha": "f225254a24d5a3caf55b3fd63eea7483159cc139",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/9422128fb17a9c739a6424a6774b449fc349e595",
+      "git:hexsha": "9422128fb17a9c739a6424a6774b449fc349e595",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e69788db9aa45111916cf54e3d33e6c40a895f37",
+      "git:hexsha": "e69788db9aa45111916cf54e3d33e6c40a895f37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6222fe809299f2aa353a028da08b9f468762ec10",
+      "git:hexsha": "6222fe809299f2aa353a028da08b9f468762ec10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/65273bf3e86d67ed7aac6fdc73f4fa7b90a16dfa",
+      "git:hexsha": "65273bf3e86d67ed7aac6fdc73f4fa7b90a16dfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a6ae7f97aa4a1dd7de8afa43c4ceac14c0a65e28",
+      "git:hexsha": "a6ae7f97aa4a1dd7de8afa43c4ceac14c0a65e28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f5eb1d652bd05ec67008f05c903fea920b1174fd",
+      "git:hexsha": "f5eb1d652bd05ec67008f05c903fea920b1174fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/56ed399c8a66671e427233808054ad1356a187b0",
+      "git:hexsha": "56ed399c8a66671e427233808054ad1356a187b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f18e38ec45a8f3485a8ab3ae9e21b9a03a328e00",
+      "git:hexsha": "f18e38ec45a8f3485a8ab3ae9e21b9a03a328e00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/bd9fd6af9930b33cab61f4d9098a81220648faaa",
+      "git:hexsha": "bd9fd6af9930b33cab61f4d9098a81220648faaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/d0312a1cb72620668034ba1b109745d58c4776c7",
+      "git:hexsha": "d0312a1cb72620668034ba1b109745d58c4776c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.103"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0e4c601f19222e2f446441ca41639d5dbc7d7f84",
+      "git:hexsha": "0e4c601f19222e2f446441ca41639d5dbc7d7f84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/614ca3ed39f8db90996ab616812420310d34c918",
+      "git:hexsha": "614ca3ed39f8db90996ab616812420310d34c918",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.109"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/52ec0497006f5925763cd622d63cbf90e5e29d52",
+      "git:hexsha": "52ec0497006f5925763cd622d63cbf90e5e29d52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.112"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/8b978f426525f0877ecd17b6b47e8a5a454d0f2c",
+      "git:hexsha": "8b978f426525f0877ecd17b6b47e8a5a454d0f2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.121"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1d3fd38a444b3c36ce8f963f4b4fbfba5f6d4c9f",
+      "git:hexsha": "1d3fd38a444b3c36ce8f963f4b4fbfba5f6d4c9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.123"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/22de58cadf605e22ee15070da557960990158a3d",
+      "git:hexsha": "22de58cadf605e22ee15070da557960990158a3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.124"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/92e464520dc6fa260b757fe1a4e00245de6e7cfd",
+      "git:hexsha": "92e464520dc6fa260b757fe1a4e00245de6e7cfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.125"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/2a69cf89e57c55a2d83c42c067e367519f46188b",
+      "git:hexsha": "2a69cf89e57c55a2d83c42c067e367519f46188b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.127"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c3ab17db7aa34c4a0ac3d2cede976ceee07615e3",
+      "git:hexsha": "c3ab17db7aa34c4a0ac3d2cede976ceee07615e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.128"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/5892feb471a9f4757151fabfac25dbabf7073174",
+      "git:hexsha": "5892feb471a9f4757151fabfac25dbabf7073174",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.129"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/b2c189d88aa56f275062faa702235bf994ada6bc",
+      "git:hexsha": "b2c189d88aa56f275062faa702235bf994ada6bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c5746ee654ea24344d566c8c62162b27ac6d2c1b",
+      "git:hexsha": "c5746ee654ea24344d566c8c62162b27ac6d2c1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/b1945399ec2ba9d989d70a111fb467aafcecaf72",
+      "git:hexsha": "b1945399ec2ba9d989d70a111fb467aafcecaf72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a7e42fee1ea542f3a2a6c34050b67cf827cea6ca",
+      "git:hexsha": "a7e42fee1ea542f3a2a6c34050b67cf827cea6ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/7b693748e9fc8c944779c472a1a12e0a8912de80",
+      "git:hexsha": "7b693748e9fc8c944779c472a1a12e0a8912de80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/934e41d00d0cab9532d61c9b6c3031af30a6e8ed",
+      "git:hexsha": "934e41d00d0cab9532d61c9b6c3031af30a6e8ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0674822af26d664453b1f3ce1b4949fe00644d07",
+      "git:hexsha": "0674822af26d664453b1f3ce1b4949fe00644d07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c5eea220b70172204ee06a9ab1793cb3730d4ddc",
+      "git:hexsha": "c5eea220b70172204ee06a9ab1793cb3730d4ddc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/7320ed280f074bf0327503d47001068b01eeaa3d",
+      "git:hexsha": "7320ed280f074bf0327503d47001068b01eeaa3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/863e110ffaa653a275f0a2cdc691a3fe5e948a4c",
+      "git:hexsha": "863e110ffaa653a275f0a2cdc691a3fe5e948a4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/480f15076f3dac902075b947e3c51a81c8b6436f",
+      "git:hexsha": "480f15076f3dac902075b947e3c51a81c8b6436f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6a6144f52ad5e4e3be2d2aa54d71bf101354caac",
+      "git:hexsha": "6a6144f52ad5e4e3be2d2aa54d71bf101354caac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/233b953c55ccfe05505c30c068c7c767671f0a84",
+      "git:hexsha": "233b953c55ccfe05505c30c068c7c767671f0a84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/5222e4439c8ec4b669cfd8a84bfa5fce5a4a9ab1",
+      "git:hexsha": "5222e4439c8ec4b669cfd8a84bfa5fce5a4a9ab1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/67c24d99a7fd04980e1c3fa5afad27d92e699fbf",
+      "git:hexsha": "67c24d99a7fd04980e1c3fa5afad27d92e699fbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/d90a1efdeed257e09239fa59b0bb9a9c48a74ecc",
+      "git:hexsha": "d90a1efdeed257e09239fa59b0bb9a9c48a74ecc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6525b6b5634409f8bd4eeb47d8df97374b58c4ae",
+      "git:hexsha": "6525b6b5634409f8bd4eeb47d8df97374b58c4ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/43cc1cf5a64c9ecd92cd97890195e04be7e00cc8",
+      "git:hexsha": "43cc1cf5a64c9ecd92cd97890195e04be7e00cc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c40aabc50a276563921cba5c975d2cad42e5ab22",
+      "git:hexsha": "c40aabc50a276563921cba5c975d2cad42e5ab22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.58"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/33f7457d1a4851da77f24bc20948a55190543038",
+      "git:hexsha": "33f7457d1a4851da77f24bc20948a55190543038",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.61"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a3321711e685764c4ba44d042d331bab7bb5b325",
+      "git:hexsha": "a3321711e685764c4ba44d042d331bab7bb5b325",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.67"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/ba562659b8e62c8b04db4f3484044c9e840d5786",
+      "git:hexsha": "ba562659b8e62c8b04db4f3484044c9e840d5786",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.76"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/b148e73b4c699a4cdff949786adb31f136eadb03",
+      "git:hexsha": "b148e73b4c699a4cdff949786adb31f136eadb03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/21e290fe49c388a1355289fab21f43f1a6b98aed",
+      "git:hexsha": "21e290fe49c388a1355289fab21f43f1a6b98aed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.81"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/5e7c94669befdd14a871e8739190c40f8349d7ee",
+      "git:hexsha": "5e7c94669befdd14a871e8739190c40f8349d7ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.84"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/02f6ed58f81e1531f084902e11d117a31ac37aad",
+      "git:hexsha": "02f6ed58f81e1531f084902e11d117a31ac37aad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.88"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/44c5c5d65896689a64b67214ac786158f91c4dbd",
+      "git:hexsha": "44c5c5d65896689a64b67214ac786158f91c4dbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.89"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/80084b4e9b4c3883637b607e29f5ed4da76d2def",
+      "git:hexsha": "80084b4e9b4c3883637b607e29f5ed4da76d2def",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/dd206da62242dd9e944e6eb29a7381a578741665",
+      "git:hexsha": "dd206da62242dd9e944e6eb29a7381a578741665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.91"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/4ab9625d2a3e5b0a720ba4859c084fc3d62fa33a",
+      "git:hexsha": "4ab9625d2a3e5b0a720ba4859c084fc3d62fa33a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.94"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/58275d384886ab4bd81546e20d18f830df39f53f",
+      "git:hexsha": "58275d384886ab4bd81546e20d18f830df39f53f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.95"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a83598dd383c009e604cefc1f882e0d275c65363",
+      "git:hexsha": "a83598dd383c009e604cefc1f882e0d275c65363",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.97"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/850c035574c6eef7d09abd943486afa10149597c",
+      "git:hexsha": "850c035574c6eef7d09abd943486afa10149597c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.98"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/da1a4faf3f1b1c1d52d33f6dd28af28d1db5cafe",
+      "git:hexsha": "da1a4faf3f1b1c1d52d33f6dd28af28d1db5cafe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a6fbeb89e5d4aab02020e881e366186674eebb2d",
+      "git:hexsha": "a6fbeb89e5d4aab02020e881e366186674eebb2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1f34e3565b2b53dd48aee21d55beed76410c8635",
+      "git:hexsha": "1f34e3565b2b53dd48aee21d55beed76410c8635",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/ca862c4c6162d3249bb549efab8e051531ebea19",
+      "git:hexsha": "ca862c4c6162d3249bb549efab8e051531ebea19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/b3237869ba8d2dc3fd5362172628117c1b58a4b2",
+      "git:hexsha": "b3237869ba8d2dc3fd5362172628117c1b58a4b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/d51e9c8a4c1daac450070b467b14ed25e9ce82b0",
+      "git:hexsha": "d51e9c8a4c1daac450070b467b14ed25e9ce82b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f2923148f8018720a2a704c3f1fadb785a723605",
+      "git:hexsha": "f2923148f8018720a2a704c3f1fadb785a723605",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f36c24685b8fa847d219ef7e6f09325ac6f0ae33",
+      "git:hexsha": "f36c24685b8fa847d219ef7e6f09325ac6f0ae33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f846126d42fb97d1526da0cc62e6e7a2d716840c",
+      "git:hexsha": "f846126d42fb97d1526da0cc62e6e7a2d716840c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/34ec0ec4a88c5d4ed3857da6036e0fdded382e23",
+      "git:hexsha": "34ec0ec4a88c5d4ed3857da6036e0fdded382e23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0eedc5db3fa1d50b5df0b161e4e2a3bc06756a0b",
+      "git:hexsha": "0eedc5db3fa1d50b5df0b161e4e2a3bc06756a0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/8e10a77b1ac2414506ea8cc5f32d25bbf7239aa1",
+      "git:hexsha": "8e10a77b1ac2414506ea8cc5f32d25bbf7239aa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/fe6a62564cab648873920c2e3f5aa076bd3f1008",
+      "git:hexsha": "fe6a62564cab648873920c2e3f5aa076bd3f1008",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6f567ee4deb66212543c84831614b3333bfbdaf9",
+      "git:hexsha": "6f567ee4deb66212543c84831614b3333bfbdaf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1858c9d4a02084b5cae8f72e4d2273a1157389a6",
+      "git:hexsha": "1858c9d4a02084b5cae8f72e4d2273a1157389a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/067ad1b55a6318829d7bc270796eacfbb9e0a49b",
+      "git:hexsha": "067ad1b55a6318829d7bc270796eacfbb9e0a49b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/63abcad51203321fbc81d2e9d93c40b6a673bcca",
+      "git:hexsha": "63abcad51203321fbc81d2e9d93c40b6a673bcca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f4bc6dc71b5863f9d4a6e3ec5822dd4a46381421",
+      "git:hexsha": "f4bc6dc71b5863f9d4a6e3ec5822dd4a46381421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/4bb759337f8463cb7daca133fc1af00340cbec43",
+      "git:hexsha": "4bb759337f8463cb7daca133fc1af00340cbec43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6cad83c383b3b011506204f8724d39e689b0eb05",
+      "git:hexsha": "6cad83c383b3b011506204f8724d39e689b0eb05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/830711c8fbd17ed3c3c9d2dfd5a7b929a43d43c1",
+      "git:hexsha": "830711c8fbd17ed3c3c9d2dfd5a7b929a43d43c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/db6a5fb8e041af4c44e453725bf80005d9458144",
+      "git:hexsha": "db6a5fb8e041af4c44e453725bf80005d9458144",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e326711aa485a1f4285a59a11774325fad5c1986",
+      "git:hexsha": "e326711aa485a1f4285a59a11774325fad5c1986",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/76ff6682ca33b0219caf382b044dee9eee6368a4",
+      "git:hexsha": "76ff6682ca33b0219caf382b044dee9eee6368a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/79e0e3db4d6b47787aded9aecae1363c01e043f7",
+      "git:hexsha": "79e0e3db4d6b47787aded9aecae1363c01e043f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1c0bd7d0f8489fb7eb75ced6d6b30f08fae171c9",
+      "git:hexsha": "1c0bd7d0f8489fb7eb75ced6d6b30f08fae171c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/44ea9336fe79ddb9592942b405a663d2e3aa612c",
+      "git:hexsha": "44ea9336fe79ddb9592942b405a663d2e3aa612c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/8e00b73b22b4f2c4c5f9c6cc6a8f67223e1e9d22",
+      "git:hexsha": "8e00b73b22b4f2c4c5f9c6cc6a8f67223e1e9d22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e83bd146bed0bb70db5d5f9a9b8a7136b4cdd621",
+      "git:hexsha": "e83bd146bed0bb70db5d5f9a9b8a7136b4cdd621",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/069c59bbb2f4e4451f9c7f09720b6c45ddac8396",
+      "git:hexsha": "069c59bbb2f4e4451f9c7f09720b6c45ddac8396",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/920f13d9b5304a23415c9807939b13e4c24175d3",
+      "git:hexsha": "920f13d9b5304a23415c9807939b13e4c24175d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6bcf2b30c1985577e75f905463a7bcf9060fe7c0",
+      "git:hexsha": "6bcf2b30c1985577e75f905463a7bcf9060fe7c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/fdac62726d0240c4d9c1fc4004fd12a9a53a8e3b",
+      "git:hexsha": "fdac62726d0240c4d9c1fc4004fd12a9a53a8e3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/72b16676cf319a17456f296f9ffe56d3efb8314d",
+      "git:hexsha": "72b16676cf319a17456f296f9ffe56d3efb8314d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1afdc77219abf244ca6bbb70f04ab8f2e6193ffd",
+      "git:hexsha": "1afdc77219abf244ca6bbb70f04ab8f2e6193ffd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/fc6803bc0021c8b9840558d9429bb4c272689ea4",
+      "git:hexsha": "fc6803bc0021c8b9840558d9429bb4c272689ea4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6e5fa1001008997791a5fc7d73f0f8b6c58e5ebc",
+      "git:hexsha": "6e5fa1001008997791a5fc7d73f0f8b6c58e5ebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0b916e98775c225510b4ed7c8c9ae59a9e1d2eab",
+      "git:hexsha": "0b916e98775c225510b4ed7c8c9ae59a9e1d2eab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/166b3e1b8b4856b06a80fa049735e8037155855c",
+      "git:hexsha": "166b3e1b8b4856b06a80fa049735e8037155855c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e163e9f32126406db50f6c21581f1703097eaf13",
+      "git:hexsha": "e163e9f32126406db50f6c21581f1703097eaf13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f236c6883d84ffa4abbbd2fb70246c5c50f1883f",
+      "git:hexsha": "f236c6883d84ffa4abbbd2fb70246c5c50f1883f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c71b1169f6e72eb503a132cd90a533a5c8cdad82",
+      "git:hexsha": "c71b1169f6e72eb503a132cd90a533a5c8cdad82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1ce3e2ed2d985bb288fe93756179c5618b2ef3bb",
+      "git:hexsha": "1ce3e2ed2d985bb288fe93756179c5618b2ef3bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/cdc8af157dd55cd40b9d60643416ba168ca12b86",
+      "git:hexsha": "cdc8af157dd55cd40b9d60643416ba168ca12b86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e8408406f6381657c7f0dc18b34bfd7efd980d91",
+      "git:hexsha": "e8408406f6381657c7f0dc18b34bfd7efd980d91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/19b72bab035840f5ee0a9e6556ae4a3dfdf208a6",
+      "git:hexsha": "19b72bab035840f5ee0a9e6556ae4a3dfdf208a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/fc78740d7e19bb28c7f3ff2a6fc1ffff425c6e5c",
+      "git:hexsha": "fc78740d7e19bb28c7f3ff2a6fc1ffff425c6e5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/4d0a288afea8a26cb69edadee7ca4da10d762f7f",
+      "git:hexsha": "4d0a288afea8a26cb69edadee7ca4da10d762f7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/7c087f475c2dad9781fd0a2a881967ea87f3a03b",
+      "git:hexsha": "7c087f475c2dad9781fd0a2a881967ea87f3a03b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/a0ac0fd13f6857bba2563fbdda55404cfa69dde3",
+      "git:hexsha": "a0ac0fd13f6857bba2563fbdda55404cfa69dde3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/890fe9a17181a7bbb08638cdc476a339a711e10f",
+      "git:hexsha": "890fe9a17181a7bbb08638cdc476a339a711e10f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c8d8973c7e390a5e2071c7b494dd7bd52bd55ff1",
+      "git:hexsha": "c8d8973c7e390a5e2071c7b494dd7bd52bd55ff1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e0a02ed77e5624a06c0d057f81a88e8525f332ec",
+      "git:hexsha": "e0a02ed77e5624a06c0d057f81a88e8525f332ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/f31ac615bfc8a3c696c5ebe53f3c57e5234ff6f8",
+      "git:hexsha": "f31ac615bfc8a3c696c5ebe53f3c57e5234ff6f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/3fecd3e7351bfff330c5421551d8e26f88cbfc28",
+      "git:hexsha": "3fecd3e7351bfff330c5421551d8e26f88cbfc28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/bed4b95205205861bd6014282d0f61d50231d3ac",
+      "git:hexsha": "bed4b95205205861bd6014282d0f61d50231d3ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e30971c5f30bc8290e70e242bdb3f056b1274a64",
+      "git:hexsha": "e30971c5f30bc8290e70e242bdb3f056b1274a64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/005d046a8de94bedbef623abfc49c55528182cd8",
+      "git:hexsha": "005d046a8de94bedbef623abfc49c55528182cd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/d972eae8642be6a3c1dfb92e1cb091726d1f5225",
+      "git:hexsha": "d972eae8642be6a3c1dfb92e1cb091726d1f5225",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6d8c297efcbab09a6125607d0f2b33678c7ec250",
+      "git:hexsha": "6d8c297efcbab09a6125607d0f2b33678c7ec250",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/cd64611747288e340c91b4dbb1ec21594089478e",
+      "git:hexsha": "cd64611747288e340c91b4dbb1ec21594089478e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/8cebebc3a447cbec84b98e96512686a6a8f812aa",
+      "git:hexsha": "8cebebc3a447cbec84b98e96512686a6a8f812aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/55e376f816f8b5771a0017834de2271de6e938fa",
+      "git:hexsha": "55e376f816f8b5771a0017834de2271de6e938fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/97e8a8e7f84029b7d1b435bd86a50136d006f5aa",
+      "git:hexsha": "97e8a8e7f84029b7d1b435bd86a50136d006f5aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/15fe2eda8fa1853a4d73a13839d7e35814ad7358",
+      "git:hexsha": "15fe2eda8fa1853a4d73a13839d7e35814ad7358",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/3fa9f3bf3dce9cc86f480b29f2c749e7342f304e",
+      "git:hexsha": "3fa9f3bf3dce9cc86f480b29f2c749e7342f304e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/99c7a13b53a2cd0eb5c74014aa922a8885a3326c",
+      "git:hexsha": "99c7a13b53a2cd0eb5c74014aa922a8885a3326c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/70084bcc4c21713cbf861841ebda977263d3ab8c",
+      "git:hexsha": "70084bcc4c21713cbf861841ebda977263d3ab8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/004f12f88c25c5ce5594e356e61ff5d8e81b8baf",
+      "git:hexsha": "004f12f88c25c5ce5594e356e61ff5d8e81b8baf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0082d7ad331bde3ad3e598a1fb3d222932edd549",
+      "git:hexsha": "0082d7ad331bde3ad3e598a1fb3d222932edd549",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/dbca0485f1f58d01e42163540ee6b2da134917fb",
+      "git:hexsha": "dbca0485f1f58d01e42163540ee6b2da134917fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6dc943661dee4f979d4608a6dd8ec4c4aaaed2ee",
+      "git:hexsha": "6dc943661dee4f979d4608a6dd8ec4c4aaaed2ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/211bdb03f6b20f7dc90fe0037e57cd142c48deb5",
+      "git:hexsha": "211bdb03f6b20f7dc90fe0037e57cd142c48deb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/810a980fe99423013130ff1df4ca9d727e1e9109",
+      "git:hexsha": "810a980fe99423013130ff1df4ca9d727e1e9109",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1844a2fb3f1d09a37edfeab7a7200d52e97abbd9",
+      "git:hexsha": "1844a2fb3f1d09a37edfeab7a7200d52e97abbd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/aca6511fc8444c76fc23354bf66933fa5cf90278",
+      "git:hexsha": "aca6511fc8444c76fc23354bf66933fa5cf90278",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/c3b01b4ddbaf70b93ef0fc1ba579647004847d56",
+      "git:hexsha": "c3b01b4ddbaf70b93ef0fc1ba579647004847d56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/2fd9fae919c7d7229eb6e87bd836d8bd558c6515",
+      "git:hexsha": "2fd9fae919c7d7229eb6e87bd836d8bd558c6515",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/ca9fae9c730ac1977522ec1ca1867697f85550c1",
+      "git:hexsha": "ca9fae9c730ac1977522ec1ca1867697f85550c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/6386376ece6f7f8e2318b369eedcad45a9a8407d",
+      "git:hexsha": "6386376ece6f7f8e2318b369eedcad45a9a8407d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0803c4b954c34db28b46eb0adcd0efb64035c80f",
+      "git:hexsha": "0803c4b954c34db28b46eb0adcd0efb64035c80f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/9c62e1a9d79b66a3c2d2d8febef3fcf2d9e9ff14",
+      "git:hexsha": "9c62e1a9d79b66a3c2d2d8febef3fcf2d9e9ff14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1b5b5d0d38c52e5d152d05d5cc20e88e047dabfb",
+      "git:hexsha": "1b5b5d0d38c52e5d152d05d5cc20e88e047dabfb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/e17d0a1bc4542c5157f65aa4a36920cd096b686e",
+      "git:hexsha": "e17d0a1bc4542c5157f65aa4a36920cd096b686e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/0e1f27c883ae209ceb483745e547da9727aab6bf",
+      "git:hexsha": "0e1f27c883ae209ceb483745e547da9727aab6bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1864d8b85aeebd942c14d0fd3cfb802ea2959225",
+      "git:hexsha": "1864d8b85aeebd942c14d0fd3cfb802ea2959225",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/5a3e90d9ae64031b26fcff8db0980f4b573eab66",
+      "git:hexsha": "5a3e90d9ae64031b26fcff8db0980f4b573eab66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/spec-first/connexion/commit/1a18044afb1b8945d840449a18b6ce66c391ebc9",
+      "git:hexsha": "1a18044afb1b8945d840449a18b6ce66c391ebc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    }
+  ]
+}
