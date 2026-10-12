@@ -1,0 +1,915 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/pypa/hatch",
+  "@type": "gh:Repository",
+  "gh:name": "hatch",
+  "gh:owner": "pypa",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/7c26ebeaf8b83f5f0374a2545bb15e36c87db0d0",
+      "git:hexsha": "7c26ebeaf8b83f5f0374a2545bb15e36c87db0d0",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T21:05:40.287769+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/1a887ceea97651c0606af5e18496ce8b0db76779",
+      "git:hexsha": "1a887ceea97651c0606af5e18496ce8b0db76779",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/704cdcd1a0cd3a621235ac9f5b2b90e7524e3cd3",
+      "git:hexsha": "704cdcd1a0cd3a621235ac9f5b2b90e7524e3cd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/452b3ed5a5f219c14d838371ea32807b890c7876",
+      "git:hexsha": "452b3ed5a5f219c14d838371ea32807b890c7876",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/52afafb892a3adc837b746579722316b5d8e7c0a",
+      "git:hexsha": "52afafb892a3adc837b746579722316b5d8e7c0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc10"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4c9f523323c7c395d12d6ecfe9a8c41ffaaac19c",
+      "git:hexsha": "4c9f523323c7c395d12d6ecfe9a8c41ffaaac19c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc11"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/7ae200c2e28552f3b52a9456afb984446708df2a",
+      "git:hexsha": "7ae200c2e28552f3b52a9456afb984446708df2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc12"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b2339931c4d9a597b618b85adc63f3f929c06cd5",
+      "git:hexsha": "b2339931c4d9a597b618b85adc63f3f929c06cd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc13"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c7a9585d51112f45a5279959a667f6bee5f609b7",
+      "git:hexsha": "c7a9585d51112f45a5279959a667f6bee5f609b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc14"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/66ff7195edb872fc36dadf61775640aa41820157",
+      "git:hexsha": "66ff7195edb872fc36dadf61775640aa41820157",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc15"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6824caad4c84698380e1f3cbdcd17c40f27311a3",
+      "git:hexsha": "6824caad4c84698380e1f3cbdcd17c40f27311a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc16"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ab6743a3acf5fa8c23bd7a86a3b1fd1b2f51ce69",
+      "git:hexsha": "ab6743a3acf5fa8c23bd7a86a3b1fd1b2f51ce69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc17"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/54aebacbc29a5acbc69afb80d8ce87a4d5f40d98",
+      "git:hexsha": "54aebacbc29a5acbc69afb80d8ce87a4d5f40d98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc18"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/89314fb2dd66c9040a0bc5ebe21458d0dd25e320",
+      "git:hexsha": "89314fb2dd66c9040a0bc5ebe21458d0dd25e320",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ff67fb61056a5b682951c9d2f6e9ef935d6181f6",
+      "git:hexsha": "ff67fb61056a5b682951c9d2f6e9ef935d6181f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/07e3b1474e3f0c990cac39a3687c2a89d1bc54f4",
+      "git:hexsha": "07e3b1474e3f0c990cac39a3687c2a89d1bc54f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.0.0rc9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/097222b96858dcce0e5cdcee27f8a289f5338471",
+      "git:hexsha": "097222b96858dcce0e5cdcee27f8a289f5338471",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/7bb6513cbba351f0142870bca3bd03f807e23e74",
+      "git:hexsha": "7bb6513cbba351f0142870bca3bd03f807e23e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/74cff35ac734299f0d7f3018b988fdbc3a3a7c98",
+      "git:hexsha": "74cff35ac734299f0d7f3018b988fdbc3a3a7c98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ab79f405bf34e0f2edd539cc725b16c817fc9447",
+      "git:hexsha": "ab79f405bf34e0f2edd539cc725b16c817fc9447",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6a147fc1d6e8f5c9e04ccbe28201b71a783f2ec8",
+      "git:hexsha": "6a147fc1d6e8f5c9e04ccbe28201b71a783f2ec8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/abf787d64f1afec7f658343f10188369554bd5a6",
+      "git:hexsha": "abf787d64f1afec7f658343f10188369554bd5a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d73037fe7e9b66eeeba2e72d37074373594221c5",
+      "git:hexsha": "d73037fe7e9b66eeeba2e72d37074373594221c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4e3c515bb15fd5533ced963c70308e2a271905d9",
+      "git:hexsha": "4e3c515bb15fd5533ced963c70308e2a271905d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/55dd8409fd4f8dde5869003d24b04d43dab192a9",
+      "git:hexsha": "55dd8409fd4f8dde5869003d24b04d43dab192a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b87f3f97ab21a9dc6214ff3dd91adf6e2c2b29bb",
+      "git:hexsha": "b87f3f97ab21a9dc6214ff3dd91adf6e2c2b29bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d3448c233840d25df0a0a10571e034462cbd5d9e",
+      "git:hexsha": "d3448c233840d25df0a0a10571e034462cbd5d9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/0636e7b6a89738bffe71e74c5c8e4e59b868dacb",
+      "git:hexsha": "0636e7b6a89738bffe71e74c5c8e4e59b868dacb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/19eec091b197fc2fdf22df8c753416a37a458fb0",
+      "git:hexsha": "19eec091b197fc2fdf22df8c753416a37a458fb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/8e1a709e49009ee25cf924c5a9da477a03149a75",
+      "git:hexsha": "8e1a709e49009ee25cf924c5a9da477a03149a75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d96983f5bffa280102a7dba29776913d7d9dad62",
+      "git:hexsha": "d96983f5bffa280102a7dba29776913d7d9dad62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/e966480e250a489644a0ff5f1a68590db1e3e032",
+      "git:hexsha": "e966480e250a489644a0ff5f1a68590db1e3e032",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/dec7d6d3116037e2a3affd202f2d852f41cad5de",
+      "git:hexsha": "dec7d6d3116037e2a3affd202f2d852f41cad5de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c13404120ba3456d9f082ef6ffd81927dc07e4cd",
+      "git:hexsha": "c13404120ba3456d9f082ef6ffd81927dc07e4cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b998d2b755bc0dca20054f96da8981532444fc2a",
+      "git:hexsha": "b998d2b755bc0dca20054f96da8981532444fc2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.16.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/37b00c3d2221438fa79084b92e81ee1819d6c630",
+      "git:hexsha": "37b00c3d2221438fa79084b92e81ee1819d6c630",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/5dae0595d1dfbaa5268aeeee7d81fde604d097d8",
+      "git:hexsha": "5dae0595d1dfbaa5268aeeee7d81fde604d097d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/558061c5ecbe7e9b10d81965d4cdc8df05832228",
+      "git:hexsha": "558061c5ecbe7e9b10d81965d4cdc8df05832228",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4b17561f822b1b416403a61855374892ecbe11de",
+      "git:hexsha": "4b17561f822b1b416403a61855374892ecbe11de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/a8b3c54e9942b1f145079b538dc83885064ea43d",
+      "git:hexsha": "a8b3c54e9942b1f145079b538dc83885064ea43d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/0658a2da465c3177378618346cbb7bb9312aca1d",
+      "git:hexsha": "0658a2da465c3177378618346cbb7bb9312aca1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/9022c6df9602a0c2bb3b748be95a3d3114caf39d",
+      "git:hexsha": "9022c6df9602a0c2bb3b748be95a3d3114caf39d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/39f72785281331efc4590aa5802fd0f009f559dd",
+      "git:hexsha": "39f72785281331efc4590aa5802fd0f009f559dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c91c65adc578ee385c134927017ca0e04ea97f5d",
+      "git:hexsha": "c91c65adc578ee385c134927017ca0e04ea97f5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/37255332115e337f26c0ddb70175fa94707b7a45",
+      "git:hexsha": "37255332115e337f26c0ddb70175fa94707b7a45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6f025c5eb484728b78b1e70fcad69aab2d246d83",
+      "git:hexsha": "6f025c5eb484728b78b1e70fcad69aab2d246d83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/15623bc9d6c59b121de1ff7db3c12a823de590bb",
+      "git:hexsha": "15623bc9d6c59b121de1ff7db3c12a823de590bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/11e4a9eb16a10e275a2892155230cde2159260e0",
+      "git:hexsha": "11e4a9eb16a10e275a2892155230cde2159260e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f733e0fe4414ba716ba8406cd5313ba4cb8a285b",
+      "git:hexsha": "f733e0fe4414ba716ba8406cd5313ba4cb8a285b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/76b5df8277b89e8f67867476d7081e08142c0d3c",
+      "git:hexsha": "76b5df8277b89e8f67867476d7081e08142c0d3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b25deec3c8dc32e447c8f07d85ae247c305753e6",
+      "git:hexsha": "b25deec3c8dc32e447c8f07d85ae247c305753e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/46a2118ba39c00ca102cf463bdc829301402d05b",
+      "git:hexsha": "46a2118ba39c00ca102cf463bdc829301402d05b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d529d12e397c262bafaa56cd6e240c1eabb9ba67",
+      "git:hexsha": "d529d12e397c262bafaa56cd6e240c1eabb9ba67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/3bc004c940bd942b6cfb9a75d60a0f8167bfad27",
+      "git:hexsha": "3bc004c940bd942b6cfb9a75d60a0f8167bfad27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d3246e957584d292319e7b93301598cdf611e902",
+      "git:hexsha": "d3246e957584d292319e7b93301598cdf611e902",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/632b8f49a7b5a8bf86894b5e3306e3de1e61b154",
+      "git:hexsha": "632b8f49a7b5a8bf86894b5e3306e3de1e61b154",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/fd27c8ab329e572f48ef32505c340ffc845898d8",
+      "git:hexsha": "fd27c8ab329e572f48ef32505c340ffc845898d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/00c5ae74f3c08b3d08d58f8dc26033e48f391511",
+      "git:hexsha": "00c5ae74f3c08b3d08d58f8dc26033e48f391511",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/3ef3169578274b41f92ab0c8f524a914b4e4f984",
+      "git:hexsha": "3ef3169578274b41f92ab0c8f524a914b4e4f984",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ec76a830b1d8cca794d15f031b0a426ea614788c",
+      "git:hexsha": "ec76a830b1d8cca794d15f031b0a426ea614788c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/eef7d0cc6a4d9c4459a4332ebce4b91ff22fbb08",
+      "git:hexsha": "eef7d0cc6a4d9c4459a4332ebce4b91ff22fbb08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4b4699ba5eb93959f2d5a94694105ab644160003",
+      "git:hexsha": "4b4699ba5eb93959f2d5a94694105ab644160003",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/bc932b9981e710a97c37498cb0f45027f4373045",
+      "git:hexsha": "bc932b9981e710a97c37498cb0f45027f4373045",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/e3804a6aaf3d8a1d35e9fed74ae7f33d6c8450e1",
+      "git:hexsha": "e3804a6aaf3d8a1d35e9fed74ae7f33d6c8450e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c7ac0fa1269ba5a64680de3d8b86788fa8b1c160",
+      "git:hexsha": "c7ac0fa1269ba5a64680de3d8b86788fa8b1c160",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatch-v1rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/9ec00d5e027c992efbc16dd777b1f6926368b6bf",
+      "git:hexsha": "9ec00d5e027c992efbc16dd777b1f6926368b6bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/e3dc7a96c0be0bc1d17c2ace39c9b5e7ea325f29",
+      "git:hexsha": "e3dc7a96c0be0bc1d17c2ace39c9b5e7ea325f29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6a55a0bef06b679ac9a9583a778bfd9376ff2e07",
+      "git:hexsha": "6a55a0bef06b679ac9a9583a778bfd9376ff2e07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/5df8cc50675d07a5dfc3064473e913ae01b01fb3",
+      "git:hexsha": "5df8cc50675d07a5dfc3064473e913ae01b01fb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f81f1d210f01a3ab728cf1e598ece1e9385c65e4",
+      "git:hexsha": "f81f1d210f01a3ab728cf1e598ece1e9385c65e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/08bbcdeb51de38ee075b49a1b3faae97502455ac",
+      "git:hexsha": "08bbcdeb51de38ee075b49a1b3faae97502455ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f195e77aae82ee54c8e69ef974a63b8922182bd7",
+      "git:hexsha": "f195e77aae82ee54c8e69ef974a63b8922182bd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/45570ccd7757c305037719fd00aa89fa8f9874f9",
+      "git:hexsha": "45570ccd7757c305037719fd00aa89fa8f9874f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b4419fd704622f1070743ebdd31a274f7aea6ac9",
+      "git:hexsha": "b4419fd704622f1070743ebdd31a274f7aea6ac9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/03ae09cae05c44e6e72dd983cc876d1a524bad9d",
+      "git:hexsha": "03ae09cae05c44e6e72dd983cc876d1a524bad9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/581d8ae4f28df505df4f455dcb47542b3433c6f9",
+      "git:hexsha": "581d8ae4f28df505df4f455dcb47542b3433c6f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/25a50d7a0b8f6c60991beb8c15ec56d62bb00541",
+      "git:hexsha": "25a50d7a0b8f6c60991beb8c15ec56d62bb00541",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/fce4094992b9fafd877d9a956d90b87f8ab0abd9",
+      "git:hexsha": "fce4094992b9fafd877d9a956d90b87f8ab0abd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/923edaf61bfa0f511b66c420910ca030c73c4f1c",
+      "git:hexsha": "923edaf61bfa0f511b66c420910ca030c73c4f1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b02308d7c32542713ead0bc9357a60cf2f7fe2b4",
+      "git:hexsha": "b02308d7c32542713ead0bc9357a60cf2f7fe2b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ecac80ff8ea369451e410bbcee5b92474a42812e",
+      "git:hexsha": "ecac80ff8ea369451e410bbcee5b92474a42812e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/9f637eb972550330d5a206c8f3e511f49281fa18",
+      "git:hexsha": "9f637eb972550330d5a206c8f3e511f49281fa18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/7692fdbb1e9b969173e58e8ee83783b18cf66f6b",
+      "git:hexsha": "7692fdbb1e9b969173e58e8ee83783b18cf66f6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d934ec131e96a9ec52b20326674bbe438b1ebefa",
+      "git:hexsha": "d934ec131e96a9ec52b20326674bbe438b1ebefa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/726387e9af6a16cf24f383a3f7583b281f6d4845",
+      "git:hexsha": "726387e9af6a16cf24f383a3f7583b281f6d4845",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/06af251585781d73f2f52b95e3752933039b40bd",
+      "git:hexsha": "06af251585781d73f2f52b95e3752933039b40bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f8c81acf4e20e3034fcc5209ca5f69cf1f2c6e7f",
+      "git:hexsha": "f8c81acf4e20e3034fcc5209ca5f69cf1f2c6e7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/a0f78f51964b2f57009a56229339a69d14a265bf",
+      "git:hexsha": "a0f78f51964b2f57009a56229339a69d14a265bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/3f0531eb692cc5c248e64bd24d7fecbda50d4eb9",
+      "git:hexsha": "3f0531eb692cc5c248e64bd24d7fecbda50d4eb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/91752501e664df5e8d5c16d00f2b5a8dd325905d",
+      "git:hexsha": "91752501e664df5e8d5c16d00f2b5a8dd325905d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/929aa1847912c735f99ea46fcef570b35837136f",
+      "git:hexsha": "929aa1847912c735f99ea46fcef570b35837136f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d11d4702c1e09dee5ef4feeca59bb908dd6bc153",
+      "git:hexsha": "d11d4702c1e09dee5ef4feeca59bb908dd6bc153",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4d50a2e6d5debd844265d3e50999590c1a6e5a32",
+      "git:hexsha": "4d50a2e6d5debd844265d3e50999590c1a6e5a32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/9e53da704455bfd49869b3bff2e5d0669baf76e9",
+      "git:hexsha": "9e53da704455bfd49869b3bff2e5d0669baf76e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/30f5f42db0cc5cf118375dc007d01caf82cd3fbd",
+      "git:hexsha": "30f5f42db0cc5cf118375dc007d01caf82cd3fbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6a2d2fe2256f8eeaa3fde6c083e4c8599c95dcbb",
+      "git:hexsha": "6a2d2fe2256f8eeaa3fde6c083e4c8599c95dcbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c0ebe759085d8ae943b80aa6f50424c8a28256f3",
+      "git:hexsha": "c0ebe759085d8ae943b80aa6f50424c8a28256f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/0099c83e64c43cd0df5733e9f893e62c5859c612",
+      "git:hexsha": "0099c83e64c43cd0df5733e9f893e62c5859c612",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b1dfcbdbd6de8389ec80cb4e2ac25e3697ceed24",
+      "git:hexsha": "b1dfcbdbd6de8389ec80cb4e2ac25e3697ceed24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/0bd0818bd81e88d6d9b921a2d5d3efeeb9eb3cb8",
+      "git:hexsha": "0bd0818bd81e88d6d9b921a2d5d3efeeb9eb3cb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/dbcf6e742cb38ef147227fb610c3b6ad2afd02ec",
+      "git:hexsha": "dbcf6e742cb38ef147227fb610c3b6ad2afd02ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/8726a3a06c9a4307f8fbcfe81f1384036b21e404",
+      "git:hexsha": "8726a3a06c9a4307f8fbcfe81f1384036b21e404",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/eb8e62f18211a41f3d7bac6b079ab6c99612272c",
+      "git:hexsha": "eb8e62f18211a41f3d7bac6b079ab6c99612272c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ad2212dc27537b8f309e8300abba6964443cdf79",
+      "git:hexsha": "ad2212dc27537b8f309e8300abba6964443cdf79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/63b692e3ac7c4156edbbf382b849eaa8707607eb",
+      "git:hexsha": "63b692e3ac7c4156edbbf382b849eaa8707607eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f90636764aa1257db17e09c6456496dfbc137127",
+      "git:hexsha": "f90636764aa1257db17e09c6456496dfbc137127",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/7a89af26f0ab8c1dac9e78520ae20bdc0ee8c9f5",
+      "git:hexsha": "7a89af26f0ab8c1dac9e78520ae20bdc0ee8c9f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/3dc6f02f0d261f22653bf81bbe734a4f1b2146f5",
+      "git:hexsha": "3dc6f02f0d261f22653bf81bbe734a4f1b2146f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/3f92634aa8a2700fca4f79592aa84a76d4cb20ba",
+      "git:hexsha": "3f92634aa8a2700fca4f79592aa84a76d4cb20ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/283a478db89770b5f913aa71f3b44e9a107b3833",
+      "git:hexsha": "283a478db89770b5f913aa71f3b44e9a107b3833",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4886f856eceef04d8f8af05201d157b4c92a0671",
+      "git:hexsha": "4886f856eceef04d8f8af05201d157b4c92a0671",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/33aa4d3dfd2e7046de24a5bf11613d98c0ca4c87",
+      "git:hexsha": "33aa4d3dfd2e7046de24a5bf11613d98c0ca4c87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/8c99dd2d14d77ec2fea7fcd87e957651c450caca",
+      "git:hexsha": "8c99dd2d14d77ec2fea7fcd87e957651c450caca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f36c82292368947fb8696221d3ce5665816b4afc",
+      "git:hexsha": "f36c82292368947fb8696221d3ce5665816b4afc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4e2546304315a40ff986f2c438526d21eb06a5ae",
+      "git:hexsha": "4e2546304315a40ff986f2c438526d21eb06a5ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/d8fddbdcb8f6938d05ce296a8f4658acbe98a754",
+      "git:hexsha": "d8fddbdcb8f6938d05ce296a8f4658acbe98a754",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/3054315f325aaf59187353913004df609aa9546c",
+      "git:hexsha": "3054315f325aaf59187353913004df609aa9546c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6b12353590154d08cf48b55983286113b8448409",
+      "git:hexsha": "6b12353590154d08cf48b55983286113b8448409",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c20358d120d24afebc14bb4f51a75bb426989b33",
+      "git:hexsha": "c20358d120d24afebc14bb4f51a75bb426989b33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/2cdade270783f29972bcafdd52573541d1f1a489",
+      "git:hexsha": "2cdade270783f29972bcafdd52573541d1f1a489",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/e090a5103d1f992ba0fce8b5264092a416d088b1",
+      "git:hexsha": "e090a5103d1f992ba0fce8b5264092a416d088b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ca3fc6c224d3d9ed11e3a91bb63b40117cbe481c",
+      "git:hexsha": "ca3fc6c224d3d9ed11e3a91bb63b40117cbe481c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/83b25a2cd750ce05fec68e04e8fd3079f7839ca3",
+      "git:hexsha": "83b25a2cd750ce05fec68e04e8fd3079f7839ca3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.22.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/026bcf4fe52f9fe31975895fb062ea89e881e95c",
+      "git:hexsha": "026bcf4fe52f9fe31975895fb062ea89e881e95c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.22.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/872fd60257cad4d782e7639f1e3f275e9eb9cbf8",
+      "git:hexsha": "872fd60257cad4d782e7639f1e3f275e9eb9cbf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.22.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c935e51cdf4b270cc95f3d1942bdb6a326ff6c41",
+      "git:hexsha": "c935e51cdf4b270cc95f3d1942bdb6a326ff6c41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/864854478bac936de2d94273ae083c7c29564df2",
+      "git:hexsha": "864854478bac936de2d94273ae083c7c29564df2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/544be241e8dbd56a5886d4398308b23a1353fa6a",
+      "git:hexsha": "544be241e8dbd56a5886d4398308b23a1353fa6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/9b51c8ce3f4a611351752fc9e23fd426580b2309",
+      "git:hexsha": "9b51c8ce3f4a611351752fc9e23fd426580b2309",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6fdb66d16f91f3ce80b705e266674f74c83c987a",
+      "git:hexsha": "6fdb66d16f91f3ce80b705e266674f74c83c987a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/96604066214c627de447a01eb697c3ddba4b8a40",
+      "git:hexsha": "96604066214c627de447a01eb697c3ddba4b8a40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c1a3c6b4c86ea2affe4734b54578f032fe5d0003",
+      "git:hexsha": "c1a3c6b4c86ea2affe4734b54578f032fe5d0003",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/ecb45a8e094cf6320128aee78b58d605f39bb5f1",
+      "git:hexsha": "ecb45a8e094cf6320128aee78b58d605f39bb5f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.26.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/6bc4bbeff1be8226958874e43698f5bf3b8ea339",
+      "git:hexsha": "6bc4bbeff1be8226958874e43698f5bf3b8ea339",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.26.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/cbf6598e5cbce3ba9097023c5bf783001ebbcbcb",
+      "git:hexsha": "cbf6598e5cbce3ba9097023c5bf783001ebbcbcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/1a74daa6f554e2ec89f2641288e44ed39e5507cc",
+      "git:hexsha": "1a74daa6f554e2ec89f2641288e44ed39e5507cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/65fe2aab00b5197038501078336710864be558e7",
+      "git:hexsha": "65fe2aab00b5197038501078336710864be558e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/cfb13853fdc31931e00dd9f0ec10407ac8b8e27f",
+      "git:hexsha": "cfb13853fdc31931e00dd9f0ec10407ac8b8e27f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/0497be09d555c300851d55344104e9aea2f9f200",
+      "git:hexsha": "0497be09d555c300851d55344104e9aea2f9f200",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/4b3fd7d6d8435312b16fe8e8a317be5244a81b23",
+      "git:hexsha": "4b3fd7d6d8435312b16fe8e8a317be5244a81b23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/0941887cd24b8585c30761d0396d9357e9d9effe",
+      "git:hexsha": "0941887cd24b8585c30761d0396d9357e9d9effe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.32.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/c4abc454f908bb4fc2a92452a82cb33dac14abf3",
+      "git:hexsha": "c4abc454f908bb4fc2a92452a82cb33dac14abf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.32.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/fa44364bad40789ece39f19c6bc9ff4ea6e14a0d",
+      "git:hexsha": "fa44364bad40789ece39f19c6bc9ff4ea6e14a0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/12878570189e8d7b4aaa44dc28308d269e83e7aa",
+      "git:hexsha": "12878570189e8d7b4aaa44dc28308d269e83e7aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/daa6b963d364d5aa6d44374edd8ce7617d3903ad",
+      "git:hexsha": "daa6b963d364d5aa6d44374edd8ce7617d3903ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/a276ed90e95ff7bc8ea5a4159b023f9dee115962",
+      "git:hexsha": "a276ed90e95ff7bc8ea5a4159b023f9dee115962",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/b14f6ffbf7f549dc45a9fc07277edd15bcff3ad1",
+      "git:hexsha": "b14f6ffbf7f549dc45a9fc07277edd15bcff3ad1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/7eaffbf39d59984cffd217d5ed4349918ef799ff",
+      "git:hexsha": "7eaffbf39d59984cffd217d5ed4349918ef799ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/31cbf1b1347c06702110301c0840b310d7f2f8fe",
+      "git:hexsha": "31cbf1b1347c06702110301c0840b310d7f2f8fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/f1dccf0de6fff0f07c51d77b98364193b62e51cc",
+      "git:hexsha": "f1dccf0de6fff0f07c51d77b98364193b62e51cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/hatch/commit/eb6053466878143e118ca1faa1b468c7dacd60cf",
+      "git:hexsha": "eb6053466878143e118ca1faa1b468c7dacd60cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "hatchling-v1.9.0"
+    }
+  ]
+}
