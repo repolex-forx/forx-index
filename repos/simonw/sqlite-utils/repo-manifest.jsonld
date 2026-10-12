@@ -1,0 +1,855 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/simonw/sqlite-utils",
+  "@type": "gh:Repository",
+  "gh:name": "sqlite-utils",
+  "gh:owner": "simonw",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9c66bafa52ae23d40499c74b0db3b635bcddb876",
+      "git:hexsha": "9c66bafa52ae23d40499c74b0db3b635bcddb876",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T16:12:47.259396+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/7c09a2e994dd36711207dcd9aa91a4be450551ab",
+      "git:hexsha": "7c09a2e994dd36711207dcd9aa91a4be450551ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c89b2df91822318266ae4020c6ccbd06fefb48f7",
+      "git:hexsha": "c89b2df91822318266ae4020c6ccbd06fefb48f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1ffa40301de5bb960e89114de0f5199850a9ed9d",
+      "git:hexsha": "1ffa40301de5bb960e89114de0f5199850a9ed9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1b6025e8ab5cef6a6f2550cc3be1f80b12cc64a1",
+      "git:hexsha": "1b6025e8ab5cef6a6f2550cc3be1f80b12cc64a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/05317f53411fab3c3d66b88408bc867f2e474a35",
+      "git:hexsha": "05317f53411fab3c3d66b88408bc867f2e474a35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/0d63128c40aec15a958dddf181c13e0db1c7908b",
+      "git:hexsha": "0d63128c40aec15a958dddf181c13e0db1c7908b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/e888bb122dadfbd937fc3893444a2edcb0b5b499",
+      "git:hexsha": "e888bb122dadfbd937fc3893444a2edcb0b5b499",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/f5418e13f2e435a42cd3611b28ec3c9ac02481da",
+      "git:hexsha": "f5418e13f2e435a42cd3611b28ec3c9ac02481da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/f4907f6df58d822dfb67660b982a9081b39a06fb",
+      "git:hexsha": "f4907f6df58d822dfb67660b982a9081b39a06fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/72644b6e3fc78ecf55b386854943ec3ad39f97bd",
+      "git:hexsha": "72644b6e3fc78ecf55b386854943ec3ad39f97bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/594b25ef9f633dabdaca98b46dea9fbb82628166",
+      "git:hexsha": "594b25ef9f633dabdaca98b46dea9fbb82628166",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8e2a313c1e831c465392c5cb1502d0f153d39431",
+      "git:hexsha": "8e2a313c1e831c465392c5cb1502d0f153d39431",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/6f54342570f722ca817945155c234d8d8a9b4acc",
+      "git:hexsha": "6f54342570f722ca817945155c234d8d8a9b4acc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3db4f08f19b2b1a19431a092f43605031092b97f",
+      "git:hexsha": "3db4f08f19b2b1a19431a092f43605031092b97f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9a4d1ff0a268c7df7839389acd92d48752d24b95",
+      "git:hexsha": "9a4d1ff0a268c7df7839389acd92d48752d24b95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/79a0f9cc96788f615810dced89f79b8e3ccc51ed",
+      "git:hexsha": "79a0f9cc96788f615810dced89f79b8e3ccc51ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/ee017cdbddfb7cdbf522149d195dd41416b24ecd",
+      "git:hexsha": "ee017cdbddfb7cdbf522149d195dd41416b24ecd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/63953f56e7001c2e21bc37d5afac699c48c00b9e",
+      "git:hexsha": "63953f56e7001c2e21bc37d5afac699c48c00b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/7a3041b1adcb1c95f2edeb789e4b1ecac34f0eab",
+      "git:hexsha": "7a3041b1adcb1c95f2edeb789e4b1ecac34f0eab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/53124bc02fac5a89b154513f5fdc67431901fad9",
+      "git:hexsha": "53124bc02fac5a89b154513f5fdc67431901fad9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/d5e1f8ac77d91b9b713358e80d9542abbf5f3633",
+      "git:hexsha": "d5e1f8ac77d91b9b713358e80d9542abbf5f3633",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a0a65f9a6405079b01aefdbf4b5f507bc758567a",
+      "git:hexsha": "a0a65f9a6405079b01aefdbf4b5f507bc758567a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/0a0cec3cf27861455e8cd1c4d84937825a18bb30",
+      "git:hexsha": "0a0cec3cf27861455e8cd1c4d84937825a18bb30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1c8a0e874fe0fc2eaade1a6c44d947e1e6c7b2b6",
+      "git:hexsha": "1c8a0e874fe0fc2eaade1a6c44d947e1e6c7b2b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/46281c9db0d6eb50203880c83363a8b279db4ecd",
+      "git:hexsha": "46281c9db0d6eb50203880c83363a8b279db4ecd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/641eccc2b7a7d39f234de8e42c7ebc426d350984",
+      "git:hexsha": "641eccc2b7a7d39f234de8e42c7ebc426d350984",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/b4e36546b093281d1e01549c6d8c4c66b1063675",
+      "git:hexsha": "b4e36546b093281d1e01549c6d8c4c66b1063675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/fad14ab9438869d38003254f3fc1444af21a2cdb",
+      "git:hexsha": "fad14ab9438869d38003254f3fc1444af21a2cdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/41d1751aec9c08c05191f9806aa07d56b565e9d1",
+      "git:hexsha": "41d1751aec9c08c05191f9806aa07d56b565e9d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/ef112ffc94e157b2152ebc4e01ab750570f447e8",
+      "git:hexsha": "ef112ffc94e157b2152ebc4e01ab750570f447e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c88f0a4d4617ff832aa728aac1da3500548c3137",
+      "git:hexsha": "c88f0a4d4617ff832aa728aac1da3500548c3137",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9b7be79c86b4283f24a64f62257c918f12542997",
+      "git:hexsha": "9b7be79c86b4283f24a64f62257c918f12542997",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a6749cdf43229c4f7864c946496e9ac0141627d9",
+      "git:hexsha": "a6749cdf43229c4f7864c946496e9ac0141627d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/e1021030dd2d8d4705ad0e7bae389eeaea7fa17b",
+      "git:hexsha": "e1021030dd2d8d4705ad0e7bae389eeaea7fa17b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/6ac0a5df5d714f6f3b33a92eed9ccbd8eebe66a4",
+      "git:hexsha": "6ac0a5df5d714f6f3b33a92eed9ccbd8eebe66a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c6c2e7184bbfeaa84fd78ec0cd9d878715f64f98",
+      "git:hexsha": "c6c2e7184bbfeaa84fd78ec0cd9d878715f64f98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/59a2e8ebdcbde7e6fb091b0556713ca5a20ea4e7",
+      "git:hexsha": "59a2e8ebdcbde7e6fb091b0556713ca5a20ea4e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/f7289174e66ae4d91d57de94bbd9d09fabf7aff4",
+      "git:hexsha": "f7289174e66ae4d91d57de94bbd9d09fabf7aff4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/4d9a3204361d956440307a57bd18c829a15861db",
+      "git:hexsha": "4d9a3204361d956440307a57bd18c829a15861db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/97246f9ef7dfa38a5fd71841f397fe3222be0875",
+      "git:hexsha": "97246f9ef7dfa38a5fd71841f397fe3222be0875",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a236a6bc771a5a6a9d7e814f1986d461afc422d2",
+      "git:hexsha": "a236a6bc771a5a6a9d7e814f1986d461afc422d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3f6a10b807c8b2df6e1f971d9747cbefd858e63a",
+      "git:hexsha": "3f6a10b807c8b2df6e1f971d9747cbefd858e63a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/710454d72aed5094573e642344fd075a0ef5372c",
+      "git:hexsha": "710454d72aed5094573e642344fd075a0ef5372c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a8b922bcb91186c44fc163f7f6566598d962d364",
+      "git:hexsha": "a8b922bcb91186c44fc163f7f6566598d962d364",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/957f8c9b4ca76e32b03ca5dbf50dd61d01f25292",
+      "git:hexsha": "957f8c9b4ca76e32b03ca5dbf50dd61d01f25292",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/7536a5a0f6fc49ce1a6cb961f9fbe5edb7662c68",
+      "git:hexsha": "7536a5a0f6fc49ce1a6cb961f9fbe5edb7662c68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c8d796919281e6d97fe470d74f8580cc35fea625",
+      "git:hexsha": "c8d796919281e6d97fe470d74f8580cc35fea625",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/ea87c2b943fdd162c42a900ac0aea5ecc2f4b9d9",
+      "git:hexsha": "ea87c2b943fdd162c42a900ac0aea5ecc2f4b9d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1a9dab86fe22b122ea44e2161887fe3c0129297f",
+      "git:hexsha": "1a9dab86fe22b122ea44e2161887fe3c0129297f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/deb2eb013ff85bbc828ebc244a9654f0d9c3139e",
+      "git:hexsha": "deb2eb013ff85bbc828ebc244a9654f0d9c3139e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/6be61263642d8e46ec54cf5f51af74e0df2f2393",
+      "git:hexsha": "6be61263642d8e46ec54cf5f51af74e0df2f2393",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/ef882986d07f157b6bcc6be3d7b64270fda3e523",
+      "git:hexsha": "ef882986d07f157b6bcc6be3d7b64270fda3e523",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/72fa16b3d9033525ea6a798c99a870db93ece9e6",
+      "git:hexsha": "72fa16b3d9033525ea6a798c99a870db93ece9e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/4cbade256414844961af5006e93c1cdc5bb84868",
+      "git:hexsha": "4cbade256414844961af5006e93c1cdc5bb84868",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9f59a7a325851b0026ffd3c385985e473fdff92c",
+      "git:hexsha": "9f59a7a325851b0026ffd3c385985e473fdff92c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a57acf84f77aac01fd6b8aaa2ce089145ff3c3e7",
+      "git:hexsha": "a57acf84f77aac01fd6b8aaa2ce089145ff3c3e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/47af71f6038327a0aba5ab9bbb7de21ee21924f9",
+      "git:hexsha": "47af71f6038327a0aba5ab9bbb7de21ee21924f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/43eae8b193d362f2b292df73e087ed6f10838144",
+      "git:hexsha": "43eae8b193d362f2b292df73e087ed6f10838144",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/0c2451e0690c5f4e6463a2f339b0a280e30ed806",
+      "git:hexsha": "0c2451e0690c5f4e6463a2f339b0a280e30ed806",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/5e0000609f9be6efafea1b96f610988eb18d6d89",
+      "git:hexsha": "5e0000609f9be6efafea1b96f610988eb18d6d89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/277d4e55c496dbe289656bf7649a47db9d1ec5d1",
+      "git:hexsha": "277d4e55c496dbe289656bf7649a47db9d1ec5d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8f19bbed029df0009cd30f357d26fdf27c7ba5c4",
+      "git:hexsha": "8f19bbed029df0009cd30f357d26fdf27c7ba5c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/755580e2f3020d6af214a41634ab2ab6ed776e10",
+      "git:hexsha": "755580e2f3020d6af214a41634ab2ab6ed776e10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3db9881970eead7e27b5411360b0c86296c99a32",
+      "git:hexsha": "3db9881970eead7e27b5411360b0c86296c99a32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/22250a9c735077d6f365b73bf824e6c67b122c83",
+      "git:hexsha": "22250a9c735077d6f365b73bf824e6c67b122c83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/ad6ac19470a67867b96cb4c086450b8e4e46bf02",
+      "git:hexsha": "ad6ac19470a67867b96cb4c086450b8e4e46bf02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/13528faa817d79bc3900d3af7473300686b145d7",
+      "git:hexsha": "13528faa817d79bc3900d3af7473300686b145d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/f58f7464243f75367da2ad3cab240246e6e2e618",
+      "git:hexsha": "f58f7464243f75367da2ad3cab240246e6e2e618",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/b4d953d3ccef28bb81cea40ca165a647b59971fa",
+      "git:hexsha": "b4d953d3ccef28bb81cea40ca165a647b59971fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/79541d3a6d71a9f888628686c3236eb0205bad35",
+      "git:hexsha": "79541d3a6d71a9f888628686c3236eb0205bad35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/30a390780aa1946f9430d7f473031e95ab02675d",
+      "git:hexsha": "30a390780aa1946f9430d7f473031e95ab02675d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3936512edd34854f3290ffbac55d6ee0c673a36d",
+      "git:hexsha": "3936512edd34854f3290ffbac55d6ee0c673a36d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3b5c931287646e6ef448cd6d99d410270c1e8fb1",
+      "git:hexsha": "3b5c931287646e6ef448cd6d99d410270c1e8fb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/60d3c4821be4cf25c41097c1e8b79b2e60c5ead5",
+      "git:hexsha": "60d3c4821be4cf25c41097c1e8b79b2e60c5ead5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/6785e89cc04e58382ea2bff34a4ee66ebe4c4434",
+      "git:hexsha": "6785e89cc04e58382ea2bff34a4ee66ebe4c4434",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1ce96d8c0854476e84216af5e5af71bcebbddb78",
+      "git:hexsha": "1ce96d8c0854476e84216af5e5af71bcebbddb78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/0dca784dbe6b75de6e4c0da4869c0b2b9574dde4",
+      "git:hexsha": "0dca784dbe6b75de6e4c0da4869c0b2b9574dde4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/eb18b6e42c6d10aca6193204bc907490d2f56547",
+      "git:hexsha": "eb18b6e42c6d10aca6193204bc907490d2f56547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/adcd32a866dd8828002b9fdc77b4f674fa80c46e",
+      "git:hexsha": "adcd32a866dd8828002b9fdc77b4f674fa80c46e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8981b9c1f3e4e3865924861ee63922f696078f6c",
+      "git:hexsha": "8981b9c1f3e4e3865924861ee63922f696078f6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c7e8d72be9fe8fe0811f685a18eebc637662d41b",
+      "git:hexsha": "c7e8d72be9fe8fe0811f685a18eebc637662d41b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/e83aef951bd3e8c179511faddb607239a5fa8682",
+      "git:hexsha": "e83aef951bd3e8c179511faddb607239a5fa8682",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/d5ef91212022ea3ed85258af605bdc28e5799ff1",
+      "git:hexsha": "d5ef91212022ea3ed85258af605bdc28e5799ff1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/bde372525734bd41d94251675141422b0fd56bda",
+      "git:hexsha": "bde372525734bd41d94251675141422b0fd56bda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/5912878d62ef7de6fa3b9274aed8d98243ff5e56",
+      "git:hexsha": "5912878d62ef7de6fa3b9274aed8d98243ff5e56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/77c240df56068341561e95e4a412cbfa24dc5bc7",
+      "git:hexsha": "77c240df56068341561e95e4a412cbfa24dc5bc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/54191d4dc114d7dc21e849b48a4d5ae4f9e601ca",
+      "git:hexsha": "54191d4dc114d7dc21e849b48a4d5ae4f9e601ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3b8abe608796e99e4ffc5f3f4597a85e605c0e9b",
+      "git:hexsha": "3b8abe608796e99e4ffc5f3f4597a85e605c0e9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/126703706ea153f63e6134ad14e5712e4bbcb8ae",
+      "git:hexsha": "126703706ea153f63e6134ad14e5712e4bbcb8ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8f386a0d300d1b1c76132bb75972b755049fb742",
+      "git:hexsha": "8f386a0d300d1b1c76132bb75972b755049fb742",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.19a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/4cc82fd0bccc9d2eeb3510beb4e691d7da099f84",
+      "git:hexsha": "4cc82fd0bccc9d2eeb3510beb4e691d7da099f84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/0b244d207a460d872cdac029d01deec784058858",
+      "git:hexsha": "0b244d207a460d872cdac029d01deec784058858",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3d464893ee442c179a8e5015ffd7577f34f01adc",
+      "git:hexsha": "3d464893ee442c179a8e5015ffd7577f34f01adc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/7c637b11805adc3d3970076a7ba6afe8e34b371e",
+      "git:hexsha": "7c637b11805adc3d3970076a7ba6afe8e34b371e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/74586d3cb26fa3cc3412721985ecdc1864c2a31d",
+      "git:hexsha": "74586d3cb26fa3cc3412721985ecdc1864c2a31d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a9fca7efa4184fbb2a65ca1275c326950ed9d3c1",
+      "git:hexsha": "a9fca7efa4184fbb2a65ca1275c326950ed9d3c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/088d89982299f8136e608fa2b6c30e9529adc714",
+      "git:hexsha": "088d89982299f8136e608fa2b6c30e9529adc714",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/757f103ae2a8b3803ceea89a412cf78b269f9e75",
+      "git:hexsha": "757f103ae2a8b3803ceea89a412cf78b269f9e75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/b2b04aec0119a07f796652565966e6c910062eeb",
+      "git:hexsha": "b2b04aec0119a07f796652565966e6c910062eeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9388edf57aa15719095e3cf0952c1653cd070c9b",
+      "git:hexsha": "9388edf57aa15719095e3cf0952c1653cd070c9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/6915fbcce24d03d7e7fbcb901c18be84b5568a9d",
+      "git:hexsha": "6915fbcce24d03d7e7fbcb901c18be84b5568a9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/841ad44bacaff05ec79ef78166d12e80c82ba6d7",
+      "git:hexsha": "841ad44bacaff05ec79ef78166d12e80c82ba6d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/679d6081198a2b658d6578f24bc3446750395ecf",
+      "git:hexsha": "679d6081198a2b658d6578f24bc3446750395ecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/855bce8c3823718def13e0b8928c58bf857e41b2",
+      "git:hexsha": "855bce8c3823718def13e0b8928c58bf857e41b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/b491f22d817836829965516983a3f4c3c72c05fc",
+      "git:hexsha": "b491f22d817836829965516983a3f4c3c72c05fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/36dc7e3909a44878681c266b90f9be76ac749f2d",
+      "git:hexsha": "36dc7e3909a44878681c266b90f9be76ac749f2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/fb8f495582f68d8d49f57b42d12a66802f9ac238",
+      "git:hexsha": "fb8f495582f68d8d49f57b42d12a66802f9ac238",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/b3b100d7f5b2a76ccd4bfe8b0301a29e321d0375",
+      "git:hexsha": "b3b100d7f5b2a76ccd4bfe8b0301a29e321d0375",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/e240133b11588d31dc22c632f7a7ca636c72978d",
+      "git:hexsha": "e240133b11588d31dc22c632f7a7ca636c72978d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/2747257a3334d55e890b40ec58fada57ae8cfbfd",
+      "git:hexsha": "2747257a3334d55e890b40ec58fada57ae8cfbfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.32.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9d38925cdecce7f18e1fd3791821176154dc5f3c",
+      "git:hexsha": "9d38925cdecce7f18e1fd3791821176154dc5f3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c728c255556becc0de6fe73d45008f75f838cb68",
+      "git:hexsha": "c728c255556becc0de6fe73d45008f75f838cb68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/ba2681e769c48244786b806d1dafe2f1ca01bcac",
+      "git:hexsha": "ba2681e769c48244786b806d1dafe2f1ca01bcac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/60900bd80acab518d942508a8ec67f57cc47b210",
+      "git:hexsha": "60900bd80acab518d942508a8ec67f57cc47b210",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/c64c7d1b8caec172c87a73154cc4da90fd3fae3b",
+      "git:hexsha": "c64c7d1b8caec172c87a73154cc4da90fd3fae3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.35.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/885a0b321d8daddc2e4e2e5cc991591df9abc44c",
+      "git:hexsha": "885a0b321d8daddc2e4e2e5cc991591df9abc44c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8b004b24060be673ddc25d759895d65a47c10b02",
+      "git:hexsha": "8b004b24060be673ddc25d759895d65a47c10b02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/9d7da0606e98713896bbc9fc885a5b0cd54ac2fd",
+      "git:hexsha": "9d7da0606e98713896bbc9fc885a5b0cd54ac2fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/0acb1f29c2984fb40fd69f3dcb35cf995d468ec5",
+      "git:hexsha": "0acb1f29c2984fb40fd69f3dcb35cf995d468ec5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.38a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/2026087a72c9af0412b7fa80fc2e03f81a373b79",
+      "git:hexsha": "2026087a72c9af0412b7fa80fc2e03f81a373b79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1f89580a42436e129facd57cd6f1ba7fbe16674c",
+      "git:hexsha": "1f89580a42436e129facd57cd6f1ba7fbe16674c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.39.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/f8010ca78fed8c5fca6cde19658ec09fdd468420",
+      "git:hexsha": "f8010ca78fed8c5fca6cde19658ec09fdd468420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/726219c3503e77440975cd15b74d006639feb0f8",
+      "git:hexsha": "726219c3503e77440975cd15b74d006639feb0f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8fcaee03b718754cc429e03d74ac3ac5d49da92f",
+      "git:hexsha": "8fcaee03b718754cc429e03d74ac3ac5d49da92f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/806c21044ac8d31da35f4c90600e98115aade7c6",
+      "git:hexsha": "806c21044ac8d31da35f4c90600e98115aade7c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8c542d20ca95069476c8c84d4078a99d07561c6e",
+      "git:hexsha": "8c542d20ca95069476c8c84d4078a99d07561c6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/d1a372b3006e6cf7d2017b3ddc484bf5c033e45d",
+      "git:hexsha": "d1a372b3006e6cf7d2017b3ddc484bf5c033e45d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/b0f9d1e494c9891ce407e27b0f5c6deeea361d30",
+      "git:hexsha": "b0f9d1e494c9891ce407e27b0f5c6deeea361d30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/10f4913c144c4680c0feec576c2d4080f5005b33",
+      "git:hexsha": "10f4913c144c4680c0feec576c2d4080f5005b33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8bc9213a8e9c52a2d46ffc14da72fcd5af276840",
+      "git:hexsha": "8bc9213a8e9c52a2d46ffc14da72fcd5af276840",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/d892d2ae49cd29b9639e73cd13017cfeef507ac7",
+      "git:hexsha": "d892d2ae49cd29b9639e73cd13017cfeef507ac7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/8c40732e4f2514535f9fd4b29164239db0ee9dc8",
+      "git:hexsha": "8c40732e4f2514535f9fd4b29164239db0ee9dc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/401fb6949c5cd7bddd0b17fedc03455a30a7414c",
+      "git:hexsha": "401fb6949c5cd7bddd0b17fedc03455a30a7414c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/a8e3a643f2a7ad1933eb900713f18f1650e45c1b",
+      "git:hexsha": "a8e3a643f2a7ad1933eb900713f18f1650e45c1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/3e8b7403a286e0f9ae4cfb9b8ff2e010c3edb2de",
+      "git:hexsha": "3e8b7403a286e0f9ae4cfb9b8ff2e010c3edb2de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/d34f1bea0b34b7004a56b75b5dd083f89f8cc970",
+      "git:hexsha": "d34f1bea0b34b7004a56b75b5dd083f89f8cc970",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/57c16173912e00c639b9620cadc4dfe475ddb273",
+      "git:hexsha": "57c16173912e00c639b9620cadc4dfe475ddb273",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/458b3ab5b169eff1f8319c44a7c320c68f54d28b",
+      "git:hexsha": "458b3ab5b169eff1f8319c44a7c320c68f54d28b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/1d98613f28b8edab5fd0deb5ba65d54fb286e7ba",
+      "git:hexsha": "1d98613f28b8edab5fd0deb5ba65d54fb286e7ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/simonw/sqlite-utils/commit/28dc6278cc03a9245325d056e6986818544abc68",
+      "git:hexsha": "28dc6278cc03a9245325d056e6986818544abc68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.1"
+    }
+  ]
+}
