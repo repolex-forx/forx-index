@@ -1,0 +1,987 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/jupyter-server/jupyter_server",
+  "@type": "gh:Repository",
+  "gh:name": "jupyter_server",
+  "gh:owner": "jupyter-server",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f8169d721a0e0abb9ca27266c83db5a3a09e29d7",
+      "git:hexsha": "f8169d721a0e0abb9ca27266c83db5a3a09e29d7",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-15T13:48:08.343977+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/bf2d177df6250cdb1790f4608f65e0072093dcb2",
+      "git:hexsha": "bf2d177df6250cdb1790f4608f65e0072093dcb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/bdf256c20b964fed84be3077e42ddba3aeaa9dc6",
+      "git:hexsha": "bdf256c20b964fed84be3077e42ddba3aeaa9dc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/4180bc80f837ff17dc77f9949d605829711b81c2",
+      "git:hexsha": "4180bc80f837ff17dc77f9949d605829711b81c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b5e80b91958c9c64d3661858acac7571636fd613",
+      "git:hexsha": "b5e80b91958c9c64d3661858acac7571636fd613",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/33d32ec8f8964ae1b5263dc95cb77057d835f332",
+      "git:hexsha": "33d32ec8f8964ae1b5263dc95cb77057d835f332",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b62458a7f5ad6b5246d2f142258dedaa409de5d9",
+      "git:hexsha": "b62458a7f5ad6b5246d2f142258dedaa409de5d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0b4df6c70907de041d8462326e4eb60c93c5a385",
+      "git:hexsha": "0b4df6c70907de041d8462326e4eb60c93c5a385",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/5502b66f3b089c1f5f8c080ff1dc9a3c5f283568",
+      "git:hexsha": "5502b66f3b089c1f5f8c080ff1dc9a3c5f283568",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0cd322f2b8649967edd8e92e3b973487f830a951",
+      "git:hexsha": "0cd322f2b8649967edd8e92e3b973487f830a951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b9b5c7ddbf94114886bc0dd396610a1aa485ef73",
+      "git:hexsha": "b9b5c7ddbf94114886bc0dd396610a1aa485ef73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/893250d91c01dc2394567ce44487676b98eeb4de",
+      "git:hexsha": "893250d91c01dc2394567ce44487676b98eeb4de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e26845aaf2460fe6506aa630407545fa2c005dfb",
+      "git:hexsha": "e26845aaf2460fe6506aa630407545fa2c005dfb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/bae6ca6aba0910f2bbe10fc293a16954bd4987f5",
+      "git:hexsha": "bae6ca6aba0910f2bbe10fc293a16954bd4987f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/5f94a040025fb8ed682576da05bdfc55d72f5be4",
+      "git:hexsha": "5f94a040025fb8ed682576da05bdfc55d72f5be4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc10"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/61a50613a5f905fbb9daf826c87a6324a0cf90f2",
+      "git:hexsha": "61a50613a5f905fbb9daf826c87a6324a0cf90f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc11"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3bad90ff73af0b551cc6f236347a8be4af6f7292",
+      "git:hexsha": "3bad90ff73af0b551cc6f236347a8be4af6f7292",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc12"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/561b512e58a6702b4806e03fabcc3088bfef7bbc",
+      "git:hexsha": "561b512e58a6702b4806e03fabcc3088bfef7bbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc13"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3683aa4b2c969527ca768c45a37b1c435e644f44",
+      "git:hexsha": "3683aa4b2c969527ca768c45a37b1c435e644f44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc14"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/677497076cfe00f3444c7bb98725d301ccf2b2ce",
+      "git:hexsha": "677497076cfe00f3444c7bb98725d301ccf2b2ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc15"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/097676b64cb9043fd65c19d15d4df2fd9d310d50",
+      "git:hexsha": "097676b64cb9043fd65c19d15d4df2fd9d310d50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc16"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/4dc11c713d51fa8ac802805be40565da82b45889",
+      "git:hexsha": "4dc11c713d51fa8ac802805be40565da82b45889",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a593007b4171f2d18017b633353d0447eadb0eb8",
+      "git:hexsha": "a593007b4171f2d18017b633353d0447eadb0eb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/264e0bb6c057b00580e7a09580cffbe989ac6ff7",
+      "git:hexsha": "264e0bb6c057b00580e7a09580cffbe989ac6ff7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/51b028762d91cb46466eeeeb8a09d8b1121d73c4",
+      "git:hexsha": "51b028762d91cb46466eeeeb8a09d8b1121d73c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f41766f69d408039abc89312b1b3ac0961567d17",
+      "git:hexsha": "f41766f69d408039abc89312b1b3ac0961567d17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/321588de8ad499afc00a604407a6d41f83534fbd",
+      "git:hexsha": "321588de8ad499afc00a604407a6d41f83534fbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/49c5d31563816a5ecd929836d4b8833eea14ee9e",
+      "git:hexsha": "49c5d31563816a5ecd929836d4b8833eea14ee9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/d76c4004c393dfba2306e8c7613fbbfbe029f35d",
+      "git:hexsha": "d76c4004c393dfba2306e8c7613fbbfbe029f35d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6dffef43f4e9eb0d6f56821b4ba5a98fe711caf3",
+      "git:hexsha": "6dffef43f4e9eb0d6f56821b4ba5a98fe711caf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6f8a1b0b059e317ef00416c4ab8aaac81a604457",
+      "git:hexsha": "6f8a1b0b059e317ef00416c4ab8aaac81a604457",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fdfa1b7a8d5ef049c47f3306f567aabfc1829dde",
+      "git:hexsha": "fdfa1b7a8d5ef049c47f3306f567aabfc1829dde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b5f3fdde7960b273913a64144029ef69b683a654",
+      "git:hexsha": "b5f3fdde7960b273913a64144029ef69b683a654",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a8c55b18351be64d35d70cdc825efd03bbe21d2f",
+      "git:hexsha": "a8c55b18351be64d35d70cdc825efd03bbe21d2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0fe43aa5d1cca64f244908301fbab6f018c31208",
+      "git:hexsha": "0fe43aa5d1cca64f244908301fbab6f018c31208",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e2f71e5af1ecb1d89dd860af7da6ecc5c90ed890",
+      "git:hexsha": "e2f71e5af1ecb1d89dd860af7da6ecc5c90ed890",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e17091698fb90db938a6a3d875b48271597a6db5",
+      "git:hexsha": "e17091698fb90db938a6a3d875b48271597a6db5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/d43ef7fc7bbe363a1ee618e7b7b4178a02931d70",
+      "git:hexsha": "d43ef7fc7bbe363a1ee618e7b7b4178a02931d70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fad6c970949503d99658b583d7ac13c8d6e58973",
+      "git:hexsha": "fad6c970949503d99658b583d7ac13c8d6e58973",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/907db90fea23f5e5367379512f2fa4e5ba198aa4",
+      "git:hexsha": "907db90fea23f5e5367379512f2fa4e5ba198aa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/921508b338286d8e946c349e8512bb78770763c8",
+      "git:hexsha": "921508b338286d8e946c349e8512bb78770763c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/506e10b593b9c3bc3690b1b8cbdd6cdd2772baae",
+      "git:hexsha": "506e10b593b9c3bc3690b1b8cbdd6cdd2772baae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e7cefef7843876ef38ca876b58daeaf17c39c632",
+      "git:hexsha": "e7cefef7843876ef38ca876b58daeaf17c39c632",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fde129d1c239a83cf79364cfb42be991225f1d51",
+      "git:hexsha": "fde129d1c239a83cf79364cfb42be991225f1d51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/41daba908b31b080bbb776c523d5f8058f54cd34",
+      "git:hexsha": "41daba908b31b080bbb776c523d5f8058f54cd34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/d3ac58a0e0f3c80450dcce23f807297aff21d7aa",
+      "git:hexsha": "d3ac58a0e0f3c80450dcce23f807297aff21d7aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3ecbb6fbe339e85be751d62797135b9c04a35a46",
+      "git:hexsha": "3ecbb6fbe339e85be751d62797135b9c04a35a46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a523141045b18163b86dfaaa98fe6be5e00493a5",
+      "git:hexsha": "a523141045b18163b86dfaaa98fe6be5e00493a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/2aa117e067bb6847c3d390505c2f28a869de7dab",
+      "git:hexsha": "2aa117e067bb6847c3d390505c2f28a869de7dab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/75f9798aec93ef24ba954b355b720961d28eb379",
+      "git:hexsha": "75f9798aec93ef24ba954b355b720961d28eb379",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/86977e97f509145939528ae9d32435eb5157f416",
+      "git:hexsha": "86977e97f509145939528ae9d32435eb5157f416",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/488e4d81775f83aa3765798c5d6f601ceb34f3ed",
+      "git:hexsha": "488e4d81775f83aa3765798c5d6f601ceb34f3ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/257c1d82524a8207ab0ba4d8d2d2aecc559f4ac4",
+      "git:hexsha": "257c1d82524a8207ab0ba4d8d2d2aecc559f4ac4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6607c5c3b23d263e1dc046e52baadcbaf97dc03f",
+      "git:hexsha": "6607c5c3b23d263e1dc046e52baadcbaf97dc03f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/cea2e02eabe5b2e86aa6c033c7c52ec221ca2dda",
+      "git:hexsha": "cea2e02eabe5b2e86aa6c033c7c52ec221ca2dda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3cccc3708247c944438686f02b0a768b37109184",
+      "git:hexsha": "3cccc3708247c944438686f02b0a768b37109184",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a8858c1a725010f00ff53e33ec948b5ce898c736",
+      "git:hexsha": "a8858c1a725010f00ff53e33ec948b5ce898c736",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/1ef3a02686471b1d006d22e81ed947986b71fac8",
+      "git:hexsha": "1ef3a02686471b1d006d22e81ed947986b71fac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/89896168068c42909c4d9173cc195550a9590586",
+      "git:hexsha": "89896168068c42909c4d9173cc195550a9590586",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/67cdb6b86dc7eaf0ad41b0a2188ad4edd1ed160e",
+      "git:hexsha": "67cdb6b86dc7eaf0ad41b0a2188ad4edd1ed160e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/218dbb26b36e561ef90d10ef8cc16a11652b71f2",
+      "git:hexsha": "218dbb26b36e561ef90d10ef8cc16a11652b71f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f41eb753b688797434f64cc212ec08e0ac96acba",
+      "git:hexsha": "f41eb753b688797434f64cc212ec08e0ac96acba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fe4170278b0699e43f76a4647047dd5ed29fc23f",
+      "git:hexsha": "fe4170278b0699e43f76a4647047dd5ed29fc23f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3b72d9cfc4befc6235f27845f656dbb8c12712f8",
+      "git:hexsha": "3b72d9cfc4befc6235f27845f656dbb8c12712f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3af6396d800a803eed8c71339db3eb271ed13020",
+      "git:hexsha": "3af6396d800a803eed8c71339db3eb271ed13020",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/ea43db97fc07f8e4dc9740cf73b8cb7763444876",
+      "git:hexsha": "ea43db97fc07f8e4dc9740cf73b8cb7763444876",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/1fca11c35df533b9b7ebbc04e7229364b38e77b3",
+      "git:hexsha": "1fca11c35df533b9b7ebbc04e7229364b38e77b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/406f1f797126aac64b37188eb2aa2eab84b2ef7d",
+      "git:hexsha": "406f1f797126aac64b37188eb2aa2eab84b2ef7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/db73363a9076b36a9a558deec7a30d954857b744",
+      "git:hexsha": "db73363a9076b36a9a558deec7a30d954857b744",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/20e8e41e03a858dffaa3c26eedaca4f087de34c8",
+      "git:hexsha": "20e8e41e03a858dffaa3c26eedaca4f087de34c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a2d11abd397c757b1cd8854455d477aca57726f9",
+      "git:hexsha": "a2d11abd397c757b1cd8854455d477aca57726f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/07a1e7d1e05ebe47167b4baccaff84f46f8c998e",
+      "git:hexsha": "07a1e7d1e05ebe47167b4baccaff84f46f8c998e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f4d131b890f0b9cc9e4717b35b31cb6919e261e4",
+      "git:hexsha": "f4d131b890f0b9cc9e4717b35b31cb6919e261e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e4a3141b82c6f8e9972e598e1b464a66677df227",
+      "git:hexsha": "e4a3141b82c6f8e9972e598e1b464a66677df227",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/427ce75ac627d498f37f3e2ee61375f061e96f50",
+      "git:hexsha": "427ce75ac627d498f37f3e2ee61375f061e96f50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a66251cf8777ea5c9dd4739aac8efcd7398bb35d",
+      "git:hexsha": "a66251cf8777ea5c9dd4739aac8efcd7398bb35d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6036a917b1edf88a2831e312003f90942ff3565d",
+      "git:hexsha": "6036a917b1edf88a2831e312003f90942ff3565d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fbad9aaa20c0d8713588ae57f09be1bd564a6f7b",
+      "git:hexsha": "fbad9aaa20c0d8713588ae57f09be1bd564a6f7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/1441b5f953995bdf9fed1238bfa5dd37b418269c",
+      "git:hexsha": "1441b5f953995bdf9fed1238bfa5dd37b418269c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e741350461bfeb6f52ccb879cc27d8dca2ef9f8d",
+      "git:hexsha": "e741350461bfeb6f52ccb879cc27d8dca2ef9f8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6d0803bf8b9e7ce7cd8dc22270d9597d6661792d",
+      "git:hexsha": "6d0803bf8b9e7ce7cd8dc22270d9597d6661792d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6404ce4a1d0970955a6be54fcd1ba44f6e3d6ba5",
+      "git:hexsha": "6404ce4a1d0970955a6be54fcd1ba44f6e3d6ba5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/c65706fe1c8979c9861043fc237355b0ea94233a",
+      "git:hexsha": "c65706fe1c8979c9861043fc237355b0ea94233a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6bbdc6c7726ef6df88d8ade0923a7b9b601516f7",
+      "git:hexsha": "6bbdc6c7726ef6df88d8ade0923a7b9b601516f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/9a550960488f8b598977a081af85b077c5fe94f9",
+      "git:hexsha": "9a550960488f8b598977a081af85b077c5fe94f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/37bf658b3f4102beaa2b41bb2d10e1ab69b9d8aa",
+      "git:hexsha": "37bf658b3f4102beaa2b41bb2d10e1ab69b9d8aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/5a2851e24756b78a235dc689764223f6fe2decb3",
+      "git:hexsha": "5a2851e24756b78a235dc689764223f6fe2decb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/92c856eea53319fac82971731cc9d208db4861d7",
+      "git:hexsha": "92c856eea53319fac82971731cc9d208db4861d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/5eef77f3b9d13ae622d36b3cceda1cc7f59d5247",
+      "git:hexsha": "5eef77f3b9d13ae622d36b3cceda1cc7f59d5247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fd92c4f8b913dc3c4b8c55be346b2d808f35b3d3",
+      "git:hexsha": "fd92c4f8b913dc3c4b8c55be346b2d808f35b3d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a4f6104cc3e7e6e3391a29b48eeb57f384ee33c8",
+      "git:hexsha": "a4f6104cc3e7e6e3391a29b48eeb57f384ee33c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/c2858b9c3e956611f68c76146ff8f0eced4e6c17",
+      "git:hexsha": "c2858b9c3e956611f68c76146ff8f0eced4e6c17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/d7d87879cc7f003b682a36c98707aa50347c72ab",
+      "git:hexsha": "d7d87879cc7f003b682a36c98707aa50347c72ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/1296e6fd564d34ed7b251cb7f7e49515aad689b1",
+      "git:hexsha": "1296e6fd564d34ed7b251cb7f7e49515aad689b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/73557fac6b33416324648b76a29f4cffb1875502",
+      "git:hexsha": "73557fac6b33416324648b76a29f4cffb1875502",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/80826581874726b9680ceaf5338efe7874b1393d",
+      "git:hexsha": "80826581874726b9680ceaf5338efe7874b1393d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/11879681c1f03698ccf5c85d5fd3141bda18b654",
+      "git:hexsha": "11879681c1f03698ccf5c85d5fd3141bda18b654",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e4784ba816b4adeb69575d45630a55bb346c38c1",
+      "git:hexsha": "e4784ba816b4adeb69575d45630a55bb346c38c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/9e56ba403fadc8a04d2b5bf8776b0d689dae7e51",
+      "git:hexsha": "9e56ba403fadc8a04d2b5bf8776b0d689dae7e51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a9409eaa049d550d83fb3c6aaebe503d97426ee7",
+      "git:hexsha": "a9409eaa049d550d83fb3c6aaebe503d97426ee7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/687e19b80b21699a5dd6f4ff7bb02605cf3afdfd",
+      "git:hexsha": "687e19b80b21699a5dd6f4ff7bb02605cf3afdfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/42c27d913348cd91841b85b23f1f6085a4ed5132",
+      "git:hexsha": "42c27d913348cd91841b85b23f1f6085a4ed5132",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/2a88e2a2c033578b7d72b440c296acbbe80fb398",
+      "git:hexsha": "2a88e2a2c033578b7d72b440c296acbbe80fb398",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/80d225e5376bace79fed8808646e724eb28ef544",
+      "git:hexsha": "80d225e5376bace79fed8808646e724eb28ef544",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/500e758c15420cc63ab0ce4108dc384d245dcce2",
+      "git:hexsha": "500e758c15420cc63ab0ce4108dc384d245dcce2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/bed996bca308cfbbd37d3468ca5f22e5e788ba31",
+      "git:hexsha": "bed996bca308cfbbd37d3468ca5f22e5e788ba31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/783f3b45800091e3fe3a4a56a1ee3d9778ab800b",
+      "git:hexsha": "783f3b45800091e3fe3a4a56a1ee3d9778ab800b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/ff56539a17d944d3c0215bb6c551ad0fa891fb1f",
+      "git:hexsha": "ff56539a17d944d3c0215bb6c551ad0fa891fb1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0fc4fcc16cffec7119b5c7ba656c2cbf9f339eb1",
+      "git:hexsha": "0fc4fcc16cffec7119b5c7ba656c2cbf9f339eb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/5eb977c17dc298a2e8fd1d0aa3893b58221f5ab3",
+      "git:hexsha": "5eb977c17dc298a2e8fd1d0aa3893b58221f5ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/de462fe6d294f0e198f45c41d311130d505f51a5",
+      "git:hexsha": "de462fe6d294f0e198f45c41d311130d505f51a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/2db1147e42ebb1660edcc85a3c91d8b2ae6a3543",
+      "git:hexsha": "2db1147e42ebb1660edcc85a3c91d8b2ae6a3543",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3087ca1c93063d6fba5ae5b44bf5f3667a6533bf",
+      "git:hexsha": "3087ca1c93063d6fba5ae5b44bf5f3667a6533bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e644ae16827c0bebb61131f7fb71cc5b03f27288",
+      "git:hexsha": "e644ae16827c0bebb61131f7fb71cc5b03f27288",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/8f4f06a565ce104f21de6664c322b5c8174882e5",
+      "git:hexsha": "8f4f06a565ce104f21de6664c322b5c8174882e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/867909e41ddee0b2dd72a18c9dafdc6b3e6df637",
+      "git:hexsha": "867909e41ddee0b2dd72a18c9dafdc6b3e6df637",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0a1079e5b3f52655425e96406142f85486152774",
+      "git:hexsha": "0a1079e5b3f52655425e96406142f85486152774",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0rc8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/7b6fb443b2f0fbf69a559d64c4e4aea6bba22e00",
+      "git:hexsha": "7b6fb443b2f0fbf69a559d64c4e4aea6bba22e00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3a573c48dafae26ce67e8051ebca1be3e4661a1b",
+      "git:hexsha": "3a573c48dafae26ce67e8051ebca1be3e4661a1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/ef7c11b18d598539bc81d7a5e3980923e5d05546",
+      "git:hexsha": "ef7c11b18d598539bc81d7a5e3980923e5d05546",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/2465168671b9b332f453752a08fb9e39e4b49b95",
+      "git:hexsha": "2465168671b9b332f453752a08fb9e39e4b49b95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f06b0ec59141fe5bfc6a17863183abb59edbe054",
+      "git:hexsha": "f06b0ec59141fe5bfc6a17863183abb59edbe054",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/eb51840f6f2b0db283f24252b1d22203276dbf22",
+      "git:hexsha": "eb51840f6f2b0db283f24252b1d22203276dbf22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/290c28f2710b76e216bc6caaf5fe339b930f42d8",
+      "git:hexsha": "290c28f2710b76e216bc6caaf5fe339b930f42d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/9da59aa89345e651c559a84bb35d40bdb77d459b",
+      "git:hexsha": "9da59aa89345e651c559a84bb35d40bdb77d459b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/7b528e3b45c40bfa8c9a0788d4be2b58cf0090db",
+      "git:hexsha": "7b528e3b45c40bfa8c9a0788d4be2b58cf0090db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/fcd574007527476b6cd7ab32f1c9fc05c1046b96",
+      "git:hexsha": "fcd574007527476b6cd7ab32f1c9fc05c1046b96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/cc74bb64ede257f719d9c393269f3100e5e054dc",
+      "git:hexsha": "cc74bb64ede257f719d9c393269f3100e5e054dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3755794a561ede07c81c59a371cfae56c3dac724",
+      "git:hexsha": "3755794a561ede07c81c59a371cfae56c3dac724",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/9bd96576c372b4ac14fa769adc780d13e0ed23c1",
+      "git:hexsha": "9bd96576c372b4ac14fa769adc780d13e0ed23c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/ae6857a9de48e3d7f0715eb1db5c36203bce1123",
+      "git:hexsha": "ae6857a9de48e3d7f0715eb1db5c36203bce1123",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/cd2a4e084723d52ee82bacc89a5b3096a7e82b12",
+      "git:hexsha": "cd2a4e084723d52ee82bacc89a5b3096a7e82b12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/a42c08bc202be7f5e6b353dc5b39dabbe1cc8b07",
+      "git:hexsha": "a42c08bc202be7f5e6b353dc5b39dabbe1cc8b07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6bcaf45fdc559bf16fa112066d7d629f3552ef2c",
+      "git:hexsha": "6bcaf45fdc559bf16fa112066d7d629f3552ef2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f9c69247c05c73453597b3c7fc2b1bb87ce5eccf",
+      "git:hexsha": "f9c69247c05c73453597b3c7fc2b1bb87ce5eccf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b48e64c7cf3082429c7f7ad88f7e0021a5d4eeb1",
+      "git:hexsha": "b48e64c7cf3082429c7f7ad88f7e0021a5d4eeb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/d1b8e2c21a4d0f390de58a4a5e942b5c6eeced82",
+      "git:hexsha": "d1b8e2c21a4d0f390de58a4a5e942b5c6eeced82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/e7e526930b5ac477cf7478ed0ca7459952574ec5",
+      "git:hexsha": "e7e526930b5ac477cf7478ed0ca7459952574ec5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6f9b23fd99ace2bf96a6d0b1574e23447314b2c4",
+      "git:hexsha": "6f9b23fd99ace2bf96a6d0b1574e23447314b2c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/535d7df3c0b358e31f514842c5509ca6ce64f056",
+      "git:hexsha": "535d7df3c0b358e31f514842c5509ca6ce64f056",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/8a6f60774599b4d72ad449f98ab2214d2d035bb4",
+      "git:hexsha": "8a6f60774599b4d72ad449f98ab2214d2d035bb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/44f3fac20f711f98079f46af4ab5a0c0e9c5532b",
+      "git:hexsha": "44f3fac20f711f98079f46af4ab5a0c0e9c5532b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/3b03c644b56cf100f4535f70e2e8f4a45a57a5b8",
+      "git:hexsha": "3b03c644b56cf100f4535f70e2e8f4a45a57a5b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0ceed45a803ca36735f0fcfeb6d9db9430a50aa0",
+      "git:hexsha": "0ceed45a803ca36735f0fcfeb6d9db9430a50aa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/c5343f6c8d9bf23f6be1016484785c98c6121ac4",
+      "git:hexsha": "c5343f6c8d9bf23f6be1016484785c98c6121ac4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f87a07a0cfcb4a1f6d5e8665edaf1019c9cf929e",
+      "git:hexsha": "f87a07a0cfcb4a1f6d5e8665edaf1019c9cf929e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/0fc7ac738b4d26c4e011bfb6ace9a13b5c70a344",
+      "git:hexsha": "0fc7ac738b4d26c4e011bfb6ace9a13b5c70a344",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b6629e066916572be793e17e0eb6cdef031035b6",
+      "git:hexsha": "b6629e066916572be793e17e0eb6cdef031035b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/127e33fb7e308110bb34d7b5b703235338fa6bad",
+      "git:hexsha": "127e33fb7e308110bb34d7b5b703235338fa6bad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/05a78ad879e69ef87e91b2714a8ebeb5ff9628a7",
+      "git:hexsha": "05a78ad879e69ef87e91b2714a8ebeb5ff9628a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/67aca0c1703b3aa42bbbcb35e05c2b5bf2304c3f",
+      "git:hexsha": "67aca0c1703b3aa42bbbcb35e05c2b5bf2304c3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/ca88f7e002cb545bebec3c91ac1bb9bed955fe34",
+      "git:hexsha": "ca88f7e002cb545bebec3c91ac1bb9bed955fe34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/15907e1d001cccb49429d4451b14fc560e3d9a8d",
+      "git:hexsha": "15907e1d001cccb49429d4451b14fc560e3d9a8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/38784ef4432a168b07f617f5a4277772c4aeefcf",
+      "git:hexsha": "38784ef4432a168b07f617f5a4277772c4aeefcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/aeb6f9d0c2c7d1274de8e090d2b4d82cf2e8dde1",
+      "git:hexsha": "aeb6f9d0c2c7d1274de8e090d2b4d82cf2e8dde1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/4249fb62612bef2c62c39a8d48d933dc9735e2f5",
+      "git:hexsha": "4249fb62612bef2c62c39a8d48d933dc9735e2f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/c8fff464f5fb4565ee045e68bb00bd7c87ce01f0",
+      "git:hexsha": "c8fff464f5fb4565ee045e68bb00bd7c87ce01f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/6b45913c174fec7dfa13b9d95f85bf345ad7316c",
+      "git:hexsha": "6b45913c174fec7dfa13b9d95f85bf345ad7316c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/5a8a47f5ba674d0f758a91cca08e2a9c6eacf224",
+      "git:hexsha": "5a8a47f5ba674d0f758a91cca08e2a9c6eacf224",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/cf8df8a6b26455977f1eb946dc3dead069981ea4",
+      "git:hexsha": "cf8df8a6b26455977f1eb946dc3dead069981ea4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/91e726c8cf6f9c1b7e829406e34dc206af239c07",
+      "git:hexsha": "91e726c8cf6f9c1b7e829406e34dc206af239c07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/b137c8d0297fa88f520a27bb2d6f137ba9511a96",
+      "git:hexsha": "b137c8d0297fa88f520a27bb2d6f137ba9511a96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter-server/jupyter_server/commit/f91d95b83c43a7a28c4b83dcf782ea02ba7a1733",
+      "git:hexsha": "f91d95b83c43a7a28c4b83dcf782ea02ba7a1733",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.1"
+    }
+  ]
+}
