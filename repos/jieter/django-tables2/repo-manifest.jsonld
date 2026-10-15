@@ -1,0 +1,939 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/jieter/django-tables2",
+  "@type": "gh:Repository",
+  "gh:name": "django-tables2",
+  "gh:owner": "jieter",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/34cdba3e13d7ee2aa15f07321ff2f3c8a7d259af",
+      "git:hexsha": "34cdba3e13d7ee2aa15f07321ff2f3c8a7d259af",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-15T08:59:50.777731+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/426dc6934222da53bd663640293d94c117134946",
+      "git:hexsha": "426dc6934222da53bd663640293d94c117134946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/e02c72d64e1b45bebb6909a4adcb0bfea83a807b",
+      "git:hexsha": "e02c72d64e1b45bebb6909a4adcb0bfea83a807b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/349d1a3c51aa34bc1a2f23080e745d645539b2b2",
+      "git:hexsha": "349d1a3c51aa34bc1a2f23080e745d645539b2b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4b18960c5bd3beec7cc3bf4b82147f8bb5329329",
+      "git:hexsha": "4b18960c5bd3beec7cc3bf4b82147f8bb5329329",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/285ed9f43d1e41d1521a826ef895ba7c236211b5",
+      "git:hexsha": "285ed9f43d1e41d1521a826ef895ba7c236211b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0.alpha3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/910f278b9585dce6f5b40f23180206eab78b334a",
+      "git:hexsha": "910f278b9585dce6f5b40f23180206eab78b334a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/2e941c71e5f0e171ba64b312d88f48b4a7a1a3a4",
+      "git:hexsha": "2e941c71e5f0e171ba64b312d88f48b4a7a1a3a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/d4e7bd35bd7484bf3b8eedb187b21d200f4397d5",
+      "git:hexsha": "d4e7bd35bd7484bf3b8eedb187b21d200f4397d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/25394957d5479e8c176a9cc3cce3b4c027f9af64",
+      "git:hexsha": "25394957d5479e8c176a9cc3cce3b4c027f9af64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a0503aa533986a6c963bac41b4c0c3c5853a3682",
+      "git:hexsha": "a0503aa533986a6c963bac41b4c0c3c5853a3682",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/43018b3d7c06afd5b9e8355707241d5e9bca7810",
+      "git:hexsha": "43018b3d7c06afd5b9e8355707241d5e9bca7810",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/bb4d2a11d0d84ac37c7c2bf1f1f4855fef0da590",
+      "git:hexsha": "bb4d2a11d0d84ac37c7c2bf1f1f4855fef0da590",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/6c35b4f7dc2d69c0dbb79db756cab6f35f144f22",
+      "git:hexsha": "6c35b4f7dc2d69c0dbb79db756cab6f35f144f22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/d16683a1910189e1a2707d7e62735c51fe56629a",
+      "git:hexsha": "d16683a1910189e1a2707d7e62735c51fe56629a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a8e940afc1a78ba7ec4e243f7841ccb35ed40a0c",
+      "git:hexsha": "a8e940afc1a78ba7ec4e243f7841ccb35ed40a0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/cd9891cada428f6edccfe801fd98e882e5514160",
+      "git:hexsha": "cd9891cada428f6edccfe801fd98e882e5514160",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/f46bbc241b03df9cd2917fd2b3413bb883cce24d",
+      "git:hexsha": "f46bbc241b03df9cd2917fd2b3413bb883cce24d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/08e6d64a0ab0d797edee22d897bfea1d685d22a7",
+      "git:hexsha": "08e6d64a0ab0d797edee22d897bfea1d685d22a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/b613d744955ccb3fc13735adf2e3a738be05bf0e",
+      "git:hexsha": "b613d744955ccb3fc13735adf2e3a738be05bf0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.alpha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/c17dee0e5d337578a522eed2fff99ed505a950e6",
+      "git:hexsha": "c17dee0e5d337578a522eed2fff99ed505a950e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.alpha3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/5ca5fcbb5af424760c4309df6568b3fd09688228",
+      "git:hexsha": "5ca5fcbb5af424760c4309df6568b3fd09688228",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.alpha4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/97be2138ea19efe5a9c1bdff2ea161e66b3e6874",
+      "git:hexsha": "97be2138ea19efe5a9c1bdff2ea161e66b3e6874",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.beta"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/cf59b2e51155fe8f42f2008bd569ea72b827c738",
+      "git:hexsha": "cf59b2e51155fe8f42f2008bd569ea72b827c738",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/2ea21b445ec12cdbfbe31baa8227a7930bbb1f94",
+      "git:hexsha": "2ea21b445ec12cdbfbe31baa8227a7930bbb1f94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.beta3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/c5b6cbf19a4671f54ddfd835f18676ee820a93db",
+      "git:hexsha": "c5b6cbf19a4671f54ddfd835f18676ee820a93db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.beta4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/5e509c67e280a532ac25eca640df83eba653a379",
+      "git:hexsha": "5e509c67e280a532ac25eca640df83eba653a379",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0.beta6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a46754c7fd7b667fecf135d70b317c0fe062b1c0",
+      "git:hexsha": "a46754c7fd7b667fecf135d70b317c0fe062b1c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/841fb8ebd6d0c6db543de38e0402eca5a8c55fd8",
+      "git:hexsha": "841fb8ebd6d0c6db543de38e0402eca5a8c55fd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/674060a5f1ff29de461ebfc16dd15235a96cac1f",
+      "git:hexsha": "674060a5f1ff29de461ebfc16dd15235a96cac1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/5d74c7ef6a6a528f22bac58746677e20c6fc24b8",
+      "git:hexsha": "5d74c7ef6a6a528f22bac58746677e20c6fc24b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/0cd28c84d7bfd29c1e464435ea082052317caf3e",
+      "git:hexsha": "0cd28c84d7bfd29c1e464435ea082052317caf3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/cf7f48adbafd87e7b538c1631cd6c9fadd93bb3c",
+      "git:hexsha": "cf7f48adbafd87e7b538c1631cd6c9fadd93bb3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/f6fc4c3488c7d3f123ba4ef665d1e28dde11e116",
+      "git:hexsha": "f6fc4c3488c7d3f123ba4ef665d1e28dde11e116",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/cf0c991bd0fc1b4139d45495f7096bd00618712e",
+      "git:hexsha": "cf0c991bd0fc1b4139d45495f7096bd00618712e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/89474db8728c19b456781df87a276c1f5c806962",
+      "git:hexsha": "89474db8728c19b456781df87a276c1f5c806962",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/edbab10a18f6c161337ec3d48f1c4009e5a20ffe",
+      "git:hexsha": "edbab10a18f6c161337ec3d48f1c4009e5a20ffe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a695eae2152aa5cf33fec7956cb2bc9f99fe7ff0",
+      "git:hexsha": "a695eae2152aa5cf33fec7956cb2bc9f99fe7ff0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/82966a87fdb648dbd404adcd280b235fbc3cc1ff",
+      "git:hexsha": "82966a87fdb648dbd404adcd280b235fbc3cc1ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/b0bf6583c35774233d899dd899bf1bb84385cd3d",
+      "git:hexsha": "b0bf6583c35774233d899dd899bf1bb84385cd3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/ab16c349f2a36c494df97cdaa44e6facb3e497e0",
+      "git:hexsha": "ab16c349f2a36c494df97cdaa44e6facb3e497e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/7a4bd5ac9158ea5293a8780359b06db0e034faca",
+      "git:hexsha": "7a4bd5ac9158ea5293a8780359b06db0e034faca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/3936e118fddcfebc7b5280624eb9e739a6cf0707",
+      "git:hexsha": "3936e118fddcfebc7b5280624eb9e739a6cf0707",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/dd14653f20e2165f7f1fa923e67706b2f0bfbad4",
+      "git:hexsha": "dd14653f20e2165f7f1fa923e67706b2f0bfbad4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4852e9ce970b5ab3de9e565f20e86957c6b9c6f6",
+      "git:hexsha": "4852e9ce970b5ab3de9e565f20e86957c6b9c6f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/64bd2d5b0544b77e5d40c139dadbf9050ac84862",
+      "git:hexsha": "64bd2d5b0544b77e5d40c139dadbf9050ac84862",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/91b9df5586635f7822d422b6174e6c20bb15cdc6",
+      "git:hexsha": "91b9df5586635f7822d422b6174e6c20bb15cdc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/1d1f420619ac5b269ab9dfec1aa8aca9e2af5fed",
+      "git:hexsha": "1d1f420619ac5b269ab9dfec1aa8aca9e2af5fed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/382d4fdaac1f9cdba3dcea94b8051039c4f32ad9",
+      "git:hexsha": "382d4fdaac1f9cdba3dcea94b8051039c4f32ad9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4772ece5033d5c8028cf02df649907a4008e3792",
+      "git:hexsha": "4772ece5033d5c8028cf02df649907a4008e3792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/5ca2d12a00172fce345b143c340798e84b9abb22",
+      "git:hexsha": "5ca2d12a00172fce345b143c340798e84b9abb22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/fe73898a73c693cb14601ae247769fbbca08c978",
+      "git:hexsha": "fe73898a73c693cb14601ae247769fbbca08c978",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/bde67f87f6a1fb6e2738cb0dd8a222f6217e2e4f",
+      "git:hexsha": "bde67f87f6a1fb6e2738cb0dd8a222f6217e2e4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/11b3fec168455f6716be73004bb14097d9e3141a",
+      "git:hexsha": "11b3fec168455f6716be73004bb14097d9e3141a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/258ec59c80b48fa97f0da07bbc0a57813276c632",
+      "git:hexsha": "258ec59c80b48fa97f0da07bbc0a57813276c632",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/45ebe44f562c95e9ee942ab783f16cafb0ed6c90",
+      "git:hexsha": "45ebe44f562c95e9ee942ab783f16cafb0ed6c90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/ef5351d92cd3b6859fd451ea8628bb92a9034d8b",
+      "git:hexsha": "ef5351d92cd3b6859fd451ea8628bb92a9034d8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/9b5abf708e4eba2b3f7a08779fb0e6150808a9d8",
+      "git:hexsha": "9b5abf708e4eba2b3f7a08779fb0e6150808a9d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4ae58df1add7e63972192d8ead254a6f9f8ab507",
+      "git:hexsha": "4ae58df1add7e63972192d8ead254a6f9f8ab507",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4cc22c9d4c327a54992f066edd6191dc7baffd4d",
+      "git:hexsha": "4cc22c9d4c327a54992f066edd6191dc7baffd4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/c1d5f8fac560c8c16137973a412a51ecc67110b4",
+      "git:hexsha": "c1d5f8fac560c8c16137973a412a51ecc67110b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/0a19326aa0598bc9fe396ab7a97c984a71d754ee",
+      "git:hexsha": "0a19326aa0598bc9fe396ab7a97c984a71d754ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/6676312f1ddec6ef544783c0895a603888dc78e1",
+      "git:hexsha": "6676312f1ddec6ef544783c0895a603888dc78e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/00fcdd565cfd6490c76821d389560d26f423b8de",
+      "git:hexsha": "00fcdd565cfd6490c76821d389560d26f423b8de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/3364ddc96735fc62cd818bfc2c45a16a6c0e86ed",
+      "git:hexsha": "3364ddc96735fc62cd818bfc2c45a16a6c0e86ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/1df210752c4bd4643d8460c4f4a7fb212c6f081d",
+      "git:hexsha": "1df210752c4bd4643d8460c4f4a7fb212c6f081d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/d91b07baccc90a6de8ba2cc2c97215ed5ba15983",
+      "git:hexsha": "d91b07baccc90a6de8ba2cc2c97215ed5ba15983",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/e980d73d8dd9ec44ee0ad6f6917105bb24cebd25",
+      "git:hexsha": "e980d73d8dd9ec44ee0ad6f6917105bb24cebd25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/67a6262f786c2b0f7e1ed9ca4a7eb46ddbaabcf3",
+      "git:hexsha": "67a6262f786c2b0f7e1ed9ca4a7eb46ddbaabcf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/8719bfe537780fc2aa9677ec141fb9e6177e2d73",
+      "git:hexsha": "8719bfe537780fc2aa9677ec141fb9e6177e2d73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/374602f2f2e27b1d7c518224306137ff318de151",
+      "git:hexsha": "374602f2f2e27b1d7c518224306137ff318de151",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/aa72d261dbea61b49a906bfec94f59e29b314d28",
+      "git:hexsha": "aa72d261dbea61b49a906bfec94f59e29b314d28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/57e5575776307f23a9fb131886f279588831e2c8",
+      "git:hexsha": "57e5575776307f23a9fb131886f279588831e2c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/81215f0b8bd078d48c10cf4c6f2b995c425a05d2",
+      "git:hexsha": "81215f0b8bd078d48c10cf4c6f2b995c425a05d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/010ec9c4f3d039cbbff015a3c87289b85f171c61",
+      "git:hexsha": "010ec9c4f3d039cbbff015a3c87289b85f171c61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/63ee45d0ac2ed47e6e87cfb6137a88052e5e498d",
+      "git:hexsha": "63ee45d0ac2ed47e6e87cfb6137a88052e5e498d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/04683d922259b2a6f4e668b0e348793d8e3e1539",
+      "git:hexsha": "04683d922259b2a6f4e668b0e348793d8e3e1539",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/b657609c831c45846725f572b3f195b59c5b83bb",
+      "git:hexsha": "b657609c831c45846725f572b3f195b59c5b83bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a1b6e47fe00e0093081ec2e319a728c9c6f5240e",
+      "git:hexsha": "a1b6e47fe00e0093081ec2e319a728c9c6f5240e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/5a2f7abd3e8b22dea396a27c9918540671c90c10",
+      "git:hexsha": "5a2f7abd3e8b22dea396a27c9918540671c90c10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/810d925613c5b6275b691a9525c66a2aadb4eb59",
+      "git:hexsha": "810d925613c5b6275b691a9525c66a2aadb4eb59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/de6d5dcff6a157ac7645649e837646d2b0109b18",
+      "git:hexsha": "de6d5dcff6a157ac7645649e837646d2b0109b18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/9459cbb05ce82a441cc73ac6fab01cc1a8d94d3b",
+      "git:hexsha": "9459cbb05ce82a441cc73ac6fab01cc1a8d94d3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/56a9bd2d8486a94c8d73090e181a210b0146017a",
+      "git:hexsha": "56a9bd2d8486a94c8d73090e181a210b0146017a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/844bc7baa5783c0d07e9d15295d938a5da3778cd",
+      "git:hexsha": "844bc7baa5783c0d07e9d15295d938a5da3778cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a84a9032283ba85f1998cda845af1c65b9f4ca00",
+      "git:hexsha": "a84a9032283ba85f1998cda845af1c65b9f4ca00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/772604c63e8e77dc27f05d8ac37c64eca17295ae",
+      "git:hexsha": "772604c63e8e77dc27f05d8ac37c64eca17295ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/541cb2989f76cdec8b430a5e5f651a78ff28216d",
+      "git:hexsha": "541cb2989f76cdec8b430a5e5f651a78ff28216d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/949cd5d69ffdba111a10e317a507669ff78a4a38",
+      "git:hexsha": "949cd5d69ffdba111a10e317a507669ff78a4a38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/eadf59e4925ba5913ff657c19cf7faacd9272721",
+      "git:hexsha": "eadf59e4925ba5913ff657c19cf7faacd9272721",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/efa721f20ed8f44f0c95de0079cadb81f407d925",
+      "git:hexsha": "efa721f20ed8f44f0c95de0079cadb81f407d925",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a5d68d657eda139656ec80654a4dc6a8cf8484f2",
+      "git:hexsha": "a5d68d657eda139656ec80654a4dc6a8cf8484f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/ce7c9bf8df1b2c02811b616d29d2527abf8dad5a",
+      "git:hexsha": "ce7c9bf8df1b2c02811b616d29d2527abf8dad5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/e63ad0ea03e84f4c5d07d81aaa6e77b743986132",
+      "git:hexsha": "e63ad0ea03e84f4c5d07d81aaa6e77b743986132",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/b5f0e7baaca96f4c165ab712007fad4ce5194108",
+      "git:hexsha": "b5f0e7baaca96f4c165ab712007fad4ce5194108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/80682de06ba6e863454b63ff823e3e342b924a65",
+      "git:hexsha": "80682de06ba6e863454b63ff823e3e342b924a65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/8c8ffd1c2729d7347c35cbde458e165f6af168fb",
+      "git:hexsha": "8c8ffd1c2729d7347c35cbde458e165f6af168fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/ec18ac56e1517cb12a29e23c21a702decbe4056c",
+      "git:hexsha": "ec18ac56e1517cb12a29e23c21a702decbe4056c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/e5d998e72dadbbc9ab8ebe018c19a4f1a96e5f93",
+      "git:hexsha": "e5d998e72dadbbc9ab8ebe018c19a4f1a96e5f93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/17090389d0c3fd2785f5373e00df1608cd0015f5",
+      "git:hexsha": "17090389d0c3fd2785f5373e00df1608cd0015f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/90a78457d36c36258dea442a8dffbf46359b3c16",
+      "git:hexsha": "90a78457d36c36258dea442a8dffbf46359b3c16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/593727915a6c98c1d70450d8b70c7ca2166951f4",
+      "git:hexsha": "593727915a6c98c1d70450d8b70c7ca2166951f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/76969dfe422b5275f8b6723e402040df42fc9ba8",
+      "git:hexsha": "76969dfe422b5275f8b6723e402040df42fc9ba8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/de22ee3c57e7f6d39dc98b1e8a1358bcc11b8daa",
+      "git:hexsha": "de22ee3c57e7f6d39dc98b1e8a1358bcc11b8daa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4d4325cbf4b832877ee4add26cd25df4fbf9529e",
+      "git:hexsha": "4d4325cbf4b832877ee4add26cd25df4fbf9529e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/5569481b0d6b96fe1caf5466126ea7fba117b139",
+      "git:hexsha": "5569481b0d6b96fe1caf5466126ea7fba117b139",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/853a4fbd271597f5aeb9bb53814cb88e0e28dacc",
+      "git:hexsha": "853a4fbd271597f5aeb9bb53814cb88e0e28dacc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/946a4316f66cc98a758cca2f4fae42e0bc5ae936",
+      "git:hexsha": "946a4316f66cc98a758cca2f4fae42e0bc5ae936",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/fd2c2179cc61af9710986133e23d416fac1c2a43",
+      "git:hexsha": "fd2c2179cc61af9710986133e23d416fac1c2a43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/e95889947951ba5cdb588f44ad1e3932621bf0f3",
+      "git:hexsha": "e95889947951ba5cdb588f44ad1e3932621bf0f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/f82990ea5668e9c382445e382029550ddc2f7da3",
+      "git:hexsha": "f82990ea5668e9c382445e382029550ddc2f7da3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/45d0df602d5cecb1a2fca2d779a5b1e2c5f16d5b",
+      "git:hexsha": "45d0df602d5cecb1a2fca2d779a5b1e2c5f16d5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/d2aca685b3579cde1f317a94939f5c9cbddcdb4c",
+      "git:hexsha": "d2aca685b3579cde1f317a94939f5c9cbddcdb4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/08e3f2fb634da812ecbfb025fd2a448495fd5975",
+      "git:hexsha": "08e3f2fb634da812ecbfb025fd2a448495fd5975",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/6c007cb5c30fe1fa65b8a2dfb8f7dcb95bdabafa",
+      "git:hexsha": "6c007cb5c30fe1fa65b8a2dfb8f7dcb95bdabafa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/f30fbb95d6c95fbe05677a10393c5d43a3e29724",
+      "git:hexsha": "f30fbb95d6c95fbe05677a10393c5d43a3e29724",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/0b96ddd20aa2816cdc526684a33984e42082062b",
+      "git:hexsha": "0b96ddd20aa2816cdc526684a33984e42082062b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/79fc64106d185eb3219f7314105c5f8bccfea407",
+      "git:hexsha": "79fc64106d185eb3219f7314105c5f8bccfea407",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/75cbe38680e3ef64de80333ed28b2b6683068d8b",
+      "git:hexsha": "75cbe38680e3ef64de80333ed28b2b6683068d8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/d64dbaffc8f1d3c4de3f4e2a7361e8055321ece9",
+      "git:hexsha": "d64dbaffc8f1d3c4de3f4e2a7361e8055321ece9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/4d342fd5fb911699de10ee74ba298b94a42cb7f7",
+      "git:hexsha": "4d342fd5fb911699de10ee74ba298b94a42cb7f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/864b78d455dbab46ea48cda1f0bd66beb9da5a15",
+      "git:hexsha": "864b78d455dbab46ea48cda1f0bd66beb9da5a15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/2070d4c460fb94cbc4f2955db9c0ee42767d19bd",
+      "git:hexsha": "2070d4c460fb94cbc4f2955db9c0ee42767d19bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0b5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/31fb34e4b38e3d17c59047eff5d4ac1cb30f94e2",
+      "git:hexsha": "31fb34e4b38e3d17c59047eff5d4ac1cb30f94e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/bdeffcdec983964c75a61e8f241c8eba0c702989",
+      "git:hexsha": "bdeffcdec983964c75a61e8f241c8eba0c702989",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/f503f555197ed9e88928973e8ec881b2e26991b5",
+      "git:hexsha": "f503f555197ed9e88928973e8ec881b2e26991b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/d8b183c4bfb85c8b238fc903fa86d40f47c0226b",
+      "git:hexsha": "d8b183c4bfb85c8b238fc903fa86d40f47c0226b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/54644621948c42ab08b7a9c5a14a5f8734f57ebf",
+      "git:hexsha": "54644621948c42ab08b7a9c5a14a5f8734f57ebf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/aadb3953978c33d6a2161a97ee09fad7573f676f",
+      "git:hexsha": "aadb3953978c33d6a2161a97ee09fad7573f676f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/aa5c47832ed512593294e963a00d7f7597679c6d",
+      "git:hexsha": "aa5c47832ed512593294e963a00d7f7597679c6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/ef6890b0d9d0e2d23fb888c36a95a8f8e46a23e2",
+      "git:hexsha": "ef6890b0d9d0e2d23fb888c36a95a8f8e46a23e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/1eda716f764d23e8385b559a6455f053f55e13a3",
+      "git:hexsha": "1eda716f764d23e8385b559a6455f053f55e13a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/c0b989486e042325a2c22fbe80d2c61d13181ba4",
+      "git:hexsha": "c0b989486e042325a2c22fbe80d2c61d13181ba4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/317a3754bb3a5cc565ff5ceb9bb70bf044053a3f",
+      "git:hexsha": "317a3754bb3a5cc565ff5ceb9bb70bf044053a3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/006d36610b640cafd311baffbd3fc619405b4d63",
+      "git:hexsha": "006d36610b640cafd311baffbd3fc619405b4d63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/29ebdfa0ec79637098174d89ff7ef3b9e91f3e44",
+      "git:hexsha": "29ebdfa0ec79637098174d89ff7ef3b9e91f3e44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/dda3d3b9ed61d8ea155dc1af4a63011f2772290d",
+      "git:hexsha": "dda3d3b9ed61d8ea155dc1af4a63011f2772290d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/efbc45fbbdca142d28087e2dcdf36758b5b03a6a",
+      "git:hexsha": "efbc45fbbdca142d28087e2dcdf36758b5b03a6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/dd3a507096071cdf346f406f71a9644b8858aa24",
+      "git:hexsha": "dd3a507096071cdf346f406f71a9644b8858aa24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/3a5b127d68aaedbdaa3d11c788a4e4ca042b89df",
+      "git:hexsha": "3a5b127d68aaedbdaa3d11c788a4e4ca042b89df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/eb8f1b43e6162326825e27e4c3760a1a9907c08d",
+      "git:hexsha": "eb8f1b43e6162326825e27e4c3760a1a9907c08d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/087f1405ceafa83d16079ee293bf57e2f513b626",
+      "git:hexsha": "087f1405ceafa83d16079ee293bf57e2f513b626",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/76b36f06e1245a951f43e453f1805c1779227c06",
+      "git:hexsha": "76b36f06e1245a951f43e453f1805c1779227c06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/260da283100ae8aaa736cfb0409e88e598651861",
+      "git:hexsha": "260da283100ae8aaa736cfb0409e88e598651861",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/966a41c25e242652bae982e71fc3cdd9ed4a66bf",
+      "git:hexsha": "966a41c25e242652bae982e71fc3cdd9ed4a66bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/8885e322f79f376ccb7aff32a7b4c7c27e3bade3",
+      "git:hexsha": "8885e322f79f376ccb7aff32a7b4c7c27e3bade3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/591afdfe7a9bf1df2eff70e4411b0430521a600b",
+      "git:hexsha": "591afdfe7a9bf1df2eff70e4411b0430521a600b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/21d0df42a1586f350d87690b05dcf7c7629cef5c",
+      "git:hexsha": "21d0df42a1586f350d87690b05dcf7c7629cef5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/a681db412319869fae59b1dec01fc5c8ac9b6b3a",
+      "git:hexsha": "a681db412319869fae59b1dec01fc5c8ac9b6b3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/09ffb07aa410fc75e451a2a71b65cd8b4330ff88",
+      "git:hexsha": "09ffb07aa410fc75e451a2a71b65cd8b4330ff88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/cbac7eeb63af846129d22cd27f2b5c9038cc9944",
+      "git:hexsha": "cbac7eeb63af846129d22cd27f2b5c9038cc9944",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/9bb1a06b46099ebec732bb0152209746fffe25ee",
+      "git:hexsha": "9bb1a06b46099ebec732bb0152209746fffe25ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/ba66a7f2253537d02fa7d297136ed7f91e1c7b60",
+      "git:hexsha": "ba66a7f2253537d02fa7d297136ed7f91e1c7b60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/bae55f2da2903f4613f177e56e18a2944cd3383d",
+      "git:hexsha": "bae55f2da2903f4613f177e56e18a2944cd3383d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jieter/django-tables2/commit/6b830fac77cc302544b9f48dcc2a6b84bc7a07d5",
+      "git:hexsha": "6b830fac77cc302544b9f48dcc2a6b84bc7a07d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.1"
+    }
+  ]
+}
