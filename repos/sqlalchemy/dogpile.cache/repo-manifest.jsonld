@@ -1,0 +1,363 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache",
+  "@type": "gh:Repository",
+  "gh:name": "dogpile.cache",
+  "gh:owner": "sqlalchemy",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/185db4fb6cd844cddac17cc3dcbbd51a876891da",
+      "git:hexsha": "185db4fb6cd844cddac17cc3dcbbd51a876891da",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-15T15:54:52.273857+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/301a70bb2ec8bd4503805033f005cd6c363a619a",
+      "git:hexsha": "301a70bb2ec8bd4503805033f005cd6c363a619a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_1_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/4f2686d9074707ecd0501bc9cbffde603ae9ca39",
+      "git:hexsha": "4f2686d9074707ecd0501bc9cbffde603ae9ca39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_1_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/7404c58b3c73540be78b2873f6fe8257fb9b1935",
+      "git:hexsha": "7404c58b3c73540be78b2873f6fe8257fb9b1935",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/0c0137c4ccc082e09e959a36fe253ef597d7094f",
+      "git:hexsha": "0c0137c4ccc082e09e959a36fe253ef597d7094f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/bd8def85cbdb7e7b6723647b1a3b5500eda01ce3",
+      "git:hexsha": "bd8def85cbdb7e7b6723647b1a3b5500eda01ce3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/7b94499c7a836f9a6fc2d6975f41b352031e914a",
+      "git:hexsha": "7b94499c7a836f9a6fc2d6975f41b352031e914a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/0237d06a2a24bbc94f74d6b69f182348b7e1e2b1",
+      "git:hexsha": "0237d06a2a24bbc94f74d6b69f182348b7e1e2b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/8db8665ed3c65b52aa69e2ebb14a50832d4e32e6",
+      "git:hexsha": "8db8665ed3c65b52aa69e2ebb14a50832d4e32e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/7a12e7410ccfafe6198d82c7b2226b4bb9022f1b",
+      "git:hexsha": "7a12e7410ccfafe6198d82c7b2226b4bb9022f1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/128c8b1dd8db43227235d93a14236ab228a4f02e",
+      "git:hexsha": "128c8b1dd8db43227235d93a14236ab228a4f02e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/dad8cb80dc53e68b066a862831008ee914fea2d9",
+      "git:hexsha": "dad8cb80dc53e68b066a862831008ee914fea2d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/6f8b53b68afaea6ab32b84dd97b325273c6ca9fb",
+      "git:hexsha": "6f8b53b68afaea6ab32b84dd97b325273c6ca9fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/91e6658b2e86a6fc6cf58166af0015861279d1ba",
+      "git:hexsha": "91e6658b2e86a6fc6cf58166af0015861279d1ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/c4ea9e7c6082ffb55519c4489df488f09af6cc1e",
+      "git:hexsha": "c4ea9e7c6082ffb55519c4489df488f09af6cc1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/420f91aaa3d70a52fe13e68fc4fac417337ebce7",
+      "git:hexsha": "420f91aaa3d70a52fe13e68fc4fac417337ebce7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/9a24cb31197994a82fdba203d791c42024e09ccb",
+      "git:hexsha": "9a24cb31197994a82fdba203d791c42024e09ccb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/1c753914b335b4391bc5847a87b7c52ca81c2bc6",
+      "git:hexsha": "1c753914b335b4391bc5847a87b7c52ca81c2bc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/55c370aa2c8d096bae2602534f1dc5925c8352c8",
+      "git:hexsha": "55c370aa2c8d096bae2602534f1dc5925c8352c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/a75835875b9c94bcc018f38d4fc829ec673c9371",
+      "git:hexsha": "a75835875b9c94bcc018f38d4fc829ec673c9371",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/d9ce51f9941a99333ca0b20f5a601c7a9b5e7bb1",
+      "git:hexsha": "d9ce51f9941a99333ca0b20f5a601c7a9b5e7bb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/d5ee1582821e0f11350a10fb9228ecfa37163bfc",
+      "git:hexsha": "d5ee1582821e0f11350a10fb9228ecfa37163bfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/c6fc55cd04f3a9e7e1301c21fa54c2e17d918c8b",
+      "git:hexsha": "c6fc55cd04f3a9e7e1301c21fa54c2e17d918c8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/669582c2e5bf12b1303f50c4b7ba3dad308eb1cc",
+      "git:hexsha": "669582c2e5bf12b1303f50c4b7ba3dad308eb1cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/22574be17ad336ce5900f543c22ec5cd044d90ee",
+      "git:hexsha": "22574be17ad336ce5900f543c22ec5cd044d90ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/50a0d9de0e01a071db5d11a0d200b3da1b22cee3",
+      "git:hexsha": "50a0d9de0e01a071db5d11a0d200b3da1b22cee3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/fa751a113e6b2a0c007f70e8dcb58221dddad6e7",
+      "git:hexsha": "fa751a113e6b2a0c007f70e8dcb58221dddad6e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/3f7a7d167ca9bf5e26358f2a21135ef4460c4685",
+      "git:hexsha": "3f7a7d167ca9bf5e26358f2a21135ef4460c4685",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/9a77f05f95c0307dec6622d5b588e232d43810d6",
+      "git:hexsha": "9a77f05f95c0307dec6622d5b588e232d43810d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/95d588135a8a6932fcf79f5586813a23c3a72c23",
+      "git:hexsha": "95d588135a8a6932fcf79f5586813a23c3a72c23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_8"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/8df1fcd0c2155e241a721909364d028fbe9230c7",
+      "git:hexsha": "8df1fcd0c2155e241a721909364d028fbe9230c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/a32b0e668bd151452c7b7e4c0c9e2f38fe975bb5",
+      "git:hexsha": "a32b0e668bd151452c7b7e4c0c9e2f38fe975bb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/107ff55a50a6940e15f4c7a947e712cad8b8ff81",
+      "git:hexsha": "107ff55a50a6940e15f4c7a947e712cad8b8ff81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/1a361eea831aa7b47bdfe0ab652a67bed1f6e190",
+      "git:hexsha": "1a361eea831aa7b47bdfe0ab652a67bed1f6e190",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/6a14c0d91e50fa20db9d5b16cad4c90fa4eb5012",
+      "git:hexsha": "6a14c0d91e50fa20db9d5b16cad4c90fa4eb5012",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/5efe97b90cf32ac2cdac2602fea16ff2d1aee496",
+      "git:hexsha": "5efe97b90cf32ac2cdac2602fea16ff2d1aee496",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/68bd15d077f5d09de22e26c6503c0379257d1aea",
+      "git:hexsha": "68bd15d077f5d09de22e26c6503c0379257d1aea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/1753e50129f4f327cd8e384a1f25b5430d65bf1b",
+      "git:hexsha": "1753e50129f4f327cd8e384a1f25b5430d65bf1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/429faad2d1ccef5556466161fc7d43f7246afb87",
+      "git:hexsha": "429faad2d1ccef5556466161fc7d43f7246afb87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/544bd3c009850d99c8c3fd0b84d66dded0397cb9",
+      "git:hexsha": "544bd3c009850d99c8c3fd0b84d66dded0397cb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/bb56926700e00fe09a372386e4155e516848caa4",
+      "git:hexsha": "bb56926700e00fe09a372386e4155e516848caa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/4edf679e8b48f4244f982f61ac3f6eede9b48666",
+      "git:hexsha": "4edf679e8b48f4244f982f61ac3f6eede9b48666",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/eccbc7b1d3cff6db2597cff4f8b9c493150eba76",
+      "git:hexsha": "eccbc7b1d3cff6db2597cff4f8b9c493150eba76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/640e3ccac6e9e7ab33e95b6283cdaca1d41f2282",
+      "git:hexsha": "640e3ccac6e9e7ab33e95b6283cdaca1d41f2282",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/16046520faa9d84da327661cf0c852b66fc0f8c1",
+      "git:hexsha": "16046520faa9d84da327661cf0c852b66fc0f8c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/ea0a8d10eb5d08a97c5923ce91e72da1daea3ed4",
+      "git:hexsha": "ea0a8d10eb5d08a97c5923ce91e72da1daea3ed4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/8f2421ea7dcaba4cffd4fc5da66499fb4f487bc9",
+      "git:hexsha": "8f2421ea7dcaba4cffd4fc5da66499fb4f487bc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/034efbc092060561051362d4ee8075f7206436be",
+      "git:hexsha": "034efbc092060561051362d4ee8075f7206436be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_8"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/a9e7e9d074fd8a9e56331aea959dfee717e3f96a",
+      "git:hexsha": "a9e7e9d074fd8a9e56331aea959dfee717e3f96a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_2_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/5eededa01d9edd9e8b4e79eef2f664b155f79ed9",
+      "git:hexsha": "5eededa01d9edd9e8b4e79eef2f664b155f79ed9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_2_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/1ade7b3bdc524f7daf12346f3d71fb8d391391a9",
+      "git:hexsha": "1ade7b3bdc524f7daf12346f3d71fb8d391391a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_2_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/4634d7a6b6e203828620ad59054deb31344093ec",
+      "git:hexsha": "4634d7a6b6e203828620ad59054deb31344093ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/e746b3c950800046fa46c74bd4906c404490d376",
+      "git:hexsha": "e746b3c950800046fa46c74bd4906c404490d376",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/6672d2d7c3cc9caef70f6ef6124048951c2069aa",
+      "git:hexsha": "6672d2d7c3cc9caef70f6ef6124048951c2069aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/22db77310612ab326f8c1192e7d8e03f73abd6c4",
+      "git:hexsha": "22db77310612ab326f8c1192e7d8e03f73abd6c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/331fae1f9ac277f3cf1ef1ad4abc2e4e7f76b84f",
+      "git:hexsha": "331fae1f9ac277f3cf1ef1ad4abc2e4e7f76b84f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/b7a6b6f9e601465549c603a7883215993f70d4cb",
+      "git:hexsha": "b7a6b6f9e601465549c603a7883215993f70d4cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_4_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/9962acd7c6abdc9b3cafae2ed3f2da97bda88ef7",
+      "git:hexsha": "9962acd7c6abdc9b3cafae2ed3f2da97bda88ef7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_4_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/dogpile.cache/commit/60aa6dec6499ee96caca3b6e288e34b49b705426",
+      "git:hexsha": "60aa6dec6499ee96caca3b6e288e34b49b705426",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_0"
+    }
+  ]
+}
