@@ -1,0 +1,808 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/microsoft/DeepSpeed",
+  "@type": "gh:Repository",
+  "gh:name": "DeepSpeed",
+  "gh:owner": "microsoft",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/036230e4f97c728204f89b1f8214addc9465b5c5",
+      "git:hexsha": "036230e4f97c728204f89b1f8214addc9465b5c5",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "nightly-last-green",
+      "repolex:parsedAt": "2026-10-17T15:15:27.246972+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/87833e1f85e006c5c5d618dbe4de700885a2f571",
+      "git:hexsha": "87833e1f85e006c5c5d618dbe4de700885a2f571",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grad-norm-test"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e759fe439a0db230a51d8e55e8a28f37521c877c",
+      "git:hexsha": "e759fe439a0db230a51d8e55e8a28f37521c877c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-bisect/a"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a13f6b040e0a8bfe3bf77684745db2db7de7d28f",
+      "git:hexsha": "a13f6b040e0a8bfe3bf77684745db2db7de7d28f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-bisect/b"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/cd4cb971b43e2f341a2eaec2cd7a6ea81b5da28c",
+      "git:hexsha": "cd4cb971b43e2f341a2eaec2cd7a6ea81b5da28c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-bisect/c"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c61e23b4b108df2af0dda7939ee59d4ae9090415",
+      "git:hexsha": "c61e23b4b108df2af0dda7939ee59d4ae9090415",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/f5c834a6e0eedd440af85b0f577ca9c8f5624630",
+      "git:hexsha": "f5c834a6e0eedd440af85b0f577ca9c8f5624630",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/46d859a75da8933e2575556201492f7198a6c9d9",
+      "git:hexsha": "46d859a75da8933e2575556201492f7198a6c9d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/462def451e06f10f12916c49f34800d52ab52446",
+      "git:hexsha": "462def451e06f10f12916c49f34800d52ab52446",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/04a6fedffd7672de8b2ca01644419631bd866746",
+      "git:hexsha": "04a6fedffd7672de8b2ca01644419631bd866746",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/26d0dd927b21a3422973fd5cea9616ec03987823",
+      "git:hexsha": "26d0dd927b21a3422973fd5cea9616ec03987823",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e9503fe40ee127e74c8b0ea962aac4f0ae957624",
+      "git:hexsha": "e9503fe40ee127e74c8b0ea962aac4f0ae957624",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/f060407829f87da32a267a60d26d13a68dc11c61",
+      "git:hexsha": "f060407829f87da32a267a60d26d13a68dc11c61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/09834bbe1ec4cbda2800535bec9de750ee88403e",
+      "git:hexsha": "09834bbe1ec4cbda2800535bec9de750ee88403e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/3437a5b1b6e6aa927add2720efceb5cc856694f9",
+      "git:hexsha": "3437a5b1b6e6aa927add2720efceb5cc856694f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/4f7dd7214b1d81dbbdff826015a67accc10390d2",
+      "git:hexsha": "4f7dd7214b1d81dbbdff826015a67accc10390d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/6ea44d02c674393c524ada811ea376c55438a913",
+      "git:hexsha": "6ea44d02c674393c524ada811ea376c55438a913",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/7122362fb025f42dcc1bab40a4211ee626116ce4",
+      "git:hexsha": "7122362fb025f42dcc1bab40a4211ee626116ce4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/65b7727758a4c0ee08597a88ab4f051abcfc2a8a",
+      "git:hexsha": "65b7727758a4c0ee08597a88ab4f051abcfc2a8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c00388a2ef933f243b28d89bafb1b329d72557ad",
+      "git:hexsha": "c00388a2ef933f243b28d89bafb1b329d72557ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/1c8b8f30cbb0515693cff70cb4784c675251e295",
+      "git:hexsha": "1c8b8f30cbb0515693cff70cb4784c675251e295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/1d35db76a07b9aba002ddb98d793ec148275c6cf",
+      "git:hexsha": "1d35db76a07b9aba002ddb98d793ec148275c6cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/18179807f5fa5dbb93b7af51d51f9002e1539478",
+      "git:hexsha": "18179807f5fa5dbb93b7af51d51f9002e1539478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/afdf028a9ae2d0b3c36fda53533e415d489a39db",
+      "git:hexsha": "afdf028a9ae2d0b3c36fda53533e415d489a39db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/5115df3f0be4f277c058ff5023c62652365659b7",
+      "git:hexsha": "5115df3f0be4f277c058ff5023c62652365659b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/bc0d24651d7d40d5b78ff5a2f1702c7169852433",
+      "git:hexsha": "bc0d24651d7d40d5b78ff5a2f1702c7169852433",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/ce78a632ac82a535588520e3712b35e996b46865",
+      "git:hexsha": "ce78a632ac82a535588520e3712b35e996b46865",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e3d873a00ec2a78f74796f9a1a0d571f310e5f87",
+      "git:hexsha": "e3d873a00ec2a78f74796f9a1a0d571f310e5f87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/5f631abc2f930ecece38fae05dc9bd3923c555dd",
+      "git:hexsha": "5f631abc2f930ecece38fae05dc9bd3923c555dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/54f98fd91323ce0513f061f87f4680f2a69c32af",
+      "git:hexsha": "54f98fd91323ce0513f061f87f4680f2a69c32af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/d254d75ef028e2e6bd3305ba0feeb6a61c986443",
+      "git:hexsha": "d254d75ef028e2e6bd3305ba0feeb6a61c986443",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/eb07d41f959bda6c76b106c1c1c40493720b2fb8",
+      "git:hexsha": "eb07d41f959bda6c76b106c1c1c40493720b2fb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/55b4cae80fc1479ac802b91b4b8955da444016ae",
+      "git:hexsha": "55b4cae80fc1479ac802b91b4b8955da444016ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/10ba3dde84d00742f3635c48db09d6eccf0ec8bb",
+      "git:hexsha": "10ba3dde84d00742f3635c48db09d6eccf0ec8bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/474a3288cd5a89c64c37f1e51978a3d031a87b4a",
+      "git:hexsha": "474a3288cd5a89c64c37f1e51978a3d031a87b4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a24cdd6b67a0e761474d2074d39ac73f4968caf7",
+      "git:hexsha": "a24cdd6b67a0e761474d2074d39ac73f4968caf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a1b0c35a1def4bfc20fc3eeb89d6f5831fbc4ae8",
+      "git:hexsha": "a1b0c35a1def4bfc20fc3eeb89d6f5831fbc4ae8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e5570b10eed781c96f266e4dc827d22506c606bc",
+      "git:hexsha": "e5570b10eed781c96f266e4dc827d22506c606bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/95ead2a055afe0387b18eb7af1c1b973304b7553",
+      "git:hexsha": "95ead2a055afe0387b18eb7af1c1b973304b7553",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/b344c04df0fdf058617004924a7aaa15055dccce",
+      "git:hexsha": "b344c04df0fdf058617004924a7aaa15055dccce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c17dc33c04a65606d770705a2c9d4ae3e0ae5a9b",
+      "git:hexsha": "c17dc33c04a65606d770705a2c9d4ae3e0ae5a9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e2dc3eeb1923073e32739596a4fd051417d4ff92",
+      "git:hexsha": "e2dc3eeb1923073e32739596a4fd051417d4ff92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/20f988eade5217ab0045ba1681030f3d255d67e3",
+      "git:hexsha": "20f988eade5217ab0045ba1681030f3d255d67e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/227a60c0c412ddf4619401b5d8d9d1674aee17b5",
+      "git:hexsha": "227a60c0c412ddf4619401b5d8d9d1674aee17b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c66fdaf3c9b8ab2d9d7f988b59f522dfa33e73dd",
+      "git:hexsha": "c66fdaf3c9b8ab2d9d7f988b59f522dfa33e73dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/f45950258b4eda0105a0467c1a2d0435ba120255",
+      "git:hexsha": "f45950258b4eda0105a0467c1a2d0435ba120255",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/bdba8231bc8fc17980a5941437e6363dac69418d",
+      "git:hexsha": "bdba8231bc8fc17980a5941437e6363dac69418d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/720787e79b5529dd3dd6ccbeccb4a6b710a0b876",
+      "git:hexsha": "720787e79b5529dd3dd6ccbeccb4a6b710a0b876",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/2ce55057999bdf1c9bf26cb5f000a8a9fb97e2d9",
+      "git:hexsha": "2ce55057999bdf1c9bf26cb5f000a8a9fb97e2d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/15f054d97fc4261780821a916fd8e2da79c3a6f7",
+      "git:hexsha": "15f054d97fc4261780821a916fd8e2da79c3a6f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/092625c7eb24a76779167fb74c29dc347653248f",
+      "git:hexsha": "092625c7eb24a76779167fb74c29dc347653248f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c4b1a8cb8f0ab93c1c81660c668b35d720bddcee",
+      "git:hexsha": "c4b1a8cb8f0ab93c1c81660c668b35d720bddcee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/047a7599d24622dfb37fa5e5a32c671b1bb44233",
+      "git:hexsha": "047a7599d24622dfb37fa5e5a32c671b1bb44233",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e4f6da968574a96282a32557b37dabb2476d240e",
+      "git:hexsha": "e4f6da968574a96282a32557b37dabb2476d240e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/79caae1c04fca210345bdeb03bcacf87b1ac2f23",
+      "git:hexsha": "79caae1c04fca210345bdeb03bcacf87b1ac2f23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/3631712bd796593bf6e2e70d4f1c352937a44cf8",
+      "git:hexsha": "3631712bd796593bf6e2e70d4f1c352937a44cf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e993fea38efe654592b956d1ab52e340bfbf9714",
+      "git:hexsha": "e993fea38efe654592b956d1ab52e340bfbf9714",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/6eb98aaf03419d1a3a608b0955eb3eae5ad2dc27",
+      "git:hexsha": "6eb98aaf03419d1a3a608b0955eb3eae5ad2dc27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/b35d9eb01bc04e774cc05dc43713f2a41423da5c",
+      "git:hexsha": "b35d9eb01bc04e774cc05dc43713f2a41423da5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/b19987c780e20df3f78c6088bfb2f9b38eeea029",
+      "git:hexsha": "b19987c780e20df3f78c6088bfb2f9b38eeea029",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/d2ca6e75be18b278f0925720d9d50cc714c5e61a",
+      "git:hexsha": "d2ca6e75be18b278f0925720d9d50cc714c5e61a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/6c59d5446afd8900218121ecfd00003a6cde2b9e",
+      "git:hexsha": "6c59d5446afd8900218121ecfd00003a6cde2b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/5f7b687018bd1e0340c661859820fd97aa80a616",
+      "git:hexsha": "5f7b687018bd1e0340c661859820fd97aa80a616",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/8c93851eca99e95d90e5fe767c2ac53bb2de04eb",
+      "git:hexsha": "8c93851eca99e95d90e5fe767c2ac53bb2de04eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/98a2fbdfafe39c1d2421e2baab698c2db721527e",
+      "git:hexsha": "98a2fbdfafe39c1d2421e2baab698c2db721527e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/510ebe58e4e4148bbf49350ad18fe291a0afb381",
+      "git:hexsha": "510ebe58e4e4148bbf49350ad18fe291a0afb381",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/b919284ab1ad6dbc1cb0e06b10386ff74160b586",
+      "git:hexsha": "b919284ab1ad6dbc1cb0e06b10386ff74160b586",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/0c36f6d3efb806c07a44e5c2c9b18a81d204b821",
+      "git:hexsha": "0c36f6d3efb806c07a44e5c2c9b18a81d204b821",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c455031422641a825588c926455458c82b27b6c0",
+      "git:hexsha": "c455031422641a825588c926455458c82b27b6c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/cf44300453eb0af79ed84ed8f1cb49d57478bd76",
+      "git:hexsha": "cf44300453eb0af79ed84ed8f1cb49d57478bd76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c7cc64a90162214dbb8f0b29fc1034e6075e6d23",
+      "git:hexsha": "c7cc64a90162214dbb8f0b29fc1034e6075e6d23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/f5af15c2b4da10411e340850c00ba0cb5b14fd87",
+      "git:hexsha": "f5af15c2b4da10411e340850c00ba0cb5b14fd87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/96c4daabc162c3c05fe602152ee2ab2d780c0e23",
+      "git:hexsha": "96c4daabc162c3c05fe602152ee2ab2d780c0e23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/4b1df25ae96e3732213877e7729c5e15548188fd",
+      "git:hexsha": "4b1df25ae96e3732213877e7729c5e15548188fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/31f46feee2d491d58a13404e354440551de9d5bf",
+      "git:hexsha": "31f46feee2d491d58a13404e354440551de9d5bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c14b839d9898f4c84e372e896e3ce8fa2e169a79",
+      "git:hexsha": "c14b839d9898f4c84e372e896e3ce8fa2e169a79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/72b23ea32282c52c53a81a097dfc26c653d3a731",
+      "git:hexsha": "72b23ea32282c52c53a81a097dfc26c653d3a731",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/35fd7ccd862adcb93febd546cb5b9fa7cb883d8f",
+      "git:hexsha": "35fd7ccd862adcb93febd546cb5b9fa7cb883d8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/12a53b43833b7bea279a205e313f2bd3f0cdfd99",
+      "git:hexsha": "12a53b43833b7bea279a205e313f2bd3f0cdfd99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/0cd9abf20416c1fce091e7f79694f02fd21b3687",
+      "git:hexsha": "0cd9abf20416c1fce091e7f79694f02fd21b3687",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/2c2a7f31bcc20ae12ce8d2b8af14448939ebdf12",
+      "git:hexsha": "2c2a7f31bcc20ae12ce8d2b8af14448939ebdf12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a12aaedc9e8885c6b59d4a31246ffcb03a23133e",
+      "git:hexsha": "a12aaedc9e8885c6b59d4a31246ffcb03a23133e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/9941ce75225868ef9222a0360683a563d05d87ad",
+      "git:hexsha": "9941ce75225868ef9222a0360683a563d05d87ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/9de21b72b5e8adb6c1fe4ae96cbddaa929178cc1",
+      "git:hexsha": "9de21b72b5e8adb6c1fe4ae96cbddaa929178cc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/6b28bc5db58fa95628b9cf69e350dcacc2f33478",
+      "git:hexsha": "6b28bc5db58fa95628b9cf69e350dcacc2f33478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/16313a962bce9df567597ffc2380250a1535e27a",
+      "git:hexsha": "16313a962bce9df567597ffc2380250a1535e27a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/73c3262df63e85c2b2f0d48bf9217c58508e44f3",
+      "git:hexsha": "73c3262df63e85c2b2f0d48bf9217c58508e44f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c51fa65de847ba44f0a1bcfc9957cb4e5fae3ab6",
+      "git:hexsha": "c51fa65de847ba44f0a1bcfc9957cb4e5fae3ab6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/cb7c7da6f7696e27591610db3c2c906f9c2c8070",
+      "git:hexsha": "cb7c7da6f7696e27591610db3c2c906f9c2c8070",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/81aeea361da3936b875a678b9cb44596800510b5",
+      "git:hexsha": "81aeea361da3936b875a678b9cb44596800510b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/2d302d6abb2cfa181f63320da3ed1be45e34ded3",
+      "git:hexsha": "2d302d6abb2cfa181f63320da3ed1be45e34ded3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/3b68984498cd10f138f69725597ca83452294ac7",
+      "git:hexsha": "3b68984498cd10f138f69725597ca83452294ac7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a029239812e15cf35334514449ed3127b915780a",
+      "git:hexsha": "a029239812e15cf35334514449ed3127b915780a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/bc451c0913d38041eb6be13221c2ce4308141679",
+      "git:hexsha": "bc451c0913d38041eb6be13221c2ce4308141679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/40c381df0cf88435e80cb42bb6aa283a74124fc0",
+      "git:hexsha": "40c381df0cf88435e80cb42bb6aa283a74124fc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c543a41b154a991d50cb6cc8c07dbf46b0d2bdf6",
+      "git:hexsha": "c543a41b154a991d50cb6cc8c07dbf46b0d2bdf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/f28432441bae1020157407a4eca1661e9fe35164",
+      "git:hexsha": "f28432441bae1020157407a4eca1661e9fe35164",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/49b6a63251a034a01dd7a066ed444fbec1b8e390",
+      "git:hexsha": "49b6a63251a034a01dd7a066ed444fbec1b8e390",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/3293cf72a0abd5cf77a831996bd054bc908476a6",
+      "git:hexsha": "3293cf72a0abd5cf77a831996bd054bc908476a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/8e577c923d90ed97478d1269282949d04b9bdfc4",
+      "git:hexsha": "8e577c923d90ed97478d1269282949d04b9bdfc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/30537e719c9b86556fa1c821cf64880cb6398fca",
+      "git:hexsha": "30537e719c9b86556fa1c821cf64880cb6398fca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/bc7778ea5b6018c4982816a1bf4d11fb46eb111f",
+      "git:hexsha": "bc7778ea5b6018c4982816a1bf4d11fb46eb111f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/91defd7cfebf9010e0b97d31acd9132895bb9007",
+      "git:hexsha": "91defd7cfebf9010e0b97d31acd9132895bb9007",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/2665c8b149147a18e1d03d2a92bb4641d1db4af4",
+      "git:hexsha": "2665c8b149147a18e1d03d2a92bb4641d1db4af4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a8a17f234a5f5e49d17c3d5493783ca0aff0cce3",
+      "git:hexsha": "a8a17f234a5f5e49d17c3d5493783ca0aff0cce3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/9aa288d7452ca8cee36bf4c29078aaf9c917ddba",
+      "git:hexsha": "9aa288d7452ca8cee36bf4c29078aaf9c917ddba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/d0ab72242711636349609099316f93510c6a9079",
+      "git:hexsha": "d0ab72242711636349609099316f93510c6a9079",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a32e9b3376566fa9bcd3b12a16e896432621435e",
+      "git:hexsha": "a32e9b3376566fa9bcd3b12a16e896432621435e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/ebbcfd52734485943bff49c7dcd7c26eb4c44f21",
+      "git:hexsha": "ebbcfd52734485943bff49c7dcd7c26eb4c44f21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/32d97976ce08f00228ceb55a2d93005bd8b2769a",
+      "git:hexsha": "32d97976ce08f00228ceb55a2d93005bd8b2769a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/dda03361a73009bec2ecea1cbc2f2ce1bc6fdee1",
+      "git:hexsha": "dda03361a73009bec2ecea1cbc2f2ce1bc6fdee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/673cb60808a23f1f925bc445047720df3f0ff689",
+      "git:hexsha": "673cb60808a23f1f925bc445047720df3f0ff689",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/8164ea9e6d35dfbbe62b0f15448daf05268b9e81",
+      "git:hexsha": "8164ea9e6d35dfbbe62b0f15448daf05268b9e81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c1af73f7c797114e88f2b087c2d7d07e7ec091c3",
+      "git:hexsha": "c1af73f7c797114e88f2b087c2d7d07e7ec091c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/ee7ea3b8055283990c782f89f8672cbfbcfbe1de",
+      "git:hexsha": "ee7ea3b8055283990c782f89f8672cbfbcfbe1de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/5fe9d61065b00473ad08e155f4ad7e1a4dc7e482",
+      "git:hexsha": "5fe9d61065b00473ad08e155f4ad7e1a4dc7e482",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/c35bfe89f699500518258bd75499643a00d09281",
+      "git:hexsha": "c35bfe89f699500518258bd75499643a00d09281",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/80f94c10c552ec79473775adb8902b210656ed76",
+      "git:hexsha": "80f94c10c552ec79473775adb8902b210656ed76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/15923810182c47fd95be2991babd764ddad3c74f",
+      "git:hexsha": "15923810182c47fd95be2991babd764ddad3c74f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/877a8818a7cdc994188dde55db6901d79457339e",
+      "git:hexsha": "877a8818a7cdc994188dde55db6901d79457339e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/06e00f61ce12238ccca1cedbeb1e9391d7199c42",
+      "git:hexsha": "06e00f61ce12238ccca1cedbeb1e9391d7199c42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/aeda7f9f8c5bdaee318e7b6094279484d41c659c",
+      "git:hexsha": "aeda7f9f8c5bdaee318e7b6094279484d41c659c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/2076bf2311c5ce0bcf0e795e94d58e1c5650c6e2",
+      "git:hexsha": "2076bf2311c5ce0bcf0e795e94d58e1c5650c6e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/bf6b9802cd04fba23f627e042682d69e2ae41045",
+      "git:hexsha": "bf6b9802cd04fba23f627e042682d69e2ae41045",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/6c85fe6cc3392aa55f834cdfe02a265f8d43e197",
+      "git:hexsha": "6c85fe6cc3392aa55f834cdfe02a265f8d43e197",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/db15ef578a4015617d6c33df43aa832d708a0bc9",
+      "git:hexsha": "db15ef578a4015617d6c33df43aa832d708a0bc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/f1e4fb0b878e48d6fe33dbb2e0969d791d698e86",
+      "git:hexsha": "f1e4fb0b878e48d6fe33dbb2e0969d791d698e86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/0b5252bbd3347a25e1a541119129be269a6899cc",
+      "git:hexsha": "0b5252bbd3347a25e1a541119129be269a6899cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/793c23e5c118b47c8862ad8c946fc081df3d2849",
+      "git:hexsha": "793c23e5c118b47c8862ad8c946fc081df3d2849",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/e0e808503e25aaeb3cb32c83464bdda6f41462b8",
+      "git:hexsha": "e0e808503e25aaeb3cb32c83464bdda6f41462b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/4559aa9b02bf9f113951e0092ebecc21debf8e20",
+      "git:hexsha": "4559aa9b02bf9f113951e0092ebecc21debf8e20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/a65f6b9e9b6375395fb60eabbe0a29cd2007fc62",
+      "git:hexsha": "a65f6b9e9b6375395fb60eabbe0a29cd2007fc62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/DeepSpeed/commit/fc9e1ee00e673b2ce2a433c4e34c5440e76c9f3e",
+      "git:hexsha": "fc9e1ee00e673b2ce2a433c4e34c5440e76c9f3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.5"
+    }
+  ]
+}
