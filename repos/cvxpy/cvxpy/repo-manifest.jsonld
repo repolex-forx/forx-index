@@ -1,0 +1,969 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/cvxpy/cvxpy",
+  "@type": "gh:Repository",
+  "gh:name": "cvxpy",
+  "gh:owner": "cvxpy",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ccf24bf121a2b4c5ffa5df0d4a8e0ac1e26fb813",
+      "git:hexsha": "ccf24bf121a2b4c5ffa5df0d4a8e0ac1e26fb813",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T19:22:46.137630+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c8d61faf68887df49749926baa26a1a2eb848bc6",
+      "git:hexsha": "c8d61faf68887df49749926baa26a1a2eb848bc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "doc1.2.0update"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/9a7e9a3eeff3455b80d4fb2c5bbcd1ec64e1d894",
+      "git:hexsha": "9a7e9a3eeff3455b80d4fb2c5bbcd1ec64e1d894",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "doc1.2.0update1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d724a210c167c5c891b448d2e7bbf504082ea96c",
+      "git:hexsha": "d724a210c167c5c891b448d2e7bbf504082ea96c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "doc1.2.0update2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/eb1fea23705367b815db4e6c26e2e1903657232c",
+      "git:hexsha": "eb1fea23705367b815db4e6c26e2e1903657232c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "dummy-v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/f66cfb38df7855577938ad0a5e53e1da31acef29",
+      "git:hexsha": "f66cfb38df7855577938ad0a5e53e1da31acef29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/173a6784d4f110079e3693d7b21815e337ad74a4",
+      "git:hexsha": "173a6784d4f110079e3693d7b21815e337ad74a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/f6a74b1449bc6b63a4ad39e5b1b3e9a97122606c",
+      "git:hexsha": "f6a74b1449bc6b63a4ad39e5b1b3e9a97122606c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d29f5bff5f7384eecca4d9c8d04cb2a2ff5a0c8d",
+      "git:hexsha": "d29f5bff5f7384eecca4d9c8d04cb2a2ff5a0c8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/9d0b45ecbe6823452ab2c1b26d5a416979bd9159",
+      "git:hexsha": "9d0b45ecbe6823452ab2c1b26d5a416979bd9159",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/1e4c3c1de64749a9ea1473551a5a08671ec5a15d",
+      "git:hexsha": "1e4c3c1de64749a9ea1473551a5a08671ec5a15d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/429adba90ae859fcd83505209619b45f2bb1e75a",
+      "git:hexsha": "429adba90ae859fcd83505209619b45f2bb1e75a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/a806daa25eeeeb58b603605324b31a82232b7d7a",
+      "git:hexsha": "a806daa25eeeeb58b603605324b31a82232b7d7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/4daa9b4e905495186f3bc1addc62885a4dc799b2",
+      "git:hexsha": "4daa9b4e905495186f3bc1addc62885a4dc799b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/f00fcfbbcbf33c87183d1e0700582cc1170a4f75",
+      "git:hexsha": "f00fcfbbcbf33c87183d1e0700582cc1170a4f75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/e0c16580d826b619005a52a96a97aa324de28985",
+      "git:hexsha": "e0c16580d826b619005a52a96a97aa324de28985",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/67fa62611fcbf0cd0aa59cc87bb92bffd3813ae1",
+      "git:hexsha": "67fa62611fcbf0cd0aa59cc87bb92bffd3813ae1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ae73860e1b28754f8714830d2a296baff10f6f59",
+      "git:hexsha": "ae73860e1b28754f8714830d2a296baff10f6f59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/6a0934472dea6ab5fe3a15995f4a2f318b82ef77",
+      "git:hexsha": "6a0934472dea6ab5fe3a15995f4a2f318b82ef77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b589c5aae777958f1c80e907a55affccd484614c",
+      "git:hexsha": "b589c5aae777958f1c80e907a55affccd484614c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d7b7bdc035bd5e2bfb4b95fec1b5d0d10f1c8fba",
+      "git:hexsha": "d7b7bdc035bd5e2bfb4b95fec1b5d0d10f1c8fba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c622531592e51a2a273d988abb46c31120349cfc",
+      "git:hexsha": "c622531592e51a2a273d988abb46c31120349cfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/efc2ade9e8cb902e870c4e4cb9f9f57f00ad52d7",
+      "git:hexsha": "efc2ade9e8cb902e870c4e4cb9f9f57f00ad52d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/62199b5a40e924d250e3c446bf557272c13da892",
+      "git:hexsha": "62199b5a40e924d250e3c446bf557272c13da892",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/28a7e3bfb32e01641f4a781f4a2f8752c1832505",
+      "git:hexsha": "28a7e3bfb32e01641f4a781f4a2f8752c1832505",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/0dacdbf608f08e08f7a654c448ce0b9f3bd8131c",
+      "git:hexsha": "0dacdbf608f08e08f7a654c448ce0b9f3bd8131c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/37c0dc11154fc85c69368882166ebbedd0731441",
+      "git:hexsha": "37c0dc11154fc85c69368882166ebbedd0731441",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/361a13554df10e86ce111c870a215cb646c7962a",
+      "git:hexsha": "361a13554df10e86ce111c870a215cb646c7962a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/6f22161aa3a255c30af1459a146f34ce9c38d6ed",
+      "git:hexsha": "6f22161aa3a255c30af1459a146f34ce9c38d6ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/618950f9b5206a1c6c45e8f7c2e14dd8bf698d5b",
+      "git:hexsha": "618950f9b5206a1c6c45e8f7c2e14dd8bf698d5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/0662b43533153146b14fbaee980238c7095fe79f",
+      "git:hexsha": "0662b43533153146b14fbaee980238c7095fe79f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/eb9d373b3b8646575eb8cfed090f8c704882da13",
+      "git:hexsha": "eb9d373b3b8646575eb8cfed090f8c704882da13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/09155a18b6888801c3fbbdb80c68d378120d750a",
+      "git:hexsha": "09155a18b6888801c3fbbdb80c68d378120d750a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b0314a50f6229941a4e8107d9144dfb01c443153",
+      "git:hexsha": "b0314a50f6229941a4e8107d9144dfb01c443153",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/e0fe6e3ce51a979cdb504a5ad057f94b7b4f71cd",
+      "git:hexsha": "e0fe6e3ce51a979cdb504a5ad057f94b7b4f71cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b742048d0c3009506d62dd95323f4dec1ea4a92e",
+      "git:hexsha": "b742048d0c3009506d62dd95323f4dec1ea4a92e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d6e89a889cb2d6d6752e7565a517b6f2fe4463cf",
+      "git:hexsha": "d6e89a889cb2d6d6752e7565a517b6f2fe4463cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/18191f4eac8e4dfc99b90c56b2741a601eaf7291",
+      "git:hexsha": "18191f4eac8e4dfc99b90c56b2741a601eaf7291",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/89939c76d52a1610e1d4faa7bbbdb9bed9d968ed",
+      "git:hexsha": "89939c76d52a1610e1d4faa7bbbdb9bed9d968ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/e07e4941b5563b5ae24a3183837a89b58ff7d8cf",
+      "git:hexsha": "e07e4941b5563b5ae24a3183837a89b58ff7d8cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/74e95fed904713d445f5a15d3205182c2f27d539",
+      "git:hexsha": "74e95fed904713d445f5a15d3205182c2f27d539",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/619d9777771f47321f3c620ebccb69757e0434ca",
+      "git:hexsha": "619d9777771f47321f3c620ebccb69757e0434ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/00316401606a4bdb28a88c621eec0c4371de188e",
+      "git:hexsha": "00316401606a4bdb28a88c621eec0c4371de188e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ad48c8b2c5c36f2bec6ef717c49f12094197cc33",
+      "git:hexsha": "ad48c8b2c5c36f2bec6ef717c49f12094197cc33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/918af76b93aea0e5fa7d6a57b317170042610c14",
+      "git:hexsha": "918af76b93aea0e5fa7d6a57b317170042610c14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/00c1cf0792883267fce57b26ee97a232bc969616",
+      "git:hexsha": "00c1cf0792883267fce57b26ee97a232bc969616",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b4d5186e00680166256688fb92243c43b0c9ca80",
+      "git:hexsha": "b4d5186e00680166256688fb92243c43b0c9ca80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/4bf33893a5d3eeaf1ae9bd0346f76f04c60d913e",
+      "git:hexsha": "4bf33893a5d3eeaf1ae9bd0346f76f04c60d913e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/1fecc74161d23c4ceed772353c67f556c5734bbe",
+      "git:hexsha": "1fecc74161d23c4ceed772353c67f556c5734bbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d0fe84705d2df73843278aa115c44e75dbc4b928",
+      "git:hexsha": "d0fe84705d2df73843278aa115c44e75dbc4b928",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/f7a01379980665347e2b0be329890561d0dc28b7",
+      "git:hexsha": "f7a01379980665347e2b0be329890561d0dc28b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/faf24ab47f88ee472af2d45abf7fc629892d26fb",
+      "git:hexsha": "faf24ab47f88ee472af2d45abf7fc629892d26fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/a7916a0b91a1eb4fb81db566c4b8bbd5e26190d3",
+      "git:hexsha": "a7916a0b91a1eb4fb81db566c4b8bbd5e26190d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/2996578532f9a6b012b07807933ed6e6ebc29369",
+      "git:hexsha": "2996578532f9a6b012b07807933ed6e6ebc29369",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/620e76de6331f454db2e2171a4ebf76f4cd46420",
+      "git:hexsha": "620e76de6331f454db2e2171a4ebf76f4cd46420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c95f99d5bbc306a71c55fb10cd3c1731a556cd9b",
+      "git:hexsha": "c95f99d5bbc306a71c55fb10cd3c1731a556cd9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/eb425154b97f8015f89f671b80c9bebbcf84985e",
+      "git:hexsha": "eb425154b97f8015f89f671b80c9bebbcf84985e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/213c95af93671f181e82691e7fb5f10d35a17a7c",
+      "git:hexsha": "213c95af93671f181e82691e7fb5f10d35a17a7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/645efe5097666e633cd1edba81f75a06ab607368",
+      "git:hexsha": "645efe5097666e633cd1edba81f75a06ab607368",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/1d958164b7a51c9e0bc175f4fdc0502c32178ed2",
+      "git:hexsha": "1d958164b7a51c9e0bc175f4fdc0502c32178ed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/8bb2e2cb07e9be79cd20bb0e5a15b6677f7c29b7",
+      "git:hexsha": "8bb2e2cb07e9be79cd20bb0e5a15b6677f7c29b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/3b7d35227149dab5dbfdc7649f99765845f0e81f",
+      "git:hexsha": "3b7d35227149dab5dbfdc7649f99765845f0e81f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/e20404c444fbd996c8d0fc6fec4b31db6c744058",
+      "git:hexsha": "e20404c444fbd996c8d0fc6fec4b31db6c744058",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/cd0302266e50010cd598ad718e0477f114bbb971",
+      "git:hexsha": "cd0302266e50010cd598ad718e0477f114bbb971",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c5aaef08265b0f3c221b762869d3da40597d7680",
+      "git:hexsha": "c5aaef08265b0f3c221b762869d3da40597d7680",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/541b2e681a1d6e29400de066ac64e71dd38e83de",
+      "git:hexsha": "541b2e681a1d6e29400de066ac64e71dd38e83de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b9ff897e8fa041dc15793ebfc51bd594cc186cc5",
+      "git:hexsha": "b9ff897e8fa041dc15793ebfc51bd594cc186cc5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d0139311469dd9a9cce7c69df517215ff2c45f3d",
+      "git:hexsha": "d0139311469dd9a9cce7c69df517215ff2c45f3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/075e8be593c24da2f3720d1a5e549932652b19bb",
+      "git:hexsha": "075e8be593c24da2f3720d1a5e549932652b19bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/108aafcd2b4b5dcdf304b0d75977117410794180",
+      "git:hexsha": "108aafcd2b4b5dcdf304b0d75977117410794180",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/178f3d69b8be8f8c87d77dea3faeb25fc1771e74",
+      "git:hexsha": "178f3d69b8be8f8c87d77dea3faeb25fc1771e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/4565bfe728efad273e701ce22c79b8ae272be037",
+      "git:hexsha": "4565bfe728efad273e701ce22c79b8ae272be037",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/7965640da196a2e8aed92f1c9836dbbf38d934f0",
+      "git:hexsha": "7965640da196a2e8aed92f1c9836dbbf38d934f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/452b7457612a451c6bb6233be0302d049eaf5840",
+      "git:hexsha": "452b7457612a451c6bb6233be0302d049eaf5840",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b0e850077e841022bd4580316b4ca67f01a5b044",
+      "git:hexsha": "b0e850077e841022bd4580316b4ca67f01a5b044",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/797a41df8b4f19d14cfab5d28b956db89a59bd41",
+      "git:hexsha": "797a41df8b4f19d14cfab5d28b956db89a59bd41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/6d52433adfa990f0edf402550e64e077f68d6120",
+      "git:hexsha": "6d52433adfa990f0edf402550e64e077f68d6120",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/757c6b38d0d2a99aeadf38036aca9a63fb18b69f",
+      "git:hexsha": "757c6b38d0d2a99aeadf38036aca9a63fb18b69f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/7721d2cae1b33a3ef7826a5c4ec2bfb540af0857",
+      "git:hexsha": "7721d2cae1b33a3ef7826a5c4ec2bfb540af0857",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/cead26704e4fd2b6ab5015f0431886cbe58563d1",
+      "git:hexsha": "cead26704e4fd2b6ab5015f0431886cbe58563d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/711e1ba072f33111518612612b0e409a4bfb11cc",
+      "git:hexsha": "711e1ba072f33111518612612b0e409a4bfb11cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/df25e5744c3c5dd6cf6de0c9569cf7ea83b7e30e",
+      "git:hexsha": "df25e5744c3c5dd6cf6de0c9569cf7ea83b7e30e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/86d5d1a162b6ae1b88ee2990b6dae9a2ee35b7f7",
+      "git:hexsha": "86d5d1a162b6ae1b88ee2990b6dae9a2ee35b7f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/6ca44cbda5fb92c813ecc4e4c0997a71ffb84404",
+      "git:hexsha": "6ca44cbda5fb92c813ecc4e4c0997a71ffb84404",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/6fdbdc2c923cfeca5939fec2af2c89ce3487b43e",
+      "git:hexsha": "6fdbdc2c923cfeca5939fec2af2c89ce3487b43e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/7c4547e90037ee089cf27f790d368faeace74379",
+      "git:hexsha": "7c4547e90037ee089cf27f790d368faeace74379",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b1ff39fa97ae41656e1cb6dd00b4738308191173",
+      "git:hexsha": "b1ff39fa97ae41656e1cb6dd00b4738308191173",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d63bfa695643ecaadff6d8d0c4f8cf19a7ad0245",
+      "git:hexsha": "d63bfa695643ecaadff6d8d0c4f8cf19a7ad0245",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/5ad4936d018acfc5ea2cb17f2f1b6e317ea5364e",
+      "git:hexsha": "5ad4936d018acfc5ea2cb17f2f1b6e317ea5364e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/8491c335844e9fcb220781990e710dea38737952",
+      "git:hexsha": "8491c335844e9fcb220781990e710dea38737952",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/f35960c65ee9dd5687929f0c95104f901d920db8",
+      "git:hexsha": "f35960c65ee9dd5687929f0c95104f901d920db8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ef7d4e3aa1d7293faf0f0b86223b2b39a90b1269",
+      "git:hexsha": "ef7d4e3aa1d7293faf0f0b86223b2b39a90b1269",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/3e3ccbcfb882df4f1e8feb8baaf85da802239c0e",
+      "git:hexsha": "3e3ccbcfb882df4f1e8feb8baaf85da802239c0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/73b696b71dbb2ceb66a805798c922461e33afc6b",
+      "git:hexsha": "73b696b71dbb2ceb66a805798c922461e33afc6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/a900f1121b1f31fcbb385888ede9ccc173026e78",
+      "git:hexsha": "a900f1121b1f31fcbb385888ede9ccc173026e78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/5d5c7d606e39b3ea4b54391f772c7e3dc38ede20",
+      "git:hexsha": "5d5c7d606e39b3ea4b54391f772c7e3dc38ede20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ef0f6702f7db865e0beb1550477780fd323fbac8",
+      "git:hexsha": "ef0f6702f7db865e0beb1550477780fd323fbac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/f6be53378411391f3cb6b3213944268a06741d1c",
+      "git:hexsha": "f6be53378411391f3cb6b3213944268a06741d1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/aaa14669a6c1fd81f2993b2e482f23c2f76a529d",
+      "git:hexsha": "aaa14669a6c1fd81f2993b2e482f23c2f76a529d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/3e6ba1d53413072e7c9e43edb2c05ef5ceb63d9c",
+      "git:hexsha": "3e6ba1d53413072e7c9e43edb2c05ef5ceb63d9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/2228f030603f71bc888ae5721c257e93fd796ba0",
+      "git:hexsha": "2228f030603f71bc888ae5721c257e93fd796ba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b275680485117eb28c3e2f193920119443ad9d6a",
+      "git:hexsha": "b275680485117eb28c3e2f193920119443ad9d6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/a43aed7447b87f6d0fbc6f71ae5c7b84183f3369",
+      "git:hexsha": "a43aed7447b87f6d0fbc6f71ae5c7b84183f3369",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/43b652326f0aa8c56a6eeca402097e132b86f1d9",
+      "git:hexsha": "43b652326f0aa8c56a6eeca402097e132b86f1d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/1f84b682f7dbf95c66399dbb214f15622cef4a67",
+      "git:hexsha": "1f84b682f7dbf95c66399dbb214f15622cef4a67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/83583165c79cc44ca790a322131d233f2aa778fd",
+      "git:hexsha": "83583165c79cc44ca790a322131d233f2aa778fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/db1e75e89cd708002e3e1d309ebfcd0283b29f19",
+      "git:hexsha": "db1e75e89cd708002e3e1d309ebfcd0283b29f19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.20b"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/bcac5383551a1570d11df460d93e3faca41918e0",
+      "git:hexsha": "bcac5383551a1570d11df460d93e3faca41918e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/cb4b7f4e653bd8cba99c2c6c4876dd0d285eab64",
+      "git:hexsha": "cb4b7f4e653bd8cba99c2c6c4876dd0d285eab64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/98c658e8760376db5ac781ebc76b466d2635f4e0",
+      "git:hexsha": "98c658e8760376db5ac781ebc76b466d2635f4e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c9cd44aaada8b6bf0fc7929d8685be42301c637d",
+      "git:hexsha": "c9cd44aaada8b6bf0fc7929d8685be42301c637d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/77d717d14ff56f73aee8bff7441bf199e9710617",
+      "git:hexsha": "77d717d14ff56f73aee8bff7441bf199e9710617",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/6262fcdc3cf0dfec62cedc72d2a029b1e1a45a9a",
+      "git:hexsha": "6262fcdc3cf0dfec62cedc72d2a029b1e1a45a9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/75ceed8df40b9e230a39ecb846ca8e0b2631b5a3",
+      "git:hexsha": "75ceed8df40b9e230a39ecb846ca8e0b2631b5a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c3b61545962fad3fca5624306e3c0f28183f5f28",
+      "git:hexsha": "c3b61545962fad3fca5624306e3c0f28183f5f28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/b5b0f8b15b1f10106301d2b921ccfc6cbbbaf044",
+      "git:hexsha": "b5b0f8b15b1f10106301d2b921ccfc6cbbbaf044",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/1007d3a2d90e45aaf92314c774b1cbfdc55f0283",
+      "git:hexsha": "1007d3a2d90e45aaf92314c774b1cbfdc55f0283",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/13ccec344cabb16c60f717b8eb23cbdd1960d7cf",
+      "git:hexsha": "13ccec344cabb16c60f717b8eb23cbdd1960d7cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/5b724b67ea3acc8b3eec4a3780dcc53bd5931d97",
+      "git:hexsha": "5b724b67ea3acc8b3eec4a3780dcc53bd5931d97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d275ee4e16a930451b1e77e1c5c392708f608cd7",
+      "git:hexsha": "d275ee4e16a930451b1e77e1c5c392708f608cd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/d4fff4c09087522b00a1ec71e1319be9e9324ba0",
+      "git:hexsha": "d4fff4c09087522b00a1ec71e1319be9e9324ba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1b"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c8fa4a21052c51652f6768c56748a69182c9b9cb",
+      "git:hexsha": "c8fa4a21052c51652f6768c56748a69182c9b9cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/928b20724cf3c0420ebe045dc29679b0845fbacf",
+      "git:hexsha": "928b20724cf3c0420ebe045dc29679b0845fbacf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/65befadd46f7182cc0cb522fe027c003d4c53774",
+      "git:hexsha": "65befadd46f7182cc0cb522fe027c003d4c53774",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c733ce13d57e52ce54abadaf1ac7b4be1350a421",
+      "git:hexsha": "c733ce13d57e52ce54abadaf1ac7b4be1350a421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/98f436cfaaea57529e635b8a27c052f6547c1c71",
+      "git:hexsha": "98f436cfaaea57529e635b8a27c052f6547c1c71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/2a135d214253a14c50a94c2348776867a31d04e9",
+      "git:hexsha": "2a135d214253a14c50a94c2348776867a31d04e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ad4624493aec144a7a42a53a3dcd6e4ade65e86b",
+      "git:hexsha": "ad4624493aec144a7a42a53a3dcd6e4ade65e86b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/92f1a640f13560d1e09dfb80b358a018aa7fc5f7",
+      "git:hexsha": "92f1a640f13560d1e09dfb80b358a018aa7fc5f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/3e2a68b519c0b3ce91fb94823f95f71eceec928e",
+      "git:hexsha": "3e2a68b519c0b3ce91fb94823f95f71eceec928e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/794f5e15d72404d0c4612160d45b5f682e079129",
+      "git:hexsha": "794f5e15d72404d0c4612160d45b5f682e079129",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/792e959b893b12eb4456c051d37738c671af4520",
+      "git:hexsha": "792e959b893b12eb4456c051d37738c671af4520",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/5d1416bc8893654d87e5e069c0c4f7cd386474ec",
+      "git:hexsha": "5d1416bc8893654d87e5e069c0c4f7cd386474ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/311e79ad2335b00c4bd2a6f9667792906520bea8",
+      "git:hexsha": "311e79ad2335b00c4bd2a6f9667792906520bea8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/4efa32c2bed9b1d5257603c4353bff2467306eae",
+      "git:hexsha": "4efa32c2bed9b1d5257603c4353bff2467306eae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/5bc73132b4eb03c249b6d81071734f44c648e2d1",
+      "git:hexsha": "5bc73132b4eb03c249b6d81071734f44c648e2d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/7d24ec688f8cd4716745c10816fdeaddbaff8d35",
+      "git:hexsha": "7d24ec688f8cd4716745c10816fdeaddbaff8d35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/70aef4daef0f54942207789bb3caeaaae045e87b",
+      "git:hexsha": "70aef4daef0f54942207789bb3caeaaae045e87b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/190cea0687c3a3e2be0ee7554f172630238c579d",
+      "git:hexsha": "190cea0687c3a3e2be0ee7554f172630238c579d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/284b6282358fb9576d619af0764e558bcbfcb11a",
+      "git:hexsha": "284b6282358fb9576d619af0764e558bcbfcb11a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/1777eb0c4be1b1070aaac14f5661caa13f2453ec",
+      "git:hexsha": "1777eb0c4be1b1070aaac14f5661caa13f2453ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ae638aa1ccf262e6a876184f9ccb7bb6cb74ff8b",
+      "git:hexsha": "ae638aa1ccf262e6a876184f9ccb7bb6cb74ff8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/da4443a2cbabc33cfd749e651666624c6cdcb55c",
+      "git:hexsha": "da4443a2cbabc33cfd749e651666624c6cdcb55c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/78b54aab6e867d2a85399ab9a4f3a149273ae2d9",
+      "git:hexsha": "78b54aab6e867d2a85399ab9a4f3a149273ae2d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/855923ca93d8d28342e2c6340bdbe3790981198f",
+      "git:hexsha": "855923ca93d8d28342e2c6340bdbe3790981198f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/dff02431e21b2bd929f72eff251a4cb8401b03e9",
+      "git:hexsha": "dff02431e21b2bd929f72eff251a4cb8401b03e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/8af11769c2a98e5930925412dc73ee5b26025782",
+      "git:hexsha": "8af11769c2a98e5930925412dc73ee5b26025782",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/dc01af49b0e98ec9da9e37b9f6147708ceab6600",
+      "git:hexsha": "dc01af49b0e98ec9da9e37b9f6147708ceab6600",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/8a4e4957339fc9ec7c87cbfb1416ac8dd6e32798",
+      "git:hexsha": "8a4e4957339fc9ec7c87cbfb1416ac8dd6e32798",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/9bd2741e0e2fb79512e9a13cecbf5f7dfbfe2392",
+      "git:hexsha": "9bd2741e0e2fb79512e9a13cecbf5f7dfbfe2392",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/9d08f2301cf01c5862c81b087c5f43faaf1ab5be",
+      "git:hexsha": "9d08f2301cf01c5862c81b087c5f43faaf1ab5be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/4c5ec4925e1a90bb0f2b16b829f436e961e299c5",
+      "git:hexsha": "4c5ec4925e1a90bb0f2b16b829f436e961e299c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe",
+      "git:hexsha": "68141a6f7d6ce8a742d54be2fd355f759d5ca5fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/3779b9df3d66cebd37b64e80d13606baa6363846",
+      "git:hexsha": "3779b9df3d66cebd37b64e80d13606baa6363846",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/3b964472beaa18ab765c335bc50f622084d6567b",
+      "git:hexsha": "3b964472beaa18ab765c335bc50f622084d6567b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/76b0527916badef2d2c0599a2ed2960d0433e275",
+      "git:hexsha": "76b0527916badef2d2c0599a2ed2960d0433e275",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/261539f84a75cc6e1b99a320548679a6bfd43b78",
+      "git:hexsha": "261539f84a75cc6e1b99a320548679a6bfd43b78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/4489dd679fb8762f59bf239a25699b465df7aafe",
+      "git:hexsha": "4489dd679fb8762f59bf239a25699b465df7aafe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/7cb26d3ec6269234cf275b3b92ca5443628e24c1",
+      "git:hexsha": "7cb26d3ec6269234cf275b3b92ca5443628e24c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/fba7e1f41ca5cf0718918d47d02ba2c3614395d2",
+      "git:hexsha": "fba7e1f41ca5cf0718918d47d02ba2c3614395d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3"
+    }
+  ]
+}
