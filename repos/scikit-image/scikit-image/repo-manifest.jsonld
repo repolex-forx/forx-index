@@ -1,0 +1,951 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/scikit-image/scikit-image",
+  "@type": "gh:Repository",
+  "gh:name": "scikit-image",
+  "gh:owner": "scikit-image",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/b700edc8005e4ee9e74fc83259f09e8df3213f15",
+      "git:hexsha": "b700edc8005e4ee9e74fc83259f09e8df3213f15",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-16T23:55:47.845850+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/aa964efd599cf47c3345a2123b1686959f2ee87c",
+      "git:hexsha": "aa964efd599cf47c3345a2123b1686959f2ee87c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ac240eec58ac04db91bba3d1223b3ce9b91ef68e",
+      "git:hexsha": "ac240eec58ac04db91bba3d1223b3ce9b91ef68e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/492b1958a14f351464a204f67e83c4d04c1b72cf",
+      "git:hexsha": "492b1958a14f351464a204f67e83c4d04c1b72cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/4778ad0ff899432fd3d9ec584cff7dec8a3d0c8e",
+      "git:hexsha": "4778ad0ff899432fd3d9ec584cff7dec8a3d0c8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/051eded1b8f494b2affd69f4fb04adb317765129",
+      "git:hexsha": "051eded1b8f494b2affd69f4fb04adb317765129",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/0d108c67f32e58132efc39b7d57ca022f70b2250",
+      "git:hexsha": "0d108c67f32e58132efc39b7d57ca022f70b2250",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/6b7faef94f05f716f67f2a72ed659add8a26545b",
+      "git:hexsha": "6b7faef94f05f716f67f2a72ed659add8a26545b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheel_0.20.0test"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e66b7fafa0b2a3e78c4fc675f51e5f7247561cce",
+      "git:hexsha": "e66b7fafa0b2a3e78c4fc675f51e5f7247561cce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-0191-test"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d34abcb67301dd1462656212abf2d55ec8a95542",
+      "git:hexsha": "d34abcb67301dd1462656212abf2d55ec8a95542",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-0191-test4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ba5f11ba176f50d404e28d156f01debec007e06f",
+      "git:hexsha": "ba5f11ba176f50d404e28d156f01debec007e06f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-0192-test"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/84b066566b8dce3821fced295db250b9f34e4d62",
+      "git:hexsha": "84b066566b8dce3821fced295db250b9f34e4d62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-020"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/633564b60c626a02ba62aad23641c0edad55e6db",
+      "git:hexsha": "633564b60c626a02ba62aad23641c0edad55e6db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-020-py311"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/78a624cfcabaf0911565c5bf70f9a95fab08975b",
+      "git:hexsha": "78a624cfcabaf0911565c5bf70f9a95fab08975b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-020-py311-15"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c7ddbee4abc2e3766d823c119cc6682c304f9598",
+      "git:hexsha": "c7ddbee4abc2e3766d823c119cc6682c304f9598",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-strip-test1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/f3e0d8b93e5f9fc89ca66ab1694a32758b28e4ae",
+      "git:hexsha": "f3e0d8b93e5f9fc89ca66ab1694a32758b28e4ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-strip-test2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/4e833ce56b19ec90768a95426d53ef62ccdc4693",
+      "git:hexsha": "4e833ce56b19ec90768a95426d53ef62ccdc4693",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-strip-test3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/9738a87b545417dfec6e78978326494cc69608d8",
+      "git:hexsha": "9738a87b545417dfec6e78978326494cc69608d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ce2e60d00b46d0064be67593d870a19e5e235a12",
+      "git:hexsha": "ce2e60d00b46d0064be67593d870a19e5e235a12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test-jun2022-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/03a3d9c0d996831344d2d36e1cb1df90c365918f",
+      "git:hexsha": "03a3d9c0d996831344d2d36e1cb1df90c365918f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test-strip"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/6ee7e53517d7c524a4354e3da83ada5edff1b5b0",
+      "git:hexsha": "6ee7e53517d7c524a4354e3da83ada5edff1b5b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test-v0190"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/b56a80803011b69f282600f5d453f2eedaa47b46",
+      "git:hexsha": "b56a80803011b69f282600f5d453f2eedaa47b46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test10"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d875a06a6c7a4c1669d68f1be22c287fd5d71a00",
+      "git:hexsha": "d875a06a6c7a4c1669d68f1be22c287fd5d71a00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test13"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/846a6937dab7f3a6036b5f1597b872ea66a7c611",
+      "git:hexsha": "846a6937dab7f3a6036b5f1597b872ea66a7c611",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-win-only"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/85e52cef148508122ccee9420412f288633ed65d",
+      "git:hexsha": "85e52cef148508122ccee9420412f288633ed65d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/209897fb86c9ab8a8aa28a8e3c5e98820cc986da",
+      "git:hexsha": "209897fb86c9ab8a8aa28a8e3c5e98820cc986da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test3_wheres_rc"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/5ee174e10104f13abea62cbe70027e0b3f9f4287",
+      "git:hexsha": "5ee174e10104f13abea62cbe70027e0b3f9f4287",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/bde4f2e32a6c69ab72eb5efba4a33a3b62fe6c99",
+      "git:hexsha": "bde4f2e32a6c69ab72eb5efba4a33a3b62fe6c99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test5_greg_found_rc"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/b2cb44e2861667efa562a384526fb76f1a3b2fc2",
+      "git:hexsha": "b2cb44e2861667efa562a384526fb76f1a3b2fc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/0ff080b510fdb79f72bf23c4c77150799b206306",
+      "git:hexsha": "0ff080b510fdb79f72bf23c4c77150799b206306",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test6"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/67fe94819410325d7980f958eee60bfc8a5619a4",
+      "git:hexsha": "67fe94819410325d7980f958eee60bfc8a5619a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test7"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/0c6db98b6ae1d02059020e037b8d1f97ca03b0e1",
+      "git:hexsha": "0c6db98b6ae1d02059020e037b8d1f97ca03b0e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-test8"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/fcfafde4fb5f50b1cfcac1788bbbaa4b3ad394a7",
+      "git:hexsha": "fcfafde4fb5f50b1cfcac1788bbbaa4b3ad394a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels-win-py310-only-v0_19_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/0fc2fe0ed54bb41193986535bec95defec2d6d37",
+      "git:hexsha": "0fc2fe0ed54bb41193986535bec95defec2d6d37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0rc1.0test"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/570f3038e39a789781807f07beae1af2a5ff9c7b",
+      "git:hexsha": "570f3038e39a789781807f07beae1af2a5ff9c7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0test"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/f2374db6461f879aea83bccb56f0b13567b6f072",
+      "git:hexsha": "f2374db6461f879aea83bccb56f0b13567b6f072",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0test1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/4bc7290990a24a5a97f03a156f3a6724c0ef64ea",
+      "git:hexsha": "4bc7290990a24a5a97f03a156f3a6724c0ef64ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0test2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/775fbd6fbcc9726863dfc5e61739c61ec88b6d09",
+      "git:hexsha": "775fbd6fbcc9726863dfc5e61739c61ec88b6d09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0test3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/a1f6cbe8b04bf99973bb066b7496c7792b58909e",
+      "git:hexsha": "a1f6cbe8b04bf99973bb066b7496c7792b58909e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0test4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c61b3512bd3718de71b16041691bd6ec7c09699b",
+      "git:hexsha": "c61b3512bd3718de71b16041691bd6ec7c09699b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "buildwheels_0.20.0test5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/6e24c58d964c03a977ec79b3f814c461b90d748e",
+      "git:hexsha": "6e24c58d964c03a977ec79b3f814c461b90d748e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.10.1-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/4ce6ecdf9a4745275a94380ca680345ee83e7230",
+      "git:hexsha": "4ce6ecdf9a4745275a94380ca680345ee83e7230",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.10.1-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/7e68e69144ed14636f2598377ee3c59445295ab8",
+      "git:hexsha": "7e68e69144ed14636f2598377ee3c59445295ab8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.11.0-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/0b8664a430d87e02af9d71a44d09fec9f29a0168",
+      "git:hexsha": "0b8664a430d87e02af9d71a44d09fec9f29a0168",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.12.3-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/8b2772038949bce5aa5c96bb68a3817d77355715",
+      "git:hexsha": "8b2772038949bce5aa5c96bb68a3817d77355715",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.13.1-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ae0e6fd114370a65232adb0e8492d23b10303c79",
+      "git:hexsha": "ae0e6fd114370a65232adb0e8492d23b10303c79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.5.0+git100-gfeb3e92-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/6271947a93b823da4447ff9c69c30a8364e932f7",
+      "git:hexsha": "6271947a93b823da4447ff9c69c30a8364e932f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.5.0+git100-gfeb3e92-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/403ebe611c095da0a391403e25f46ead65756afe",
+      "git:hexsha": "403ebe611c095da0a391403e25f46ead65756afe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.6-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/433e329661c47d55793c85de9e6cb636e86dfb57",
+      "git:hexsha": "433e329661c47d55793c85de9e6cb636e86dfb57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.6.1-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/2df4a65bca8677d06d2324f15def870c0fec69a8",
+      "git:hexsha": "2df4a65bca8677d06d2324f15def870c0fec69a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.7.2-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/b6c15cb5b017d608c906b713d9b8d34229619174",
+      "git:hexsha": "b6c15cb5b017d608c906b713d9b8d34229619174",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.8.2-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/9ae0313a31c3825ec9c6a508851fa1dd522530c4",
+      "git:hexsha": "9ae0313a31c3825ec9c6a508851fa1dd522530c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.9.3-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/f23d36f12d94121eb32063c825eef58bf06e4903",
+      "git:hexsha": "f23d36f12d94121eb32063c825eef58bf06e4903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.9.3-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/2713d3209548fd228c109eaff7878e3a04e5982c",
+      "git:hexsha": "2713d3209548fd228c109eaff7878e3a04e5982c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.9.3-3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c2c2f08699f0c0c4a479802b9e71fb913eaf1049",
+      "git:hexsha": "c2c2f08699f0c0c4a479802b9e71fb913eaf1049",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "debian/0.9.3-4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d9bc7cf72a2c1e1db5071f5959caf18db51a02e1",
+      "git:hexsha": "d9bc7cf72a2c1e1db5071f5959caf18db51a02e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c5919ae4403aebfbbe6618dc365220ecd61311af",
+      "git:hexsha": "c5919ae4403aebfbbe6618dc365220ecd61311af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d72a6cff3eb8de1abe15185f67fe2c6c70a39940",
+      "git:hexsha": "d72a6cff3eb8de1abe15185f67fe2c6c70a39940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d3bb552527e3bc2086fac3821948d96ca06af599",
+      "git:hexsha": "d3bb552527e3bc2086fac3821948d96ca06af599",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/76b7e426d4acb206b68bd314040d59baa68b14ec",
+      "git:hexsha": "76b7e426d4acb206b68bd314040d59baa68b14ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/50fa219975df80fc1ae81486bb48ed1c0daf791f",
+      "git:hexsha": "50fa219975df80fc1ae81486bb48ed1c0daf791f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ccc35c1ed0e2caedd0b70a9c0c73cf3736851904",
+      "git:hexsha": "ccc35c1ed0e2caedd0b70a9c0c73cf3736851904",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/4839ae40e5c013fbbb05cae09060199a2470931b",
+      "git:hexsha": "4839ae40e5c013fbbb05cae09060199a2470931b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/feda03618eee64a1aecb17c5cceb534e1d2538a1",
+      "git:hexsha": "feda03618eee64a1aecb17c5cceb534e1d2538a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/93e9d90bb3bb9d04e55a5087996e87efe2fb8fdb",
+      "git:hexsha": "93e9d90bb3bb9d04e55a5087996e87efe2fb8fdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/03f4997359e9d439db9709fb359d7b9c0ea38556",
+      "git:hexsha": "03f4997359e9d439db9709fb359d7b9c0ea38556",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ed43bae1e91a66253e7abfdd01e6ee736879acf0",
+      "git:hexsha": "ed43bae1e91a66253e7abfdd01e6ee736879acf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/74e6221809e430130aca5c7e96e960b34d4ec282",
+      "git:hexsha": "74e6221809e430130aca5c7e96e960b34d4ec282",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/5751e4ead9fdc16a89c84b8a372339c49c73af27",
+      "git:hexsha": "5751e4ead9fdc16a89c84b8a372339c49c73af27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/a90fd229212eddec1685318b31fc5ba915b4f4bb",
+      "git:hexsha": "a90fd229212eddec1685318b31fc5ba915b4f4bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d0edde6da5562a33894f066e248b9cc9c662b011",
+      "git:hexsha": "d0edde6da5562a33894f066e248b9cc9c662b011",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d048c7b750b2b8bca5ed5024405399f8dcc31f78",
+      "git:hexsha": "d048c7b750b2b8bca5ed5024405399f8dcc31f78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/825b95dd8c13fc8d34f94b7c2acac1515e3d8ddb",
+      "git:hexsha": "825b95dd8c13fc8d34f94b7c2acac1515e3d8ddb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e16376d09c138869b6936dfe887411a6c4aee1c5",
+      "git:hexsha": "e16376d09c138869b6936dfe887411a6c4aee1c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0.dev-versioneer"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/be42f61150cc5d16c6618285d908d24f904b949e",
+      "git:hexsha": "be42f61150cc5d16c6618285d908d24f904b949e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c2fe82cc9d83e84a073cf4e3961054c2a7df5a6b",
+      "git:hexsha": "c2fe82cc9d83e84a073cf4e3961054c2a7df5a6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/434a0cfa15962d78923b30451b278be182b1a421",
+      "git:hexsha": "434a0cfa15962d78923b30451b278be182b1a421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c1f86496f4da226af51fc9070bf3770d863ac299",
+      "git:hexsha": "c1f86496f4da226af51fc9070bf3770d863ac299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/958696152c8e7e9af1b24094ea8109353123bea6",
+      "git:hexsha": "958696152c8e7e9af1b24094ea8109353123bea6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/13a6ec15c0ea8c84abb7ab54b13b97fae67ae44a",
+      "git:hexsha": "13a6ec15c0ea8c84abb7ab54b13b97fae67ae44a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/7f91037564c1c8578d8fb6db9235c4d879262bae",
+      "git:hexsha": "7f91037564c1c8578d8fb6db9235c4d879262bae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/26cb086a6d829aa4d17b10831be5bcde3c359925",
+      "git:hexsha": "26cb086a6d829aa4d17b10831be5bcde3c359925",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/7dedc8fba67a3d8ac00cff05ecb5dead444ef7ec",
+      "git:hexsha": "7dedc8fba67a3d8ac00cff05ecb5dead444ef7ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/23d3db6639cce09c9a5bd6cc086b40a6f88d8cea",
+      "git:hexsha": "23d3db6639cce09c9a5bd6cc086b40a6f88d8cea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/5ca8040c7bb322b157567d7e00c6c55f84e83803",
+      "git:hexsha": "5ca8040c7bb322b157567d7e00c6c55f84e83803",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/1188c33c3defefdc0f672870b5bcc36beaec967f",
+      "git:hexsha": "1188c33c3defefdc0f672870b5bcc36beaec967f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e128e0743bb2cded104654352a13ed5b4e53efb8",
+      "git:hexsha": "e128e0743bb2cded104654352a13ed5b4e53efb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/51d52549cde6401888af8a441d5f13860ea0abd7",
+      "git:hexsha": "51d52549cde6401888af8a441d5f13860ea0abd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/739341430d834f6155b7bfa580c0fa553b20d87c",
+      "git:hexsha": "739341430d834f6155b7bfa580c0fa553b20d87c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/8fbbb5169b8da6fb26b107a0a8c6de46a93f37cc",
+      "git:hexsha": "8fbbb5169b8da6fb26b107a0a8c6de46a93f37cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/3508289c28a4b532b79e663b1e310f7dacecfc84",
+      "git:hexsha": "3508289c28a4b532b79e663b1e310f7dacecfc84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/23a827a7b701b9f47b1c19631e19d814e22fad89",
+      "git:hexsha": "23a827a7b701b9f47b1c19631e19d814e22fad89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/79cb22aef09dc8c03cb60f1f9d74e11a71abc17f",
+      "git:hexsha": "79cb22aef09dc8c03cb60f1f9d74e11a71abc17f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/2b05e536cbeeb3f61c30ac4b045191d2d6a074f8",
+      "git:hexsha": "2b05e536cbeeb3f61c30ac4b045191d2d6a074f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.3rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/812e21e44129258d8637fbcf665e590556ea96d1",
+      "git:hexsha": "812e21e44129258d8637fbcf665e590556ea96d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/843e35a974e946714fbd8db04d21def7a4484094",
+      "git:hexsha": "843e35a974e946714fbd8db04d21def7a4484094",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/08bb95bce1addab94671626b7660987b2a2856c8",
+      "git:hexsha": "08bb95bce1addab94671626b7660987b2a2856c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/00177e14097237ef20ed3141ed454bc81b308f82",
+      "git:hexsha": "00177e14097237ef20ed3141ed454bc81b308f82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c1af2bf80d2c8845bbbf06222f87e8b58a8e5c1e",
+      "git:hexsha": "c1af2bf80d2c8845bbbf06222f87e8b58a8e5c1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/38e649b44f549264e18bac2bc053b5fbbfce2665",
+      "git:hexsha": "38e649b44f549264e18bac2bc053b5fbbfce2665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/1fc7a2fa5616b100cac47f91b911177de674a78d",
+      "git:hexsha": "1fc7a2fa5616b100cac47f91b911177de674a78d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/5e74a4a3a5149a8a14566b81a32bb15499aa3857",
+      "git:hexsha": "5e74a4a3a5149a8a14566b81a32bb15499aa3857",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/833cd16a1262d0222a5580bf18a263b9c0d67ece",
+      "git:hexsha": "833cd16a1262d0222a5580bf18a263b9c0d67ece",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ca10dca95cefeb173e4ea775823faeb8914e0287",
+      "git:hexsha": "ca10dca95cefeb173e4ea775823faeb8914e0287",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/79c347bdedca767bd305c5c0f08966ca7e51f4d1",
+      "git:hexsha": "79c347bdedca767bd305c5c0f08966ca7e51f4d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d0b55c637a22f6453de9959783a372570328d089",
+      "git:hexsha": "d0b55c637a22f6453de9959783a372570328d089",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e42773c8ccae7898b7e8ca05e27d88db29476a61",
+      "git:hexsha": "e42773c8ccae7898b7e8ca05e27d88db29476a61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/7f2ea1738fc56d8832404ae44969bcfe16859934",
+      "git:hexsha": "7f2ea1738fc56d8832404ae44969bcfe16859934",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/18a13248a8f6b622cf0fe7186d05b904f47fae88",
+      "git:hexsha": "18a13248a8f6b622cf0fe7186d05b904f47fae88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/8c590d4886863ffa14b8306815e2e5599c3a8f42",
+      "git:hexsha": "8c590d4886863ffa14b8306815e2e5599c3a8f42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/bf7949d210851af413f96053bc35d67c8b44f4cd",
+      "git:hexsha": "bf7949d210851af413f96053bc35d67c8b44f4cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc8"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/49a98547e909697f6ee89ec70691c7cad7eeb823",
+      "git:hexsha": "49a98547e909697f6ee89ec70691c7cad7eeb823",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/bad31717a47b3fdb5631972afab013a782be8efd",
+      "git:hexsha": "bad31717a47b3fdb5631972afab013a782be8efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/42652091b870bda5f3bd7946baea367321ce4737",
+      "git:hexsha": "42652091b870bda5f3bd7946baea367321ce4737",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/441fe68b95a86d4ae2a351311a0c39a4232b6521",
+      "git:hexsha": "441fe68b95a86d4ae2a351311a0c39a4232b6521",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/818db671ab5d55b0939cc5bf63c38a7122a8030e",
+      "git:hexsha": "818db671ab5d55b0939cc5bf63c38a7122a8030e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e5ba5c82218864775f2f67d3389fc896f89e0e74",
+      "git:hexsha": "e5ba5c82218864775f2f67d3389fc896f89e0e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c23ebd19ffc6b927a7350e9421a63adf7e7f528f",
+      "git:hexsha": "c23ebd19ffc6b927a7350e9421a63adf7e7f528f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/3e1ebf10cefbba8997a6d563b5e923cb091c63dc",
+      "git:hexsha": "3e1ebf10cefbba8997a6d563b5e923cb091c63dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/2d0b3505ab0bb201e74a2d4b8124f0db82290fd2",
+      "git:hexsha": "2d0b3505ab0bb201e74a2d4b8124f0db82290fd2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/016de8f7eec2e7572e3d1fa4d2f6e16c9589ca4c",
+      "git:hexsha": "016de8f7eec2e7572e3d1fa4d2f6e16c9589ca4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/bf08f8f120d78a2675522f7334c328c3e60c3469",
+      "git:hexsha": "bf08f8f120d78a2675522f7334c328c3e60c3469",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/b76ff13478a5123e4d8b422586aaa54c791f2604",
+      "git:hexsha": "b76ff13478a5123e4d8b422586aaa54c791f2604",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/16b84480bc6d48e56011ef4864987d435c9e0455",
+      "git:hexsha": "16b84480bc6d48e56011ef4864987d435c9e0455",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.2rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/3d3e02c9e27be044c907a58790024fc54695d999",
+      "git:hexsha": "3d3e02c9e27be044c907a58790024fc54695d999",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/a160f384523ac70173d069954b7084bee79fb68e",
+      "git:hexsha": "a160f384523ac70173d069954b7084bee79fb68e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ca8359fc3d5b74462c6387a6278efbce7f55766e",
+      "git:hexsha": "ca8359fc3d5b74462c6387a6278efbce7f55766e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/1272338d46115cda00c511de9e41404062122db2",
+      "git:hexsha": "1272338d46115cda00c511de9e41404062122db2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/f172eba9912ab7fd9cd880a3eb2a0af8b3b788bb",
+      "git:hexsha": "f172eba9912ab7fd9cd880a3eb2a0af8b3b788bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/3f374228450ffae196615f9a15bfe2db89835b92",
+      "git:hexsha": "3f374228450ffae196615f9a15bfe2db89835b92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/5b792199cb3c28e2ccb07054aebd1b228989fe63",
+      "git:hexsha": "5b792199cb3c28e2ccb07054aebd1b228989fe63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ee3f821bd78c54ecd08829079e71a1b40e50a1a0",
+      "git:hexsha": "ee3f821bd78c54ecd08829079e71a1b40e50a1a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e742bf445480cba78eeb262fe4d066893b537b5d",
+      "git:hexsha": "e742bf445480cba78eeb262fe4d066893b537b5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+      "git:hexsha": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/109cda41b08fd17979265c219b94ff6c709f1eff",
+      "git:hexsha": "109cda41b08fd17979265c219b94ff6c709f1eff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.2rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8",
+      "git:hexsha": "ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/52ac1c28c375cb379e502d95dc821d107a28c8bf",
+      "git:hexsha": "52ac1c28c375cb379e502d95dc821d107a28c8bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c4cbbc8c20e7554dc99525fbb0b10aa9b0795589",
+      "git:hexsha": "c4cbbc8c20e7554dc99525fbb0b10aa9b0795589",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ab3bd14a6a323a8550599e18d421181142637b99",
+      "git:hexsha": "ab3bd14a6a323a8550599e18d421181142637b99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/47123609701d5d6ba254fe1c58c34cf2b9e5c452",
+      "git:hexsha": "47123609701d5d6ba254fe1c58c34cf2b9e5c452",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/a339c4ec0674fe86f78e85d08cde563d26b25107",
+      "git:hexsha": "a339c4ec0674fe86f78e85d08cde563d26b25107",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/85531c6ffa002a4ca1a38941b91db3b78eb8ffa4",
+      "git:hexsha": "85531c6ffa002a4ca1a38941b91db3b78eb8ffa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/4a25a5cf066a5e8116fc28b186ecd681c2f28680",
+      "git:hexsha": "4a25a5cf066a5e8116fc28b186ecd681c2f28680",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/44bf51b9dea9e101bc74e4616f2a78011cd65681",
+      "git:hexsha": "44bf51b9dea9e101bc74e4616f2a78011cd65681",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/41998c590d19dc816399f3af28af9570684a34d5",
+      "git:hexsha": "41998c590d19dc816399f3af28af9570684a34d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/53426a0077aad5b36d91bbeb247f2f8e609e7ef7",
+      "git:hexsha": "53426a0077aad5b36d91bbeb247f2f8e609e7ef7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/d30192bd70c2bb2e21204e5fe3ad56403b8201b2",
+      "git:hexsha": "d30192bd70c2bb2e21204e5fe3ad56403b8201b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/c841314d9959faad9b572788e0499a0c9759f929",
+      "git:hexsha": "c841314d9959faad9b572788e0499a0c9759f929",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/70d8a6090ef4701284c7c94aea5546ce7610defb",
+      "git:hexsha": "70d8a6090ef4701284c7c94aea5546ce7610defb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/e6d43d4a982056fa7c08d37eb2e70707dac1816d",
+      "git:hexsha": "e6d43d4a982056fa7c08d37eb2e70707dac1816d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/5755ccb6129aa5fd76292ad56f550a2242246c26",
+      "git:hexsha": "5755ccb6129aa5fd76292ad56f550a2242246c26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/cbcb31330604d56bb6b5f6fcb29e7f281dd16853",
+      "git:hexsha": "cbcb31330604d56bb6b5f6fcb29e7f281dd16853",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/0b254ae73beb178c7e01dfd65e2af5a78f0e33ba",
+      "git:hexsha": "0b254ae73beb178c7e01dfd65e2af5a78f0e33ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/1bdfd07496f293fc614bb3566869d9aaa5d3b03a",
+      "git:hexsha": "1bdfd07496f293fc614bb3566869d9aaa5d3b03a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/edbacd1cc873b142073447157596f0d7f2c56e56",
+      "git:hexsha": "edbacd1cc873b142073447157596f0d7f2c56e56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/ecfd9a3aaf264876160067c60ac1ccc02a08c63f",
+      "git:hexsha": "ecfd9a3aaf264876160067c60ac1ccc02a08c63f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/af16654230a0323ed67ed8931f74fc4d7ff6244c",
+      "git:hexsha": "af16654230a0323ed67ed8931f74fc4d7ff6244c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.3"
+    }
+  ]
+}

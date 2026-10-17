@@ -1,0 +1,717 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/holoviz/datashader",
+  "@type": "gh:Repository",
+  "gh:name": "datashader",
+  "gh:owner": "holoviz",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/385fb0b976356459d59deac8c1b23d14eee15dc2",
+      "git:hexsha": "385fb0b976356459d59deac8c1b23d14eee15dc2",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-16T23:54:29.395979+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/deb0f1fc772576ad7a22e426ed9d04af1070cdce",
+      "git:hexsha": "deb0f1fc772576ad7a22e426ed9d04af1070cdce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/0510c7d1fe715177113b7939a4ca909d99131822",
+      "git:hexsha": "0510c7d1fe715177113b7939a4ca909d99131822",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/7889be306a3504609a0576f7bfabe96cb55ce8ac",
+      "git:hexsha": "7889be306a3504609a0576f7bfabe96cb55ce8ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/564779cafc8be550b1c25838b8dacaeee98b45a4",
+      "git:hexsha": "564779cafc8be550b1c25838b8dacaeee98b45a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/23b2a93abed3824b2f72fd713ee22a5ca06a184d",
+      "git:hexsha": "23b2a93abed3824b2f72fd713ee22a5ca06a184d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/fd7d383d54db395b51d35426ee0d139020feb27f",
+      "git:hexsha": "fd7d383d54db395b51d35426ee0d139020feb27f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/3853980e1a4765273de6f1f6762dfb96632faa06",
+      "git:hexsha": "3853980e1a4765273de6f1f6762dfb96632faa06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/4e059f0c25041631cc8e33cef118a6d19d726688",
+      "git:hexsha": "4e059f0c25041631cc8e33cef118a6d19d726688",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/effbff24c4d9926aac499451fadb94dc5e3dd8d7",
+      "git:hexsha": "effbff24c4d9926aac499451fadb94dc5e3dd8d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/9a9b75e53dea2389b226b6c917edd667df2e2770",
+      "git:hexsha": "9a9b75e53dea2389b226b6c917edd667df2e2770",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b58fe993ff24f474fef5e64459b5f6c5cbb7c152",
+      "git:hexsha": "b58fe993ff24f474fef5e64459b5f6c5cbb7c152",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/a2c2ac7234c4405dd9de4388fd8a1a98d12296cb",
+      "git:hexsha": "a2c2ac7234c4405dd9de4388fd8a1a98d12296cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/22fc5e15cbf81142265173e056e5d01571d3596c",
+      "git:hexsha": "22fc5e15cbf81142265173e056e5d01571d3596c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0dev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/eab824d410127ba1119151850b0c001233842063",
+      "git:hexsha": "eab824d410127ba1119151850b0c001233842063",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/6494ec9af24f126829990b1c1f034d446752ae3b",
+      "git:hexsha": "6494ec9af24f126829990b1c1f034d446752ae3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/ad57732460ee779e04ff3df7e1a3a87c4f895f24",
+      "git:hexsha": "ad57732460ee779e04ff3df7e1a3a87c4f895f24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/5c73eb5e6a5440e1fdb9f996995e36a24852a692",
+      "git:hexsha": "5c73eb5e6a5440e1fdb9f996995e36a24852a692",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.2dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/67d0128d8f3f365d8a47b39d406b90319eacaa19",
+      "git:hexsha": "67d0128d8f3f365d8a47b39d406b90319eacaa19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.2dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/05824920c4a8747bd3a147df6e04efca0715fd86",
+      "git:hexsha": "05824920c4a8747bd3a147df6e04efca0715fd86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.2dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/d04cec7a97988c3e27bff3ef32bb7f3aa924fb3f",
+      "git:hexsha": "d04cec7a97988c3e27bff3ef32bb7f3aa924fb3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/be8a4199654bca35a82ed9bd641cc6e2c22d813c",
+      "git:hexsha": "be8a4199654bca35a82ed9bd641cc6e2c22d813c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/8aabf9d0b1ba7161fc5ae0e19a4c53d79ef33d59",
+      "git:hexsha": "8aabf9d0b1ba7161fc5ae0e19a4c53d79ef33d59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.4dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/71a95d2d4833ea1dd847b7dec75374886e829f62",
+      "git:hexsha": "71a95d2d4833ea1dd847b7dec75374886e829f62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/baf709f15ca7916ab6e8c960e4c339ea0d76c2e3",
+      "git:hexsha": "baf709f15ca7916ab6e8c960e4c339ea0d76c2e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/5f2b6080227914c332d07ee04be5420350b89db0",
+      "git:hexsha": "5f2b6080227914c332d07ee04be5420350b89db0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/4a4d58ad4dcdd3965059df2bc841978afaca3261",
+      "git:hexsha": "4a4d58ad4dcdd3965059df2bc841978afaca3261",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/4098d6f1832dff1ad0c751d56e34b13b59664f93",
+      "git:hexsha": "4098d6f1832dff1ad0c751d56e34b13b59664f93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/958e6626d051d99b571b397bc50fe18c764572df",
+      "git:hexsha": "958e6626d051d99b571b397bc50fe18c764572df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/2079a370f470f15c48098488f028020fa3f0cbbb",
+      "git:hexsha": "2079a370f470f15c48098488f028020fa3f0cbbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/44e3b03d60ce38e08ed40fda14e33d5ca6f3b736",
+      "git:hexsha": "44e3b03d60ce38e08ed40fda14e33d5ca6f3b736",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/2a6db0f2d1ea47d08253dca178c35c3c6a12eb6d",
+      "git:hexsha": "2a6db0f2d1ea47d08253dca178c35c3c6a12eb6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/9f8faef5bb511b73bc77bf9bcc84f5dc0b8e2ba0",
+      "git:hexsha": "9f8faef5bb511b73bc77bf9bcc84f5dc0b8e2ba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/60e6e7f39fd0cb6ef8982c84a36ce42764818272",
+      "git:hexsha": "60e6e7f39fd0cb6ef8982c84a36ce42764818272",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/4be2e0e43dd752e04a237bbbf55d113bbaadc084",
+      "git:hexsha": "4be2e0e43dd752e04a237bbbf55d113bbaadc084",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/d4b3089b8af4faf9c47e824de17f7e8988ac8fec",
+      "git:hexsha": "d4b3089b8af4faf9c47e824de17f7e8988ac8fec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/7c3e3a08c5810154f733e4fc8566d9efc408cf39",
+      "git:hexsha": "7c3e3a08c5810154f733e4fc8566d9efc408cf39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/f73a7c97248395b7ed32d11bddda827ed11f21de",
+      "git:hexsha": "f73a7c97248395b7ed32d11bddda827ed11f21de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/26c37c979e4e2ea97409abdcfe200974a53c554e",
+      "git:hexsha": "26c37c979e4e2ea97409abdcfe200974a53c554e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/347dbad4e2b7d1c8e6fc3bd8e5736edceeb59a74",
+      "git:hexsha": "347dbad4e2b7d1c8e6fc3bd8e5736edceeb59a74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/a033a2a6c6562f46b5d6ffaddc05a80c6c6b334b",
+      "git:hexsha": "a033a2a6c6562f46b5d6ffaddc05a80c6c6b334b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/cd824083fd72fdb2637e91cc07ab09719cae51cc",
+      "git:hexsha": "cd824083fd72fdb2637e91cc07ab09719cae51cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/c7890682a3dba500911765469411128895a90665",
+      "git:hexsha": "c7890682a3dba500911765469411128895a90665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/9733376566e7d76a6ebb06c2c74d1c6c2c7ffa08",
+      "git:hexsha": "9733376566e7d76a6ebb06c2c74d1c6c2c7ffa08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/89f9b47d2ce5fb73c151ef5e4957d66ab13d7094",
+      "git:hexsha": "89f9b47d2ce5fb73c151ef5e4957d66ab13d7094",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/00ea9c720792d3c8702616a31e59e16c2880b333",
+      "git:hexsha": "00ea9c720792d3c8702616a31e59e16c2880b333",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/31074e4acf422f6bb418fbb5991af771867abd6a",
+      "git:hexsha": "31074e4acf422f6bb418fbb5991af771867abd6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/c1b9c9d4cfabc40ed6326a8795beab28e2af8fb2",
+      "git:hexsha": "c1b9c9d4cfabc40ed6326a8795beab28e2af8fb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/fcb29504f2960764200de6a26245f7534d151ee7",
+      "git:hexsha": "fcb29504f2960764200de6a26245f7534d151ee7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/6bb4736be8114a9ee83a8884a2b65c5257af2602",
+      "git:hexsha": "6bb4736be8114a9ee83a8884a2b65c5257af2602",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/615b659f79336e0c65e7f4d898a63aeed1645fcf",
+      "git:hexsha": "615b659f79336e0c65e7f4d898a63aeed1645fcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/9341deea78b3caae6ede849bc82003d7d4011911",
+      "git:hexsha": "9341deea78b3caae6ede849bc82003d7d4011911",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/8f511ac2f877bea121cb963352d5a9f8e6f30334",
+      "git:hexsha": "8f511ac2f877bea121cb963352d5a9f8e6f30334",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/2a78c3d29014c4bccef11bb71e813368fa5259b4",
+      "git:hexsha": "2a78c3d29014c4bccef11bb71e813368fa5259b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/bc3c5dfd394db6483ef864597b60f247d7db4dd7",
+      "git:hexsha": "bc3c5dfd394db6483ef864597b60f247d7db4dd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/1ae52b65ec8a79920e5db9c6c04487f254428553",
+      "git:hexsha": "1ae52b65ec8a79920e5db9c6c04487f254428553",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/442f76c3bd5552891bbb94a9064a61fb11ff511f",
+      "git:hexsha": "442f76c3bd5552891bbb94a9064a61fb11ff511f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/281f58712a87007aa555679eb1fd359441bd03d3",
+      "git:hexsha": "281f58712a87007aa555679eb1fd359441bd03d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/13279487b9d25887df0c6fc71513a124d7fe1206",
+      "git:hexsha": "13279487b9d25887df0c6fc71513a124d7fe1206",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/21973e42d479d9e2be04d552b5ec345af7d9cfc5",
+      "git:hexsha": "21973e42d479d9e2be04d552b5ec345af7d9cfc5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/6e5ebd274cca58564c6d5b4384abcbe0ece4e5d8",
+      "git:hexsha": "6e5ebd274cca58564c6d5b4384abcbe0ece4e5d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b62dd7355631a19bcce87159b95b4a0e93939de6",
+      "git:hexsha": "b62dd7355631a19bcce87159b95b4a0e93939de6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/daf2c4b2db4beaef30ea761c9b44139e1842303c",
+      "git:hexsha": "daf2c4b2db4beaef30ea761c9b44139e1842303c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/1cacb253fbe6f60fea230b957813158a2993c043",
+      "git:hexsha": "1cacb253fbe6f60fea230b957813158a2993c043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/59d1d2df88433d5dc9383e8f8147a800d2f37f3b",
+      "git:hexsha": "59d1d2df88433d5dc9383e8f8147a800d2f37f3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/ca9d3f34a790c23c4c80efb23846117d87da74bd",
+      "git:hexsha": "ca9d3f34a790c23c4c80efb23846117d87da74bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/99ee5587f4e9fbd109770dacacb87710a346acf9",
+      "git:hexsha": "99ee5587f4e9fbd109770dacacb87710a346acf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b995d4a8f35a832af3654b57f651073aa84d1457",
+      "git:hexsha": "b995d4a8f35a832af3654b57f651073aa84d1457",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b69aaef2f0434ba2205b41c6d804b62933be75f8",
+      "git:hexsha": "b69aaef2f0434ba2205b41c6d804b62933be75f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/21a8614122496d6dc8a57cd561a676a0f67c6480",
+      "git:hexsha": "21a8614122496d6dc8a57cd561a676a0f67c6480",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/7a97e972ba6c422908b6a16186cddea9cb4d7dd0",
+      "git:hexsha": "7a97e972ba6c422908b6a16186cddea9cb4d7dd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.5a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/28c85812abf1ac55766e71e36677d4d5e55b6ff5",
+      "git:hexsha": "28c85812abf1ac55766e71e36677d4d5e55b6ff5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/0204ef0a6fd7f0273d7e180bf96970aa01149e73",
+      "git:hexsha": "0204ef0a6fd7f0273d7e180bf96970aa01149e73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b510594eb771d14cff3b69efca8ddd37ca3a1046",
+      "git:hexsha": "b510594eb771d14cff3b69efca8ddd37ca3a1046",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/e247866fdbe66e9fb6e2bc4c8c84ea23a46fcf16",
+      "git:hexsha": "e247866fdbe66e9fb6e2bc4c8c84ea23a46fcf16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/6fabb7547826ec2ae6444863cf3f773d303e59ad",
+      "git:hexsha": "6fabb7547826ec2ae6444863cf3f773d303e59ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/23dfe67fc927ccf7c23cf96fe44373e1ba3bc691",
+      "git:hexsha": "23dfe67fc927ccf7c23cf96fe44373e1ba3bc691",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/93211592bbbee969f229a733934473389f5e1068",
+      "git:hexsha": "93211592bbbee969f229a733934473389f5e1068",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/7f31d04de3479db424ce87ca212574d44fd81621",
+      "git:hexsha": "7f31d04de3479db424ce87ca212574d44fd81621",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/1bf733ed8adc2babd4c5f86178599670f8a91b60",
+      "git:hexsha": "1bf733ed8adc2babd4c5f86178599670f8a91b60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/9de279b85b25a9f523b62b6d4cb15e5380ff48f5",
+      "git:hexsha": "9de279b85b25a9f523b62b6d4cb15e5380ff48f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/5d22b11affd457c443a191e888566ae6969b6504",
+      "git:hexsha": "5d22b11affd457c443a191e888566ae6969b6504",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/93e88ad07c6eb36eeb63156bf1eb9537f652db1e",
+      "git:hexsha": "93e88ad07c6eb36eeb63156bf1eb9537f652db1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.3rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/8dae0f1039d02440ca93e864fe4f58a9ffe686b9",
+      "git:hexsha": "8dae0f1039d02440ca93e864fe4f58a9ffe686b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b70ec8d568db9e9e4816a8c0ecd114919350fc9e",
+      "git:hexsha": "b70ec8d568db9e9e4816a8c0ecd114919350fc9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/00220d8d24a4ada0ac8d30b6875004af5b03fdc4",
+      "git:hexsha": "00220d8d24a4ada0ac8d30b6875004af5b03fdc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/f8e83b9caac39c05cf899d5f96a38b58644cb8de",
+      "git:hexsha": "f8e83b9caac39c05cf899d5f96a38b58644cb8de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/ff1b9a17d204b8dcaa960cf3e936027e1674b238",
+      "git:hexsha": "ff1b9a17d204b8dcaa960cf3e936027e1674b238",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/82a57c1351b67cbe574df082031665c962139c55",
+      "git:hexsha": "82a57c1351b67cbe574df082031665c962139c55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/89f9062830c684536a4c4a04d841474c84bb5081",
+      "git:hexsha": "89f9062830c684536a4c4a04d841474c84bb5081",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/43fca7ede31548583b0e799abe2e91f728d9ded7",
+      "git:hexsha": "43fca7ede31548583b0e799abe2e91f728d9ded7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/5df0841deae073cbd9778a189fdf6b9a6a9f3fbf",
+      "git:hexsha": "5df0841deae073cbd9778a189fdf6b9a6a9f3fbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/7ab9e966075c860fb8ec9c139856189868478341",
+      "git:hexsha": "7ab9e966075c860fb8ec9c139856189868478341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/c18c685d2e2c119ffe510cc43777c0fe36a00483",
+      "git:hexsha": "c18c685d2e2c119ffe510cc43777c0fe36a00483",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/2cd337cd36ffc1255123fde5bd1ff3ddfbbad627",
+      "git:hexsha": "2cd337cd36ffc1255123fde5bd1ff3ddfbbad627",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/84b2f687772c1f7af9b60eee5b757e518ce46fa9",
+      "git:hexsha": "84b2f687772c1f7af9b60eee5b757e518ce46fa9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/b0d3a2da6489d6084ceb1b1ea6994e1de6d2fcf4",
+      "git:hexsha": "b0d3a2da6489d6084ceb1b1ea6994e1de6d2fcf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/eb9218cb810297aea2ae1030349cef6a6f3ab3cb",
+      "git:hexsha": "eb9218cb810297aea2ae1030349cef6a6f3ab3cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/bea0c5323af9a0f4baf7fc009a244f5fe5c716a8",
+      "git:hexsha": "bea0c5323af9a0f4baf7fc009a244f5fe5c716a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.6a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/edb03564e55eeab7be4ed7a91546667fd8f01398",
+      "git:hexsha": "edb03564e55eeab7be4ed7a91546667fd8f01398",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.6a17"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/5461b9b3faa331b655471b5eabbc75d11784425a",
+      "git:hexsha": "5461b9b3faa331b655471b5eabbc75d11784425a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.6a18"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/a78f0613d78cbe45b1441ac1ef7e0ea6b8f63c1c",
+      "git:hexsha": "a78f0613d78cbe45b1441ac1ef7e0ea6b8f63c1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/aa015f066fcade5553e542c730dc997deba68fbb",
+      "git:hexsha": "aa015f066fcade5553e542c730dc997deba68fbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.8a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/c068388732d48ff20fd3056d648a427150a74d61",
+      "git:hexsha": "c068388732d48ff20fd3056d648a427150a74d61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.8a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/4a3e310649dabefe4c7c7831717c5fe7c2d1d89a",
+      "git:hexsha": "4a3e310649dabefe4c7c7831717c5fe7c2d1d89a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.8a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/f945be4c6828286702b0d5c9ccac86859f8b5dc6",
+      "git:hexsha": "f945be4c6828286702b0d5c9ccac86859f8b5dc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.9a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/17629bd82708499beb0b990d7f092fd68ea3d172",
+      "git:hexsha": "17629bd82708499beb0b990d7f092fd68ea3d172",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.9a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/77defac14e5389cfb4e71fa17671f30d94697888",
+      "git:hexsha": "77defac14e5389cfb4e71fa17671f30d94697888",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/63f6baffa928b5548fcf010932e257a9eeb423e2",
+      "git:hexsha": "63f6baffa928b5548fcf010932e257a9eeb423e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/6b987e9894a89eb78bf08911a08da74f5f68b7aa",
+      "git:hexsha": "6b987e9894a89eb78bf08911a08da74f5f68b7aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/ef9a62fb6499490fc30324f3bef17229df44925e",
+      "git:hexsha": "ef9a62fb6499490fc30324f3bef17229df44925e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/78d88d727c21abee5ad80a20a4ef6563f896c7bc",
+      "git:hexsha": "78d88d727c21abee5ad80a20a4ef6563f896c7bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/aa286d6f08c8d6feaba78599ee4216d0774746e4",
+      "git:hexsha": "aa286d6f08c8d6feaba78599ee4216d0774746e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/916d320d8f028987508b60a674f95298ae7acee1",
+      "git:hexsha": "916d320d8f028987508b60a674f95298ae7acee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/65fa0c48f1c8967aaac7710ce1735bdb3c4ff6ee",
+      "git:hexsha": "65fa0c48f1c8967aaac7710ce1735bdb3c4ff6ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/244bd82489cfb03f0127b8e83efc23dfeab6d8f2",
+      "git:hexsha": "244bd82489cfb03f0127b8e83efc23dfeab6d8f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/730d573f4204b4d3b5d8bb61e113f569dbec85af",
+      "git:hexsha": "730d573f4204b4d3b5d8bb61e113f569dbec85af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "website"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/datashader/commit/bc32aa902882011810c5b9dea665c9f52c5a850a",
+      "git:hexsha": "bc32aa902882011810c5b9dea665c9f52c5a850a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "website_dev"
+    }
+  ]
+}

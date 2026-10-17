@@ -1,0 +1,747 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/holoviz/geoviews",
+  "@type": "gh:Repository",
+  "gh:name": "geoviews",
+  "gh:owner": "holoviz",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/fe1ec429ba32469a252440322deca5dd0585ff33",
+      "git:hexsha": "fe1ec429ba32469a252440322deca5dd0585ff33",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-16T23:45:27.152436+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/0a6a9bda28e15beebd94af200d9d0108190f5d34",
+      "git:hexsha": "0a6a9bda28e15beebd94af200d9d0108190f5d34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/efbb2927538934f74f4fa3d387f52eb169374c3d",
+      "git:hexsha": "efbb2927538934f74f4fa3d387f52eb169374c3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e7d8e952d53040fe3a20817e150373d929a68689",
+      "git:hexsha": "e7d8e952d53040fe3a20817e150373d929a68689",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/114defc2eb2ba6d9eb71254cef574f5897b2318f",
+      "git:hexsha": "114defc2eb2ba6d9eb71254cef574f5897b2318f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/7814bd97fde44940474960f51217b08257523083",
+      "git:hexsha": "7814bd97fde44940474960f51217b08257523083",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/5a7304cf5ab0ed0c3e95d1d4739323965766098d",
+      "git:hexsha": "5a7304cf5ab0ed0c3e95d1d4739323965766098d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/68106332b623c75f2b45114d82df04f30c57cf8e",
+      "git:hexsha": "68106332b623c75f2b45114d82df04f30c57cf8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e81bf7a5d746b6710ebb90a634c3f90c651556b7",
+      "git:hexsha": "e81bf7a5d746b6710ebb90a634c3f90c651556b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/d192dee25b3cfbcef6aea9c04b28aa58d047e90f",
+      "git:hexsha": "d192dee25b3cfbcef6aea9c04b28aa58d047e90f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4a0ebbbe27e6c60d601fd20dc2f3f7a9f1f80e63",
+      "git:hexsha": "4a0ebbbe27e6c60d601fd20dc2f3f7a9f1f80e63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4b87319159be48477faab87550dc617468735de1",
+      "git:hexsha": "4b87319159be48477faab87550dc617468735de1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/1bc98733f34579575c1ed50701f2acc651deb207",
+      "git:hexsha": "1bc98733f34579575c1ed50701f2acc651deb207",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/0792c016d1da97dca0723da41efc3b53ee540f91",
+      "git:hexsha": "0792c016d1da97dca0723da41efc3b53ee540f91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4d34fbb9b2a52b3b53e20f1a31f4dded725fde53",
+      "git:hexsha": "4d34fbb9b2a52b3b53e20f1a31f4dded725fde53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/0a8395fb405ee171b6f6c3254c817ca5c6b1a880",
+      "git:hexsha": "0a8395fb405ee171b6f6c3254c817ca5c6b1a880",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/dc08ff4919ba7a351f6834f189585e049900d744",
+      "git:hexsha": "dc08ff4919ba7a351f6834f189585e049900d744",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/ec245c7ddd58ed9afc2430f6f5675255b61ba247",
+      "git:hexsha": "ec245c7ddd58ed9afc2430f6f5675255b61ba247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4ef77526f97accd10f0a7aff659d33284607ce91",
+      "git:hexsha": "4ef77526f97accd10f0a7aff659d33284607ce91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/234d3a8cf63200109aca3b899227820570b9d4ea",
+      "git:hexsha": "234d3a8cf63200109aca3b899227820570b9d4ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4c37cc9c94b1ff4dd7f47d999910d064877cb6f9",
+      "git:hexsha": "4c37cc9c94b1ff4dd7f47d999910d064877cb6f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/6c889dd42501d11abea2377ce79990bf69806b99",
+      "git:hexsha": "6c889dd42501d11abea2377ce79990bf69806b99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/7836dda957bd2cf8100f1da240ad333e3c9e1015",
+      "git:hexsha": "7836dda957bd2cf8100f1da240ad333e3c9e1015",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/32851619814d2c19c3ed4017d47dc43576141825",
+      "git:hexsha": "32851619814d2c19c3ed4017d47dc43576141825",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/5d10cecbf38911807ea42f276f7cd94f48563665",
+      "git:hexsha": "5d10cecbf38911807ea42f276f7cd94f48563665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/d04282d4e4ddcd480f2f766d8cf09ff3a5b8175f",
+      "git:hexsha": "d04282d4e4ddcd480f2f766d8cf09ff3a5b8175f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/48e0e3c5b8930b0a0b8b36ccef3658d64b5f51f1",
+      "git:hexsha": "48e0e3c5b8930b0a0b8b36ccef3658d64b5f51f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/bf5c445d3b730af44d9bde30968bfae6942f829c",
+      "git:hexsha": "bf5c445d3b730af44d9bde30968bfae6942f829c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e31e63f0ee1564e206d849c698237edfb3230497",
+      "git:hexsha": "e31e63f0ee1564e206d849c698237edfb3230497",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/988ea33cd67d90bbd86dc3a35fe8accee9ddcaa3",
+      "git:hexsha": "988ea33cd67d90bbd86dc3a35fe8accee9ddcaa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/ea04fa9bf720953d01402f0926c71ee8d41f4633",
+      "git:hexsha": "ea04fa9bf720953d01402f0926c71ee8d41f4633",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/2e5caad6e752477f5cc155265aa984f3608568f4",
+      "git:hexsha": "2e5caad6e752477f5cc155265aa984f3608568f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/ab2549272b90a75118d613786aab5fc14104d88a",
+      "git:hexsha": "ab2549272b90a75118d613786aab5fc14104d88a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/9fb933142d1e44f5770759e18776c92e1f3202c7",
+      "git:hexsha": "9fb933142d1e44f5770759e18776c92e1f3202c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/391bf0f5fd1ec78a64ed58c42273409ffdd3bf25",
+      "git:hexsha": "391bf0f5fd1ec78a64ed58c42273409ffdd3bf25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4efca3b18b06ebebfd641b685f28278c3ddc3001",
+      "git:hexsha": "4efca3b18b06ebebfd641b685f28278c3ddc3001",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4c8aabb9a15cec03aa8b2b30ef286fc9c7948ccb",
+      "git:hexsha": "4c8aabb9a15cec03aa8b2b30ef286fc9c7948ccb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/fb6fd20f40c914c56984cd5dceb908f6ab0bb282",
+      "git:hexsha": "fb6fd20f40c914c56984cd5dceb908f6ab0bb282",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/3b35220f2ff5769d26045270919fdea4a2a0d83b",
+      "git:hexsha": "3b35220f2ff5769d26045270919fdea4a2a0d83b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/7d6f7107432dd868ac3c060c3acdece818268afa",
+      "git:hexsha": "7d6f7107432dd868ac3c060c3acdece818268afa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/04953411844cb228a81f37ba9f026876d0d089f1",
+      "git:hexsha": "04953411844cb228a81f37ba9f026876d0d089f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/7ad3023357d0d729c3ff5935a9b5f01626d354e1",
+      "git:hexsha": "7ad3023357d0d729c3ff5935a9b5f01626d354e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.1a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/1545a12d8b5ceea5139fd23aee58f745e163f68d",
+      "git:hexsha": "1545a12d8b5ceea5139fd23aee58f745e163f68d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e249e80a535eecd98aa73d3ff52ba2651dfcc624",
+      "git:hexsha": "e249e80a535eecd98aa73d3ff52ba2651dfcc624",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/19540e0a13b1d0490b8fef234ee24b1157233b56",
+      "git:hexsha": "19540e0a13b1d0490b8fef234ee24b1157233b56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/17b51997d34be1ce71581b07206ba9e29c865aa8",
+      "git:hexsha": "17b51997d34be1ce71581b07206ba9e29c865aa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0b0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/af24670bc00d38228e62259c0c294e2236a6abba",
+      "git:hexsha": "af24670bc00d38228e62259c0c294e2236a6abba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/b20d84e97a68c1451feae36c3a7cce7f942e8e80",
+      "git:hexsha": "b20d84e97a68c1451feae36c3a7cce7f942e8e80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/fa2958547ffc21c3d136d52c0901c6556d019814",
+      "git:hexsha": "fa2958547ffc21c3d136d52c0901c6556d019814",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/8bcecad1cd463fddcbb3ecc16fea3b05c60e3ab0",
+      "git:hexsha": "8bcecad1cd463fddcbb3ecc16fea3b05c60e3ab0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/6212bf6a5bcbde724e27e0a814cf87eabea661a0",
+      "git:hexsha": "6212bf6a5bcbde724e27e0a814cf87eabea661a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/5fb7b50281e0e61f90833d5bf017e87c88daf809",
+      "git:hexsha": "5fb7b50281e0e61f90833d5bf017e87c88daf809",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4bb79c28272bc980e5a7e8537ea555b3ad4e5d75",
+      "git:hexsha": "4bb79c28272bc980e5a7e8537ea555b3ad4e5d75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/79553f48f740d40461f8fc06325a944e023300e6",
+      "git:hexsha": "79553f48f740d40461f8fc06325a944e023300e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/886a10dfa7119222d4cf3644294ceecd611ca83f",
+      "git:hexsha": "886a10dfa7119222d4cf3644294ceecd611ca83f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/96efe2e4591d760c78c7d60f43983afea547b108",
+      "git:hexsha": "96efe2e4591d760c78c7d60f43983afea547b108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/2046c541f5af219eff3aab83dfd1862290c0d2cf",
+      "git:hexsha": "2046c541f5af219eff3aab83dfd1862290c0d2cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/370015dbf011d99718a11cba024aa2ce8cb538df",
+      "git:hexsha": "370015dbf011d99718a11cba024aa2ce8cb538df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/a1a732580cc33ab77ec6539ffe2047ff5b7ed0e1",
+      "git:hexsha": "a1a732580cc33ab77ec6539ffe2047ff5b7ed0e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/1ad457440a8e800da4f08eb8d34b957181c7b83e",
+      "git:hexsha": "1ad457440a8e800da4f08eb8d34b957181c7b83e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0b0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/63ddd7c9b3ba134009fd8e52a3592e711e293734",
+      "git:hexsha": "63ddd7c9b3ba134009fd8e52a3592e711e293734",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/1a231bf3db468cc759337447e9b79a0e9f83e7d7",
+      "git:hexsha": "1a231bf3db468cc759337447e9b79a0e9f83e7d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/890b594b0c66a72537d4e16ccfed1613b1751f7f",
+      "git:hexsha": "890b594b0c66a72537d4e16ccfed1613b1751f7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/ba29eae70e99fe8c270f1ccb684a42d8de64645b",
+      "git:hexsha": "ba29eae70e99fe8c270f1ccb684a42d8de64645b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/a7818419f8fd86c4c70d2fe8f29ab7859a68a248",
+      "git:hexsha": "a7818419f8fd86c4c70d2fe8f29ab7859a68a248",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/da27f2e5da56b1705509e301328c1867f1a39a3c",
+      "git:hexsha": "da27f2e5da56b1705509e301328c1867f1a39a3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4f44704a072b5e325df763bd50c1de0a1ec7f802",
+      "git:hexsha": "4f44704a072b5e325df763bd50c1de0a1ec7f802",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/0d377264afa6dbd2ded644ed98cfe1ca8769c90f",
+      "git:hexsha": "0d377264afa6dbd2ded644ed98cfe1ca8769c90f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/769b5653c4e75098deb62208f5fd13952b27b85b",
+      "git:hexsha": "769b5653c4e75098deb62208f5fd13952b27b85b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/f8f1992ed4a0ddc08cd186fb6888a894292dc3de",
+      "git:hexsha": "f8f1992ed4a0ddc08cd186fb6888a894292dc3de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/26b9aa409275e0f5f9b3df70fafaaa1ed977a775",
+      "git:hexsha": "26b9aa409275e0f5f9b3df70fafaaa1ed977a775",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/9a76bec5bda066ea2beb67d4e50fbbc83bf9185c",
+      "git:hexsha": "9a76bec5bda066ea2beb67d4e50fbbc83bf9185c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/3e663fcd931049fc9b21cd29b4178da43926e890",
+      "git:hexsha": "3e663fcd931049fc9b21cd29b4178da43926e890",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/8fc34d4cc164cf17b2d7481f470b5d2b2e922e35",
+      "git:hexsha": "8fc34d4cc164cf17b2d7481f470b5d2b2e922e35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/98e896c7263a5f4c4de85f8543ba4f540e6c3c8d",
+      "git:hexsha": "98e896c7263a5f4c4de85f8543ba4f540e6c3c8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/6301f603f2689da2b74a29146fa2fba3f4013420",
+      "git:hexsha": "6301f603f2689da2b74a29146fa2fba3f4013420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/43347b900ac3a26526a6470cd26f5215157730ed",
+      "git:hexsha": "43347b900ac3a26526a6470cd26f5215157730ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/a5c5b9c433504f6f744419a6e82608f69cde27c9",
+      "git:hexsha": "a5c5b9c433504f6f744419a6e82608f69cde27c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/333ce4a4b0421162746d8531f6c48002bbcdf54d",
+      "git:hexsha": "333ce4a4b0421162746d8531f6c48002bbcdf54d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/61034dbc1bc8e21f222ce72f0c3bf11b1fb948cc",
+      "git:hexsha": "61034dbc1bc8e21f222ce72f0c3bf11b1fb948cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e83564dd6d0d70278deb049932874f40b1b82fcf",
+      "git:hexsha": "e83564dd6d0d70278deb049932874f40b1b82fcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/030aa6cb6065d95506d1cf4f22ef8e30007796ce",
+      "git:hexsha": "030aa6cb6065d95506d1cf4f22ef8e30007796ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/19602f5311d2516d041a2bccfa760f4ef4c994e0",
+      "git:hexsha": "19602f5311d2516d041a2bccfa760f4ef4c994e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/690520acd16b86a241ad0666637dfffb03360b93",
+      "git:hexsha": "690520acd16b86a241ad0666637dfffb03360b93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/f8a0543dc9dfd3e80ee24c605650047c23e07f95",
+      "git:hexsha": "f8a0543dc9dfd3e80ee24c605650047c23e07f95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/b20239d07251c3c910cad1d843cf854f8426189c",
+      "git:hexsha": "b20239d07251c3c910cad1d843cf854f8426189c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e86bc2b5d62a81d3541716ed9a4113eecc27c90e",
+      "git:hexsha": "e86bc2b5d62a81d3541716ed9a4113eecc27c90e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/65721cb6523c0ed0da680d25a4b17c573912a93c",
+      "git:hexsha": "65721cb6523c0ed0da680d25a4b17c573912a93c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/9d941d9f98a6fb64da826d89c82cce43503d7fa7",
+      "git:hexsha": "9d941d9f98a6fb64da826d89c82cce43503d7fa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/83e445433c57fa12c191e5a76fd9ca205103a877",
+      "git:hexsha": "83e445433c57fa12c191e5a76fd9ca205103a877",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/4d56346f42526fc4e86f5628dd109fbf2eddea01",
+      "git:hexsha": "4d56346f42526fc4e86f5628dd109fbf2eddea01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/979042315eb33a26e22ec239ffa155bcf1844247",
+      "git:hexsha": "979042315eb33a26e22ec239ffa155bcf1844247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/478c34ed2712b26888b3751407769ba68f7a245a",
+      "git:hexsha": "478c34ed2712b26888b3751407769ba68f7a245a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/8ad57920db4d6b2d55e529be97a6a413284f9aed",
+      "git:hexsha": "8ad57920db4d6b2d55e529be97a6a413284f9aed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0a9"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/33876c88b166755774451055869704af65786ab4",
+      "git:hexsha": "33876c88b166755774451055869704af65786ab4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/d670aa9e46b6540f04464b5d30ed40288b701744",
+      "git:hexsha": "d670aa9e46b6540f04464b5d30ed40288b701744",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/62642153501f30aaee26d2f2a5e480ed5e552d4c",
+      "git:hexsha": "62642153501f30aaee26d2f2a5e480ed5e552d4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/10a132210d27ee8a2e08af91e0ec8facf94f28b8",
+      "git:hexsha": "10a132210d27ee8a2e08af91e0ec8facf94f28b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/ad6e3f028b0532fdf604a92ffca3238c2bd8ef4f",
+      "git:hexsha": "ad6e3f028b0532fdf604a92ffca3238c2bd8ef4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/efc8a83156034c2f1baabe4c359652ce0455bfd9",
+      "git:hexsha": "efc8a83156034c2f1baabe4c359652ce0455bfd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/3153b10fc12a6b37417c69beed3b333e9bc64b89",
+      "git:hexsha": "3153b10fc12a6b37417c69beed3b333e9bc64b89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/b7a5ce742ebc5d7576e4dbd0249aafc0f1d0fb88",
+      "git:hexsha": "b7a5ce742ebc5d7576e4dbd0249aafc0f1d0fb88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/02394f7c6ec3553e467fd9056de4a38697307a87",
+      "git:hexsha": "02394f7c6ec3553e467fd9056de4a38697307a87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/170c14d9de2647acbfdde5472d6c043d117b0a37",
+      "git:hexsha": "170c14d9de2647acbfdde5472d6c043d117b0a37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/1cec0bcf3fc955d5f1975270a01e782e09505058",
+      "git:hexsha": "1cec0bcf3fc955d5f1975270a01e782e09505058",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/029e55add4b971997873429b191fcfbe513c4611",
+      "git:hexsha": "029e55add4b971997873429b191fcfbe513c4611",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.3a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/b06f7118928167e193fcad4646512b4d2f947309",
+      "git:hexsha": "b06f7118928167e193fcad4646512b4d2f947309",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/39ba400b4e0143ee348c8cfc2f66d7a198c7e1bd",
+      "git:hexsha": "39ba400b4e0143ee348c8cfc2f66d7a198c7e1bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.4rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/66e7103af365c55ffed2fcd2ee7071df09c9103d",
+      "git:hexsha": "66e7103af365c55ffed2fcd2ee7071df09c9103d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.4rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/5eb9cd491590335033c748f2e8c1ca388ba956da",
+      "git:hexsha": "5eb9cd491590335033c748f2e8c1ca388ba956da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/0d1aa08dd9f13b520a18004ac1e1773278c57919",
+      "git:hexsha": "0d1aa08dd9f13b520a18004ac1e1773278c57919",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.5rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/1434b2e5ac8243bc618b7b8b4c5527eaff93695d",
+      "git:hexsha": "1434b2e5ac8243bc618b7b8b4c5527eaff93695d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/334a5e43311e5c6215b23516e4afe566a42dd20f",
+      "git:hexsha": "334a5e43311e5c6215b23516e4afe566a42dd20f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/a315de762e1a3300877e210aac91798edc3ced29",
+      "git:hexsha": "a315de762e1a3300877e210aac91798edc3ced29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/0a099b568af1f4f4269a244ad86bbead8dfe1d7f",
+      "git:hexsha": "0a099b568af1f4f4269a244ad86bbead8dfe1d7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/ffcbbe7654acba4c7c0dea920ef1aca702c59038",
+      "git:hexsha": "ffcbbe7654acba4c7c0dea920ef1aca702c59038",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/f1a83bc2fd14a897b1c4a5cce86c28182b6b5ddc",
+      "git:hexsha": "f1a83bc2fd14a897b1c4a5cce86c28182b6b5ddc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.6a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/2d335427582c0f88c59d20337ba848e676b08826",
+      "git:hexsha": "2d335427582c0f88c59d20337ba848e676b08826",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.7a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/3c03912ba3901cba9f009b447b5ef5ba45d89572",
+      "git:hexsha": "3c03912ba3901cba9f009b447b5ef5ba45d89572",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.7a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/279c7fc5662a2fd409eeddb53c3385b3de5a5cdd",
+      "git:hexsha": "279c7fc5662a2fd409eeddb53c3385b3de5a5cdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.7a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/69cb772f675efcdc74da048e02b0c683638e29cb",
+      "git:hexsha": "69cb772f675efcdc74da048e02b0c683638e29cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.7a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/004fa810197c9ca5ad0d848f0c1c3d3732330fa6",
+      "git:hexsha": "004fa810197c9ca5ad0d848f0c1c3d3732330fa6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "website"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/geoviews/commit/e70319d2cde2bae634aa5160d9dfeb8ed5232ea5",
+      "git:hexsha": "e70319d2cde2bae634aa5160d9dfeb8ed5232ea5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "website_dev"
+    }
+  ]
+}

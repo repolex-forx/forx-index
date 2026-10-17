@@ -1,0 +1,831 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/holoviz/hvplot",
+  "@type": "gh:Repository",
+  "gh:name": "hvplot",
+  "gh:owner": "holoviz",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/3fc8075f9d809d0b4a7401dfa137d29ffc03fbf5",
+      "git:hexsha": "3fc8075f9d809d0b4a7401dfa137d29ffc03fbf5",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-16T23:47:17.182050+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/361a716ea1fa3500d56386f9fa0e1974fb423554",
+      "git:hexsha": "361a716ea1fa3500d56386f9fa0e1974fb423554",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/35dfa7fb8df35a5e86d2d0fbf1139b2f25a75329",
+      "git:hexsha": "35dfa7fb8df35a5e86d2d0fbf1139b2f25a75329",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/ed79e15d58a65019fd4801cd12560359c58ebe65",
+      "git:hexsha": "ed79e15d58a65019fd4801cd12560359c58ebe65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/2b8d08fa94398a5b33b2caa6ae0299e3e8d576a3",
+      "git:hexsha": "2b8d08fa94398a5b33b2caa6ae0299e3e8d576a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.1a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/629a814ad7fb2c2f5704857c16af245dd2e9e01d",
+      "git:hexsha": "629a814ad7fb2c2f5704857c16af245dd2e9e01d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.1a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/ed90c5aa22f3afcf4f0c8c4b8ea61a94a05e7dc1",
+      "git:hexsha": "ed90c5aa22f3afcf4f0c8c4b8ea61a94a05e7dc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/4261bc18b83c9f77b08c3dca770f5b72af9d76b4",
+      "git:hexsha": "4261bc18b83c9f77b08c3dca770f5b72af9d76b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/deb8fa1380cdb71cc5bf8019f9847ab8403fb200",
+      "git:hexsha": "deb8fa1380cdb71cc5bf8019f9847ab8403fb200",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/24b07b66b58d28399f913b27bd559d911602995f",
+      "git:hexsha": "24b07b66b58d28399f913b27bd559d911602995f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/1753511425f3dff24255ff2b09ef65b8f77443b0",
+      "git:hexsha": "1753511425f3dff24255ff2b09ef65b8f77443b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7864661787f2a3583fe39899c862a5ef3bd7d91f",
+      "git:hexsha": "7864661787f2a3583fe39899c862a5ef3bd7d91f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/d5b9071dc4a40ec1f8a3b6e846dd1b468863daee",
+      "git:hexsha": "d5b9071dc4a40ec1f8a3b6e846dd1b468863daee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/6c96c7e9abcd44380d2122e3d86827dedab32dea",
+      "git:hexsha": "6c96c7e9abcd44380d2122e3d86827dedab32dea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/c2873cf6099a4e6c10dd5ce18513d4b3d0545f62",
+      "git:hexsha": "c2873cf6099a4e6c10dd5ce18513d4b3d0545f62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/b36e3a15168d9ca5f5370337be39b568de5e3add",
+      "git:hexsha": "b36e3a15168d9ca5f5370337be39b568de5e3add",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/feffee5beaf2cfe6f2676a464802a66c431e432f",
+      "git:hexsha": "feffee5beaf2cfe6f2676a464802a66c431e432f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/efeda78018a8b84b73e6febece6d116a30a405d7",
+      "git:hexsha": "efeda78018a8b84b73e6febece6d116a30a405d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/266565b9b54414b7eed62203dcfcdc460f098505",
+      "git:hexsha": "266565b9b54414b7eed62203dcfcdc460f098505",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/942b14ec0fcebe99d32ca86cb84a34bae2ed524b",
+      "git:hexsha": "942b14ec0fcebe99d32ca86cb84a34bae2ed524b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/90783783b91b9d42a6970bf402e012ec9fd3e73e",
+      "git:hexsha": "90783783b91b9d42a6970bf402e012ec9fd3e73e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/aaa09a8381630fd22e554d762cc5d2fc76c8bc63",
+      "git:hexsha": "aaa09a8381630fd22e554d762cc5d2fc76c8bc63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/ddc73ae7311fd339bc59ff1f4b1f8aedf34fae3d",
+      "git:hexsha": "ddc73ae7311fd339bc59ff1f4b1f8aedf34fae3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/dc8b5783cfeb65d64e8b3d044803fefa67f4ca89",
+      "git:hexsha": "dc8b5783cfeb65d64e8b3d044803fefa67f4ca89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/a98ff46869c1aa7b07a097cf7c4a17b5083e20b0",
+      "git:hexsha": "a98ff46869c1aa7b07a097cf7c4a17b5083e20b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.3rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/49a15a0712c7be8f046b966b089909ac2f3e35c4",
+      "git:hexsha": "49a15a0712c7be8f046b966b089909ac2f3e35c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.3a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/20a9594cda5cb7ba79118566001144fb27ebb98e",
+      "git:hexsha": "20a9594cda5cb7ba79118566001144fb27ebb98e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/eb13fe1f0a337dcedaf80733cef17d1479742ea9",
+      "git:hexsha": "eb13fe1f0a337dcedaf80733cef17d1479742ea9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/80ea470bf2f064ba84d8a5e73c6107bf4e6517d6",
+      "git:hexsha": "80ea470bf2f064ba84d8a5e73c6107bf4e6517d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/c41bb359c5214d0e1629e99e29cd561294ffe8ec",
+      "git:hexsha": "c41bb359c5214d0e1629e99e29cd561294ffe8ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/f9661ea95fa34f05daef0dc32101711b9e468675",
+      "git:hexsha": "f9661ea95fa34f05daef0dc32101711b9e468675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/f711ae2f9acc122688a7dff28764e62b71cbbeac",
+      "git:hexsha": "f711ae2f9acc122688a7dff28764e62b71cbbeac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/0bb3827f526b27fce6eb78c2a7f9bd533ae6fa3a",
+      "git:hexsha": "0bb3827f526b27fce6eb78c2a7f9bd533ae6fa3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/51b663497655b085f5a54fa9818f935dab5069ad",
+      "git:hexsha": "51b663497655b085f5a54fa9818f935dab5069ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7e3bd9d4eaf8ad6bddb94cee0b1c4228ee566582",
+      "git:hexsha": "7e3bd9d4eaf8ad6bddb94cee0b1c4228ee566582",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/80f139c9cf2dde5672f2c0ad83f1c9ad9c4f3d4a",
+      "git:hexsha": "80f139c9cf2dde5672f2c0ad83f1c9ad9c4f3d4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/896f3846cfb8280b37aa2a4b05e76c01d810315a",
+      "git:hexsha": "896f3846cfb8280b37aa2a4b05e76c01d810315a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a11"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/6cbe60dcd868bfa4cd28f1b799acd762e2dbe1f7",
+      "git:hexsha": "6cbe60dcd868bfa4cd28f1b799acd762e2dbe1f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/5e19973e717e54d41dbdbb13c15aeefe44bef756",
+      "git:hexsha": "5e19973e717e54d41dbdbb13c15aeefe44bef756",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a10"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/99aece46b918311fb600a76351b52228ae64c8d7",
+      "git:hexsha": "99aece46b918311fb600a76351b52228ae64c8d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/850c259bd3ab6af45f9cf77c39fde32ef3764426",
+      "git:hexsha": "850c259bd3ab6af45f9cf77c39fde32ef3764426",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/521337c83df6e97c80b19e000a7ca307ff6cc5f2",
+      "git:hexsha": "521337c83df6e97c80b19e000a7ca307ff6cc5f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/272367b7fe54c19664efbe953b792ebc9bc79a1b",
+      "git:hexsha": "272367b7fe54c19664efbe953b792ebc9bc79a1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/3af87869a2e5e7d3c40ce599fd3db23111769dfd",
+      "git:hexsha": "3af87869a2e5e7d3c40ce599fd3db23111769dfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/d41cce06b12895435c7616378b853ba83249dd51",
+      "git:hexsha": "d41cce06b12895435c7616378b853ba83249dd51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/55c643ae3a9a8cb06cc796d6a3295a1aac863672",
+      "git:hexsha": "55c643ae3a9a8cb06cc796d6a3295a1aac863672",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/20fe255a1a7a5a60eda96b4535de8162120ae31f",
+      "git:hexsha": "20fe255a1a7a5a60eda96b4535de8162120ae31f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0a9"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/9ab3e1ab34f117e4d0df4c9bfe6993f51914346f",
+      "git:hexsha": "9ab3e1ab34f117e4d0df4c9bfe6993f51914346f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/26e6e42959c0f942e6bac1dac355712a443c43b6",
+      "git:hexsha": "26e6e42959c0f942e6bac1dac355712a443c43b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/ba981164729090eb3d414e8f12ce2f3edbd8ea25",
+      "git:hexsha": "ba981164729090eb3d414e8f12ce2f3edbd8ea25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/6c5e3ab015b488138f72d62e89a5b6cde4a75e8b",
+      "git:hexsha": "6c5e3ab015b488138f72d62e89a5b6cde4a75e8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/d4335ba64d0cf9d663eb003130d4f84680dc9af5",
+      "git:hexsha": "d4335ba64d0cf9d663eb003130d4f84680dc9af5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/520ee043e6e5344568e30c76c136e2a853951a5f",
+      "git:hexsha": "520ee043e6e5344568e30c76c136e2a853951a5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/e5bcb22b29eac278929a077223a9f92c35a9e540",
+      "git:hexsha": "e5bcb22b29eac278929a077223a9f92c35a9e540",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/f041c812a5ab078ad4e8dfbfa952ea8330f5dd0f",
+      "git:hexsha": "f041c812a5ab078ad4e8dfbfa952ea8330f5dd0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/49f397f8264333cebb9a80b215ff8b7e1525e56d",
+      "git:hexsha": "49f397f8264333cebb9a80b215ff8b7e1525e56d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/1f3608fab2d9f66a54c75809f6c3addf409ea19c",
+      "git:hexsha": "1f3608fab2d9f66a54c75809f6c3addf409ea19c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/98a6cf9d3009cb8357bb3904f5c6cfccd7b930dd",
+      "git:hexsha": "98a6cf9d3009cb8357bb3904f5c6cfccd7b930dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/44ff38a95b5271bc9ec6aa0df06675b2b6cd0b2b",
+      "git:hexsha": "44ff38a95b5271bc9ec6aa0df06675b2b6cd0b2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/f0984c90a7c90e99237206d725aee1a2272bc48b",
+      "git:hexsha": "f0984c90a7c90e99237206d725aee1a2272bc48b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/ab43c4f68aa7e485326dea567a348b96d24ebf60",
+      "git:hexsha": "ab43c4f68aa7e485326dea567a348b96d24ebf60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/743a1edadec477a1528b06cd5aa5018a916dec87",
+      "git:hexsha": "743a1edadec477a1528b06cd5aa5018a916dec87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/5d5a93239ab172f984c8f490b3931792e4b771f1",
+      "git:hexsha": "5d5a93239ab172f984c8f490b3931792e4b771f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/3bd2b97fd6f5c1734f111f30661a32d4a79951ba",
+      "git:hexsha": "3bd2b97fd6f5c1734f111f30661a32d4a79951ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/864094255210230daa45d360764b902b18f6a905",
+      "git:hexsha": "864094255210230daa45d360764b902b18f6a905",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/0301d73f36d49c9c5fc98604cf91ca4638b0b44d",
+      "git:hexsha": "0301d73f36d49c9c5fc98604cf91ca4638b0b44d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/1b47e3c57be475d94ec4b2b4f205fa21ac19c370",
+      "git:hexsha": "1b47e3c57be475d94ec4b2b4f205fa21ac19c370",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.3a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/e20282fc3c81ed883e90271b6e778b276fbbe318",
+      "git:hexsha": "e20282fc3c81ed883e90271b6e778b276fbbe318",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/74fec9c791a59172da043e5bc370bbe797f434ec",
+      "git:hexsha": "74fec9c791a59172da043e5bc370bbe797f434ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/f11f9e4986674c058b0cf37d171e3cdfcbead4d6",
+      "git:hexsha": "f11f9e4986674c058b0cf37d171e3cdfcbead4d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/36ca8c340c6a360f2d26d28479b0917408875276",
+      "git:hexsha": "36ca8c340c6a360f2d26d28479b0917408875276",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/bf14068fe4d8ffee6bb63ced96d78b142074f3a1",
+      "git:hexsha": "bf14068fe4d8ffee6bb63ced96d78b142074f3a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/bae64f74b3cc306cb5174d74937bb8a9147433ea",
+      "git:hexsha": "bae64f74b3cc306cb5174d74937bb8a9147433ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/4b6ac13713a8dfd4efc88af1edaf9890d484f33a",
+      "git:hexsha": "4b6ac13713a8dfd4efc88af1edaf9890d484f33a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/0d2291e66886057199d7669e4da152c35551d1ad",
+      "git:hexsha": "0d2291e66886057199d7669e4da152c35551d1ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/939128c0e54ade18daf9d708f13c2525bf60a7d5",
+      "git:hexsha": "939128c0e54ade18daf9d708f13c2525bf60a7d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/b713bffccc90681cf5d5458834f68fef6fd4f4b3",
+      "git:hexsha": "b713bffccc90681cf5d5458834f68fef6fd4f4b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/8f19216ca499edb6769f4334c9aae038d5626b21",
+      "git:hexsha": "8f19216ca499edb6769f4334c9aae038d5626b21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/8ee596158b40581a0cb6a6207699d25537671952",
+      "git:hexsha": "8ee596158b40581a0cb6a6207699d25537671952",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/b4311f100b19bba0b4aef4048d94d6d16fc88d18",
+      "git:hexsha": "b4311f100b19bba0b4aef4048d94d6d16fc88d18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/99c2d769b3db697eff3ebf89ee1ea2c7d02b19f0",
+      "git:hexsha": "99c2d769b3db697eff3ebf89ee1ea2c7d02b19f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/5aa9d34b9ceb2c670fff54b2ba926886504d86c5",
+      "git:hexsha": "5aa9d34b9ceb2c670fff54b2ba926886504d86c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/47746d321ea5a204f86d9fab577ca8fe456db4ce",
+      "git:hexsha": "47746d321ea5a204f86d9fab577ca8fe456db4ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/52a6ca5b3db299f5f022ab46e5fad2a46ee05042",
+      "git:hexsha": "52a6ca5b3db299f5f022ab46e5fad2a46ee05042",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/8d3c7ecbc0ba296ea34d799cc1b069839df7ec56",
+      "git:hexsha": "8d3c7ecbc0ba296ea34d799cc1b069839df7ec56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/fb1a891b967d9c1c631dfcd6bcd29faa279e40c6",
+      "git:hexsha": "fb1a891b967d9c1c631dfcd6bcd29faa279e40c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7dac942965f69973197304514c82fd499e3999fd",
+      "git:hexsha": "7dac942965f69973197304514c82fd499e3999fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/9c681fdfb8687e5520e87b7299ea248a7912261e",
+      "git:hexsha": "9c681fdfb8687e5520e87b7299ea248a7912261e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/816985e8b1342ac86189ab4082b3394c18b8b0ca",
+      "git:hexsha": "816985e8b1342ac86189ab4082b3394c18b8b0ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/90a9bd5fa033d0e7f40998ba69ca0ff92d0c07e6",
+      "git:hexsha": "90a9bd5fa033d0e7f40998ba69ca0ff92d0c07e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/c9965b638dec486aa522ddacc5069ba8dced9f2b",
+      "git:hexsha": "c9965b638dec486aa522ddacc5069ba8dced9f2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/276526ba11b6476d1900745b9d905aea9c7800b2",
+      "git:hexsha": "276526ba11b6476d1900745b9d905aea9c7800b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/1d0f9222c52b6ca094e1d20f1643ed7bdc1522d9",
+      "git:hexsha": "1d0f9222c52b6ca094e1d20f1643ed7bdc1522d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/04f6dae12c449987abf69601be47c1e292e1ab3a",
+      "git:hexsha": "04f6dae12c449987abf69601be47c1e292e1ab3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/e75c345d097bf66b82c9af6a1b3b672b969a4003",
+      "git:hexsha": "e75c345d097bf66b82c9af6a1b3b672b969a4003",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/cd222418329a244fb63686e2bc5f4248d57c2c7e",
+      "git:hexsha": "cd222418329a244fb63686e2bc5f4248d57c2c7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a10"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7864275f479ec90fa9de779bffd21d8d532f5dfe",
+      "git:hexsha": "7864275f479ec90fa9de779bffd21d8d532f5dfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a11"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/bf9711dd955f591093b1db94f0191b054e72a9e1",
+      "git:hexsha": "bf9711dd955f591093b1db94f0191b054e72a9e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a12"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/27d5f2b44a86feeca7eb6d0eacbf70d0171d7303",
+      "git:hexsha": "27d5f2b44a86feeca7eb6d0eacbf70d0171d7303",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a13"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/0f721328cecfdcc6afd0c0c07fa17eecf099d745",
+      "git:hexsha": "0f721328cecfdcc6afd0c0c07fa17eecf099d745",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a14"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/cc0cab5b19fb23cb960367b0ecc72d9da7478b7b",
+      "git:hexsha": "cc0cab5b19fb23cb960367b0ecc72d9da7478b7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a15"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/222b53385b42a87fd057af8b032e67747e569a08",
+      "git:hexsha": "222b53385b42a87fd057af8b032e67747e569a08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a16"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/881edbe371dc1cb49f4c75871539f4a51fba54fb",
+      "git:hexsha": "881edbe371dc1cb49f4c75871539f4a51fba54fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a17"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/08d16855a128a117523d23536fb7dcd9a7143deb",
+      "git:hexsha": "08d16855a128a117523d23536fb7dcd9a7143deb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a18"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7f231c456e9c214ddcd00de83f27c276cc27ab46",
+      "git:hexsha": "7f231c456e9c214ddcd00de83f27c276cc27ab46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/68f874de156df0a400b8b7f9307c8a008ee1e0f5",
+      "git:hexsha": "68f874de156df0a400b8b7f9307c8a008ee1e0f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/60d5195edba6dbe60bab5e9a4f2df3fa9aeec47a",
+      "git:hexsha": "60d5195edba6dbe60bab5e9a4f2df3fa9aeec47a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/a32da7ab0b392059d96e0b3cbab9752d554a8f76",
+      "git:hexsha": "a32da7ab0b392059d96e0b3cbab9752d554a8f76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/2c72897805b5e4799d3f96c265739adf122435a1",
+      "git:hexsha": "2c72897805b5e4799d3f96c265739adf122435a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/2b9dfeddb2adbc25a053d4f8765feafc8b0f83b8",
+      "git:hexsha": "2b9dfeddb2adbc25a053d4f8765feafc8b0f83b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/d46ed4600458c0e09fcd0d1c9691c0179a8c60f7",
+      "git:hexsha": "d46ed4600458c0e09fcd0d1c9691c0179a8c60f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/8e78795417cf64ac3e14e4f3db81dfdb11412e66",
+      "git:hexsha": "8e78795417cf64ac3e14e4f3db81dfdb11412e66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0a9"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/41bf83a90455dbb54413c82c504fca5063fba9c9",
+      "git:hexsha": "41bf83a90455dbb54413c82c504fca5063fba9c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/b5ad66ee61624faa73967a05b99767975490b757",
+      "git:hexsha": "b5ad66ee61624faa73967a05b99767975490b757",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/abb11a076c8eb2858f0cb29d7f6517187ab1f0ba",
+      "git:hexsha": "abb11a076c8eb2858f0cb29d7f6517187ab1f0ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/9aa49b75796c9b66bf604daaa5bce529b8cde626",
+      "git:hexsha": "9aa49b75796c9b66bf604daaa5bce529b8cde626",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/877cdf0f206ae3fcb3a7ed30eea4a1935c92b9f8",
+      "git:hexsha": "877cdf0f206ae3fcb3a7ed30eea4a1935c92b9f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7d556efbf200a0d225c243c8c8c7b02e0b7627a6",
+      "git:hexsha": "7d556efbf200a0d225c243c8c8c7b02e0b7627a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/fe39eff256f031889f089b239489d33f88658fa0",
+      "git:hexsha": "fe39eff256f031889f089b239489d33f88658fa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/671fcaf2231b8803226362483d202c7d1059ce10",
+      "git:hexsha": "671fcaf2231b8803226362483d202c7d1059ce10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/ad3b118ca9ff62792e29de08ffd93ef9047c6af2",
+      "git:hexsha": "ad3b118ca9ff62792e29de08ffd93ef9047c6af2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/7796bc3e78203d7fd26743fa30ebae824df8a783",
+      "git:hexsha": "7796bc3e78203d7fd26743fa30ebae824df8a783",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/d336e111bf255a990e4475c09a00f8a7cf65f8ad",
+      "git:hexsha": "d336e111bf255a990e4475c09a00f8a7cf65f8ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.4a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/aa66475e10baf4ec8fce78a5ab82d603ad6bff50",
+      "git:hexsha": "aa66475e10baf4ec8fce78a5ab82d603ad6bff50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.5a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/33d17827f97a7bbaf6d33eeffc308ea26b33e960",
+      "git:hexsha": "33d17827f97a7bbaf6d33eeffc308ea26b33e960",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/46457d93d11a8952cff409355b815f716f798731",
+      "git:hexsha": "46457d93d11a8952cff409355b815f716f798731",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/5b4b9e4b4cb1956d66503dfe48d3502371a1cc42",
+      "git:hexsha": "5b4b9e4b4cb1956d66503dfe48d3502371a1cc42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/547c4bc655fef8a451098d35fd67c1da238386b4",
+      "git:hexsha": "547c4bc655fef8a451098d35fd67c1da238386b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/10590ec0279413c24d6ad979d61cff0cd056fc14",
+      "git:hexsha": "10590ec0279413c24d6ad979d61cff0cd056fc14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/a890ed9cbfca14a02821457a66ac665a1ce12d03",
+      "git:hexsha": "a890ed9cbfca14a02821457a66ac665a1ce12d03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/734c0cc922152ea6a0f3332bc2bf19f5430d7629",
+      "git:hexsha": "734c0cc922152ea6a0f3332bc2bf19f5430d7629",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/4e9f860be9d9ff5e03b91646473b0b91976d8445",
+      "git:hexsha": "4e9f860be9d9ff5e03b91646473b0b91976d8445",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/9899b687ba377ab77cfce56817d63d022bfc4378",
+      "git:hexsha": "9899b687ba377ab77cfce56817d63d022bfc4378",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/6c33e47b740e0a5093688a855e99559245c553fd",
+      "git:hexsha": "6c33e47b740e0a5093688a855e99559245c553fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.3a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/e5e71d6b7adb89a810491963c4c83cb3f97e4699",
+      "git:hexsha": "e5e71d6b7adb89a810491963c4c83cb3f97e4699",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.3a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/0ccd8a923eb716ca4b3ac97c4357dd12f7597a8e",
+      "git:hexsha": "0ccd8a923eb716ca4b3ac97c4357dd12f7597a8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "website"
+    },
+    {
+      "@id": "https://repolex.ai/r/holoviz/hvplot/commit/689fcacd1f3bd91dbe0db536da518e083ab7c67d",
+      "git:hexsha": "689fcacd1f3bd91dbe0db536da518e083ab7c67d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "website_dev"
+    }
+  ]
+}
