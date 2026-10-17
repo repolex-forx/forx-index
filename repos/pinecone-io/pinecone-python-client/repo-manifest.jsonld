@@ -1,0 +1,807 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client",
+  "@type": "gh:Repository",
+  "gh:name": "pinecone-python-client",
+  "gh:owner": "pinecone-io",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/0a97b36afe9ba86b7facf37946426414d888cd38",
+      "git:hexsha": "0a97b36afe9ba86b7facf37946426414d888cd38",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T07:58:24.541950+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8d9aea1c65c664e499863ff1ec5403b2ea2b9e18",
+      "git:hexsha": "8d9aea1c65c664e499863ff1ec5403b2ea2b9e18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0a6-alpha"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ab15015c521392f766848153ded4ecde661b06c7",
+      "git:hexsha": "ab15015c521392f766848153ded4ecde661b06c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8f40d4db2ce37d3dd54fa092abc64c7ce0a8585c",
+      "git:hexsha": "8f40d4db2ce37d3dd54fa092abc64c7ce0a8585c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "pinecone-client-v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/0f9711c17221c3174c3ed54c32d3e2033b464074",
+      "git:hexsha": "0f9711c17221c3174c3ed54c32d3e2033b464074",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/050d6c947cd69a123e62a006fe2967ba55e07d88",
+      "git:hexsha": "050d6c947cd69a123e62a006fe2967ba55e07d88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/43f0bff60bddb2b612d5dc7e75ea1abf576b1d7d",
+      "git:hexsha": "43f0bff60bddb2b612d5dc7e75ea1abf576b1d7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.1.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ce574ae0ec297c7cc093d22a0e8619675b0945c6",
+      "git:hexsha": "ce574ae0ec297c7cc093d22a0e8619675b0945c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/5521c47e4b870a4e6313f559021e0ef5c2c3cffd",
+      "git:hexsha": "5521c47e4b870a4e6313f559021e0ef5c2c3cffd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/54249e3f4870771e952fd32312214bbbbdb76d19",
+      "git:hexsha": "54249e3f4870771e952fd32312214bbbbdb76d19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/aaecc4e49d6ea8c9074d4bfd268e7d63056215cf",
+      "git:hexsha": "aaecc4e49d6ea8c9074d4bfd268e7d63056215cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/f521dcd7f795aa4c7c811372bd8cdda29041c516",
+      "git:hexsha": "f521dcd7f795aa4c7c811372bd8cdda29041c516",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/40e8b449d65fd53f4fa9e0058ffe27fb876b9ce3",
+      "git:hexsha": "40e8b449d65fd53f4fa9e0058ffe27fb876b9ce3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ab9539c2368cc7fd6e8ec8e88ff51280405ed67e",
+      "git:hexsha": "ab9539c2368cc7fd6e8ec8e88ff51280405ed67e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/fe36f1533a6cfe6e033c1dc590a757e5b7ee4a9d",
+      "git:hexsha": "fe36f1533a6cfe6e033c1dc590a757e5b7ee4a9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/c294a51edfe55ad89c534951bb700f7a5b8199bf",
+      "git:hexsha": "c294a51edfe55ad89c534951bb700f7a5b8199bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a98133d54ced7e8293a78dc17156d83bea6d9335",
+      "git:hexsha": "a98133d54ced7e8293a78dc17156d83bea6d9335",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/58b2de006fe4d9eb0d6b0f473112aff763816ebb",
+      "git:hexsha": "58b2de006fe4d9eb0d6b0f473112aff763816ebb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ad7ae8eca9dc389cc786b0f6473b5177482d7a95",
+      "git:hexsha": "ad7ae8eca9dc389cc786b0f6473b5177482d7a95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/bb466fedcfd3d5dcce1abbb9daf9eb6d5794e3cc",
+      "git:hexsha": "bb466fedcfd3d5dcce1abbb9daf9eb6d5794e3cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/f9c7c2c6375e3e315fb8a894b10f9ddc022e1ae3",
+      "git:hexsha": "f9c7c2c6375e3e315fb8a894b10f9ddc022e1ae3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/1d606195e1931ae724a12781ce68e106c18b366a",
+      "git:hexsha": "1d606195e1931ae724a12781ce68e106c18b366a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/00ab9850cd001317d6db4b26d2fb5945bc6791a8",
+      "git:hexsha": "00ab9850cd001317d6db4b26d2fb5945bc6791a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8f4352902090fd0176a1c3697f5794ad1735623b",
+      "git:hexsha": "8f4352902090fd0176a1c3697f5794ad1735623b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1.rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/d63d509d2dfd2e250ee577a0b2e88314e9e37b0b",
+      "git:hexsha": "d63d509d2dfd2e250ee577a0b2e88314e9e37b0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1.rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/9df6fe4ab1fee6c20706b82956308cfa0b101cb3",
+      "git:hexsha": "9df6fe4ab1fee6c20706b82956308cfa0b101cb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/b25ea54510c221614e5c2d06cc1ad0add5141f3f",
+      "git:hexsha": "b25ea54510c221614e5c2d06cc1ad0add5141f3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.2.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/5b204397d2ac06dc9b213b2bdd393a248069f65b",
+      "git:hexsha": "5b204397d2ac06dc9b213b2bdd393a248069f65b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.2.rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/c404aee9ddc2c537e73467562b3dabd538dfd7b2",
+      "git:hexsha": "c404aee9ddc2c537e73467562b3dabd538dfd7b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.2.rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/b204b4debce1cadc578fdcebabec922fa536db84",
+      "git:hexsha": "b204b4debce1cadc578fdcebabec922fa536db84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2e606bbd351462033ad057587cbbdb2211617f32",
+      "git:hexsha": "2e606bbd351462033ad057587cbbdb2211617f32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.3.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/341a94196d5f060a14fc36b77c794399344ca0f3",
+      "git:hexsha": "341a94196d5f060a14fc36b77c794399344ca0f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/6980a3cad8137df623727949ef413f7bfef43dbd",
+      "git:hexsha": "6980a3cad8137df623727949ef413f7bfef43dbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.5.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/fc5dca2707585b4dc6043c160e7515df790c6851",
+      "git:hexsha": "fc5dca2707585b4dc6043c160e7515df790c6851",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/bd4dea274258fa999f166b597239e8eca993dbf7",
+      "git:hexsha": "bd4dea274258fa999f166b597239e8eca993dbf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2cace8020a4f074978da852609f55110ca29a2a3",
+      "git:hexsha": "2cace8020a4f074978da852609f55110ca29a2a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev10"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/f9ce05482c447e2932e28e4ae1ce85448a986914",
+      "git:hexsha": "f9ce05482c447e2932e28e4ae1ce85448a986914",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/90120b1e522f729404fff8e95171cde5ea8b28fb",
+      "git:hexsha": "90120b1e522f729404fff8e95171cde5ea8b28fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/5226fcf94ccd6ddf632a004614b6445e98159492",
+      "git:hexsha": "5226fcf94ccd6ddf632a004614b6445e98159492",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/e53ea92e1d0cd3d0f4924474049f3d7bc567457e",
+      "git:hexsha": "e53ea92e1d0cd3d0f4924474049f3d7bc567457e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/596a9f693f593e48975f5b390eab56ceaf84e8fd",
+      "git:hexsha": "596a9f693f593e48975f5b390eab56ceaf84e8fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/65343d5d81cb6faefdb26b9de0245ea0a1bb820b",
+      "git:hexsha": "65343d5d81cb6faefdb26b9de0245ea0a1bb820b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/1dd381e8e5e50220ac55cd10db073e8b6bc937b5",
+      "git:hexsha": "1dd381e8e5e50220ac55cd10db073e8b6bc937b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/e296d2265d3a6cd774e3f780b505f7a76259cf9f",
+      "git:hexsha": "e296d2265d3a6cd774e3f780b505f7a76259cf9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0.dev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/e100f3c6247d55a9b64a6aaf984a213b9ddb2b19",
+      "git:hexsha": "e100f3c6247d55a9b64a6aaf984a213b9ddb2b19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/61c19ad5a6a70321db44189dd90e603703670869",
+      "git:hexsha": "61c19ad5a6a70321db44189dd90e603703670869",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/26b7c109c6989c80797c1f5ddf57133310c4ad7f",
+      "git:hexsha": "26b7c109c6989c80797c1f5ddf57133310c4ad7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8f2c370245dbba615c9a88440bd19f1e522692a4",
+      "git:hexsha": "8f2c370245dbba615c9a88440bd19f1e522692a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/e6eb581d79a5f9661116e6bef1c2a351810eb808",
+      "git:hexsha": "e6eb581d79a5f9661116e6bef1c2a351810eb808",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ed8c2ab4ec5efb8ceb18c3f2231198027e606e34",
+      "git:hexsha": "ed8c2ab4ec5efb8ceb18c3f2231198027e606e34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/58ea88cfcadc5914c137198b9a15c760b87edcc0",
+      "git:hexsha": "58ea88cfcadc5914c137198b9a15c760b87edcc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/c5ba9ce0adb31cde7a7b779d0bdfaaf186f596ec",
+      "git:hexsha": "c5ba9ce0adb31cde7a7b779d0bdfaaf186f596ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/06c69fbbe5c3fa57717ba71596d94f03ee50aaa3",
+      "git:hexsha": "06c69fbbe5c3fa57717ba71596d94f03ee50aaa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/1fad23f00c114aa8ef33242b91b969da2825c360",
+      "git:hexsha": "1fad23f00c114aa8ef33242b91b969da2825c360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/701f6b6499daf4342811c26ea57fb7fe2e64cc8f",
+      "git:hexsha": "701f6b6499daf4342811c26ea57fb7fe2e64cc8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8b7e7de50e72248de683a24ada024cf18e6cdce3",
+      "git:hexsha": "8b7e7de50e72248de683a24ada024cf18e6cdce3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v4.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/5bb1c066f2063b24f1509611714fff13f68ab8f4",
+      "git:hexsha": "5bb1c066f2063b24f1509611714fff13f68ab8f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/3899cc2f2aeccea96868272b359676b78663f61f",
+      "git:hexsha": "3899cc2f2aeccea96868272b359676b78663f61f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/9fb0a240cd04a4b6309b3e6c8b83319557194d00",
+      "git:hexsha": "9fb0a240cd04a4b6309b3e6c8b83319557194d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/85897bfe86c97f9d94a712e099d2ed7d30b74303",
+      "git:hexsha": "85897bfe86c97f9d94a712e099d2ed7d30b74303",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2ea7e1ddbf205f6f7cf1d4df1ed67a9d6d3a61de",
+      "git:hexsha": "2ea7e1ddbf205f6f7cf1d4df1ed67a9d6d3a61de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.1.0.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/4e9a40cb43e31cc88d2431dd0203b5fbfd0cccdc",
+      "git:hexsha": "4e9a40cb43e31cc88d2431dd0203b5fbfd0cccdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/615d0796d6956d0db6ae73ee3c066f7215741343",
+      "git:hexsha": "615d0796d6956d0db6ae73ee3c066f7215741343",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/676c7f3cef361541293db8c911f98e4dacd10c46",
+      "git:hexsha": "676c7f3cef361541293db8c911f98e4dacd10c46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/5711249d74ccaca528fc7296fb7deecfca1677c3",
+      "git:hexsha": "5711249d74ccaca528fc7296fb7deecfca1677c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev10"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/bc32c17e7214b44c6e29900711676f992c8d07ef",
+      "git:hexsha": "bc32c17e7214b44c6e29900711676f992c8d07ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a6aa613cd837cc1944615586de0443abc03c2f31",
+      "git:hexsha": "a6aa613cd837cc1944615586de0443abc03c2f31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/944ac0271c8d9a2caf64b7f0a84d1d31a6d01e35",
+      "git:hexsha": "944ac0271c8d9a2caf64b7f0a84d1d31a6d01e35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/b7a34cc838153f7e875e25f1015650a019fe9e80",
+      "git:hexsha": "b7a34cc838153f7e875e25f1015650a019fe9e80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/4854347dd2af5d701848a0761fe645b9226b836b",
+      "git:hexsha": "4854347dd2af5d701848a0761fe645b9226b836b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/984c8b059c2b6719e2a3e93c8ea07e8bed60b6e4",
+      "git:hexsha": "984c8b059c2b6719e2a3e93c8ea07e8bed60b6e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/b19cce22072f9c033d48dbe8c7bc5819f1910d80",
+      "git:hexsha": "b19cce22072f9c033d48dbe8c7bc5819f1910d80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.2.0.dev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/98920303af9a4297fa496089474def7cdbe479b9",
+      "git:hexsha": "98920303af9a4297fa496089474def7cdbe479b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a41b9f89f7cdf51bf787b3c7342a3945c4508023",
+      "git:hexsha": "a41b9f89f7cdf51bf787b3c7342a3945c4508023",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/0004eed0e9d6e060efbbae1942d64af4f96798ca",
+      "git:hexsha": "0004eed0e9d6e060efbbae1942d64af4f96798ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/9b5f1ff27bfcf94441fda0fa8a045fb4ae66be57",
+      "git:hexsha": "9b5f1ff27bfcf94441fda0fa8a045fb4ae66be57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a8bd6926edc4ba70a07ee1f23f2a93a0166b3de3",
+      "git:hexsha": "a8bd6926edc4ba70a07ee1f23f2a93a0166b3de3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/32a999bdb2759a0c93dd61712187c4e148dd09e7",
+      "git:hexsha": "32a999bdb2759a0c93dd61712187c4e148dd09e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/90df95544179b9d10170b3edf954410bf49a7ac6",
+      "git:hexsha": "90df95544179b9d10170b3edf954410bf49a7ac6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/4a994686c0393cc271baa07a9c707a240515decd",
+      "git:hexsha": "4a994686c0393cc271baa07a9c707a240515decd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.0.dev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ec9afe13b4d647d17cd4d32d39c0d2916370a3fa",
+      "git:hexsha": "ec9afe13b4d647d17cd4d32d39c0d2916370a3fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a023f6025aadbab8bc14ed612410679f223b5601",
+      "git:hexsha": "a023f6025aadbab8bc14ed612410679f223b5601",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v5.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/d91e31b63b34ae2cff17feb465756f5d9832352b",
+      "git:hexsha": "d91e31b63b34ae2cff17feb465756f5d9832352b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2d5e0d26bbd9a5e9f874a7c957f36dfaee59dcc0",
+      "git:hexsha": "2d5e0d26bbd9a5e9f874a7c957f36dfaee59dcc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/d7a1c30b6a18eead49902e3f9fd4cdebcc605d8e",
+      "git:hexsha": "d7a1c30b6a18eead49902e3f9fd4cdebcc605d8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8c8a960a7d3adf37d46f9746505223a4f8e69499",
+      "git:hexsha": "8c8a960a7d3adf37d46f9746505223a4f8e69499",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2d00db9a35f0e615c9ae8c359a8f2fad9ad34faf",
+      "git:hexsha": "2d00db9a35f0e615c9ae8c359a8f2fad9ad34faf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/84248fcbc32653ea4953a160e6c1e9571308600d",
+      "git:hexsha": "84248fcbc32653ea4953a160e6c1e9571308600d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/c618fff7370ead159b3f792822f418ac7be8bd44",
+      "git:hexsha": "c618fff7370ead159b3f792822f418ac7be8bd44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/25d3d4ba7bc3fa1f33713de052c7d8411184be68",
+      "git:hexsha": "25d3d4ba7bc3fa1f33713de052c7d8411184be68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/980ac3b6295ae1b6d1132b915ade2f10ca76299c",
+      "git:hexsha": "980ac3b6295ae1b6d1132b915ade2f10ca76299c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/9b4a2a103b2f352d320568d64937b4f58bb847ee",
+      "git:hexsha": "9b4a2a103b2f352d320568d64937b4f58bb847ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.dev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ae244a2779a27ec4c064ee2e9991b1aafed5a3de",
+      "git:hexsha": "ae244a2779a27ec4c064ee2e9991b1aafed5a3de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/4345ece03570e079db9c4d5d2bc5dd720678394c",
+      "git:hexsha": "4345ece03570e079db9c4d5d2bc5dd720678394c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0.rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/470d279a70bb3d27aae3c7325869aab1391c7d8e",
+      "git:hexsha": "470d279a70bb3d27aae3c7325869aab1391c7d8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2c7334e901fecfcdd8f0660fdd8468893d39e11d",
+      "git:hexsha": "2c7334e901fecfcdd8f0660fdd8468893d39e11d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.1.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/4e3ef2ef255b41bbb5273bcdc4d7a32cd0bdb1b0",
+      "git:hexsha": "4e3ef2ef255b41bbb5273bcdc4d7a32cd0bdb1b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/24af723a29406928fcff57b65bfa9bfcf68f8f82",
+      "git:hexsha": "24af723a29406928fcff57b65bfa9bfcf68f8f82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.2.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/c726031eb796309d230d2a74797a60953e039731",
+      "git:hexsha": "c726031eb796309d230d2a74797a60953e039731",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.3.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/12b0bfa1f26ee8e8f17dbf07437ded76768b7aaf",
+      "git:hexsha": "12b0bfa1f26ee8e8f17dbf07437ded76768b7aaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/27c4f089bad35757154c56b0caab15f59329fa01",
+      "git:hexsha": "27c4f089bad35757154c56b0caab15f59329fa01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/86c5f66ab9bbe122e7ff0167a1fa8dfe6285995b",
+      "git:hexsha": "86c5f66ab9bbe122e7ff0167a1fa8dfe6285995b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/24296eb8b10dc7d3e48f6f909ba19aa93fe97b2e",
+      "git:hexsha": "24296eb8b10dc7d3e48f6f909ba19aa93fe97b2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/7860ca1879f70fc47aac44396880c84d29e1a87a",
+      "git:hexsha": "7860ca1879f70fc47aac44396880c84d29e1a87a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/2866903ce9b3f8f14b43567af3f96e13059ee0af",
+      "git:hexsha": "2866903ce9b3f8f14b43567af3f96e13059ee0af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.1.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/79ec79be918e4ba9a8814b686ac80bb32984db19",
+      "git:hexsha": "79ec79be918e4ba9a8814b686ac80bb32984db19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/58ed4f5e58508e7286f2e27735ece5e7645435f1",
+      "git:hexsha": "58ed4f5e58508e7286f2e27735ece5e7645435f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.2.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/965d35320c5c3f9095fff213fe52c0ed442cd540",
+      "git:hexsha": "965d35320c5c3f9095fff213fe52c0ed442cd540",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/5e5ef3784d8d1c58c5ff0cce07fa0a9812ad0ef9",
+      "git:hexsha": "5e5ef3784d8d1c58c5ff0cce07fa0a9812ad0ef9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.0.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/193c99ec16798342faec538504ee120acb282786",
+      "git:hexsha": "193c99ec16798342faec538504ee120acb282786",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/7f96c600bc7510a70bd6af5c3e65a4a146cde2a8",
+      "git:hexsha": "7f96c600bc7510a70bd6af5c3e65a4a146cde2a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/46539e722eda60590a86c33b8a51bd0c8888bde0",
+      "git:hexsha": "46539e722eda60590a86c33b8a51bd0c8888bde0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.alpha"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/b2d6ac5df5e3f28972a0be105e1a46bcc700db1e",
+      "git:hexsha": "b2d6ac5df5e3f28972a0be105e1a46bcc700db1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/3e01fced584c6e924b0e6c481ebdf57d0b25a1a2",
+      "git:hexsha": "3e01fced584c6e924b0e6c481ebdf57d0b25a1a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/3497841e18dbbc153924c1111cce62699ad6dff8",
+      "git:hexsha": "3497841e18dbbc153924c1111cce62699ad6dff8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ea20fa938e01e61c3f7b3f93f4f4dfb7a9945679",
+      "git:hexsha": "ea20fa938e01e61c3f7b3f93f4f4dfb7a9945679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a330b63002ca3a2f5133f439ae96d9f4d0babddc",
+      "git:hexsha": "a330b63002ca3a2f5133f439ae96d9f4d0babddc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/354ee92f1acc942c167ee989fc734b8dc3eb144d",
+      "git:hexsha": "354ee92f1acc942c167ee989fc734b8dc3eb144d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/61f68ee0ab58eed49a56f01d75dbda3c8d198fac",
+      "git:hexsha": "61f68ee0ab58eed49a56f01d75dbda3c8d198fac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/38b3b26317a77a9e79685bdc49ad5353861cbf6f",
+      "git:hexsha": "38b3b26317a77a9e79685bdc49ad5353861cbf6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev7"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/210314a70c02277538d70ed3db7d109521448d89",
+      "git:hexsha": "210314a70c02277538d70ed3db7d109521448d89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1.dev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/a79217366a71f57e826d90c436fb8d65641c2804",
+      "git:hexsha": "a79217366a71f57e826d90c436fb8d65641c2804",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/ddb74e279150811720a3b7cc49259f7b94e2e9fb",
+      "git:hexsha": "ddb74e279150811720a3b7cc49259f7b94e2e9fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/4a2e17e94c5af8fd713c748510905ae80b4cd6f2",
+      "git:hexsha": "4a2e17e94c5af8fd713c748510905ae80b4cd6f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/8a2d2e552875bd51e28c5810159edae1b5f8da90",
+      "git:hexsha": "8a2d2e552875bd51e28c5810159edae1b5f8da90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/33f0465e49778b6e9c7b050a58636e19e7d4a13a",
+      "git:hexsha": "33f0465e49778b6e9c7b050a58636e19e7d4a13a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/c8d308a9de9d62d57af71a72f9a451e0509a34f5",
+      "git:hexsha": "c8d308a9de9d62d57af71a72f9a451e0509a34f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/02632135c35da2efa6240bd2100813a7c984e286",
+      "git:hexsha": "02632135c35da2efa6240bd2100813a7c984e286",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/24edbb520c9212ed9ae275688a371dc259dc6e44",
+      "git:hexsha": "24edbb520c9212ed9ae275688a371dc259dc6e44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/240b7e3aa60e1a888670380c64a894c4fb4c69a4",
+      "git:hexsha": "240b7e3aa60e1a888670380c64a894c4fb4c69a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/523f5a8df3f4cba90941497799b342d0e33862d1",
+      "git:hexsha": "523f5a8df3f4cba90941497799b342d0e33862d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/f9dde31aff6eb9270a6a7e6fc6779eed78e26b42",
+      "git:hexsha": "f9dde31aff6eb9270a6a7e6fc6779eed78e26b42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pinecone-io/pinecone-python-client/commit/bb1304edcd0952b0799833ea00e17c818daa0a88",
+      "git:hexsha": "bb1304edcd0952b0799833ea00e17c818daa0a88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.1.0"
+    }
+  ]
+}

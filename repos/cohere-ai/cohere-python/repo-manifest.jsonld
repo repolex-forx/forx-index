@@ -1,0 +1,705 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/cohere-ai/cohere-python",
+  "@type": "gh:Repository",
+  "gh:name": "cohere-python",
+  "gh:owner": "cohere-ai",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/0eacfe77e1710322b355928574cfec18f6791c42",
+      "git:hexsha": "0eacfe77e1710322b355928574cfec18f6791c42",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T07:39:10.565120+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/372a9e9039f7400874874799cc9257be90874e97",
+      "git:hexsha": "372a9e9039f7400874874799cc9257be90874e97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/07ed37fae69af2055a586a93fb6731e4f8ae69ee",
+      "git:hexsha": "07ed37fae69af2055a586a93fb6731e4f8ae69ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e759f9e0051524d01b6e1c16aca3c95b6913d5c8",
+      "git:hexsha": "e759f9e0051524d01b6e1c16aca3c95b6913d5c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/d5546a735466021e7a1d23e333cc85860004c6ea",
+      "git:hexsha": "d5546a735466021e7a1d23e333cc85860004c6ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/77e00876bbfeb55520a91f214445ea8b9e856c45",
+      "git:hexsha": "77e00876bbfeb55520a91f214445ea8b9e856c45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a11"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/37a274627073f3a0d0c8a2278b4b64a5ec74abaa",
+      "git:hexsha": "37a274627073f3a0d0c8a2278b4b64a5ec74abaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a12"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/4a0473194dcb1eef6bfafab2d8e34c36cf220c09",
+      "git:hexsha": "4a0473194dcb1eef6bfafab2d8e34c36cf220c09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b7017755e069e5342fd5823632c100a20b6fa605",
+      "git:hexsha": "b7017755e069e5342fd5823632c100a20b6fa605",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/53276043110f3062f595315fa294a887b10de118",
+      "git:hexsha": "53276043110f3062f595315fa294a887b10de118",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/f2f1cc0cd141bf5c1c2a67b80b4b30013466eead",
+      "git:hexsha": "f2f1cc0cd141bf5c1c2a67b80b4b30013466eead",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/7cf615e4cf72681d2f2c37ee37d7065a2012ccfe",
+      "git:hexsha": "7cf615e4cf72681d2f2c37ee37d7065a2012ccfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/165ba6cd5f024d3a69b99248df5782923f8dede3",
+      "git:hexsha": "165ba6cd5f024d3a69b99248df5782923f8dede3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/57c1855c02690b5ea30b0682df870064d4602db3",
+      "git:hexsha": "57c1855c02690b5ea30b0682df870064d4602db3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/5c23b968f2a9db8bad7ed5050e554a8b228a7146",
+      "git:hexsha": "5c23b968f2a9db8bad7ed5050e554a8b228a7146",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/96f29a9b44dee08031ccef29a28881581553694a",
+      "git:hexsha": "96f29a9b44dee08031ccef29a28881581553694a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/1639186cf2028fba083941f73bc3b39e9575fc54",
+      "git:hexsha": "1639186cf2028fba083941f73bc3b39e9575fc54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/67620c348329308186d0b7e771a06795ea718226",
+      "git:hexsha": "67620c348329308186d0b7e771a06795ea718226",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b6b5090057be177b0734b2fe1743256f3fce3a09",
+      "git:hexsha": "b6b5090057be177b0734b2fe1743256f3fce3a09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/bc2b61fbd2009d83358e101d62a45c7d5ed623eb",
+      "git:hexsha": "bc2b61fbd2009d83358e101d62a45c7d5ed623eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/ac7e7c4fdaaf135dd676b0839e185c6a81004288",
+      "git:hexsha": "ac7e7c4fdaaf135dd676b0839e185c6a81004288",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/88134c12df4db7d978cabdcf61ad6c18f85c9e6d",
+      "git:hexsha": "88134c12df4db7d978cabdcf61ad6c18f85c9e6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e0fed575b67e06d7c5e9b845d3b92f93ec2ce48c",
+      "git:hexsha": "e0fed575b67e06d7c5e9b845d3b92f93ec2ce48c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/6fdfe5ca3c776bd628eba34d6c8db51dfd6fe73b",
+      "git:hexsha": "6fdfe5ca3c776bd628eba34d6c8db51dfd6fe73b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/856a4c3bd29e7a75fa66154b8ac9fcdf1e0745e0",
+      "git:hexsha": "856a4c3bd29e7a75fa66154b8ac9fcdf1e0745e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b30aafa32112690550d549ee9c614114381e7348",
+      "git:hexsha": "b30aafa32112690550d549ee9c614114381e7348",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/349c5ab805d904c436b923ffa10a001b2f31bae9",
+      "git:hexsha": "349c5ab805d904c436b923ffa10a001b2f31bae9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/56d48b077bb01b209635fd87496b8c6af48c7f64",
+      "git:hexsha": "56d48b077bb01b209635fd87496b8c6af48c7f64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e89f5435f58603b353ebedaed7c6958bc726fdb4",
+      "git:hexsha": "e89f5435f58603b353ebedaed7c6958bc726fdb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/5160d82f49ddc2e37570358659ef170b7413118f",
+      "git:hexsha": "5160d82f49ddc2e37570358659ef170b7413118f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/8a9b55602964edaa61575289c7a38e24e44cbbb9",
+      "git:hexsha": "8a9b55602964edaa61575289c7a38e24e44cbbb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/2a7f5c0ead34f3b573ddeb295996975937cafd4f",
+      "git:hexsha": "2a7f5c0ead34f3b573ddeb295996975937cafd4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/044344fd2d772452bb7e9e778ff7a00924777024",
+      "git:hexsha": "044344fd2d772452bb7e9e778ff7a00924777024",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b1dbf954f4fc809ba2f18f70d9168b4d9125e571",
+      "git:hexsha": "b1dbf954f4fc809ba2f18f70d9168b4d9125e571",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/3bc93c02a6de50507e2a26f3a22cecd476362ffd",
+      "git:hexsha": "3bc93c02a6de50507e2a26f3a22cecd476362ffd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/5f7c580f3106ff7e4c95a062190d1a959605d5b5",
+      "git:hexsha": "5f7c580f3106ff7e4c95a062190d1a959605d5b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e2c6a0797eb21b4402da9b2d26646787d2efc77e",
+      "git:hexsha": "e2c6a0797eb21b4402da9b2d26646787d2efc77e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/d144668d5d26ca4be36a75c2e0002bc77d562294",
+      "git:hexsha": "d144668d5d26ca4be36a75c2e0002bc77d562294",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/7d8748246c5912829878e69dca077de9b8bfae30",
+      "git:hexsha": "7d8748246c5912829878e69dca077de9b8bfae30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/36d0e18b752b32305084b73ec55d8e9596c5dc45",
+      "git:hexsha": "36d0e18b752b32305084b73ec55d8e9596c5dc45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/2d876832236093ec21c5fc93284fb1e51e12b2fe",
+      "git:hexsha": "2d876832236093ec21c5fc93284fb1e51e12b2fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/bb92887eca34f781bfc4afbf57a81f7cadf2e299",
+      "git:hexsha": "bb92887eca34f781bfc4afbf57a81f7cadf2e299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/47e54c724b46ebf5605b52ae55921193bfa1dd4c",
+      "git:hexsha": "47e54c724b46ebf5605b52ae55921193bfa1dd4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/27094afb3026aa258ec0298d6bb104daf3b03824",
+      "git:hexsha": "27094afb3026aa258ec0298d6bb104daf3b03824",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/c53ed10b417eea0092718b14c2ba90a2bd514f53",
+      "git:hexsha": "c53ed10b417eea0092718b14c2ba90a2bd514f53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e04d2332b7b1b707cc5a417d738ab19d89e8c745",
+      "git:hexsha": "e04d2332b7b1b707cc5a417d738ab19d89e8c745",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/41ad407e7d4e5f0c208889c9688989a7d9e60a44",
+      "git:hexsha": "41ad407e7d4e5f0c208889c9688989a7d9e60a44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/fcc9567a598942fc78800171210993b46d52d86c",
+      "git:hexsha": "fcc9567a598942fc78800171210993b46d52d86c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b9ae56394dad2528efebd77c121d636660520e21",
+      "git:hexsha": "b9ae56394dad2528efebd77c121d636660520e21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/993c0dff99fa586b8db5121984cb92738bc9d956",
+      "git:hexsha": "993c0dff99fa586b8db5121984cb92738bc9d956",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/2a8dd899c7ad4e067820ae87f9f58ec7f936c797",
+      "git:hexsha": "2a8dd899c7ad4e067820ae87f9f58ec7f936c797",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/1a002c32683b25d2126d8a880dca130025ed06d2",
+      "git:hexsha": "1a002c32683b25d2126d8a880dca130025ed06d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e47e143faf688c633359d5009c784cfb2867ce79",
+      "git:hexsha": "e47e143faf688c633359d5009c784cfb2867ce79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/9a52a66b020f0082364280499762ff5974b44df6",
+      "git:hexsha": "9a52a66b020f0082364280499762ff5974b44df6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/6af2c2178429619d961e39efe37a043f0ffeed47",
+      "git:hexsha": "6af2c2178429619d961e39efe37a043f0ffeed47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/444e04b851abc9572ddf5cbad40a968ca602d3b6",
+      "git:hexsha": "444e04b851abc9572ddf5cbad40a968ca602d3b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/db36582bc3a621d04a2f0c9481bb1ea610cfad22",
+      "git:hexsha": "db36582bc3a621d04a2f0c9481bb1ea610cfad22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/570cd2ee5cec6b4ebf79d19012bea76b6ea98b6a",
+      "git:hexsha": "570cd2ee5cec6b4ebf79d19012bea76b6ea98b6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/1844eedf831a6e9f01f882d6cf10e146c3364f60",
+      "git:hexsha": "1844eedf831a6e9f01f882d6cf10e146c3364f60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/9f4d4ea75cb761b55dce29afba6393a328669167",
+      "git:hexsha": "9f4d4ea75cb761b55dce29afba6393a328669167",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/2c493eb71ffbc11b49130098eb0b53f0c516ba8d",
+      "git:hexsha": "2c493eb71ffbc11b49130098eb0b53f0c516ba8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/5a4e732451386df8c2d333b32737d1755327dfae",
+      "git:hexsha": "5a4e732451386df8c2d333b32737d1755327dfae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/85021478b345201dad5e25f8f23a74d90e25a5db",
+      "git:hexsha": "85021478b345201dad5e25f8f23a74d90e25a5db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/82d477d97929c545f006e3aa5f8bb06a7e80bf21",
+      "git:hexsha": "82d477d97929c545f006e3aa5f8bb06a7e80bf21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b1463a29c49352e63d6db453eb85556ef3a12fb0",
+      "git:hexsha": "b1463a29c49352e63d6db453eb85556ef3a12fb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/a5150ad45ba9fb62b2817bb35e32908ede82d136",
+      "git:hexsha": "a5150ad45ba9fb62b2817bb35e32908ede82d136",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/986682eafb1fd97ec99e525c16a9833b1ca8fb3d",
+      "git:hexsha": "986682eafb1fd97ec99e525c16a9833b1ca8fb3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/0d97d4832707d29e2dd6288ac89cd8b5471cab46",
+      "git:hexsha": "0d97d4832707d29e2dd6288ac89cd8b5471cab46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/f366233ba3b67d6533c9468e28094ea008a4cb0f",
+      "git:hexsha": "f366233ba3b67d6533c9468e28094ea008a4cb0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b36875ef64081729e57e966a08702024e9f29460",
+      "git:hexsha": "b36875ef64081729e57e966a08702024e9f29460",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/1cab6aae8b0e590a651156a5c48284c355fd794f",
+      "git:hexsha": "1cab6aae8b0e590a651156a5c48284c355fd794f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/27e4a7b5f879e62239b264c7335a35737b14b23d",
+      "git:hexsha": "27e4a7b5f879e62239b264c7335a35737b14b23d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/3764b510e8f02a0377bccc0db22bda5f439774c8",
+      "git:hexsha": "3764b510e8f02a0377bccc0db22bda5f439774c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/7eda2dc5b0fbf8debbb9b62ffd5f68810429f6b8",
+      "git:hexsha": "7eda2dc5b0fbf8debbb9b62ffd5f68810429f6b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/dcd81d8d0d578a7b3bc605c4216b8e8ca06931da",
+      "git:hexsha": "dcd81d8d0d578a7b3bc605c4216b8e8ca06931da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/09f7d04bed37f2522267798dbb90201b07ae1753",
+      "git:hexsha": "09f7d04bed37f2522267798dbb90201b07ae1753",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/695454853130104e7c41b3a3550a49f5bf9c9b00",
+      "git:hexsha": "695454853130104e7c41b3a3550a49f5bf9c9b00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/0d1871a31d1c6643e32f4d1dbb356b8a5a0e9ec6",
+      "git:hexsha": "0d1871a31d1c6643e32f4d1dbb356b8a5a0e9ec6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/7aea2b2875f09bc179d57d2959a1d27a3d1b033c",
+      "git:hexsha": "7aea2b2875f09bc179d57d2959a1d27a3d1b033c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/437fdc65e969bf6e69c2639ae906671912436c5f",
+      "git:hexsha": "437fdc65e969bf6e69c2639ae906671912436c5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/3d8ecedc43f05ef8dabe0ffb96d6cc2c66c7781b",
+      "git:hexsha": "3d8ecedc43f05ef8dabe0ffb96d6cc2c66c7781b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/97b1796f0d096fd3d9cb6649178569797eb8c4b2",
+      "git:hexsha": "97b1796f0d096fd3d9cb6649178569797eb8c4b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/ee899df546000356b9d0c2a807a083ccfcd719d4",
+      "git:hexsha": "ee899df546000356b9d0c2a807a083ccfcd719d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/07896b4e0fee2ba1b26d03731b45231c304a0ce7",
+      "git:hexsha": "07896b4e0fee2ba1b26d03731b45231c304a0ce7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/a5e9f0c7a4de4b7a6e7837c23d9474e5f944a4dc",
+      "git:hexsha": "a5e9f0c7a4de4b7a6e7837c23d9474e5f944a4dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/457f5d7f2014e5ed0886e7901f8b21bcf65a6895",
+      "git:hexsha": "457f5d7f2014e5ed0886e7901f8b21bcf65a6895",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/33b0e701b62ef8c10af531523568d4cbcb09ab5e",
+      "git:hexsha": "33b0e701b62ef8c10af531523568d4cbcb09ab5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/74c30224fbf66129533f5424e4e791b104cce773",
+      "git:hexsha": "74c30224fbf66129533f5424e4e791b104cce773",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/2de2ee204c657bbb0bd52d9769d1f8e78a0f1f28",
+      "git:hexsha": "2de2ee204c657bbb0bd52d9769d1f8e78a0f1f28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/0fc77bcceeeffe636944b02d9468093bd2575513",
+      "git:hexsha": "0fc77bcceeeffe636944b02d9468093bd2575513",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/f7c268f08634071dbf5c85d2de749a7c57b625c9",
+      "git:hexsha": "f7c268f08634071dbf5c85d2de749a7c57b625c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e10ef0832b928ad61ccde7f214f0814f669d6774",
+      "git:hexsha": "e10ef0832b928ad61ccde7f214f0814f669d6774",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e61bcb38c641c8b6aa241b1e2eaca3c5ee27d635",
+      "git:hexsha": "e61bcb38c641c8b6aa241b1e2eaca3c5ee27d635",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/e4b2e7d4ab0c74928526324d35437a75a1b55cca",
+      "git:hexsha": "e4b2e7d4ab0c74928526324d35437a75a1b55cca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/616defeb20ccf257ef4c756be36eb694d078422a",
+      "git:hexsha": "616defeb20ccf257ef4c756be36eb694d078422a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/f4c61e97ef620a0f6986d918e19b9577cd5d1ffb",
+      "git:hexsha": "f4c61e97ef620a0f6986d918e19b9577cd5d1ffb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.7.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/540207821d15fcf933935e44f76a07cd69e53465",
+      "git:hexsha": "540207821d15fcf933935e44f76a07cd69e53465",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/12f543fb52953a7fe02d7c6d9310b7a8f2b7ba31",
+      "git:hexsha": "12f543fb52953a7fe02d7c6d9310b7a8f2b7ba31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/c21dde92cb91767004869fc2a927513aa9b8fe51",
+      "git:hexsha": "c21dde92cb91767004869fc2a927513aa9b8fe51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/6ceb338f5140893c9562e0ccc25a513581257b6a",
+      "git:hexsha": "6ceb338f5140893c9562e0ccc25a513581257b6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/d85de98c7fcb34bacb4a580962994f4fe04268e7",
+      "git:hexsha": "d85de98c7fcb34bacb4a580962994f4fe04268e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/cdd01e496a83f33a4dbfefa4d94612d978704604",
+      "git:hexsha": "cdd01e496a83f33a4dbfefa4d94612d978704604",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/18c45e6966cad3b32be616d38ad27d0bb7e1fec3",
+      "git:hexsha": "18c45e6966cad3b32be616d38ad27d0bb7e1fec3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/160dd05baaeb649ae5901b8b453509d7bc6c4718",
+      "git:hexsha": "160dd05baaeb649ae5901b8b453509d7bc6c4718",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/2598c9ac0f158ec6e04c58a5746f62a75c3f8fb0",
+      "git:hexsha": "2598c9ac0f158ec6e04c58a5746f62a75c3f8fb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/b751bc1ad568b13a557c90d2e8d57972e078f05a",
+      "git:hexsha": "b751bc1ad568b13a557c90d2e8d57972e078f05a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/eaf7d1540e6b1e202cc8c1a5540cb2791519bdd9",
+      "git:hexsha": "eaf7d1540e6b1e202cc8c1a5540cb2791519bdd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/6a49b0b0467068081624014d467fd182f340902d",
+      "git:hexsha": "6a49b0b0467068081624014d467fd182f340902d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/0702df5218eac171c76aecc6c839f9b0acc10ac2",
+      "git:hexsha": "0702df5218eac171c76aecc6c839f9b0acc10ac2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/c81e8a75393f7de77e80c70c31a8e1bd23512a80",
+      "git:hexsha": "c81e8a75393f7de77e80c70c31a8e1bd23512a80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/41f344bde2b195e0a7e51d259f4b3701e62605b5",
+      "git:hexsha": "41f344bde2b195e0a7e51d259f4b3701e62605b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/050f9c019d3412e3673f3c4f447abece1525b385",
+      "git:hexsha": "050f9c019d3412e3673f3c4f447abece1525b385",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/bc495daab7817a2e1389d71257c056dd75bbb0df",
+      "git:hexsha": "bc495daab7817a2e1389d71257c056dd75bbb0df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/63f86cef31f04f3fea154ccae79de3c9b6af956f",
+      "git:hexsha": "63f86cef31f04f3fea154ccae79de3c9b6af956f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.07"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/953f5a198de356fdf773e33f5a7be8cfc2d7a947",
+      "git:hexsha": "953f5a198de356fdf773e33f5a7be8cfc2d7a947",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cohere-ai/cohere-python/commit/94757e9a304b398ee1d3052b4dfd6e8de1ca8327",
+      "git:hexsha": "94757e9a304b398ee1d3052b4dfd6e8de1ca8327",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "fern-generation-base--fernapi--fern-python-sdk"
+    }
+  ]
+}
