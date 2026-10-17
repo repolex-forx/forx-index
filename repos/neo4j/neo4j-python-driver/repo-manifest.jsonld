@@ -1,0 +1,916 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver",
+  "@type": "gh:Repository",
+  "gh:name": "neo4j-python-driver",
+  "gh:owner": "neo4j",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/9755761235bb61be44bc871b0067495b763281fd",
+      "git:hexsha": "9755761235bb61be44bc871b0067495b763281fd",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "6.4.1",
+      "repolex:parsedAt": "2026-10-17T22:07:51.677978+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/7693f07424eb9e3e5b3975f9510735e02be5fdb1",
+      "git:hexsha": "7693f07424eb9e3e5b3975f9510735e02be5fdb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/8536bb2af3ab19b24609a4c76689d38e7080ba7f",
+      "git:hexsha": "8536bb2af3ab19b24609a4c76689d38e7080ba7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/2c5577c025499e2c90cf744d8554e9431cd7b0a6",
+      "git:hexsha": "2c5577c025499e2c90cf744d8554e9431cd7b0a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/eaa340c8fe374690e5ec8911cb8f7f3a4a38f3f7",
+      "git:hexsha": "eaa340c8fe374690e5ec8911cb8f7f3a4a38f3f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0b3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/5370606c97092620832d3b675a85d0109e83a3fa",
+      "git:hexsha": "5370606c97092620832d3b675a85d0109e83a3fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6494c04f98cb2bd38ed6c75966c96736baa45867",
+      "git:hexsha": "6494c04f98cb2bd38ed6c75966c96736baa45867",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/08023cd35823195bda6d0b789f3be08f9c55ae01",
+      "git:hexsha": "08023cd35823195bda6d0b789f3be08f9c55ae01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/eb9441fd936b878f8e8b1fdca876e6b70b3f236f",
+      "git:hexsha": "eb9441fd936b878f8e8b1fdca876e6b70b3f236f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0961e25666cc2bdd2250b76220db3bf6d71d29f7",
+      "git:hexsha": "0961e25666cc2bdd2250b76220db3bf6d71d29f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1614f789761415fa1f5e607b72f9840289018e1f",
+      "git:hexsha": "1614f789761415fa1f5e607b72f9840289018e1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/2c990798d2c6d0349a750a10ec5351d6cc69af43",
+      "git:hexsha": "2c990798d2c6d0349a750a10ec5351d6cc69af43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c592437434a4b48c2a370d76216d1dda593f5415",
+      "git:hexsha": "c592437434a4b48c2a370d76216d1dda593f5415",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0b3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/9053bc5bc0c14a1aa1460dfbef741d74e0aa6975",
+      "git:hexsha": "9053bc5bc0c14a1aa1460dfbef741d74e0aa6975",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0b4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f2f7e6f98d5ed87145a5ec243974269be5c92631",
+      "git:hexsha": "f2f7e6f98d5ed87145a5ec243974269be5c92631",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/b2c435855c15a02d690a64b573857ad20b6b3a0a",
+      "git:hexsha": "b2c435855c15a02d690a64b573857ad20b6b3a0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/2cc0a87f4c57f38748d510af711100be6e60bd64",
+      "git:hexsha": "2cc0a87f4c57f38748d510af711100be6e60bd64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/362f7b2f124ba210881cf7e1452f6f235c33ed96",
+      "git:hexsha": "362f7b2f124ba210881cf7e1452f6f235c33ed96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0cf939a5d802f41af54ccf4c7ca02660e0ca7994",
+      "git:hexsha": "0cf939a5d802f41af54ccf4c7ca02660e0ca7994",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1e1890916a9f73510146ced10745c348278e7766",
+      "git:hexsha": "1e1890916a9f73510146ced10745c348278e7766",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/2520c8d419ba67acde199ac707c9b6dd9ef08291",
+      "git:hexsha": "2520c8d419ba67acde199ac707c9b6dd9ef08291",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/7a08d51cc328b0d6ff55ada9cb93500924cc7322",
+      "git:hexsha": "7a08d51cc328b0d6ff55ada9cb93500924cc7322",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/256016d33f44ee1caf8bfa7499e963d3fc5a150f",
+      "git:hexsha": "256016d33f44ee1caf8bfa7499e963d3fc5a150f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/5c7e2156dc44594f003da5a8521b8820ab179c67",
+      "git:hexsha": "5c7e2156dc44594f003da5a8521b8820ab179c67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/ddb0d8b1230815a045e9a2f90b65283b475e77dc",
+      "git:hexsha": "ddb0d8b1230815a045e9a2f90b65283b475e77dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/a7b315bf190bca479901e73f0d42a98937efa66e",
+      "git:hexsha": "a7b315bf190bca479901e73f0d42a98937efa66e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/37efb65dd33ce730f6a69106c3e3756d0667f600",
+      "git:hexsha": "37efb65dd33ce730f6a69106c3e3756d0667f600",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/60966e78a2cef89f9e3b53e773bc0f0e3c7f638b",
+      "git:hexsha": "60966e78a2cef89f9e3b53e773bc0f0e3c7f638b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/bba8d482fc44cfe20847f8e0c36da5b45d0e8c66",
+      "git:hexsha": "bba8d482fc44cfe20847f8e0c36da5b45d0e8c66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/38b1ec86b97ca081208ca1ef8ac71232980b6d75",
+      "git:hexsha": "38b1ec86b97ca081208ca1ef8ac71232980b6d75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/bb9d3a0a95340438c83442521594c6f351abd478",
+      "git:hexsha": "bb9d3a0a95340438c83442521594c6f351abd478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/b9143b1efb3af892da83e760ff1a8d9a5dfbea5b",
+      "git:hexsha": "b9143b1efb3af892da83e760ff1a8d9a5dfbea5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/5a27f463b720cb36cf5e01af9aa7bf27daae1b19",
+      "git:hexsha": "5a27f463b720cb36cf5e01af9aa7bf27daae1b19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0bc573e5bd1377e0ff38b72f169235fc863d74cb",
+      "git:hexsha": "0bc573e5bd1377e0ff38b72f169235fc863d74cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/487206f29fb6dd68d800fca41a23d61e44dcc360",
+      "git:hexsha": "487206f29fb6dd68d800fca41a23d61e44dcc360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/3c018b7a04368baad67883e68d8320ecd3054463",
+      "git:hexsha": "3c018b7a04368baad67883e68d8320ecd3054463",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/062cef4b5deb8a4b86494453a3e957b361051ce8",
+      "git:hexsha": "062cef4b5deb8a4b86494453a3e957b361051ce8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/340b0ed799791aaa3a8f1b582bd279dabdb0d756",
+      "git:hexsha": "340b0ed799791aaa3a8f1b582bd279dabdb0d756",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/def05fb748a578a23ecbc539ff401d29ff50033d",
+      "git:hexsha": "def05fb748a578a23ecbc539ff401d29ff50033d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/14565529cd3d26219eb8f9c7bcf07baa835ffce4",
+      "git:hexsha": "14565529cd3d26219eb8f9c7bcf07baa835ffce4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/36966a7b142b87f20f438523225925543e8b2520",
+      "git:hexsha": "36966a7b142b87f20f438523225925543e8b2520",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/de3f1ea36d6013d238a3d5b429570078d6769127",
+      "git:hexsha": "de3f1ea36d6013d238a3d5b429570078d6769127",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0b3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/3c679638a7cd08192920525925a47685fc8173d3",
+      "git:hexsha": "3c679638a7cd08192920525925a47685fc8173d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0b4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/44a60abd6a7cae620cc567747dd71e2c47e05ce5",
+      "git:hexsha": "44a60abd6a7cae620cc567747dd71e2c47e05ce5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/680b9f8ddcfdf41f2e75fab28738bbbbfc4cadf8",
+      "git:hexsha": "680b9f8ddcfdf41f2e75fab28738bbbbfc4cadf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/302868b3080da12ea8eff52f06c5b759a9da4c38",
+      "git:hexsha": "302868b3080da12ea8eff52f06c5b759a9da4c38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c1ad20e1e229fe77842eebe5fccb85080b2a78e9",
+      "git:hexsha": "c1ad20e1e229fe77842eebe5fccb85080b2a78e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1292ba41665036b01b066a040320b72e38b8c02c",
+      "git:hexsha": "1292ba41665036b01b066a040320b72e38b8c02c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0e5a871abb7a993cf07c01cd66e3cc584d567c7d",
+      "git:hexsha": "0e5a871abb7a993cf07c01cd66e3cc584d567c7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/ac331fc854648b73ea19d29c327c4682802f9da0",
+      "git:hexsha": "ac331fc854648b73ea19d29c327c4682802f9da0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/2b1d81456e0ce1f6c04cfbe1a7fa4e7d41ea0105",
+      "git:hexsha": "2b1d81456e0ce1f6c04cfbe1a7fa4e7d41ea0105",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f9d15f95185b5b5149586a2013b99358bd78ae3b",
+      "git:hexsha": "f9d15f95185b5b5149586a2013b99358bd78ae3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/3482e6a0af2b79a4c3bf14f166a30e05a6046e55",
+      "git:hexsha": "3482e6a0af2b79a4c3bf14f166a30e05a6046e55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/43fb83e23fec50dd3f80a8c5fa8c3244e85707e0",
+      "git:hexsha": "43fb83e23fec50dd3f80a8c5fa8c3244e85707e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0a4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/e94ed5078fa8da1ced21adc818d98d4ef4c10612",
+      "git:hexsha": "e94ed5078fa8da1ced21adc818d98d4ef4c10612",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c4c9bfcdff69932bedd2e15613ad1e4c6f60526f",
+      "git:hexsha": "c4c9bfcdff69932bedd2e15613ad1e4c6f60526f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/691d0163fabc4715d5b9557409cb63a01b3791b4",
+      "git:hexsha": "691d0163fabc4715d5b9557409cb63a01b3791b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/16d59a6df2ec411668036a2f4c79048b38e6f0f1",
+      "git:hexsha": "16d59a6df2ec411668036a2f4c79048b38e6f0f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/51b4adca326d5fa139c11e88e31a14bd477f6c8f",
+      "git:hexsha": "51b4adca326d5fa139c11e88e31a14bd477f6c8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f4958eafc98f3ec6c3eed18044d45b0042cb8fe3",
+      "git:hexsha": "f4958eafc98f3ec6c3eed18044d45b0042cb8fe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/132cb454bfce3ff95fc953942ac6833b3bf423d8",
+      "git:hexsha": "132cb454bfce3ff95fc953942ac6833b3bf423d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/29caa2c3502195c846a881c25f7de2c136dec8f7",
+      "git:hexsha": "29caa2c3502195c846a881c25f7de2c136dec8f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/dfc0feba5b5c08d91e8816a19174bbec1533d607",
+      "git:hexsha": "dfc0feba5b5c08d91e8816a19174bbec1533d607",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/4036511a4e17b7b7cabab0c8a3af56d72faa9aa2",
+      "git:hexsha": "4036511a4e17b7b7cabab0c8a3af56d72faa9aa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/bea0784f93c66d62bb3458982fd095991d1bdd6e",
+      "git:hexsha": "bea0784f93c66d62bb3458982fd095991d1bdd6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f8b6add7ab69333812047b69215440430591b65b",
+      "git:hexsha": "f8b6add7ab69333812047b69215440430591b65b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/3c11e2bc4448231b1411bdc5d1a0d9f1e3f6e211",
+      "git:hexsha": "3c11e2bc4448231b1411bdc5d1a0d9f1e3f6e211",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0e3c015c8be41dea38b022e47c740deee36eb084",
+      "git:hexsha": "0e3c015c8be41dea38b022e47c740deee36eb084",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/baa9fb3ac907da879d4106a42011c19dc1392ab1",
+      "git:hexsha": "baa9fb3ac907da879d4106a42011c19dc1392ab1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/e6a4a1033c224c1d813d8b8aacb9bed779414d67",
+      "git:hexsha": "e6a4a1033c224c1d813d8b8aacb9bed779414d67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c76b4f8be545e43ca991666b2ad73799b46df7da",
+      "git:hexsha": "c76b4f8be545e43ca991666b2ad73799b46df7da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/ecb7930d0a358b74ea789b0be7c4938a4083b272",
+      "git:hexsha": "ecb7930d0a358b74ea789b0be7c4938a4083b272",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/57dd5395af3c9f6b549020933b0b80b2e97f2a1f",
+      "git:hexsha": "57dd5395af3c9f6b549020933b0b80b2e97f2a1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/76b399d6ddd88390a46e46c37c735c4880775271",
+      "git:hexsha": "76b399d6ddd88390a46e46c37c735c4880775271",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/9d77e8d4a4000a09f42a7dffb404779a9c147a0c",
+      "git:hexsha": "9d77e8d4a4000a09f42a7dffb404779a9c147a0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0746419e6ac02209be99dc860f2025297a869532",
+      "git:hexsha": "0746419e6ac02209be99dc860f2025297a869532",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/69c4d46acd85fd8872f52b80553a6149feadd092",
+      "git:hexsha": "69c4d46acd85fd8872f52b80553a6149feadd092",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6cfd0c6a214b15355b783788b11feaad2e9ff299",
+      "git:hexsha": "6cfd0c6a214b15355b783788b11feaad2e9ff299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/096c42bf46d49edf2c890cc471c4b024c7509132",
+      "git:hexsha": "096c42bf46d49edf2c890cc471c4b024c7509132",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/db66e0950bd42b21bb2113a3017293b344b9de37",
+      "git:hexsha": "db66e0950bd42b21bb2113a3017293b344b9de37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6aa15c27f1930f822e91c0dcc2fcd3df8c3f766b",
+      "git:hexsha": "6aa15c27f1930f822e91c0dcc2fcd3df8c3f766b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/d12c87534ca3bdfb49e58f08f1af79b3ddb33f16",
+      "git:hexsha": "d12c87534ca3bdfb49e58f08f1af79b3ddb33f16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/49bca20cfcd5e88a6eb353e8a5a70fb8efb72db8",
+      "git:hexsha": "49bca20cfcd5e88a6eb353e8a5a70fb8efb72db8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1c009476710ab451e55e75d28d372664253fda4e",
+      "git:hexsha": "1c009476710ab451e55e75d28d372664253fda4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.0b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/9d9cfc5e64a8d000f487d3cdc23e4cca34b269b1",
+      "git:hexsha": "9d9cfc5e64a8d000f487d3cdc23e4cca34b269b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f2ce5fc43fa7e35a44ad314da6517d42e18608f5",
+      "git:hexsha": "f2ce5fc43fa7e35a44ad314da6517d42e18608f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/66963be5a6a1d2ada9801efad851c6cde8c13f95",
+      "git:hexsha": "66963be5a6a1d2ada9801efad851c6cde8c13f95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/52485565520fb7ba0babc9fc317e0fa91a1f173e",
+      "git:hexsha": "52485565520fb7ba0babc9fc317e0fa91a1f173e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/28f4a831eb859adf226e65a6b493db6dd437ff7f",
+      "git:hexsha": "28f4a831eb859adf226e65a6b493db6dd437ff7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/a0263b05048dbb379f8f4989842d0785cbde7c86",
+      "git:hexsha": "a0263b05048dbb379f8f4989842d0785cbde7c86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/98341c763e1ac27e9c4d1fe6a8ba34455b82bbe9",
+      "git:hexsha": "98341c763e1ac27e9c4d1fe6a8ba34455b82bbe9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/54d81108c18ae99c6f49beb6e2832f83f238bca7",
+      "git:hexsha": "54d81108c18ae99c6f49beb6e2832f83f238bca7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/ca0b9ed5d146a09cd303d88c25865cc172417603",
+      "git:hexsha": "ca0b9ed5d146a09cd303d88c25865cc172417603",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/7f6506da859ab9e5aab7a2dc00f39d08e7ca7b5a",
+      "git:hexsha": "7f6506da859ab9e5aab7a2dc00f39d08e7ca7b5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/4cfc89aef4f1cc8a8499f7eba92dee05e9559fab",
+      "git:hexsha": "4cfc89aef4f1cc8a8499f7eba92dee05e9559fab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/154054b0ab0d42b103b5ec948be44b74d786a6a3",
+      "git:hexsha": "154054b0ab0d42b103b5ec948be44b74d786a6a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c86f17403546ae32f05ef00492d6e18f8f222e26",
+      "git:hexsha": "c86f17403546ae32f05ef00492d6e18f8f222e26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/47da8d209a2263bb4ec15bd6c3c2cb96c148ac73",
+      "git:hexsha": "47da8d209a2263bb4ec15bd6c3c2cb96c148ac73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/0f53077c65ae5c02da384888bd018e89741064a2",
+      "git:hexsha": "0f53077c65ae5c02da384888bd018e89741064a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/608489da59004f5c1581a0de87291bee359a5651",
+      "git:hexsha": "608489da59004f5c1581a0de87291bee359a5651",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/df503f276bc9b7f63149437a060833d210a8dbf6",
+      "git:hexsha": "df503f276bc9b7f63149437a060833d210a8dbf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/8698f30a7815b996eacbb5a03226e53eb31474ab",
+      "git:hexsha": "8698f30a7815b996eacbb5a03226e53eb31474ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/03de9056a40e8bfecd84d8df62cade69d28cf963",
+      "git:hexsha": "03de9056a40e8bfecd84d8df62cade69d28cf963",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/80b7be4ba1c1c61b27a65ba06952639f27c8f755",
+      "git:hexsha": "80b7be4ba1c1c61b27a65ba06952639f27c8f755",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/32d1ac4223539b29070d9b9070589e9ebb0c230e",
+      "git:hexsha": "32d1ac4223539b29070d9b9070589e9ebb0c230e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/672e0194ea354be9a6e611457be64152354470fe",
+      "git:hexsha": "672e0194ea354be9a6e611457be64152354470fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/d7dec0407e0e8d5ca78bdec72ce12446c89d88ca",
+      "git:hexsha": "d7dec0407e0e8d5ca78bdec72ce12446c89d88ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/9a2a20a884420191e196813991d7e1b5f6e011ae",
+      "git:hexsha": "9a2a20a884420191e196813991d7e1b5f6e011ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/9fa9bfafcf4ae02d9bd212b2242fdc5dbae18228",
+      "git:hexsha": "9fa9bfafcf4ae02d9bd212b2242fdc5dbae18228",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/090bf3e32da1feb3ba8472bd59b3323f327c6b43",
+      "git:hexsha": "090bf3e32da1feb3ba8472bd59b3323f327c6b43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/aad93fe102b38e9547812a6554546b56da008ac0",
+      "git:hexsha": "aad93fe102b38e9547812a6554546b56da008ac0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/02dfe9f6d74028eb04279e57335dfa44676f5322",
+      "git:hexsha": "02dfe9f6d74028eb04279e57335dfa44676f5322",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/b7272af4ca532a3581df1b626a1cf9565a82a3d8",
+      "git:hexsha": "b7272af4ca532a3581df1b626a1cf9565a82a3d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/49ed47181b28c443ca665e1eab4f32b815f1a1a0",
+      "git:hexsha": "49ed47181b28c443ca665e1eab4f32b815f1a1a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/87b8f6d3642dd8731fc7ece523e46cc1ee7b1682",
+      "git:hexsha": "87b8f6d3642dd8731fc7ece523e46cc1ee7b1682",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/25515b526f7c623b7086b6ac75e9171e830d2871",
+      "git:hexsha": "25515b526f7c623b7086b6ac75e9171e830d2871",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/68b862647b8c87f78279062fbbef9daae2149556",
+      "git:hexsha": "68b862647b8c87f78279062fbbef9daae2149556",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6803127640b995270d22595f12d838b8a4b723e4",
+      "git:hexsha": "6803127640b995270d22595f12d838b8a4b723e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/4acb10f2946983270d7e753c4538cf140a23bb65",
+      "git:hexsha": "4acb10f2946983270d7e753c4538cf140a23bb65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/4fbf12b957f11007474da7cdb22dd7ea2f0b6362",
+      "git:hexsha": "4fbf12b957f11007474da7cdb22dd7ea2f0b6362",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/a8dc1a544b48c36366c9e694793232cba8e4c64d",
+      "git:hexsha": "a8dc1a544b48c36366c9e694793232cba8e4c64d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/a6a8bbf95239cc1b507fa8cbd325ff55359bfd31",
+      "git:hexsha": "a6a8bbf95239cc1b507fa8cbd325ff55359bfd31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/33130184594c9a2b01d9536337f3414f9da6b60d",
+      "git:hexsha": "33130184594c9a2b01d9536337f3414f9da6b60d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/4c67a90125bc206fa649b482515775232ca416cf",
+      "git:hexsha": "4c67a90125bc206fa649b482515775232ca416cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/05e16fe9b2333d1f643b89c52cbcd5296c586701",
+      "git:hexsha": "05e16fe9b2333d1f643b89c52cbcd5296c586701",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/92ea0de17f91bf68affbc589c6cd12d0a31a1025",
+      "git:hexsha": "92ea0de17f91bf68affbc589c6cd12d0a31a1025",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f4fcf70d9e03266481bb4dd26aff73903595450b",
+      "git:hexsha": "f4fcf70d9e03266481bb4dd26aff73903595450b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/71062de4fc482d03be4d1c742e28af5a3f190b7f",
+      "git:hexsha": "71062de4fc482d03be4d1c742e28af5a3f190b7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/01d77c4e168cc61fe336cca5dacd20462f13c47d",
+      "git:hexsha": "01d77c4e168cc61fe336cca5dacd20462f13c47d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/81f53875a7116ee45b24c971ab47bf00e51d42f9",
+      "git:hexsha": "81f53875a7116ee45b24c971ab47bf00e51d42f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1c991db3c77f2522ae124b90ff992d42d1ee6e7c",
+      "git:hexsha": "1c991db3c77f2522ae124b90ff992d42d1ee6e7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/e78b1129c66473caa2ae190674af680bb3ed8fb0",
+      "git:hexsha": "e78b1129c66473caa2ae190674af680bb3ed8fb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1fc4f48fedbc26d85d76dd5237ff78f18b25593c",
+      "git:hexsha": "1fc4f48fedbc26d85d76dd5237ff78f18b25593c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.28.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/f8e3f88b6837065be4414a5621d9781d05767637",
+      "git:hexsha": "f8e3f88b6837065be4414a5621d9781d05767637",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/736bf2a6e1f65571d05110abfb92719b072dac76",
+      "git:hexsha": "736bf2a6e1f65571d05110abfb92719b072dac76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/1a46575676e8e23fafe2c5d3624ec7747a885c3b",
+      "git:hexsha": "1a46575676e8e23fafe2c5d3624ec7747a885c3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/47d2aab55aa9812e89b2818491eba053b4c75cd9",
+      "git:hexsha": "47d2aab55aa9812e89b2818491eba053b4c75cd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6a9ab5b07cb64f0469c7a47cc6648cfb33c14fc6",
+      "git:hexsha": "6a9ab5b07cb64f0469c7a47cc6648cfb33c14fc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/51d7d9e94534204e126b8d79a64c5c93e9c6fc41",
+      "git:hexsha": "51d7d9e94534204e126b8d79a64c5c93e9c6fc41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/a2e269971553f509f4dc6299cefd22c04ac39c2e",
+      "git:hexsha": "a2e269971553f509f4dc6299cefd22c04ac39c2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c95dc3a38192f732254e105adb61ec1a9ed9001c",
+      "git:hexsha": "c95dc3a38192f732254e105adb61ec1a9ed9001c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/90b8a964eace3ee8bb9972cb47241c512ad52402",
+      "git:hexsha": "90b8a964eace3ee8bb9972cb47241c512ad52402",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/83f1fa1c5eadf46498126575be1e861ebd67da92",
+      "git:hexsha": "83f1fa1c5eadf46498126575be1e861ebd67da92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.0a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/ed1494a6223a405f976d142b560cc19e934ed960",
+      "git:hexsha": "ed1494a6223a405f976d142b560cc19e934ed960",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6ea4c12c66916d489b355d28a2cc0fdc2ab22549",
+      "git:hexsha": "6ea4c12c66916d489b355d28a2cc0fdc2ab22549",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/d10d2cd689340d9f2acfe67ca19131936e722f04",
+      "git:hexsha": "d10d2cd689340d9f2acfe67ca19131936e722f04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/4a3fcdfc325c5ff11a92b6190c179853ad4c5b96",
+      "git:hexsha": "4a3fcdfc325c5ff11a92b6190c179853ad4c5b96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/c2454236512448d7b55abc6b10e33e2eaae3b8bf",
+      "git:hexsha": "c2454236512448d7b55abc6b10e33e2eaae3b8bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/13769e4406a2f4badce1e8d4c3e43dedad8f264c",
+      "git:hexsha": "13769e4406a2f4badce1e8d4c3e43dedad8f264c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/fc9562fb757f081d8edc11d8e225f5430ff1e1eb",
+      "git:hexsha": "fc9562fb757f081d8edc11d8e225f5430ff1e1eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neo4j/neo4j-python-driver/commit/6d5808649a08614d6e48ac58f41bcda2ea439df1",
+      "git:hexsha": "6d5808649a08614d6e48ac58f41bcda2ea439df1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.4.0"
+    }
+  ]
+}
