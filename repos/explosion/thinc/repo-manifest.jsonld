@@ -1,0 +1,795 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/explosion/thinc",
+  "@type": "gh:Repository",
+  "gh:name": "thinc",
+  "gh:owner": "explosion",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/6c38b29924b218140e5c10c2cb77e3ff487b0ffa",
+      "git:hexsha": "6c38b29924b218140e5c10c2cb77e3ff487b0ffa",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T06:33:23.410591+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/3fa9045ab9d13581f39d8fd1fca6221771370e88",
+      "git:hexsha": "3fa9045ab9d13581f39d8fd1fca6221771370e88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/818195414c798e52e715b7fb6e2bd3e5f1dc9e79",
+      "git:hexsha": "818195414c798e52e715b7fb6e2bd3e5f1dc9e79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/227e081e894f71222e23927fb01bfbc7dd07d042",
+      "git:hexsha": "227e081e894f71222e23927fb01bfbc7dd07d042",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/1bdecaa2287e00d248c737337d123345d95aa579",
+      "git:hexsha": "1bdecaa2287e00d248c737337d123345d95aa579",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8aeb7f0632898dcd24e953654a4a246a7a3b0b2d",
+      "git:hexsha": "8aeb7f0632898dcd24e953654a4a246a7a3b0b2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/30db7249ca3f4f060b2be72d850e6cc91fb3b5eb",
+      "git:hexsha": "30db7249ca3f4f060b2be72d850e6cc91fb3b5eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/fd9140d97bdf3d1b9efe3bebf577b4ed0e39fc05",
+      "git:hexsha": "fd9140d97bdf3d1b9efe3bebf577b4ed0e39fc05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/64496f9de21bb6fc4692e0debe43d6b42fb64ac1",
+      "git:hexsha": "64496f9de21bb6fc4692e0debe43d6b42fb64ac1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/08528efc946be260aaccb5c8070723d23d09b295",
+      "git:hexsha": "08528efc946be260aaccb5c8070723d23d09b295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "l"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/20c3bf4af2fe53f2b5a456dfaa399f89c1013af5",
+      "git:hexsha": "20c3bf4af2fe53f2b5a456dfaa399f89c1013af5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/90a6fb3ec68efed58c48527af3f66e1303e94ffd",
+      "git:hexsha": "90a6fb3ec68efed58c48527af3f66e1303e94ffd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/7a5a6288e6409c2d56085e23c0c6c59a9f953a8d",
+      "git:hexsha": "7a5a6288e6409c2d56085e23c0c6c59a9f953a8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/6e65b6ced4cff3f27c75a604ae931cc88cf79139",
+      "git:hexsha": "6e65b6ced4cff3f27c75a604ae931cc88cf79139",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/0610caa457307d2ca6cd3668ee2b9aede46f3951",
+      "git:hexsha": "0610caa457307d2ca6cd3668ee2b9aede46f3951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/72ff7b5dbe0e322231485290fbdf6294ef1e4f33",
+      "git:hexsha": "72ff7b5dbe0e322231485290fbdf6294ef1e4f33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/6abf379e79190113b8f3618e932e172c86f05029",
+      "git:hexsha": "6abf379e79190113b8f3618e932e172c86f05029",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/a6a537111fa9a0f9ee48130135dc3c30f0a2b6db",
+      "git:hexsha": "a6a537111fa9a0f9ee48130135dc3c30f0a2b6db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/cbc47286dba63613a23a9c571e870d2f3149fc3f",
+      "git:hexsha": "cbc47286dba63613a23a9c571e870d2f3149fc3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/037c264eb7fc607387025f5dc6f68d738c972405",
+      "git:hexsha": "037c264eb7fc607387025f5dc6f68d738c972405",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/f3c7fb806606be17f0a881a3cd75ac42af43e675",
+      "git:hexsha": "f3c7fb806606be17f0a881a3cd75ac42af43e675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/ddd4b6d3e132fd4a0368c4a1bfa83554a32c9922",
+      "git:hexsha": "ddd4b6d3e132fd4a0368c4a1bfa83554a32c9922",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/d7b478b90f90099ae5f050c970646b0a4dca0b11",
+      "git:hexsha": "d7b478b90f90099ae5f050c970646b0a4dca0b11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v8.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e30cd83ee91d639cce63d183002dd91bff6d8b34",
+      "git:hexsha": "e30cd83ee91d639cce63d183002dd91bff6d8b34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v9.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/04956f0102e51ca3cbcd35ec2525066f0c5d2322",
+      "git:hexsha": "04956f0102e51ca3cbcd35ec2525066f0c5d2322",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-v9.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/728838abf54c682d220d3dd5c926e9a6aea554b5",
+      "git:hexsha": "728838abf54c682d220d3dd5c926e9a6aea554b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.1.1.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/bf487955b7e9c3aff82be7316b1f8b9702525b87",
+      "git:hexsha": "bf487955b7e9c3aff82be7316b1f8b9702525b87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e09a7be861cc4ac43ef3c6641b53d288251afd86",
+      "git:hexsha": "e09a7be861cc4ac43ef3c6641b53d288251afd86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/c1cad4230eefe6188dfed1f9960deb2fbf60c62b",
+      "git:hexsha": "c1cad4230eefe6188dfed1f9960deb2fbf60c62b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/ee2ab03427ecefa129fd7d2a4c48b8c467988187",
+      "git:hexsha": "ee2ab03427ecefa129fd7d2a4c48b8c467988187",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/2430b18725d7bc349b9ac87cc89a8f6bbe5c929d",
+      "git:hexsha": "2430b18725d7bc349b9ac87cc89a8f6bbe5c929d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b63bbb7e82008baea5cdd06793c6694f028479e2",
+      "git:hexsha": "b63bbb7e82008baea5cdd06793c6694f028479e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/3eb0a6bff54aed8e277a43fd5b766849aba7c622",
+      "git:hexsha": "3eb0a6bff54aed8e277a43fd5b766849aba7c622",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e8f4d779126910b05b61d43e65d80f01f92f20af",
+      "git:hexsha": "e8f4d779126910b05b61d43e65d80f01f92f20af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/34b666e6218e48724e47d0381ec35f98de9a9055",
+      "git:hexsha": "34b666e6218e48724e47d0381ec35f98de9a9055",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/f5e0fc10e2d39487f4a5d3f0377d630eaabf688e",
+      "git:hexsha": "f5e0fc10e2d39487f4a5d3f0377d630eaabf688e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/2bf3f4b8bbad6496c4429a56a1c1002b74768bde",
+      "git:hexsha": "2bf3f4b8bbad6496c4429a56a1c1002b74768bde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/fb9686e6dba10f5b5f01d1bfd5a230bd3ce0a7a7",
+      "git:hexsha": "fb9686e6dba10f5b5f01d1bfd5a230bd3ce0a7a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.11.1.dev11"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b52adc46e258f6249e15358a4861a300acc94a6f",
+      "git:hexsha": "b52adc46e258f6249e15358a4861a300acc94a6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/cda35e13a2de2cd11baecdc994c18f21ef59adcd",
+      "git:hexsha": "cda35e13a2de2cd11baecdc994c18f21ef59adcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/a6badde8538536899b68729173823fabfa3eb0ed",
+      "git:hexsha": "a6badde8538536899b68729173823fabfa3eb0ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/9b4cba0223848489d030b08fb6c52e54d6e38e61",
+      "git:hexsha": "9b4cba0223848489d030b08fb6c52e54d6e38e61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/de93ee89486d66bf8590afcbc4391b11d57038ff",
+      "git:hexsha": "de93ee89486d66bf8590afcbc4391b11d57038ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/a1d2be5e443152dc8d0cd0655c7ba1751ed4602c",
+      "git:hexsha": "a1d2be5e443152dc8d0cd0655c7ba1751ed4602c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/bae2b3c7e03658fc375eaee4c7db076e50f31a82",
+      "git:hexsha": "bae2b3c7e03658fc375eaee4c7db076e50f31a82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/a805530bd264ed615b86698415d17e88ff8536eb",
+      "git:hexsha": "a805530bd264ed615b86698415d17e88ff8536eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e2cab072126c7af27f44d43759b5ad3e58c487af",
+      "git:hexsha": "e2cab072126c7af27f44d43759b5ad3e58c487af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b770a724a3a45c8a1f38ae87b575c2f946ea9cf5",
+      "git:hexsha": "b770a724a3a45c8a1f38ae87b575c2f946ea9cf5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/ad42125160cdf02472bb399ed1fc627faa1c3e78",
+      "git:hexsha": "ad42125160cdf02472bb399ed1fc627faa1c3e78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/6df42fcf1b094349aa29e35ff399e6c2e48572b0",
+      "git:hexsha": "6df42fcf1b094349aa29e35ff399e6c2e48572b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/d2274e062264eec2430f9201caa014c19c043d9c",
+      "git:hexsha": "d2274e062264eec2430f9201caa014c19c043d9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8338ff4e5426a61c7b255149649fa4961899603b",
+      "git:hexsha": "8338ff4e5426a61c7b255149649fa4961899603b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/fc1d6fa0e7717c8820599a3f5e6a0b8ff462fdf8",
+      "git:hexsha": "fc1d6fa0e7717c8820599a3f5e6a0b8ff462fdf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b317486f2b0d9109066025889f210e3630490a9a",
+      "git:hexsha": "b317486f2b0d9109066025889f210e3630490a9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/d4e0f4ccb682229ac9aeeeb9874d5d05102224de",
+      "git:hexsha": "d4e0f4ccb682229ac9aeeeb9874d5d05102224de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8b9a34f27ec56532365bddff0861dc1d4696a852",
+      "git:hexsha": "8b9a34f27ec56532365bddff0861dc1d4696a852",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/d94fc5dba1520c8e4c46a6424a217796d519b3e8",
+      "git:hexsha": "d94fc5dba1520c8e4c46a6424a217796d519b3e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/58e4087e93b93c5b270b15c265929916c7c54265",
+      "git:hexsha": "58e4087e93b93c5b270b15c265929916c7c54265",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/90129be5f0d6c665344245a7c37dbe1b8afceea2",
+      "git:hexsha": "90129be5f0d6c665344245a7c37dbe1b8afceea2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b9173322f23ad406edf9c6c6c33c6e00e8eb0d4a",
+      "git:hexsha": "b9173322f23ad406edf9c6c6c33c6e00e8eb0d4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/bb34c1500471e88c175611a22260376f2232514f",
+      "git:hexsha": "bb34c1500471e88c175611a22260376f2232514f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/331d994505ec8efb14d01540c944d64e522f5f61",
+      "git:hexsha": "331d994505ec8efb14d01540c944d64e522f5f61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/66e881543fe9555e1b8900f5162430b35042686d",
+      "git:hexsha": "66e881543fe9555e1b8900f5162430b35042686d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/029d556540b8b03b2b260934ca01cd2811cceb99",
+      "git:hexsha": "029d556540b8b03b2b260934ca01cd2811cceb99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/1e16a92626dffa4462e0c14af9c341cae659d74f",
+      "git:hexsha": "1e16a92626dffa4462e0c14af9c341cae659d74f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/165108e0aeb449c2ec80e2141078752f1b10a29b",
+      "git:hexsha": "165108e0aeb449c2ec80e2141078752f1b10a29b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/1b34a3f06a498c3b139decaf44f6f1174e34e81a",
+      "git:hexsha": "1b34a3f06a498c3b139decaf44f6f1174e34e81a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/d6bdb013f09de8fc10be3bb3d286c5bd6a36bc96",
+      "git:hexsha": "d6bdb013f09de8fc10be3bb3d286c5bd6a36bc96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/f801d2980349f7ded6201c4b9a8bb9e230bc2899",
+      "git:hexsha": "f801d2980349f7ded6201c4b9a8bb9e230bc2899",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8cb6c6435ca4f6165a039eec57e7850b8acb6b55",
+      "git:hexsha": "8cb6c6435ca4f6165a039eec57e7850b8acb6b55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/ef51f4e02d0c1de0d87104d8636197e9f9181437",
+      "git:hexsha": "ef51f4e02d0c1de0d87104d8636197e9f9181437",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/a338105b805d4ab99f2127f2387f2e1cd4755291",
+      "git:hexsha": "a338105b805d4ab99f2127f2387f2e1cd4755291",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/3e736663114fff114ce806fdcf0deddf78542971",
+      "git:hexsha": "3e736663114fff114ce806fdcf0deddf78542971",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/05259ed4a77f598dc11efdd97ff6ccdc48a31019",
+      "git:hexsha": "05259ed4a77f598dc11efdd97ff6ccdc48a31019",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/ce9b3248125f4fc076f65f326a76954d83b24b64",
+      "git:hexsha": "ce9b3248125f4fc076f65f326a76954d83b24b64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/fa80c0682bcce63b97e077136429f8e10ba3d431",
+      "git:hexsha": "fa80c0682bcce63b97e077136429f8e10ba3d431",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b1b34ba36404c0f4c81df5d1175390e4ecec6279",
+      "git:hexsha": "b1b34ba36404c0f4c81df5d1175390e4ecec6279",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/19673d9a39266fd8e9895ec97f9a10f269b956a5",
+      "git:hexsha": "19673d9a39266fd8e9895ec97f9a10f269b956a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/36e20cee7cee93c119d2e83fc9bb82c42cf659ad",
+      "git:hexsha": "36e20cee7cee93c119d2e83fc9bb82c42cf659ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/c1f5b510f070d27d3f09aab2dd2874dd7ed89c14",
+      "git:hexsha": "c1f5b510f070d27d3f09aab2dd2874dd7ed89c14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/6e9c13ddad3a6813396ba16d0529b9930f513320",
+      "git:hexsha": "6e9c13ddad3a6813396ba16d0529b9930f513320",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/47b008156350956ec7ffc6153a567f318f623551",
+      "git:hexsha": "47b008156350956ec7ffc6153a567f318f623551",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/1b3702b12ffa109299523b71f9e6acc95cdfa51e",
+      "git:hexsha": "1b3702b12ffa109299523b71f9e6acc95cdfa51e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/5a738397197ab6ed08a02997418be0a4a2a03917",
+      "git:hexsha": "5a738397197ab6ed08a02997418be0a4a2a03917",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/2f2de9203d88da3700669f293f796ad1bfd60246",
+      "git:hexsha": "2f2de9203d88da3700669f293f796ad1bfd60246",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/61153929f57cc69014a5b978fa2a9a42313ddbeb",
+      "git:hexsha": "61153929f57cc69014a5b978fa2a9a42313ddbeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/0ad6137d2c50f1fe7948004649aaacf50da04033",
+      "git:hexsha": "0ad6137d2c50f1fe7948004649aaacf50da04033",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/1071969441770bb6cd01ade8992be927976bfec7",
+      "git:hexsha": "1071969441770bb6cd01ade8992be927976bfec7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/1b98a5f8c29b4668bc29c17653d6c9f8eb966c2d",
+      "git:hexsha": "1b98a5f8c29b4668bc29c17653d6c9f8eb966c2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.14.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/9598d7697a6b5281d98b65fa689550bfa1ba20d0",
+      "git:hexsha": "9598d7697a6b5281d98b65fa689550bfa1ba20d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/20da902e4a5c46c38deada9ea3fd9dcc9274b1e1",
+      "git:hexsha": "20da902e4a5c46c38deada9ea3fd9dcc9274b1e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/87865be290c5df28c2cd534607998d7f261921d9",
+      "git:hexsha": "87865be290c5df28c2cd534607998d7f261921d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/f92bb9c15933724e68547efd90648f26096df035",
+      "git:hexsha": "f92bb9c15933724e68547efd90648f26096df035",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/7557abadfa8b8b435eb4cdf184fa5bfb6d09e3e4",
+      "git:hexsha": "7557abadfa8b8b435eb4cdf184fa5bfb6d09e3e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8881755297b17f658cfb88fbfd750090c808607f",
+      "git:hexsha": "8881755297b17f658cfb88fbfd750090c808607f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/501552c91ee00e9e558dfaddbae74ff876b0598a",
+      "git:hexsha": "501552c91ee00e9e558dfaddbae74ff876b0598a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/2cdd3d28468ab8941f5d259c06a6a6d434399d00",
+      "git:hexsha": "2cdd3d28468ab8941f5d259c06a6a6d434399d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/c62b27ae666b4dbabbcbfdb96cf1e90a40bab9cc",
+      "git:hexsha": "c62b27ae666b4dbabbcbfdb96cf1e90a40bab9cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/a125b8cf6a518bf61a418dbd077d8849e8c30167",
+      "git:hexsha": "a125b8cf6a518bf61a418dbd077d8849e8c30167",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/35ac30e057077833982976c77b1381ada32ad4d6",
+      "git:hexsha": "35ac30e057077833982976c77b1381ada32ad4d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/17846c45ed5dab31988a99a49e012d06bbfeb68a",
+      "git:hexsha": "17846c45ed5dab31988a99a49e012d06bbfeb68a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/21d9b862c741203febef99fe36d3000381a04429",
+      "git:hexsha": "21d9b862c741203febef99fe36d3000381a04429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/be65301a72447827a6bdf1c02c0c21e88b8cdcd4",
+      "git:hexsha": "be65301a72447827a6bdf1c02c0c21e88b8cdcd4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/3216d7c681d1054ef6d2f957b0c4564abc9924a7",
+      "git:hexsha": "3216d7c681d1054ef6d2f957b0c4564abc9924a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8236b8943224a0be1caf52d9a66df9adc1ca066f",
+      "git:hexsha": "8236b8943224a0be1caf52d9a66df9adc1ca066f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/9836e9ee2e4f2fbf38947ec171ca12b883adaaec",
+      "git:hexsha": "9836e9ee2e4f2fbf38947ec171ca12b883adaaec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/7503392c8ae65a79083d1a2a7c9164f2aa48400a",
+      "git:hexsha": "7503392c8ae65a79083d1a2a7c9164f2aa48400a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/049d37e24b0361a212212732eb1b68db4799732a",
+      "git:hexsha": "049d37e24b0361a212212732eb1b68db4799732a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/cc91edcfc86fe8b684b1dcebd04fce08893b6ae4",
+      "git:hexsha": "cc91edcfc86fe8b684b1dcebd04fce08893b6ae4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/d9c40cf7189492fa56eeb59e63076b72dcc46d42",
+      "git:hexsha": "d9c40cf7189492fa56eeb59e63076b72dcc46d42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/36b691ff50b2ba980d90e21c0a839e50c32d380c",
+      "git:hexsha": "36b691ff50b2ba980d90e21c0a839e50c32d380c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/aebb8e4e6a040582983cf105bfc718f5bb98feed",
+      "git:hexsha": "aebb8e4e6a040582983cf105bfc718f5bb98feed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e4a11573fdc6ee3c6c0f03641d4dd2407ac4f9bd",
+      "git:hexsha": "e4a11573fdc6ee3c6c0f03641d4dd2407ac4f9bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/299ccb923d1f13286fc182239ce6468fb60cc054",
+      "git:hexsha": "299ccb923d1f13286fc182239ce6468fb60cc054",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/8f293895b17aeba386dd7b4255d082fe5b694366",
+      "git:hexsha": "8f293895b17aeba386dd7b4255d082fe5b694366",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/14cc42acb0abc0462b8ddf20156fb2da067d73be",
+      "git:hexsha": "14cc42acb0abc0462b8ddf20156fb2da067d73be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/18898f2d40a74766da4478231d6f519203f8514d",
+      "git:hexsha": "18898f2d40a74766da4478231d6f519203f8514d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/7a31415b87448dac26fb8db0bdbf2e6eb5a2a22b",
+      "git:hexsha": "7a31415b87448dac26fb8db0bdbf2e6eb5a2a22b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/cf51ac568d3df5e9926638b222842eb94b4f38b7",
+      "git:hexsha": "cf51ac568d3df5e9926638b222842eb94b4f38b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/b183006daa740e648cca997e0cca29239e18e575",
+      "git:hexsha": "b183006daa740e648cca997e0cca29239e18e575",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/3aae298d32adc167ac57e0791a5a8c0544b1e8a5",
+      "git:hexsha": "3aae298d32adc167ac57e0791a5a8c0544b1e8a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/602ef55dc811350b3759d5de28b477513b68a4f3",
+      "git:hexsha": "602ef55dc811350b3759d5de28b477513b68a4f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e51abd7c3e788d25da09d6bc997bb557471e43cd",
+      "git:hexsha": "e51abd7c3e788d25da09d6bc997bb557471e43cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/f72185afe413d8750e990ed07f4589466df0332c",
+      "git:hexsha": "f72185afe413d8750e990ed07f4589466df0332c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.3.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/934c5367f15ff9971a52cd30962fd3542b6a1e86",
+      "git:hexsha": "934c5367f15ff9971a52cd30962fd3542b6a1e86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/07f8f888308b9ed453ff4e1bb09c3eb505c98558",
+      "git:hexsha": "07f8f888308b9ed453ff4e1bb09c3eb505c98558",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/f6f6c81b4b60ccab4988d9b30acac5d08303e1fa",
+      "git:hexsha": "f6f6c81b4b60ccab4988d9b30acac5d08303e1fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/e58ca10bf97f8490eb4132208d80f3bb43431186",
+      "git:hexsha": "e58ca10bf97f8490eb4132208d80f3bb43431186",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/bf0e2762c674973d56f09bf666d08ab7d84e2bef",
+      "git:hexsha": "bf0e2762c674973d56f09bf666d08ab7d84e2bef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/40d41487ed5f8270e974b16ec8e2edc097faef22",
+      "git:hexsha": "40d41487ed5f8270e974b16ec8e2edc097faef22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/thinc/commit/ec68d7d558783a40ccb7a4f4627070f9aa4fb195",
+      "git:hexsha": "ec68d7d558783a40ccb7a4f4627070f9aa4fb195",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0.dev5"
+    }
+  ]
+}
