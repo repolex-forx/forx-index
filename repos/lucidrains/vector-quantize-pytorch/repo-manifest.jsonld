@@ -1,0 +1,1953 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch",
+  "@type": "gh:Repository",
+  "gh:name": "vector-quantize-pytorch",
+  "gh:owner": "lucidrains",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4103bf2c7be993b6e0ac21d88684818c9880c478",
+      "git:hexsha": "4103bf2c7be993b6e0ac21d88684818c9880c478",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T08:12:56.142806+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/102b982d4d7c7e4f34042d2d5904b1e26981d664",
+      "git:hexsha": "102b982d4d7c7e4f34042d2d5904b1e26981d664",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ec2474608816a3752b13dc826a19b8966d98804e",
+      "git:hexsha": "ec2474608816a3752b13dc826a19b8966d98804e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ccfaac6638b908d49b69cfaae924f30b80e9c3a9",
+      "git:hexsha": "ccfaac6638b908d49b69cfaae924f30b80e9c3a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/33c380d9b5977265ee2d9dc02fb4bb9293be4ad8",
+      "git:hexsha": "33c380d9b5977265ee2d9dc02fb4bb9293be4ad8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6f65e7248e7b0d66ecd38f5b295da4b0bf4aa394",
+      "git:hexsha": "6f65e7248e7b0d66ecd38f5b295da4b0bf4aa394",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ecf2f7c7c7701029488500b6b3d46b7c895063bf",
+      "git:hexsha": "ecf2f7c7c7701029488500b6b3d46b7c895063bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/90478f491ef11a6e18c241dfaf00209235377bc8",
+      "git:hexsha": "90478f491ef11a6e18c241dfaf00209235377bc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4467f8d67a20930c3b4a3287ebd6aa9b86bd1474",
+      "git:hexsha": "4467f8d67a20930c3b4a3287ebd6aa9b86bd1474",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e7ced714b7aa0bd5598d1547d26a8570c5b004a3",
+      "git:hexsha": "e7ced714b7aa0bd5598d1547d26a8570c5b004a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/970d416f7d73521c72c46bae4f5b54ed65a57674",
+      "git:hexsha": "970d416f7d73521c72c46bae4f5b54ed65a57674",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ab44bb94d85b5ceb7364ddedfa39b18890eaee56",
+      "git:hexsha": "ab44bb94d85b5ceb7364ddedfa39b18890eaee56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b6b605dee49c123db4b84921f963065b20b57c35",
+      "git:hexsha": "b6b605dee49c123db4b84921f963065b20b57c35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ec8b2a3b2a6273b875a0ea792a97ef982eca057e",
+      "git:hexsha": "ec8b2a3b2a6273b875a0ea792a97ef982eca057e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c925e6e99efd02b576ac30cf5f84fcfa88f3d9ad",
+      "git:hexsha": "c925e6e99efd02b576ac30cf5f84fcfa88f3d9ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d6c514be1593882d62c9c91715099c854e23038e",
+      "git:hexsha": "d6c514be1593882d62c9c91715099c854e23038e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6c1b7266cbd5d41cd1d94303d626fb5fcbbf1da8",
+      "git:hexsha": "6c1b7266cbd5d41cd1d94303d626fb5fcbbf1da8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/284a6712c596ed7ed40c02777ee8a925f5696d7e",
+      "git:hexsha": "284a6712c596ed7ed40c02777ee8a925f5696d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/381d574d7a583eaeb1a2a3596979a5d056946336",
+      "git:hexsha": "381d574d7a583eaeb1a2a3596979a5d056946336",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/43595a88fc1523214e39d5b4ebe707183b104a91",
+      "git:hexsha": "43595a88fc1523214e39d5b4ebe707183b104a91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d28d851aa514b244120c2fd286a7bab380ccd127",
+      "git:hexsha": "d28d851aa514b244120c2fd286a7bab380ccd127",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/db5dd6e7551f23e8699453e42a96f07e5baf6080",
+      "git:hexsha": "db5dd6e7551f23e8699453e42a96f07e5baf6080",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e562e0fd4f0ef0125f4fdf97d242845e78a4492d",
+      "git:hexsha": "e562e0fd4f0ef0125f4fdf97d242845e78a4492d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7f26a57ba95846232a9fa4a2833ddef71b1f7500",
+      "git:hexsha": "7f26a57ba95846232a9fa4a2833ddef71b1f7500",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a1b4a71ba86f8250470e74b99b55b4dd346b7511",
+      "git:hexsha": "a1b4a71ba86f8250470e74b99b55b4dd346b7511",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b1f5d8edb7be48ff1fa9ec8959b6097dcb7aa99a",
+      "git:hexsha": "b1f5d8edb7be48ff1fa9ec8959b6097dcb7aa99a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/bec307dc8efa8db646af78dc1bd73e7cfab43cfe",
+      "git:hexsha": "bec307dc8efa8db646af78dc1bd73e7cfab43cfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c23ee19ebe9892ff8af780878b8d4cd03e6404ea",
+      "git:hexsha": "c23ee19ebe9892ff8af780878b8d4cd03e6404ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/baf249e914fb083cfa7a385d389bcb4f315f9ef7",
+      "git:hexsha": "baf249e914fb083cfa7a385d389bcb4f315f9ef7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/567dc9cf92d7c8d8770de77abe4ec5bcd2f8ac31",
+      "git:hexsha": "567dc9cf92d7c8d8770de77abe4ec5bcd2f8ac31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/826c620d90deabb1153ccaabd7d9ae50889c33e6",
+      "git:hexsha": "826c620d90deabb1153ccaabd7d9ae50889c33e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0e8aa7687d6b4e64db074c2b5fc1d38ae2d1226f",
+      "git:hexsha": "0e8aa7687d6b4e64db074c2b5fc1d38ae2d1226f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/49f1ff7742acedf9a010ee733c73a7f4607ce8cb",
+      "git:hexsha": "49f1ff7742acedf9a010ee733c73a7f4607ce8cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ebce893fff695845f7fe0f04d1400d2c29b94f98",
+      "git:hexsha": "ebce893fff695845f7fe0f04d1400d2c29b94f98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1c29b923d42ff29d4651cdd6155450815fe1787e",
+      "git:hexsha": "1c29b923d42ff29d4651cdd6155450815fe1787e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/dd5e4a36a3d78810c981600191c8f3a4bfb662ce",
+      "git:hexsha": "dd5e4a36a3d78810c981600191c8f3a4bfb662ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/918322ac78c2f2d7ed2175441ec46fe3e388021f",
+      "git:hexsha": "918322ac78c2f2d7ed2175441ec46fe3e388021f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f4604a7878f16a0a8f4758af9bfb83654659f937",
+      "git:hexsha": "f4604a7878f16a0a8f4758af9bfb83654659f937",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/528d2b027d0ae395a9a281a5b3069421e833cf6a",
+      "git:hexsha": "528d2b027d0ae395a9a281a5b3069421e833cf6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/2fd172a9feaa4e6b29026f02e75c791fbe41e0df",
+      "git:hexsha": "2fd172a9feaa4e6b29026f02e75c791fbe41e0df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/537fd0d73045477b74edebf449c45877f1458acb",
+      "git:hexsha": "537fd0d73045477b74edebf449c45877f1458acb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/efca4a213bc1669bf413e317eafa0a5b48071cea",
+      "git:hexsha": "efca4a213bc1669bf413e317eafa0a5b48071cea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/201ad26f0ef550d7bbffe8a9bc8d615b15a3d4b4",
+      "git:hexsha": "201ad26f0ef550d7bbffe8a9bc8d615b15a3d4b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cd7843fde1439e54c7cd2e8ff7a05412e8ea9b37",
+      "git:hexsha": "cd7843fde1439e54c7cd2e8ff7a05412e8ea9b37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8484d78a9c3fc6f6ef0e1c201a69f177cafe53ef",
+      "git:hexsha": "8484d78a9c3fc6f6ef0e1c201a69f177cafe53ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f7fb43702b21d47b1d59da0211dbaeaae220e65b",
+      "git:hexsha": "f7fb43702b21d47b1d59da0211dbaeaae220e65b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/dea416f01779b6b7270c87af775aaf78a9839159",
+      "git:hexsha": "dea416f01779b6b7270c87af775aaf78a9839159",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8716f68d5549f5252d81e45651271f466d639356",
+      "git:hexsha": "8716f68d5549f5252d81e45651271f466d639356",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/381e5d12ac982e82b50f0d12006d66909bc54d1a",
+      "git:hexsha": "381e5d12ac982e82b50f0d12006d66909bc54d1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/146810e271f435daa3834edd9473be050bc04647",
+      "git:hexsha": "146810e271f435daa3834edd9473be050bc04647",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/61b821d876249977be5c8b6f7fac710f860f05db",
+      "git:hexsha": "61b821d876249977be5c8b6f7fac710f860f05db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/87b54c1c23c2add01030b2c4feb48fa923e718c8",
+      "git:hexsha": "87b54c1c23c2add01030b2c4feb48fa923e718c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/88c167417461fd424a30266f2df930a3a5cf9042",
+      "git:hexsha": "88c167417461fd424a30266f2df930a3a5cf9042",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9ecc12a58eedff6c4bddbfa54c21beb46a5a0d73",
+      "git:hexsha": "9ecc12a58eedff6c4bddbfa54c21beb46a5a0d73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/2b565f193b34316065d89034f66ccafd142cb939",
+      "git:hexsha": "2b565f193b34316065d89034f66ccafd142cb939",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/71b259e329d2e0d731712ec8c11507b75c1ebf42",
+      "git:hexsha": "71b259e329d2e0d731712ec8c11507b75c1ebf42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c724e8c83a40c7443713724cc81efc429625bb35",
+      "git:hexsha": "c724e8c83a40c7443713724cc81efc429625bb35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f3c4dd702fe774645afd8e55e7a7e20118022478",
+      "git:hexsha": "f3c4dd702fe774645afd8e55e7a7e20118022478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/37620e4ae34a712850488cb5c14014f04c28c60a",
+      "git:hexsha": "37620e4ae34a712850488cb5c14014f04c28c60a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b16be13bd03b7e4005f30e1a03613f3dd988d931",
+      "git:hexsha": "b16be13bd03b7e4005f30e1a03613f3dd988d931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/483ed6af4143198be1cf2cdabe09932617dab484",
+      "git:hexsha": "483ed6af4143198be1cf2cdabe09932617dab484",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b449efc35c0414d0338752d6a81b44142a8779af",
+      "git:hexsha": "b449efc35c0414d0338752d6a81b44142a8779af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e0e073d25ae5bafcd1622c3e2bdad89478412b78",
+      "git:hexsha": "e0e073d25ae5bafcd1622c3e2bdad89478412b78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cd4fd3febc2acbff6a29ef96a9066117dece3328",
+      "git:hexsha": "cd4fd3febc2acbff6a29ef96a9066117dece3328",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/324d32d742983d6f15b6dee77162c21495a0a2b4",
+      "git:hexsha": "324d32d742983d6f15b6dee77162c21495a0a2b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/905e43833f61bb7421795d33c99f7addacc25d39",
+      "git:hexsha": "905e43833f61bb7421795d33c99f7addacc25d39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/440006dcfe9816340905f1dc21c41e4b1027077c",
+      "git:hexsha": "440006dcfe9816340905f1dc21c41e4b1027077c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4f7a7731ac5e0fc820fcdc986c0cd6172f724478",
+      "git:hexsha": "4f7a7731ac5e0fc820fcdc986c0cd6172f724478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1dc2f12c15c070504c0b52293819aaa0505bad7f",
+      "git:hexsha": "1dc2f12c15c070504c0b52293819aaa0505bad7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a92356923d50fd12471ab8cbdb5b049af750ff8c",
+      "git:hexsha": "a92356923d50fd12471ab8cbdb5b049af750ff8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7d233eaec9679448f86924eb7c434c6404d83f64",
+      "git:hexsha": "7d233eaec9679448f86924eb7c434c6404d83f64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0d14a22b3d8f9121146497b4aae7dd3744f4c9f7",
+      "git:hexsha": "0d14a22b3d8f9121146497b4aae7dd3744f4c9f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d34ee474e6d503bfac5d29168839773bf804c67b",
+      "git:hexsha": "d34ee474e6d503bfac5d29168839773bf804c67b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/86dbdec2945d9364fef68c43d548cc4fd4175a40",
+      "git:hexsha": "86dbdec2945d9364fef68c43d548cc4fd4175a40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/818973c8ddab8ccecf837cadb659b6540b22a99b",
+      "git:hexsha": "818973c8ddab8ccecf837cadb659b6540b22a99b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9e58b8ae2c72d28f411e307722b26599282a37c1",
+      "git:hexsha": "9e58b8ae2c72d28f411e307722b26599282a37c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5386317166a2ff8691006912c08930aa2afa5522",
+      "git:hexsha": "5386317166a2ff8691006912c08930aa2afa5522",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cbbc77be13dbe5ce410e81d80712914c87a165da",
+      "git:hexsha": "cbbc77be13dbe5ce410e81d80712914c87a165da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7e34d13ef420bf19d083ee16d376978d7f15216b",
+      "git:hexsha": "7e34d13ef420bf19d083ee16d376978d7f15216b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d6dcc9e3fed65fcd0567f957f5ea39a3deb9904f",
+      "git:hexsha": "d6dcc9e3fed65fcd0567f957f5ea39a3deb9904f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b5da2a95dfa35c4ccc82fb748f9a6f16503e7d8a",
+      "git:hexsha": "b5da2a95dfa35c4ccc82fb748f9a6f16503e7d8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.11.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4fc8e0a8f032d0eaeb074eb8a71edd19f8b624ec",
+      "git:hexsha": "4fc8e0a8f032d0eaeb074eb8a71edd19f8b624ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/72d15768bc9d34bbbed36ce5e8dc8deb7222b9bf",
+      "git:hexsha": "72d15768bc9d34bbbed36ce5e8dc8deb7222b9bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/13dd330bff3b972b6f008dcd6cd05b48ef99d110",
+      "git:hexsha": "13dd330bff3b972b6f008dcd6cd05b48ef99d110",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e84e3943922369ea967f461d5f82692ff5683b93",
+      "git:hexsha": "e84e3943922369ea967f461d5f82692ff5683b93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5f7851be6c6021236d3a8573dd017ab15083773b",
+      "git:hexsha": "5f7851be6c6021236d3a8573dd017ab15083773b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/60de3312fb5c4acaea3da57fe419a6316d329e51",
+      "git:hexsha": "60de3312fb5c4acaea3da57fe419a6316d329e51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3af411025c58822129e867dc6523d6a24743031f",
+      "git:hexsha": "3af411025c58822129e867dc6523d6a24743031f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9502a1f447876d53fd37685b226bf28f250dc4a3",
+      "git:hexsha": "9502a1f447876d53fd37685b226bf28f250dc4a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/078f005125dc969296cd292b1ab136b4625e635c",
+      "git:hexsha": "078f005125dc969296cd292b1ab136b4625e635c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7bd7078d3078238cc7c53c1eaf122cfdac36967e",
+      "git:hexsha": "7bd7078d3078238cc7c53c1eaf122cfdac36967e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/af576e5735c667f92ff4c35fdcfc52f047f56169",
+      "git:hexsha": "af576e5735c667f92ff4c35fdcfc52f047f56169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/877287aa90b6792adbd4d9f290103c26bca28481",
+      "git:hexsha": "877287aa90b6792adbd4d9f290103c26bca28481",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/989fffdb7ec28662ee06bcf634cf6ac621865f0a",
+      "git:hexsha": "989fffdb7ec28662ee06bcf634cf6ac621865f0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/002cd57da500e151a28bf82209eb82c45c2c9508",
+      "git:hexsha": "002cd57da500e151a28bf82209eb82c45c2c9508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.12.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e017dd444cc52a6ef0fb90bc496b1b4dbb88f0ab",
+      "git:hexsha": "e017dd444cc52a6ef0fb90bc496b1b4dbb88f0ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d8ef53fe282ddd740e6ed6e4177799befd5aa73b",
+      "git:hexsha": "d8ef53fe282ddd740e6ed6e4177799befd5aa73b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/41d3b1d70171cadf423390e039526ca475efbdf8",
+      "git:hexsha": "41d3b1d70171cadf423390e039526ca475efbdf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6dbb3ed95323c5f28961e746800a7e3defae5923",
+      "git:hexsha": "6dbb3ed95323c5f28961e746800a7e3defae5923",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4a643eb4161fdd154d6d04f11c798fde714f4cec",
+      "git:hexsha": "4a643eb4161fdd154d6d04f11c798fde714f4cec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/589e695653c181291ee470554132698c24f586c9",
+      "git:hexsha": "589e695653c181291ee470554132698c24f586c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1ea2ef6a07bce0adcd11275fcfffda732af51388",
+      "git:hexsha": "1ea2ef6a07bce0adcd11275fcfffda732af51388",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5ae60bd67c356fcba290c77dc20107f2e7f4b563",
+      "git:hexsha": "5ae60bd67c356fcba290c77dc20107f2e7f4b563",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5bf9b919520ab44b82e9eab3cc7a856cafb908df",
+      "git:hexsha": "5bf9b919520ab44b82e9eab3cc7a856cafb908df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/371a1b9d9e3ffcf171d9a7b782ad36d13768a577",
+      "git:hexsha": "371a1b9d9e3ffcf171d9a7b782ad36d13768a577",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f8f357a2d0cebc76486aadb4bfced4dcd250b0e1",
+      "git:hexsha": "f8f357a2d0cebc76486aadb4bfced4dcd250b0e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0f970c4ae20b93d25a8337ee8d91b53b0e32ff10",
+      "git:hexsha": "0f970c4ae20b93d25a8337ee8d91b53b0e32ff10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4d26b61e6757b2e12ef60dcb046ac7a81a03c6b1",
+      "git:hexsha": "4d26b61e6757b2e12ef60dcb046ac7a81a03c6b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f99fcf84691d04b92362d2edf83fc06a83dc5920",
+      "git:hexsha": "f99fcf84691d04b92362d2edf83fc06a83dc5920",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/85f03c54c1b895b4e904cae62b6ee0a66c0b46e6",
+      "git:hexsha": "85f03c54c1b895b4e904cae62b6ee0a66c0b46e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b38a4c2d1c39bc1b1dae793e3f216cccd10613b6",
+      "git:hexsha": "b38a4c2d1c39bc1b1dae793e3f216cccd10613b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/97c9b6557c85d8962901c904c63cc028ee294e18",
+      "git:hexsha": "97c9b6557c85d8962901c904c63cc028ee294e18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/78b36f42c50e1e89fb52a3f7ad767e6e942be5ef",
+      "git:hexsha": "78b36f42c50e1e89fb52a3f7ad767e6e942be5ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ccf40683f69c896ebd145b56282a0db69c7b12e6",
+      "git:hexsha": "ccf40683f69c896ebd145b56282a0db69c7b12e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c15623613d8d4f09abe629d1e04b05fe31da7601",
+      "git:hexsha": "c15623613d8d4f09abe629d1e04b05fe31da7601",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7444ddca852de48717d238453c18f552312bd0fe",
+      "git:hexsha": "7444ddca852de48717d238453c18f552312bd0fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/fc55a8cd578ede12da08762ebba3b0f08897fb78",
+      "git:hexsha": "fc55a8cd578ede12da08762ebba3b0f08897fb78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/133f7386df6cf83345bb7cddca741d0364753af1",
+      "git:hexsha": "133f7386df6cf83345bb7cddca741d0364753af1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/013ff8481f115611d15a0bc850dad7dc0fbf4711",
+      "git:hexsha": "013ff8481f115611d15a0bc850dad7dc0fbf4711",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b8d077d4f53f5ade4075a26da6d8f0bea6fe85f1",
+      "git:hexsha": "b8d077d4f53f5ade4075a26da6d8f0bea6fe85f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/63ce494fdc8c6b534a37b2d42d02ff0285bc5663",
+      "git:hexsha": "63ce494fdc8c6b534a37b2d42d02ff0285bc5663",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6dbbf7d19f0ff7ec2cda8b2ebce7088b26e6938e",
+      "git:hexsha": "6dbbf7d19f0ff7ec2cda8b2ebce7088b26e6938e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c516c8a05b377f7347f360d5763bf439e62db41d",
+      "git:hexsha": "c516c8a05b377f7347f360d5763bf439e62db41d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1c775593713af929afe37edf296d8791e45cf658",
+      "git:hexsha": "1c775593713af929afe37edf296d8791e45cf658",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/268131201069143fdd82103d720f2f808afafe44",
+      "git:hexsha": "268131201069143fdd82103d720f2f808afafe44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4956bf74661f1738e150fee2dab34bdd5bf87ae1",
+      "git:hexsha": "4956bf74661f1738e150fee2dab34bdd5bf87ae1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/221d3df6f75cc5a5b6e2bb5109f9feb11d2406f4",
+      "git:hexsha": "221d3df6f75cc5a5b6e2bb5109f9feb11d2406f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/002400875c9769e6da7ecc5b64ed98ae88582344",
+      "git:hexsha": "002400875c9769e6da7ecc5b64ed98ae88582344",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/fea8f22ebdf02894bc46d7abd4b68158a23f0966",
+      "git:hexsha": "fea8f22ebdf02894bc46d7abd4b68158a23f0966",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/bb9e878d34e151bf14ec35faa128b46d034dcb3d",
+      "git:hexsha": "bb9e878d34e151bf14ec35faa128b46d034dcb3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d23b27c93d8112372327dce94854dbf148a6dd81",
+      "git:hexsha": "d23b27c93d8112372327dce94854dbf148a6dd81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c14fa4de05a0599d34950037239c14d12c176aa2",
+      "git:hexsha": "c14fa4de05a0599d34950037239c14d12c176aa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6c3f9a7e8f7954f9458332797cbe438c1f7fadd8",
+      "git:hexsha": "6c3f9a7e8f7954f9458332797cbe438c1f7fadd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1bce1c3b80296f64612f808942460c3a955dec3f",
+      "git:hexsha": "1bce1c3b80296f64612f808942460c3a955dec3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3505761ada72dbcba25caf09a62208b2aa5a1b78",
+      "git:hexsha": "3505761ada72dbcba25caf09a62208b2aa5a1b78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4ae176da2cfe1df8b1109086319a40997957c542",
+      "git:hexsha": "4ae176da2cfe1df8b1109086319a40997957c542",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9b906d697384b50bfbf2ca30be6041616d30cd9e",
+      "git:hexsha": "9b906d697384b50bfbf2ca30be6041616d30cd9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ce3433256e40328de4a5bf06fadfcda2a227e696",
+      "git:hexsha": "ce3433256e40328de4a5bf06fadfcda2a227e696",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e244d472054fff7569bf32f80c2fca22928e9c16",
+      "git:hexsha": "e244d472054fff7569bf32f80c2fca22928e9c16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/665f4b68300abf2d20d42075f2ba99b4060574c8",
+      "git:hexsha": "665f4b68300abf2d20d42075f2ba99b4060574c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.14.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/be92f7908b938cf00c60d643c5ecffb01c7fa9fc",
+      "git:hexsha": "be92f7908b938cf00c60d643c5ecffb01c7fa9fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/16ec0a84cb30e7854d7d7a0122e146a69e87f946",
+      "git:hexsha": "16ec0a84cb30e7854d7d7a0122e146a69e87f946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cb3dd32a45b1b338431e4b9370ad5f32fdbf11e5",
+      "git:hexsha": "cb3dd32a45b1b338431e4b9370ad5f32fdbf11e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4c514db53457883348d8422ae01af293d78fb57f",
+      "git:hexsha": "4c514db53457883348d8422ae01af293d78fb57f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/74a27c8c7c2a42e6a8e6b680703307aa86c869b3",
+      "git:hexsha": "74a27c8c7c2a42e6a8e6b680703307aa86c869b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/50ec3619befafac6d31e3469b13bac84a6ff3028",
+      "git:hexsha": "50ec3619befafac6d31e3469b13bac84a6ff3028",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d209796409fd9f91754bd1a68845a2d7a1fa1d7a",
+      "git:hexsha": "d209796409fd9f91754bd1a68845a2d7a1fa1d7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3ad24a3d4ec566d6fdae8242c2cd26410049fe33",
+      "git:hexsha": "3ad24a3d4ec566d6fdae8242c2cd26410049fe33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e99128dd6d780cc7b97cc5c4f37a99b05a834c57",
+      "git:hexsha": "e99128dd6d780cc7b97cc5c4f37a99b05a834c57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7c7c69f45c70c1c363913c81460f4fa1e327afb7",
+      "git:hexsha": "7c7c69f45c70c1c363913c81460f4fa1e327afb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f555e90487f5df9abe79ccd9dbe7081ea58dae86",
+      "git:hexsha": "f555e90487f5df9abe79ccd9dbe7081ea58dae86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/59304110b656e2865e15e5918a2c9e82989decb8",
+      "git:hexsha": "59304110b656e2865e15e5918a2c9e82989decb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c302cf3282161e81ebcf77a627b6d0e8bf34b069",
+      "git:hexsha": "c302cf3282161e81ebcf77a627b6d0e8bf34b069",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/54d29e8fba72443a29928e9f94ee52ca43eeb60a",
+      "git:hexsha": "54d29e8fba72443a29928e9f94ee52ca43eeb60a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/492e666f783a0fd1d8fabb19debbdb30f630f8b3",
+      "git:hexsha": "492e666f783a0fd1d8fabb19debbdb30f630f8b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/b5cb143d1bdd8069f444e2c5a8aa11667562186b",
+      "git:hexsha": "b5cb143d1bdd8069f444e2c5a8aa11667562186b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/25683f257642503a715e68a841ab233104d0f946",
+      "git:hexsha": "25683f257642503a715e68a841ab233104d0f946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/22a03755f3acc1e011ecf37706496eb249f68f90",
+      "git:hexsha": "22a03755f3acc1e011ecf37706496eb249f68f90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5fe30db61204a5813a6beae5b653375da06f37b3",
+      "git:hexsha": "5fe30db61204a5813a6beae5b653375da06f37b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.17.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/089011b164bfca47785bd8f335ffe322d06a95b1",
+      "git:hexsha": "089011b164bfca47785bd8f335ffe322d06a95b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/56f20dcd5a5262872e46057ef8bc6720ea9791f2",
+      "git:hexsha": "56f20dcd5a5262872e46057ef8bc6720ea9791f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a72e25141ab8f60c59af18512b923c2fe47db009",
+      "git:hexsha": "a72e25141ab8f60c59af18512b923c2fe47db009",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/511c4f93b065d604669edb9a1a74bfcfd72a1036",
+      "git:hexsha": "511c4f93b065d604669edb9a1a74bfcfd72a1036",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ca90db2fe8fb0519c3d1672330b8750b39d4112c",
+      "git:hexsha": "ca90db2fe8fb0519c3d1672330b8750b39d4112c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f97a37bfd83da83604951ec67f008affbac128a4",
+      "git:hexsha": "f97a37bfd83da83604951ec67f008affbac128a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ea13758d20e4b718e1bc0651cf8314c08f8d3f9f",
+      "git:hexsha": "ea13758d20e4b718e1bc0651cf8314c08f8d3f9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/35a8a41a49b85b2bd7f908cac69751b5697fbc71",
+      "git:hexsha": "35a8a41a49b85b2bd7f908cac69751b5697fbc71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.18.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a4bef4d132c114688279f6b3e22febf931b99676",
+      "git:hexsha": "a4bef4d132c114688279f6b3e22febf931b99676",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/caf11b70f555467f8ac598805f376e83aa8ca04b",
+      "git:hexsha": "caf11b70f555467f8ac598805f376e83aa8ca04b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cd35a683d71b1b9c7c906ff8c76b06ed49225a8e",
+      "git:hexsha": "cd35a683d71b1b9c7c906ff8c76b06ed49225a8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/35c4c84d2329ba01eb1dbe3950958bee8f97f1b5",
+      "git:hexsha": "35c4c84d2329ba01eb1dbe3950958bee8f97f1b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e7ff7d7f543061d64e7bac2d69858da474ef6c77",
+      "git:hexsha": "e7ff7d7f543061d64e7bac2d69858da474ef6c77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.19.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/723ea9f150bd36153f4a0473c647cc7b9ae45d11",
+      "git:hexsha": "723ea9f150bd36153f4a0473c647cc7b9ae45d11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/17862257b0cabab8587bb55ad83b6d6c68cbfa47",
+      "git:hexsha": "17862257b0cabab8587bb55ad83b6d6c68cbfa47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/53c36fcfbd56b1313345a0426047e1d1f0e05fc9",
+      "git:hexsha": "53c36fcfbd56b1313345a0426047e1d1f0e05fc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5838df707a900134c4fc36ba2cae9e817959e8b8",
+      "git:hexsha": "5838df707a900134c4fc36ba2cae9e817959e8b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/09a778f966eafe67c7d02d18d52d659a50ec4a6c",
+      "git:hexsha": "09a778f966eafe67c7d02d18d52d659a50ec4a6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/72ede739a22a3f0e2f4f116f896a7f908dbf6962",
+      "git:hexsha": "72ede739a22a3f0e2f4f116f896a7f908dbf6962",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.0a"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cd0fa8ec48810d98944de7f9e06d67ff1ec93dc5",
+      "git:hexsha": "cd0fa8ec48810d98944de7f9e06d67ff1ec93dc5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/915f3fc876cdbced4f61852190a214ac58a0fbf2",
+      "git:hexsha": "915f3fc876cdbced4f61852190a214ac58a0fbf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8c27a0e42c983ad4b7e54e5df35f0b9b8f332db9",
+      "git:hexsha": "8c27a0e42c983ad4b7e54e5df35f0b9b8f332db9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/80f4e848bffb4ad6ba2d2d0bcb4318a92322bb67",
+      "git:hexsha": "80f4e848bffb4ad6ba2d2d0bcb4318a92322bb67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a0e8f2c31ea30224b07ba9f5dd1f9f605a915f56",
+      "git:hexsha": "a0e8f2c31ea30224b07ba9f5dd1f9f605a915f56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8f5b428949feb4bca52264f253377188f2c21a23",
+      "git:hexsha": "8f5b428949feb4bca52264f253377188f2c21a23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/81d0f3b4c6fcfc5186e706fb817c1c182a179150",
+      "git:hexsha": "81d0f3b4c6fcfc5186e706fb817c1c182a179150",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f1fc45aad30c27814594d683c6890f779aab098b",
+      "git:hexsha": "f1fc45aad30c27814594d683c6890f779aab098b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f883a07a5fbdb9cf78c3fb70371a4d21ebe9fb08",
+      "git:hexsha": "f883a07a5fbdb9cf78c3fb70371a4d21ebe9fb08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ce4a4fcc437f1731e65fd45cd9ebbd6a1b70033a",
+      "git:hexsha": "ce4a4fcc437f1731e65fd45cd9ebbd6a1b70033a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a766304f92d634fb4b653e25afe3d8eb16454c4a",
+      "git:hexsha": "a766304f92d634fb4b653e25afe3d8eb16454c4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.20.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/19f87e39e6b1fc5b4ab58ff6e10912a937a94ddd",
+      "git:hexsha": "19f87e39e6b1fc5b4ab58ff6e10912a937a94ddd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/fa2211d63b7c682b64dd2718799b674a13af4b0d",
+      "git:hexsha": "fa2211d63b7c682b64dd2718799b674a13af4b0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/59a30b68a83be710638184764c025b54693c82cc",
+      "git:hexsha": "59a30b68a83be710638184764c025b54693c82cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/964215ede96321348f24ccbee9789f74b26721a2",
+      "git:hexsha": "964215ede96321348f24ccbee9789f74b26721a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ac5d63174dd234ab75259a68a4ab246774863f6e",
+      "git:hexsha": "ac5d63174dd234ab75259a68a4ab246774863f6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/55fa8f134996fc201f586eefbb0f8e4238ad4a5b",
+      "git:hexsha": "55fa8f134996fc201f586eefbb0f8e4238ad4a5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5ae9c792e77b45751ac636eb72b310f09648aac3",
+      "git:hexsha": "5ae9c792e77b45751ac636eb72b310f09648aac3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7de0d3684898909156d9c5e8399073360911717f",
+      "git:hexsha": "7de0d3684898909156d9c5e8399073360911717f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4380fe8b7b4435c28544955639563a00db47e8e6",
+      "git:hexsha": "4380fe8b7b4435c28544955639563a00db47e8e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.21.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/db4b48a0e84cdb63606aaca91858b9e42304d1be",
+      "git:hexsha": "db4b48a0e84cdb63606aaca91858b9e42304d1be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e2d7608d6fd86471b40195522355de623888a595",
+      "git:hexsha": "e2d7608d6fd86471b40195522355de623888a595",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a72d217c125e2c6c82a10f511ea09ebb0151a644",
+      "git:hexsha": "a72d217c125e2c6c82a10f511ea09ebb0151a644",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/078aed4b08e15f1fb216480fab18730c48e58727",
+      "git:hexsha": "078aed4b08e15f1fb216480fab18730c48e58727",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c509a417c1589cc00a244bb1d7a3be37dfa94b4d",
+      "git:hexsha": "c509a417c1589cc00a244bb1d7a3be37dfa94b4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/badfa3e2ccafce7f83f9a57e3164ebbabef001bf",
+      "git:hexsha": "badfa3e2ccafce7f83f9a57e3164ebbabef001bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9d2594b4f1a92186bd267c79e70c4aa820950115",
+      "git:hexsha": "9d2594b4f1a92186bd267c79e70c4aa820950115",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/976335f03b259536a06ed88a7adb7248cdb3d17c",
+      "git:hexsha": "976335f03b259536a06ed88a7adb7248cdb3d17c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f20e474569d316809a694e756eb4ec170fa18367",
+      "git:hexsha": "f20e474569d316809a694e756eb4ec170fa18367",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e85146c24052519db3899e5623d1e2a73faa1d4a",
+      "git:hexsha": "e85146c24052519db3899e5623d1e2a73faa1d4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/fe903ce2ae9c125ace849576aa6d09c5cec21fe4",
+      "git:hexsha": "fe903ce2ae9c125ace849576aa6d09c5cec21fe4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.18a"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ae5e07c230179a0be0ca649e22fa156f660ffdee",
+      "git:hexsha": "ae5e07c230179a0be0ca649e22fa156f660ffdee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/2ebb9d1017e6386a3c045c2e22edfe5d31363084",
+      "git:hexsha": "2ebb9d1017e6386a3c045c2e22edfe5d31363084",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3f8db7926a5131b2f7b9a95252fd8473260cfce7",
+      "git:hexsha": "3f8db7926a5131b2f7b9a95252fd8473260cfce7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/71516e9435892bceafa5e8dd751a0b255f385585",
+      "git:hexsha": "71516e9435892bceafa5e8dd751a0b255f385585",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d31c0509a1168c1317946a223f040826189eac8e",
+      "git:hexsha": "d31c0509a1168c1317946a223f040826189eac8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/897564867ba7d854851b126a1e661c64258b3af1",
+      "git:hexsha": "897564867ba7d854851b126a1e661c64258b3af1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4931ee06e257d9f36aa1995e053bee59d66602ad",
+      "git:hexsha": "4931ee06e257d9f36aa1995e053bee59d66602ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.22.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0fa6e78c7d20612f79bc7e3d11252380114190e4",
+      "git:hexsha": "0fa6e78c7d20612f79bc7e3d11252380114190e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/54e228ec1d5c40f9e26ab36ea80c2dd2b0647322",
+      "git:hexsha": "54e228ec1d5c40f9e26ab36ea80c2dd2b0647322",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/2b367e51c0b2d45895200e450089c5161df8340e",
+      "git:hexsha": "2b367e51c0b2d45895200e450089c5161df8340e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/93157764677707dbeff5d0501e84d9f1f82b93e6",
+      "git:hexsha": "93157764677707dbeff5d0501e84d9f1f82b93e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/da88a72181d770ef21ca8eca5156286bfa8c160d",
+      "git:hexsha": "da88a72181d770ef21ca8eca5156286bfa8c160d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3d4f899a3cca985ced5a7647e50b0e65328da1eb",
+      "git:hexsha": "3d4f899a3cca985ced5a7647e50b0e65328da1eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.23.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d20ff74ab98172cc36069d814d6dfd62e79e9b87",
+      "git:hexsha": "d20ff74ab98172cc36069d814d6dfd62e79e9b87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9fec9290b9237238c63fe04d89c05d1568996efb",
+      "git:hexsha": "9fec9290b9237238c63fe04d89c05d1568996efb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d8e82a8737f0431cdf001ed96c284c557d4c284f",
+      "git:hexsha": "d8e82a8737f0431cdf001ed96c284c557d4c284f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.24.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ec49a3d0dfe955ec922fe95d549d6f0a4aadd5de",
+      "git:hexsha": "ec49a3d0dfe955ec922fe95d549d6f0a4aadd5de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/eef94eaaff9305852b98e170c48020e1bb60e62a",
+      "git:hexsha": "eef94eaaff9305852b98e170c48020e1bb60e62a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/976c3f29d1152e1afd26678a4b89bb3b859a1fe5",
+      "git:hexsha": "976c3f29d1152e1afd26678a4b89bb3b859a1fe5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/407e0eea5ca7544dba818490cefc766282f60c09",
+      "git:hexsha": "407e0eea5ca7544dba818490cefc766282f60c09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8b36a039ecc19d6ad80ad17b13e6cad873431fe3",
+      "git:hexsha": "8b36a039ecc19d6ad80ad17b13e6cad873431fe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3937aa2134280886cd73da189d4ac572c9618ead",
+      "git:hexsha": "3937aa2134280886cd73da189d4ac572c9618ead",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/17e3b4b256fe3766aeceb115da097df059a47fbc",
+      "git:hexsha": "17e3b4b256fe3766aeceb115da097df059a47fbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/c34a005b13f121dafa57c4b1499717a67bf7f31b",
+      "git:hexsha": "c34a005b13f121dafa57c4b1499717a67bf7f31b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/278da7c6becc9955cf28dec8f455b2a374f7d013",
+      "git:hexsha": "278da7c6becc9955cf28dec8f455b2a374f7d013",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1860894f76caf205364f89124d2487e98e39340b",
+      "git:hexsha": "1860894f76caf205364f89124d2487e98e39340b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8a25e16d10cf75eede1375aa16ebeff8b5089948",
+      "git:hexsha": "8a25e16d10cf75eede1375aa16ebeff8b5089948",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/008c07bf75d22f2fcd43f16a04375f895b1471df",
+      "git:hexsha": "008c07bf75d22f2fcd43f16a04375f895b1471df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f5f10ca0683c5f11db3e4832d0c439e31fb97ed2",
+      "git:hexsha": "f5f10ca0683c5f11db3e4832d0c439e31fb97ed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1a76c9a93233b73f0b017d46593c62ff6c4700ac",
+      "git:hexsha": "1a76c9a93233b73f0b017d46593c62ff6c4700ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/fb78d77836f7868140044c5bed1256ec1513b651",
+      "git:hexsha": "fb78d77836f7868140044c5bed1256ec1513b651",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7a4e13c4776a958c50d1e701ddc7e7229ef24c63",
+      "git:hexsha": "7a4e13c4776a958c50d1e701ddc7e7229ef24c63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/20bfdf13c67237b78a977b7de3ed666591c6a95d",
+      "git:hexsha": "20bfdf13c67237b78a977b7de3ed666591c6a95d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0b8fbad1a016d161ff2ff90662e45c13a9090173",
+      "git:hexsha": "0b8fbad1a016d161ff2ff90662e45c13a9090173",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/bf1e07bfe575a5834c8357d81cd6be18b315e27a",
+      "git:hexsha": "bf1e07bfe575a5834c8357d81cd6be18b315e27a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/bf32309d852db5d0cb36e301869ce49c78ee21d8",
+      "git:hexsha": "bf32309d852db5d0cb36e301869ce49c78ee21d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/43a6e561cdeb3c368394f8fab8101be7ddb02a95",
+      "git:hexsha": "43a6e561cdeb3c368394f8fab8101be7ddb02a95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/106ba47e74cf336c0c2d2204c7020b8dc6211a42",
+      "git:hexsha": "106ba47e74cf336c0c2d2204c7020b8dc6211a42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/4ceebcc9f9fbad053333268d7ee77937a3e5ce8e",
+      "git:hexsha": "4ceebcc9f9fbad053333268d7ee77937a3e5ce8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.27.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/bf531373122321bbe47ab1a7693351a2c1cb416e",
+      "git:hexsha": "bf531373122321bbe47ab1a7693351a2c1cb416e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/500db140ceb2939a957e66dcf22849e40ff0daa3",
+      "git:hexsha": "500db140ceb2939a957e66dcf22849e40ff0daa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/03da0092d35f2205612a37ca6dddf2900f6c1ba0",
+      "git:hexsha": "03da0092d35f2205612a37ca6dddf2900f6c1ba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cfcb4ee7fd5a62b2b7600aae02108b0879890114",
+      "git:hexsha": "cfcb4ee7fd5a62b2b7600aae02108b0879890114",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/dd660ad08af4e094037137f1a38067bb7c754cee",
+      "git:hexsha": "dd660ad08af4e094037137f1a38067bb7c754cee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/841117abe924b6a0f0427fec11405a8b72b673d8",
+      "git:hexsha": "841117abe924b6a0f0427fec11405a8b72b673d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3a53e10cf8f029783f2fee1fb864808f90301b22",
+      "git:hexsha": "3a53e10cf8f029783f2fee1fb864808f90301b22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e682e5934a39a830780166a8f10cf17423c0d389",
+      "git:hexsha": "e682e5934a39a830780166a8f10cf17423c0d389",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/7c9f1dc46db7a9b2374d55cfbff5b56999356360",
+      "git:hexsha": "7c9f1dc46db7a9b2374d55cfbff5b56999356360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1da641b0a75ce8a496e9092bbda73eb442f50b5d",
+      "git:hexsha": "1da641b0a75ce8a496e9092bbda73eb442f50b5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/aac9487de650890d1a476f03610f4274753f3bdb",
+      "git:hexsha": "aac9487de650890d1a476f03610f4274753f3bdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/900105618bb6131322714d3d9a5c2dc2350818b8",
+      "git:hexsha": "900105618bb6131322714d3d9a5c2dc2350818b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e513881b1044599f626b5c4a13b5ef7f681af92e",
+      "git:hexsha": "e513881b1044599f626b5c4a13b5ef7f681af92e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/afa227589b2aca82db4c4773513e36176428b4b2",
+      "git:hexsha": "afa227589b2aca82db4c4773513e36176428b4b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a7bc53b1f0297e55eca0c1c44dce126ccc3feab3",
+      "git:hexsha": "a7bc53b1f0297e55eca0c1c44dce126ccc3feab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d2ec3998e021821ea9951a3d0d13b23ccbca2e95",
+      "git:hexsha": "d2ec3998e021821ea9951a3d0d13b23ccbca2e95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8417aeced5e1be4a231f40e03046921be2955298",
+      "git:hexsha": "8417aeced5e1be4a231f40e03046921be2955298",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f66113216e362f8cae6eaca97c29a8e48ac07b10",
+      "git:hexsha": "f66113216e362f8cae6eaca97c29a8e48ac07b10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/e190b8edb58e37498276f9e40f158a59cf248fa9",
+      "git:hexsha": "e190b8edb58e37498276f9e40f158a59cf248fa9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8dc0b71e70573162500c067139af10d782977d30",
+      "git:hexsha": "8dc0b71e70573162500c067139af10d782977d30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/dcf0c3bbd714982eaca4f65dfa94511f572e27e7",
+      "git:hexsha": "dcf0c3bbd714982eaca4f65dfa94511f572e27e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1c0e73e195d184ca4703c900d484cb3c8774d0e6",
+      "git:hexsha": "1c0e73e195d184ca4703c900d484cb3c8774d0e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/936d9be4ba88e09b28469d92f956da6f346e3324",
+      "git:hexsha": "936d9be4ba88e09b28469d92f956da6f346e3324",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a8684925516c41aa5e53ddc64861bb1a1fd90ec6",
+      "git:hexsha": "a8684925516c41aa5e53ddc64861bb1a1fd90ec6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d1f54060f2721d0cf7b4566b91c864e78c9f2faa",
+      "git:hexsha": "d1f54060f2721d0cf7b4566b91c864e78c9f2faa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/cdc43b165eeb81382bced81e769de704b6ae96bc",
+      "git:hexsha": "cdc43b165eeb81382bced81e769de704b6ae96bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8a5a1592c68213e59dc409d738f340982693c3a3",
+      "git:hexsha": "8a5a1592c68213e59dc409d738f340982693c3a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0e13f02416335fc50c6da2bd7c62a763e59a18b2",
+      "git:hexsha": "0e13f02416335fc50c6da2bd7c62a763e59a18b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1de96c008f57d8ef923f41d25e7681166c0584af",
+      "git:hexsha": "1de96c008f57d8ef923f41d25e7681166c0584af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f2593248be4fcd75bb1fa5b95a2fc59a0fab4753",
+      "git:hexsha": "f2593248be4fcd75bb1fa5b95a2fc59a0fab4753",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/dea3bfa6ca28c54fcb4e34f167f7c4f053b040b7",
+      "git:hexsha": "dea3bfa6ca28c54fcb4e34f167f7c4f053b040b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/878234de7508e6071cf277d105bcfc6e9dab6e4f",
+      "git:hexsha": "878234de7508e6071cf277d105bcfc6e9dab6e4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/9d6a34fda4c6df68362e685084ddfd9da158d90e",
+      "git:hexsha": "9d6a34fda4c6df68362e685084ddfd9da158d90e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1f328ad759cfbbb4898feaafcd7d3a6200e7cdea",
+      "git:hexsha": "1f328ad759cfbbb4898feaafcd7d3a6200e7cdea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1a59a89f3bda2957b435696624efe456e5669f76",
+      "git:hexsha": "1a59a89f3bda2957b435696624efe456e5669f76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f867b33c9bd2484bb39afdde07a3073c8308117b",
+      "git:hexsha": "f867b33c9bd2484bb39afdde07a3073c8308117b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/60a494a8f1129c71974989099220e43fa8447444",
+      "git:hexsha": "60a494a8f1129c71974989099220e43fa8447444",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5a36b94eb0681c4cc32e06660f64b4b16c3dadaf",
+      "git:hexsha": "5a36b94eb0681c4cc32e06660f64b4b16c3dadaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1e4dcc9b649f845ff3cbb6768bb985b41995d368",
+      "git:hexsha": "1e4dcc9b649f845ff3cbb6768bb985b41995d368",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ff9363f83b89f0528762a94fb39d8f23ea75c579",
+      "git:hexsha": "ff9363f83b89f0528762a94fb39d8f23ea75c579",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/43594c1f4bc1bc504b3d7d01a887c34b6d19d947",
+      "git:hexsha": "43594c1f4bc1bc504b3d7d01a887c34b6d19d947",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8e847d1b0858f831533d74cf1588d12ec47ab766",
+      "git:hexsha": "8e847d1b0858f831533d74cf1588d12ec47ab766",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/14b58b6b5db25d71655b5bedb2f7a16df1d7d67b",
+      "git:hexsha": "14b58b6b5db25d71655b5bedb2f7a16df1d7d67b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8e4ef7735ed918fc462d04d5bb7e83c4293da646",
+      "git:hexsha": "8e4ef7735ed918fc462d04d5bb7e83c4293da646",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/1bfbf26181c6a69a5d414dbe6f198da18653c60e",
+      "git:hexsha": "1bfbf26181c6a69a5d414dbe6f198da18653c60e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/da2fb35abf7d33ed02d0fde1740af7ffa157af9a",
+      "git:hexsha": "da2fb35abf7d33ed02d0fde1740af7ffa157af9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6fd054761cfe7c8b012b1315cbff4a0799501bca",
+      "git:hexsha": "6fd054761cfe7c8b012b1315cbff4a0799501bca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/560747137f799d6fbff7d748cdb8b49144326e74",
+      "git:hexsha": "560747137f799d6fbff7d748cdb8b49144326e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f162fc356f5f38334a94f1d8f468aa28c7c46700",
+      "git:hexsha": "f162fc356f5f38334a94f1d8f468aa28c7c46700",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6fff51ad66e402ef608a454b3a3bb9cb513f8381",
+      "git:hexsha": "6fff51ad66e402ef608a454b3a3bb9cb513f8381",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d23d1fd730ef3a129459ba4ae1463607f5e4d108",
+      "git:hexsha": "d23d1fd730ef3a129459ba4ae1463607f5e4d108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/ae5db0169772ae4c624e65d3b5c33f45cdd34a92",
+      "git:hexsha": "ae5db0169772ae4c624e65d3b5c33f45cdd34a92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0c6cea24ce68510b607f2c9997e766d9d55c085b",
+      "git:hexsha": "0c6cea24ce68510b607f2c9997e766d9d55c085b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/46816f39de820df8cca00f9c26f0d251ac45ac5a",
+      "git:hexsha": "46816f39de820df8cca00f9c26f0d251ac45ac5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/810f60e8f671b2eae1825ad9dc3a2536ee7b42cb",
+      "git:hexsha": "810f60e8f671b2eae1825ad9dc3a2536ee7b42cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5e51842faa0a2f15596d23a3e915a95e42a437d9",
+      "git:hexsha": "5e51842faa0a2f15596d23a3e915a95e42a437d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.0a"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/6fe65cfc4aaf05115f449ee74a6eb656a6a0af3a",
+      "git:hexsha": "6fe65cfc4aaf05115f449ee74a6eb656a6a0af3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3debe666f48cff51463a65c6b65cffa66b992094",
+      "git:hexsha": "3debe666f48cff51463a65c6b65cffa66b992094",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/35d5d190893ef3861ec5301c02e946e266dfaccd",
+      "git:hexsha": "35d5d190893ef3861ec5301c02e946e266dfaccd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3e09df78ac147aba714c1f0359e585deabe747e3",
+      "git:hexsha": "3e09df78ac147aba714c1f0359e585deabe747e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/87b71532d17eec272663faddb173dd87aaa0adad",
+      "git:hexsha": "87b71532d17eec272663faddb173dd87aaa0adad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8f4e427545d72c39bf30b604f24c8a91c0f9d85c",
+      "git:hexsha": "8f4e427545d72c39bf30b604f24c8a91c0f9d85c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f90f0ccffcc708b0ec154b15f46507999534a830",
+      "git:hexsha": "f90f0ccffcc708b0ec154b15f46507999534a830",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/f6ebbc15993b798a33dc72696dff8708b4ba900a",
+      "git:hexsha": "f6ebbc15993b798a33dc72696dff8708b4ba900a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0de206ddc81ccb7ab0ec827ca8f90d0648d982ab",
+      "git:hexsha": "0de206ddc81ccb7ab0ec827ca8f90d0648d982ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/3d4fca0ca1b6c2c28bb06901500d24aa4f9213ab",
+      "git:hexsha": "3d4fca0ca1b6c2c28bb06901500d24aa4f9213ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/01d64e575d198b2b0ab80f58e27e5bcadefe110e",
+      "git:hexsha": "01d64e575d198b2b0ab80f58e27e5bcadefe110e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/55ec1adfe138fce1b1e20def8ffde7d7adf241ea",
+      "git:hexsha": "55ec1adfe138fce1b1e20def8ffde7d7adf241ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/fd3295a8c90ba029e5a45b9cac337c4bab8a1ec3",
+      "git:hexsha": "fd3295a8c90ba029e5a45b9cac337c4bab8a1ec3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/a0d14af8518544a6864a0e4a44b3c9ecede61be1",
+      "git:hexsha": "a0d14af8518544a6864a0e4a44b3c9ecede61be1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/0feb95b6e9b40cf21167cae6a39b4ce945bbff04",
+      "git:hexsha": "0feb95b6e9b40cf21167cae6a39b4ce945bbff04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/8d50c02e60a41e3a5b0a91cddb6c60f1e416282e",
+      "git:hexsha": "8d50c02e60a41e3a5b0a91cddb6c60f1e416282e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/00668577a1b39620b5ecf33a6f4988fe616583b1",
+      "git:hexsha": "00668577a1b39620b5ecf33a6f4988fe616583b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/5aab91c0609174c67bb325b49bf02b48a71aa092",
+      "git:hexsha": "5aab91c0609174c67bb325b49bf02b48a71aa092",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/d380862ea2c01093f72b6c2e884e2d611e6b8552",
+      "git:hexsha": "d380862ea2c01093f72b6c2e884e2d611e6b8552",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lucidrains/vector-quantize-pytorch/commit/abbc41a13468cb193d286f1afabf21d336365687",
+      "git:hexsha": "abbc41a13468cb193d286f1afabf21d336365687",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    }
+  ]
+}
