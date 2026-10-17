@@ -1,0 +1,903 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/sqlalchemy/alembic",
+  "@type": "gh:Repository",
+  "gh:name": "alembic",
+  "gh:owner": "sqlalchemy",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/723d9c2cc83b77b071db967faf49640295b6f15a",
+      "git:hexsha": "723d9c2cc83b77b071db967faf49640295b6f15a",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T22:33:14.236731+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3bf28d1fc3e665ae81baa5e47609840ea6f42142",
+      "git:hexsha": "3bf28d1fc3e665ae81baa5e47609840ea6f42142",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_1_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d76a1bea49a29822000254ec26926de1187c1d1d",
+      "git:hexsha": "d76a1bea49a29822000254ec26926de1187c1d1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_1_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/0bf3fe8f6f089f6023f3917ce8faa050ad0b79b0",
+      "git:hexsha": "0bf3fe8f6f089f6023f3917ce8faa050ad0b79b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/87ab39a74dcf49dd7cabe55b89d37758a2104001",
+      "git:hexsha": "87ab39a74dcf49dd7cabe55b89d37758a2104001",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/494191413c80a01a7156fbe5fc6788d269e5e9ed",
+      "git:hexsha": "494191413c80a01a7156fbe5fc6788d269e5e9ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_2_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8332e56a18e30ebc5c74bf782f6ad42d14ea9814",
+      "git:hexsha": "8332e56a18e30ebc5c74bf782f6ad42d14ea9814",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a7ada78d87aeb7383455b3935457950f1070d4b2",
+      "git:hexsha": "a7ada78d87aeb7383455b3935457950f1070d4b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/17b7299729fe1ff05e1638d555233875bc21caab",
+      "git:hexsha": "17b7299729fe1ff05e1638d555233875bc21caab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d4094ff7a76cd4438b15242c7c883333235fc0c7",
+      "git:hexsha": "d4094ff7a76cd4438b15242c7c883333235fc0c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/9e213ed2921cf0be75a61a05401320eb8b75a332",
+      "git:hexsha": "9e213ed2921cf0be75a61a05401320eb8b75a332",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/64f6a6a584eedb8f5d8227656e94b80a022e525e",
+      "git:hexsha": "64f6a6a584eedb8f5d8227656e94b80a022e525e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c972e816befb38466196d89eead2e2bc55f1afae",
+      "git:hexsha": "c972e816befb38466196d89eead2e2bc55f1afae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_3_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/03481917469dde2be467c352232cc38999c50507",
+      "git:hexsha": "03481917469dde2be467c352232cc38999c50507",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a52b54b339b971b1376a55176c9c58a985b21739",
+      "git:hexsha": "a52b54b339b971b1376a55176c9c58a985b21739",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/979a32f8e92c56fd5a0b9ca3e9cb1842290fd84d",
+      "git:hexsha": "979a32f8e92c56fd5a0b9ca3e9cb1842290fd84d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_4_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/879aa4d7c7013a551e516e2a026d41823d368224",
+      "git:hexsha": "879aa4d7c7013a551e516e2a026d41823d368224",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_5_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3d4f95c7e4c043e4281d8e68c6f0eaab8ce0d48a",
+      "git:hexsha": "3d4f95c7e4c043e4281d8e68c6f0eaab8ce0d48a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/257600f8bfa49e4ce83d2f35418684ae04f23d85",
+      "git:hexsha": "257600f8bfa49e4ce83d2f35418684ae04f23d85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/106d3a5707dfff134a9bded98c9cfb471fdc1910",
+      "git:hexsha": "106d3a5707dfff134a9bded98c9cfb471fdc1910",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/aeeb24bbf863c3e95455677c937c9b22160671a4",
+      "git:hexsha": "aeeb24bbf863c3e95455677c937c9b22160671a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/e5a066c7caf9256e006121d87e859b8ca51f7769",
+      "git:hexsha": "e5a066c7caf9256e006121d87e859b8ca51f7769",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/bb51372abf96342dcac21e8bc08aa6d79f036a33",
+      "git:hexsha": "bb51372abf96342dcac21e8bc08aa6d79f036a33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/21274431ac8f4b17ddf2f0ba16ae0046ea344e85",
+      "git:hexsha": "21274431ac8f4b17ddf2f0ba16ae0046ea344e85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/e37162294fc6df9740f4231a75021f391e2a0f98",
+      "git:hexsha": "e37162294fc6df9740f4231a75021f391e2a0f98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_6_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/1477a0dc9b346d047b987af9caa836cd6d61aca6",
+      "git:hexsha": "1477a0dc9b346d047b987af9caa836cd6d61aca6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/5f952f25caa688d89204d134ee867de7dbad917c",
+      "git:hexsha": "5f952f25caa688d89204d134ee867de7dbad917c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/082a6c63668a601c0833c99b4ca23fe9459a3a40",
+      "git:hexsha": "082a6c63668a601c0833c99b4ca23fe9459a3a40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d69a590286019eea673e5daba935f909efeae5cc",
+      "git:hexsha": "d69a590286019eea673e5daba935f909efeae5cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/f342bd245637651046b553114ab34ce3cee1a02b",
+      "git:hexsha": "f342bd245637651046b553114ab34ce3cee1a02b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/5d036bc2035548c3749280684be08d8999b2b39b",
+      "git:hexsha": "5d036bc2035548c3749280684be08d8999b2b39b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/e1dc713aa6813152063c48ff66a57b365b56b2fc",
+      "git:hexsha": "e1dc713aa6813152063c48ff66a57b365b56b2fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_5_post1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c3e39ec4bff3345dcc1daa1d678989b6fd690a3d",
+      "git:hexsha": "c3e39ec4bff3345dcc1daa1d678989b6fd690a3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_5_post2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/6ae4196acc0170ebef29f617b49376b371a8923c",
+      "git:hexsha": "6ae4196acc0170ebef29f617b49376b371a8923c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/b8c8dc581fcdef6490a5f082d1adc0f9f50f279d",
+      "git:hexsha": "b8c8dc581fcdef6490a5f082d1adc0f9f50f279d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_7_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/ca9792c6dd26881bbaa2c06edd84ef3fa1db34a9",
+      "git:hexsha": "ca9792c6dd26881bbaa2c06edd84ef3fa1db34a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8207591c88ee868fc0ddc83002f311eb85ae51da",
+      "git:hexsha": "8207591c88ee868fc0ddc83002f311eb85ae51da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/376837484acc80a6cbc1cda9125935c05a94ee0f",
+      "git:hexsha": "376837484acc80a6cbc1cda9125935c05a94ee0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_10"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/9aef0f9fe04096f1ba31bd1efbc24b2bcc33bbd1",
+      "git:hexsha": "9aef0f9fe04096f1ba31bd1efbc24b2bcc33bbd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/0b750d23844cc9ff7cc206d108156ba2028b7456",
+      "git:hexsha": "0b750d23844cc9ff7cc206d108156ba2028b7456",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8861f49527aef2fe38e54152e79f25ce40707345",
+      "git:hexsha": "8861f49527aef2fe38e54152e79f25ce40707345",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a512b5f115291deb70400e829a0ca95648d8955b",
+      "git:hexsha": "a512b5f115291deb70400e829a0ca95648d8955b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c8c61d75c309155b938b9c28b070aba40268ae95",
+      "git:hexsha": "c8c61d75c309155b938b9c28b070aba40268ae95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8084497fc7768e3d2a56a6dba7e8364dfc9bd098",
+      "git:hexsha": "8084497fc7768e3d2a56a6dba7e8364dfc9bd098",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d3676e25beb50ddc821937e4108d1c9535d4951e",
+      "git:hexsha": "d3676e25beb50ddc821937e4108d1c9535d4951e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_8"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/183a4a6cc3a76c4c0a2b6d6f021ffd3b4cc09060",
+      "git:hexsha": "183a4a6cc3a76c4c0a2b6d6f021ffd3b4cc09060",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_8_9"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d39c0ae72b004b0889093464038eb20773f042b6",
+      "git:hexsha": "d39c0ae72b004b0889093464038eb20773f042b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/543783bca5cd39e3e1fe99bf7aeef6ca4b423edd",
+      "git:hexsha": "543783bca5cd39e3e1fe99bf7aeef6ca4b423edd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/fc7e38114527d0c9b20812bb4b2c66b1b27cf096",
+      "git:hexsha": "fc7e38114527d0c9b20812bb4b2c66b1b27cf096",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_10"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a5a5266b8d15a312ce13a68a838b46869cb0adba",
+      "git:hexsha": "a5a5266b8d15a312ce13a68a838b46869cb0adba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/bea341e2a23dc030b58d6a82e26fafb3e2917c1b",
+      "git:hexsha": "bea341e2a23dc030b58d6a82e26fafb3e2917c1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/af38a3cc17fe86e7581f43aedf1e55eb7e312d7e",
+      "git:hexsha": "af38a3cc17fe86e7581f43aedf1e55eb7e312d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/392d01a0927857b0d263cfc684f5529dba3b2e5c",
+      "git:hexsha": "392d01a0927857b0d263cfc684f5529dba3b2e5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/f03e349032dd7f2801d397bb1752b6df40da047c",
+      "git:hexsha": "f03e349032dd7f2801d397bb1752b6df40da047c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3fad29945bc8ff7d52ebc358e6c6b46db8b51ea1",
+      "git:hexsha": "3fad29945bc8ff7d52ebc358e6c6b46db8b51ea1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a32d9209313cb87415353dfca8e10683c4b85d24",
+      "git:hexsha": "a32d9209313cb87415353dfca8e10683c4b85d24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_8"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/ff6b851ceddea347e1779e7a74cd12700e38f258",
+      "git:hexsha": "ff6b851ceddea347e1779e7a74cd12700e38f258",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_0_9_9"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/5e1721628e9dbe719940927705367740690bf4b2",
+      "git:hexsha": "5e1721628e9dbe719940927705367740690bf4b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/defbc5b32a169679fc7df45f83b682beb453a2bc",
+      "git:hexsha": "defbc5b32a169679fc7df45f83b682beb453a2bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/542474c5e64beb7839021efcdd5fd1f704057267",
+      "git:hexsha": "542474c5e64beb7839021efcdd5fd1f704057267",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_10"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/dc0be779421035d23391946749e5beab89ec336b",
+      "git:hexsha": "dc0be779421035d23391946749e5beab89ec336b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_11"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/ecab9967b08b9fa71a985ca2de61884e3f6e0c5d",
+      "git:hexsha": "ecab9967b08b9fa71a985ca2de61884e3f6e0c5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/082b9f29181925a14ff26545de1267c7646a4dc7",
+      "git:hexsha": "082b9f29181925a14ff26545de1267c7646a4dc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/418fc86819315b9e8490a4732c46d5ffea5a3101",
+      "git:hexsha": "418fc86819315b9e8490a4732c46d5ffea5a3101",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/e1ad2afc494e3f04eaa330e73efa59aae30f4a6c",
+      "git:hexsha": "e1ad2afc494e3f04eaa330e73efa59aae30f4a6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/54099921a919f74d7c29a24e88214f95e9878a44",
+      "git:hexsha": "54099921a919f74d7c29a24e88214f95e9878a44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/60c5e297f8b1dba464ec49ed7fe6ee0a72e0d44a",
+      "git:hexsha": "60c5e297f8b1dba464ec49ed7fe6ee0a72e0d44a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3004792315a58d51571266a9f70ae02e565c88ef",
+      "git:hexsha": "3004792315a58d51571266a9f70ae02e565c88ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_8"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/104379b5b5f52dd8a98aaee61e60668cdf9abf1a",
+      "git:hexsha": "104379b5b5f52dd8a98aaee61e60668cdf9abf1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_0_9"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c13821875edd5529408a6effdb7873b216e878fd",
+      "git:hexsha": "c13821875edd5529408a6effdb7873b216e878fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_10_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/534465efd65fd78e4ac34469e03d4eb77f5a1ec6",
+      "git:hexsha": "534465efd65fd78e4ac34469e03d4eb77f5a1ec6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_10_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/69a72b8ce8710e10983818639b081f3cec6f1ba4",
+      "git:hexsha": "69a72b8ce8710e10983818639b081f3cec6f1ba4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_10_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a22dadbfa4208f1916f158920faf50a933651e5e",
+      "git:hexsha": "a22dadbfa4208f1916f158920faf50a933651e5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_10_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c6067a5367015b6f1437a4357515e63dd8561829",
+      "git:hexsha": "c6067a5367015b6f1437a4357515e63dd8561829",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_10_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/494246c4fad986ac9d6c607c0dcf36d1f382d0b3",
+      "git:hexsha": "494246c4fad986ac9d6c607c0dcf36d1f382d0b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_11_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/0064c5183cc19ee84954f75f44b4b5f9131973fb",
+      "git:hexsha": "0064c5183cc19ee84954f75f44b4b5f9131973fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_11_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/9f74eb00cac5b2646918b4e11fb567f779cadf7c",
+      "git:hexsha": "9f74eb00cac5b2646918b4e11fb567f779cadf7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_11_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/47850ab7dbc88905db8abf7abab6a48699d4a50a",
+      "git:hexsha": "47850ab7dbc88905db8abf7abab6a48699d4a50a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_11_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/4d82946f6c0c51cbfa1b46d6988111f88db649bc",
+      "git:hexsha": "4d82946f6c0c51cbfa1b46d6988111f88db649bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_12_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/0b1f273813dfe8c5d7359e8ca224d6801674d639",
+      "git:hexsha": "0b1f273813dfe8c5d7359e8ca224d6801674d639",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_12_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8bb93a0352e01258131ad8c9945ee500c3bc55cb",
+      "git:hexsha": "8bb93a0352e01258131ad8c9945ee500c3bc55cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_13_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/baac3bc569932c6bdc7d9e7015cdc0481e788615",
+      "git:hexsha": "baac3bc569932c6bdc7d9e7015cdc0481e788615",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_13_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c57a5b7b4d88296bbfc73c1dd770a9122bc1002e",
+      "git:hexsha": "c57a5b7b4d88296bbfc73c1dd770a9122bc1002e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_13_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/b43a1966180f592d6be2a52361230d988e68353d",
+      "git:hexsha": "b43a1966180f592d6be2a52361230d988e68353d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_13_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/0c70a0bb3f64aff5c6c729497f17b2bf63d882fa",
+      "git:hexsha": "0c70a0bb3f64aff5c6c729497f17b2bf63d882fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_14_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/ef5a3c4c0874178ed41d20d056168529072bc68c",
+      "git:hexsha": "ef5a3c4c0874178ed41d20d056168529072bc68c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_14_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/fc34867efd14016a8363a933c061f049c880eed4",
+      "git:hexsha": "fc34867efd14016a8363a933c061f049c880eed4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_15_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/dba16010329caab35709fef040cb6f59966c01d0",
+      "git:hexsha": "dba16010329caab35709fef040cb6f59966c01d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_15_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3bd8d5190f7e02a73ff0d332356311b636f6b2a8",
+      "git:hexsha": "3bd8d5190f7e02a73ff0d332356311b636f6b2a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_15_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/468019c355ceea8b2cc75fcebe157314a805ec89",
+      "git:hexsha": "468019c355ceea8b2cc75fcebe157314a805ec89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_16_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3872e2322728bf1ad5868b325370fd3a4a0f5373",
+      "git:hexsha": "3872e2322728bf1ad5868b325370fd3a4a0f5373",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_16_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/b63852d7c7a3be9c0ef7087aab2f86451f6b5e89",
+      "git:hexsha": "b63852d7c7a3be9c0ef7087aab2f86451f6b5e89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_16_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/1133630b4717934e5b587139e8b23d49f42c1cfd",
+      "git:hexsha": "1133630b4717934e5b587139e8b23d49f42c1cfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_16_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/4ac119a11439bc822e847f728c28b05e158e8ea2",
+      "git:hexsha": "4ac119a11439bc822e847f728c28b05e158e8ea2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_16_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c026cf70aece7d6cddf929cb37748c6076b1d528",
+      "git:hexsha": "c026cf70aece7d6cddf929cb37748c6076b1d528",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_16_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/7bd9a04c0f57ee81ab3cb90f29044189d44e07b0",
+      "git:hexsha": "7bd9a04c0f57ee81ab3cb90f29044189d44e07b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_17_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/e0c6e652f43aa225494c552ed54fbd449ad4ba79",
+      "git:hexsha": "e0c6e652f43aa225494c552ed54fbd449ad4ba79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_17_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c8384551f41a4a06deefa61597a6f173fcb1a820",
+      "git:hexsha": "c8384551f41a4a06deefa61597a6f173fcb1a820",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_17_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/76e575b9c397b0a734358010fad58c60f3e2e3f2",
+      "git:hexsha": "76e575b9c397b0a734358010fad58c60f3e2e3f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_18_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/723bc949b9427b1a258ee0913e8fb89aaa3e4d31",
+      "git:hexsha": "723bc949b9427b1a258ee0913e8fb89aaa3e4d31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_18_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8167182d852fbcd4c36d3b867b601144fd96b0c9",
+      "git:hexsha": "8167182d852fbcd4c36d3b867b601144fd96b0c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_18_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d3f66e6b769eeeddae220a348d767890a4ea2c4b",
+      "git:hexsha": "d3f66e6b769eeeddae220a348d767890a4ea2c4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_18_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/766b5ee98e0aeea85a18f272a1ac813712ee0697",
+      "git:hexsha": "766b5ee98e0aeea85a18f272a1ac813712ee0697",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_18_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/013b68a4c8e0711d0bf999683b5e72ad8332e853",
+      "git:hexsha": "013b68a4c8e0711d0bf999683b5e72ad8332e853",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_18_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/d2204e4860fc87096a8c8e43b5370a6978f4d470",
+      "git:hexsha": "d2204e4860fc87096a8c8e43b5370a6978f4d470",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_19_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/efe73dec13974f63cb438c1a2b525f2c5ac4c926",
+      "git:hexsha": "efe73dec13974f63cb438c1a2b525f2c5ac4c926",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_19_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8d816b8c109177651e475cbe267cc766b591d858",
+      "git:hexsha": "8d816b8c109177651e475cbe267cc766b591d858",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_19_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/bee044a1c187be7f98dbfa08cc3017b3b9362362",
+      "git:hexsha": "bee044a1c187be7f98dbfa08cc3017b3b9362362",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_1_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/db53474a48914b6b228ca85d4f9cd160c2821cd5",
+      "git:hexsha": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_20_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/871ae3d5a9f8b31f6276c9c831719fd205b47e89",
+      "git:hexsha": "871ae3d5a9f8b31f6276c9c831719fd205b47e89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_2_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/30673342c58ce839d94dc5bf3fc95dafae83c297",
+      "git:hexsha": "30673342c58ce839d94dc5bf3fc95dafae83c297",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_2_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/973a67d97055136414b1cca7d806239924bed458",
+      "git:hexsha": "973a67d97055136414b1cca7d806239924bed458",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8d6bb007a4de046c4d338f4b79b40c9fcbf73ab7",
+      "git:hexsha": "8d6bb007a4de046c4d338f4b79b40c9fcbf73ab7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c61361b0c0d1e98e55c1856de1983fb0cfbe7d23",
+      "git:hexsha": "c61361b0c0d1e98e55c1856de1983fb0cfbe7d23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3e45b69dbf38c51c1c6c2af1c669fbcbdc80e78e",
+      "git:hexsha": "3e45b69dbf38c51c1c6c2af1c669fbcbdc80e78e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_3_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/b4a80767cecd99fc83af689857f4976968775a5c",
+      "git:hexsha": "b4a80767cecd99fc83af689857f4976968775a5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_4_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/e7997215353e8a8b0228d4f644f42a86f1757446",
+      "git:hexsha": "e7997215353e8a8b0228d4f644f42a86f1757446",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_4_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c9e7dba13218fb61852a53284f5cd70057a1d111",
+      "git:hexsha": "c9e7dba13218fb61852a53284f5cd70057a1d111",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_4_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/b8f60b6c3fe9f250d8439048aece62452eaf08b8",
+      "git:hexsha": "b8f60b6c3fe9f250d8439048aece62452eaf08b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_4_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/f1518bac5529bf6a105872cdc17e6e4fcf090a74",
+      "git:hexsha": "f1518bac5529bf6a105872cdc17e6e4fcf090a74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/5208fa572c7c1ee5c5010761753b0149175d3e70",
+      "git:hexsha": "5208fa572c7c1ee5c5010761753b0149175d3e70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/8b3a2d8606db604186a23e49765447382f54e956",
+      "git:hexsha": "8b3a2d8606db604186a23e49765447382f54e956",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/07fcf347038b6bc8ae92579c800eba9c685fd5d1",
+      "git:hexsha": "07fcf347038b6bc8ae92579c800eba9c685fd5d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/364d5fdb578eb0602fcedf899af45ccdbd77639a",
+      "git:hexsha": "364d5fdb578eb0602fcedf899af45ccdbd77639a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/c527dfef00744822e25f2741a3e2ce69f50d434c",
+      "git:hexsha": "c527dfef00744822e25f2741a3e2ce69f50d434c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/5c1fe7e842752d40de64944b1147ad55d88bf56a",
+      "git:hexsha": "5c1fe7e842752d40de64944b1147ad55d88bf56a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/389d750eca71ffc18a919b3b1414a05b640b4e4b",
+      "git:hexsha": "389d750eca71ffc18a919b3b1414a05b640b4e4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/815e1954894e74f370ee290e2cc57cc8156e476f",
+      "git:hexsha": "815e1954894e74f370ee290e2cc57cc8156e476f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_5_8"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/692ebacdc3684b6a499db28c19f53a19d51d7f17",
+      "git:hexsha": "692ebacdc3684b6a499db28c19f53a19d51d7f17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_6_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/82321d097f22ee2feb2a909e7a26cc596bc678e3",
+      "git:hexsha": "82321d097f22ee2feb2a909e7a26cc596bc678e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_6_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/bd49e7865b8736fa8046ce4c99a001bf64a14efd",
+      "git:hexsha": "bd49e7865b8736fa8046ce4c99a001bf64a14efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_6_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/3227146634f437c3bc21fd0dd7bedcf6288a6951",
+      "git:hexsha": "3227146634f437c3bc21fd0dd7bedcf6288a6951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_6_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/79eb3c722c64e669e748ddc07cfa1642fb6fb133",
+      "git:hexsha": "79eb3c722c64e669e748ddc07cfa1642fb6fb133",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_6_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/cfa6b65761f42fe5dca8802a089b2630336b9a5f",
+      "git:hexsha": "cfa6b65761f42fe5dca8802a089b2630336b9a5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_6_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/2c5752e745091a8f5f5720bad1fe629bf2cd30a0",
+      "git:hexsha": "2c5752e745091a8f5f5720bad1fe629bf2cd30a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/293cc37f14281280e679619eae9fc57fe0d271eb",
+      "git:hexsha": "293cc37f14281280e679619eae9fc57fe0d271eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/dfb34776626469ee32da2fee92cac1a6ec82d653",
+      "git:hexsha": "dfb34776626469ee32da2fee92cac1a6ec82d653",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/6f5d6d30ff19c926ac6646710514e038b89de731",
+      "git:hexsha": "6f5d6d30ff19c926ac6646710514e038b89de731",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/9872fbbca84f600e184c29227f8f863038788448",
+      "git:hexsha": "9872fbbca84f600e184c29227f8f863038788448",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/feb9167f123fdb0857a4cb2560526ab2d4d8d173",
+      "git:hexsha": "feb9167f123fdb0857a4cb2560526ab2d4d8d173",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/92649264871918c54f74d0b8fa690b1e8e27203b",
+      "git:hexsha": "92649264871918c54f74d0b8fa690b1e8e27203b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/7b55158fee2efd437f1f462c1730cb47fb25a259",
+      "git:hexsha": "7b55158fee2efd437f1f462c1730cb47fb25a259",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_7_7"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/ee83ff6e2e9996166ab7a82f29b66969d2416267",
+      "git:hexsha": "ee83ff6e2e9996166ab7a82f29b66969d2416267",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_8_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/a968c9d2832173ee7d5dde50c7573f7b99424c38",
+      "git:hexsha": "a968c9d2832173ee7d5dde50c7573f7b99424c38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_8_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/dad8266bda4acc6d418360b9c3ae2ea56bf85792",
+      "git:hexsha": "dad8266bda4acc6d418360b9c3ae2ea56bf85792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_9_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/613c23766b4fbd81f0415b870158aef4c6534eae",
+      "git:hexsha": "613c23766b4fbd81f0415b870158aef4c6534eae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_9_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/071eaf3c02aa93b89a58863ad8682e52fe448725",
+      "git:hexsha": "071eaf3c02aa93b89a58863ad8682e52fe448725",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_9_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/912ca37797a44d6fd94fc6566e4fd9df587dde86",
+      "git:hexsha": "912ca37797a44d6fd94fc6566e4fd9df587dde86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_9_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sqlalchemy/alembic/commit/31d3d8dc582bc76982cab8e7e76a414d1f466517",
+      "git:hexsha": "31d3d8dc582bc76982cab8e7e76a414d1f466517",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel_1_9_4"
+    }
+  ]
+}
