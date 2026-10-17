@@ -1,0 +1,597 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/coqui-ai/TTS",
+  "@type": "gh:Repository",
+  "gh:name": "TTS",
+  "gh:owner": "coqui-ai",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/dbf1a08a0d4e47fdad6172e433eeb34bc6b13b4e",
+      "git:hexsha": "dbf1a08a0d4e47fdad6172e433eeb34bc6b13b4e",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-17T15:42:23.131642+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/a790df4e944fb035179e99423e828cf37658d9f0",
+      "git:hexsha": "a790df4e944fb035179e99423e828cf37658d9f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "speaker_encoder_model"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/4cc162a8b567d1d7043afa50b46375ab75bea44f",
+      "git:hexsha": "4cc162a8b567d1d7043afa50b46375ab75bea44f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/2344379cb88f37c1ab5420349846395c78ab6175",
+      "git:hexsha": "2344379cb88f37c1ab5420349846395c78ab6175",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/a53958ae3ae77e6692008202cdeb6d469737b75d",
+      "git:hexsha": "a53958ae3ae77e6692008202cdeb6d469737b75d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/f02f0338c22f0bc091087ec37f774fe3dc995f0d",
+      "git:hexsha": "f02f0338c22f0bc091087ec37f774fe3dc995f0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/5482a0f62d3da9821b4689f4e9268580904a081f",
+      "git:hexsha": "5482a0f62d3da9821b4689f4e9268580904a081f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/b8b79a5e5a1f175680a63539cd4235f18cb3ead8",
+      "git:hexsha": "b8b79a5e5a1f175680a63539cd4235f18cb3ead8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/d245b5d48f01cdaf45479b7f924b8a74b6c58b97",
+      "git:hexsha": "d245b5d48f01cdaf45479b7f924b8a74b6c58b97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/45068a9153ce5b9ddefff76ee6b8a7f4cae41851",
+      "git:hexsha": "45068a9153ce5b9ddefff76ee6b8a7f4cae41851",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c25a2184e72b0bc28f4ff8f8886cc01d6f7f5c5b",
+      "git:hexsha": "c25a2184e72b0bc28f4ff8f8886cc01d6f7f5c5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/676d22ff0e826911287fe669d157d1d0160d8bbe",
+      "git:hexsha": "676d22ff0e826911287fe669d157d1d0160d8bbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/8fbadad68e4e511d759bba96f8ed26530af0f961",
+      "git:hexsha": "8fbadad68e4e511d759bba96f8ed26530af0f961",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/0fc9f387450a2518b93300906f83ad9d0ac68f8e",
+      "git:hexsha": "0fc9f387450a2518b93300906f83ad9d0ac68f8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/a04db8d632f60b9d6d16aac99133a11e56b1a4c6",
+      "git:hexsha": "a04db8d632f60b9d6d16aac99133a11e56b1a4c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/061ac43187fbcc98ee73e158f672b7fea1e8da47",
+      "git:hexsha": "061ac43187fbcc98ee73e158f672b7fea1e8da47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/f814d523945fc43071d037a1fb9edcdad99949b2",
+      "git:hexsha": "f814d523945fc43071d037a1fb9edcdad99949b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/0910cb76bcd85df56bf43654bb31427647cdfd0d",
+      "git:hexsha": "0910cb76bcd85df56bf43654bb31427647cdfd0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/14d45b53470d862d4df1966d3984ef883077aa5c",
+      "git:hexsha": "14d45b53470d862d4df1966d3984ef883077aa5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/ea5bd7dcbcc184b4e269868530bb93d9e7c6a7ba",
+      "git:hexsha": "ea5bd7dcbcc184b4e269868530bb93d9e7c6a7ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/994be163e1ce916b9594e5227fc6551e015b152f",
+      "git:hexsha": "994be163e1ce916b9594e5227fc6551e015b152f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/d488b4f1c6c8d0bad7177de9b5aa4da6981f8b86",
+      "git:hexsha": "d488b4f1c6c8d0bad7177de9b5aa4da6981f8b86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/12f3365185ddffab2c23205dc856c4e8f7ceeb2d",
+      "git:hexsha": "12f3365185ddffab2c23205dc856c4e8f7ceeb2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/a01ca653925973fcf04b0923b03ca9568a86046f",
+      "git:hexsha": "a01ca653925973fcf04b0923b03ca9568a86046f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/14c80dd1fd665ea348ce83f2b34392485ac5dfa6",
+      "git:hexsha": "14c80dd1fd665ea348ce83f2b34392485ac5dfa6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/bb8d0800f199cfd21ca7bf170508860143db864b",
+      "git:hexsha": "bb8d0800f199cfd21ca7bf170508860143db864b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/b3b4034c9da599cf994ccf4dbb57f97b0f515bb1",
+      "git:hexsha": "b3b4034c9da599cf994ccf4dbb57f97b0f515bb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/2071088bab6a38872ac6380ba195200ca76e2574",
+      "git:hexsha": "2071088bab6a38872ac6380ba195200ca76e2574",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/e4c5c27854782bcda5ee0539dac32a7e4c8fa735",
+      "git:hexsha": "e4c5c27854782bcda5ee0539dac32a7e4c8fa735",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.3_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/bc0a532c7a7e165338da6711ea362cdbe9761820",
+      "git:hexsha": "bc0a532c7a7e165338da6711ea362cdbe9761820",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c1875f68df079ebbb8b2928941179a9513104437",
+      "git:hexsha": "c1875f68df079ebbb8b2928941179a9513104437",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/a494f0c92a4b8a933dcd0442d8c06333eb3a2aff",
+      "git:hexsha": "a494f0c92a4b8a933dcd0442d8c06333eb3a2aff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/ba40a1c5c63e3d0b7b1b52242ee683b514237bd7",
+      "git:hexsha": "ba40a1c5c63e3d0b7b1b52242ee683b514237bd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/547a72c97d3d74e9f1efc20d22e8176d8302be12",
+      "git:hexsha": "547a72c97d3d74e9f1efc20d22e8176d8302be12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/49cf6a5d622afbb84b4fdf9715f9aab6722495d2",
+      "git:hexsha": "49cf6a5d622afbb84b4fdf9715f9aab6722495d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/a035b25340cf2940abe524840ed04da6d08a37be",
+      "git:hexsha": "a035b25340cf2940abe524840ed04da6d08a37be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/dfd8d313a2e8b3f7e2e2971578e7747deab5f68b",
+      "git:hexsha": "dfd8d313a2e8b3f7e2e2971578e7747deab5f68b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/413a345d6605e73b09a464d3bae6b0824ec0a2f5",
+      "git:hexsha": "413a345d6605e73b09a464d3bae6b0824ec0a2f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/21a3f280dea7ab7c6381f5805589514bea86da4d",
+      "git:hexsha": "21a3f280dea7ab7c6381f5805589514bea86da4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/505ac1aa8f62b49e9a0491c7c73adc3ec8471f22",
+      "git:hexsha": "505ac1aa8f62b49e9a0491c7c73adc3ec8471f22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/b5cd6441328fd9569f370d51a2449d09d546d335",
+      "git:hexsha": "b5cd6441328fd9569f370d51a2449d09d546d335",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/b739326503b6077c8662c0244b461ca75294384e",
+      "git:hexsha": "b739326503b6077c8662c0244b461ca75294384e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/dc04baa1ee6c8dabc91f53f671b68d90e32e7709",
+      "git:hexsha": "dc04baa1ee6c8dabc91f53f671b68d90e32e7709",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c87377b713a010f462523deec16f2b4cab1af2fe",
+      "git:hexsha": "c87377b713a010f462523deec16f2b4cab1af2fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c4e5effab9f2e9d23528442ed9646ad7a46e1266",
+      "git:hexsha": "c4e5effab9f2e9d23528442ed9646ad7a46e1266",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/04a36a727bc232e5efadbfcd5021d17ec42be68b",
+      "git:hexsha": "04a36a727bc232e5efadbfcd5021d17ec42be68b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c0b5e6174962e3ca94bb5d0f3e7826987fe6bdd9",
+      "git:hexsha": "c0b5e6174962e3ca94bb5d0f3e7826987fe6bdd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/40b527345fba1f38f41527fc9f2d6f66db5c121e",
+      "git:hexsha": "40b527345fba1f38f41527fc9f2d6f66db5c121e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/5dcf9ae311561d7a3021a973218da9110d623cf0",
+      "git:hexsha": "5dcf9ae311561d7a3021a973218da9110d623cf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/af62613c86336b034e0489e08a3add3608625792",
+      "git:hexsha": "af62613c86336b034e0489e08a3add3608625792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/747f688dc374a571e47f2c40358883c7ea11fa32",
+      "git:hexsha": "747f688dc374a571e47f2c40358883c7ea11fa32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/13dd7c4c9edc00a690a05e80d6cbf7c3ad031748",
+      "git:hexsha": "13dd7c4c9edc00a690a05e80d6cbf7c3ad031748",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/aa8fa4756e9130e536f0dfc610617db103a43efd",
+      "git:hexsha": "aa8fa4756e9130e536f0dfc610617db103a43efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/f829bf50f8cd261a2ef23356cb83f0ac6c3ff6a8",
+      "git:hexsha": "f829bf50f8cd261a2ef23356cb83f0ac6c3ff6a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/0b95b88f138b58982fe078b13ab56efcb0f751f0",
+      "git:hexsha": "0b95b88f138b58982fe078b13ab56efcb0f751f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/155c5fc0bde77c6ace1e6e6982da2b13f19ddd2f",
+      "git:hexsha": "155c5fc0bde77c6ace1e6e6982da2b13f19ddd2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/0520697b5fdb01639ebf6a3314c91d2a8de96f22",
+      "git:hexsha": "0520697b5fdb01639ebf6a3314c91d2a8de96f22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/99635193f508092c746febb087dc6634fa5f59d8",
+      "git:hexsha": "99635193f508092c746febb087dc6634fa5f59d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/bf68848f38240aac23c2d91c4870a7a408b975a6",
+      "git:hexsha": "bf68848f38240aac23c2d91c4870a7a408b975a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.17.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/85e7323739c82e64d938d674b20bbbc92eb0680f",
+      "git:hexsha": "85e7323739c82e64d938d674b20bbbc92eb0680f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/414f0de0a1e89d871ccbec4a245be83c2afe883f",
+      "git:hexsha": "414f0de0a1e89d871ccbec4a245be83c2afe883f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/1e152692ed4662d0d17c65aba6d0e0c5d1cbfa44",
+      "git:hexsha": "1e152692ed4662d0d17c65aba6d0e0c5d1cbfa44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/edd3a2872370076841df1574183b17858df911eb",
+      "git:hexsha": "edd3a2872370076841df1574183b17858df911eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/6fef4f9067c0647258e0cd1d2998716565f59330",
+      "git:hexsha": "6fef4f9067c0647258e0cd1d2998716565f59330",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c3082267073ed45b69993aa83437958b1c42615f",
+      "git:hexsha": "c3082267073ed45b69993aa83437958b1c42615f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/5793dca71d3783ac15ef121c3c5354e32e2e637f",
+      "git:hexsha": "5793dca71d3783ac15ef121c3c5354e32e2e637f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/dc2ace3ca01ce69c03eda52acc80780804172e79",
+      "git:hexsha": "dc2ace3ca01ce69c03eda52acc80780804172e79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c713a839da5b817ffc1d87d8a470c3126e551cbf",
+      "git:hexsha": "c713a839da5b817ffc1d87d8a470c3126e551cbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/f846a9f3007ab69e5e6664b6ab23675a49f2e058",
+      "git:hexsha": "f846a9f3007ab69e5e6664b6ab23675a49f2e058",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/46d9c27212939aa54b22f9df842c753de67b1f34",
+      "git:hexsha": "46d9c27212939aa54b22f9df842c753de67b1f34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/6f1cba2f81de6c97e81c0b2030b631e588047968",
+      "git:hexsha": "6f1cba2f81de6c97e81c0b2030b631e588047968",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/d96f3885d5486591cb0a00a8b74bd25bb21ee8d7",
+      "git:hexsha": "d96f3885d5486591cb0a00a8b74bd25bb21ee8d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/88630c60e5c35be65f7e75b7a2a27a2b63ac87ee",
+      "git:hexsha": "88630c60e5c35be65f7e75b7a2a27a2b63ac87ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/29dede20d336c8250810575fcdcdbbcad8c40a44",
+      "git:hexsha": "29dede20d336c8250810575fcdcdbbcad8c40a44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/1542a50c3ac9c7486ecc0be160f9f2c359181d6e",
+      "git:hexsha": "1542a50c3ac9c7486ecc0be160f9f2c359181d6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/00a870c26abdc06429ffef3e2814b1a1d5b40fff",
+      "git:hexsha": "00a870c26abdc06429ffef3e2814b1a1d5b40fff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/6d1905c2b73a80401cdd5e9824e4700e3181a3b3",
+      "git:hexsha": "6d1905c2b73a80401cdd5e9824e4700e3181a3b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/2d02015978de17d6a813df1c2f2f5bb0a4f7efc0",
+      "git:hexsha": "2d02015978de17d6a813df1c2f2f5bb0a4f7efc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/fa28f99f1508b5b5366539b2149963edcb80ba62",
+      "git:hexsha": "fa28f99f1508b5b5366539b2149963edcb80ba62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/0592a5805ca7fb877c8fc8df56a4eacac13f2657",
+      "git:hexsha": "0592a5805ca7fb877c8fc8df56a4eacac13f2657",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/7f388f26e36c4af0606b9d99b2fb8736430fae4f",
+      "git:hexsha": "7f388f26e36c4af0606b9d99b2fb8736430fae4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/fa4ec83c6e2e374a2a9d8e8f8b6b194db3774675",
+      "git:hexsha": "fa4ec83c6e2e374a2a9d8e8f8b6b194db3774675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/40c17b220512fa8ccbc20930b9649a978254903d",
+      "git:hexsha": "40c17b220512fa8ccbc20930b9649a978254903d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/7f1a23787ea18775d34838f90ca2e6082f220a46",
+      "git:hexsha": "7f1a23787ea18775d34838f90ca2e6082f220a46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c63bb481e95bd4a1ff978947d8e3e6c0bfb4177f",
+      "git:hexsha": "c63bb481e95bd4a1ff978947d8e3e6c0bfb4177f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/38f5a11125650d47121c03effdfcddeebcb2b015",
+      "git:hexsha": "38f5a11125650d47121c03effdfcddeebcb2b015",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/95e551dd0a55572a9ae407e9b64acda1a8909179",
+      "git:hexsha": "95e551dd0a55572a9ae407e9b64acda1a8909179",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/0cf3265a4686d7e856bd472cdaf1572d61cab2b8",
+      "git:hexsha": "0cf3265a4686d7e856bd472cdaf1572d61cab2b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c66a6241fd761ea07379849474d576f75b9c4e84",
+      "git:hexsha": "c66a6241fd761ea07379849474d576f75b9c4e84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.1_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c410bc58ef3bd07b72ab05d29bbdc2a6df47afea",
+      "git:hexsha": "c410bc58ef3bd07b72ab05d29bbdc2a6df47afea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/e8573bfe3e692613920a0199c984deed7f0d9cfe",
+      "git:hexsha": "e8573bfe3e692613920a0199c984deed7f0d9cfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.2_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/c7cca4135db0c108a30ba8fd6a437fb63a5ecc12",
+      "git:hexsha": "c7cca4135db0c108a30ba8fd6a437fb63a5ecc12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/f237e4ccd9f2fd2b0cb5e136dfe0e20cc32bf898",
+      "git:hexsha": "f237e4ccd9f2fd2b0cb5e136dfe0e20cc32bf898",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/829e2c24f973409dc8215b0436a62d14cf587107",
+      "git:hexsha": "829e2c24f973409dc8215b0436a62d14cf587107",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/39bc5addaca732da45cc5840853a8a7a0f6c5ae3",
+      "git:hexsha": "39bc5addaca732da45cc5840853a8a7a0f6c5ae3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/946afa8197f2624fdeca148f6272560d72216488",
+      "git:hexsha": "946afa8197f2624fdeca148f6272560d72216488",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/2c9f00a808e0aa76a82af2e8b325abb71f50d1df",
+      "git:hexsha": "2c9f00a808e0aa76a82af2e8b325abb71f50d1df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0_models"
+    },
+    {
+      "@id": "https://repolex.ai/r/coqui-ai/TTS/commit/bc6120c330a26e9bb96171b5b55013641e39e2f8",
+      "git:hexsha": "bc6120c330a26e9bb96171b5b55013641e39e2f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    }
+  ]
+}
