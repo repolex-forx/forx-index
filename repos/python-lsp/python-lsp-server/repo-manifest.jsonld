@@ -1,0 +1,724 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/python-lsp/python-lsp-server",
+  "@type": "gh:Repository",
+  "gh:name": "python-lsp-server",
+  "gh:owner": "python-lsp",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/a3620069a607a63ed52569fde188e9301feae93a",
+      "git:hexsha": "a3620069a607a63ed52569fde188e9301feae93a",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v1.15.0",
+      "repolex:parsedAt": "2026-10-19T11:17:13.769591+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/15e19cde98edc91081d7a4165a86d189bfbf36be",
+      "git:hexsha": "15e19cde98edc91081d7a4165a86d189bfbf36be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/5b6a47ea4001bbdbef11a6896fb68a1b0bb5afba",
+      "git:hexsha": "5b6a47ea4001bbdbef11a6896fb68a1b0bb5afba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/106e760f9c97b8a45fcd8ad488bc4de6b3b93fa4",
+      "git:hexsha": "106e760f9c97b8a45fcd8ad488bc4de6b3b93fa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/698325d62c2862f6d4c991f2970b6bc744532239",
+      "git:hexsha": "698325d62c2862f6d4c991f2970b6bc744532239",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/c4fd7a203b8a367355593093dd48ad507c802894",
+      "git:hexsha": "c4fd7a203b8a367355593093dd48ad507c802894",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/c66529172cec46da43d778b703969e082287c239",
+      "git:hexsha": "c66529172cec46da43d778b703969e082287c239",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/7a1eca134bca3232346504b1f9ce820cee2934b2",
+      "git:hexsha": "7a1eca134bca3232346504b1f9ce820cee2934b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/0457426aae5ff6b018b0c83bf985807c62ed1415",
+      "git:hexsha": "0457426aae5ff6b018b0c83bf985807c62ed1415",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/db16c239dad05eaaa9ff3250e51fdd3c80ecf172",
+      "git:hexsha": "db16c239dad05eaaa9ff3250e51fdd3c80ecf172",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/af4dcb325d70629435456ce253275edbb84877e1",
+      "git:hexsha": "af4dcb325d70629435456ce253275edbb84877e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/099eb3691b3b90569f473ed920bb6045b06ff561",
+      "git:hexsha": "099eb3691b3b90569f473ed920bb6045b06ff561",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/8b705bca0acd3de08fdb1b5c869ca5e0d7080585",
+      "git:hexsha": "8b705bca0acd3de08fdb1b5c869ca5e0d7080585",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/67811f275c8ce61dea78400e2b202bf7f5dc4707",
+      "git:hexsha": "67811f275c8ce61dea78400e2b202bf7f5dc4707",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/f57323e9e128c3f35c619d35a1478b0577bf097e",
+      "git:hexsha": "f57323e9e128c3f35c619d35a1478b0577bf097e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/aaa362cb32f009b71b43248b72205876a6a9a6fc",
+      "git:hexsha": "aaa362cb32f009b71b43248b72205876a6a9a6fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/95d753562b2d1b2c0d094aae1f6b78527826020f",
+      "git:hexsha": "95d753562b2d1b2c0d094aae1f6b78527826020f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/0ddfa4475580c6ebf566722b7964a3205a47eba0",
+      "git:hexsha": "0ddfa4475580c6ebf566722b7964a3205a47eba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/d3acc5e7f46f7760b166170f3c57863f24bc3474",
+      "git:hexsha": "d3acc5e7f46f7760b166170f3c57863f24bc3474",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/077e1ae55fe1ff971887ac784b680e7ed95ea74e",
+      "git:hexsha": "077e1ae55fe1ff971887ac784b680e7ed95ea74e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/e8b00aa54cd1de91e1b6d56c3a7b868be1f91908",
+      "git:hexsha": "e8b00aa54cd1de91e1b6d56c3a7b868be1f91908",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/09b4394300cfb4cf788468e961f5a784c3120ee6",
+      "git:hexsha": "09b4394300cfb4cf788468e961f5a784c3120ee6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/327483d347895c70e49c1f513bd81a5434eecbae",
+      "git:hexsha": "327483d347895c70e49c1f513bd81a5434eecbae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/e0e48fb68603472b6b133e323ac071bf9542aac3",
+      "git:hexsha": "e0e48fb68603472b6b133e323ac071bf9542aac3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/ac405e6ff8d886bc79d7e47b1104b10f2383f4bc",
+      "git:hexsha": "ac405e6ff8d886bc79d7e47b1104b10f2383f4bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/28df4c01f25ea01e06ffa298d9bee8bbdeb1ba8c",
+      "git:hexsha": "28df4c01f25ea01e06ffa298d9bee8bbdeb1ba8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/4fc34c6d3a92de67f2b814e84921bf426939e590",
+      "git:hexsha": "4fc34c6d3a92de67f2b814e84921bf426939e590",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/a30b5bc0156ee54a5823831fef069549b512a6f4",
+      "git:hexsha": "a30b5bc0156ee54a5823831fef069549b512a6f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/249f715ad47666c3decd45772b294aab07bffefd",
+      "git:hexsha": "249f715ad47666c3decd45772b294aab07bffefd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/ab3e5eaef848a0cc752110f85ed95187f5cffcc4",
+      "git:hexsha": "ab3e5eaef848a0cc752110f85ed95187f5cffcc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/d7fb817e8f992bd5c6a287f5afb5e999a1e29449",
+      "git:hexsha": "d7fb817e8f992bd5c6a287f5afb5e999a1e29449",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/98977b6f3e502231ce1a6aea80fc505a1c923bbd",
+      "git:hexsha": "98977b6f3e502231ce1a6aea80fc505a1c923bbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/43f5343682dced23103b3631466c48f618951e42",
+      "git:hexsha": "43f5343682dced23103b3631466c48f618951e42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/1b5b69b0a23c26b6767511cb7c6f3e0a5df2b2ac",
+      "git:hexsha": "1b5b69b0a23c26b6767511cb7c6f3e0a5df2b2ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/ee71c1ddddb769ca04cf59bac63036554283d8b9",
+      "git:hexsha": "ee71c1ddddb769ca04cf59bac63036554283d8b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/032e49eabb84eb321f92a1b1442621a74786a4a5",
+      "git:hexsha": "032e49eabb84eb321f92a1b1442621a74786a4a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/d62d91fac8d5d628a8f1095019cc60a420127e20",
+      "git:hexsha": "d62d91fac8d5d628a8f1095019cc60a420127e20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/dace6e68f4c8e710a7309b24ffdd66cd1359aa0d",
+      "git:hexsha": "dace6e68f4c8e710a7309b24ffdd66cd1359aa0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/18f3c3f06f36b5e5ff3dae1436e85ef3eb5d7264",
+      "git:hexsha": "18f3c3f06f36b5e5ff3dae1436e85ef3eb5d7264",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/dfff3c965fea83c0429b17c37a0668b6023f519b",
+      "git:hexsha": "dfff3c965fea83c0429b17c37a0668b6023f519b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/96e08d85635382d17024c352306c4759f124195d",
+      "git:hexsha": "96e08d85635382d17024c352306c4759f124195d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/ac5829a14dc17bca431a212e5ea4a6ad380386a7",
+      "git:hexsha": "ac5829a14dc17bca431a212e5ea4a6ad380386a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/697ebb162804459587f05131fd1a42c45ebfbf05",
+      "git:hexsha": "697ebb162804459587f05131fd1a42c45ebfbf05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/9447bd759f90ca83deb1542a1735d35598edda0a",
+      "git:hexsha": "9447bd759f90ca83deb1542a1735d35598edda0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/8bbd24673e45f8a244aee0caa26ad876b9779b4d",
+      "git:hexsha": "8bbd24673e45f8a244aee0caa26ad876b9779b4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/65d6fd2acf286afe7945b0e3e0b2cd4169a80125",
+      "git:hexsha": "65d6fd2acf286afe7945b0e3e0b2cd4169a80125",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/fecffb2264da96abbd6b48932bdd8a1694a7245d",
+      "git:hexsha": "fecffb2264da96abbd6b48932bdd8a1694a7245d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/8db7654f9c3786f579416ec42e6a6625003ee43a",
+      "git:hexsha": "8db7654f9c3786f579416ec42e6a6625003ee43a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/19b10c47988df504872a4fe07c421b0555b3127e",
+      "git:hexsha": "19b10c47988df504872a4fe07c421b0555b3127e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/59fd33ce94d1207e1d5bc5a9aae5885e68a10f5f",
+      "git:hexsha": "59fd33ce94d1207e1d5bc5a9aae5885e68a10f5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/61be60ae175fc2ab762b071385ea43588f80d121",
+      "git:hexsha": "61be60ae175fc2ab762b071385ea43588f80d121",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/ac79ceff66b692bc30ad93a60621b1dcf07db51c",
+      "git:hexsha": "ac79ceff66b692bc30ad93a60621b1dcf07db51c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/45702ec1d0f02834e0f076f683dd0f4bb6ba14d6",
+      "git:hexsha": "45702ec1d0f02834e0f076f683dd0f4bb6ba14d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/b08891f9345a5bbd543c657d1251cceed9f79b01",
+      "git:hexsha": "b08891f9345a5bbd543c657d1251cceed9f79b01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/fdb8b3dbc5df7d12729d135932bf2264e0883061",
+      "git:hexsha": "fdb8b3dbc5df7d12729d135932bf2264e0883061",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/143d9931cd0cabe92e1370b344cb02c406e0b0f1",
+      "git:hexsha": "143d9931cd0cabe92e1370b344cb02c406e0b0f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/914d4e128c8d51573e33764f765e9e371bf65589",
+      "git:hexsha": "914d4e128c8d51573e33764f765e9e371bf65589",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/0114c6cdf48010fc1614538a3f229a4992673aa6",
+      "git:hexsha": "0114c6cdf48010fc1614538a3f229a4992673aa6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/048a4fe0b5549d163fd1c5c8eb4975ab203fcfd3",
+      "git:hexsha": "048a4fe0b5549d163fd1c5c8eb4975ab203fcfd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/5d01b627306b44f605c79350e44f819f3307cfca",
+      "git:hexsha": "5d01b627306b44f605c79350e44f819f3307cfca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/fc2ab66c5e447fb5fbd5941bfc9e070906689969",
+      "git:hexsha": "fc2ab66c5e447fb5fbd5941bfc9e070906689969",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/f6df42cae186e5389e0332e9b8406bb24bd84d3e",
+      "git:hexsha": "f6df42cae186e5389e0332e9b8406bb24bd84d3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/21833eafd4e254a79d35ca539967f3a010e8c2a1",
+      "git:hexsha": "21833eafd4e254a79d35ca539967f3a010e8c2a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/6a7eae7600a17b4f076263016639ff2a430b72e3",
+      "git:hexsha": "6a7eae7600a17b4f076263016639ff2a430b72e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/2dc19c2acf8acc412ae8e49a1e865e6664427201",
+      "git:hexsha": "2dc19c2acf8acc412ae8e49a1e865e6664427201",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/9b5cb2197405b2290161deb2abd8e2b139a53691",
+      "git:hexsha": "9b5cb2197405b2290161deb2abd8e2b139a53691",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/10cd98c898c89a8c9961b25725a6cd913485e1d0",
+      "git:hexsha": "10cd98c898c89a8c9961b25725a6cd913485e1d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/c57bf8940411676ccc82c74e8a32227289cda30f",
+      "git:hexsha": "c57bf8940411676ccc82c74e8a32227289cda30f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/5fa7ae9154c79ba1f5347e1452bd770a958869b3",
+      "git:hexsha": "5fa7ae9154c79ba1f5347e1452bd770a958869b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/78dee3d03fd6027804588fd204df06b2ac57d7d3",
+      "git:hexsha": "78dee3d03fd6027804588fd204df06b2ac57d7d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.34.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/eb479ff2b214a13fd1c2fb1dcf2993a45c3bb830",
+      "git:hexsha": "eb479ff2b214a13fd1c2fb1dcf2993a45c3bb830",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/7dbd812124e5baa08aa5299370e09665e0026675",
+      "git:hexsha": "7dbd812124e5baa08aa5299370e09665e0026675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.35.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/1425f75b59e5eba8ba1e1ad250e05502657370af",
+      "git:hexsha": "1425f75b59e5eba8ba1e1ad250e05502657370af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/7a98c2c5f9de193a02c2a53405fb951ff7b3ae6b",
+      "git:hexsha": "7a98c2c5f9de193a02c2a53405fb951ff7b3ae6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/7d7f6a47b9487b29bd8a07776dcf5425e0877d6f",
+      "git:hexsha": "7d7f6a47b9487b29bd8a07776dcf5425e0877d6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/a78885dfc6d6cd16d97c2c42423ea825db4a7ff9",
+      "git:hexsha": "a78885dfc6d6cd16d97c2c42423ea825db4a7ff9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/219b47b8a8213fc43eb24db0f699ed1a58c5139f",
+      "git:hexsha": "219b47b8a8213fc43eb24db0f699ed1a58c5139f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/6a11cb8f6eb8f78566af4343124342a864e0d8ba",
+      "git:hexsha": "6a11cb8f6eb8f78566af4343124342a864e0d8ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/aa8e1b2c12759470c18910c61f55ab4c6b80d344",
+      "git:hexsha": "aa8e1b2c12759470c18910c61f55ab4c6b80d344",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/f941b5531500f385fe6a1cfa6333d89e7eac82bf",
+      "git:hexsha": "f941b5531500f385fe6a1cfa6333d89e7eac82bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/2d502daf1c3d022a48b45e20898198b60a7a9f55",
+      "git:hexsha": "2d502daf1c3d022a48b45e20898198b60a7a9f55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/a1bbd401621f8fc3083f4341b7912b491e82bf68",
+      "git:hexsha": "a1bbd401621f8fc3083f4341b7912b491e82bf68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/91b5e4efe9db0d9d2cb1704c6132cf39cec780cd",
+      "git:hexsha": "91b5e4efe9db0d9d2cb1704c6132cf39cec780cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/badd92b8f7aa9cb5d0d74bd83fdf454a0465c295",
+      "git:hexsha": "badd92b8f7aa9cb5d0d74bd83fdf454a0465c295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/76cc9822f7cc201bd36ecc2e6bbcb82647ebbed8",
+      "git:hexsha": "76cc9822f7cc201bd36ecc2e6bbcb82647ebbed8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/067c3356e24ee52fbf66f1761926011ebb5740b7",
+      "git:hexsha": "067c3356e24ee52fbf66f1761926011ebb5740b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/4fb3c63f4d3191cea9fa84e1f5799ba558b5f903",
+      "git:hexsha": "4fb3c63f4d3191cea9fa84e1f5799ba558b5f903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/5a383df418d2800b5abc5dd3a43b3061026fda07",
+      "git:hexsha": "5a383df418d2800b5abc5dd3a43b3061026fda07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/779c97a7643fe5115e9f2eb23e223c4b4c35298d",
+      "git:hexsha": "779c97a7643fe5115e9f2eb23e223c4b4c35298d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/4c0e99b41ed39c514d0173fde72f7ac9d147662b",
+      "git:hexsha": "4c0e99b41ed39c514d0173fde72f7ac9d147662b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/eb61ccd97bbe9c58fbde6496a78015ee3c129146",
+      "git:hexsha": "eb61ccd97bbe9c58fbde6496a78015ee3c129146",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/63087dd3179a2caa473ade32847d5feff2e7d6a4",
+      "git:hexsha": "63087dd3179a2caa473ade32847d5feff2e7d6a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/cc6d398befddb0c9b0f0a52affade3ca4fbfded4",
+      "git:hexsha": "cc6d398befddb0c9b0f0a52affade3ca4fbfded4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/8c96441745876a104554450d779a3d01ac4e76dd",
+      "git:hexsha": "8c96441745876a104554450d779a3d01ac4e76dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/3f9be3824776a382a914273e5bed6b1ee0963b3e",
+      "git:hexsha": "3f9be3824776a382a914273e5bed6b1ee0963b3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/3853b9639f09ce3d9931e80d7310e8e164ef0613",
+      "git:hexsha": "3853b9639f09ce3d9931e80d7310e8e164ef0613",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/bc1095f28a975e26eeb208b158a0e88423502785",
+      "git:hexsha": "bc1095f28a975e26eeb208b158a0e88423502785",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/387ed37009c2e20a6afadec326247da305354c10",
+      "git:hexsha": "387ed37009c2e20a6afadec326247da305354c10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/e537fffe549ee8d6e486beb59cbf959280905de3",
+      "git:hexsha": "e537fffe549ee8d6e486beb59cbf959280905de3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/88fa3e2da64f44e9c777e6e3f77d8b46abc44a95",
+      "git:hexsha": "88fa3e2da64f44e9c777e6e3f77d8b46abc44a95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/483dc50153406f7ac59d7c6db6048204ef19f0f9",
+      "git:hexsha": "483dc50153406f7ac59d7c6db6048204ef19f0f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/cb9fa619bfd35d022ca8f09ae3729f029de7b916",
+      "git:hexsha": "cb9fa619bfd35d022ca8f09ae3729f029de7b916",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/52089678017749089d7708900159b31666a22076",
+      "git:hexsha": "52089678017749089d7708900159b31666a22076",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/fca5cd09d291b32e5b476cdb104129a76321bb0c",
+      "git:hexsha": "fca5cd09d291b32e5b476cdb104129a76321bb0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/a9fac70775a58106a6bf8bcc48178d38cce8ef95",
+      "git:hexsha": "a9fac70775a58106a6bf8bcc48178d38cce8ef95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/7e4359356931255a74a82c4a4c1a2e802e2a1bcb",
+      "git:hexsha": "7e4359356931255a74a82c4a4c1a2e802e2a1bcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/552dea39cd6bb4d51c2cf144ab1b57748042b8fc",
+      "git:hexsha": "552dea39cd6bb4d51c2cf144ab1b57748042b8fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/5fb5134caecc96df64c4cf757e848073b3b07487",
+      "git:hexsha": "5fb5134caecc96df64c4cf757e848073b3b07487",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/6c767f50e44aba447f5f1d1d371bb29dff54a200",
+      "git:hexsha": "6c767f50e44aba447f5f1d1d371bb29dff54a200",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/0c76a528c391ba723b5b1bc1a5c34dded9bb76c4",
+      "git:hexsha": "0c76a528c391ba723b5b1bc1a5c34dded9bb76c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/2b3ac737aa8fd0e63e44ce21c79e2ecd6f014a9d",
+      "git:hexsha": "2b3ac737aa8fd0e63e44ce21c79e2ecd6f014a9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/d28ce21e151c2de0bf47ff1183b512c96e3b97d8",
+      "git:hexsha": "d28ce21e151c2de0bf47ff1183b512c96e3b97d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/f36fb785ec914c2787fa0c55751088866886f3a3",
+      "git:hexsha": "f36fb785ec914c2787fa0c55751088866886f3a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/e93c8b35769ac06d3903ed71ad2f36fe0aecb5d4",
+      "git:hexsha": "e93c8b35769ac06d3903ed71ad2f36fe0aecb5d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/363d864b694d39bed6fdecf6d392e5b1261b83a7",
+      "git:hexsha": "363d864b694d39bed6fdecf6d392e5b1261b83a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/137ed646604963c2af1875d44d7db5b37b8a85be",
+      "git:hexsha": "137ed646604963c2af1875d44d7db5b37b8a85be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/05698fa11bfc566ae7e040a2ed272247f8d406b2",
+      "git:hexsha": "05698fa11bfc566ae7e040a2ed272247f8d406b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/d33927208a60890f48148d2cd1c007e859e6f084",
+      "git:hexsha": "d33927208a60890f48148d2cd1c007e859e6f084",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-lsp/python-lsp-server/commit/4428a656c4271580d2720df9962f4e5a5669c026",
+      "git:hexsha": "4428a656c4271580d2720df9962f4e5a5669c026",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    }
+  ]
+}
