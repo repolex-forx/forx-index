@@ -1,0 +1,711 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py",
+  "@type": "gh:Repository",
+  "gh:name": "tableschema-py",
+  "gh:owner": "frictionlessdata",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/75d2accb985c3bfe2e72fc6ee987b6b16628d295",
+      "git:hexsha": "75d2accb985c3bfe2e72fc6ee987b6b16628d295",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-19T12:39:44.882961+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/e89b8740377612fcd32cf98f1609e9e1f85e1192",
+      "git:hexsha": "e89b8740377612fcd32cf98f1609e9e1f85e1192",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/b01523bc4feb688f1484c29175861ee07d3f693a",
+      "git:hexsha": "b01523bc4feb688f1484c29175861ee07d3f693a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/3e4e41c560731a1c6be58d2141c6ac9b1c2cf962",
+      "git:hexsha": "3e4e41c560731a1c6be58d2141c6ac9b1c2cf962",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/634f249c97a6ea713eff41a7446d1679dfb3ee06",
+      "git:hexsha": "634f249c97a6ea713eff41a7446d1679dfb3ee06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/09b51e6c5390fbc9a338164e1bf30b58da3777e6",
+      "git:hexsha": "09b51e6c5390fbc9a338164e1bf30b58da3777e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/bfce92362a784abcf86cc685eb57636c442fc665",
+      "git:hexsha": "bfce92362a784abcf86cc685eb57636c442fc665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/977c9c0cd40044cb27d01b8c6367926dd33fe8ae",
+      "git:hexsha": "977c9c0cd40044cb27d01b8c6367926dd33fe8ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/08618a8aed7d5d036e74630015c56e482b84c358",
+      "git:hexsha": "08618a8aed7d5d036e74630015c56e482b84c358",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/ee0af63cc4f93fb01244751cde5039212e4bd21a",
+      "git:hexsha": "ee0af63cc4f93fb01244751cde5039212e4bd21a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/db6210d2f31fb1f007a5340ada7d8866c6602308",
+      "git:hexsha": "db6210d2f31fb1f007a5340ada7d8866c6602308",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/1a0957de56e5f50f0374716a4b968c807b51bd1a",
+      "git:hexsha": "1a0957de56e5f50f0374716a4b968c807b51bd1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/fd735e60425fe241dc57c6325f23d957d2088bb1",
+      "git:hexsha": "fd735e60425fe241dc57c6325f23d957d2088bb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/a18caaefb67f6caa5e2afbd9e9588fd20107c55d",
+      "git:hexsha": "a18caaefb67f6caa5e2afbd9e9588fd20107c55d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d03bdbfd6919546a3f6bf5600bccb46c6adc587f",
+      "git:hexsha": "d03bdbfd6919546a3f6bf5600bccb46c6adc587f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/a936153c22bcc89a53bd9c1c760fa7a158fdc1c8",
+      "git:hexsha": "a936153c22bcc89a53bd9c1c760fa7a158fdc1c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/7ceb9447beb42f306ccf6f2444ae475d416758a2",
+      "git:hexsha": "7ceb9447beb42f306ccf6f2444ae475d416758a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/8f8eb97c7b68353052391c5a3fc9d18b83777aab",
+      "git:hexsha": "8f8eb97c7b68353052391c5a3fc9d18b83777aab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/57dc763bd7f2cbb175a0c8b2ec2495a080c41fb6",
+      "git:hexsha": "57dc763bd7f2cbb175a0c8b2ec2495a080c41fb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/3b4f14d007361c9021dcf60bb9350088c4d832ec",
+      "git:hexsha": "3b4f14d007361c9021dcf60bb9350088c4d832ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c0c7589afcdf87783b2954a4814d69cebaffbf2a",
+      "git:hexsha": "c0c7589afcdf87783b2954a4814d69cebaffbf2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d6208f4c9ae73d2df0dcd09c20b9f71d3bffe00e",
+      "git:hexsha": "d6208f4c9ae73d2df0dcd09c20b9f71d3bffe00e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/60a3378c5d5df5f702c1cf2d4aa569af6e68855c",
+      "git:hexsha": "60a3378c5d5df5f702c1cf2d4aa569af6e68855c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha10"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/50fc0f0c3ce1a17b57c2191f70368439ca6e69d7",
+      "git:hexsha": "50fc0f0c3ce1a17b57c2191f70368439ca6e69d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha11"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/cd42c2d2d77f546fc50eabfc392a5c15727fd2cc",
+      "git:hexsha": "cd42c2d2d77f546fc50eabfc392a5c15727fd2cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha12"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/877c66ed386b0ef0c58e06d75895633df78dc6eb",
+      "git:hexsha": "877c66ed386b0ef0c58e06d75895633df78dc6eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha13"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c8aec4694f830a24105de1280f24482307f66960",
+      "git:hexsha": "c8aec4694f830a24105de1280f24482307f66960",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha14"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/af158c5bcc7dace19f43836901291a5420b2743a",
+      "git:hexsha": "af158c5bcc7dace19f43836901291a5420b2743a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d7cd38529ca09cef0ca4bf3493a1f2050ba5e40b",
+      "git:hexsha": "d7cd38529ca09cef0ca4bf3493a1f2050ba5e40b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/da855b73e068ed659681519d514b5b850f3488ad",
+      "git:hexsha": "da855b73e068ed659681519d514b5b850f3488ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d46be820f8f23155cf3acc26617c7d2f7339c6bc",
+      "git:hexsha": "d46be820f8f23155cf3acc26617c7d2f7339c6bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/306b4996f28abd1c614d4a5448e965a8da6fa198",
+      "git:hexsha": "306b4996f28abd1c614d4a5448e965a8da6fa198",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha6"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/e95c36628e8468718181c1a7a13f92cd82046abc",
+      "git:hexsha": "e95c36628e8468718181c1a7a13f92cd82046abc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha7"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/6fc8806ddb033bd3cac8823d67759da79582c1e2",
+      "git:hexsha": "6fc8806ddb033bd3cac8823d67759da79582c1e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha8"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/cf5696477eb52bd43795e2578468d6ee8c6a07ac",
+      "git:hexsha": "cf5696477eb52bd43795e2578468d6ee8c6a07ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-alpha9"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d2e77f565d880734ade641f38a1feba48e08daca",
+      "git:hexsha": "d2e77f565d880734ade641f38a1feba48e08daca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/971ed62a7f4b12fbc5408197fd1222d5181091fe",
+      "git:hexsha": "971ed62a7f4b12fbc5408197fd1222d5181091fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/9b347a9f1dc8f1cca0e49783d44901fa96d6821c",
+      "git:hexsha": "9b347a9f1dc8f1cca0e49783d44901fa96d6821c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/7de2c803bbb0ee034c2f376be26466c8b956ae48",
+      "git:hexsha": "7de2c803bbb0ee034c2f376be26466c8b956ae48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/a3a81d7a2f4d12b6379f0695ca9d4b263e785a81",
+      "git:hexsha": "a3a81d7a2f4d12b6379f0695ca9d4b263e785a81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/39261f04a6626e60ba94d7e9eb0dd622a0ab05d7",
+      "git:hexsha": "39261f04a6626e60ba94d7e9eb0dd622a0ab05d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/71a35a2fbffe2ec236b917eb838268c1fa7ecc4a",
+      "git:hexsha": "71a35a2fbffe2ec236b917eb838268c1fa7ecc4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/24cad779ca8b59743779becdc662d79285f32caa",
+      "git:hexsha": "24cad779ca8b59743779becdc662d79285f32caa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/e9b7c1f27a4e1412b5046d9a3ff4f5f11293de39",
+      "git:hexsha": "e9b7c1f27a4e1412b5046d9a3ff4f5f11293de39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/31080555f2d8b66ef5180e6be0618a90517f6341",
+      "git:hexsha": "31080555f2d8b66ef5180e6be0618a90517f6341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/537796f034b61f8007c1c9bbc4df18fe25b6e3b8",
+      "git:hexsha": "537796f034b61f8007c1c9bbc4df18fe25b6e3b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d40fe5addcac02d8721820b5889899f86b2b3e76",
+      "git:hexsha": "d40fe5addcac02d8721820b5889899f86b2b3e76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/f3cc5ee041e0527dfd47ebbddd9ff663908f89bf",
+      "git:hexsha": "f3cc5ee041e0527dfd47ebbddd9ff663908f89bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d47b6d73ab3ea1051c866b93b6e2b9202bbd40b1",
+      "git:hexsha": "d47b6d73ab3ea1051c866b93b6e2b9202bbd40b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/e3bedb417c8ddddc75f4869583b9b40ef6fd473e",
+      "git:hexsha": "e3bedb417c8ddddc75f4869583b9b40ef6fd473e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/0e82c037f14f84a2b01182b535b739dc98b16a05",
+      "git:hexsha": "0e82c037f14f84a2b01182b535b739dc98b16a05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/448f8d9774ee81c8812b9e404a54d260a38a8304",
+      "git:hexsha": "448f8d9774ee81c8812b9e404a54d260a38a8304",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/7349d78c4c10e2b4ed0d61d2726f5b69149df76b",
+      "git:hexsha": "7349d78c4c10e2b4ed0d61d2726f5b69149df76b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/000a15e53b4b9b56b73e4061dd32b044d2599360",
+      "git:hexsha": "000a15e53b4b9b56b73e4061dd32b044d2599360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c7d3f408130e99be1adb87cc701d307ad297ff7f",
+      "git:hexsha": "c7d3f408130e99be1adb87cc701d307ad297ff7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/eb59351965bad068796d8a9b3b8a200904c2da1e",
+      "git:hexsha": "eb59351965bad068796d8a9b3b8a200904c2da1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/88e9002c57d952e28f444b4f68f1fb0cd152ff03",
+      "git:hexsha": "88e9002c57d952e28f444b4f68f1fb0cd152ff03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/6850879843c90b780aeeb4cd43db35506e310877",
+      "git:hexsha": "6850879843c90b780aeeb4cd43db35506e310877",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/f308b48ce7d185d82a4a958830db190701abb7d0",
+      "git:hexsha": "f308b48ce7d185d82a4a958830db190701abb7d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/312898a531a5489df2c2e23feca07dc11b3bd7ae",
+      "git:hexsha": "312898a531a5489df2c2e23feca07dc11b3bd7ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/6d98295f1a745b03074936c1a1217024a98197dc",
+      "git:hexsha": "6d98295f1a745b03074936c1a1217024a98197dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/376988aae4b45e25193c130f17131c26f4ec3101",
+      "git:hexsha": "376988aae4b45e25193c130f17131c26f4ec3101",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/7a586397a96ba1cbb9346d1cc4245d213f389dde",
+      "git:hexsha": "7a586397a96ba1cbb9346d1cc4245d213f389dde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/3b01bc44b1b0dfe3764ae270a07e4bbc539b4bb8",
+      "git:hexsha": "3b01bc44b1b0dfe3764ae270a07e4bbc539b4bb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/3fc29abe03370b6c0c48036b180ba5cc930d180f",
+      "git:hexsha": "3fc29abe03370b6c0c48036b180ba5cc930d180f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/0dff1d823e3c7df1bfa210b6e290c1b9ffba0105",
+      "git:hexsha": "0dff1d823e3c7df1bfa210b6e290c1b9ffba0105",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/9f8a5d1c0bb35ce17e2439416dba796f99567329",
+      "git:hexsha": "9f8a5d1c0bb35ce17e2439416dba796f99567329",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/002f7263d9cd805890e524610953e373042704c5",
+      "git:hexsha": "002f7263d9cd805890e524610953e373042704c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/96cf6957cf8a1e884674bdd2ad0288b75aa74ea1",
+      "git:hexsha": "96cf6957cf8a1e884674bdd2ad0288b75aa74ea1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/a482ec9e3718928af1414f3789d3947865181fe1",
+      "git:hexsha": "a482ec9e3718928af1414f3789d3947865181fe1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/42fd118a1415578c9bf9c74b06862d6d923633a3",
+      "git:hexsha": "42fd118a1415578c9bf9c74b06862d6d923633a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/8ab49d18555b22dd82daecc3963f1845dc4ff6a7",
+      "git:hexsha": "8ab49d18555b22dd82daecc3963f1845dc4ff6a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c5b3f0ee1b03ec1ade6d4460bd8f526350b018e8",
+      "git:hexsha": "c5b3f0ee1b03ec1ade6d4460bd8f526350b018e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/6c75bea730afe687fc21d1c335900067c782ccfa",
+      "git:hexsha": "6c75bea730afe687fc21d1c335900067c782ccfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/208b22c89a2e0148b1502ab80c4df9b90d68861c",
+      "git:hexsha": "208b22c89a2e0148b1502ab80c4df9b90d68861c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/e49158d69bf8396fbc52c634bf890f4b4065f562",
+      "git:hexsha": "e49158d69bf8396fbc52c634bf890f4b4065f562",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c8b442e22e49874e0f34687d0118b4d87ab8ec23",
+      "git:hexsha": "c8b442e22e49874e0f34687d0118b4d87ab8ec23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c0bed250f519e467cf89f8f43a987f85bcc3ffbb",
+      "git:hexsha": "c0bed250f519e467cf89f8f43a987f85bcc3ffbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/ffd075624dbaf8e097064ed4ab960f6d476d3000",
+      "git:hexsha": "ffd075624dbaf8e097064ed4ab960f6d476d3000",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/5326c84bc40d4507560dd67d75d23eecfe86863e",
+      "git:hexsha": "5326c84bc40d4507560dd67d75d23eecfe86863e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/b404c58993b18eb549eb7f14b98e6b87a29d9339",
+      "git:hexsha": "b404c58993b18eb549eb7f14b98e6b87a29d9339",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/1f1154d5d36556e54031803721063ab19fb6a546",
+      "git:hexsha": "1f1154d5d36556e54031803721063ab19fb6a546",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/0d21157a8128d1a8006c026db5c73d1647fadb3a",
+      "git:hexsha": "0d21157a8128d1a8006c026db5c73d1647fadb3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/1a0470ac652800ff4eb0346bde2525968c809e63",
+      "git:hexsha": "1a0470ac652800ff4eb0346bde2525968c809e63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d2b3b01a569c9ccc0fe5cecd4d31ecdabf63390b",
+      "git:hexsha": "d2b3b01a569c9ccc0fe5cecd4d31ecdabf63390b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/ebb6d547b1b01d205b7317323c1f34217fc8679b",
+      "git:hexsha": "ebb6d547b1b01d205b7317323c1f34217fc8679b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/829674db55565be67ed153681eba61c743cc96c0",
+      "git:hexsha": "829674db55565be67ed153681eba61c743cc96c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/b669f59de8876614a2da736050e1456cf6e454d7",
+      "git:hexsha": "b669f59de8876614a2da736050e1456cf6e454d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/a25db31dcf2dfc3ed0064beba076b0b4f44473d4",
+      "git:hexsha": "a25db31dcf2dfc3ed0064beba076b0b4f44473d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/19db8f5f3ffe04793e56bc7deda7af2c8145574b",
+      "git:hexsha": "19db8f5f3ffe04793e56bc7deda7af2c8145574b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c97f665cfcc6ff4b83e04bd40d13ddb488a7165a",
+      "git:hexsha": "c97f665cfcc6ff4b83e04bd40d13ddb488a7165a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/5e9d7f60fcfdfa1cb64bf4dc4f20d53f699e307b",
+      "git:hexsha": "5e9d7f60fcfdfa1cb64bf4dc4f20d53f699e307b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c81eb664aca8346ac22b7ce06c8c9f7b000cb1a4",
+      "git:hexsha": "c81eb664aca8346ac22b7ce06c8c9f7b000cb1a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/db770c8678bfd7922d3eecc640481bb08f4141f9",
+      "git:hexsha": "db770c8678bfd7922d3eecc640481bb08f4141f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c48292375885d66efa36b4d3df27ff8ba9dc71a7",
+      "git:hexsha": "c48292375885d66efa36b4d3df27ff8ba9dc71a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/04587e4dd8ca1e8bf22ca2149d5b612995791c52",
+      "git:hexsha": "04587e4dd8ca1e8bf22ca2149d5b612995791c52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/3b1f65b35d6461c25e600bc686e91f69600b733b",
+      "git:hexsha": "3b1f65b35d6461c25e600bc686e91f69600b733b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/e6f464f8906810570c42c329bcb47cc3c3fc8375",
+      "git:hexsha": "e6f464f8906810570c42c329bcb47cc3c3fc8375",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/c4d6a3f82f2841a3aeb25bd939b99344337a32bc",
+      "git:hexsha": "c4d6a3f82f2841a3aeb25bd939b99344337a32bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/5d0ff9372fbe33932284e99c15bac0ae01c042a0",
+      "git:hexsha": "5d0ff9372fbe33932284e99c15bac0ae01c042a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/add63ae491fe4a8f2dc5035d465b5164efb892d6",
+      "git:hexsha": "add63ae491fe4a8f2dc5035d465b5164efb892d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/05cb6e8d3ce02f888fc325590343a9b97496cc35",
+      "git:hexsha": "05cb6e8d3ce02f888fc325590343a9b97496cc35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/541c621e7a9b7d1334c03d9ce2dcd278f4cadffe",
+      "git:hexsha": "541c621e7a9b7d1334c03d9ce2dcd278f4cadffe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/9c5fa930319e7c5b10351f794091c5f9de5e8684",
+      "git:hexsha": "9c5fa930319e7c5b10351f794091c5f9de5e8684",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/0cdc1dc94d53f2b2b067c9f1452141978ddbaf3f",
+      "git:hexsha": "0cdc1dc94d53f2b2b067c9f1452141978ddbaf3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/6a7521c4c28da914c1e91833463ad8654131ac8f",
+      "git:hexsha": "6a7521c4c28da914c1e91833463ad8654131ac8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d62d096c4729e8cceb4352a3b168ca59d7ab49e8",
+      "git:hexsha": "d62d096c4729e8cceb4352a3b168ca59d7ab49e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/19a9de0c2d09e114dea7db6fc921ea85a207ba28",
+      "git:hexsha": "19a9de0c2d09e114dea7db6fc921ea85a207ba28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/9601301b147850c95ec1529d3a75230595336dea",
+      "git:hexsha": "9601301b147850c95ec1529d3a75230595336dea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/63b7942121176233e3bda7b8bf233dc0f4221f01",
+      "git:hexsha": "63b7942121176233e3bda7b8bf233dc0f4221f01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/0d6fe3d3a61bdb0fa76f15e1d97bd8fbee52dded",
+      "git:hexsha": "0d6fe3d3a61bdb0fa76f15e1d97bd8fbee52dded",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/8ceb4830e27d16d6a007fc4507dfab56fb9eab97",
+      "git:hexsha": "8ceb4830e27d16d6a007fc4507dfab56fb9eab97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/00d22d8ab912b13833571b83a6aa53befe76e1ad",
+      "git:hexsha": "00d22d8ab912b13833571b83a6aa53befe76e1ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/72a84d29b9e86420b51fa271601a7dbbf2f9b5a8",
+      "git:hexsha": "72a84d29b9e86420b51fa271601a7dbbf2f9b5a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/ac9daf5f36f3507bafcd1a284a16068ed666f5ab",
+      "git:hexsha": "ac9daf5f36f3507bafcd1a284a16068ed666f5ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/d69df015bc1463f8854bbc8c65eec29147ef92f6",
+      "git:hexsha": "d69df015bc1463f8854bbc8c65eec29147ef92f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/frictionlessdata/tableschema-py/commit/2ddf01e348c2ddb0a188ef57bf83c535ffba7f75",
+      "git:hexsha": "2ddf01e348c2ddb0a188ef57bf83c535ffba7f75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    }
+  ]
+}
