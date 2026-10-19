@@ -1,0 +1,856 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/klen/pylama",
+  "@type": "gh:Repository",
+  "gh:name": "pylama",
+  "gh:owner": "klen",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/53ad214de0aa9534e59bcd5f97d9d723d16cfdb8",
+      "git:hexsha": "53ad214de0aa9534e59bcd5f97d9d723d16cfdb8",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "8.4.1",
+      "repolex:parsedAt": "2026-10-19T12:25:10.753312+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7157f6a7310c74f70a5572d41cd6120ea65ad0cf",
+      "git:hexsha": "7157f6a7310c74f70a5572d41cd6120ea65ad0cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5fbefc8927654a5fc26e5a344585bfff92d4e7ce",
+      "git:hexsha": "5fbefc8927654a5fc26e5a344585bfff92d4e7ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/037099b9c95c83a235bf9e4655267c1e797fe668",
+      "git:hexsha": "037099b9c95c83a235bf9e4655267c1e797fe668",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/b23756899d9ef8705548fc5874353adbddf76613",
+      "git:hexsha": "b23756899d9ef8705548fc5874353adbddf76613",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5f03648ef39c4702f5cd66796be841d6c27a2f70",
+      "git:hexsha": "5f03648ef39c4702f5cd66796be841d6c27a2f70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/305c43a934e3292aef3e37fec7cc2e60de821fce",
+      "git:hexsha": "305c43a934e3292aef3e37fec7cc2e60de821fce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/d012c1b66e0934eb29d118a79302406983c491df",
+      "git:hexsha": "d012c1b66e0934eb29d118a79302406983c491df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/2ba8093a07ca11ca17b31e8888957d1c36ba1865",
+      "git:hexsha": "2ba8093a07ca11ca17b31e8888957d1c36ba1865",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e1f1b80b68b7560986bc804a79a8640711ddb1c9",
+      "git:hexsha": "e1f1b80b68b7560986bc804a79a8640711ddb1c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/b690982fae53fef4c19bed23763cd2e285297ef0",
+      "git:hexsha": "b690982fae53fef4c19bed23763cd2e285297ef0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/912022bf355694568fb74805893fbae2801937b2",
+      "git:hexsha": "912022bf355694568fb74805893fbae2801937b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/174dd1f192ee693f8b0e816e7cb9007f34210caf",
+      "git:hexsha": "174dd1f192ee693f8b0e816e7cb9007f34210caf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/93588f21384e69640083649ab8c2332538f29369",
+      "git:hexsha": "93588f21384e69640083649ab8c2332538f29369",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c85c1fb63c679881655a6a52c73cb329e9ec3bce",
+      "git:hexsha": "c85c1fb63c679881655a6a52c73cb329e9ec3bce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8b5f440458520bee29cf765ffb204f414d3a3aca",
+      "git:hexsha": "8b5f440458520bee29cf765ffb204f414d3a3aca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/f0fb48e61ab1030b97699746121866b64d43d7d6",
+      "git:hexsha": "f0fb48e61ab1030b97699746121866b64d43d7d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e682e0d0c60233bbfd4492e9104c23f37817a6b5",
+      "git:hexsha": "e682e0d0c60233bbfd4492e9104c23f37817a6b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/21f5e9dd773b93969003e10abc9263490ad23ce1",
+      "git:hexsha": "21f5e9dd773b93969003e10abc9263490ad23ce1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/41828be1ed192b151e478316124644862b472e88",
+      "git:hexsha": "41828be1ed192b151e478316124644862b472e88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e99cb9aa183142b765e623764ddcced81bbdc9f2",
+      "git:hexsha": "e99cb9aa183142b765e623764ddcced81bbdc9f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c4ab10b5972215e0e823e80b943fc89a6dcc3cc3",
+      "git:hexsha": "c4ab10b5972215e0e823e80b943fc89a6dcc3cc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/24a96168ac8355938a72fb0a5e4bbd1540edb8d7",
+      "git:hexsha": "24a96168ac8355938a72fb0a5e4bbd1540edb8d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e3285d610b78f315954c7ccd2a9d25e2d0555926",
+      "git:hexsha": "e3285d610b78f315954c7ccd2a9d25e2d0555926",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/3aebb6bca6243fd882e8cb60d01f7292f91f91af",
+      "git:hexsha": "3aebb6bca6243fd882e8cb60d01f7292f91f91af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c74099a640578e46b6f3b5799acb049d9d7ba65d",
+      "git:hexsha": "c74099a640578e46b6f3b5799acb049d9d7ba65d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/78692a9b23a7324dc047b03b5607119b45f3ab13",
+      "git:hexsha": "78692a9b23a7324dc047b03b5607119b45f3ab13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/87bd891d9d0ea4e228d7f60a1642c42647429718",
+      "git:hexsha": "87bd891d9d0ea4e228d7f60a1642c42647429718",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/1aaec736ef07989792a00495efa7555187e4f6a9",
+      "git:hexsha": "1aaec736ef07989792a00495efa7555187e4f6a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8eb416ec9af2adac56e8b69961708ec0681434cb",
+      "git:hexsha": "8eb416ec9af2adac56e8b69961708ec0681434cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/3a5ddd2594ebd59963a57f69e361b1f07092e2a9",
+      "git:hexsha": "3a5ddd2594ebd59963a57f69e361b1f07092e2a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/fc707dd819f8dd7c2b9bb513fd9da56aa2c78508",
+      "git:hexsha": "fc707dd819f8dd7c2b9bb513fd9da56aa2c78508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/522e83d52311b4f5f4d793e2f3d26f09f8be2218",
+      "git:hexsha": "522e83d52311b4f5f4d793e2f3d26f09f8be2218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/f8ae0ca79e8a4b9d41e474473b781bd18a643000",
+      "git:hexsha": "f8ae0ca79e8a4b9d41e474473b781bd18a643000",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/98a7a51804af6bf75c7d25df0a2450eadab11ebc",
+      "git:hexsha": "98a7a51804af6bf75c7d25df0a2450eadab11ebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0ee13d7f5153f3273dac555f59fa10dbad420d7e",
+      "git:hexsha": "0ee13d7f5153f3273dac555f59fa10dbad420d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/92861f8a25e0b0dcf36cde76df485a6f27cd46a7",
+      "git:hexsha": "92861f8a25e0b0dcf36cde76df485a6f27cd46a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/523d3d4275207fac76730ee24f1c03957cf467e9",
+      "git:hexsha": "523d3d4275207fac76730ee24f1c03957cf467e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7abe71d65d71ab5995711f1212b50449e095a74f",
+      "git:hexsha": "7abe71d65d71ab5995711f1212b50449e095a74f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/dda68055fc18e4d74870a5a8157331403d829f18",
+      "git:hexsha": "dda68055fc18e4d74870a5a8157331403d829f18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/b486efe82192f1eede3757a4422f5ed8b059f821",
+      "git:hexsha": "b486efe82192f1eede3757a4422f5ed8b059f821",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7754b1c2cb667ecefdb6546cbf5700f2b5f54b6f",
+      "git:hexsha": "7754b1c2cb667ecefdb6546cbf5700f2b5f54b6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/bc7fbb399abcc0efbc256650469994312cf3f884",
+      "git:hexsha": "bc7fbb399abcc0efbc256650469994312cf3f884",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/d8dfacda065e8e7f056eb1bad68ef595ceb4e51a",
+      "git:hexsha": "d8dfacda065e8e7f056eb1bad68ef595ceb4e51a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8bda9653ecdd267769d928ebfbd7a0ed995a1b04",
+      "git:hexsha": "8bda9653ecdd267769d928ebfbd7a0ed995a1b04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/ff51918357a7cfe10034889d9bda064b78e18f29",
+      "git:hexsha": "ff51918357a7cfe10034889d9bda064b78e18f29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/879b8c0898cceb8209c4c4b20503521cdb7b7665",
+      "git:hexsha": "879b8c0898cceb8209c4c4b20503521cdb7b7665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5a7f326471001fc569038163750810bd21a4d35a",
+      "git:hexsha": "5a7f326471001fc569038163750810bd21a4d35a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0ca346bb18c01c15ca41b684ceba62f6012a3560",
+      "git:hexsha": "0ca346bb18c01c15ca41b684ceba62f6012a3560",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7b50d7f84e275f6195bb95fe732e1bbcb6d21de4",
+      "git:hexsha": "7b50d7f84e275f6195bb95fe732e1bbcb6d21de4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/208ab1985e3035d294eba1bbf7953ce85f32bcab",
+      "git:hexsha": "208ab1985e3035d294eba1bbf7953ce85f32bcab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c96454f22945e76d08b6c6f000d6be9e17b032ea",
+      "git:hexsha": "c96454f22945e76d08b6c6f000d6be9e17b032ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/489451fc4d962f6716d200d5fb4f0041e1437040",
+      "git:hexsha": "489451fc4d962f6716d200d5fb4f0041e1437040",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5ed44d6c96b2c543d3e6e469d069dbf8701fac82",
+      "git:hexsha": "5ed44d6c96b2c543d3e6e469d069dbf8701fac82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7b1572bcbd9ed31298532d40c726f19897c1af98",
+      "git:hexsha": "7b1572bcbd9ed31298532d40c726f19897c1af98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/9464e82e1ceda53f83a2be1bf6777d55314b93b6",
+      "git:hexsha": "9464e82e1ceda53f83a2be1bf6777d55314b93b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/391a99ff9c7f2216dc4d888960adeb6376625b40",
+      "git:hexsha": "391a99ff9c7f2216dc4d888960adeb6376625b40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/b6ed6bba6af785d5360245fff41e0273cd9c898d",
+      "git:hexsha": "b6ed6bba6af785d5360245fff41e0273cd9c898d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/4e9868dd4b717adfae8395ee8ff518078e7f2814",
+      "git:hexsha": "4e9868dd4b717adfae8395ee8ff518078e7f2814",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0ed6be6b8b7fea1d24ee407d8f73d2d8e146802b",
+      "git:hexsha": "0ed6be6b8b7fea1d24ee407d8f73d2d8e146802b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/3c87562ebf18450d292f707c53438f440de6d94d",
+      "git:hexsha": "3c87562ebf18450d292f707c53438f440de6d94d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c9e6b0a7c9d6392014a747dddaaa9748916e9dfd",
+      "git:hexsha": "c9e6b0a7c9d6392014a747dddaaa9748916e9dfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/04b85b7c5a69f3d0cc946a554ebad0011611d164",
+      "git:hexsha": "04b85b7c5a69f3d0cc946a554ebad0011611d164",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/aa5948c69b2062d427728aca382aae63c7fb83d3",
+      "git:hexsha": "aa5948c69b2062d427728aca382aae63c7fb83d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/72fa42ba615f58f08f5a43cea8244ac7d55975c8",
+      "git:hexsha": "72fa42ba615f58f08f5a43cea8244ac7d55975c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/366644c1ba30b95e37ba5fb2437d9de5194ac6d3",
+      "git:hexsha": "366644c1ba30b95e37ba5fb2437d9de5194ac6d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/653116c85f4ed65ac9fb54c768c1e17acc2dbef1",
+      "git:hexsha": "653116c85f4ed65ac9fb54c768c1e17acc2dbef1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/4fe0ba7d040c9cda7693693edce52dfa4868c45a",
+      "git:hexsha": "4fe0ba7d040c9cda7693693edce52dfa4868c45a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/908924ede7f219e5081d592e03924c5906535b7d",
+      "git:hexsha": "908924ede7f219e5081d592e03924c5906535b7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/605a3c52c20b6deeda82138f503bc54a6e4a8ece",
+      "git:hexsha": "605a3c52c20b6deeda82138f503bc54a6e4a8ece",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/4832a0502480a63573328b359621b45383b9501f",
+      "git:hexsha": "4832a0502480a63573328b359621b45383b9501f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/3d6ddca50778af85065499252c450a213185cf74",
+      "git:hexsha": "3d6ddca50778af85065499252c450a213185cf74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/cef1da70014e20989ebf7c83c01af0c6739ad385",
+      "git:hexsha": "cef1da70014e20989ebf7c83c01af0c6739ad385",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/04ffdbcbaad141997619bd996e5dfee460341b25",
+      "git:hexsha": "04ffdbcbaad141997619bd996e5dfee460341b25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/567cf85fa6952982e687e106a8c194374eba80bf",
+      "git:hexsha": "567cf85fa6952982e687e106a8c194374eba80bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/bbe158d94b9b027f8235bf1581fb6621b12e1570",
+      "git:hexsha": "bbe158d94b9b027f8235bf1581fb6621b12e1570",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/a96496d58e8589b0aae25fccc707512c5d00f853",
+      "git:hexsha": "a96496d58e8589b0aae25fccc707512c5d00f853",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0dda84181e67016e627736d95ac656a214e15be9",
+      "git:hexsha": "0dda84181e67016e627736d95ac656a214e15be9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/1268477715aaf95d882787ea1cff670aed8c8119",
+      "git:hexsha": "1268477715aaf95d882787ea1cff670aed8c8119",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/a5449dda0914408c05260881be4867671d9a158e",
+      "git:hexsha": "a5449dda0914408c05260881be4867671d9a158e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/37e2976a0cb3b2ac175d97c301b57d090c6ceee3",
+      "git:hexsha": "37e2976a0cb3b2ac175d97c301b57d090c6ceee3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/586a1412be3aae7554d2d15625a9bd4b866b1e76",
+      "git:hexsha": "586a1412be3aae7554d2d15625a9bd4b866b1e76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/91b0ee71faa72bf5f789900e78a461dd41eaa694",
+      "git:hexsha": "91b0ee71faa72bf5f789900e78a461dd41eaa694",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/06a685fce9b2d113895a414a64da670eaf9d3c5e",
+      "git:hexsha": "06a685fce9b2d113895a414a64da670eaf9d3c5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/42207af36ab9a07a071d104505f94ad99630ad80",
+      "git:hexsha": "42207af36ab9a07a071d104505f94ad99630ad80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/4e1994af951266467585b4fead84ecd5afca5c53",
+      "git:hexsha": "4e1994af951266467585b4fead84ecd5afca5c53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8248cda64d1f0af41d02b1e36733d530c883338c",
+      "git:hexsha": "8248cda64d1f0af41d02b1e36733d530c883338c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/606573451d495dc8f6b0001209fa60e61fb9e8a9",
+      "git:hexsha": "606573451d495dc8f6b0001209fa60e61fb9e8a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e9e926fca9c8ba388b5a140bc3f4c13a3dc76ddb",
+      "git:hexsha": "e9e926fca9c8ba388b5a140bc3f4c13a3dc76ddb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/469585421805f5d9ef26e1daad5e9f0385532d59",
+      "git:hexsha": "469585421805f5d9ef26e1daad5e9f0385532d59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0fa30f30d0bbb081edb73e0599274765566e8552",
+      "git:hexsha": "0fa30f30d0bbb081edb73e0599274765566e8552",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e12ea609e9e1ead691265b75daec20e2aecfc7fc",
+      "git:hexsha": "e12ea609e9e1ead691265b75daec20e2aecfc7fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/ff3de7cc85f56b2a4961db1dbd278c9228b7ef0e",
+      "git:hexsha": "ff3de7cc85f56b2a4961db1dbd278c9228b7ef0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/36827ca17c483e130986172bf8f0d28b5bde16cd",
+      "git:hexsha": "36827ca17c483e130986172bf8f0d28b5bde16cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0262eaaea0cb5c49c26c24364f80b94e1c1d8c57",
+      "git:hexsha": "0262eaaea0cb5c49c26c24364f80b94e1c1d8c57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/3764128112d282387f451944e41a42db13415522",
+      "git:hexsha": "3764128112d282387f451944e41a42db13415522",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/0e287e903d3439b1b308aaee724b10e3fdc9fd75",
+      "git:hexsha": "0e287e903d3439b1b308aaee724b10e3fdc9fd75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5ec2927f332708c76103bf199d05094c8a92badf",
+      "git:hexsha": "5ec2927f332708c76103bf199d05094c8a92badf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/383d56489df7a670a20f9df6f4fc737f8ed80ee1",
+      "git:hexsha": "383d56489df7a670a20f9df6f4fc737f8ed80ee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8daaa42a6bd62197d11beae0e7d1139412816a14",
+      "git:hexsha": "8daaa42a6bd62197d11beae0e7d1139412816a14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/fe0bd33ee61bb59478310de013a71e9746268a00",
+      "git:hexsha": "fe0bd33ee61bb59478310de013a71e9746268a00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c07a906ed52f131bcdda67d84e493390c614b3ae",
+      "git:hexsha": "c07a906ed52f131bcdda67d84e493390c614b3ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/038c61bc6c5257e588769fdabb6c3b0af160fc9f",
+      "git:hexsha": "038c61bc6c5257e588769fdabb6c3b0af160fc9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5e5b0cfd9304e4aa0685420888130fc09dd030e8",
+      "git:hexsha": "5e5b0cfd9304e4aa0685420888130fc09dd030e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/07ca1d64d6b4d4cc29dd6a608502e96e58bb2a18",
+      "git:hexsha": "07ca1d64d6b4d4cc29dd6a608502e96e58bb2a18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/9029a41d0ef2cf16d274752c37f051938b7aac38",
+      "git:hexsha": "9029a41d0ef2cf16d274752c37f051938b7aac38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7f74dbdefd5dc28e5ea8669bde1ad111982b2567",
+      "git:hexsha": "7f74dbdefd5dc28e5ea8669bde1ad111982b2567",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/6971ecb759b86abd5ebd2b6914f0b30435697d96",
+      "git:hexsha": "6971ecb759b86abd5ebd2b6914f0b30435697d96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/81d62ed96d96052c98604634345b590fb9d0d133",
+      "git:hexsha": "81d62ed96d96052c98604634345b590fb9d0d133",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8d7ed25c722f4990d3738d775b676a1ed447d6b8",
+      "git:hexsha": "8d7ed25c722f4990d3738d775b676a1ed447d6b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/bfb4150800117d903543ee57f2b2fa44368a46b8",
+      "git:hexsha": "bfb4150800117d903543ee57f2b2fa44368a46b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/e4570aaddfb9d7b44266f4cf5c3beeaed34f1887",
+      "git:hexsha": "e4570aaddfb9d7b44266f4cf5c3beeaed34f1887",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/f2ba6ebd704964f88ea0d2571d195c1dc0331a55",
+      "git:hexsha": "f2ba6ebd704964f88ea0d2571d195c1dc0331a55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/11904829b6a835073168127f5f3e0966230b44d2",
+      "git:hexsha": "11904829b6a835073168127f5f3e0966230b44d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/b299575f89d478bd57cfc588901e1bf87a20927d",
+      "git:hexsha": "b299575f89d478bd57cfc588901e1bf87a20927d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/7ef650c3c6b8936f244d826444be136561883dc8",
+      "git:hexsha": "7ef650c3c6b8936f244d826444be136561883dc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/f436ccc6b55b33381a295ded753e467953cf4379",
+      "git:hexsha": "f436ccc6b55b33381a295ded753e467953cf4379",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/50a6b97874528563611efbdd6fe19e46da56fbe7",
+      "git:hexsha": "50a6b97874528563611efbdd6fe19e46da56fbe7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/72730217effb4a4872e82efbc1af9b675c7161aa",
+      "git:hexsha": "72730217effb4a4872e82efbc1af9b675c7161aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8f600e624117a9c48f5a7d6a452822a6a393f3af",
+      "git:hexsha": "8f600e624117a9c48f5a7d6a452822a6a393f3af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/85f5ee4ad6da0b73c734b9fd26f33b45f4715cd3",
+      "git:hexsha": "85f5ee4ad6da0b73c734b9fd26f33b45f4715cd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/81edcf151f03055e327f18ba1fbcec025587cba5",
+      "git:hexsha": "81edcf151f03055e327f18ba1fbcec025587cba5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/52a5f3a8f69db6f9ca4a8cfc7330e2cd2c3cfbea",
+      "git:hexsha": "52a5f3a8f69db6f9ca4a8cfc7330e2cd2c3cfbea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/973bb58a45ab088a3f143d044a4c7af09f88ef05",
+      "git:hexsha": "973bb58a45ab088a3f143d044a4c7af09f88ef05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/878eaf15103d062a6f58bed3cefe0ec1a6b10575",
+      "git:hexsha": "878eaf15103d062a6f58bed3cefe0ec1a6b10575",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/8212a96acfdcdd0b550740aa56473b0761dfa19f",
+      "git:hexsha": "8212a96acfdcdd0b550740aa56473b0761dfa19f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/1f499051c604823bcbf0ded660b89cbb578674bc",
+      "git:hexsha": "1f499051c604823bcbf0ded660b89cbb578674bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/5ac10c86537971be3d996187fa4b0202796db59a",
+      "git:hexsha": "5ac10c86537971be3d996187fa4b0202796db59a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c3651942da99a35eb8cc308dda58cf90e951da2c",
+      "git:hexsha": "c3651942da99a35eb8cc308dda58cf90e951da2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/f67d6b44769008b83ce2ec907150fbfca2525c21",
+      "git:hexsha": "f67d6b44769008b83ce2ec907150fbfca2525c21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/251824e6fed87ff3bb51bb005ec4e54aa1c0da6f",
+      "git:hexsha": "251824e6fed87ff3bb51bb005ec4e54aa1c0da6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/770b4d0433a9baa2ea050ec1ab904c7467cc8341",
+      "git:hexsha": "770b4d0433a9baa2ea050ec1ab904c7467cc8341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/1f73399c8ceff8a4db28b55322eb3dd530ab2df8",
+      "git:hexsha": "1f73399c8ceff8a4db28b55322eb3dd530ab2df8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/2c7f00f781e79208784edae663f29d00106c836d",
+      "git:hexsha": "2c7f00f781e79208784edae663f29d00106c836d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/ead7fafacf51800af4ffca9af48df0f3d4317e23",
+      "git:hexsha": "ead7fafacf51800af4ffca9af48df0f3d4317e23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/c71d399b9eb7334ffc608c3a162e85b093163f9e",
+      "git:hexsha": "c71d399b9eb7334ffc608c3a162e85b093163f9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/2fd77b7b9cd3601adb34104a22bbbbfea7f195cf",
+      "git:hexsha": "2fd77b7b9cd3601adb34104a22bbbbfea7f195cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/723e11c7b172fc57cc32356756c69ac5f8b31716",
+      "git:hexsha": "723e11c7b172fc57cc32356756c69ac5f8b31716",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/227ddc94eb73638d423833075b1af2ac6bb308f7",
+      "git:hexsha": "227ddc94eb73638d423833075b1af2ac6bb308f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/10e55b1a3572456bf197ca6bf1b9207473411cc4",
+      "git:hexsha": "10e55b1a3572456bf197ca6bf1b9207473411cc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/klen/pylama/commit/aafeb6619bf629200884b82cc62f6b4bd755bbdb",
+      "git:hexsha": "aafeb6619bf629200884b82cc62f6b4bd755bbdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.4.0"
+    }
+  ]
+}
