@@ -1,0 +1,585 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/jaraco/jaraco.util",
+  "@type": "gh:Repository",
+  "gh:name": "jaraco.util",
+  "gh:owner": "jaraco",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/efe3cd1591b17d7029a690e78da218472d04695e",
+      "git:hexsha": "efe3cd1591b17d7029a690e78da218472d04695e",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-20T11:25:34.507627+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/d21b93f71af02e83c8ff7aea8ceed584df3f912f",
+      "git:hexsha": "d21b93f71af02e83c8ff7aea8ceed584df3f912f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/ebbce7801e303d10c2b308ebebdb47d1e8175e9c",
+      "git:hexsha": "ebbce7801e303d10c2b308ebebdb47d1e8175e9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/eb7147f58ca36f8cab7c2c58558228e559e2e541",
+      "git:hexsha": "eb7147f58ca36f8cab7c2c58558228e559e2e541",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/b0c50b2fb7bf7453e10bf62ad82142a647a458e9",
+      "git:hexsha": "b0c50b2fb7bf7453e10bf62ad82142a647a458e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/6a99648c6f3c7c682df1610358522719a484c9a3",
+      "git:hexsha": "6a99648c6f3c7c682df1610358522719a484c9a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/11d5c0cf6bead1e0ff9c1298f356bd7bcdedac45",
+      "git:hexsha": "11d5c0cf6bead1e0ff9c1298f356bd7bcdedac45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/24ce38c6da1a034a12a0b6fdd3a249413f53ff5b",
+      "git:hexsha": "24ce38c6da1a034a12a0b6fdd3a249413f53ff5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/ee3f8fdc01ec13090d534eb0cfd680ab27d0eb80",
+      "git:hexsha": "ee3f8fdc01ec13090d534eb0cfd680ab27d0eb80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/627eedfd57e5158d310bce1e2a45e54044415bdf",
+      "git:hexsha": "627eedfd57e5158d310bce1e2a45e54044415bdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/1a119a08fd9f579060488f498065d548f4dc1c8e",
+      "git:hexsha": "1a119a08fd9f579060488f498065d548f4dc1c8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/9376c8d2a41d672e7b7b811b0b4d0ec4e7743214",
+      "git:hexsha": "9376c8d2a41d672e7b7b811b0b4d0ec4e7743214",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/dad4467e04c19cdeca60feb667057f56f61dc18b",
+      "git:hexsha": "dad4467e04c19cdeca60feb667057f56f61dc18b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/e13654d796ca3346a177685d8c7e5ce9c0a85fab",
+      "git:hexsha": "e13654d796ca3346a177685d8c7e5ce9c0a85fab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/62c8ac1b15ab947603f12a5dc57181e224fbdf7b",
+      "git:hexsha": "62c8ac1b15ab947603f12a5dc57181e224fbdf7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/87aa621b05011ddca3e15795376465de2aee351c",
+      "git:hexsha": "87aa621b05011ddca3e15795376465de2aee351c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/adc1223e612fc663c7c4431aa2787e1e237151a0",
+      "git:hexsha": "adc1223e612fc663c7c4431aa2787e1e237151a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/fde484907963292ff693fc528e859a0dbea2507c",
+      "git:hexsha": "fde484907963292ff693fc528e859a0dbea2507c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/4500a3408edd9fb2d73572e67e0389c2bf5c23a9",
+      "git:hexsha": "4500a3408edd9fb2d73572e67e0389c2bf5c23a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/e00b92f17130d3bedc3a88e324eeabcf440e84ff",
+      "git:hexsha": "e00b92f17130d3bedc3a88e324eeabcf440e84ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "10.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/2442ff46f2fe5f8374db023a521e10170b58fb17",
+      "git:hexsha": "2442ff46f2fe5f8374db023a521e10170b58fb17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/66df625897e9abbc33bd2b88f83cb44f553bfc49",
+      "git:hexsha": "66df625897e9abbc33bd2b88f83cb44f553bfc49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/f21071c64f165a5cf844db15e39356e1a47f4b02",
+      "git:hexsha": "f21071c64f165a5cf844db15e39356e1a47f4b02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/d14caf083ed6ef7a5cb9bbf0a9f171c95a935c0d",
+      "git:hexsha": "d14caf083ed6ef7a5cb9bbf0a9f171c95a935c0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/b52885054a2273447d1f26878aeafa5651931b32",
+      "git:hexsha": "b52885054a2273447d1f26878aeafa5651931b32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/2e8c0c47014bb4bdc232aa70c0026c3d5d40f4fb",
+      "git:hexsha": "2e8c0c47014bb4bdc232aa70c0026c3d5d40f4fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/9f26e10bbf6dd60ecdeee10e7ad498b3d88187c1",
+      "git:hexsha": "9f26e10bbf6dd60ecdeee10e7ad498b3d88187c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/c9d28126bf06df388ab51afc620a677179b98cc9",
+      "git:hexsha": "c9d28126bf06df388ab51afc620a677179b98cc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/5787d323b499af6ef3d2c37d8c5b378591de8b9a",
+      "git:hexsha": "5787d323b499af6ef3d2c37d8c5b378591de8b9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/c5a1b205a4f3dc343177c2db5e1357a8dbcda14f",
+      "git:hexsha": "c5a1b205a4f3dc343177c2db5e1357a8dbcda14f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/4cd60b77be1caabaa1bbbc20fba0822cd9cd27f4",
+      "git:hexsha": "4cd60b77be1caabaa1bbbc20fba0822cd9cd27f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/5fad5212ccbfa2bd12a870cbee395bc53ec29f32",
+      "git:hexsha": "5fad5212ccbfa2bd12a870cbee395bc53ec29f32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/1f8d7247d42e15bd8bb74647031592500a1038f4",
+      "git:hexsha": "1f8d7247d42e15bd8bb74647031592500a1038f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/29eb6695d77e0f62fbfc885a4b5038a183a8c1b5",
+      "git:hexsha": "29eb6695d77e0f62fbfc885a4b5038a183a8c1b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/18919ffc12b12b1890a946ff9656b046b3ce62a2",
+      "git:hexsha": "18919ffc12b12b1890a946ff9656b046b3ce62a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/9f615a30d41fcaf04219e1ece204c129c34f5a5a",
+      "git:hexsha": "9f615a30d41fcaf04219e1ece204c129c34f5a5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/d2338bd8f0997cc239feba83c66092d4387fa469",
+      "git:hexsha": "d2338bd8f0997cc239feba83c66092d4387fa469",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/fb6bb1fe67aa98771f30cafa0f7dde6b26592a97",
+      "git:hexsha": "fb6bb1fe67aa98771f30cafa0f7dde6b26592a97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/ef42917cef6c3eb7993939c02951f3340c80fe80",
+      "git:hexsha": "ef42917cef6c3eb7993939c02951f3340c80fe80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/2b301ad2d35d719798dc985fc0e8de65ce3a355c",
+      "git:hexsha": "2b301ad2d35d719798dc985fc0e8de65ce3a355c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/7ec82461c4a406c395c79ee23772a9f4d5ef38b9",
+      "git:hexsha": "7ec82461c4a406c395c79ee23772a9f4d5ef38b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/e664d35c61f03fd07e733816f814e0385ac981ae",
+      "git:hexsha": "e664d35c61f03fd07e733816f814e0385ac981ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/7ef2aef76fe87377e7690922ddcb457beed3ab03",
+      "git:hexsha": "7ef2aef76fe87377e7690922ddcb457beed3ab03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/92aff8aec47ab29653ee6a1704e4921968e3c061",
+      "git:hexsha": "92aff8aec47ab29653ee6a1704e4921968e3c061",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/b9d32e2f1b740ab93cf02a8a8d9e10c61a7fda18",
+      "git:hexsha": "b9d32e2f1b740ab93cf02a8a8d9e10c61a7fda18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/8527005f115bd3f89112755531c48cf4b359a621",
+      "git:hexsha": "8527005f115bd3f89112755531c48cf4b359a621",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/40f921a952ea225528d294160901bf2a9715a10f",
+      "git:hexsha": "40f921a952ea225528d294160901bf2a9715a10f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/07f0306af038dc5a86646393a8679e11488e6a1f",
+      "git:hexsha": "07f0306af038dc5a86646393a8679e11488e6a1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/fd7f9957e7c2ef6afd22b135ccf9859888b3ab2b",
+      "git:hexsha": "fd7f9957e7c2ef6afd22b135ccf9859888b3ab2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/2e408247a224c39ca2846c5036c129f0aebb9f81",
+      "git:hexsha": "2e408247a224c39ca2846c5036c129f0aebb9f81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/6758fe11e2da46d87dd7c18f66ecc2bd07899d7b",
+      "git:hexsha": "6758fe11e2da46d87dd7c18f66ecc2bd07899d7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/c820ce34331842b97606e616a03600d4453d6260",
+      "git:hexsha": "c820ce34331842b97606e616a03600d4453d6260",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/acf79fbcf7be70da291c75ee41d0312ec582ce4a",
+      "git:hexsha": "acf79fbcf7be70da291c75ee41d0312ec582ce4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/123e35cc67c5ca363eb2bcd50a52e683492469d0",
+      "git:hexsha": "123e35cc67c5ca363eb2bcd50a52e683492469d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/4bf33615b1747f93222eef9fcf67d7e29c2cf1c6",
+      "git:hexsha": "4bf33615b1747f93222eef9fcf67d7e29c2cf1c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/04e88867401539317402231f9bd0a9aa8701603f",
+      "git:hexsha": "04e88867401539317402231f9bd0a9aa8701603f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/92765a8cb6a1b5a63cb8bbfd098098b25f7e7ab8",
+      "git:hexsha": "92765a8cb6a1b5a63cb8bbfd098098b25f7e7ab8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/a0bb0aa88837348f720d0631d50750931345a675",
+      "git:hexsha": "a0bb0aa88837348f720d0631d50750931345a675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/93f53ad0580bf5e4da0771f4d9aa0f9321b63a33",
+      "git:hexsha": "93f53ad0580bf5e4da0771f4d9aa0f9321b63a33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/623129cc03fc29a7fca422bf70d14227150c445e",
+      "git:hexsha": "623129cc03fc29a7fca422bf70d14227150c445e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/46e8c3217e72036912c49ec0ee4a6121aa296af3",
+      "git:hexsha": "46e8c3217e72036912c49ec0ee4a6121aa296af3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/085c5b107e6914ff9b8812fb647bfdee9202ddd3",
+      "git:hexsha": "085c5b107e6914ff9b8812fb647bfdee9202ddd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/7c8d9d721b8f2861ed4eacb35a414291e4328934",
+      "git:hexsha": "7c8d9d721b8f2861ed4eacb35a414291e4328934",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/f714b0a36da56a38e37d0974efca97356b018c2c",
+      "git:hexsha": "f714b0a36da56a38e37d0974efca97356b018c2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/6608eca735e8d2ab48ec5abc4c3a81b915ec1cbf",
+      "git:hexsha": "6608eca735e8d2ab48ec5abc4c3a81b915ec1cbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/5c4e238e04d1138a387a7d9c3f5e00436f99b6c1",
+      "git:hexsha": "5c4e238e04d1138a387a7d9c3f5e00436f99b6c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/ae8d18615024120a0855dfb9f2b02d8d8f6b512e",
+      "git:hexsha": "ae8d18615024120a0855dfb9f2b02d8d8f6b512e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/de1c33502d6db9daade05e563a6ec31529b239b6",
+      "git:hexsha": "de1c33502d6db9daade05e563a6ec31529b239b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/a016c334de59b9e6c4b3ab7ffc7cf7424053a33e",
+      "git:hexsha": "a016c334de59b9e6c4b3ab7ffc7cf7424053a33e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/3f20ab7da9265681db6e23baea70fb0bf56e4c34",
+      "git:hexsha": "3f20ab7da9265681db6e23baea70fb0bf56e4c34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/a3ab1eb993322dec1804f562df52652212e11dcb",
+      "git:hexsha": "a3ab1eb993322dec1804f562df52652212e11dcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/b65a965590b8f993d1c864ca2743b401d53ebaa6",
+      "git:hexsha": "b65a965590b8f993d1c864ca2743b401d53ebaa6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/f94faf02726b4edd9e7db4c610e06cd69f8f8c8b",
+      "git:hexsha": "f94faf02726b4edd9e7db4c610e06cd69f8f8c8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/8b9810c27b1e1cb79b4be2157ed0a07afb6987c2",
+      "git:hexsha": "8b9810c27b1e1cb79b4be2157ed0a07afb6987c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/25a696d7a9d04b715ad9be4d1e995f4d57d85040",
+      "git:hexsha": "25a696d7a9d04b715ad9be4d1e995f4d57d85040",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/5e5e876b79815560310c00c9e333b4ddc7892fde",
+      "git:hexsha": "5e5e876b79815560310c00c9e333b4ddc7892fde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/f6083b53018f009ce2b28140920a2730a77ffcb8",
+      "git:hexsha": "f6083b53018f009ce2b28140920a2730a77ffcb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/75fe998e1c5e12650c0b2c4a83c9e61ba0df79a1",
+      "git:hexsha": "75fe998e1c5e12650c0b2c4a83c9e61ba0df79a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/e4d591226cfddf9823ce630017a52128074a7366",
+      "git:hexsha": "e4d591226cfddf9823ce630017a52128074a7366",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/3a0f4a94b7db3e238cd2c4263d6587825d4c5039",
+      "git:hexsha": "3a0f4a94b7db3e238cd2c4263d6587825d4c5039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/7b3c246220fbb4813baac59eb1da76e4a3c0a2d9",
+      "git:hexsha": "7b3c246220fbb4813baac59eb1da76e4a3c0a2d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/8b1dc78a329f8f49dfddaef762ba614ce9018c32",
+      "git:hexsha": "8b1dc78a329f8f49dfddaef762ba614ce9018c32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/dff6444502e09475028ebb668c42c6f5ea1615b3",
+      "git:hexsha": "dff6444502e09475028ebb668c42c6f5ea1615b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/ff03c315145906e73d224fea800a53b27a536102",
+      "git:hexsha": "ff03c315145906e73d224fea800a53b27a536102",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/56d3e4d169296441388247428dc373f4863bf093",
+      "git:hexsha": "56d3e4d169296441388247428dc373f4863bf093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/37b8b4cc07004082d5343bf98ecda76af4a62741",
+      "git:hexsha": "37b8b4cc07004082d5343bf98ecda76af4a62741",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/3e0dffb0df1d74b772c0489a8b3ceef67b601574",
+      "git:hexsha": "3e0dffb0df1d74b772c0489a8b3ceef67b601574",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/b6d2fb0f43496f62b605271d4a2ca92df99d7d0c",
+      "git:hexsha": "b6d2fb0f43496f62b605271d4a2ca92df99d7d0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/eb08a431db8e813dc41eec8d45452f8930f89dce",
+      "git:hexsha": "eb08a431db8e813dc41eec8d45452f8930f89dce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/907bc8c0d8c1235b431dff0bea3a2dce422d3953",
+      "git:hexsha": "907bc8c0d8c1235b431dff0bea3a2dce422d3953",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/3d1ec7afb91e73be83a55a0e2e8dcc862bc40210",
+      "git:hexsha": "3d1ec7afb91e73be83a55a0e2e8dcc862bc40210",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "9.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/6c71a9a1c9ad23fc28820efc3b1a97c8dba9563d",
+      "git:hexsha": "6c71a9a1c9ad23fc28820efc3b1a97c8dba9563d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v14.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/b8bd66e5ce186cf3c9ccb0873e4ccbc2ea3628ef",
+      "git:hexsha": "b8bd66e5ce186cf3c9ccb0873e4ccbc2ea3628ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v14.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/d18aecbfb82a637fe1293f95de0043b457dc7c02",
+      "git:hexsha": "d18aecbfb82a637fe1293f95de0043b457dc7c02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v14.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/0731f676e9a35b394082ca06c7c5a5bba7d00a39",
+      "git:hexsha": "0731f676e9a35b394082ca06c7c5a5bba7d00a39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v14.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.util/commit/9fa377af6914f76ef594ffb20b5ce9762d6b50db",
+      "git:hexsha": "9fa377af6914f76ef594ffb20b5ce9762d6b50db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v15.0.0"
+    }
+  ]
+}
