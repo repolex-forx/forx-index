@@ -1,0 +1,1401 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder",
+  "@type": "gh:Repository",
+  "gh:name": "mypy_boto3_builder",
+  "gh:owner": "youtype",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d6226a0121fa2e887ce6a19bbf1341c03d69d280",
+      "git:hexsha": "d6226a0121fa2e887ce6a19bbf1341c03d69d280",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T03:15:35.582495+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7fe1e7ad88c3745589490f45e7a48003cabf78d8",
+      "git:hexsha": "7fe1e7ad88c3745589490f45e7a48003cabf78d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0-pre4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d7490a07ca50e60a9bd0a4ceb9a5532b6862c4fb",
+      "git:hexsha": "d7490a07ca50e60a9bd0a4ceb9a5532b6862c4fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3013f420228075011e4b886659590f4c168c077a",
+      "git:hexsha": "3013f420228075011e4b886659590f4c168c077a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0-pre2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/41187c4823b45e6d873482326d8b6286be8a4172",
+      "git:hexsha": "41187c4823b45e6d873482326d8b6286be8a4172",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0-pre3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/777bbabd80696e4d52025a6b1a341bf245faaefc",
+      "git:hexsha": "777bbabd80696e4d52025a6b1a341bf245faaefc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0-pre5"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5eb5b908c072d25aff5b39a62c57a9f7036d7d5e",
+      "git:hexsha": "5eb5b908c072d25aff5b39a62c57a9f7036d7d5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/2f425cce8135edf37db2eb12809c2e875438aacd",
+      "git:hexsha": "2f425cce8135edf37db2eb12809c2e875438aacd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6a4c128fe3d90d73ff5e108945dcc191fc5822a7",
+      "git:hexsha": "6a4c128fe3d90d73ff5e108945dcc191fc5822a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/00c12a8a350d12b2c1aa73c6329c3cbcb442e96e",
+      "git:hexsha": "00c12a8a350d12b2c1aa73c6329c3cbcb442e96e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7f2858777a83fd324559ffb3656d54cb3e99fe7d",
+      "git:hexsha": "7f2858777a83fd324559ffb3656d54cb3e99fe7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3aaf0fbdcb751129550e29d39973ba4711957058",
+      "git:hexsha": "3aaf0fbdcb751129550e29d39973ba4711957058",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3-release"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d69f2059bebc7697b327d7a28fba27eba53e7ed7",
+      "git:hexsha": "d69f2059bebc7697b327d7a28fba27eba53e7ed7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6734e0316a4c4011ce7a70ea69396c1cc223deeb",
+      "git:hexsha": "6734e0316a4c4011ce7a70ea69396c1cc223deeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4-release"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6a83adb50efe551cb528943b23454795f7d99c58",
+      "git:hexsha": "6a83adb50efe551cb528943b23454795f7d99c58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/41135769535bc2dbfbb069e2f947cb0aac062045",
+      "git:hexsha": "41135769535bc2dbfbb069e2f947cb0aac062045",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5-release"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5c834df27409d6d02cb19828563661a920008f17",
+      "git:hexsha": "5c834df27409d6d02cb19828563661a920008f17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/dbd88223d8f9ccb75effc3078c51e613b3a3e858",
+      "git:hexsha": "dbd88223d8f9ccb75effc3078c51e613b3a3e858",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.6-release"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/81141dd84bc6f7e30e562232b0ed582b2db3bb2f",
+      "git:hexsha": "81141dd84bc6f7e30e562232b0ed582b2db3bb2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e015c7a8f897a3f41a5c9e7cab0da9fe4e355776",
+      "git:hexsha": "e015c7a8f897a3f41a5c9e7cab0da9fe4e355776",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b115ee120570f4e99009111b81c1877723dd7f1b",
+      "git:hexsha": "b115ee120570f4e99009111b81c1877723dd7f1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7c0d573349834e22f6b1d15910ad3a4b997650f7",
+      "git:hexsha": "7c0d573349834e22f6b1d15910ad3a4b997650f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1ec25dce02a4138778499e62c4430fbbc764bf6f",
+      "git:hexsha": "1ec25dce02a4138778499e62c4430fbbc764bf6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/292643e4a01499796fa079ba1d4a6bbfa61c7b9e",
+      "git:hexsha": "292643e4a01499796fa079ba1d4a6bbfa61c7b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/f90efe11329efcea4cd59a12f551180cd24dd4bc",
+      "git:hexsha": "f90efe11329efcea4cd59a12f551180cd24dd4bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7a023de74f49dd0edcb8dd8fb52ab85fa73d38cf",
+      "git:hexsha": "7a023de74f49dd0edcb8dd8fb52ab85fa73d38cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1745bef549c16ad47cbfffdd883e7089a10ab9d8",
+      "git:hexsha": "1745bef549c16ad47cbfffdd883e7089a10ab9d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6ff4ef3ae292e2bdfe562c53a3cb01650d1fde86",
+      "git:hexsha": "6ff4ef3ae292e2bdfe562c53a3cb01650d1fde86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/9da6ad1237e3d706e9c574fd2f3533dc1cecdb5d",
+      "git:hexsha": "9da6ad1237e3d706e9c574fd2f3533dc1cecdb5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/cf79c09282f4824e908d806d1fa065e93cebca73",
+      "git:hexsha": "cf79c09282f4824e908d806d1fa065e93cebca73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/bd5e0fb9c3329dbe07f89f799190776962a196b1",
+      "git:hexsha": "bd5e0fb9c3329dbe07f89f799190776962a196b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1f8c8b833eeb8c772e574c541815d8a9f9e3a825",
+      "git:hexsha": "1f8c8b833eeb8c772e574c541815d8a9f9e3a825",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e5bbc08c07bbd1f6f929445d0bff518263b9ec8c",
+      "git:hexsha": "e5bbc08c07bbd1f6f929445d0bff518263b9ec8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4c3454fa3674e6fedb3ff76bf76d4bc120d93587",
+      "git:hexsha": "4c3454fa3674e6fedb3ff76bf76d4bc120d93587",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/17fcec65bf400de61b22bcc5fd09d235a25bfb07",
+      "git:hexsha": "17fcec65bf400de61b22bcc5fd09d235a25bfb07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/257c89ee426721d6c642731c6c417209eb469798",
+      "git:hexsha": "257c89ee426721d6c642731c6c417209eb469798",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/56fae285cdebebbe94e4d007d84b7bb6ffad03c9",
+      "git:hexsha": "56fae285cdebebbe94e4d007d84b7bb6ffad03c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/016a0b757318363323c861d6c33514b42b39cb86",
+      "git:hexsha": "016a0b757318363323c861d6c33514b42b39cb86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/cf380fbc9bd9f32f35603d1a773781ef46fa44a2",
+      "git:hexsha": "cf380fbc9bd9f32f35603d1a773781ef46fa44a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d854c218d9a1a54552f5e4ce22aadd3b22bc87c8",
+      "git:hexsha": "d854c218d9a1a54552f5e4ce22aadd3b22bc87c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4c5d99aca5cd97df674054be23732acaab0e54fc",
+      "git:hexsha": "4c5d99aca5cd97df674054be23732acaab0e54fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/10fe31f34753a138276fb46c47a2e7eb8e336620",
+      "git:hexsha": "10fe31f34753a138276fb46c47a2e7eb8e336620",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d95933b1745e2d0bc0a526441091f691af897514",
+      "git:hexsha": "d95933b1745e2d0bc0a526441091f691af897514",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/606e5df1d2d8fe22c061b04fef090f51d0b5a7a7",
+      "git:hexsha": "606e5df1d2d8fe22c061b04fef090f51d0b5a7a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/05bd4be1b1ca4bdac3e2d89ea56a30c73936fab2",
+      "git:hexsha": "05bd4be1b1ca4bdac3e2d89ea56a30c73936fab2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7cf6d4a49d4d0e8119075142fc80efdc7f8af540",
+      "git:hexsha": "7cf6d4a49d4d0e8119075142fc80efdc7f8af540",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0f3fec81aabdf13d627a83cfa8bbdd9792cd01eb",
+      "git:hexsha": "0f3fec81aabdf13d627a83cfa8bbdd9792cd01eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/f2bba5f783b03aa9dff8848014a419ab84683bb7",
+      "git:hexsha": "f2bba5f783b03aa9dff8848014a419ab84683bb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/42f2979c9c34bcf8410d1da62210063a53608f8f",
+      "git:hexsha": "42f2979c9c34bcf8410d1da62210063a53608f8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ed8c09637921d364e2474cb28e3996d949d34d11",
+      "git:hexsha": "ed8c09637921d364e2474cb28e3996d949d34d11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/021b9a5356f56d93035c87af6302a92b56d6db8a",
+      "git:hexsha": "021b9a5356f56d93035c87af6302a92b56d6db8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6f1ef2fd0aa64c39654ac27e20bbcb220a21538e",
+      "git:hexsha": "6f1ef2fd0aa64c39654ac27e20bbcb220a21538e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0922ebbaf3aebabd61f64618090935a3b3f50dd3",
+      "git:hexsha": "0922ebbaf3aebabd61f64618090935a3b3f50dd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d4ec43a249867613be91ccac296dc03637b6b28c",
+      "git:hexsha": "d4ec43a249867613be91ccac296dc03637b6b28c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/023ef2c56ab6b0e4bbc9fc38af7478fa3c4a06af",
+      "git:hexsha": "023ef2c56ab6b0e4bbc9fc38af7478fa3c4a06af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7a57dff3f5b2938f17aef3d81cb06d08286fa410",
+      "git:hexsha": "7a57dff3f5b2938f17aef3d81cb06d08286fa410",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3be2f24a5226690d95e4a1417335e386898d9e73",
+      "git:hexsha": "3be2f24a5226690d95e4a1417335e386898d9e73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3c1e22916578d819781ba043e8092a747f874c1f",
+      "git:hexsha": "3c1e22916578d819781ba043e8092a747f874c1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a1b1cb2f1f0d09750433c9bcf7c2019a0c337d25",
+      "git:hexsha": "a1b1cb2f1f0d09750433c9bcf7c2019a0c337d25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/958d49fa8e694480b1ef4720da5ddba9f6c47e45",
+      "git:hexsha": "958d49fa8e694480b1ef4720da5ddba9f6c47e45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/79b070181fb412825c97bed8c4cd46fa63e27cb7",
+      "git:hexsha": "79b070181fb412825c97bed8c4cd46fa63e27cb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a38a2bb0e6fa69323c2cffa5e2527cfce8276808",
+      "git:hexsha": "a38a2bb0e6fa69323c2cffa5e2527cfce8276808",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/f585a009a478cc73ef3720cff10e570da53b75ce",
+      "git:hexsha": "f585a009a478cc73ef3720cff10e570da53b75ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.18.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1b652557f690fe76e40da3f3fae07dc3bce9e693",
+      "git:hexsha": "1b652557f690fe76e40da3f3fae07dc3bce9e693",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.18.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/03b180d627b1ecbd3ec187934fc75a6c556d7e4a",
+      "git:hexsha": "03b180d627b1ecbd3ec187934fc75a6c556d7e4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8ea127c6ea737aba11de5d922ccd60500571bf98",
+      "git:hexsha": "8ea127c6ea737aba11de5d922ccd60500571bf98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1d8bf0ddc90642a8c1e1533e2260fe12dc7b77c8",
+      "git:hexsha": "1d8bf0ddc90642a8c1e1533e2260fe12dc7b77c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1306ceed14e08744d2f3bc78078e1560bdc40bd0",
+      "git:hexsha": "1306ceed14e08744d2f3bc78078e1560bdc40bd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4a569ed239670c95df19aca7027aceca63bed147",
+      "git:hexsha": "4a569ed239670c95df19aca7027aceca63bed147",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8e9bbd3b157e6944fd0b39f8b860b4fc8d2176dc",
+      "git:hexsha": "8e9bbd3b157e6944fd0b39f8b860b4fc8d2176dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8cb12591378eeea41d399de987b5ae2e3fdf023e",
+      "git:hexsha": "8cb12591378eeea41d399de987b5ae2e3fdf023e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5573b0023710153d42020b23de7303a003a05e4c",
+      "git:hexsha": "5573b0023710153d42020b23de7303a003a05e4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/13a370bfb640e45d697ec466802ca5b1ecfb247c",
+      "git:hexsha": "13a370bfb640e45d697ec466802ca5b1ecfb247c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/89162f027ca3f5ef136a426399eb30b30080c16c",
+      "git:hexsha": "89162f027ca3f5ef136a426399eb30b30080c16c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/efa486471ede85ad5e6b62dc6e4537741ce80299",
+      "git:hexsha": "efa486471ede85ad5e6b62dc6e4537741ce80299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1675fdd66ed8b9e211fc5ea4442d405628e7403f",
+      "git:hexsha": "1675fdd66ed8b9e211fc5ea4442d405628e7403f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3dd9d117b8da5f4c2b505a5405296443aea2eb27",
+      "git:hexsha": "3dd9d117b8da5f4c2b505a5405296443aea2eb27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e1b056b7bc6024a09ea223ac0cea8e66320d818d",
+      "git:hexsha": "e1b056b7bc6024a09ea223ac0cea8e66320d818d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ccd8b34ff4eebfb7569623a372a5caf4ef0a108e",
+      "git:hexsha": "ccd8b34ff4eebfb7569623a372a5caf4ef0a108e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/9e85476afb946ea21d9326e9f3b27cea48bac4c2",
+      "git:hexsha": "9e85476afb946ea21d9326e9f3b27cea48bac4c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5aa99ee72b3f29ee7fee176a97562623faf2f9af",
+      "git:hexsha": "5aa99ee72b3f29ee7fee176a97562623faf2f9af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4d2ef3a4cbfa3e7c423a54c77e4687e20b031a31",
+      "git:hexsha": "4d2ef3a4cbfa3e7c423a54c77e4687e20b031a31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e4d978eb3599e82c8ef1a54c2d9a3782fc57b725",
+      "git:hexsha": "e4d978eb3599e82c8ef1a54c2d9a3782fc57b725",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4639562ea0d5f08398904e16ff6d7a8ecbbf4d2e",
+      "git:hexsha": "4639562ea0d5f08398904e16ff6d7a8ecbbf4d2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/dbadfa826dfc076dec5b72b0517c22adca730c37",
+      "git:hexsha": "dbadfa826dfc076dec5b72b0517c22adca730c37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b13194c33a4c74553e74cc973b4e08f38e72ec3c",
+      "git:hexsha": "b13194c33a4c74553e74cc973b4e08f38e72ec3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/bb3660b470ef0701020b4c445ed6557775db092a",
+      "git:hexsha": "bb3660b470ef0701020b4c445ed6557775db092a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4ed77f95d4828f7a4281254188e53ef240d01663",
+      "git:hexsha": "4ed77f95d4828f7a4281254188e53ef240d01663",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/df7e10c5a7c9bb259502697e6e68470d6c075549",
+      "git:hexsha": "df7e10c5a7c9bb259502697e6e68470d6c075549",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e26048afbcd72494a7e509f6bd77359ed07c8b54",
+      "git:hexsha": "e26048afbcd72494a7e509f6bd77359ed07c8b54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b7603c3027b5a8524b9fa5d9b06cfe2c4a46f3fb",
+      "git:hexsha": "b7603c3027b5a8524b9fa5d9b06cfe2c4a46f3fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0e1e9c695360180b93659442ee009ebdf94cde03",
+      "git:hexsha": "0e1e9c695360180b93659442ee009ebdf94cde03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/fa0df125d1d2a279b21683fff564e5caad84e7c0",
+      "git:hexsha": "fa0df125d1d2a279b21683fff564e5caad84e7c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b05997956e61e717b6a3c79289bbc40d9b28a475",
+      "git:hexsha": "b05997956e61e717b6a3c79289bbc40d9b28a475",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ab16a29307f72770dd13b74b1473c5e3f8c405c0",
+      "git:hexsha": "ab16a29307f72770dd13b74b1473c5e3f8c405c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ff5b0906edd2718a480dee421d854a5ccfb18687",
+      "git:hexsha": "ff5b0906edd2718a480dee421d854a5ccfb18687",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5f3c544a1935828aa2f0d4b60ace18633fca7cf2",
+      "git:hexsha": "5f3c544a1935828aa2f0d4b60ace18633fca7cf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/9f085d579c787ea741fb48c36061402d2f8c6d94",
+      "git:hexsha": "9f085d579c787ea741fb48c36061402d2f8c6d94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ec532422e558cb09370f42f3c1c478c374d60303",
+      "git:hexsha": "ec532422e558cb09370f42f3c1c478c374d60303",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e407206f76edb93f07200c4cf6683e2a76acada9",
+      "git:hexsha": "e407206f76edb93f07200c4cf6683e2a76acada9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/dee2585c4606897ea197ceb3e93f672b4a81e782",
+      "git:hexsha": "dee2585c4606897ea197ceb3e93f672b4a81e782",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "6.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a9354a3e53028dae944a64fd2b3922f0b3317861",
+      "git:hexsha": "a9354a3e53028dae944a64fd2b3922f0b3317861",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/dea18ff9bf5b462b7d21c13822a3db97f2929e5a",
+      "git:hexsha": "dea18ff9bf5b462b7d21c13822a3db97f2929e5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d2d1142a8cf12035f970fec41aa218faf76a99a1",
+      "git:hexsha": "d2d1142a8cf12035f970fec41aa218faf76a99a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a056bc64e63fcb58fa77dadb21fc9413ff83693a",
+      "git:hexsha": "a056bc64e63fcb58fa77dadb21fc9413ff83693a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a38e27d6d7b1cd8ed2e78b9dfd3274917d1e4e6b",
+      "git:hexsha": "a38e27d6d7b1cd8ed2e78b9dfd3274917d1e4e6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c0429044e6a9b70a9c22c50a3d82ffa029d05850",
+      "git:hexsha": "c0429044e6a9b70a9c22c50a3d82ffa029d05850",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/360502737a040268c7dff8e6658c2caccd7a2257",
+      "git:hexsha": "360502737a040268c7dff8e6658c2caccd7a2257",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a56f3db05de3ad2ba507f9a5ec0a92be4ba508a0",
+      "git:hexsha": "a56f3db05de3ad2ba507f9a5ec0a92be4ba508a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4218aab1d4e3797b493b757a700c1be4d2dd58d3",
+      "git:hexsha": "4218aab1d4e3797b493b757a700c1be4d2dd58d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/99b5af8a691d1ad69fee4606f20afc6b3b110717",
+      "git:hexsha": "99b5af8a691d1ad69fee4606f20afc6b3b110717",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/462e49dfbc0cca851c6aa62f9c9c894b2af280be",
+      "git:hexsha": "462e49dfbc0cca851c6aa62f9c9c894b2af280be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b91621c77dc904ed5ec5b5c59bf90c832d745f74",
+      "git:hexsha": "b91621c77dc904ed5ec5b5c59bf90c832d745f74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7243c8d4c57adbab0a57fe8a8ae4d1bfa13f2e13",
+      "git:hexsha": "7243c8d4c57adbab0a57fe8a8ae4d1bfa13f2e13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3584b0be26338cb6b84250e6a41f93848a1c9789",
+      "git:hexsha": "3584b0be26338cb6b84250e6a41f93848a1c9789",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/f8e690f15e759b7b18ee300141de4afec5b0e7c3",
+      "git:hexsha": "f8e690f15e759b7b18ee300141de4afec5b0e7c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/265c57ccf6538704c2a59bef1cde3b3770fcf1ca",
+      "git:hexsha": "265c57ccf6538704c2a59bef1cde3b3770fcf1ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/9ea988d0e222c4842fed96248ad4e19c6c94ffe2",
+      "git:hexsha": "9ea988d0e222c4842fed96248ad4e19c6c94ffe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/10cce6b5dc2c1b2aaa49efae1546d9020ffad111",
+      "git:hexsha": "10cce6b5dc2c1b2aaa49efae1546d9020ffad111",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6dde2c62a967a6ad49d04be59dfdeddf9eed3b6f",
+      "git:hexsha": "6dde2c62a967a6ad49d04be59dfdeddf9eed3b6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/021466e7df733e37021bf3ee58226bfd2ef3dd6b",
+      "git:hexsha": "021466e7df733e37021bf3ee58226bfd2ef3dd6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/21ca85c537b972f0d27c4483e3ca72450d8396cf",
+      "git:hexsha": "21ca85c537b972f0d27c4483e3ca72450d8396cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c51faf62081275073164b6738bc1b8f58d514420",
+      "git:hexsha": "c51faf62081275073164b6738bc1b8f58d514420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d630c48a143cafdf55f350095358917e770c2464",
+      "git:hexsha": "d630c48a143cafdf55f350095358917e770c2464",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.11.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8a8f843288de1b00793a245da70d80a52d68aa04",
+      "git:hexsha": "8a8f843288de1b00793a245da70d80a52d68aa04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/952c4c1b954071f687fb82c7179b05c10328289e",
+      "git:hexsha": "952c4c1b954071f687fb82c7179b05c10328289e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e3b4e3c8f86b5f5de8c8bec6f42ef05c64946d8d",
+      "git:hexsha": "e3b4e3c8f86b5f5de8c8bec6f42ef05c64946d8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/94dc1fe9286d2fc1c0ccf0c5ff35d6b7664f9461",
+      "git:hexsha": "94dc1fe9286d2fc1c0ccf0c5ff35d6b7664f9461",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a77111c0555793a3caebc56f66e21097cec4fb51",
+      "git:hexsha": "a77111c0555793a3caebc56f66e21097cec4fb51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/eb0bcdca988821b73bac19ba328ca5c026c57948",
+      "git:hexsha": "eb0bcdca988821b73bac19ba328ca5c026c57948",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.12.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/77e21517e39d1ed0b4a378b76c29ef0bb0ef18a6",
+      "git:hexsha": "77e21517e39d1ed0b4a378b76c29ef0bb0ef18a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7368d96a54c02d828a66cc37b6d25084c806338c",
+      "git:hexsha": "7368d96a54c02d828a66cc37b6d25084c806338c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/02fcb39de23c3a494280957d1f44c603e079e07e",
+      "git:hexsha": "02fcb39de23c3a494280957d1f44c603e079e07e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4dec4ac206c990fa968fc418b10f152839ddcdaf",
+      "git:hexsha": "4dec4ac206c990fa968fc418b10f152839ddcdaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/cde7b4ac1a13d6e94c8f681d66a4ebec3ef774bc",
+      "git:hexsha": "cde7b4ac1a13d6e94c8f681d66a4ebec3ef774bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5a5b80c54d79f086a7ff61d5e9c6f75d6b092602",
+      "git:hexsha": "5a5b80c54d79f086a7ff61d5e9c6f75d6b092602",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/969acf3fb41066cde1ed844a61ce48f7514c0926",
+      "git:hexsha": "969acf3fb41066cde1ed844a61ce48f7514c0926",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a84ffdab552291b6093dd83d829ec743d44bf846",
+      "git:hexsha": "a84ffdab552291b6093dd83d829ec743d44bf846",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b998dff9c9154a7541fcd925e58ce7812a92a80a",
+      "git:hexsha": "b998dff9c9154a7541fcd925e58ce7812a92a80a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/aba2007636eed5e4ddbdc4b662264899529cceb3",
+      "git:hexsha": "aba2007636eed5e4ddbdc4b662264899529cceb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.14.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0ff00c8bf6b7f525fe2ab173f2c02dafb599a9b8",
+      "git:hexsha": "0ff00c8bf6b7f525fe2ab173f2c02dafb599a9b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1380833a6bfd18be64754cc319c1d25c1a6fbb7f",
+      "git:hexsha": "1380833a6bfd18be64754cc319c1d25c1a6fbb7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/250ed8de8451dcfcd4bb03a2b45c956fb47408c6",
+      "git:hexsha": "250ed8de8451dcfcd4bb03a2b45c956fb47408c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/60d8fb621e9a1cbd5e57e71378cce2df37e2f039",
+      "git:hexsha": "60d8fb621e9a1cbd5e57e71378cce2df37e2f039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/90f5a465eae8e55a8a576ca6e582254816ef8e68",
+      "git:hexsha": "90f5a465eae8e55a8a576ca6e582254816ef8e68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/14bdbc54651ea46d4ab3cb20c668064e9122e1f0",
+      "git:hexsha": "14bdbc54651ea46d4ab3cb20c668064e9122e1f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8f9955c02c6cb77ec8f2c51d0970460e7d7ba06a",
+      "git:hexsha": "8f9955c02c6cb77ec8f2c51d0970460e7d7ba06a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/55ba62243ab9b1b16793a6ca3596128f86e661b0",
+      "git:hexsha": "55ba62243ab9b1b16793a6ca3596128f86e661b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ed39626775952367bf114761c8fb04f19ef4e352",
+      "git:hexsha": "ed39626775952367bf114761c8fb04f19ef4e352",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4664b54d9dacb26aebf24e783e1dc50f3948345a",
+      "git:hexsha": "4664b54d9dacb26aebf24e783e1dc50f3948345a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.17.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b9cebf47f581c2f2cdebadee08b2ab2c2b5fb447",
+      "git:hexsha": "b9cebf47f581c2f2cdebadee08b2ab2c2b5fb447",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/998a51752e58839b1f646ea8f24290ad63cdbe4c",
+      "git:hexsha": "998a51752e58839b1f646ea8f24290ad63cdbe4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0f73ecf38973a2f01a9abe09f33f717cbd7bccdc",
+      "git:hexsha": "0f73ecf38973a2f01a9abe09f33f717cbd7bccdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.18.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/172fd5bdbc2b07172a36071037187c413dbfaa37",
+      "git:hexsha": "172fd5bdbc2b07172a36071037187c413dbfaa37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/2495250560e4cb179ec937af4f33c94e4efb1e01",
+      "git:hexsha": "2495250560e4cb179ec937af4f33c94e4efb1e01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6a8ae7e09fe1b98f626ad3d87f8c7a55afaa37c5",
+      "git:hexsha": "6a8ae7e09fe1b98f626ad3d87f8c7a55afaa37c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6d9c999c1b6232b18c7e349a19b06d38c21819c5",
+      "git:hexsha": "6d9c999c1b6232b18c7e349a19b06d38c21819c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c61d0efa4bdebe80e8fa737f5cb809e0d80a0f5d",
+      "git:hexsha": "c61d0efa4bdebe80e8fa737f5cb809e0d80a0f5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d97ceaa6c330a6507e8a53cf4f024fb866c57657",
+      "git:hexsha": "d97ceaa6c330a6507e8a53cf4f024fb866c57657",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/79aa849fee52976d941b8d1cabe75c4108f58413",
+      "git:hexsha": "79aa849fee52976d941b8d1cabe75c4108f58413",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1bc9571556514cb528c290a6f1f1ce54ce1fbe0d",
+      "git:hexsha": "1bc9571556514cb528c290a6f1f1ce54ce1fbe0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/18c28a449e86b91b1643b7edb416e533bc1cdde2",
+      "git:hexsha": "18c28a449e86b91b1643b7edb416e533bc1cdde2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/2671b24d78bd52bf3ba73b7d3fa091ad6ad6d5a1",
+      "git:hexsha": "2671b24d78bd52bf3ba73b7d3fa091ad6ad6d5a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/09a060cd145a6a5cd3e50b76fc114cfba6a13fe3",
+      "git:hexsha": "09a060cd145a6a5cd3e50b76fc114cfba6a13fe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d3bd54738d77a9d90e29f8df2f82f320dd715241",
+      "git:hexsha": "d3bd54738d77a9d90e29f8df2f82f320dd715241",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3d4f8bbece1388b2168a5b6b3e5fd2bcb4ff4f51",
+      "git:hexsha": "3d4f8bbece1388b2168a5b6b3e5fd2bcb4ff4f51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b989766d3cb3982a4ce4d273368598519d1ab304",
+      "git:hexsha": "b989766d3cb3982a4ce4d273368598519d1ab304",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c83474fbb2548d77fb19f7c75c82e7f373c5597f",
+      "git:hexsha": "c83474fbb2548d77fb19f7c75c82e7f373c5597f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5314aa47f64bce61dce344734a2d8064ecf8c818",
+      "git:hexsha": "5314aa47f64bce61dce344734a2d8064ecf8c818",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5b8af72e13f076e1e26bb721e630f1cf4ce5dd97",
+      "git:hexsha": "5b8af72e13f076e1e26bb721e630f1cf4ce5dd97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8ea21503e200b11dd6ac3d524b91794328c3af5f",
+      "git:hexsha": "8ea21503e200b11dd6ac3d524b91794328c3af5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6b070576a46b877ca94e25cf646de60479604a06",
+      "git:hexsha": "6b070576a46b877ca94e25cf646de60479604a06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/fa03c485e5f66464011d8a6f34326c27304a8ddf",
+      "git:hexsha": "fa03c485e5f66464011d8a6f34326c27304a8ddf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1e80c9d5cb268bc2422f5bc253653f61980c9986",
+      "git:hexsha": "1e80c9d5cb268bc2422f5bc253653f61980c9986",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/832cb5ef54933a643869850097c869560dd82fcb",
+      "git:hexsha": "832cb5ef54933a643869850097c869560dd82fcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a55c2f700f70458da2396774a76beb539395b1d7",
+      "git:hexsha": "a55c2f700f70458da2396774a76beb539395b1d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8b5fca340dabf849a5cb9ce71388b8dbe99acc4e",
+      "git:hexsha": "8b5fca340dabf849a5cb9ce71388b8dbe99acc4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/856829044483c58040c2132383c8d728efdb57a5",
+      "git:hexsha": "856829044483c58040c2132383c8d728efdb57a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a83f0ea4f79e97040ecc9b01e8ac6287e84852d9",
+      "git:hexsha": "a83f0ea4f79e97040ecc9b01e8ac6287e84852d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7622f9b7bf0e6e3f3d2cc237b75162ad89d1d2dc",
+      "git:hexsha": "7622f9b7bf0e6e3f3d2cc237b75162ad89d1d2dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/2e035c84e17ec3b5a6eb7bb73a8c7165378ca74b",
+      "git:hexsha": "2e035c84e17ec3b5a6eb7bb73a8c7165378ca74b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/fc78edc10e17edccb1f0ace482ce995762ab7f5e",
+      "git:hexsha": "fc78edc10e17edccb1f0ace482ce995762ab7f5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/35db7d0346107ebcd1b765d4beebb1e34fae42b2",
+      "git:hexsha": "35db7d0346107ebcd1b765d4beebb1e34fae42b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/48f9f31e42c8c0243358fd3af79d017bbaea81e7",
+      "git:hexsha": "48f9f31e42c8c0243358fd3af79d017bbaea81e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7d77ab73c84c02e61c5e2ad66f7e1cb25ea92d3a",
+      "git:hexsha": "7d77ab73c84c02e61c5e2ad66f7e1cb25ea92d3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/38b39dd2b08b5b83106948cc835329164a60cf31",
+      "git:hexsha": "38b39dd2b08b5b83106948cc835329164a60cf31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1b3644198dad790ba088428a49c8bc98d7c247c7",
+      "git:hexsha": "1b3644198dad790ba088428a49c8bc98d7c247c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0a63d23fd2c686a98396e8844a9314ea9b9f8aac",
+      "git:hexsha": "0a63d23fd2c686a98396e8844a9314ea9b9f8aac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/29760fe032147eb8630f5f5f01bea5b9c80084c7",
+      "git:hexsha": "29760fe032147eb8630f5f5f01bea5b9c80084c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0920397406a3ecd476e99b88e0b3d80d085471af",
+      "git:hexsha": "0920397406a3ecd476e99b88e0b3d80d085471af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.7rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/850021587646d627fc5765f75ac40a2f3f4a693e",
+      "git:hexsha": "850021587646d627fc5765f75ac40a2f3f4a693e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7724cc71a8b648e97574e8fd2d4d23f892f4a13e",
+      "git:hexsha": "7724cc71a8b648e97574e8fd2d4d23f892f4a13e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/cfb5494eefe83bcec25c2b4475b39604284855bc",
+      "git:hexsha": "cfb5494eefe83bcec25c2b4475b39604284855bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/4a604519884e17be9457da359dfe3e2c3e12419f",
+      "git:hexsha": "4a604519884e17be9457da359dfe3e2c3e12419f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6d6d6258645fd990908f14c104dfff5b6edee28e",
+      "git:hexsha": "6d6d6258645fd990908f14c104dfff5b6edee28e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c3e10dea6f4503afb7200db9bb17ca05e6979a60",
+      "git:hexsha": "c3e10dea6f4503afb7200db9bb17ca05e6979a60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/b441021c80d6ae9e1d677d00c3b6192a07c6e438",
+      "git:hexsha": "b441021c80d6ae9e1d677d00c3b6192a07c6e438",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/304ac155f9319d998e4f7a5b375009cd25e6f6a8",
+      "git:hexsha": "304ac155f9319d998e4f7a5b375009cd25e6f6a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5eb95fa6487dcef567010bbdef15669673e162f3",
+      "git:hexsha": "5eb95fa6487dcef567010bbdef15669673e162f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3b4fab3eb974bc841c51718a9fcda167c57ac618",
+      "git:hexsha": "3b4fab3eb974bc841c51718a9fcda167c57ac618",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/06db3ba538fc099a41021fbb7cdce98edff32c85",
+      "git:hexsha": "06db3ba538fc099a41021fbb7cdce98edff32c85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/12253d3aaaf603182c7c3d90d39889973df7075b",
+      "git:hexsha": "12253d3aaaf603182c7c3d90d39889973df7075b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "7.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/ee6bf13cd1b4c178f1735b9cec28bec7eb89d260",
+      "git:hexsha": "ee6bf13cd1b4c178f1735b9cec28bec7eb89d260",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c085019c8f394c8962a842ad68bbdb1649889fa0",
+      "git:hexsha": "c085019c8f394c8962a842ad68bbdb1649889fa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/083cd9abf29be73c4d07c651b2274ced178c587f",
+      "git:hexsha": "083cd9abf29be73c4d07c651b2274ced178c587f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/639920556f943758f763816ff5f3fb6fcd24dc2b",
+      "git:hexsha": "639920556f943758f763816ff5f3fb6fcd24dc2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d2c7af986d2720b2c59f3dc4d7144b3dcd625f1e",
+      "git:hexsha": "d2c7af986d2720b2c59f3dc4d7144b3dcd625f1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d736061f08933f17bb6f2f94d1c770e7c0af672a",
+      "git:hexsha": "d736061f08933f17bb6f2f94d1c770e7c0af672a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/530901d4b0246de569f00e0b9d78338fc324e81e",
+      "git:hexsha": "530901d4b0246de569f00e0b9d78338fc324e81e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/3884b50d7f5a55cd9d62a966128425493a55f18b",
+      "git:hexsha": "3884b50d7f5a55cd9d62a966128425493a55f18b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/c2f816a9353ba5fe3de47f5e500025b4d3b00034",
+      "git:hexsha": "c2f816a9353ba5fe3de47f5e500025b4d3b00034",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/348cc7a95064f4bda97e31d8f072e1b595aee008",
+      "git:hexsha": "348cc7a95064f4bda97e31d8f072e1b595aee008",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/dab930ae91d3887675afb59845a96314ef3a3f42",
+      "git:hexsha": "dab930ae91d3887675afb59845a96314ef3a3f42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7fc19717bc8c09a1af91dbc58a79dc0a8d3ecc50",
+      "git:hexsha": "7fc19717bc8c09a1af91dbc58a79dc0a8d3ecc50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d69bec3254bfd00075c6a2ca088936de2cd9bc09",
+      "git:hexsha": "d69bec3254bfd00075c6a2ca088936de2cd9bc09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1f3c7c4e5b3b7b63a31c833ca98d073d9ae56acd",
+      "git:hexsha": "1f3c7c4e5b3b7b63a31c833ca98d073d9ae56acd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/beb678e4134e860806ac2a41e5245614e98d6e94",
+      "git:hexsha": "beb678e4134e860806ac2a41e5245614e98d6e94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/1db70654ef89c7878090f989d30dca945191c5bf",
+      "git:hexsha": "1db70654ef89c7878090f989d30dca945191c5bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/88a15a004a2d40e651f50daff6502d5a1a0a4741",
+      "git:hexsha": "88a15a004a2d40e651f50daff6502d5a1a0a4741",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/d8ee56ae8a8e09eaa99b5be7a6e65bc9da96ae69",
+      "git:hexsha": "d8ee56ae8a8e09eaa99b5be7a6e65bc9da96ae69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/e3807d35471515f0da848f8455ccd2b5e71ba463",
+      "git:hexsha": "e3807d35471515f0da848f8455ccd2b5e71ba463",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/856bd051351cb3559984ebe88d6c9d37091e8ede",
+      "git:hexsha": "856bd051351cb3559984ebe88d6c9d37091e8ede",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/a0c8ff37b6ad4348288aa513f12513e9807d5545",
+      "git:hexsha": "a0c8ff37b6ad4348288aa513f12513e9807d5545",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/7a8baa31b970f6a388a2875f7fbb106c36cae3e8",
+      "git:hexsha": "7a8baa31b970f6a388a2875f7fbb106c36cae3e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6d5439806c1bfee7f5a33ea3af49d06d7d9b0fc7",
+      "git:hexsha": "6d5439806c1bfee7f5a33ea3af49d06d7d9b0fc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/330b20a9f72bc9062acfd006dcf54e1246ed25da",
+      "git:hexsha": "330b20a9f72bc9062acfd006dcf54e1246ed25da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/0d5d0b2719b7e85858cc687348dd337c278464a0",
+      "git:hexsha": "0d5d0b2719b7e85858cc687348dd337c278464a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/6d84bc5dc4dc7e15d9d7ed08d8f5c75a311ec034",
+      "git:hexsha": "6d84bc5dc4dc7e15d9d7ed08d8f5c75a311ec034",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/5a859220dd9f52bad13131a47e7cbb56fd2c92fb",
+      "git:hexsha": "5a859220dd9f52bad13131a47e7cbb56fd2c92fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/8ecaadb9e46c89dbceb9c2aac9ab8fe5c75d13ba",
+      "git:hexsha": "8ecaadb9e46c89dbceb9c2aac9ab8fe5c75d13ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/9405c5eebc1ee43f2c5448a7ff3922051e5061c3",
+      "git:hexsha": "9405c5eebc1ee43f2c5448a7ff3922051e5061c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder/commit/735a5323de8c047dbaaf693fb4c438146c789920",
+      "git:hexsha": "735a5323de8c047dbaaf693fb4c438146c789920",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "8.9.2"
+    }
+  ]
+}
