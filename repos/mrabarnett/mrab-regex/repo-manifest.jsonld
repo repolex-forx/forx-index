@@ -1,0 +1,532 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/mrabarnett/mrab-regex",
+  "@type": "gh:Repository",
+  "gh:name": "mrab-regex",
+  "gh:owner": "mrabarnett",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/0e8cb0596ba6572c66e5d153a1d7c901b381e15e",
+      "git:hexsha": "0e8cb0596ba6572c66e5d153a1d7c901b381e15e",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "2026.9.29",
+      "repolex:parsedAt": "2026-11-06T04:02:44.397664+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/05f55c129cafc8ff410c23c8202a3490b091594c",
+      "git:hexsha": "05f55c129cafc8ff410c23c8202a3490b091594c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2021.11.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/667f171a0b10c1df0b00cb15ec990b8c51425b65",
+      "git:hexsha": "667f171a0b10c1df0b00cb15ec990b8c51425b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/cc392629b28ed0aeb8bf6d46f826ff9e87aac551",
+      "git:hexsha": "cc392629b28ed0aeb8bf6d46f826ff9e87aac551",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.10.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/138970bafb3d6fbe0987632ee149c04e8b5acf95",
+      "git:hexsha": "138970bafb3d6fbe0987632ee149c04e8b5acf95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.3.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/67ab7171969a5c0562ee8f84595d78de0633ccb2",
+      "git:hexsha": "67ab7171969a5c0562ee8f84595d78de0633ccb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/74b8db0e812adb46619a3886ebadba43b9b11a67",
+      "git:hexsha": "74b8db0e812adb46619a3886ebadba43b9b11a67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.4.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/8a514bc62fbfe0006e966124a993562fd4969ca5",
+      "git:hexsha": "8a514bc62fbfe0006e966124a993562fd4969ca5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/ea5e640db3330814dc70baf09b313bcc0f37a9fd",
+      "git:hexsha": "ea5e640db3330814dc70baf09b313bcc0f37a9fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.7.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/01758302a65137f715feb34e92108408fd067d9f",
+      "git:hexsha": "01758302a65137f715feb34e92108408fd067d9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.7.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/5c9b260d2fe203d41977f57f4d7fafa691aec853",
+      "git:hexsha": "5c9b260d2fe203d41977f57f4d7fafa691aec853",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.7.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/71be78a042faac7a797902d59434af478d1c6d78",
+      "git:hexsha": "71be78a042faac7a797902d59434af478d1c6d78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.8.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/416dd66ba90a5f616c4d0a08d3e250c54869c80c",
+      "git:hexsha": "416dd66ba90a5f616c4d0a08d3e250c54869c80c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/4ad1f04899ce2f4be8dfdffafba1746f314b40ad",
+      "git:hexsha": "4ad1f04899ce2f4be8dfdffafba1746f314b40ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2022.9.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/5954c515806dfa25f83648fc18e84fa8811b9561",
+      "git:hexsha": "5954c515806dfa25f83648fc18e84fa8811b9561",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.3.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/34333d5009b119949112546b1f82a1edfb590398",
+      "git:hexsha": "34333d5009b119949112546b1f82a1edfb590398",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/d0afd79fbabd03a64ae2250e4b5701af8e997ebb",
+      "git:hexsha": "d0afd79fbabd03a64ae2250e4b5701af8e997ebb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.12.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/cdcbf36aebb0e5d54072bd96a6fe4932f1fd6ae0",
+      "git:hexsha": "cdcbf36aebb0e5d54072bd96a6fe4932f1fd6ae0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.12.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/c1f1f2af4cc6b9de91f399d88ec6c2e1537c25ab",
+      "git:hexsha": "c1f1f2af4cc6b9de91f399d88ec6c2e1537c25ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.12.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/647c006a88c553a694118e8cae109aa9365f188f",
+      "git:hexsha": "647c006a88c553a694118e8cae109aa9365f188f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.12.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/4f2ed52b3d73f39541026cf74f7c23106086b0b5",
+      "git:hexsha": "4f2ed52b3d73f39541026cf74f7c23106086b0b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.12.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/15cbd1eaf303657e53ade7674aed22ffeefb43d8",
+      "git:hexsha": "15cbd1eaf303657e53ade7674aed22ffeefb43d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.3.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/78460dc755b09966ee6e87d04c8dcfca7212256b",
+      "git:hexsha": "78460dc755b09966ee6e87d04c8dcfca7212256b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/16bcce0d56e84367f61c24b369e23e73a3e9ad9e",
+      "git:hexsha": "16bcce0d56e84367f61c24b369e23e73a3e9ad9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/797b57a4ac8da86c13e52bf60586cd2432864400",
+      "git:hexsha": "797b57a4ac8da86c13e52bf60586cd2432864400",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/9f03255c920964c206c0509c14ce9690a00b861d",
+      "git:hexsha": "9f03255c920964c206c0509c14ce9690a00b861d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/774dbfda42dfdd11adef02e9ac3ebde96cd03dd1",
+      "git:hexsha": "774dbfda42dfdd11adef02e9ac3ebde96cd03dd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/bc73ebb5d794668fe272c6f869cfa01add91ed83",
+      "git:hexsha": "bc73ebb5d794668fe272c6f869cfa01add91ed83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2023.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/930983aa68ffc133ec086ef16cabdbb9c0c491ea",
+      "git:hexsha": "930983aa68ffc133ec086ef16cabdbb9c0c491ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/26012d90d0525d3e2da2672c4ca41d7c6c056934",
+      "git:hexsha": "26012d90d0525d3e2da2672c4ca41d7c6c056934",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/9c950f2c25a5b1221a059761c5f90b9ee0f31763",
+      "git:hexsha": "9c950f2c25a5b1221a059761c5f90b9ee0f31763",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.4.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/2e3272be48e32367cb1110dba5329ace06312017",
+      "git:hexsha": "2e3272be48e32367cb1110dba5329ace06312017",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.4.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/be139ffc3a18a7ead6939ea19015dc41e3682ec4",
+      "git:hexsha": "be139ffc3a18a7ead6939ea19015dc41e3682ec4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.5.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/8eabb4223e4b1d4c7b6a4496328e00eee5e352e5",
+      "git:hexsha": "8eabb4223e4b1d4c7b6a4496328e00eee5e352e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.5.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/6d086ffc5be71220d527495ad384834e4f54f340",
+      "git:hexsha": "6d086ffc5be71220d527495ad384834e4f54f340",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.6.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/e8a8d28aa32a945dfbed6ef41d29f30daf07e08d",
+      "git:hexsha": "e8a8d28aa32a945dfbed6ef41d29f30daf07e08d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.7.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/d3510fea2af432e67c9f9dce3b612fab18cdf375",
+      "git:hexsha": "d3510fea2af432e67c9f9dce3b612fab18cdf375",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/f46728542b4fea608022016ab560d9abc8ad7f7f",
+      "git:hexsha": "f46728542b4fea608022016ab560d9abc8ad7f7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.9.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/1bcd42e8381feaf3040f4b4a6a10dab912e6b59c",
+      "git:hexsha": "1bcd42e8381feaf3040f4b4a6a10dab912e6b59c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.9.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/64834c729b8e117c1f9a471d9e1e51f32b69a121",
+      "git:hexsha": "64834c729b8e117c1f9a471d9e1e51f32b69a121",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2024.9.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/54fa96c29247056b1e9a76eab9dafd929587bbfc",
+      "git:hexsha": "54fa96c29247056b1e9a76eab9dafd929587bbfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.10.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/2fd4dc061617b317d0f760f93756a6ae742f055f",
+      "git:hexsha": "2fd4dc061617b317d0f760f93756a6ae742f055f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.10.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/f2d31b0844789ec19123aa1b5eb19e070018a981",
+      "git:hexsha": "f2d31b0844789ec19123aa1b5eb19e070018a981",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.10.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/26454da3a67572197648032fe5e7f9a288fa4a0f",
+      "git:hexsha": "26454da3a67572197648032fe5e7f9a288fa4a0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.10.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/b01d6e7349f1f754f9576e85aa19575acff0c839",
+      "git:hexsha": "b01d6e7349f1f754f9576e85aa19575acff0c839",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/8225213902e5cabf9c32c5b32cbc6bfd9dcc4d0f",
+      "git:hexsha": "8225213902e5cabf9c32c5b32cbc6bfd9dcc4d0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.2.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/b9868e8adc2bdbf79a76e681184918ed418db95f",
+      "git:hexsha": "b9868e8adc2bdbf79a76e681184918ed418db95f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/622a8e2cea9020f5fe166516e24abf98eb29454b",
+      "git:hexsha": "622a8e2cea9020f5fe166516e24abf98eb29454b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.2.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/be75782535bd817bc3fa18f8e9d875366340ead7",
+      "git:hexsha": "be75782535bd817bc3fa18f8e9d875366340ead7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/addaa7c484bffc2dd0844945e9bc756e1441c958",
+      "git:hexsha": "addaa7c484bffc2dd0844945e9bc756e1441c958",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.5.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/33c577bd3bfe4c4a58bf736dfcbb7d26d1aa3423",
+      "git:hexsha": "33c577bd3bfe4c4a58bf736dfcbb7d26d1aa3423",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.7.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/4bc46f1397ce702f4d4413d3ce7363cd23b3e194",
+      "git:hexsha": "4bc46f1397ce702f4d4413d3ce7363cd23b3e194",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.7.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/becb0d456d90541fa1266e19999b8005b401fb89",
+      "git:hexsha": "becb0d456d90541fa1266e19999b8005b401fb89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.7.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/a4a6d9443b11beb42d3440df91c76644ce45615c",
+      "git:hexsha": "a4a6d9443b11beb42d3440df91c76644ce45615c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.7.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/88fee8529b5d41846bfdc144f46d2510c547d169",
+      "git:hexsha": "88fee8529b5d41846bfdc144f46d2510c547d169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.7.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/23ca191dd8d259a42bc3dcae092e4eafce48652d",
+      "git:hexsha": "23ca191dd8d259a42bc3dcae092e4eafce48652d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.7.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/183a653894f56ad9bc6ca767b795c0439518e2c1",
+      "git:hexsha": "183a653894f56ad9bc6ca767b795c0439518e2c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.8.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/49e3881e9fceb225b0f82d43f1ef09688ec30da3",
+      "git:hexsha": "49e3881e9fceb225b0f82d43f1ef09688ec30da3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/db5c9c636e68a44e27d623e11af1c08229ec4963",
+      "git:hexsha": "db5c9c636e68a44e27d623e11af1c08229ec4963",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.9.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/2fe11390343743fb69afd5b43fb601a7f19255e0",
+      "git:hexsha": "2fe11390343743fb69afd5b43fb601a7f19255e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.9.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/4359a6a565e6725a899a4e1179c75fdad09030ae",
+      "git:hexsha": "4359a6a565e6725a899a4e1179c75fdad09030ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2025.9.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/d7f7c8cc6933f69a0b81c1ccaf81e9785342b233",
+      "git:hexsha": "d7f7c8cc6933f69a0b81c1ccaf81e9785342b233",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/234de9a7495c6355fcf322d575f8a3875f7f14d7",
+      "git:hexsha": "234de9a7495c6355fcf322d575f8a3875f7f14d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/9789c2284ff1fc41aee38ccd2a2508608afeb2e6",
+      "git:hexsha": "9789c2284ff1fc41aee38ccd2a2508608afeb2e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.2.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/ed3d9caf347d6be15f362111775c9ef8d4ca49b2",
+      "git:hexsha": "ed3d9caf347d6be15f362111775c9ef8d4ca49b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.2.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/df2d5ac9983af6febc0c2f32aff396a06142f8cb",
+      "git:hexsha": "df2d5ac9983af6febc0c2f32aff396a06142f8cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.2.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/923d78e39b8ff92db67606be3bfbc2e595b6475a",
+      "git:hexsha": "923d78e39b8ff92db67606be3bfbc2e595b6475a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.3.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/2356563bbfd51b3986320a866c35a50b89833949",
+      "git:hexsha": "2356563bbfd51b3986320a866c35a50b89833949",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.3.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/16af8aed2b3211e90588d2ac96f7c588ed477b2c",
+      "git:hexsha": "16af8aed2b3211e90588d2ac96f7c588ed477b2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.3.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/2aff2db5542ec5b58705be6ddb7b69a99d3e38a8",
+      "git:hexsha": "2aff2db5542ec5b58705be6ddb7b69a99d3e38a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.3.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/5d51c75da03116e08bb6fb537fae6d8c804cc92c",
+      "git:hexsha": "5d51c75da03116e08bb6fb537fae6d8c804cc92c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.3.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/773e213b5d7a78806e795d2513a37345dc793e97",
+      "git:hexsha": "773e213b5d7a78806e795d2513a37345dc793e97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/bc57b04b00de68590345ac2eb621b9a8dd222d7d",
+      "git:hexsha": "bc57b04b00de68590345ac2eb621b9a8dd222d7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/e57d185bb711729091907b23edac5dcba0426243",
+      "git:hexsha": "e57d185bb711729091907b23edac5dcba0426243",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/b18daa63c23770ae8b455585c85632808eb84bca",
+      "git:hexsha": "b18daa63c23770ae8b455585c85632808eb84bca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.6.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/e204ddb02948b234fc8568fc0b220237486e8abd",
+      "git:hexsha": "e204ddb02948b234fc8568fc0b220237486e8abd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.7.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/e7716da67cc2de8a7aaed4f7f1d37688fa480644",
+      "git:hexsha": "e7716da67cc2de8a7aaed4f7f1d37688fa480644",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.7.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/0525affc5309f8d53deac351e4926b11eb8a282c",
+      "git:hexsha": "0525affc5309f8d53deac351e4926b11eb8a282c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.7.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/1760a20647f1c2ddcc025128407fe6f7edb905a1",
+      "git:hexsha": "1760a20647f1c2ddcc025128407fe6f7edb905a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.8.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/9398a6da5630aa9af67775e95802d2c5625606cd",
+      "git:hexsha": "9398a6da5630aa9af67775e95802d2c5625606cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.8.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/b283bb2b038cef571bfe49b2a76415cf4005ddfc",
+      "git:hexsha": "b283bb2b038cef571bfe49b2a76415cf4005ddfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.8.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/c8d0aa48f52feb6512c3a3ac6e02f4c7ec6363e0",
+      "git:hexsha": "c8d0aa48f52feb6512c3a3ac6e02f4c7ec6363e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/7dd71c15c4fb5c94206bed1763abd4c2bd2f1b33",
+      "git:hexsha": "7dd71c15c4fb5c94206bed1763abd4c2bd2f1b33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/85e568c0e0be620b4ebe50c98ea92415f5995ffc",
+      "git:hexsha": "85e568c0e0be620b4ebe50c98ea92415f5995ffc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.9.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/a1d72bace2f7222e310b32c595771686a59d0388",
+      "git:hexsha": "a1d72bace2f7222e310b32c595771686a59d0388",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/57f366fdbd9b8346d3b1a95b99cd81a9e91db367",
+      "git:hexsha": "57f366fdbd9b8346d3b1a95b99cd81a9e91db367",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex/commit/59124d62299e212931786aa74ead15388abaf376",
+      "git:hexsha": "59124d62299e212931786aa74ead15388abaf376",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2026.9.9"
+    }
+  ]
+}
