@@ -1,0 +1,717 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/ansible-collections/community.crypto",
+  "@type": "gh:Repository",
+  "gh:name": "community.crypto",
+  "gh:owner": "ansible-collections",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/00d193fd380122715b57c90b3cf03648782feb90",
+      "git:hexsha": "00d193fd380122715b57c90b3cf03648782feb90",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-07T14:14:00.153726+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9e4728e206b5e998e4a84d7428efc59c2d2006ee",
+      "git:hexsha": "9e4728e206b5e998e4a84d7428efc59c2d2006ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/dbda650bbd30fa6e28e2db935d52f8028ad50b11",
+      "git:hexsha": "dbda650bbd30fa6e28e2db935d52f8028ad50b11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9203d5c37175fc9bef7ffe71de991b8f16e6e4dd",
+      "git:hexsha": "9203d5c37175fc9bef7ffe71de991b8f16e6e4dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/05105ae2ad9862207e241e334d65d8320025e395",
+      "git:hexsha": "05105ae2ad9862207e241e334d65d8320025e395",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4fb3d09ee9943bb667ab2cad265925db2453293e",
+      "git:hexsha": "4fb3d09ee9943bb667ab2cad265925db2453293e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/c9524e9c09d8cc2dd61433a61a6785becc63779c",
+      "git:hexsha": "c9524e9c09d8cc2dd61433a61a6785becc63779c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/606e1cd4dac30f13f21670f48b9fbd9fdbc8c905",
+      "git:hexsha": "606e1cd4dac30f13f21670f48b9fbd9fdbc8c905",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/eb97f8ee75b9c32685cfe31efd83853ddf4744fd",
+      "git:hexsha": "eb97f8ee75b9c32685cfe31efd83853ddf4744fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b916f95d4d29894895457f0a811f4d039f2ed300",
+      "git:hexsha": "b916f95d4d29894895457f0a811f4d039f2ed300",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4684f36c38eba8eca97197cc970cee3b46b537d4",
+      "git:hexsha": "4684f36c38eba8eca97197cc970cee3b46b537d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/0ecdf2ccbd19cc6612ca09a854df43dd5f6aa6f8",
+      "git:hexsha": "0ecdf2ccbd19cc6612ca09a854df43dd5f6aa6f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4a7150204c334b9c2a43b86ddda8837f995650e0",
+      "git:hexsha": "4a7150204c334b9c2a43b86ddda8837f995650e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9f27e28a4500428b6f67f092084922401898aea5",
+      "git:hexsha": "9f27e28a4500428b6f67f092084922401898aea5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/408b538a456c7ddf8d3f447b26104270296d5ccc",
+      "git:hexsha": "408b538a456c7ddf8d3f447b26104270296d5ccc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/915379459db17094f2e8a4802ac82e893072146a",
+      "git:hexsha": "915379459db17094f2e8a4802ac82e893072146a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/3bb9c5f9a7eb5f3efdfd3b0714398a85fb29b9b6",
+      "git:hexsha": "3bb9c5f9a7eb5f3efdfd3b0714398a85fb29b9b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e910f299b941eb24b8ac8da190ed7073f8cdf10f",
+      "git:hexsha": "e910f299b941eb24b8ac8da190ed7073f8cdf10f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/35ef2edb3fa48ee377a1623a4944543568f8b736",
+      "git:hexsha": "35ef2edb3fa48ee377a1623a4944543568f8b736",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e94fb2dff28eb4497f64bf5e2fbeebf094c57b40",
+      "git:hexsha": "e94fb2dff28eb4497f64bf5e2fbeebf094c57b40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/37c7100c8b3ec51216f11ea88cd6d86edfb73719",
+      "git:hexsha": "37c7100c8b3ec51216f11ea88cd6d86edfb73719",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/a68f119afe11795264cb94b0096100f4323dd1a6",
+      "git:hexsha": "a68f119afe11795264cb94b0096100f4323dd1a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/1b22a88b803388f93d6249f4292c4920b161b429",
+      "git:hexsha": "1b22a88b803388f93d6249f4292c4920b161b429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b682c7a281a9c16a0877a946dd77e6de8830ee3b",
+      "git:hexsha": "b682c7a281a9c16a0877a946dd77e6de8830ee3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b78dd8d5426c0f1f7e97ba71a7f96dcac85bf9f4",
+      "git:hexsha": "b78dd8d5426c0f1f7e97ba71a7f96dcac85bf9f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/c57822b3b30ac5b86a8b6b799e971fa7d740ec9f",
+      "git:hexsha": "c57822b3b30ac5b86a8b6b799e971fa7d740ec9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/a9e358ea572c20e2591b5a66fd13e50cb0781ffa",
+      "git:hexsha": "a9e358ea572c20e2591b5a66fd13e50cb0781ffa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/8ccab3ab80d61935429e5d42a3a95a56cbb8f473",
+      "git:hexsha": "8ccab3ab80d61935429e5d42a3a95a56cbb8f473",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/f10504e95f71a36e4bb5e1bdf361e9b6a5f68319",
+      "git:hexsha": "f10504e95f71a36e4bb5e1bdf361e9b6a5f68319",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/52407bd8d87ac6a38a1edc1def5f4f14167924e1",
+      "git:hexsha": "52407bd8d87ac6a38a1edc1def5f4f14167924e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9e367e1d42356a21f52446014714ce30b0778639",
+      "git:hexsha": "9e367e1d42356a21f52446014714ce30b0778639",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9d59389fc0433597621aec46b8bfbc0f0ebba01c",
+      "git:hexsha": "9d59389fc0433597621aec46b8bfbc0f0ebba01c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/31579ed2378208a5234bfe3227f560aa1dc4a040",
+      "git:hexsha": "31579ed2378208a5234bfe3227f560aa1dc4a040",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/2f77ca1187607f7dccc0f184b02e98e6d437058f",
+      "git:hexsha": "2f77ca1187607f7dccc0f184b02e98e6d437058f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/d90cc5142bb397b72562c3e05bf284aada6e056a",
+      "git:hexsha": "d90cc5142bb397b72562c3e05bf284aada6e056a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/d784e0a52bbba522084d4c7a5402278b691ac786",
+      "git:hexsha": "d784e0a52bbba522084d4c7a5402278b691ac786",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/fbadcbeb29532f34b4dcee704b0f9f3f5f976528",
+      "git:hexsha": "fbadcbeb29532f34b4dcee704b0f9f3f5f976528",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e05475d58a7b0dbee0313143feed60f676e0b1f7",
+      "git:hexsha": "e05475d58a7b0dbee0313143feed60f676e0b1f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/928cb3aa9b1223b8ddf707475e207e7f1622edae",
+      "git:hexsha": "928cb3aa9b1223b8ddf707475e207e7f1622edae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/270ef0db47fac6f7b754275e0aebd6e0463849fb",
+      "git:hexsha": "270ef0db47fac6f7b754275e0aebd6e0463849fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4834c0cb4bff17e936a138425ad27a3cb042d613",
+      "git:hexsha": "4834c0cb4bff17e936a138425ad27a3cb042d613",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e5acd27c9b73d6441d352872761db29f790b4de2",
+      "git:hexsha": "e5acd27c9b73d6441d352872761db29f790b4de2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/bd2270fb05bafee4409fbb1caed34f3cf3da575c",
+      "git:hexsha": "bd2270fb05bafee4409fbb1caed34f3cf3da575c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/605cf2631e0df0fa2ce410503e5973e7d483a735",
+      "git:hexsha": "605cf2631e0df0fa2ce410503e5973e7d483a735",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/950d1d072f7490bbd4a3e108ac38fe8e01d43847",
+      "git:hexsha": "950d1d072f7490bbd4a3e108ac38fe8e01d43847",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b19c83578dca91c5d4d3a1711ca52926a8a9a420",
+      "git:hexsha": "b19c83578dca91c5d4d3a1711ca52926a8a9a420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/d4509bce5ff184445f7b073349ef1641aba4f532",
+      "git:hexsha": "d4509bce5ff184445f7b073349ef1641aba4f532",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/50a26191ea91518d393a91035836f7cf0cf29de0",
+      "git:hexsha": "50a26191ea91518d393a91035836f7cf0cf29de0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e6a0d2884a1aa3d78d2962a030c7ebb002ad7fba",
+      "git:hexsha": "e6a0d2884a1aa3d78d2962a030c7ebb002ad7fba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/39bba05a17296aa474e6f236405e51e85325793c",
+      "git:hexsha": "39bba05a17296aa474e6f236405e51e85325793c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/05ad2e50089f2003b504e0b21bff6466201ffdff",
+      "git:hexsha": "05ad2e50089f2003b504e0b21bff6466201ffdff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/1f84d0a317786f8e996c088ebc70be6aabeed873",
+      "git:hexsha": "1f84d0a317786f8e996c088ebc70be6aabeed873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/6c7273465211bb6ba58d0937ccf05b9eebd2d63e",
+      "git:hexsha": "6c7273465211bb6ba58d0937ccf05b9eebd2d63e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e41a50af97e694fd838637042fddab33f1c5f559",
+      "git:hexsha": "e41a50af97e694fd838637042fddab33f1c5f559",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/d7293aa1cd2499801ee63bc5e0ca564e7a12c692",
+      "git:hexsha": "d7293aa1cd2499801ee63bc5e0ca564e7a12c692",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/6bd5eee9b098189d0e0506a3527e010111253b85",
+      "git:hexsha": "6bd5eee9b098189d0e0506a3527e010111253b85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/22e24f24c61d07a96a05eb4ff2ffbdb5861dace1",
+      "git:hexsha": "22e24f24c61d07a96a05eb4ff2ffbdb5861dace1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/815ce43d17cca8c28d1268b82013f95669e5bfbc",
+      "git:hexsha": "815ce43d17cca8c28d1268b82013f95669e5bfbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/91dd7cd4dc007f6e39fc8ad0f88978a3e1a83f8f",
+      "git:hexsha": "91dd7cd4dc007f6e39fc8ad0f88978a3e1a83f8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/37fed289e62ef6d46063b9f2acba150fb419dd4c",
+      "git:hexsha": "37fed289e62ef6d46063b9f2acba150fb419dd4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/ff1504dc5812157d7c95383c06814aafb450ff5b",
+      "git:hexsha": "ff1504dc5812157d7c95383c06814aafb450ff5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/8ce0051f9b88ee57f0e207b41013ab5b7063ef75",
+      "git:hexsha": "8ce0051f9b88ee57f0e207b41013ab5b7063ef75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/d7a0723a52f6eb46c89dc3418174bf0cf6cb5900",
+      "git:hexsha": "d7a0723a52f6eb46c89dc3418174bf0cf6cb5900",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/90da2333417444dddb2505169c171ecc379c0a12",
+      "git:hexsha": "90da2333417444dddb2505169c171ecc379c0a12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/8a74b3e259143f10b0f681205e05a11f803f70d3",
+      "git:hexsha": "8a74b3e259143f10b0f681205e05a11f803f70d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b952b103e29c13d506bbea9eb9e4de12ae974bee",
+      "git:hexsha": "b952b103e29c13d506bbea9eb9e4de12ae974bee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/f82dcbea215508971b1b4a60a6c7afcf80987cc7",
+      "git:hexsha": "f82dcbea215508971b1b4a60a6c7afcf80987cc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/025091c3fb6a31921e651aca7d64a4d86ba6bbe9",
+      "git:hexsha": "025091c3fb6a31921e651aca7d64a4d86ba6bbe9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/58a81374d676f0b7cb62e2488213970de52d1ccd",
+      "git:hexsha": "58a81374d676f0b7cb62e2488213970de52d1ccd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/f7c0a85c7241f7e753d8cb4f20f4fc009fc0a81d",
+      "git:hexsha": "f7c0a85c7241f7e753d8cb4f20f4fc009fc0a81d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/bb1cdef4c6f006a48a035023942c3ad34f4d575c",
+      "git:hexsha": "bb1cdef4c6f006a48a035023942c3ad34f4d575c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/80c129941a218aa5b32d21ac258954969e6a4b7d",
+      "git:hexsha": "80c129941a218aa5b32d21ac258954969e6a4b7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4ee90e5ea293e6997c883c53fbf2dd346cecbe39",
+      "git:hexsha": "4ee90e5ea293e6997c883c53fbf2dd346cecbe39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e1c0ab5bd24584a9213b175ce07f631bddad69ff",
+      "git:hexsha": "e1c0ab5bd24584a9213b175ce07f631bddad69ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/7adca3efff0389d0680bdff5dcdf9ee3aa2a78ba",
+      "git:hexsha": "7adca3efff0389d0680bdff5dcdf9ee3aa2a78ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.22.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/95886d1cf972ab1e930769b22b1c6c47decc946c",
+      "git:hexsha": "95886d1cf972ab1e930769b22b1c6c47decc946c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/3d4c5346c64e7a55df5b9770fed0a445c8989616",
+      "git:hexsha": "3d4c5346c64e7a55df5b9770fed0a445c8989616",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/2a99218162ac892d4406627ecd9f783de9f443db",
+      "git:hexsha": "2a99218162ac892d4406627ecd9f783de9f443db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e58fe63dde2a684ca5803d092c8a34c7a94b6ead",
+      "git:hexsha": "e58fe63dde2a684ca5803d092c8a34c7a94b6ead",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/278dcc5ddae183edf919ba0fd0d4f589b314d15a",
+      "git:hexsha": "278dcc5ddae183edf919ba0fd0d4f589b314d15a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4f92a02bc419748352d27b9c126a2b1370eb6dff",
+      "git:hexsha": "4f92a02bc419748352d27b9c126a2b1370eb6dff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/5ca4ecb54b82d2d343da917a33e03a5eb7f6cfde",
+      "git:hexsha": "5ca4ecb54b82d2d343da917a33e03a5eb7f6cfde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/ded8568802b90dfaa1732042c6855400a99e0976",
+      "git:hexsha": "ded8568802b90dfaa1732042c6855400a99e0976",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/0148434e3621db9eb48be00eb01bc8170236a206",
+      "git:hexsha": "0148434e3621db9eb48be00eb01bc8170236a206",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/45d5db3d9846810fea3cab4001b8ba2afc4c27ef",
+      "git:hexsha": "45d5db3d9846810fea3cab4001b8ba2afc4c27ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/cea0f7639cef7629fd94d5ac1c25a2e0bbc3c775",
+      "git:hexsha": "cea0f7639cef7629fd94d5ac1c25a2e0bbc3c775",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/a3e020715c3f2ca0c5b31e026f422560889c5849",
+      "git:hexsha": "a3e020715c3f2ca0c5b31e026f422560889c5849",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/173ea95bcb245d68367c3c2aa26a941812ffebbb",
+      "git:hexsha": "173ea95bcb245d68367c3c2aa26a941812ffebbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.26.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/5641e2ac9be4bd7ffe0ccf97063eb60f3fff26cf",
+      "git:hexsha": "5641e2ac9be4bd7ffe0ccf97063eb60f3fff26cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/ffc0ab2d4066802af0bf89db6ac419a403bb9e95",
+      "git:hexsha": "ffc0ab2d4066802af0bf89db6ac419a403bb9e95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9289ce853461a831f0b5a05c5653710908912fc7",
+      "git:hexsha": "9289ce853461a831f0b5a05c5653710908912fc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/a554a588c9d746bc1fd61a47c1bad16ec62aed68",
+      "git:hexsha": "a554a588c9d746bc1fd61a47c1bad16ec62aed68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4dcbbfba5b18a3ec83203279c935f1299c99c429",
+      "git:hexsha": "4dcbbfba5b18a3ec83203279c935f1299c99c429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/4428daa41190a626ab0b2a198cd3a0c462eed831",
+      "git:hexsha": "4428daa41190a626ab0b2a198cd3a0c462eed831",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/ed52123206f1781992bd99e18b64b5c4e9c977ec",
+      "git:hexsha": "ed52123206f1781992bd99e18b64b5c4e9c977ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/18502d5250d053275fc7222da3f267b6358b64e1",
+      "git:hexsha": "18502d5250d053275fc7222da3f267b6358b64e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/a5c43c26f3718e02dd2483263334c5eb73563c75",
+      "git:hexsha": "a5c43c26f3718e02dd2483263334c5eb73563c75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/68b7c0d38c442c223927730a341fe943e3fb0852",
+      "git:hexsha": "68b7c0d38c442c223927730a341fe943e3fb0852",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/42e27a360dacf9d2d01eb2870c814ccc6dd11f4c",
+      "git:hexsha": "42e27a360dacf9d2d01eb2870c814ccc6dd11f4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/e1e5dfccc195e84fa94114d22d7dc7e4c1c422d5",
+      "git:hexsha": "e1e5dfccc195e84fa94114d22d7dc7e4c1c422d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b908b5986ab96d8db840ebfd0c396ebe144ca72c",
+      "git:hexsha": "b908b5986ab96d8db840ebfd0c396ebe144ca72c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/94416989a81318435ab3f8d95f55704c0634c32f",
+      "git:hexsha": "94416989a81318435ab3f8d95f55704c0634c32f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/f3db4eeea55522f8b10970e0f1a5ed705b47eb8a",
+      "git:hexsha": "f3db4eeea55522f8b10970e0f1a5ed705b47eb8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/58bde046729b39437f5282ef4967f1d90bbdc8b9",
+      "git:hexsha": "58bde046729b39437f5282ef4967f1d90bbdc8b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/b3fea5b7df9a59583aef070f922a3393fea1c7f3",
+      "git:hexsha": "b3fea5b7df9a59583aef070f922a3393fea1c7f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/690561ecd9da7971658c0dd5dfa6e74f28cb2d94",
+      "git:hexsha": "690561ecd9da7971658c0dd5dfa6e74f28cb2d94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/114c98928d8a1b9524cacc6b36c8e06d3ab4928f",
+      "git:hexsha": "114c98928d8a1b9524cacc6b36c8e06d3ab4928f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/520e7c62785c08e291837b38f21a17aa6f65d12d",
+      "git:hexsha": "520e7c62785c08e291837b38f21a17aa6f65d12d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/87096afa074681849ff725cf1aedb36665b67aa7",
+      "git:hexsha": "87096afa074681849ff725cf1aedb36665b67aa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/c9c3a41291dbb87aa4870003aef9e2572f33d76f",
+      "git:hexsha": "c9c3a41291dbb87aa4870003aef9e2572f33d76f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/9f7aba4d20a58d9030e018b7b9f08a1d2ba7fdbe",
+      "git:hexsha": "9f7aba4d20a58d9030e018b7b9f08a1d2ba7fdbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/5cd9087e000c1cd6e8c2c9b5dc9980378bd0e7c2",
+      "git:hexsha": "5cd9087e000c1cd6e8c2c9b5dc9980378bd0e7c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/bba13acc3fbca5f81df57193ba0c8f6a0432b2ee",
+      "git:hexsha": "bba13acc3fbca5f81df57193ba0c8f6a0432b2ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/39f8c847ebbfee966b00c9d3c9a22cb819df8316",
+      "git:hexsha": "39f8c847ebbfee966b00c9d3c9a22cb819df8316",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/15c73c6b721fb577184c44b233bf565a8dd718f1",
+      "git:hexsha": "15c73c6b721fb577184c44b233bf565a8dd718f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/12e83e331eed82f4dde04429edc60fbe8c237c14",
+      "git:hexsha": "12e83e331eed82f4dde04429edc60fbe8c237c14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/fce4f220c3b54d5c6eb9c94ef74fc25ae3f5fb91",
+      "git:hexsha": "fce4f220c3b54d5c6eb9c94ef74fc25ae3f5fb91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.crypto/commit/6a39540b661690a8a986499045fbe9ffab29ad21",
+      "git:hexsha": "6a39540b661690a8a986499045fbe9ffab29ad21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.5.1"
+    }
+  ]
+}

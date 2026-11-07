@@ -1,0 +1,933 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/ansible-collections/community.docker",
+  "@type": "gh:Repository",
+  "gh:name": "community.docker",
+  "gh:owner": "ansible-collections",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/0e35b1ef2878066e2ed9f24687ebdfa6a59deaed",
+      "git:hexsha": "0e35b1ef2878066e2ed9f24687ebdfa6a59deaed",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-07T14:16:22.371976+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/6b8801e15f37a9ec28e7667c26ca1434bd263b62",
+      "git:hexsha": "6b8801e15f37a9ec28e7667c26ca1434bd263b62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/517eba3fdd6961f781264a5df0ee21169e9f3b07",
+      "git:hexsha": "517eba3fdd6961f781264a5df0ee21169e9f3b07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/7dd28ecdfe3651e67ebf3aa5a63e8ee43c8c3461",
+      "git:hexsha": "7dd28ecdfe3651e67ebf3aa5a63e8ee43c8c3461",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/9fa08824e296edb821de29e90e40981e6852ec56",
+      "git:hexsha": "9fa08824e296edb821de29e90e40981e6852ec56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/260c17ad91617f8fa816bdeddc54c2674464bed2",
+      "git:hexsha": "260c17ad91617f8fa816bdeddc54c2674464bed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/fbce9e7c313c1ecb1634eb8821d5967c9ef8c073",
+      "git:hexsha": "fbce9e7c313c1ecb1634eb8821d5967c9ef8c073",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/0c69cf7e642badabfc00e8fe50bc11a442d3a3bd",
+      "git:hexsha": "0c69cf7e642badabfc00e8fe50bc11a442d3a3bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e817e33cadbac9156e0df5e752b3660449c07e49",
+      "git:hexsha": "e817e33cadbac9156e0df5e752b3660449c07e49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e3fe22d0be7065fa2a79f77f2f6be480b881bf37",
+      "git:hexsha": "e3fe22d0be7065fa2a79f77f2f6be480b881bf37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/45d18e745c147686dd49bf4c7bdaa109b7a6ba3e",
+      "git:hexsha": "45d18e745c147686dd49bf4c7bdaa109b7a6ba3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1cb67ef90188d0a691bc0823f675a5ccb9596a05",
+      "git:hexsha": "1cb67ef90188d0a691bc0823f675a5ccb9596a05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/9a429a103ebc9e832eab1aa4cf43c811f2d381b6",
+      "git:hexsha": "9a429a103ebc9e832eab1aa4cf43c811f2d381b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/75a551b335c49cab8b5da44879be90448c3dab10",
+      "git:hexsha": "75a551b335c49cab8b5da44879be90448c3dab10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/36c846d20642b883a4105884475f3915a7c25437",
+      "git:hexsha": "36c846d20642b883a4105884475f3915a7c25437",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/661abb98557425d129c359d54ccc4f5a8c711880",
+      "git:hexsha": "661abb98557425d129c359d54ccc4f5a8c711880",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3b81f597948bc50a713880a20de9897c0565a248",
+      "git:hexsha": "3b81f597948bc50a713880a20de9897c0565a248",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/f6265ee4509c90bb6f5a3763fe3f3b7ee38d1b5c",
+      "git:hexsha": "f6265ee4509c90bb6f5a3763fe3f3b7ee38d1b5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ace02c09ff25b82fdae825927a23a067b555e7ca",
+      "git:hexsha": "ace02c09ff25b82fdae825927a23a067b555e7ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/926a6c5cb9248c07bc38a415a6e5325d2e37b4a5",
+      "git:hexsha": "926a6c5cb9248c07bc38a415a6e5325d2e37b4a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ef7c7003932d37c15d256680058f1a22592b9644",
+      "git:hexsha": "ef7c7003932d37c15d256680058f1a22592b9644",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.10.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/4df5a7468a3774bb564082f010d0b269714c9f01",
+      "git:hexsha": "4df5a7468a3774bb564082f010d0b269714c9f01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/bcd1201af659d01910789a6fa45a9ac13ee0c791",
+      "git:hexsha": "bcd1201af659d01910789a6fa45a9ac13ee0c791",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/bbf8373f6cb912d5006f44d298a80aa8f5337cb2",
+      "git:hexsha": "bbf8373f6cb912d5006f44d298a80aa8f5337cb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/8f4f69975baef06fcb96ab7671f43b712f9df245",
+      "git:hexsha": "8f4f69975baef06fcb96ab7671f43b712f9df245",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/92db288917411ee377094701e4b21cc509f99b8e",
+      "git:hexsha": "92db288917411ee377094701e4b21cc509f99b8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/dd03fdbc6a6cb2238bb187692f4717127651e940",
+      "git:hexsha": "dd03fdbc6a6cb2238bb187692f4717127651e940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/36c1b4d8180f85823c3e253727d06bf402d57869",
+      "git:hexsha": "36c1b4d8180f85823c3e253727d06bf402d57869",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/edd14808ee7acea5431d655d9db5ae899f77693f",
+      "git:hexsha": "edd14808ee7acea5431d655d9db5ae899f77693f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/5fa0aa073ca172222a6acabfbf6a8fbdbbee0005",
+      "git:hexsha": "5fa0aa073ca172222a6acabfbf6a8fbdbbee0005",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/2593c09d491b2e322c183ba8e7d901c6d7e15062",
+      "git:hexsha": "2593c09d491b2e322c183ba8e7d901c6d7e15062",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/36a01c164f6b372370421661e6e3b894bd8f2074",
+      "git:hexsha": "36a01c164f6b372370421661e6e3b894bd8f2074",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/a56cad3a09d0c31bdd28e4681618b3a03eeb2df2",
+      "git:hexsha": "a56cad3a09d0c31bdd28e4681618b3a03eeb2df2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/5183f84962d3f923040d94db5397d9cd9abd7be0",
+      "git:hexsha": "5183f84962d3f923040d94db5397d9cd9abd7be0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b31e7d7d9ce2f16373b7ab27d77d97f428b6a8ea",
+      "git:hexsha": "b31e7d7d9ce2f16373b7ab27d77d97f428b6a8ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1b9416b572d2877f043838030a2e8cd0c1dacfa8",
+      "git:hexsha": "1b9416b572d2877f043838030a2e8cd0c1dacfa8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/2c855d23910d63517498359612b7191e5b27bc1c",
+      "git:hexsha": "2c855d23910d63517498359612b7191e5b27bc1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e87b66b806b587e14e526735ca73d016f7a5f838",
+      "git:hexsha": "e87b66b806b587e14e526735ca73d016f7a5f838",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ea82ebbd374a5c42c7d3c8402ce5a6aed9089b80",
+      "git:hexsha": "ea82ebbd374a5c42c7d3c8402ce5a6aed9089b80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/d6c20e76c6c5a6eb17e4ebf54ef516185282d724",
+      "git:hexsha": "d6c20e76c6c5a6eb17e4ebf54ef516185282d724",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/4be3a64f8a33cc0590e636b7e9754a26f0e3690a",
+      "git:hexsha": "4be3a64f8a33cc0590e636b7e9754a26f0e3690a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/2cef29e2e12942597f04ca0864c62a06132f21d1",
+      "git:hexsha": "2cef29e2e12942597f04ca0864c62a06132f21d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1848142d4f8d808245313671a678fdaf792d182a",
+      "git:hexsha": "1848142d4f8d808245313671a678fdaf792d182a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/929a2f6e5fed7107ef59ad8de87ec55fde73687b",
+      "git:hexsha": "929a2f6e5fed7107ef59ad8de87ec55fde73687b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/01ca3f0e1cf74055edfc6f62198b1187e534e9f9",
+      "git:hexsha": "01ca3f0e1cf74055edfc6f62198b1187e534e9f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/82f5314c02c685b3163e5b485da2b581d11b0437",
+      "git:hexsha": "82f5314c02c685b3163e5b485da2b581d11b0437",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3119af72cf965a7a3b663884c907b9aee6a56caa",
+      "git:hexsha": "3119af72cf965a7a3b663884c907b9aee6a56caa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/5578af74e58e50c1b3e7a2f247b5fe176e53bda2",
+      "git:hexsha": "5578af74e58e50c1b3e7a2f247b5fe176e53bda2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/12f7beb48b58560d823858ef0d343f8e5875f218",
+      "git:hexsha": "12f7beb48b58560d823858ef0d343f8e5875f218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/698a20b749ecbd3fce8f9f16d34c3cfe3108ae73",
+      "git:hexsha": "698a20b749ecbd3fce8f9f16d34c3cfe3108ae73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/11d47f26befd4dc080e57952cac19da692fe72a2",
+      "git:hexsha": "11d47f26befd4dc080e57952cac19da692fe72a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ab08d70dc86068a89aa37be55faaa23ce3624d34",
+      "git:hexsha": "ab08d70dc86068a89aa37be55faaa23ce3624d34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/cb58b91d8d03da8e275f3904581195ea1ac6b443",
+      "git:hexsha": "cb58b91d8d03da8e275f3904581195ea1ac6b443",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/f776b689d80a2606cc4f8a91935de761d38621d8",
+      "git:hexsha": "f776b689d80a2606cc4f8a91935de761d38621d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/8cb5b6d1bb50419c8439ba70bccd345db465826e",
+      "git:hexsha": "8cb5b6d1bb50419c8439ba70bccd345db465826e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/08810a66a98cd6e874d50e18378daefa938a7ba2",
+      "git:hexsha": "08810a66a98cd6e874d50e18378daefa938a7ba2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/8d9bf780e287b7b8c8605406f04c19c1d7580fa2",
+      "git:hexsha": "8d9bf780e287b7b8c8605406f04c19c1d7580fa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/93b351f6073c3bca3419302f3f85a9b97697e72b",
+      "git:hexsha": "93b351f6073c3bca3419302f3f85a9b97697e72b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/178a58bf07d0615e4651d6748634ea343d3f2d75",
+      "git:hexsha": "178a58bf07d0615e4651d6748634ea343d3f2d75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1e93fd6dda2a71e5fb33f7ac73395307ae32ae87",
+      "git:hexsha": "1e93fd6dda2a71e5fb33f7ac73395307ae32ae87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/be4f333696ec9653b963687c95ca5e00a3c6833f",
+      "git:hexsha": "be4f333696ec9653b963687c95ca5e00a3c6833f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b90cc8b3f9caea8ae8c33ed4fe278e07f5550805",
+      "git:hexsha": "b90cc8b3f9caea8ae8c33ed4fe278e07f5550805",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/0e3d7d4802a132ad4d57ff5834cf0bece359cc81",
+      "git:hexsha": "0e3d7d4802a132ad4d57ff5834cf0bece359cc81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/6caaa3a90bd61f50a2813e30e6d25ccb48e40978",
+      "git:hexsha": "6caaa3a90bd61f50a2813e30e6d25ccb48e40978",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e90647b209853126650201cf011841f8f5e04c71",
+      "git:hexsha": "e90647b209853126650201cf011841f8f5e04c71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b2bb064e4703a3016cea8526c837f5df7ef85bd2",
+      "git:hexsha": "b2bb064e4703a3016cea8526c837f5df7ef85bd2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/fbac2ecc3d01aa429e2aad7d4dfbaa2310565d46",
+      "git:hexsha": "fbac2ecc3d01aa429e2aad7d4dfbaa2310565d46",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/8eabc7fe00072322ce459d14f9ff8bdd1bce520c",
+      "git:hexsha": "8eabc7fe00072322ce459d14f9ff8bdd1bce520c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/a72d7795c4d368ebfd3ad8e2bdec505c818e8c97",
+      "git:hexsha": "a72d7795c4d368ebfd3ad8e2bdec505c818e8c97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b6e698c1def9542535f37f45578f30ea5b85dbe6",
+      "git:hexsha": "b6e698c1def9542535f37f45578f30ea5b85dbe6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b9add7b4156f1f0f8c28c8fed8c7d32e4927a65f",
+      "git:hexsha": "b9add7b4156f1f0f8c28c8fed8c7d32e4927a65f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/260b2859c563edc0563ccd366229297f51ca017c",
+      "git:hexsha": "260b2859c563edc0563ccd366229297f51ca017c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/9e7b5407fd9315a784c3b51309a631c1b5e268e7",
+      "git:hexsha": "9e7b5407fd9315a784c3b51309a631c1b5e268e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3383cd551ecb9b534bc3126dcde2262d5447f8af",
+      "git:hexsha": "3383cd551ecb9b534bc3126dcde2262d5447f8af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/65d8dc8908d928353693ed2cc8ddb2fe1d9b9c3d",
+      "git:hexsha": "65d8dc8908d928353693ed2cc8ddb2fe1d9b9c3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/d797af0d67d33a3fa91953c4acd4b627e3626738",
+      "git:hexsha": "d797af0d67d33a3fa91953c4acd4b627e3626738",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/6791364105e61014d0499e645ec600ebbb6aed03",
+      "git:hexsha": "6791364105e61014d0499e645ec600ebbb6aed03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/bfb0fed227497a497118d725e3eebe29a21fa84d",
+      "git:hexsha": "bfb0fed227497a497118d725e3eebe29a21fa84d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/54d70d9afc6a775a268ba4c711f25862a82910fb",
+      "git:hexsha": "54d70d9afc6a775a268ba4c711f25862a82910fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/0749d615131f1ab2e1b0601c42c8c3ccbe6a2931",
+      "git:hexsha": "0749d615131f1ab2e1b0601c42c8c3ccbe6a2931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/a2470bc23257ab2004b6a49ae82b84322e2ec355",
+      "git:hexsha": "a2470bc23257ab2004b6a49ae82b84322e2ec355",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3c2b21a6726ca292823effa73c9a34571ed80d9b",
+      "git:hexsha": "3c2b21a6726ca292823effa73c9a34571ed80d9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1c1a6aec3b28b1bd6ceee3f5a06eb376eb545e0b",
+      "git:hexsha": "1c1a6aec3b28b1bd6ceee3f5a06eb376eb545e0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b7edd43b5b02d50774d8dd2c55cc34c62f542c42",
+      "git:hexsha": "b7edd43b5b02d50774d8dd2c55cc34c62f542c42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/82b1276612f85a4529880476f610dd7c89ada075",
+      "git:hexsha": "82b1276612f85a4529880476f610dd7c89ada075",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3afaf45d073a19b9206b153bc3639d844591b93e",
+      "git:hexsha": "3afaf45d073a19b9206b153bc3639d844591b93e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/2e7153bbd26624d48eca888de81f26245ff26c5e",
+      "git:hexsha": "2e7153bbd26624d48eca888de81f26245ff26c5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ce2cf8ea78db0ec151b432f45651fe23f26fded5",
+      "git:hexsha": "ce2cf8ea78db0ec151b432f45651fe23f26fded5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/a9b81cba0757f1f8abc8404afe162b4466276ff2",
+      "git:hexsha": "a9b81cba0757f1f8abc8404afe162b4466276ff2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.13.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/79b05f5e1dedc56f9f422cda0f0c9187e56ebd40",
+      "git:hexsha": "79b05f5e1dedc56f9f422cda0f0c9187e56ebd40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1427a7ccdd52c93e90f848ad230fb3c0105009ba",
+      "git:hexsha": "1427a7ccdd52c93e90f848ad230fb3c0105009ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/5b4d24a8172e5c18a579927e36472d3bfa8fc007",
+      "git:hexsha": "5b4d24a8172e5c18a579927e36472d3bfa8fc007",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ffff6b7e7739c413fc3de8e8c763ecb0cdb709b8",
+      "git:hexsha": "ffff6b7e7739c413fc3de8e8c763ecb0cdb709b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/080a043c79d2271506344a5734ddfd2b0712adb5",
+      "git:hexsha": "080a043c79d2271506344a5734ddfd2b0712adb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b8fb4740a386d444c3d705a655f0faa55aaf115a",
+      "git:hexsha": "b8fb4740a386d444c3d705a655f0faa55aaf115a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/96b6f5917d89b8e60fc434e5e02e79b8caf565d8",
+      "git:hexsha": "96b6f5917d89b8e60fc434e5e02e79b8caf565d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/5dd90e5884bba7c23e681e31b2eccae63d7f7aa4",
+      "git:hexsha": "5dd90e5884bba7c23e681e31b2eccae63d7f7aa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ee054c6bf7f69e36db8805e8b1a497a97fedb2c9",
+      "git:hexsha": "ee054c6bf7f69e36db8805e8b1a497a97fedb2c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/1052ce2ded50d5a5e98ef97aef4aa80293d6f61f",
+      "git:hexsha": "1052ce2ded50d5a5e98ef97aef4aa80293d6f61f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/82dde7cadd1502819702892cbaacb970f19eb332",
+      "git:hexsha": "82dde7cadd1502819702892cbaacb970f19eb332",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e0f4c33782fa70e6cccf31e96868d71fb97ee166",
+      "git:hexsha": "e0f4c33782fa70e6cccf31e96868d71fb97ee166",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/0475be51662dfcae008aeda5ad9f7d6986c30efa",
+      "git:hexsha": "0475be51662dfcae008aeda5ad9f7d6986c30efa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ce16a0d5f171c6531e7c5234359c5711d2d7d307",
+      "git:hexsha": "ce16a0d5f171c6531e7c5234359c5711d2d7d307",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/a284137d154135163f4624a8f86198f49d14724d",
+      "git:hexsha": "a284137d154135163f4624a8f86198f49d14724d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e5d289a650a11ac8ec81512383efa68e2dd5c5c1",
+      "git:hexsha": "e5d289a650a11ac8ec81512383efa68e2dd5c5c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/377f0f73557c13cb36f3acfed68acf345cd7ec02",
+      "git:hexsha": "377f0f73557c13cb36f3acfed68acf345cd7ec02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/70ea7969145b5a3e8e4d07f2894d2b13c0f3b6cb",
+      "git:hexsha": "70ea7969145b5a3e8e4d07f2894d2b13c0f3b6cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/080a2d68c172e597e6a3dc4e1dc01c3f96ffc199",
+      "git:hexsha": "080a2d68c172e597e6a3dc4e1dc01c3f96ffc199",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/564d3f389f8bae6825adbcf82e7beeb3910e859b",
+      "git:hexsha": "564d3f389f8bae6825adbcf82e7beeb3910e859b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/7d680aa102332fc88e240c6dc82f71557ae23f0a",
+      "git:hexsha": "7d680aa102332fc88e240c6dc82f71557ae23f0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.6.0-b1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/5eb115cb107f438036bdfe494f0d0880bc71339f",
+      "git:hexsha": "5eb115cb107f438036bdfe494f0d0880bc71339f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.6.0-b2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/31540c43d66251789cb7e2cbee84198e9d3ce740",
+      "git:hexsha": "31540c43d66251789cb7e2cbee84198e9d3ce740",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.6.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/810bf738d7f5d6883a8bdc256935aa93bac48df2",
+      "git:hexsha": "810bf738d7f5d6883a8bdc256935aa93bac48df2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/eafa7d03a83cbb5e8f14b832677949ce83ed97f8",
+      "git:hexsha": "eafa7d03a83cbb5e8f14b832677949ce83ed97f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/59a8220c7f16c068ef9df6aba8e4962c9bcb3435",
+      "git:hexsha": "59a8220c7f16c068ef9df6aba8e4962c9bcb3435",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/379ce23270d9e85d98cd900bd13424dac17c7050",
+      "git:hexsha": "379ce23270d9e85d98cd900bd13424dac17c7050",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/90cf544dbac27564aef459745d6aaa6595e6b4ef",
+      "git:hexsha": "90cf544dbac27564aef459745d6aaa6595e6b4ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/385839d89132e4991ffc500e4f3382621035b442",
+      "git:hexsha": "385839d89132e4991ffc500e4f3382621035b442",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/c294fa4063de3d4ffca4e43cb7978b61214fc07e",
+      "git:hexsha": "c294fa4063de3d4ffca4e43cb7978b61214fc07e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e638e02124944ab157ead2024c1e9dd876c4ca93",
+      "git:hexsha": "e638e02124944ab157ead2024c1e9dd876c4ca93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3da95fcebf025e916123581aaecd3bc23b9f63f9",
+      "git:hexsha": "3da95fcebf025e916123581aaecd3bc23b9f63f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/05eb3b90eb252b6701fd4e312c7361c2970d8a56",
+      "git:hexsha": "05eb3b90eb252b6701fd4e312c7361c2970d8a56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/e36ee04ea6eb94c6de8731db94aa79a9c6e6180b",
+      "git:hexsha": "e36ee04ea6eb94c6de8731db94aa79a9c6e6180b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/799fe434e5270fc5bba38e9135c67498dd5e95e6",
+      "git:hexsha": "799fe434e5270fc5bba38e9135c67498dd5e95e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/7355c7de0d3c8d64610301a1230410bf022706bc",
+      "git:hexsha": "7355c7de0d3c8d64610301a1230410bf022706bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/2d65015e86c3a8a9445a2289f097b8ae0994c774",
+      "git:hexsha": "2d65015e86c3a8a9445a2289f097b8ae0994c774",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/9a93812d3bacda4f0d554bea6c4dbfb75b726671",
+      "git:hexsha": "9a93812d3bacda4f0d554bea6c4dbfb75b726671",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/2e20028392894fcfe7b49deae320f47c7eafa6d3",
+      "git:hexsha": "2e20028392894fcfe7b49deae320f47c7eafa6d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3913a9aec1086dd34abb6e3dc86b754786c280e7",
+      "git:hexsha": "3913a9aec1086dd34abb6e3dc86b754786c280e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/8c66e6299c460ea753cd4f24779a0e96afa13d84",
+      "git:hexsha": "8c66e6299c460ea753cd4f24779a0e96afa13d84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/8723784cf07b5a90da52ab9c5bb2fd7a92deee7e",
+      "git:hexsha": "8723784cf07b5a90da52ab9c5bb2fd7a92deee7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/d757294540ffdbe11bb165436120f3a735ab6ec0",
+      "git:hexsha": "d757294540ffdbe11bb165436120f3a735ab6ec0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/66327d277f60eee77a79c1495a9b40e7546df6dd",
+      "git:hexsha": "66327d277f60eee77a79c1495a9b40e7546df6dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/231f8d50a9d92612e8b8eae53b06a77588833eeb",
+      "git:hexsha": "231f8d50a9d92612e8b8eae53b06a77588833eeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/b4245dcee4e748eb8d06bb4af69ddd833e821b9a",
+      "git:hexsha": "b4245dcee4e748eb8d06bb4af69ddd833e821b9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/ac397b7dd4966f05e1daa57a2ff1f30089a3df2f",
+      "git:hexsha": "ac397b7dd4966f05e1daa57a2ff1f30089a3df2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/4e08cd3f3d2149535cf910eb10eb4ff9220c0632",
+      "git:hexsha": "4e08cd3f3d2149535cf910eb10eb4ff9220c0632",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/35217dc643d51255f5ed6aa08c6cb81546e9a53a",
+      "git:hexsha": "35217dc643d51255f5ed6aa08c6cb81546e9a53a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/cba5f09fbdfe3e972ee039a78089906a857bf331",
+      "git:hexsha": "cba5f09fbdfe3e972ee039a78089906a857bf331",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/17c6f4c23060670f3c41752c2da97d476c5b8dba",
+      "git:hexsha": "17c6f4c23060670f3c41752c2da97d476c5b8dba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.8.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/02f787a93044b0be7196b5bde36da3c874ee144b",
+      "git:hexsha": "02f787a93044b0be7196b5bde36da3c874ee144b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/7afd6594596f5b6b5e2802557b1c169aaaff8115",
+      "git:hexsha": "7afd6594596f5b6b5e2802557b1c169aaaff8115",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0-a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/aedf8f96747c974199fc35b3c622a046489101e9",
+      "git:hexsha": "aedf8f96747c974199fc35b3c622a046489101e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/13e74e58faa5b124c0ef16b664db64e4d42e22f4",
+      "git:hexsha": "13e74e58faa5b124c0ef16b664db64e4d42e22f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/908c23a3c371262f232fa25bdbd6e147e37d5055",
+      "git:hexsha": "908c23a3c371262f232fa25bdbd6e147e37d5055",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/25e7ba222e99fb145a85a82c47a16087159476ab",
+      "git:hexsha": "25e7ba222e99fb145a85a82c47a16087159476ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/bacb512e0a8f45927a93c2176a7a26a3ddb8d63c",
+      "git:hexsha": "bacb512e0a8f45927a93c2176a7a26a3ddb8d63c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/aa9b926fb3cccc8e6c16474c21d03aa54efcdf5d",
+      "git:hexsha": "aa9b926fb3cccc8e6c16474c21d03aa54efcdf5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/7a9c846fbfacd8246b1bab3662f82878ec574654",
+      "git:hexsha": "7a9c846fbfacd8246b1bab3662f82878ec574654",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/3f5d5578e4c95c2971cabc1142139fe51785a2dc",
+      "git:hexsha": "3f5d5578e4c95c2971cabc1142139fe51785a2dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/a9bb98bc6e64b68ceb056912fdda4fcf13a16a8f",
+      "git:hexsha": "a9bb98bc6e64b68ceb056912fdda4fcf13a16a8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/44812d46a5072eec78175a41a1100ee77218c8a2",
+      "git:hexsha": "44812d46a5072eec78175a41a1100ee77218c8a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/96c41f8afac51d3d5aa8238eea6adae320809ebf",
+      "git:hexsha": "96c41f8afac51d3d5aa8238eea6adae320809ebf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/community.docker/commit/6be1a09bebd60cb5d07e4f4753b2f393e44fe0e2",
+      "git:hexsha": "6be1a09bebd60cb5d07e4f4753b2f393e44fe0e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.4.0"
+    }
+  ]
+}
