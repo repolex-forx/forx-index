@@ -1,0 +1,424 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr",
+  "@type": "gh:Repository",
+  "gh:name": "cisco.iosxr",
+  "gh:owner": "ansible-collections",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/bf4c479053376d57ff7cba187429108c049c765b",
+      "git:hexsha": "bf4c479053376d57ff7cba187429108c049c765b",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v13.0.0",
+      "repolex:parsedAt": "2026-11-07T16:06:15.503899+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/1f31d64e4cc05787949192eb43ff131ea250a477",
+      "git:hexsha": "1f31d64e4cc05787949192eb43ff131ea250a477",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/7f4b75bbf659440ff0bc7379ee756ab62c071f49",
+      "git:hexsha": "7f4b75bbf659440ff0bc7379ee756ab62c071f49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/71c33946739b6f74add912d4f18246044e4412fe",
+      "git:hexsha": "71c33946739b6f74add912d4f18246044e4412fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/6b4f87646d6af87b220fa48e5736b048e21a175b",
+      "git:hexsha": "6b4f87646d6af87b220fa48e5736b048e21a175b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/b2f690c64aedb3c004da470d2f11d3486436917f",
+      "git:hexsha": "b2f690c64aedb3c004da470d2f11d3486436917f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/bd9a8e986429e8b413fa17ed6166d7ef988e29a8",
+      "git:hexsha": "bd9a8e986429e8b413fa17ed6166d7ef988e29a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/41a45cea8e3e7be255694b5dacce4c94ab4d3bf1",
+      "git:hexsha": "41a45cea8e3e7be255694b5dacce4c94ab4d3bf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/98774aafe0e3e3f72d07c43c60a855f0198a90d8",
+      "git:hexsha": "98774aafe0e3e3f72d07c43c60a855f0198a90d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/fda0c73c97566d25ab6ec68ed9d8718893044bd6",
+      "git:hexsha": "fda0c73c97566d25ab6ec68ed9d8718893044bd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/bcb10ab23510dc68c9dacd782c02fd5822763fb0",
+      "git:hexsha": "bcb10ab23510dc68c9dacd782c02fd5822763fb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/6ffb0f837c91fa22679d20b3c2b1a67911d88880",
+      "git:hexsha": "6ffb0f837c91fa22679d20b3c2b1a67911d88880",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/d8198a181dcf7b57bd321bb02e7188a3a7ae3bf7",
+      "git:hexsha": "d8198a181dcf7b57bd321bb02e7188a3a7ae3bf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/e07009bbdce581be060716ce84a1065eaf6a3eb7",
+      "git:hexsha": "e07009bbdce581be060716ce84a1065eaf6a3eb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/98d86ca2950cd1dc8f60b603d88cd24616d10863",
+      "git:hexsha": "98d86ca2950cd1dc8f60b603d88cd24616d10863",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/99374a3f4f6ec64eabf1aedee99389bce50b21e9",
+      "git:hexsha": "99374a3f4f6ec64eabf1aedee99389bce50b21e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/e92ab97616fa17b71afa149788d830b74be5182d",
+      "git:hexsha": "e92ab97616fa17b71afa149788d830b74be5182d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/8fb82264b64bf3e7fa8313e2b35dbb490325e7ce",
+      "git:hexsha": "8fb82264b64bf3e7fa8313e2b35dbb490325e7ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/208652e11c1d3ef392fa25a5226dd55fbecda601",
+      "git:hexsha": "208652e11c1d3ef392fa25a5226dd55fbecda601",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/43f2a3f33d617fec0dd1f9c9e04b541fba3e31d1",
+      "git:hexsha": "43f2a3f33d617fec0dd1f9c9e04b541fba3e31d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/ceb70afaf9fb53c8d3f006e53ad21f949d249224",
+      "git:hexsha": "ceb70afaf9fb53c8d3f006e53ad21f949d249224",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/1069efaeb24074f86d87e490eaed04a02a16aecf",
+      "git:hexsha": "1069efaeb24074f86d87e490eaed04a02a16aecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/10686eab35e66a70b8be5e949b7a22fdb4a9ffcb",
+      "git:hexsha": "10686eab35e66a70b8be5e949b7a22fdb4a9ffcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/dd9cb2a37704cc3801fd288b3cae783e7b254db2",
+      "git:hexsha": "dd9cb2a37704cc3801fd288b3cae783e7b254db2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/216659ca92cbb8925551c9c61844b6b7e1305030",
+      "git:hexsha": "216659ca92cbb8925551c9c61844b6b7e1305030",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/43a432d282937d5ffe84fac5eefe11c9f3bbd242",
+      "git:hexsha": "43a432d282937d5ffe84fac5eefe11c9f3bbd242",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/cabbd5f09d31f5e62725666c8bf889878df0357e",
+      "git:hexsha": "cabbd5f09d31f5e62725666c8bf889878df0357e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/93dd035f15dd4371249cd827fc6931889b8238d8",
+      "git:hexsha": "93dd035f15dd4371249cd827fc6931889b8238d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/9b1b46d72a830a52bca7d4504f4fca757ce538ac",
+      "git:hexsha": "9b1b46d72a830a52bca7d4504f4fca757ce538ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/cd8dcc3be8ac88cf16e295d0d235fc2fc53c0ac4",
+      "git:hexsha": "cd8dcc3be8ac88cf16e295d0d235fc2fc53c0ac4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/2c6169a3fdd59f08d8e782182c639bd7074ee125",
+      "git:hexsha": "2c6169a3fdd59f08d8e782182c639bd7074ee125",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/e3ecab1767dde191c80a6067733fc7df6bb39612",
+      "git:hexsha": "e3ecab1767dde191c80a6067733fc7df6bb39612",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/48c5febd90b6848f26d85bea67c4c3b1893ca3db",
+      "git:hexsha": "48c5febd90b6848f26d85bea67c4c3b1893ca3db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/4b3a4f3a9c5547652ff17ad1dee85378ea742b8e",
+      "git:hexsha": "4b3a4f3a9c5547652ff17ad1dee85378ea742b8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/434a962f4b915659ecc85744c720698ae1915eb6",
+      "git:hexsha": "434a962f4b915659ecc85744c720698ae1915eb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/4976040a5718af5da4d2ced06b3cd7dd71b49e4e",
+      "git:hexsha": "4976040a5718af5da4d2ced06b3cd7dd71b49e4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/58d1ede03040cd63f131215ffd7eb0b0a5302dfd",
+      "git:hexsha": "58d1ede03040cd63f131215ffd7eb0b0a5302dfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/5232275fcae9b9e928e145c74659d4a15e573662",
+      "git:hexsha": "5232275fcae9b9e928e145c74659d4a15e573662",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/ffe4e6073c98daf52996916bb69581d8c46056cd",
+      "git:hexsha": "ffe4e6073c98daf52996916bb69581d8c46056cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/a9764647f72378ba790820b9eb616047e771b28f",
+      "git:hexsha": "a9764647f72378ba790820b9eb616047e771b28f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "5.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/4db17d50e164d52e6651f84838831063c7784531",
+      "git:hexsha": "4db17d50e164d52e6651f84838831063c7784531",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/4daf36c2a363f6c45a2332add646853b8a88521a",
+      "git:hexsha": "4daf36c2a363f6c45a2332add646853b8a88521a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/f1d214b5e7178c39fc54fae5c3d2f63223f79cd2",
+      "git:hexsha": "f1d214b5e7178c39fc54fae5c3d2f63223f79cd2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/6ba5a521c300d3ca4837c72558c9e13427a2ca40",
+      "git:hexsha": "6ba5a521c300d3ca4837c72558c9e13427a2ca40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/b5bcdd59499c22472a80a2685b19c097320859f4",
+      "git:hexsha": "b5bcdd59499c22472a80a2685b19c097320859f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/cb7aa86e09016116b97e814da214459faa512455",
+      "git:hexsha": "cb7aa86e09016116b97e814da214459faa512455",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/6662fad38b3bee8e039722783971ad7456b1c8ae",
+      "git:hexsha": "6662fad38b3bee8e039722783971ad7456b1c8ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v10.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/2c2fcf81b3c11607cc66dffb8ed8576f976f7b99",
+      "git:hexsha": "2c2fcf81b3c11607cc66dffb8ed8576f976f7b99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v11.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/b1db04e5ca10661aad91cf015a299936f5ce22da",
+      "git:hexsha": "b1db04e5ca10661aad91cf015a299936f5ce22da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v11.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/89353c7183b938b264fef6be22a159eae752a5e5",
+      "git:hexsha": "89353c7183b938b264fef6be22a159eae752a5e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/321fd5473399217aa4be7089b4c5a17ff3152c4d",
+      "git:hexsha": "321fd5473399217aa4be7089b4c5a17ff3152c4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/27dc31d87ae6fee0059e1a360b9f91d7def8dbf5",
+      "git:hexsha": "27dc31d87ae6fee0059e1a360b9f91d7def8dbf5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/320a64b555ec65ad1cf62374771f73c90da43635",
+      "git:hexsha": "320a64b555ec65ad1cf62374771f73c90da43635",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/8d8402f170d017f0fa6a28c4afbc50224aa0db88",
+      "git:hexsha": "8d8402f170d017f0fa6a28c4afbc50224aa0db88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/a108b31ec93d1dd638e1f08bd53e62e3e6a5141c",
+      "git:hexsha": "a108b31ec93d1dd638e1f08bd53e62e3e6a5141c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/9d3365dfcfdf746c0014a955253f58e2391edb56",
+      "git:hexsha": "9d3365dfcfdf746c0014a955253f58e2391edb56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/43d3f150dce36e3144df23aa12ad8ca5c480e0f1",
+      "git:hexsha": "43d3f150dce36e3144df23aa12ad8ca5c480e0f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/fcb3c7749acdd011c6b9db4d6be737141f1433e9",
+      "git:hexsha": "fcb3c7749acdd011c6b9db4d6be737141f1433e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/600da195cc154187066f6249f686cf5fda3b577c",
+      "git:hexsha": "600da195cc154187066f6249f686cf5fda3b577c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/4f3ca7a10ccecab0a816a0bed6e15c2616b35e48",
+      "git:hexsha": "4f3ca7a10ccecab0a816a0bed6e15c2616b35e48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/f09bd1f3f82a2ca8ef7f68d47ec3917e1e71cf60",
+      "git:hexsha": "f09bd1f3f82a2ca8ef7f68d47ec3917e1e71cf60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/286287582ec74feaa6e9f1a6b718affa3f6fdb00",
+      "git:hexsha": "286287582ec74feaa6e9f1a6b718affa3f6fdb00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/f81329554021c3425fa07c17cefbd6c3af07bbd2",
+      "git:hexsha": "f81329554021c3425fa07c17cefbd6c3af07bbd2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/fd28ea67f4ae22972401b4e88a4a9e3b371fac55",
+      "git:hexsha": "fd28ea67f4ae22972401b4e88a4a9e3b371fac55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v6.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/33abf80375d908e521c939eea1e2abd73a0e3730",
+      "git:hexsha": "33abf80375d908e521c939eea1e2abd73a0e3730",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/06352d2102a58ec391556c09956e0d9aa3515454",
+      "git:hexsha": "06352d2102a58ec391556c09956e0d9aa3515454",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/e14227cd1f16228d69427b4194a7837c35121387",
+      "git:hexsha": "e14227cd1f16228d69427b4194a7837c35121387",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/340fbc83c0463ab4da8d46d3d2ef5c2f511e06a6",
+      "git:hexsha": "340fbc83c0463ab4da8d46d3d2ef5c2f511e06a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ansible-collections/cisco.iosxr/commit/2cb0a619318f451d28051d72606c002fd5605c99",
+      "git:hexsha": "2cb0a619318f451d28051d72606c002fd5605c99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v9.0.0"
+    }
+  ]
+}
