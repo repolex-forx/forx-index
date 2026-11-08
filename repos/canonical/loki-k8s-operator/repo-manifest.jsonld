@@ -1,0 +1,1660 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/loki-k8s-operator",
+  "@type": "gh:Repository",
+  "gh:name": "loki-k8s-operator",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b26f896394b0ed6ad965e0f80a54e99a875429a8",
+      "git:hexsha": "b26f896394b0ed6ad965e0f80a54e99a875429a8",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "rev266",
+      "repolex:parsedAt": "2026-11-08T15:26:57.416347+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c387447f92b52504ee8e7531d24da19e757c2ebd",
+      "git:hexsha": "c387447f92b52504ee8e7531d24da19e757c2ebd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev-13"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b94c68adfdf781048c60b4b6f953b77d3f6d7ec0",
+      "git:hexsha": "b94c68adfdf781048c60b4b6f953b77d3f6d7ec0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "lib0-0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/af3d134e8f5222df025ebca068d13a66ec386457",
+      "git:hexsha": "af3d134e8f5222df025ebca068d13a66ec386457",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-operator/v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/08eae8e824b9b40574f17274548957d9994b1408",
+      "git:hexsha": "08eae8e824b9b40574f17274548957d9994b1408",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-operator/v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/68e493a6ef30413953657f48a2c8399bc3b6846b",
+      "git:hexsha": "68e493a6ef30413953657f48a2c8399bc3b6846b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-operator/v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ddb38b68761e103f3a8af9a4b888ef4c487d9126",
+      "git:hexsha": "ddb38b68761e103f3a8af9a4b888ef4c487d9126",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-operator/v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6d5ef3cd33558208c002f62920272701767a7e22",
+      "git:hexsha": "6d5ef3cd33558208c002f62920272701767a7e22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-operator/v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/10aa7c8efdf17ebd3afe659489b2ccdab8b5f8d4",
+      "git:hexsha": "10aa7c8efdf17ebd3afe659489b2ccdab8b5f8d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-operator/v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4598ccb322ca1611513058572370006f93791f4e",
+      "git:hexsha": "4598ccb322ca1611513058572370006f93791f4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e47c4ab6dc8f583b12266a39ed7af077541a1eec",
+      "git:hexsha": "e47c4ab6dc8f583b12266a39ed7af077541a1eec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/9a249351633617f2c80805db5c8e30454faf491d",
+      "git:hexsha": "9a249351633617f2c80805db5c8e30454faf491d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/92c4d8c0db2b605483a24e0773b52148fb0a86b0",
+      "git:hexsha": "92c4d8c0db2b605483a24e0773b52148fb0a86b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b2be060361a84b618d4c381611c7c8bd63cc9ea7",
+      "git:hexsha": "b2be060361a84b618d4c381611c7c8bd63cc9ea7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/24d90a311841be5ebf4d3cf9252916cef26752ad",
+      "git:hexsha": "24d90a311841be5ebf4d3cf9252916cef26752ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1fc4ea7174f62451051dad552f4f3a376434a73d",
+      "git:hexsha": "1fc4ea7174f62451051dad552f4f3a376434a73d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7cb0ac6afb577af218ab2b6b3af26002d053e4b6",
+      "git:hexsha": "7cb0ac6afb577af218ab2b6b3af26002d053e4b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/79a3d00bf50998a01cd968ea7cbb74c6ad080c0c",
+      "git:hexsha": "79a3d00bf50998a01cd968ea7cbb74c6ad080c0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c43288c95ec1b65d37ff93852274535736b51474",
+      "git:hexsha": "c43288c95ec1b65d37ff93852274535736b51474",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5bede0f628cc04ab353f90cf0bc6fd2c4e42af8f",
+      "git:hexsha": "5bede0f628cc04ab353f90cf0bc6fd2c4e42af8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/72d70170fe82b7525607b7408a756853520baa44",
+      "git:hexsha": "72d70170fe82b7525607b7408a756853520baa44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b5a767aa4148de9e0257f09a67c6ebbc5362cb4e",
+      "git:hexsha": "b5a767aa4148de9e0257f09a67c6ebbc5362cb4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e1e97d2f4ce43f6d9b63bd84361ddf9cd337ac43",
+      "git:hexsha": "e1e97d2f4ce43f6d9b63bd84361ddf9cd337ac43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d4aa6acffb402b037e15bb5da853951fb6776eb3",
+      "git:hexsha": "d4aa6acffb402b037e15bb5da853951fb6776eb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6abc2e81a0e639f57ed17e9690a272ba87d6c58c",
+      "git:hexsha": "6abc2e81a0e639f57ed17e9690a272ba87d6c58c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/683bbd6c3036ac3dfc3f566cdb597718f1273043",
+      "git:hexsha": "683bbd6c3036ac3dfc3f566cdb597718f1273043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/260254ff69ef1f2c07fc3e06318345a71ccbe1a0",
+      "git:hexsha": "260254ff69ef1f2c07fc3e06318345a71ccbe1a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/9f9883b40f407088813290e78ea6956937e8011c",
+      "git:hexsha": "9f9883b40f407088813290e78ea6956937e8011c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d585c2fe226fe8bfad903f43d472a78968afb976",
+      "git:hexsha": "d585c2fe226fe8bfad903f43d472a78968afb976",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/52380c109ffd16d9e855e4deb6a4e60a9b82c98e",
+      "git:hexsha": "52380c109ffd16d9e855e4deb6a4e60a9b82c98e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b318a6e93b5f2a66aeb35fc64197dac6fd13929a",
+      "git:hexsha": "b318a6e93b5f2a66aeb35fc64197dac6fd13929a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/bdacf7ba49eab49581f97b35c6d11cdae6b8e473",
+      "git:hexsha": "bdacf7ba49eab49581f97b35c6d11cdae6b8e473",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/dd5b9bb8d6b46f6cacb3457be98653c77295d067",
+      "git:hexsha": "dd5b9bb8d6b46f6cacb3457be98653c77295d067",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v2.9.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a7fd5bf637923f07fc94eecefd5b95129f4b1b55",
+      "git:hexsha": "a7fd5bf637923f07fc94eecefd5b95129f4b1b55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4c64e6f8f1587dd7cd1ec85ffa33e10c20bb3ccd",
+      "git:hexsha": "4c64e6f8f1587dd7cd1ec85ffa33e10c20bb3ccd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v3.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5fdf424b611899f56787dfc927570210ad2ed067",
+      "git:hexsha": "5fdf424b611899f56787dfc927570210ad2ed067",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/71f3629a7c9fae242a406c062b62429d6b116184",
+      "git:hexsha": "71f3629a7c9fae242a406c062b62429d6b116184",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c9bd7d7d8aaacd17c79a6e1e1754767a5cfbf56c",
+      "git:hexsha": "c9bd7d7d8aaacd17c79a6e1e1754767a5cfbf56c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v3.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/70929a51123fe94dc1f808eb5c5b629129e27945",
+      "git:hexsha": "70929a51123fe94dc1f808eb5c5b629129e27945",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "promtail-v3.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c1d4b557184d4c4d4bf6528a68ab0128453ee16b",
+      "git:hexsha": "c1d4b557184d4c4d4bf6528a68ab0128453ee16b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3bb991041724c084b8d65544f6d90a5fc22669b3",
+      "git:hexsha": "3bb991041724c084b8d65544f6d90a5fc22669b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/35f63f740ffe0f9aa9b66751fccdf5f688f80472",
+      "git:hexsha": "35f63f740ffe0f9aa9b66751fccdf5f688f80472",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6fc9641782f346733d4977a3f0eb68fb02ac7d7d",
+      "git:hexsha": "6fc9641782f346733d4977a3f0eb68fb02ac7d7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3a54f2a7f0fbbb77bb148b9a7e3681421445b450",
+      "git:hexsha": "3a54f2a7f0fbbb77bb148b9a7e3681421445b450",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/eeaff64f928257877feb1627609c50c5443187b9",
+      "git:hexsha": "eeaff64f928257877feb1627609c50c5443187b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b754d8ccb971701c08106a327fcd782be87ca983",
+      "git:hexsha": "b754d8ccb971701c08106a327fcd782be87ca983",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev108"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/eab0b76c2e833f3a1a4d6e5471c81dfd59990f32",
+      "git:hexsha": "eab0b76c2e833f3a1a4d6e5471c81dfd59990f32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev109"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/9e3f1ede62bd8e2ced53ce87df9993b97a780b6d",
+      "git:hexsha": "9e3f1ede62bd8e2ced53ce87df9993b97a780b6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/364bced85864063a344c915bc7bbb767399a468e",
+      "git:hexsha": "364bced85864063a344c915bc7bbb767399a468e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev111"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/23fe4d64efc0ef28df911424ebbb61c8869b46f7",
+      "git:hexsha": "23fe4d64efc0ef28df911424ebbb61c8869b46f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev112"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a0d907b4484fef877c7837f6a5d7aa660a137c0f",
+      "git:hexsha": "a0d907b4484fef877c7837f6a5d7aa660a137c0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev113"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6ceebb05205e6cfaf57b8b941008869413afd1f3",
+      "git:hexsha": "6ceebb05205e6cfaf57b8b941008869413afd1f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev114"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a3b7b0534bd34b8f5d3a7b38703b0c1bc79c2d5b",
+      "git:hexsha": "a3b7b0534bd34b8f5d3a7b38703b0c1bc79c2d5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev115"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/641410830f53367b2c4434444e14946128f1e9ec",
+      "git:hexsha": "641410830f53367b2c4434444e14946128f1e9ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev116"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6be8cbcff5426d0be88ab39e20f250a60e740402",
+      "git:hexsha": "6be8cbcff5426d0be88ab39e20f250a60e740402",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev117"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6539763f71d98e99ca3a64ac288d109103b08d52",
+      "git:hexsha": "6539763f71d98e99ca3a64ac288d109103b08d52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev118"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/01b863b8f343104f6b793adde1d2e3e4751b5eba",
+      "git:hexsha": "01b863b8f343104f6b793adde1d2e3e4751b5eba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev119"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/fa7db78785027f87d5301fd1f0e41e18fcc5edf8",
+      "git:hexsha": "fa7db78785027f87d5301fd1f0e41e18fcc5edf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev120"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/490e5e435f9a205a926fd6685d16404736f8b5d3",
+      "git:hexsha": "490e5e435f9a205a926fd6685d16404736f8b5d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev121"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/302ca89a1109f1e6f40b9e74f38fff725c0be3e8",
+      "git:hexsha": "302ca89a1109f1e6f40b9e74f38fff725c0be3e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev122"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1846854ce1b06b12f898e5f83fb737892f9e4405",
+      "git:hexsha": "1846854ce1b06b12f898e5f83fb737892f9e4405",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev123"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6c26adf5a7c850e5ea520eee40f2adc5a2865f56",
+      "git:hexsha": "6c26adf5a7c850e5ea520eee40f2adc5a2865f56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev124"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5f8c4b47ca302029ea39f3a9d7401e45c703e215",
+      "git:hexsha": "5f8c4b47ca302029ea39f3a9d7401e45c703e215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev126"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a89dd40a0d424ad7c43081d3c7b3916502c77e2c",
+      "git:hexsha": "a89dd40a0d424ad7c43081d3c7b3916502c77e2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev127"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f49f398d5c6fccf1629fe3c1fe28939e6dbb1bf8",
+      "git:hexsha": "f49f398d5c6fccf1629fe3c1fe28939e6dbb1bf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev128"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/65601d4055c8db6772c451c45d170ec4769e9c67",
+      "git:hexsha": "65601d4055c8db6772c451c45d170ec4769e9c67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev129"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/88f37db5c438810fa26788fb2360faa42d1ba337",
+      "git:hexsha": "88f37db5c438810fa26788fb2360faa42d1ba337",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev130"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/fafaacc2acb943137486a576ff646280476fa329",
+      "git:hexsha": "fafaacc2acb943137486a576ff646280476fa329",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev131"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a67e6a3b10ee5ef5de8ed25d4f524bde4409b3c6",
+      "git:hexsha": "a67e6a3b10ee5ef5de8ed25d4f524bde4409b3c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev132"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/fc9d4b90260aeef2408582bcb32d91c9fc5040ed",
+      "git:hexsha": "fc9d4b90260aeef2408582bcb32d91c9fc5040ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev133"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2a8b0cea24fe777e86bdc204255ed2867899835a",
+      "git:hexsha": "2a8b0cea24fe777e86bdc204255ed2867899835a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev134"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/58eb250b8cea0c33aaec2de05bbf4c3e1132e004",
+      "git:hexsha": "58eb250b8cea0c33aaec2de05bbf4c3e1132e004",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev135"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/9f7580e9b441697246f566c63dd7bd93858c2a33",
+      "git:hexsha": "9f7580e9b441697246f566c63dd7bd93858c2a33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev136"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/0de6e7283fae986bca407c191d080a6a23fddd59",
+      "git:hexsha": "0de6e7283fae986bca407c191d080a6a23fddd59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev137"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5aa28354a39ad0dd6c759ab92782a8ad51972545",
+      "git:hexsha": "5aa28354a39ad0dd6c759ab92782a8ad51972545",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev138"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/679fc8de5120efa1aa73ee68a8a07ba98618dfe2",
+      "git:hexsha": "679fc8de5120efa1aa73ee68a8a07ba98618dfe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev140"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3a64e7ba00ee89f3d3c4408214195bb7ef2f8c1d",
+      "git:hexsha": "3a64e7ba00ee89f3d3c4408214195bb7ef2f8c1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/31afe45e27da0ffc85867d50e6a7d22e8bb1765d",
+      "git:hexsha": "31afe45e27da0ffc85867d50e6a7d22e8bb1765d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev142"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/653556a24ed3fbe8d23fb61f3677a23c5a9409bb",
+      "git:hexsha": "653556a24ed3fbe8d23fb61f3677a23c5a9409bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1a1bc8811177c739679989b4595cb6720da07bf9",
+      "git:hexsha": "1a1bc8811177c739679989b4595cb6720da07bf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev144"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d89e91c56f889d4893a587ffea7b22a2ecad151a",
+      "git:hexsha": "d89e91c56f889d4893a587ffea7b22a2ecad151a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5da5a43c00c92d99c52984adc3a70fe16fa4504c",
+      "git:hexsha": "5da5a43c00c92d99c52984adc3a70fe16fa4504c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev146"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4d6fd63e2d0b3273601615632a538b7b2ebc257b",
+      "git:hexsha": "4d6fd63e2d0b3273601615632a538b7b2ebc257b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/0f6b87015c151f3f716a4ad54e0a3b1334f82b2f",
+      "git:hexsha": "0f6b87015c151f3f716a4ad54e0a3b1334f82b2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev148"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c66442687f87f4fa04c376f7ba9454850120ad0c",
+      "git:hexsha": "c66442687f87f4fa04c376f7ba9454850120ad0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2b544085ad29e100a2af2edbee44ea0420921f31",
+      "git:hexsha": "2b544085ad29e100a2af2edbee44ea0420921f31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev150"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c7d2029d361fdaf407753f4d9a1ef5133092acc7",
+      "git:hexsha": "c7d2029d361fdaf407753f4d9a1ef5133092acc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev151"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5fb32edb2425d44e654f209fdf49243fd625c0c4",
+      "git:hexsha": "5fb32edb2425d44e654f209fdf49243fd625c0c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev152"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7cdc183e749f435e906d0777e2860dc956938eb4",
+      "git:hexsha": "7cdc183e749f435e906d0777e2860dc956938eb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/96198504931a5612a4761f6528ff52ae10f25ecf",
+      "git:hexsha": "96198504931a5612a4761f6528ff52ae10f25ecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev154"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/550de46d0f2d4be5a1a63a936b55cbdab84eddec",
+      "git:hexsha": "550de46d0f2d4be5a1a63a936b55cbdab84eddec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev155"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b57dd775d1be9e818a01cbdd379c6e17055ff87f",
+      "git:hexsha": "b57dd775d1be9e818a01cbdd379c6e17055ff87f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev156"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/dee2a1228320bd4292dfcc1dcb5d6758444a39d6",
+      "git:hexsha": "dee2a1228320bd4292dfcc1dcb5d6758444a39d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev157"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a121b3f4155147096d657aadd46d3a1759fa1d12",
+      "git:hexsha": "a121b3f4155147096d657aadd46d3a1759fa1d12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev158"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/51f03ae5741a80cb323fffadab5bc8ce0f39f77f",
+      "git:hexsha": "51f03ae5741a80cb323fffadab5bc8ce0f39f77f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/61c474d0a93b8c90d86f1108e3ea817240b10832",
+      "git:hexsha": "61c474d0a93b8c90d86f1108e3ea817240b10832",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev16"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5dd8dc8d382093d6dbf18d792f59776704355d25",
+      "git:hexsha": "5dd8dc8d382093d6dbf18d792f59776704355d25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev160"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4fdbf25fdc783492168f097655d32e6c74587499",
+      "git:hexsha": "4fdbf25fdc783492168f097655d32e6c74587499",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/83c6641121cc13b3e251f2df05df19baf993fa92",
+      "git:hexsha": "83c6641121cc13b3e251f2df05df19baf993fa92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev162"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8cce14b6bbd0990f55fba95b7dd48863267fc972",
+      "git:hexsha": "8cce14b6bbd0990f55fba95b7dd48863267fc972",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev163"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2e4674d64b692f82ae3dec8f7f1f0745f087827f",
+      "git:hexsha": "2e4674d64b692f82ae3dec8f7f1f0745f087827f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev164"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4658bd363d9f8c39641de10893792a4448b2488e",
+      "git:hexsha": "4658bd363d9f8c39641de10893792a4448b2488e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/97f30f7ec7f207f2503c38b436b23652782f4dfc",
+      "git:hexsha": "97f30f7ec7f207f2503c38b436b23652782f4dfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev166"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5a583c945b75a106dbeadccbbdfb0ef1db702ca2",
+      "git:hexsha": "5a583c945b75a106dbeadccbbdfb0ef1db702ca2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/20041eb9f7a54c35125ee353a4b7d1b922508d6c",
+      "git:hexsha": "20041eb9f7a54c35125ee353a4b7d1b922508d6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev168"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b7ad2313b8598bb287d7b853813d1ad0036d84c5",
+      "git:hexsha": "b7ad2313b8598bb287d7b853813d1ad0036d84c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev169"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3c63552b9371c236fa74696f58e000cd0106a5e8",
+      "git:hexsha": "3c63552b9371c236fa74696f58e000cd0106a5e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev17"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/946be5788a88d14119e5bd70c1dd125d702b1416",
+      "git:hexsha": "946be5788a88d14119e5bd70c1dd125d702b1416",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev170"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/bf4d76011ac18047f2effd350555eb5fa5f0d9bb",
+      "git:hexsha": "bf4d76011ac18047f2effd350555eb5fa5f0d9bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev171"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e369a76a4408795ae6bed33519526f47569dcbc6",
+      "git:hexsha": "e369a76a4408795ae6bed33519526f47569dcbc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev172"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/167b10dd914ee8dd4ad4263e969d4e7dcdbe1d02",
+      "git:hexsha": "167b10dd914ee8dd4ad4263e969d4e7dcdbe1d02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev173"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/0b1c3dffdb1b2622dac2c11bb5bfd5bd4060ba92",
+      "git:hexsha": "0b1c3dffdb1b2622dac2c11bb5bfd5bd4060ba92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev174"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f9ffdf7aaf5ca345a04decbeb342574c531c0360",
+      "git:hexsha": "f9ffdf7aaf5ca345a04decbeb342574c531c0360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev175"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d2f48b417299b153f56da6e73b15022762fe403c",
+      "git:hexsha": "d2f48b417299b153f56da6e73b15022762fe403c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev176"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/cf6a25b7a28936552ca28cfdde6ce1761376a736",
+      "git:hexsha": "cf6a25b7a28936552ca28cfdde6ce1761376a736",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev177"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7288e8bfdbcc884a13464d484ffe8add796dbd18",
+      "git:hexsha": "7288e8bfdbcc884a13464d484ffe8add796dbd18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev178"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/26efa164b9d1a1de49b948d29536f6e7be5f9512",
+      "git:hexsha": "26efa164b9d1a1de49b948d29536f6e7be5f9512",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev179"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/08e0808ea532981c4e915ef5aa1f4e8ca0dcb561",
+      "git:hexsha": "08e0808ea532981c4e915ef5aa1f4e8ca0dcb561",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev18"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6073c581889d2bdfa20667f455265e8e4d21dba2",
+      "git:hexsha": "6073c581889d2bdfa20667f455265e8e4d21dba2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev180"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2d89e53394f09f1b6ee59adee480f3c712681d94",
+      "git:hexsha": "2d89e53394f09f1b6ee59adee480f3c712681d94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev181"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8721dce81d4d68c7b6f679cf7fefbf3a3382a8bf",
+      "git:hexsha": "8721dce81d4d68c7b6f679cf7fefbf3a3382a8bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev182"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/260c60c07d37a85e81692bf0aa37ab81685062a6",
+      "git:hexsha": "260c60c07d37a85e81692bf0aa37ab81685062a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev183"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ab9bceae69515593693524fb834205ff1c1b821e",
+      "git:hexsha": "ab9bceae69515593693524fb834205ff1c1b821e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev184"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1a0754d6edc0a084cec17705a3bd5c451685663f",
+      "git:hexsha": "1a0754d6edc0a084cec17705a3bd5c451685663f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev185"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f64bd5e42c2b45a6a1018cc82559305c246e5377",
+      "git:hexsha": "f64bd5e42c2b45a6a1018cc82559305c246e5377",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev186"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/60bc86ac94604ecd5e698b619bca9609655db20c",
+      "git:hexsha": "60bc86ac94604ecd5e698b619bca9609655db20c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev187"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a847f1f5c3e1cb5e21a99630595732ab20bcf801",
+      "git:hexsha": "a847f1f5c3e1cb5e21a99630595732ab20bcf801",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev188"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/772a97a58ab851a9f5f105fa4d54b303197752f3",
+      "git:hexsha": "772a97a58ab851a9f5f105fa4d54b303197752f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev189"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/efbcf6ab0aec5305da507c0d0fba115a32c7337e",
+      "git:hexsha": "efbcf6ab0aec5305da507c0d0fba115a32c7337e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev19"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/579804d5b661a624d91b1e5695057a2f54523d8c",
+      "git:hexsha": "579804d5b661a624d91b1e5695057a2f54523d8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev190"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ec782d2a100b23f0845bb517a50e0a7b37195870",
+      "git:hexsha": "ec782d2a100b23f0845bb517a50e0a7b37195870",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev191"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/64fefad36e0602028d89be5355d44292a592ee6e",
+      "git:hexsha": "64fefad36e0602028d89be5355d44292a592ee6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev192"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e61769afa165800c750c1f3e4364fc7304bd3024",
+      "git:hexsha": "e61769afa165800c750c1f3e4364fc7304bd3024",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev194"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/91b11606f941164b071795acfdaa69174ad42cae",
+      "git:hexsha": "91b11606f941164b071795acfdaa69174ad42cae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev197"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/dd43339d59d9ab810579aef9cbfac615bf4ee622",
+      "git:hexsha": "dd43339d59d9ab810579aef9cbfac615bf4ee622",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev198"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/eca63859957800ac484365d9229adccdba05ebfe",
+      "git:hexsha": "eca63859957800ac484365d9229adccdba05ebfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev199"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d072b8c76624f484ca09de2187d7cc5604239eb8",
+      "git:hexsha": "d072b8c76624f484ca09de2187d7cc5604239eb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev20"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e62c17d8c225ce44fa6003a0c92ca5dcf1d66dd7",
+      "git:hexsha": "e62c17d8c225ce44fa6003a0c92ca5dcf1d66dd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev200"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/07f1093529d299b259e07467c96b22529e75082e",
+      "git:hexsha": "07f1093529d299b259e07467c96b22529e75082e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev201"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d7d2770ccea2dc67488b5ecd00dc00bb03a14fb6",
+      "git:hexsha": "d7d2770ccea2dc67488b5ecd00dc00bb03a14fb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev202"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e85310caacf9017ecc630338bcdf7a5b6d944230",
+      "git:hexsha": "e85310caacf9017ecc630338bcdf7a5b6d944230",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev203"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/835cb2c9a0b947936f450845c3b2c46bd960ad71",
+      "git:hexsha": "835cb2c9a0b947936f450845c3b2c46bd960ad71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev204"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f802b8de7a18aa790eac2e02eaa2d8357761b94d",
+      "git:hexsha": "f802b8de7a18aa790eac2e02eaa2d8357761b94d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev205"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/30343b44eee8d2c2903272d7b158be9478f28242",
+      "git:hexsha": "30343b44eee8d2c2903272d7b158be9478f28242",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev206"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ad605c7d68c6edbb19150bbcd86b88bd4f4523d7",
+      "git:hexsha": "ad605c7d68c6edbb19150bbcd86b88bd4f4523d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev208"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/fb5902d36b29799296f06685359b8cdb9d8d9737",
+      "git:hexsha": "fb5902d36b29799296f06685359b8cdb9d8d9737",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev209"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3fb83f9350f7a55ca1976015303f965a26227082",
+      "git:hexsha": "3fb83f9350f7a55ca1976015303f965a26227082",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/375ffa78fdda051d4d7f363013aa29976200a78b",
+      "git:hexsha": "375ffa78fdda051d4d7f363013aa29976200a78b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev210"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1ed4d8f5ff29230433c6ce1c5ddecc75983974b7",
+      "git:hexsha": "1ed4d8f5ff29230433c6ce1c5ddecc75983974b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-provider-v0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8515c5ea164d96a828e4346cd94762e79e5f9f64",
+      "git:hexsha": "8515c5ea164d96a828e4346cd94762e79e5f9f64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev212"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ed7af8cd29d9b47df4d5a98814841c48bd3709db",
+      "git:hexsha": "ed7af8cd29d9b47df4d5a98814841c48bd3709db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev213"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/402d51f0491c41c41c20add9333734136744d648",
+      "git:hexsha": "402d51f0491c41c41c20add9333734136744d648",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev215"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/933eb52f33d3bd8afef4a969a266c11b37700e18",
+      "git:hexsha": "933eb52f33d3bd8afef4a969a266c11b37700e18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev216"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1b0095dab63ff961d137de101db25c008259595a",
+      "git:hexsha": "1b0095dab63ff961d137de101db25c008259595a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev217"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7577d74d05516eeca5242d6a07c6316e9e73b197",
+      "git:hexsha": "7577d74d05516eeca5242d6a07c6316e9e73b197",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev218"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2513574cc36f756ed4bb83869e169e5f268a4f80",
+      "git:hexsha": "2513574cc36f756ed4bb83869e169e5f268a4f80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev219"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f3a6f8e65d0e6f7f5b9219357bbad639af544f63",
+      "git:hexsha": "f3a6f8e65d0e6f7f5b9219357bbad639af544f63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c9c288b77cd3057374bb75fc7951da23d7300800",
+      "git:hexsha": "c9c288b77cd3057374bb75fc7951da23d7300800",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev220"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f567db0472fcfecd6c91984900e80643846f1794",
+      "git:hexsha": "f567db0472fcfecd6c91984900e80643846f1794",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev223"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b709c620fbc3c25f3876b48c3a3ef929c3696100",
+      "git:hexsha": "b709c620fbc3c25f3876b48c3a3ef929c3696100",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev224"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5b97e817bcafb82705b578247e37a0bbb532f6db",
+      "git:hexsha": "5b97e817bcafb82705b578247e37a0bbb532f6db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev225"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/34c402aa91e323c8130be34f750d16952ac9c255",
+      "git:hexsha": "34c402aa91e323c8130be34f750d16952ac9c255",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev226"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f3c3fc12d32316e901b26992cc93c717f9d5709c",
+      "git:hexsha": "f3c3fc12d32316e901b26992cc93c717f9d5709c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev227"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/40dcdb6137040079864c0cd22c522d5eceb25aa2",
+      "git:hexsha": "40dcdb6137040079864c0cd22c522d5eceb25aa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev228"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d57e74a20bebc21139b1c7491a1a30108f8d18c1",
+      "git:hexsha": "d57e74a20bebc21139b1c7491a1a30108f8d18c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev229"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a7042138619b0694ca7c7f6ccd711b04b59a4132",
+      "git:hexsha": "a7042138619b0694ca7c7f6ccd711b04b59a4132",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev23"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a1d5614bbde64c32896c7d140ca346a939abbfff",
+      "git:hexsha": "a1d5614bbde64c32896c7d140ca346a939abbfff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev230"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4925be4212df8c7550e80a4e7da2db410c4d4986",
+      "git:hexsha": "4925be4212df8c7550e80a4e7da2db410c4d4986",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev231"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/846a4f0c8213f294a18630f74da2e25d66fe3c5d",
+      "git:hexsha": "846a4f0c8213f294a18630f74da2e25d66fe3c5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev232"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/73b634eb04e5bafba3f7b1048e0e8943eb751be9",
+      "git:hexsha": "73b634eb04e5bafba3f7b1048e0e8943eb751be9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev233"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/bf253a9cfd2a850ede01e3856432f2f24b86e2fe",
+      "git:hexsha": "bf253a9cfd2a850ede01e3856432f2f24b86e2fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev234"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c280fd16fdfd2b93ac0d6868a779e918121c574d",
+      "git:hexsha": "c280fd16fdfd2b93ac0d6868a779e918121c574d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev235"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/26d391ec014c3e90042ccb2cd00f41d6e8ce381f",
+      "git:hexsha": "26d391ec014c3e90042ccb2cd00f41d6e8ce381f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev237"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8468fa3a0097ec48e0e51e3d4df82c2673045f6f",
+      "git:hexsha": "8468fa3a0097ec48e0e51e3d4df82c2673045f6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev238"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1a9d03a63c009b757d2256ee79f769f16cc5017f",
+      "git:hexsha": "1a9d03a63c009b757d2256ee79f769f16cc5017f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev239"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/0fdebfb745e43c4a14c26b4434f49ceeb053e7ee",
+      "git:hexsha": "0fdebfb745e43c4a14c26b4434f49ceeb053e7ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/904cf2f41684133bfa37d4199c4fc6764a5c025f",
+      "git:hexsha": "904cf2f41684133bfa37d4199c4fc6764a5c025f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/03709fd379c2c97d1e1f7cda335aca8f6843b132",
+      "git:hexsha": "03709fd379c2c97d1e1f7cda335aca8f6843b132",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5178fa41f9f6e744aee73aad0e2b08db997fda74",
+      "git:hexsha": "5178fa41f9f6e744aee73aad0e2b08db997fda74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/0304d097641edf3f9c01c7e5df0c26399071289c",
+      "git:hexsha": "0304d097641edf3f9c01c7e5df0c26399071289c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev245"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c6d015a36bc184eb6325b677fa9b2ee654a4fd58",
+      "git:hexsha": "c6d015a36bc184eb6325b677fa9b2ee654a4fd58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev246"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4ef864674185f1aed7a99f4adb6f1b82e8a81ebc",
+      "git:hexsha": "4ef864674185f1aed7a99f4adb6f1b82e8a81ebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev247"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/08231972d5e837d55115cee284e00c195399c80c",
+      "git:hexsha": "08231972d5e837d55115cee284e00c195399c80c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b20b3e9c8ed7645d5cf0a9ec8b816790053db37d",
+      "git:hexsha": "b20b3e9c8ed7645d5cf0a9ec8b816790053db37d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev249"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1a42b16873a0c1b9e64f91aa9168bae6e22dbbdc",
+      "git:hexsha": "1a42b16873a0c1b9e64f91aa9168bae6e22dbbdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e87a761693c5d38b8bd4abb48d2ea7ea83807d00",
+      "git:hexsha": "e87a761693c5d38b8bd4abb48d2ea7ea83807d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev250"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1564628fffaeb568ec7d36243050716dd1f0110c",
+      "git:hexsha": "1564628fffaeb568ec7d36243050716dd1f0110c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev256"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/a605bd9e990165230600c0a7ba29e559aefbfb4d",
+      "git:hexsha": "a605bd9e990165230600c0a7ba29e559aefbfb4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev253"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/cc473a71725a2dc4b12319e0e6f7dd2114074898",
+      "git:hexsha": "cc473a71725a2dc4b12319e0e6f7dd2114074898",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev257"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8bedd7de366b7824adb7445b895ef7b08a688d32",
+      "git:hexsha": "8bedd7de366b7824adb7445b895ef7b08a688d32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev258"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8f06bd19199d6df927007b1740613462c1dc6c81",
+      "git:hexsha": "8f06bd19199d6df927007b1740613462c1dc6c81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev259"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/464e65eb7ec233ad0ee7037d18bd445de9a215c2",
+      "git:hexsha": "464e65eb7ec233ad0ee7037d18bd445de9a215c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev26"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d8e4f3a71006c322f824a6fcdba1f35e48e96f55",
+      "git:hexsha": "d8e4f3a71006c322f824a6fcdba1f35e48e96f55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev260"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f7f5b83598bbe6c915acc604a5d19dc783db0e2a",
+      "git:hexsha": "f7f5b83598bbe6c915acc604a5d19dc783db0e2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev261"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3f6c50dfc9baaeacf5da9279ee1363df25a6f5a5",
+      "git:hexsha": "3f6c50dfc9baaeacf5da9279ee1363df25a6f5a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev262"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1a9b8af2953e893a82304982960ba35558116600",
+      "git:hexsha": "1a9b8af2953e893a82304982960ba35558116600",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev263"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f12f0debf6d48cafb80e69264141f6953bfc3afe",
+      "git:hexsha": "f12f0debf6d48cafb80e69264141f6953bfc3afe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev264"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/dbc2e7d78fcde4be11ae5328e7c882904befadf3",
+      "git:hexsha": "dbc2e7d78fcde4be11ae5328e7c882904befadf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev265"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2c82e896bc40a34fb51f73c5a7ff4f23828dc65e",
+      "git:hexsha": "2c82e896bc40a34fb51f73c5a7ff4f23828dc65e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev27"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/21df393fd1b79b73636c4cbaf27b11e092c6f6c0",
+      "git:hexsha": "21df393fd1b79b73636c4cbaf27b11e092c6f6c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev28"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/23e1cd20462108d556df9590918c0c1129dca6ec",
+      "git:hexsha": "23e1cd20462108d556df9590918c0c1129dca6ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev29"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/40f49fd58a23ae92cb068afc1ede32e1e028277b",
+      "git:hexsha": "40f49fd58a23ae92cb068afc1ede32e1e028277b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/52e797f25b713eec28e37e828c42a2d28e3b2057",
+      "git:hexsha": "52e797f25b713eec28e37e828c42a2d28e3b2057",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d29139883a65149b910cc2f558a3cc4a623ff150",
+      "git:hexsha": "d29139883a65149b910cc2f558a3cc4a623ff150",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/2cbc07dc5733e3ac232a2d49b40133bdda8e3f3f",
+      "git:hexsha": "2cbc07dc5733e3ac232a2d49b40133bdda8e3f3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev33"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/bd8f4a0cc8b41253c0a5ec6ea61a1c3fd2edaa55",
+      "git:hexsha": "bd8f4a0cc8b41253c0a5ec6ea61a1c3fd2edaa55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ce7cc64886cb633b6b5656ab4c120311c3fa9909",
+      "git:hexsha": "ce7cc64886cb633b6b5656ab4c120311c3fa9909",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5ee7f19c101d664c6d484c7c6fe0b9e3cc711525",
+      "git:hexsha": "5ee7f19c101d664c6d484c7c6fe0b9e3cc711525",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/adf626b53638edd831dce03fc78aa38ad8d9a236",
+      "git:hexsha": "adf626b53638edd831dce03fc78aa38ad8d9a236",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev37"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/01d361379c3f4f8d3609713aa40680c8d8bc2581",
+      "git:hexsha": "01d361379c3f4f8d3609713aa40680c8d8bc2581",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/29f9156006687fe793e4621cb05909e0bcbdf035",
+      "git:hexsha": "29f9156006687fe793e4621cb05909e0bcbdf035",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/677fc3f1578e8f74aaf28a537d69d91880af9c1c",
+      "git:hexsha": "677fc3f1578e8f74aaf28a537d69d91880af9c1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b2a758975f679b6299b97e32a9cf3219da5dbbd9",
+      "git:hexsha": "b2a758975f679b6299b97e32a9cf3219da5dbbd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev41"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1fce5a2ed69dc3f84487f9b06adfbe863c818d8f",
+      "git:hexsha": "1fce5a2ed69dc3f84487f9b06adfbe863c818d8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7a29f010d27a8ef1ccb22782db68ad7e0faf8e54",
+      "git:hexsha": "7a29f010d27a8ef1ccb22782db68ad7e0faf8e54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev43"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c2c41f1f86151852a6e32dcaa49a2f367d72b904",
+      "git:hexsha": "c2c41f1f86151852a6e32dcaa49a2f367d72b904",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c95a7ae42b1b4585aaf485caa2a3e0b512475a0d",
+      "git:hexsha": "c95a7ae42b1b4585aaf485caa2a3e0b512475a0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev45"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/dbc76e467c8cffd65300a290148ca0a712651b21",
+      "git:hexsha": "dbc76e467c8cffd65300a290148ca0a712651b21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev49"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b1643aac3ce3ee62c748331604fa4c98fe56d629",
+      "git:hexsha": "b1643aac3ce3ee62c748331604fa4c98fe56d629",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev50"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7da511f9f0062b980a3a1b97d142604298889cce",
+      "git:hexsha": "7da511f9f0062b980a3a1b97d142604298889cce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev51"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/bc9318037d2223ad3c970163c258e531668afd3f",
+      "git:hexsha": "bc9318037d2223ad3c970163c258e531668afd3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev52"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/9b4e3db326b4a9699131427383258b0c6971a8ee",
+      "git:hexsha": "9b4e3db326b4a9699131427383258b0c6971a8ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev53"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/4b826d15b80ccd84ad1a90223d508d66b548d155",
+      "git:hexsha": "4b826d15b80ccd84ad1a90223d508d66b548d155",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev54"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6fe4dc219da05dd9bdb880b07071e57cbbe67f8d",
+      "git:hexsha": "6fe4dc219da05dd9bdb880b07071e57cbbe67f8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev55"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/9cd3257d23dff7200ae86d5c166803f592101a6c",
+      "git:hexsha": "9cd3257d23dff7200ae86d5c166803f592101a6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev56"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/d373ec5b788b772fa80bd8205c18437c6f574850",
+      "git:hexsha": "d373ec5b788b772fa80bd8205c18437c6f574850",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev57"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8b28f7db2d0ae6e6945807549df00bc693fd7a6b",
+      "git:hexsha": "8b28f7db2d0ae6e6945807549df00bc693fd7a6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev58"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/722e6e733885d02b5824815ea114be79bad4a218",
+      "git:hexsha": "722e6e733885d02b5824815ea114be79bad4a218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6c06218c6ba454cf315de14da0329b5a2eb1826e",
+      "git:hexsha": "6c06218c6ba454cf315de14da0329b5a2eb1826e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev61"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c232bd17b4af3e6497c900cdb155183277e90f95",
+      "git:hexsha": "c232bd17b4af3e6497c900cdb155183277e90f95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev62"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f4c36ce76b4d10e343df468ee333925e2aa3390e",
+      "git:hexsha": "f4c36ce76b4d10e343df468ee333925e2aa3390e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev63"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/43b4bf08ff7108ffeec0e41969900a4e2f338a4c",
+      "git:hexsha": "43b4bf08ff7108ffeec0e41969900a4e2f338a4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev64"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3b0a4cc32e393e08f9f6feb9d72350a8c6ff9772",
+      "git:hexsha": "3b0a4cc32e393e08f9f6feb9d72350a8c6ff9772",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c1a66383b8a8026b8cdb64594fc31d6458aa6cab",
+      "git:hexsha": "c1a66383b8a8026b8cdb64594fc31d6458aa6cab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev67"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/371aaa4fbe51c6f38afe83db5052b8dc07a6c490",
+      "git:hexsha": "371aaa4fbe51c6f38afe83db5052b8dc07a6c490",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev68"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f3cd6f7051c193d9dc625ee7fbef75b840b2d8af",
+      "git:hexsha": "f3cd6f7051c193d9dc625ee7fbef75b840b2d8af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/0f7b00deb46792ade732c447aadae47a4a9b96d2",
+      "git:hexsha": "0f7b00deb46792ade732c447aadae47a4a9b96d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev70"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5ba9c0c3cad845e260adb3746f47b29395d403da",
+      "git:hexsha": "5ba9c0c3cad845e260adb3746f47b29395d403da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev71"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/3ab2f60c94ea61dfd08e25436629e7f8779e2073",
+      "git:hexsha": "3ab2f60c94ea61dfd08e25436629e7f8779e2073",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev72"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/85b6593d601a540aab6d7999d9db22346fa01a09",
+      "git:hexsha": "85b6593d601a540aab6d7999d9db22346fa01a09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev73"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ae0277caa13029b01177ddc97fdd755148f39482",
+      "git:hexsha": "ae0277caa13029b01177ddc97fdd755148f39482",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev74"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/af42434678ebbc47d32d9cc2ef4d884a17bd138b",
+      "git:hexsha": "af42434678ebbc47d32d9cc2ef4d884a17bd138b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev75"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/c368c5b14343eef6fe664ee048ed53645c415b3b",
+      "git:hexsha": "c368c5b14343eef6fe664ee048ed53645c415b3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev76"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/884a38c3f69560988ec65440dbbc35fcd7de2248",
+      "git:hexsha": "884a38c3f69560988ec65440dbbc35fcd7de2248",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/700268491b57e64d27a79e689395886236fa6771",
+      "git:hexsha": "700268491b57e64d27a79e689395886236fa6771",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev78"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/edc27aaa6c765feb1f317d81ae09fd31b62c25e6",
+      "git:hexsha": "edc27aaa6c765feb1f317d81ae09fd31b62c25e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev79"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/38611096101f56f409338f44b518034ab461d074",
+      "git:hexsha": "38611096101f56f409338f44b518034ab461d074",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev80"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7bfe150e15a49fa51447ba531c65ae29ba9d08d5",
+      "git:hexsha": "7bfe150e15a49fa51447ba531c65ae29ba9d08d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/cabb9ef5003151c945531dcb39e33f2889e1bec8",
+      "git:hexsha": "cabb9ef5003151c945531dcb39e33f2889e1bec8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev82"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/996f6ed508e8cd2a3910c094dd67d5447a117952",
+      "git:hexsha": "996f6ed508e8cd2a3910c094dd67d5447a117952",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev83"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/e16dda086f703010fe83ddea16abe84493f26963",
+      "git:hexsha": "e16dda086f703010fe83ddea16abe84493f26963",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev84"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/22811579fa7563110f433d8aa7a991724da20666",
+      "git:hexsha": "22811579fa7563110f433d8aa7a991724da20666",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/90bad269dda46f8209e4fd3a2c141b6dedfd670c",
+      "git:hexsha": "90bad269dda46f8209e4fd3a2c141b6dedfd670c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev86"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f2f9e9b6af77a7eb7e1faf4ca34d5ed134ee25cc",
+      "git:hexsha": "f2f9e9b6af77a7eb7e1faf4ca34d5ed134ee25cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/992bb70f8deac5cb990567517b8b7d52cb58de8f",
+      "git:hexsha": "992bb70f8deac5cb990567517b8b7d52cb58de8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev88"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1b2860ccac6276a8e995afb8d82d2e5162dad64c",
+      "git:hexsha": "1b2860ccac6276a8e995afb8d82d2e5162dad64c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev89"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/aec59c9a297a32382c6ad27f056832664b4b3ca7",
+      "git:hexsha": "aec59c9a297a32382c6ad27f056832664b4b3ca7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev90"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/96f326ef67fda93673ddadcbb769a3cc72185d78",
+      "git:hexsha": "96f326ef67fda93673ddadcbb769a3cc72185d78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev91"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/78030f725b396e2142e2b8ed8d75552943acdd86",
+      "git:hexsha": "78030f725b396e2142e2b8ed8d75552943acdd86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f6ad1da5fe7fa39e61853b6072057810447a67f3",
+      "git:hexsha": "f6ad1da5fe7fa39e61853b6072057810447a67f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev93"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/5a826f1d823b14934ac17046d8dee10b29e7c951",
+      "git:hexsha": "5a826f1d823b14934ac17046d8dee10b29e7c951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev94"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/efb4261305bb0d297de622a4b974ad08b01d40af",
+      "git:hexsha": "efb4261305bb0d297de622a4b974ad08b01d40af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/f8601e7a058ccf52c47cd86178aa8649b7f02893",
+      "git:hexsha": "f8601e7a058ccf52c47cd86178aa8649b7f02893",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/1eca54ebf48f728c199da6397155ec49772be00f",
+      "git:hexsha": "1eca54ebf48f728c199da6397155ec49772be00f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/7b1ed908fd968fe9330dd8984cc36bfed981f215",
+      "git:hexsha": "7b1ed908fd968fe9330dd8984cc36bfed981f215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev98"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/89d977f19bf3b429deac81674b5858dbe4ec58e7",
+      "git:hexsha": "89d977f19bf3b429deac81674b5858dbe4ec58e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev99"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/bf5d408175dea4d4d4c6f5c0701aea1334a4fff4",
+      "git:hexsha": "bf5d408175dea4d4d4c6f5c0701aea1334a4fff4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2-edge2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/b594afe343cba3a44c7fffe0c2bb11063400470a",
+      "git:hexsha": "b594afe343cba3a44c7fffe0c2bb11063400470a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/ff66b3ac26eea23d5a7f26e32cf0b7eb60e98b3b",
+      "git:hexsha": "ff66b3ac26eea23d5a7f26e32cf0b7eb60e98b3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge10"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6412230bfdf4d6fe56e145653468b616110a496a",
+      "git:hexsha": "6412230bfdf4d6fe56e145653468b616110a496a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/737452f625dda1f2eede4a797e71d35c3508d330",
+      "git:hexsha": "737452f625dda1f2eede4a797e71d35c3508d330",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/6849d59c840b7f1679595d48506802745b835cf1",
+      "git:hexsha": "6849d59c840b7f1679595d48506802745b835cf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/8de79af2d4694e116cf4f39c9db67a59a103de2a",
+      "git:hexsha": "8de79af2d4694e116cf4f39c9db67a59a103de2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/afad1b34652686a4518067e30f5dbac913ddadc9",
+      "git:hexsha": "afad1b34652686a4518067e30f5dbac913ddadc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/loki-k8s-operator/commit/84f81550fe194a90fbc84023db35b68a67ccb195",
+      "git:hexsha": "84f81550fe194a90fbc84023db35b68a67ccb195",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge9"
+    }
+  ]
+}
