@@ -1,0 +1,1900 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator",
+  "@type": "gh:Repository",
+  "gh:name": "prometheus-k8s-operator",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6e45243ff03f4ecdb882fc17ea1f839585b32798",
+      "git:hexsha": "6e45243ff03f4ecdb882fc17ea1f839585b32798",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "rev339",
+      "repolex:parsedAt": "2026-11-08T04:32:31.454398+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ccc2858ac1b2c8d1a4dc1a0293969b94687598f0",
+      "git:hexsha": "ccc2858ac1b2c8d1a4dc1a0293969b94687598f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "r10-v10-l0.7-edge-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0f04704c8363cea262a8970db2f67824b577e324",
+      "git:hexsha": "0f04704c8363cea262a8970db2f67824b577e324",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ccc53858f5005e80ad7853dc84795cc8ba3b031c",
+      "git:hexsha": "ccc53858f5005e80ad7853dc84795cc8ba3b031c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/cb7fdd2b58464725f81abe3f3e4a7307509357a4",
+      "git:hexsha": "cb7fdd2b58464725f81abe3f3e4a7307509357a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1055db755ba1c4b50e13300d18cb3f360064b1aa",
+      "git:hexsha": "1055db755ba1c4b50e13300d18cb3f360064b1aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0a7416f2732ac170c1bcf2509d65a2438338b4ee",
+      "git:hexsha": "0a7416f2732ac170c1bcf2509d65a2438338b4ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0eb1edf4ccecc7ce978af06e9aeb57e8bd086317",
+      "git:hexsha": "0eb1edf4ccecc7ce978af06e9aeb57e8bd086317",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9449ff95988560efefeaf44c8604462a0b3d6380",
+      "git:hexsha": "9449ff95988560efefeaf44c8604462a0b3d6380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev106"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ecefc7917d48e5dc33f4a8dc3a22ad3b84396050",
+      "git:hexsha": "ecefc7917d48e5dc33f4a8dc3a22ad3b84396050",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4f8de1bc882394d608e3251368591da9acf59256",
+      "git:hexsha": "4f8de1bc882394d608e3251368591da9acf59256",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev108"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0a19a01e5c1f499f480b7aaee414df2233866ce7",
+      "git:hexsha": "0a19a01e5c1f499f480b7aaee414df2233866ce7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev109"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1c50f7d1525d074dcaa05d285d6988752e6ccd91",
+      "git:hexsha": "1c50f7d1525d074dcaa05d285d6988752e6ccd91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4148711cf5864aa30bb05eb0449bc91e60101506",
+      "git:hexsha": "4148711cf5864aa30bb05eb0449bc91e60101506",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev112"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1e302ec53646e889f9a6572e11b7c93ad38d4a8e",
+      "git:hexsha": "1e302ec53646e889f9a6572e11b7c93ad38d4a8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev113"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/207992e95a9da322ef0b382f1938fdd62f37b9c0",
+      "git:hexsha": "207992e95a9da322ef0b382f1938fdd62f37b9c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev114"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/61f18a6719a543aae2cce30d0827027f4fb80dad",
+      "git:hexsha": "61f18a6719a543aae2cce30d0827027f4fb80dad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev115"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/efb9168df3c0aba9ec47f5458c5ea2b54d69cf78",
+      "git:hexsha": "efb9168df3c0aba9ec47f5458c5ea2b54d69cf78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev116"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/94c668e3f063b0ce0e6964571830f22ad63e5cab",
+      "git:hexsha": "94c668e3f063b0ce0e6964571830f22ad63e5cab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev117"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/359a9b593ba0f9fae53a660967beedf94952e6a6",
+      "git:hexsha": "359a9b593ba0f9fae53a660967beedf94952e6a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev118"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1a83a23f1b0f19d5307659fc82c79bbe1e7d3cc7",
+      "git:hexsha": "1a83a23f1b0f19d5307659fc82c79bbe1e7d3cc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev119"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ccd21ef4f60b13d00bc6ad536d6724fdfa94b79d",
+      "git:hexsha": "ccd21ef4f60b13d00bc6ad536d6724fdfa94b79d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev120"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/064fde0bc419682e4cea250edec69cdf64866317",
+      "git:hexsha": "064fde0bc419682e4cea250edec69cdf64866317",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev121"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9d386da8023f91049252adab5e1db5fb9845251e",
+      "git:hexsha": "9d386da8023f91049252adab5e1db5fb9845251e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev122"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b8a66ae017fc2c557dfaf2a69c4ce5ce7bc1f2e7",
+      "git:hexsha": "b8a66ae017fc2c557dfaf2a69c4ce5ce7bc1f2e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev123"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/441c78cfa36f65685186342f65d0d6107345a409",
+      "git:hexsha": "441c78cfa36f65685186342f65d0d6107345a409",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev124"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/539f6a2bcb8cc2d265c72295ed6270eadf70fc94",
+      "git:hexsha": "539f6a2bcb8cc2d265c72295ed6270eadf70fc94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev125"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1b1f74e6f2e317df6bc0eef1846bbc407210a73e",
+      "git:hexsha": "1b1f74e6f2e317df6bc0eef1846bbc407210a73e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev126"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a10c15090afb8895bb3256606f3f9c984a51627b",
+      "git:hexsha": "a10c15090afb8895bb3256606f3f9c984a51627b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev127"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/72224ba22b28b4d75adbf115206ed17904dfa2ef",
+      "git:hexsha": "72224ba22b28b4d75adbf115206ed17904dfa2ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev128"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/78707ec7de95b0e224a7dad655ff803c2df40d1b",
+      "git:hexsha": "78707ec7de95b0e224a7dad655ff803c2df40d1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev129"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/fe603d0c817508f819f116d0de80fa2f1dfe15f0",
+      "git:hexsha": "fe603d0c817508f819f116d0de80fa2f1dfe15f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev130"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/af36b01d37375d56f97453a4f0f52a02a9b84adc",
+      "git:hexsha": "af36b01d37375d56f97453a4f0f52a02a9b84adc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev131"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/770c5de1ffe7ea19408c0439bf803595b710a0cc",
+      "git:hexsha": "770c5de1ffe7ea19408c0439bf803595b710a0cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev132"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/91c9df7844df27dbda1cd15e258edd86b4fa614b",
+      "git:hexsha": "91c9df7844df27dbda1cd15e258edd86b4fa614b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev133"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/bad36976c2cebed0293a09826a6eac472841c3d4",
+      "git:hexsha": "bad36976c2cebed0293a09826a6eac472841c3d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev134"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d33f51f39d990de3b8dcb9436bf69291a8e8b891",
+      "git:hexsha": "d33f51f39d990de3b8dcb9436bf69291a8e8b891",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev135"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/61253c9b48225fbf54caf5b1d09d36163b7b2247",
+      "git:hexsha": "61253c9b48225fbf54caf5b1d09d36163b7b2247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev136"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b9845d0687ad2dd88fd63c0b3a323a2c057b4e42",
+      "git:hexsha": "b9845d0687ad2dd88fd63c0b3a323a2c057b4e42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev137"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b515dbcdfd2e193b8668b8cfceedf1034b845e0e",
+      "git:hexsha": "b515dbcdfd2e193b8668b8cfceedf1034b845e0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev138"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8bfbe3630182796573a84feb9dc1f050e4128a85",
+      "git:hexsha": "8bfbe3630182796573a84feb9dc1f050e4128a85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev139"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/fa7687478679da653ebb30765734c59d8b7f71c6",
+      "git:hexsha": "fa7687478679da653ebb30765734c59d8b7f71c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev140"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/27f86f0362712360ec9eaa929e923e025e3c10d6",
+      "git:hexsha": "27f86f0362712360ec9eaa929e923e025e3c10d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e4f232acc0a517a5577c06eb789e944bfd5f7d7a",
+      "git:hexsha": "e4f232acc0a517a5577c06eb789e944bfd5f7d7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev142"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9d544539a99281a80507e85c205e73f0f76fb5a7",
+      "git:hexsha": "9d544539a99281a80507e85c205e73f0f76fb5a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/43a818291fce1dcd7df5e5834f23de056859542e",
+      "git:hexsha": "43a818291fce1dcd7df5e5834f23de056859542e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/87bb8aa98f9381c0d4b54a043ef1ac2da4e46997",
+      "git:hexsha": "87bb8aa98f9381c0d4b54a043ef1ac2da4e46997",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev146"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/aad107ced2ac1d503ea34a881c47729eeb6b4028",
+      "git:hexsha": "aad107ced2ac1d503ea34a881c47729eeb6b4028",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/bb5e490e055e9671ada7c6af5cfcd9732aeba664",
+      "git:hexsha": "bb5e490e055e9671ada7c6af5cfcd9732aeba664",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev148"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/656fdbe70111e953cff7cabfdec89eba5bae13c4",
+      "git:hexsha": "656fdbe70111e953cff7cabfdec89eba5bae13c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/748a0fcdc1fd08be007f87630799bfc415ab5c13",
+      "git:hexsha": "748a0fcdc1fd08be007f87630799bfc415ab5c13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev150"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/58e7dc1d0358c1442358a2ee93d4fb4128abf4e4",
+      "git:hexsha": "58e7dc1d0358c1442358a2ee93d4fb4128abf4e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev151"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/29554d063486b427fd4acb5c7c850b249c6a9da1",
+      "git:hexsha": "29554d063486b427fd4acb5c7c850b249c6a9da1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev152"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/16ba0e867b571d17ac8e87af7ab5720228d53d52",
+      "git:hexsha": "16ba0e867b571d17ac8e87af7ab5720228d53d52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b4d67ad7cc48d7c6d39246a6e34e23c2fa3547b1",
+      "git:hexsha": "b4d67ad7cc48d7c6d39246a6e34e23c2fa3547b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev154"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/53fdea7a3e6bb5e1e3681e4d6300eaaa9e62f466",
+      "git:hexsha": "53fdea7a3e6bb5e1e3681e4d6300eaaa9e62f466",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev155"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/991a73bfa99dfc15213a9034f6ec62f969307f3b",
+      "git:hexsha": "991a73bfa99dfc15213a9034f6ec62f969307f3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev156"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/26c43ef36cc057831bc74550b5455ac41f60e590",
+      "git:hexsha": "26c43ef36cc057831bc74550b5455ac41f60e590",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev157"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c25f7ceaa3d4c8da93af704f6704a187663b54ee",
+      "git:hexsha": "c25f7ceaa3d4c8da93af704f6704a187663b54ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev158"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d29f323343a1e4906a8c71104fcd1de817b2c2e6",
+      "git:hexsha": "d29f323343a1e4906a8c71104fcd1de817b2c2e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3accbeefe79c130d6ec388a0a82b58c370f4fc28",
+      "git:hexsha": "3accbeefe79c130d6ec388a0a82b58c370f4fc28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev160"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1829ce6f710d4bbcd4d3ab6487941c8179f20ffe",
+      "git:hexsha": "1829ce6f710d4bbcd4d3ab6487941c8179f20ffe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/21792a2336e2a1dba2872b9ba712b98e8217cefc",
+      "git:hexsha": "21792a2336e2a1dba2872b9ba712b98e8217cefc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev162"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/dd83f2190f520a812455462e8a767670b9487bc5",
+      "git:hexsha": "dd83f2190f520a812455462e8a767670b9487bc5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev163"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/31106f02e159a1f78403fcbcd76e3bdf9de1d278",
+      "git:hexsha": "31106f02e159a1f78403fcbcd76e3bdf9de1d278",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev164"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c03298b7736f2aa3623446c86014263a94bdd8c4",
+      "git:hexsha": "c03298b7736f2aa3623446c86014263a94bdd8c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/2f4a6e312a94ec5f4a487267365dac90d27f25f7",
+      "git:hexsha": "2f4a6e312a94ec5f4a487267365dac90d27f25f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev166"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4f2e57c027bffa82091355cc1c1c6478dd7a79a3",
+      "git:hexsha": "4f2e57c027bffa82091355cc1c1c6478dd7a79a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4573defdc59bb658c1ccf86cbef7433b62346979",
+      "git:hexsha": "4573defdc59bb658c1ccf86cbef7433b62346979",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev168"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4ca83b670f72f964e60c0ce69bd0f66b47016aaa",
+      "git:hexsha": "4ca83b670f72f964e60c0ce69bd0f66b47016aaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev169"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d7a20a6d34efb62d56d9e0d51d124931d30990a9",
+      "git:hexsha": "d7a20a6d34efb62d56d9e0d51d124931d30990a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev170"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/13a7202718f6441ff5c3101ccbba4cdbd633f00d",
+      "git:hexsha": "13a7202718f6441ff5c3101ccbba4cdbd633f00d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev171"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/35a1eecb0f6491ac3be84b633f97121a0749d04b",
+      "git:hexsha": "35a1eecb0f6491ac3be84b633f97121a0749d04b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev172"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/02d33129c86d88275cd328323fc78ea937d8cb38",
+      "git:hexsha": "02d33129c86d88275cd328323fc78ea937d8cb38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev173"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/aa5881f6ead926ad64d452982889c04f75cbd683",
+      "git:hexsha": "aa5881f6ead926ad64d452982889c04f75cbd683",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev174"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6eea5cc49bce622c089c54a7be0f891e67966c5c",
+      "git:hexsha": "6eea5cc49bce622c089c54a7be0f891e67966c5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev175"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/2dab5084a70764d2cad757ec5bca519207f4ef5d",
+      "git:hexsha": "2dab5084a70764d2cad757ec5bca519207f4ef5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev176"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/7ea4ef51e1d7e61cc6d020f61319692557568dcd",
+      "git:hexsha": "7ea4ef51e1d7e61cc6d020f61319692557568dcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev177"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/08a58bd0c078b3c4e7352658069a72f6e77ef5cb",
+      "git:hexsha": "08a58bd0c078b3c4e7352658069a72f6e77ef5cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev178"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/84a537ef6dccfa9cf3d01a3a2c72cdb950f7b582",
+      "git:hexsha": "84a537ef6dccfa9cf3d01a3a2c72cdb950f7b582",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev179"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/84c6a406ed585cdb7ba40e01a258864987d6f67f",
+      "git:hexsha": "84c6a406ed585cdb7ba40e01a258864987d6f67f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev180"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/f85eb70ca4500ef55f47c11f710616d5a979c9a8",
+      "git:hexsha": "f85eb70ca4500ef55f47c11f710616d5a979c9a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev181"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9077888faf9d8a8fc337d34c042ec1aa5e09a70c",
+      "git:hexsha": "9077888faf9d8a8fc337d34c042ec1aa5e09a70c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev182"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/fcfc555317058f0dae1f5fc73861c79c5415e9f9",
+      "git:hexsha": "fcfc555317058f0dae1f5fc73861c79c5415e9f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev183"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d35f2ea680a6164d31ff3935a8f4bc9bda9ad7d3",
+      "git:hexsha": "d35f2ea680a6164d31ff3935a8f4bc9bda9ad7d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev184"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/69b500c3d331bc1c35ac1c0e650c775e922410c4",
+      "git:hexsha": "69b500c3d331bc1c35ac1c0e650c775e922410c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev185"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/091c41a49182826539eb4771f0463cd805554453",
+      "git:hexsha": "091c41a49182826539eb4771f0463cd805554453",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev186"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0d7d79bae626f3755b0f5cd3efdfcad3f7d3db0f",
+      "git:hexsha": "0d7d79bae626f3755b0f5cd3efdfcad3f7d3db0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev187"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ba834f68bfc1ebe3dbe9c3d0f4514b36611f8398",
+      "git:hexsha": "ba834f68bfc1ebe3dbe9c3d0f4514b36611f8398",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev188"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/41b10003b2e7aba34e26fa387af4297d97ecb535",
+      "git:hexsha": "41b10003b2e7aba34e26fa387af4297d97ecb535",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev189"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6bf5eea6ad6631fef24875b2912d7fc8c1cb4c32",
+      "git:hexsha": "6bf5eea6ad6631fef24875b2912d7fc8c1cb4c32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev19"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0363eb0332de9f027063a981173c6fae59b3941a",
+      "git:hexsha": "0363eb0332de9f027063a981173c6fae59b3941a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev190"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/234ab354120f342e6c323c40a64ad25e6d8ab8eb",
+      "git:hexsha": "234ab354120f342e6c323c40a64ad25e6d8ab8eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev191"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/21fb04f76169cd68a835a78921435df79feb6da9",
+      "git:hexsha": "21fb04f76169cd68a835a78921435df79feb6da9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev192"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/07b51434ef9827547073cfa2ef252be54d3ea183",
+      "git:hexsha": "07b51434ef9827547073cfa2ef252be54d3ea183",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev193"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/34b3b3d54677dbdb5733901995152fe8973f8271",
+      "git:hexsha": "34b3b3d54677dbdb5733901995152fe8973f8271",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev194"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/06295f02bc5d3a23ec6fb8b6c3b025937d33a029",
+      "git:hexsha": "06295f02bc5d3a23ec6fb8b6c3b025937d33a029",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev195"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/051a3a750e057bf97ba44335b3a66261dd3e78a6",
+      "git:hexsha": "051a3a750e057bf97ba44335b3a66261dd3e78a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev196"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ca0d2cbaa197b64a6373558de2753aa1d0e54f4c",
+      "git:hexsha": "ca0d2cbaa197b64a6373558de2753aa1d0e54f4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev197"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/304f137c08565f3fb4608eeeebdc2f715bc43a33",
+      "git:hexsha": "304f137c08565f3fb4608eeeebdc2f715bc43a33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev198"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/185f65ea41c49b6315ae9b18ae6e7cb10449aeae",
+      "git:hexsha": "185f65ea41c49b6315ae9b18ae6e7cb10449aeae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev199"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c7033007142afdd78055f7f1c95ea4d6d4936122",
+      "git:hexsha": "c7033007142afdd78055f7f1c95ea4d6d4936122",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev20"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4f07f7f705a2aa3bbaa09b519d94dd611d45d7c5",
+      "git:hexsha": "4f07f7f705a2aa3bbaa09b519d94dd611d45d7c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev200"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/223914e1e7b2f3b7414f2d57d066328361868fa5",
+      "git:hexsha": "223914e1e7b2f3b7414f2d57d066328361868fa5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev201"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c3b489423cd7754d5f9980ad2d0c1a8ef75b86dc",
+      "git:hexsha": "c3b489423cd7754d5f9980ad2d0c1a8ef75b86dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev202"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/20b5d45e7c2c9b1fc5628b2878bdf492526f206a",
+      "git:hexsha": "20b5d45e7c2c9b1fc5628b2878bdf492526f206a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev203"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a31a450c6156400a728ee1a31a491f75c4fd49f8",
+      "git:hexsha": "a31a450c6156400a728ee1a31a491f75c4fd49f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev204"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/fa2780b51062b7ef4fad2d6337934d18f8b05778",
+      "git:hexsha": "fa2780b51062b7ef4fad2d6337934d18f8b05778",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev205"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9eade9cca922fccd2a58c3286a550add65672117",
+      "git:hexsha": "9eade9cca922fccd2a58c3286a550add65672117",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev206"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/bbb7f6eb6a242bd0c1abbc400388b0df58a1dd50",
+      "git:hexsha": "bbb7f6eb6a242bd0c1abbc400388b0df58a1dd50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev207"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8632c7d2a14bda20083edd4435824fbbeafc19d3",
+      "git:hexsha": "8632c7d2a14bda20083edd4435824fbbeafc19d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev208"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6b0d58e6640d878c55f4e3dd0247babf50bd47de",
+      "git:hexsha": "6b0d58e6640d878c55f4e3dd0247babf50bd47de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev209"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/5ccc63d3f60b194294959e5ab0d69e6f9b78ea90",
+      "git:hexsha": "5ccc63d3f60b194294959e5ab0d69e6f9b78ea90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/76e80816dc67958fa8be6752ef99b34371e84f87",
+      "git:hexsha": "76e80816dc67958fa8be6752ef99b34371e84f87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev210"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/030ff51443d80e33e13abee99075444e048b86de",
+      "git:hexsha": "030ff51443d80e33e13abee99075444e048b86de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev211"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/27025e5d840ec09331608b398cf4e49e5fe256e9",
+      "git:hexsha": "27025e5d840ec09331608b398cf4e49e5fe256e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev212"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d1c0d70d6229701966d634c28822f79e3e101b51",
+      "git:hexsha": "d1c0d70d6229701966d634c28822f79e3e101b51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev213"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/fc5f4e17bba6d1088588e02ab12c0f516571b738",
+      "git:hexsha": "fc5f4e17bba6d1088588e02ab12c0f516571b738",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev214"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3d0ac1a3b09306f3f44d3d42b5bdb81d955778e1",
+      "git:hexsha": "3d0ac1a3b09306f3f44d3d42b5bdb81d955778e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev215"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d36ffa5eab31a3261a08c52a7584d2012cdb035c",
+      "git:hexsha": "d36ffa5eab31a3261a08c52a7584d2012cdb035c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev216"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6d22620a68c388095cde8c76bbf7256447918aec",
+      "git:hexsha": "6d22620a68c388095cde8c76bbf7256447918aec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev217"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0953ac0c87dc8912ed935f9130f21940923461e8",
+      "git:hexsha": "0953ac0c87dc8912ed935f9130f21940923461e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev218"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6ad2b42d733502f4f7bff208381b879350076114",
+      "git:hexsha": "6ad2b42d733502f4f7bff208381b879350076114",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev219"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/316f9c364637161750276b55356678b93bbc8fb8",
+      "git:hexsha": "316f9c364637161750276b55356678b93bbc8fb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/665ac5f6c0c74c0f89c05f3351bd51104d9514fd",
+      "git:hexsha": "665ac5f6c0c74c0f89c05f3351bd51104d9514fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev220"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/5779ecc749ee1582c6be20030a83472d024cd24f",
+      "git:hexsha": "5779ecc749ee1582c6be20030a83472d024cd24f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev221"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/cf0566081dec9e7680665b2139c56898cbf47da0",
+      "git:hexsha": "cf0566081dec9e7680665b2139c56898cbf47da0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev222"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8ab18168ef9410654e7070824d6c9ebbe7f2c0a5",
+      "git:hexsha": "8ab18168ef9410654e7070824d6c9ebbe7f2c0a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev223"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/45ce07c5ab3b5bc51a561648c504c475b70b6990",
+      "git:hexsha": "45ce07c5ab3b5bc51a561648c504c475b70b6990",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev224"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c54cec4a37bb4a4547d6dc12239dc94588cbd3ed",
+      "git:hexsha": "c54cec4a37bb4a4547d6dc12239dc94588cbd3ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev225"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/62cd2d9b8c3a528910ce12c553209817e1b7a889",
+      "git:hexsha": "62cd2d9b8c3a528910ce12c553209817e1b7a889",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev226"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9b42b34086417052e302784944a5cc539cb09ed7",
+      "git:hexsha": "9b42b34086417052e302784944a5cc539cb09ed7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev227"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/81e43b501d2a6662acebabc6633c904e02bb25d0",
+      "git:hexsha": "81e43b501d2a6662acebabc6633c904e02bb25d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev228"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/76f3889a888f908d3d81ad64e8bf22e1c382ba27",
+      "git:hexsha": "76f3889a888f908d3d81ad64e8bf22e1c382ba27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev229"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/27f19fc5cc0bc4d9beb5e82a7c6acf245a39814b",
+      "git:hexsha": "27f19fc5cc0bc4d9beb5e82a7c6acf245a39814b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev230"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1ce90fe7e66ecaadad811f49c9b2af6d731cce3f",
+      "git:hexsha": "1ce90fe7e66ecaadad811f49c9b2af6d731cce3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev231"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ab4996085f1aabfc6da80aa4fad21a23b888ce9b",
+      "git:hexsha": "ab4996085f1aabfc6da80aa4fad21a23b888ce9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev232"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e09913477484f9ca006171ed949a9702bec3251e",
+      "git:hexsha": "e09913477484f9ca006171ed949a9702bec3251e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev233"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/841627684a718552a16cff45955d512374f28a0c",
+      "git:hexsha": "841627684a718552a16cff45955d512374f28a0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev234"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/378b457adf95952f8cce348963514b9d62200241",
+      "git:hexsha": "378b457adf95952f8cce348963514b9d62200241",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev235"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4ddf94f65e843a88fc54841357c86ba30a6a2a48",
+      "git:hexsha": "4ddf94f65e843a88fc54841357c86ba30a6a2a48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev236"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/50902af2209e2407c31e0f62b62e342baa0de5a0",
+      "git:hexsha": "50902af2209e2407c31e0f62b62e342baa0de5a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev237"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8b8e23b929e27d6ffc909c79dc480cb39726c760",
+      "git:hexsha": "8b8e23b929e27d6ffc909c79dc480cb39726c760",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/239e6ab955ce52fd3b8fb1d0a8c966e6deef1388",
+      "git:hexsha": "239e6ab955ce52fd3b8fb1d0a8c966e6deef1388",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev241"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/82f220f58957dca61db839de9c22b38725cf48ec",
+      "git:hexsha": "82f220f58957dca61db839de9c22b38725cf48ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev243"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/610f9703a85f58f2eeeb34a6f44fb1811f0f0ba8",
+      "git:hexsha": "610f9703a85f58f2eeeb34a6f44fb1811f0f0ba8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev245"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/24d374c829c4d569ad35f6e0faa1f0eb833dd5f0",
+      "git:hexsha": "24d374c829c4d569ad35f6e0faa1f0eb833dd5f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev247"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4b0c356b99856f52cc652ff97b58f80e62b1a504",
+      "git:hexsha": "4b0c356b99856f52cc652ff97b58f80e62b1a504",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev248"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0df3eb6a262ae018a45a75f19f8ee9fe828e50b3",
+      "git:hexsha": "0df3eb6a262ae018a45a75f19f8ee9fe828e50b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev249"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0fe1aa12089138b323de11fd8e603110e6b309a8",
+      "git:hexsha": "0fe1aa12089138b323de11fd8e603110e6b309a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8581f7ea55f688a1d01c3501a88133540b1cce6d",
+      "git:hexsha": "8581f7ea55f688a1d01c3501a88133540b1cce6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev250"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d68f806ef0d94d4108a6b1a845219183c08a0dc9",
+      "git:hexsha": "d68f806ef0d94d4108a6b1a845219183c08a0dc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev251"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3aa34f73801bb36a85eb0614fbb964d272f4cc96",
+      "git:hexsha": "3aa34f73801bb36a85eb0614fbb964d272f4cc96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev252"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ca0a31dab4497eac1bcdc3ca3eb47bbbc7365dc9",
+      "git:hexsha": "ca0a31dab4497eac1bcdc3ca3eb47bbbc7365dc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev253"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c9ae38f74d6e85ef53b22fa4a745de4787c34927",
+      "git:hexsha": "c9ae38f74d6e85ef53b22fa4a745de4787c34927",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev254"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/75efc8c8bd91d63be90318e8999a210e6d23f0cf",
+      "git:hexsha": "75efc8c8bd91d63be90318e8999a210e6d23f0cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev255"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/f807bdb66d84d8caf3018afd9023e7a5b75c7ab3",
+      "git:hexsha": "f807bdb66d84d8caf3018afd9023e7a5b75c7ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev256"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c8fbf7d70f66ef223410e3f8f41492f0dd6ea1db",
+      "git:hexsha": "c8fbf7d70f66ef223410e3f8f41492f0dd6ea1db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev257"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/86b3dfeb85663e0ad65081484d8f381185bcc8e6",
+      "git:hexsha": "86b3dfeb85663e0ad65081484d8f381185bcc8e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev258"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/7ddfbe98b9cf768233f3e10b85416407d258ba10",
+      "git:hexsha": "7ddfbe98b9cf768233f3e10b85416407d258ba10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev259"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8d1fe7c73bc20d662a4984b6367e12d8a5b91c20",
+      "git:hexsha": "8d1fe7c73bc20d662a4984b6367e12d8a5b91c20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev260"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/2cde3f0bad1d66214e9fbb929eb995c0cba15936",
+      "git:hexsha": "2cde3f0bad1d66214e9fbb929eb995c0cba15936",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev261"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/55c1e2bb8850fe58c44406987d1065402987bac1",
+      "git:hexsha": "55c1e2bb8850fe58c44406987d1065402987bac1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev262"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/2d57e2c74681bbaac16b4e9a7d5deaca0779f59a",
+      "git:hexsha": "2d57e2c74681bbaac16b4e9a7d5deaca0779f59a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev263"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/424fa3299eb11e91c3a9bdda9822e21de70e0edf",
+      "git:hexsha": "424fa3299eb11e91c3a9bdda9822e21de70e0edf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev264"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1c56dafcd3a963f10aac37590202443d36ba34c1",
+      "git:hexsha": "1c56dafcd3a963f10aac37590202443d36ba34c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev265"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ca8bf34af89eb0f473c4530f5d496badf233362f",
+      "git:hexsha": "ca8bf34af89eb0f473c4530f5d496badf233362f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev266"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a6ed1d8b550aa78617fd4b34210e001beb1d9864",
+      "git:hexsha": "a6ed1d8b550aa78617fd4b34210e001beb1d9864",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev267"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9f003c6294dcd1ab96cc59cd54855ef4f9619eb0",
+      "git:hexsha": "9f003c6294dcd1ab96cc59cd54855ef4f9619eb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev268"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/66560bb1f9fe450be2f2446ef1689f016667d6ce",
+      "git:hexsha": "66560bb1f9fe450be2f2446ef1689f016667d6ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev269"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1b0d2b3922f09a62f9acb7d9d1f7678312369227",
+      "git:hexsha": "1b0d2b3922f09a62f9acb7d9d1f7678312369227",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev27"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4b25a635b7400c37be9370235f851ef76869cd61",
+      "git:hexsha": "4b25a635b7400c37be9370235f851ef76869cd61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev270"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/cec2a550f3ea91c86f31c42ff805a13a0e31b032",
+      "git:hexsha": "cec2a550f3ea91c86f31c42ff805a13a0e31b032",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-provider-v0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b5a4de351a61870dd8a1d7a3d609158b045c5641",
+      "git:hexsha": "b5a4de351a61870dd8a1d7a3d609158b045c5641",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev272"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/00cc2c107a9e5ffd2ed3d0a10d78eb6273a97f62",
+      "git:hexsha": "00cc2c107a9e5ffd2ed3d0a10d78eb6273a97f62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev273"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1ecd5e3139670aa894daa265cc8a9e2a2097d6ef",
+      "git:hexsha": "1ecd5e3139670aa894daa265cc8a9e2a2097d6ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev274"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/95fa30ad18fc93bcc3f7149d1f517e04ce6bbf96",
+      "git:hexsha": "95fa30ad18fc93bcc3f7149d1f517e04ce6bbf96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev275"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8272abcb2bee99f02cec4d0d140916e60a2496fa",
+      "git:hexsha": "8272abcb2bee99f02cec4d0d140916e60a2496fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev276"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/2b7ddbceae676e8655d5e5edf3145396565d37bb",
+      "git:hexsha": "2b7ddbceae676e8655d5e5edf3145396565d37bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev277"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/78f131863dca08ebe807de98e4743664cfea736e",
+      "git:hexsha": "78f131863dca08ebe807de98e4743664cfea736e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev278"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/847ef5101ed2b43a7aac0f887068db94191b1c90",
+      "git:hexsha": "847ef5101ed2b43a7aac0f887068db94191b1c90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev279"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e964e639274efff359de78b65c261c9a9cf981be",
+      "git:hexsha": "e964e639274efff359de78b65c261c9a9cf981be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev28"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/92e93a74984239983ab42ac1a1a49f2922cc15c1",
+      "git:hexsha": "92e93a74984239983ab42ac1a1a49f2922cc15c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev280"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/74bd4a8b98ee750ab401a652a3cf9bb2317ded15",
+      "git:hexsha": "74bd4a8b98ee750ab401a652a3cf9bb2317ded15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev281"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4b3d229c3021ce01a2b569b06a74204a76ecf177",
+      "git:hexsha": "4b3d229c3021ce01a2b569b06a74204a76ecf177",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev282"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1bcb9d8ac2a7d0333f20a0780b401aa70778a80f",
+      "git:hexsha": "1bcb9d8ac2a7d0333f20a0780b401aa70778a80f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev283"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9885193975df1a909087a8ddb8fc44ae760ed45d",
+      "git:hexsha": "9885193975df1a909087a8ddb8fc44ae760ed45d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev284"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/70f97d90726168e96334c1f1d3c8596cb80c0902",
+      "git:hexsha": "70f97d90726168e96334c1f1d3c8596cb80c0902",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev285"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6c901694d89bef13cbadd25605edc3abc687738e",
+      "git:hexsha": "6c901694d89bef13cbadd25605edc3abc687738e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev286"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/66d201e40c1503e019503385c57e3e09e7121a6e",
+      "git:hexsha": "66d201e40c1503e019503385c57e3e09e7121a6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev287"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3d2e8c7b731b07c5ceebe2de4e216a3ce66a01e6",
+      "git:hexsha": "3d2e8c7b731b07c5ceebe2de4e216a3ce66a01e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev288"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/554679a3696db461393cf3ef98223844cf28a8cf",
+      "git:hexsha": "554679a3696db461393cf3ef98223844cf28a8cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev289"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a369c99cfdafeceaf94b1ec3ba1d961a11bb0cc6",
+      "git:hexsha": "a369c99cfdafeceaf94b1ec3ba1d961a11bb0cc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev29"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/da0b3c70e2641075904a64cdfa394fcf26219754",
+      "git:hexsha": "da0b3c70e2641075904a64cdfa394fcf26219754",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev290"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6efa85d8368ea3b34cd6b69e526eb7757e11d1b8",
+      "git:hexsha": "6efa85d8368ea3b34cd6b69e526eb7757e11d1b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev291"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/74157abbd9ace1c29ec612e380fa7c1a3e781f93",
+      "git:hexsha": "74157abbd9ace1c29ec612e380fa7c1a3e781f93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev292"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0c75572ae939f2eaf19ca544004f503895c6c377",
+      "git:hexsha": "0c75572ae939f2eaf19ca544004f503895c6c377",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev293"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9051fdc620c25d957c9d202dad8e446c19edb30a",
+      "git:hexsha": "9051fdc620c25d957c9d202dad8e446c19edb30a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev294"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b1f732a264ecff76981aebee2b2dd8d0b3da1799",
+      "git:hexsha": "b1f732a264ecff76981aebee2b2dd8d0b3da1799",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev295"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b1c44e1e3df87d7470389384b9743e867af36977",
+      "git:hexsha": "b1c44e1e3df87d7470389384b9743e867af36977",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev296"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d4df57ec90269f0259c4ade7f9b49ab38994a716",
+      "git:hexsha": "d4df57ec90269f0259c4ade7f9b49ab38994a716",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev297"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/7384dc0371e02fbce25bd756cd13b7b9d01dbc27",
+      "git:hexsha": "7384dc0371e02fbce25bd756cd13b7b9d01dbc27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev298"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1db12b0c61e0ed418a46d323b7e32a9a4c308b9b",
+      "git:hexsha": "1db12b0c61e0ed418a46d323b7e32a9a4c308b9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev299"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/791aecdf82791f5bc93674977b566ec3a806c3d4",
+      "git:hexsha": "791aecdf82791f5bc93674977b566ec3a806c3d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/24c39059591b9bdaf0fe07c77bf2567a772c658c",
+      "git:hexsha": "24c39059591b9bdaf0fe07c77bf2567a772c658c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev300"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0091bc2c289440cfddb8c51959306bed1e3072da",
+      "git:hexsha": "0091bc2c289440cfddb8c51959306bed1e3072da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev301"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6df3d929283cc49442a422239f3fe74c93d2842d",
+      "git:hexsha": "6df3d929283cc49442a422239f3fe74c93d2842d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev302"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e760920bcca444b3fe51a588eb5265174935c293",
+      "git:hexsha": "e760920bcca444b3fe51a588eb5265174935c293",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev303"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/7688a6c7a48997e99f9aae9458c72788969c0ef0",
+      "git:hexsha": "7688a6c7a48997e99f9aae9458c72788969c0ef0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev304"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/375ed61d8629b235a60dae7f2b9220d5846b0370",
+      "git:hexsha": "375ed61d8629b235a60dae7f2b9220d5846b0370",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev305"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/84aeed6c4c7ef03971357abe1d18a1a552d11d15",
+      "git:hexsha": "84aeed6c4c7ef03971357abe1d18a1a552d11d15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev306"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9907ea2a7ce340f27a9e7f87a000330d61a5f7f0",
+      "git:hexsha": "9907ea2a7ce340f27a9e7f87a000330d61a5f7f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8120a35f5513c070f3c2122f574e840004e46388",
+      "git:hexsha": "8120a35f5513c070f3c2122f574e840004e46388",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/7307c58ccb20c8a35ebfef6d8fb9a7f6298538da",
+      "git:hexsha": "7307c58ccb20c8a35ebfef6d8fb9a7f6298538da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8f93ba78447b4c15e36f3f4673cb60068a099983",
+      "git:hexsha": "8f93ba78447b4c15e36f3f4673cb60068a099983",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ecdb9189104bdb30e76b80e7b146fd00d82d6965",
+      "git:hexsha": "ecdb9189104bdb30e76b80e7b146fd00d82d6965",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev310"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6426c00bf9b333462ce25fa42975798568a9e5d6",
+      "git:hexsha": "6426c00bf9b333462ce25fa42975798568a9e5d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev311"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9d57daca214461616c15f455a6870ea75482485c",
+      "git:hexsha": "9d57daca214461616c15f455a6870ea75482485c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev312"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/264d4949fe322dc6e388e0087298202825a377f4",
+      "git:hexsha": "264d4949fe322dc6e388e0087298202825a377f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev313"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0c77c1d6ff0ebe4a602c6857024941b608f4ebfa",
+      "git:hexsha": "0c77c1d6ff0ebe4a602c6857024941b608f4ebfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev315"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a40f35980fb62ca9fa3012e596675e7d1a5cc233",
+      "git:hexsha": "a40f35980fb62ca9fa3012e596675e7d1a5cc233",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev316"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/68d69b02180bcd513e5fd910fef63e17770b9d5b",
+      "git:hexsha": "68d69b02180bcd513e5fd910fef63e17770b9d5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/71df069dba442560a88b32c6131518623f1ebd64",
+      "git:hexsha": "71df069dba442560a88b32c6131518623f1ebd64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev318"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/14aa3c2b63fef13cacff9d5147e2fe5c82659a61",
+      "git:hexsha": "14aa3c2b63fef13cacff9d5147e2fe5c82659a61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev319"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/95116e6e1ebbe220c28a092d74cd866025136a1d",
+      "git:hexsha": "95116e6e1ebbe220c28a092d74cd866025136a1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/5ddc8619405a52d268263c5bedfefa328e5f33aa",
+      "git:hexsha": "5ddc8619405a52d268263c5bedfefa328e5f33aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev320"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/be194f4d626bb4872b0484dd6ace9cf38a555d84",
+      "git:hexsha": "be194f4d626bb4872b0484dd6ace9cf38a555d84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev321"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/506e0761e2976166f4f37b7d696c131d4cf34974",
+      "git:hexsha": "506e0761e2976166f4f37b7d696c131d4cf34974",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev322"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3c9766ba2d8e7b265ed6143f7455119348fe1fb5",
+      "git:hexsha": "3c9766ba2d8e7b265ed6143f7455119348fe1fb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev323"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4a38ca7c1c03a79a4a73f4074822f39f402c15ad",
+      "git:hexsha": "4a38ca7c1c03a79a4a73f4074822f39f402c15ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev324"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b2afc2533e24516c3cb888e38c63c9812d8897e4",
+      "git:hexsha": "b2afc2533e24516c3cb888e38c63c9812d8897e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev325"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/925a26220b11b4d1f0ef49957ae338ab3651faeb",
+      "git:hexsha": "925a26220b11b4d1f0ef49957ae338ab3651faeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev326"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6e3350475a5b3d58fa5ed13388fc83c312ce27ef",
+      "git:hexsha": "6e3350475a5b3d58fa5ed13388fc83c312ce27ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev327"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c38ffef0a07c5f64d9cecd428778dc8a5eaaab39",
+      "git:hexsha": "c38ffef0a07c5f64d9cecd428778dc8a5eaaab39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev328"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/226d44d8b4feec7cf9eb68242e1e76cb865a4b06",
+      "git:hexsha": "226d44d8b4feec7cf9eb68242e1e76cb865a4b06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev329"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/155f990dcbdba29e3356a7859d42517e04474a25",
+      "git:hexsha": "155f990dcbdba29e3356a7859d42517e04474a25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev33"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1b4c3a6b9189375da645f08ae8e8ad96ed18aae5",
+      "git:hexsha": "1b4c3a6b9189375da645f08ae8e8ad96ed18aae5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev330"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4832dae2a016b0a8b3476152d2f01d977bdcb54b",
+      "git:hexsha": "4832dae2a016b0a8b3476152d2f01d977bdcb54b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3e1039bd331023530be6a9128f2b404696ce5b4c",
+      "git:hexsha": "3e1039bd331023530be6a9128f2b404696ce5b4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev333"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4d32d63cac74ae03fe5647d3dd4e4013e36c2093",
+      "git:hexsha": "4d32d63cac74ae03fe5647d3dd4e4013e36c2093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev334"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c4d7ebd5559da626661a5a3a05b1e7aeb456f047",
+      "git:hexsha": "c4d7ebd5559da626661a5a3a05b1e7aeb456f047",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev335"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0814c8cb96bf07c7151d4f3ee5a50c804d78512d",
+      "git:hexsha": "0814c8cb96bf07c7151d4f3ee5a50c804d78512d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev336"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/69daf9da960e40b32b2119b1e0c0f014d61a97e6",
+      "git:hexsha": "69daf9da960e40b32b2119b1e0c0f014d61a97e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev337"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a3d80a0b94bf5cf0a340efaa0fa463f96fef858f",
+      "git:hexsha": "a3d80a0b94bf5cf0a340efaa0fa463f96fef858f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b23b4698ca3b4ab1525a517c3ea3b1eb5d74803f",
+      "git:hexsha": "b23b4698ca3b4ab1525a517c3ea3b1eb5d74803f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tf-3.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/010761fa4d6ee686c1bdc69318eda294d4c90e51",
+      "git:hexsha": "010761fa4d6ee686c1bdc69318eda294d4c90e51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ad1cdfe80ea4f6a1478a7a4cb65029a00cf2922e",
+      "git:hexsha": "ad1cdfe80ea4f6a1478a7a4cb65029a00cf2922e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/15115129445672db3863779feeec66e9e0459826",
+      "git:hexsha": "15115129445672db3863779feeec66e9e0459826",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev37"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0d17ebdc9fc07b3e367f3a2dacdb5ba44600fe50",
+      "git:hexsha": "0d17ebdc9fc07b3e367f3a2dacdb5ba44600fe50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/467141989ef8d2494128d3cff7bb81eeef3e01da",
+      "git:hexsha": "467141989ef8d2494128d3cff7bb81eeef3e01da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e5b50c94bab6d2a5ff549e571bb64c4ffd3b008e",
+      "git:hexsha": "e5b50c94bab6d2a5ff549e571bb64c4ffd3b008e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8ab90801c508a5f5e9df7ad85edfa08f27729996",
+      "git:hexsha": "8ab90801c508a5f5e9df7ad85edfa08f27729996",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev41"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/51b7e73b639824da80e4db3e11b48463d5c00982",
+      "git:hexsha": "51b7e73b639824da80e4db3e11b48463d5c00982",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a0efc401a2fbf65583cf6326e745d89a3c7efcbd",
+      "git:hexsha": "a0efc401a2fbf65583cf6326e745d89a3c7efcbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev43"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/5f4d32d9a39f8e638b734a948da0ecd89139fed3",
+      "git:hexsha": "5f4d32d9a39f8e638b734a948da0ecd89139fed3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/42f6781b02080629eb860e245f4f7d2a44d29b7b",
+      "git:hexsha": "42f6781b02080629eb860e245f4f7d2a44d29b7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev45"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b25ca5d382ad1e111e7697dd7117dbfe203c13cc",
+      "git:hexsha": "b25ca5d382ad1e111e7697dd7117dbfe203c13cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev46"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/6b3cc6772c97db8af7e0d9c6ebdf40da6064112e",
+      "git:hexsha": "6b3cc6772c97db8af7e0d9c6ebdf40da6064112e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev47"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/08514208b30a0b128e29eb90cb6382c76a0ff3d2",
+      "git:hexsha": "08514208b30a0b128e29eb90cb6382c76a0ff3d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev48"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0055756f70e90462b4fe8c20d895b9d36c96eaf3",
+      "git:hexsha": "0055756f70e90462b4fe8c20d895b9d36c96eaf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev49"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a66e301dcef72e36bbed16b0a5563c7c810de8ad",
+      "git:hexsha": "a66e301dcef72e36bbed16b0a5563c7c810de8ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev50"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/166863acc6d71c13f4debb09453a30e92f57e78a",
+      "git:hexsha": "166863acc6d71c13f4debb09453a30e92f57e78a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev51"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/2edaaf88e1f79a2ad92022acb6a8692be390c8f6",
+      "git:hexsha": "2edaaf88e1f79a2ad92022acb6a8692be390c8f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev52"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/bf15cd4c7333b99e3e4d92da6377c257495c15d8",
+      "git:hexsha": "bf15cd4c7333b99e3e4d92da6377c257495c15d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev53"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4b5457637814bae11f223c320d821eb916f9b1b4",
+      "git:hexsha": "4b5457637814bae11f223c320d821eb916f9b1b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev54"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b109c9e68b9c71bd221bbd3fd2489e912478af50",
+      "git:hexsha": "b109c9e68b9c71bd221bbd3fd2489e912478af50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev55"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a910713f007b12d44e9e6b4b08fd5907372b802e",
+      "git:hexsha": "a910713f007b12d44e9e6b4b08fd5907372b802e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev56"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e75eb0b1a7669c945dabb6b4ba8cfe583697533b",
+      "git:hexsha": "e75eb0b1a7669c945dabb6b4ba8cfe583697533b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev57"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/113dacab5156bff6a967e25cd8009d56c53bbad3",
+      "git:hexsha": "113dacab5156bff6a967e25cd8009d56c53bbad3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev58"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/be89efc98ee2e43a7e6f732cad87f8a184b475eb",
+      "git:hexsha": "be89efc98ee2e43a7e6f732cad87f8a184b475eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev59"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/23c1401342db17375143d49ee3556b64ebb1c247",
+      "git:hexsha": "23c1401342db17375143d49ee3556b64ebb1c247",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a493346ff33dca52747cdb0c46e60e76396c0a0f",
+      "git:hexsha": "a493346ff33dca52747cdb0c46e60e76396c0a0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev61"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e848302436f00996893a8a75eb39aedceae34ca0",
+      "git:hexsha": "e848302436f00996893a8a75eb39aedceae34ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev62"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/aab4868ca8e5cffb387a952e18f40f2458eb0cb7",
+      "git:hexsha": "aab4868ca8e5cffb387a952e18f40f2458eb0cb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev63"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a69e2e2cf55fbd594ddae5485e985f094eefb836",
+      "git:hexsha": "a69e2e2cf55fbd594ddae5485e985f094eefb836",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev64"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/155f9468be7a82f40088f649b15ac4a999edfde7",
+      "git:hexsha": "155f9468be7a82f40088f649b15ac4a999edfde7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/07074183ec918d9a8db10f09b1bb7133d7140eff",
+      "git:hexsha": "07074183ec918d9a8db10f09b1bb7133d7140eff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev66"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/38f37b8f1521d812f97c83f19016f295516b7921",
+      "git:hexsha": "38f37b8f1521d812f97c83f19016f295516b7921",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev67"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/a161ac8529e64582d3d04c77cdd640637756afc4",
+      "git:hexsha": "a161ac8529e64582d3d04c77cdd640637756afc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev68"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/dcdcd237e3c37f1002c7486eee6969e30635344c",
+      "git:hexsha": "dcdcd237e3c37f1002c7486eee6969e30635344c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b4c0fd631a8bfbeb7d22b9b6f157f8f25cefc6f6",
+      "git:hexsha": "b4c0fd631a8bfbeb7d22b9b6f157f8f25cefc6f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev70"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c32edc403155e6c283f7ac879659ccd0924868bd",
+      "git:hexsha": "c32edc403155e6c283f7ac879659ccd0924868bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev71"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/8dcb99e3409857361f6b6a3d35eae4436997dc6e",
+      "git:hexsha": "8dcb99e3409857361f6b6a3d35eae4436997dc6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev72"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/89d2454d0ccf27baec91773812db4876babbaec8",
+      "git:hexsha": "89d2454d0ccf27baec91773812db4876babbaec8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev73"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3d3cb1693b2e34ae69b163c41079a74dec38c9d1",
+      "git:hexsha": "3d3cb1693b2e34ae69b163c41079a74dec38c9d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev74"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/309bcf90b634e9d64854be9181ccf7b7d2f99519",
+      "git:hexsha": "309bcf90b634e9d64854be9181ccf7b7d2f99519",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev75"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/407806cab84fb6432d710ecb04b987a244e66bb2",
+      "git:hexsha": "407806cab84fb6432d710ecb04b987a244e66bb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev76"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/dfd53e00b2f128c7a19a24b4a7c81522fdc8154d",
+      "git:hexsha": "dfd53e00b2f128c7a19a24b4a7c81522fdc8154d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/46185485e6a968c30e1a859c12d03632e594dd6b",
+      "git:hexsha": "46185485e6a968c30e1a859c12d03632e594dd6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev80"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0a22b74bfde434f9a2b19635abc2fb507d664ce2",
+      "git:hexsha": "0a22b74bfde434f9a2b19635abc2fb507d664ce2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e8ddf66e5fa927b1951e923e9ed293bef842b955",
+      "git:hexsha": "e8ddf66e5fa927b1951e923e9ed293bef842b955",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev82"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/567ba89ecf3927ff4eed8d0d194c38d0457d6dda",
+      "git:hexsha": "567ba89ecf3927ff4eed8d0d194c38d0457d6dda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev83"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/7f9c38c6b712c8a4060919c7f46acba9a9ca2117",
+      "git:hexsha": "7f9c38c6b712c8a4060919c7f46acba9a9ca2117",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev84"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/cb5e8004ebf231bf3851cd02db187283ede71099",
+      "git:hexsha": "cb5e8004ebf231bf3851cd02db187283ede71099",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/db5cdbe168788b7a1010eae900551b1b6814cf63",
+      "git:hexsha": "db5cdbe168788b7a1010eae900551b1b6814cf63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev86"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d9a6b87f02d6f5c47e0226cba9634bed809829a6",
+      "git:hexsha": "d9a6b87f02d6f5c47e0226cba9634bed809829a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/1a25f576ed3afb5965a44cdaaa2c768d0dcfa00a",
+      "git:hexsha": "1a25f576ed3afb5965a44cdaaa2c768d0dcfa00a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev89"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e27996499d6f08f85780b1483e58cf0d5b559674",
+      "git:hexsha": "e27996499d6f08f85780b1483e58cf0d5b559674",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev91"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/4836fc3db55ad93f4016e721a22b8616920048bd",
+      "git:hexsha": "4836fc3db55ad93f4016e721a22b8616920048bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/0d7abc7890fc69f4e333bc9bfe59eac6a1bbe711",
+      "git:hexsha": "0d7abc7890fc69f4e333bc9bfe59eac6a1bbe711",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev93"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/96785e9ae57f2666b1fd14290bce60b9d25567da",
+      "git:hexsha": "96785e9ae57f2666b1fd14290bce60b9d25567da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev94"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/e5bd23bcb074f607db3f8570df9e4dad19a58b76",
+      "git:hexsha": "e5bd23bcb074f607db3f8570df9e4dad19a58b76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/170e9cedb619a0b1ebe481f5f0e92e9e0e4eb8df",
+      "git:hexsha": "170e9cedb619a0b1ebe481f5f0e92e9e0e4eb8df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/3a21e82868c703bf2ba9339ec6a04cde5a94ca66",
+      "git:hexsha": "3a21e82868c703bf2ba9339ec6a04cde5a94ca66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c21baa67cbf7841860793441c602af9c59855650",
+      "git:hexsha": "c21baa67cbf7841860793441c602af9c59855650",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev98"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/f7caf925f0f4077fe019e95200875f4733b627e0",
+      "git:hexsha": "f7caf925f0f4077fe019e95200875f4733b627e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev99"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/664a02a00bada6c2a8be9a77e709b74799ef36ac",
+      "git:hexsha": "664a02a00bada6c2a8be9a77e709b74799ef36ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "revision-14"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/c57508523dda7e6019ca718a133e6542b51fa44f",
+      "git:hexsha": "c57508523dda7e6019ca718a133e6542b51fa44f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1-edge1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/fa2201628aabd26235ca0acbcfdd8af37e2128fa",
+      "git:hexsha": "fa2201628aabd26235ca0acbcfdd8af37e2128fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2-edge1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b4d114117d330f6bb5860ff7a27aa34278a8795f",
+      "git:hexsha": "b4d114117d330f6bb5860ff7a27aa34278a8795f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2-edge2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/9817a5afb9e57ab9252c13e8ac00361326f67230",
+      "git:hexsha": "9817a5afb9e57ab9252c13e8ac00361326f67230",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3-edge1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/ca14ee46891267b01205ebc0fabd1d32ce8ddc1e",
+      "git:hexsha": "ca14ee46891267b01205ebc0fabd1d32ce8ddc1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4-edge1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d29f8388f545ca39860afeee981165b73450cf87",
+      "git:hexsha": "d29f8388f545ca39860afeee981165b73450cf87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4-edge2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/d845333c9b2715fc7d5f05e85523417f7b6b803c",
+      "git:hexsha": "d845333c9b2715fc7d5f05e85523417f7b6b803c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5-edge1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/prometheus-k8s-operator/commit/b831b7ff3ee6a2d9cdcd930d98e1eee4ef13bc96",
+      "git:hexsha": "b831b7ff3ee6a2d9cdcd930d98e1eee4ef13bc96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v12r12L11-edge1"
+    }
+  ]
+}

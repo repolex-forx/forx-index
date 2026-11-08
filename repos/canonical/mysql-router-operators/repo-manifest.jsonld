@@ -1,0 +1,2428 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/mysql-router-operators",
+  "@type": "gh:Repository",
+  "gh:name": "mysql-router-operators",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5dd832364a764794de5dde2b5d3916f831f041b7",
+      "git:hexsha": "5dd832364a764794de5dde2b5d3916f831f041b7",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v8.4/2.62.0",
+      "repolex:parsedAt": "2026-11-08T04:32:49.609791+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d4816a0df463bcd54bfdbc412cc469558fe7e70a",
+      "git:hexsha": "d4816a0df463bcd54bfdbc412cc469558fe7e70a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev10"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4b39796328db6c6d45ad2e230a3658afba3b41d8",
+      "git:hexsha": "4b39796328db6c6d45ad2e230a3658afba3b41d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/87214a1be5832114c193858f27534e4354f340b2",
+      "git:hexsha": "87214a1be5832114c193858f27534e4354f340b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/481b23de75a1662210201294ab1efbd952fe4bd0",
+      "git:hexsha": "481b23de75a1662210201294ab1efbd952fe4bd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/effd9cc44fc943084966d9216df0d05758614902",
+      "git:hexsha": "effd9cc44fc943084966d9216df0d05758614902",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/6a8521390e49dfa7be81886caf2de13cb1416232",
+      "git:hexsha": "6a8521390e49dfa7be81886caf2de13cb1416232",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c33b7edbfbe9178ee890d3e423821ceb55964621",
+      "git:hexsha": "c33b7edbfbe9178ee890d3e423821ceb55964621",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/50b19ac9060f66d9447bbc77a10ed8ff41df3c0f",
+      "git:hexsha": "50b19ac9060f66d9447bbc77a10ed8ff41df3c0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev106"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4c8841822127953b434323e8adfc35da91ec5553",
+      "git:hexsha": "4c8841822127953b434323e8adfc35da91ec5553",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7aba973ba4c859e7de1ef84b1b1f6a203f796941",
+      "git:hexsha": "7aba973ba4c859e7de1ef84b1b1f6a203f796941",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev108"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0318021e9c4841518d638789f865d3f255cda717",
+      "git:hexsha": "0318021e9c4841518d638789f865d3f255cda717",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev109"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/355ee3b2f79c6efa2c02acafa9d9a7bdb55321a1",
+      "git:hexsha": "355ee3b2f79c6efa2c02acafa9d9a7bdb55321a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev11"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f9c2fdb27a1e599bf972c705ae2f48280b94009f",
+      "git:hexsha": "f9c2fdb27a1e599bf972c705ae2f48280b94009f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4452bacf7a1d99504e9168a69300a7c3f71d5c6b",
+      "git:hexsha": "4452bacf7a1d99504e9168a69300a7c3f71d5c6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev111"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2d1bbd7ec117329b18d1cd97fe8b18ebc4de892f",
+      "git:hexsha": "2d1bbd7ec117329b18d1cd97fe8b18ebc4de892f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev112"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/46ee27a0e9d6c1a835f40078a7e41d18bb064585",
+      "git:hexsha": "46ee27a0e9d6c1a835f40078a7e41d18bb064585",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev113"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/70c5495666f5924abb02539ef345af0a40f25363",
+      "git:hexsha": "70c5495666f5924abb02539ef345af0a40f25363",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev114"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/583f9914f5df6e348479eccbb87c8498b4b3a987",
+      "git:hexsha": "583f9914f5df6e348479eccbb87c8498b4b3a987",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev115"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4ccab6112af2a5c1ea4831d9b31c9f86cd149bcf",
+      "git:hexsha": "4ccab6112af2a5c1ea4831d9b31c9f86cd149bcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev116"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1a28465fcd3993d69aaae8999945f1a7085350a8",
+      "git:hexsha": "1a28465fcd3993d69aaae8999945f1a7085350a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev117"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a0ef67698920c7b2a2fcd045552bd360678aa39c",
+      "git:hexsha": "a0ef67698920c7b2a2fcd045552bd360678aa39c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev118"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bb16ea85cef10fb9955c0438c605ec6dfdb731d6",
+      "git:hexsha": "bb16ea85cef10fb9955c0438c605ec6dfdb731d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev12"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/efad9e5033a88ac995434c8ba842d8f8455f9de7",
+      "git:hexsha": "efad9e5033a88ac995434c8ba842d8f8455f9de7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev120"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ae928fc7abbc916d723d686fe89c0b03688e66d6",
+      "git:hexsha": "ae928fc7abbc916d723d686fe89c0b03688e66d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev121"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/156da2da8c68c65ae262b2721cc01fb1b974104f",
+      "git:hexsha": "156da2da8c68c65ae262b2721cc01fb1b974104f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev123"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ee5d2ff6d936df56ff49d923644cd1db0e2e9715",
+      "git:hexsha": "ee5d2ff6d936df56ff49d923644cd1db0e2e9715",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev127"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/51e3e85019cd3b7479af107c5a28e8112cd27033",
+      "git:hexsha": "51e3e85019cd3b7479af107c5a28e8112cd27033",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev129"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/688d2c6be26abb9490f79f38a3151d67a9a9105b",
+      "git:hexsha": "688d2c6be26abb9490f79f38a3151d67a9a9105b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev13"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/179025b4bdd81d514a32077a32ba67b8c2515263",
+      "git:hexsha": "179025b4bdd81d514a32077a32ba67b8c2515263",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev133"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/11080d8311d6f1a8161a1360dabfd42852d82e88",
+      "git:hexsha": "11080d8311d6f1a8161a1360dabfd42852d82e88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev135"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c5db3af15abb5ac1a2285df31d266ab980ee372e",
+      "git:hexsha": "c5db3af15abb5ac1a2285df31d266ab980ee372e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev137"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cb871045cb5161225f67afa8b2c30ea455c5b9fc",
+      "git:hexsha": "cb871045cb5161225f67afa8b2c30ea455c5b9fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev139"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a666a47ff864179f4850268c8943842c25542de7",
+      "git:hexsha": "a666a47ff864179f4850268c8943842c25542de7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev14"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/92ba15aab0de824730d69feb4df7c365c9ba335e",
+      "git:hexsha": "92ba15aab0de824730d69feb4df7c365c9ba335e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/266066c785c6637372d1a6dcdf1df1d3b1188d8a",
+      "git:hexsha": "266066c785c6637372d1a6dcdf1df1d3b1188d8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cd85a84b1df8ef78cf9471a9118f7b87bf60b8dd",
+      "git:hexsha": "cd85a84b1df8ef78cf9471a9118f7b87bf60b8dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/82c7a0e7d31cdfd25883f7b239b07c3ac20faa17",
+      "git:hexsha": "82c7a0e7d31cdfd25883f7b239b07c3ac20faa17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/caa4dc6115fc0bad5dae73dd94390928cd25f78c",
+      "git:hexsha": "caa4dc6115fc0bad5dae73dd94390928cd25f78c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fff778ae9c207bb6962122e5580cb7284ea3d27d",
+      "git:hexsha": "fff778ae9c207bb6962122e5580cb7284ea3d27d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev15"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b94c52f5f2da227f7856faa0fd3691fbca9a8bdb",
+      "git:hexsha": "b94c52f5f2da227f7856faa0fd3691fbca9a8bdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev151"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/755273dc6442ba0633eaf09c55b3567d5096f887",
+      "git:hexsha": "755273dc6442ba0633eaf09c55b3567d5096f887",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/70d6969a66ef1d7d299b3efc3cdbc3e4c39187d4",
+      "git:hexsha": "70d6969a66ef1d7d299b3efc3cdbc3e4c39187d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev155"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/472ea79e34844011f6ac71a2710e844927399297",
+      "git:hexsha": "472ea79e34844011f6ac71a2710e844927399297",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ae78d51f9df7ad7f8d084e75a032b07a34c332d2",
+      "git:hexsha": "ae78d51f9df7ad7f8d084e75a032b07a34c332d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev16"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2f8472bedb526a6ab3dc5be00bb4b67833187ff6",
+      "git:hexsha": "2f8472bedb526a6ab3dc5be00bb4b67833187ff6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bd2f317f1ae49df2df03364250e743aff016b45f",
+      "git:hexsha": "bd2f317f1ae49df2df03364250e743aff016b45f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev163"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a648a2e5a0436a0be9405df2ddbed9da1a76b44d",
+      "git:hexsha": "a648a2e5a0436a0be9405df2ddbed9da1a76b44d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/31518a08de701b2eaae84ff545da12f4bf26760f",
+      "git:hexsha": "31518a08de701b2eaae84ff545da12f4bf26760f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5021ba87754b4873f751d411c7a16681134d0f86",
+      "git:hexsha": "5021ba87754b4873f751d411c7a16681134d0f86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev17"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1b17b7eba02fd884ccfbcca06764bf6fd93a2ecd",
+      "git:hexsha": "1b17b7eba02fd884ccfbcca06764bf6fd93a2ecd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev18"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4a6a7069535c50520e4d45324da08557e65ad5dc",
+      "git:hexsha": "4a6a7069535c50520e4d45324da08557e65ad5dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev20"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/eb546803ad8d3df248e27cdceda0a8d4ced123bf",
+      "git:hexsha": "eb546803ad8d3df248e27cdceda0a8d4ced123bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/981a1c52895e812ff5180470af636779e597134d",
+      "git:hexsha": "981a1c52895e812ff5180470af636779e597134d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/849070cbf1e857cdc50bcdcb0106b4519001a9d3",
+      "git:hexsha": "849070cbf1e857cdc50bcdcb0106b4519001a9d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev23"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/45cf3be44f27476a0371c67d50d7a0193c0fadc2",
+      "git:hexsha": "45cf3be44f27476a0371c67d50d7a0193c0fadc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/38635cb70342dc2be2faf2d8571c07e4114e2be9",
+      "git:hexsha": "38635cb70342dc2be2faf2d8571c07e4114e2be9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d1b218dcaa6ae8dcb7aeae6c4592b3c8c835757b",
+      "git:hexsha": "d1b218dcaa6ae8dcb7aeae6c4592b3c8c835757b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev26"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/870b7eb865bc3ae84a6773e486935c5c5f1d6387",
+      "git:hexsha": "870b7eb865bc3ae84a6773e486935c5c5f1d6387",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/69b559f093789436830dc017c62439fae78c4742",
+      "git:hexsha": "69b559f093789436830dc017c62439fae78c4742",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/87d7c4a3f31d39c368243316c62ab3b9c59a6bd7",
+      "git:hexsha": "87d7c4a3f31d39c368243316c62ab3b9c59a6bd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d28fbe139e02a7924805a96c6f192cc0a42c2214",
+      "git:hexsha": "d28fbe139e02a7924805a96c6f192cc0a42c2214",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev33"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/68d723cc3f65977207ed74ab8f5af33151972316",
+      "git:hexsha": "68d723cc3f65977207ed74ab8f5af33151972316",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d319d72bee63621959f6226b1ef9526b6f863076",
+      "git:hexsha": "d319d72bee63621959f6226b1ef9526b6f863076",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/92b029efd1bc0c183328e98f7fdd43cbd32da4b1",
+      "git:hexsha": "92b029efd1bc0c183328e98f7fdd43cbd32da4b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/792acb0e5315b42ab16178d5dc601f90f6b80c7c",
+      "git:hexsha": "792acb0e5315b42ab16178d5dc601f90f6b80c7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/608c094273afdb7adb8ad3e9ef975ca4f8af4865",
+      "git:hexsha": "608c094273afdb7adb8ad3e9ef975ca4f8af4865",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/19bc1cae50b620e1e76232c7d451c56e10dadda6",
+      "git:hexsha": "19bc1cae50b620e1e76232c7d451c56e10dadda6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ae6fe31f931223f3d4b0023d88cb7df1947e27d9",
+      "git:hexsha": "ae6fe31f931223f3d4b0023d88cb7df1947e27d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d4c1019562dc33b8826f8ffbab2665a2d04238fe",
+      "git:hexsha": "d4c1019562dc33b8826f8ffbab2665a2d04238fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev43"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/8f8ffc24cf3be3ceceac32576a4670ccb517bb99",
+      "git:hexsha": "8f8ffc24cf3be3ceceac32576a4670ccb517bb99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d3be90dbd552fa3aef1c1ac5df97183dd87a1ade",
+      "git:hexsha": "d3be90dbd552fa3aef1c1ac5df97183dd87a1ade",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev45"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/8b303ccc97e92b5f5ada82d47202f5cc99a15839",
+      "git:hexsha": "8b303ccc97e92b5f5ada82d47202f5cc99a15839",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev46"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c0150c0d07dfa78bd19e33462917496981f2316c",
+      "git:hexsha": "c0150c0d07dfa78bd19e33462917496981f2316c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev47"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/782fe2f2c3e59059a0a05493e1d0ecf5106dd7ee",
+      "git:hexsha": "782fe2f2c3e59059a0a05493e1d0ecf5106dd7ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev48"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/779106f6635df293fe64303dca4059e72512e3c5",
+      "git:hexsha": "779106f6635df293fe64303dca4059e72512e3c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev49"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/45de9175f9718ea9caef7d48a2ed076b467bf11d",
+      "git:hexsha": "45de9175f9718ea9caef7d48a2ed076b467bf11d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b440dfea589308b93883fb1f26793aaa2f667ae5",
+      "git:hexsha": "b440dfea589308b93883fb1f26793aaa2f667ae5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev50"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/53e5e182cf0eadbd9a5932230a47a32a20809d70",
+      "git:hexsha": "53e5e182cf0eadbd9a5932230a47a32a20809d70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev51"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/622f9e7753ec36368602abd42639b1a8e1064421",
+      "git:hexsha": "622f9e7753ec36368602abd42639b1a8e1064421",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev52"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/66f76972db441b31a0abca86561ab767ed922438",
+      "git:hexsha": "66f76972db441b31a0abca86561ab767ed922438",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev529"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/74ac472b5d192c10dfa13504c90863296ee2166a",
+      "git:hexsha": "74ac472b5d192c10dfa13504c90863296ee2166a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev53"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/002767ad6d7fdb9740206a9deac2f48abfd2ccd3",
+      "git:hexsha": "002767ad6d7fdb9740206a9deac2f48abfd2ccd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev531"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3f759333c1cf479ff9bdb07f604ff0f3669b395e",
+      "git:hexsha": "3f759333c1cf479ff9bdb07f604ff0f3669b395e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev54"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/51eb4c65ef6a6bb0063ef4c67d6522b30fdcace1",
+      "git:hexsha": "51eb4c65ef6a6bb0063ef4c67d6522b30fdcace1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev55"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c2d653f1035d368b5fc73727730e88f1afcad96f",
+      "git:hexsha": "c2d653f1035d368b5fc73727730e88f1afcad96f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev555"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e4d525a8d8c4c84f6f672a56c76eeb666571fb63",
+      "git:hexsha": "e4d525a8d8c4c84f6f672a56c76eeb666571fb63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev56"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ebeb3cd283d5a4746c13fb8a487d8fdf6aa9e86b",
+      "git:hexsha": "ebeb3cd283d5a4746c13fb8a487d8fdf6aa9e86b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev563"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5f58c4dc52a3edbaea6d6c810464c0288d213fff",
+      "git:hexsha": "5f58c4dc52a3edbaea6d6c810464c0288d213fff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev57"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2eb2c2f3f59336c6f1f4b8873678af725049a172",
+      "git:hexsha": "2eb2c2f3f59336c6f1f4b8873678af725049a172",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev573"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cab8f9d5d18fbd1b90b113068c221367f0db7475",
+      "git:hexsha": "cab8f9d5d18fbd1b90b113068c221367f0db7475",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev58"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/657b89f89e888749faa00f941149eb2f2c5532aa",
+      "git:hexsha": "657b89f89e888749faa00f941149eb2f2c5532aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev583"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2f93d5e6a07ebafb9ee3d567fec15b042b282a97",
+      "git:hexsha": "2f93d5e6a07ebafb9ee3d567fec15b042b282a97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev585"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d6c84d5bc454f5b0d238b58e99925ae6f56f7a5f",
+      "git:hexsha": "d6c84d5bc454f5b0d238b58e99925ae6f56f7a5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev587"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/05abf688b4d341544543dc11e9f98cdac178b98a",
+      "git:hexsha": "05abf688b4d341544543dc11e9f98cdac178b98a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev589"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/837783e8421fd8ace0d580097858d74f731c6528",
+      "git:hexsha": "837783e8421fd8ace0d580097858d74f731c6528",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev59"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/12c656579192a936209dc41807bac8ba20d4ce50",
+      "git:hexsha": "12c656579192a936209dc41807bac8ba20d4ce50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev591"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/172b605e7b32ab96ad127149407d9ca5d42279d1",
+      "git:hexsha": "172b605e7b32ab96ad127149407d9ca5d42279d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev593"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f65e12e1761452b30b14e90cc511708891ab4c15",
+      "git:hexsha": "f65e12e1761452b30b14e90cc511708891ab4c15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev595"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/8264bac723e7f2f585c5a36817d8aaa6764261f4",
+      "git:hexsha": "8264bac723e7f2f585c5a36817d8aaa6764261f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev597"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fff0127ab49cbc061a404e99a9923f3d71bab7bb",
+      "git:hexsha": "fff0127ab49cbc061a404e99a9923f3d71bab7bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev599"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/afb399ff79d2b50dd991e4f018c38889b9d4d9d9",
+      "git:hexsha": "afb399ff79d2b50dd991e4f018c38889b9d4d9d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/61167cce71fad45110a42bbf7efac1581ff612af",
+      "git:hexsha": "61167cce71fad45110a42bbf7efac1581ff612af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/95a4b9bb6c4486b4e684050fec33c5c51425379f",
+      "git:hexsha": "95a4b9bb6c4486b4e684050fec33c5c51425379f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev601"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f3042a4900dbbf334ad2e83458abaa8070d29ea7",
+      "git:hexsha": "f3042a4900dbbf334ad2e83458abaa8070d29ea7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev61"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a993d9f3edb7801a8050d82ac7ad49741c582935",
+      "git:hexsha": "a993d9f3edb7801a8050d82ac7ad49741c582935",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev628"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/420b840d962e71bd2f54e33edecf8d510b1ba2aa",
+      "git:hexsha": "420b840d962e71bd2f54e33edecf8d510b1ba2aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev64"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/899006a74d6c3191b7239d56e06ed2efab0f3a41",
+      "git:hexsha": "899006a74d6c3191b7239d56e06ed2efab0f3a41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1f11bf0a94a1ed7a14c96b847027f3fbdd9b47e2",
+      "git:hexsha": "1f11bf0a94a1ed7a14c96b847027f3fbdd9b47e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev657"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/876b2564d7397a1a8573fa989678766220664487",
+      "git:hexsha": "876b2564d7397a1a8573fa989678766220664487",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev66"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7e4c985c2c16bc23977db16fc62e43d135061d34",
+      "git:hexsha": "7e4c985c2c16bc23977db16fc62e43d135061d34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev67"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/85f5cfd4ab1b67ac2ad80c75daaecc5477be8364",
+      "git:hexsha": "85f5cfd4ab1b67ac2ad80c75daaecc5477be8364",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev68"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5fe721b148ab1023e5a3dbaed0c794cbf2ad62cb",
+      "git:hexsha": "5fe721b148ab1023e5a3dbaed0c794cbf2ad62cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1aea2de4f2eeb36ea59ccf934ea5ad3eb3b08f20",
+      "git:hexsha": "1aea2de4f2eeb36ea59ccf934ea5ad3eb3b08f20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7b7c955e64d1e98b3c36fde5606787aa9ca7d677",
+      "git:hexsha": "7b7c955e64d1e98b3c36fde5606787aa9ca7d677",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev70"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1a1d06ab975c50497094cebd6b2a3ff632261cd6",
+      "git:hexsha": "1a1d06ab975c50497094cebd6b2a3ff632261cd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev72"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1c40cd6e591eae85940e16682b8c0abce5d1f6ba",
+      "git:hexsha": "1c40cd6e591eae85940e16682b8c0abce5d1f6ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev728"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7a261aefd32d6fadbd6e7ded8ed66a1b8df9ff1e",
+      "git:hexsha": "7a261aefd32d6fadbd6e7ded8ed66a1b8df9ff1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev73"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/6aba7a03869c3f54263c39409cf7e595568a0ab3",
+      "git:hexsha": "6aba7a03869c3f54263c39409cf7e595568a0ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev741"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cc169fe6e59fc4acee1ff2efa5577aad4d8a8143",
+      "git:hexsha": "cc169fe6e59fc4acee1ff2efa5577aad4d8a8143",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev74"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fb8a94ad05ac47fc087498fec2c657ddceb30c3f",
+      "git:hexsha": "fb8a94ad05ac47fc087498fec2c657ddceb30c3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev746"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fbbc11b371c65303913b943a25e40a1456ae2431",
+      "git:hexsha": "fbbc11b371c65303913b943a25e40a1456ae2431",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev748"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/6326e6dbfbb139448948efa4a29fa247efb37eb8",
+      "git:hexsha": "6326e6dbfbb139448948efa4a29fa247efb37eb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev75"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/8a646b4ca8d1820e73af4824b825a6a4a7e1897a",
+      "git:hexsha": "8a646b4ca8d1820e73af4824b825a6a4a7e1897a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev754"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/88c16980e5cd35535add8cc0b6bd6c5644a7e9cb",
+      "git:hexsha": "88c16980e5cd35535add8cc0b6bd6c5644a7e9cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev76"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/31f85f2b10af67953678a6b5e3d1465ae703d1f9",
+      "git:hexsha": "31f85f2b10af67953678a6b5e3d1465ae703d1f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev767"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/39ef20987a66982abac076cf695eb5989fa19ba6",
+      "git:hexsha": "39ef20987a66982abac076cf695eb5989fa19ba6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev770"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d93a5d2e9af76876e1de0937a7f260b26363d45a",
+      "git:hexsha": "d93a5d2e9af76876e1de0937a7f260b26363d45a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/26a2aceefd0d8445199a6715a2943be97104826a",
+      "git:hexsha": "26a2aceefd0d8445199a6715a2943be97104826a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev773"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fdde410e1cd4a92c9d3f19ddf1c85a834ae8ee54",
+      "git:hexsha": "fdde410e1cd4a92c9d3f19ddf1c85a834ae8ee54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev78"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3bc05b7456b9aec2e90fad272e8a8620023c2cac",
+      "git:hexsha": "3bc05b7456b9aec2e90fad272e8a8620023c2cac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev79"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f2b502c5b87cc4cff37553500f0f30e038239c7e",
+      "git:hexsha": "f2b502c5b87cc4cff37553500f0f30e038239c7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7834e51364d93ec201944e859ad6b1754b699997",
+      "git:hexsha": "7834e51364d93ec201944e859ad6b1754b699997",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev80"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/efd153dafe7144074f3431cf11d194f80206360d",
+      "git:hexsha": "efd153dafe7144074f3431cf11d194f80206360d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/abd5ebc6b9ae95ce474f49d769b005445a70e587",
+      "git:hexsha": "abd5ebc6b9ae95ce474f49d769b005445a70e587",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev816"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cea10b30f183c8ac5999944a9d1a0d46a0ef8892",
+      "git:hexsha": "cea10b30f183c8ac5999944a9d1a0d46a0ef8892",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e7c952365d932f4b18fb610f5915efd715a79799",
+      "git:hexsha": "e7c952365d932f4b18fb610f5915efd715a79799",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev82"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/243d6175bb3bc59af7901d984a6a4c4acae688af",
+      "git:hexsha": "243d6175bb3bc59af7901d984a6a4c4acae688af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9e6811626937f7c5a67d90c06245e2a140adecf9",
+      "git:hexsha": "9e6811626937f7c5a67d90c06245e2a140adecf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5da2b8bb1d4752430fbd0641a2f5941f1ed5f21d",
+      "git:hexsha": "5da2b8bb1d4752430fbd0641a2f5941f1ed5f21d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cd5378cfed63392447d2875035f21c118bec01f3",
+      "git:hexsha": "cd5378cfed63392447d2875035f21c118bec01f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/70f115330e6db76c525c196b0f73a7d76edcb28d",
+      "git:hexsha": "70f115330e6db76c525c196b0f73a7d76edcb28d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4af2605d05bc3c9f434f042682d24b2f340c0dcc",
+      "git:hexsha": "4af2605d05bc3c9f434f042682d24b2f340c0dcc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/328194bd9083087d48eec0b3de2130a7854533cd",
+      "git:hexsha": "328194bd9083087d48eec0b3de2130a7854533cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev84"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/74aa38cecaa433eae3ad72b3b97ddabb6a717525",
+      "git:hexsha": "74aa38cecaa433eae3ad72b3b97ddabb6a717525",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d89b0f820cfc574b04e0b86b5412db9da0d7ff2e",
+      "git:hexsha": "d89b0f820cfc574b04e0b86b5412db9da0d7ff2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/03c3e7b38e5b4bf62cdd3f07ce7b0716214b0691",
+      "git:hexsha": "03c3e7b38e5b4bf62cdd3f07ce7b0716214b0691",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/75133db39124d28964d2b701e36d5b58a96c0bf1",
+      "git:hexsha": "75133db39124d28964d2b701e36d5b58a96c0bf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev86"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ff3605478d401c6f7d8647055b30601c92145970",
+      "git:hexsha": "ff3605478d401c6f7d8647055b30601c92145970",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2f538aaee0fbaf5f8f7bfb6121e6b6e9ede8ea29",
+      "git:hexsha": "2f538aaee0fbaf5f8f7bfb6121e6b6e9ede8ea29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0e8abaf9b338a84f53b3b3de3df570761108ecc4",
+      "git:hexsha": "0e8abaf9b338a84f53b3b3de3df570761108ecc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b6f0814c93cfc7aa737c815c511affe813da8e0a",
+      "git:hexsha": "b6f0814c93cfc7aa737c815c511affe813da8e0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b21cea51cc0d4545aa67a6782f83446b3bb0aa0a",
+      "git:hexsha": "b21cea51cc0d4545aa67a6782f83446b3bb0aa0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9e730e8f57fbeb3aac4e949e0b0cf52537fa1fb8",
+      "git:hexsha": "9e730e8f57fbeb3aac4e949e0b0cf52537fa1fb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f0af31e7fc07929f35520bb46671c26e3ae1838e",
+      "git:hexsha": "f0af31e7fc07929f35520bb46671c26e3ae1838e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d62e867c2a281aae19fd557fac5f456a7a5db9cf",
+      "git:hexsha": "d62e867c2a281aae19fd557fac5f456a7a5db9cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/860752876248cc9c6cf357a49df5654873e14901",
+      "git:hexsha": "860752876248cc9c6cf357a49df5654873e14901",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5d9d323c9d004cc558e694464817321481efffb7",
+      "git:hexsha": "5d9d323c9d004cc558e694464817321481efffb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/57727801d62f4166c0d3570fbd9d97ff2498df11",
+      "git:hexsha": "57727801d62f4166c0d3570fbd9d97ff2498df11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/91e4badb6feb100e2973ae297a9d85c443f42429",
+      "git:hexsha": "91e4badb6feb100e2973ae297a9d85c443f42429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2855a27b6a6032d439b73965f9c04c9ed3b79ca6",
+      "git:hexsha": "2855a27b6a6032d439b73965f9c04c9ed3b79ca6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev91"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/382202f7a8d504515da1571112b5d73e07da8bb4",
+      "git:hexsha": "382202f7a8d504515da1571112b5d73e07da8bb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fecb49383ef7808e77874a2605c509ba7c9d6edc",
+      "git:hexsha": "fecb49383ef7808e77874a2605c509ba7c9d6edc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/52457bf0b5fe35c7be7d4337f26873d8ac488121",
+      "git:hexsha": "52457bf0b5fe35c7be7d4337f26873d8ac488121",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e591480aa87fe5489de7a5c82b7c57e874339355",
+      "git:hexsha": "e591480aa87fe5489de7a5c82b7c57e874339355",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.75.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/94624501c279978fd1f307a98e3ee4de327fefb5",
+      "git:hexsha": "94624501c279978fd1f307a98e3ee4de327fefb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.79.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f2cbb11ba9c333563acbb9f9b1e159adbded15b6",
+      "git:hexsha": "f2cbb11ba9c333563acbb9f9b1e159adbded15b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev93"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/efaf10416c225bfb1c76db202d99b80a22165940",
+      "git:hexsha": "efaf10416c225bfb1c76db202d99b80a22165940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7130773bccb5e3412a257907270077ae4fb4b7ad",
+      "git:hexsha": "7130773bccb5e3412a257907270077ae4fb4b7ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f87ddcadab175097382597c50c5f1b117089eccd",
+      "git:hexsha": "f87ddcadab175097382597c50c5f1b117089eccd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a5a4bc996928cb8d0dd8842946b8aa67effb2811",
+      "git:hexsha": "a5a4bc996928cb8d0dd8842946b8aa67effb2811",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev94"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c0e3d4209943e3501f58eb8910ec0bbb487bf0a7",
+      "git:hexsha": "c0e3d4209943e3501f58eb8910ec0bbb487bf0a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d43a43481b7f966db340fa994a93cb18cca592dd",
+      "git:hexsha": "d43a43481b7f966db340fa994a93cb18cca592dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/110e0add1258dae7551fa80e4df40dde04ac597c",
+      "git:hexsha": "110e0add1258dae7551fa80e4df40dde04ac597c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/105a6f6bbadaa2a5b78f8c29bab173892b5bab87",
+      "git:hexsha": "105a6f6bbadaa2a5b78f8c29bab173892b5bab87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev98"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4aaab8299d2e5c8c304f8685be8c699184d49d75",
+      "git:hexsha": "4aaab8299d2e5c8c304f8685be8c699184d49d75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router-k8s/rev99"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c58d0d4e179baea67f19464a60da6fd919137729",
+      "git:hexsha": "c58d0d4e179baea67f19464a60da6fd919137729",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev99"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cf35c08298b068b85faced908035cac7c69a0639",
+      "git:hexsha": "cf35c08298b068b85faced908035cac7c69a0639",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/15133b4d6b1a91da958c97605b55bc8e8f3c861e",
+      "git:hexsha": "15133b4d6b1a91da958c97605b55bc8e8f3c861e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/98f1e97bb9085717262081505a379324b71744e3",
+      "git:hexsha": "98f1e97bb9085717262081505a379324b71744e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9a6dac017f1d6280c82dae967ea9a472ae4441f7",
+      "git:hexsha": "9a6dac017f1d6280c82dae967ea9a472ae4441f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0f37dc854bf86afb9397f59f62a87bf76f9bd9f6",
+      "git:hexsha": "0f37dc854bf86afb9397f59f62a87bf76f9bd9f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b8ef242480afa67411ed6d78c57ee5ebe4889043",
+      "git:hexsha": "b8ef242480afa67411ed6d78c57ee5ebe4889043",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/802ff046cddc2187d38d32b52ea83511834155d5",
+      "git:hexsha": "802ff046cddc2187d38d32b52ea83511834155d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/48380cf6c8de46bae7df462cd969115ecc1ba4d8",
+      "git:hexsha": "48380cf6c8de46bae7df462cd969115ecc1ba4d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/77db9cce49d4894c717cabc7adc6466cdb8bc26d",
+      "git:hexsha": "77db9cce49d4894c717cabc7adc6466cdb8bc26d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a930540c815228a54cd2ba18de2a54594b227cd8",
+      "git:hexsha": "a930540c815228a54cd2ba18de2a54594b227cd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fb9c8765f9d93465880d6e519d3dde31bbce59f9",
+      "git:hexsha": "fb9c8765f9d93465880d6e519d3dde31bbce59f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ebe97d9f5049a9ddafbc3012e85b447a18a1eda8",
+      "git:hexsha": "ebe97d9f5049a9ddafbc3012e85b447a18a1eda8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/53e6b0005bfb2df432adc4568c50bdf1c50a5bd8",
+      "git:hexsha": "53e6b0005bfb2df432adc4568c50bdf1c50a5bd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev113"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1cc8e9bd2a8efe451a215d246d477b2139a99ebe",
+      "git:hexsha": "1cc8e9bd2a8efe451a215d246d477b2139a99ebe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev115"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f004cf375608b71f0771949dba0fdf1b8eeacdb1",
+      "git:hexsha": "f004cf375608b71f0771949dba0fdf1b8eeacdb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev117"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e8327152b0b6c3733e6585b6117766d4d9c08831",
+      "git:hexsha": "e8327152b0b6c3733e6585b6117766d4d9c08831",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev119"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/02e897a1dfb5297b975939a44ab3030026b5aef5",
+      "git:hexsha": "02e897a1dfb5297b975939a44ab3030026b5aef5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev121"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b20eaf237703d07bf93cfd238831c5765c99e456",
+      "git:hexsha": "b20eaf237703d07bf93cfd238831c5765c99e456",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev123"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/240ad9695a894e8e0b335c822bdfd04454abd060",
+      "git:hexsha": "240ad9695a894e8e0b335c822bdfd04454abd060",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev125"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/108d45f68aabe0d45983f49ae7267e1318fa0737",
+      "git:hexsha": "108d45f68aabe0d45983f49ae7267e1318fa0737",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev127"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2642632b3aaf196862f9b01ab5107435d108a57c",
+      "git:hexsha": "2642632b3aaf196862f9b01ab5107435d108a57c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev136"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c10f6f477a9c43c7c433a1fdd5acb2058947a485",
+      "git:hexsha": "c10f6f477a9c43c7c433a1fdd5acb2058947a485",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev139"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/55c5e916b4f2d20d2bdad08d93d25cf141d49db5",
+      "git:hexsha": "55c5e916b4f2d20d2bdad08d93d25cf141d49db5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d11f8ed5032973edab310dea57f623c59bb8e5a5",
+      "git:hexsha": "d11f8ed5032973edab310dea57f623c59bb8e5a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/52e9ce9dd6c9da9fc7eea8aba138a3e259d41a75",
+      "git:hexsha": "52e9ce9dd6c9da9fc7eea8aba138a3e259d41a75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a7f697093ed916f819a02643c76c3e8f55a46206",
+      "git:hexsha": "a7f697093ed916f819a02643c76c3e8f55a46206",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a7c99af4bb56c884ef0e8ba3bba3091eeb2298ae",
+      "git:hexsha": "a7c99af4bb56c884ef0e8ba3bba3091eeb2298ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fd35e6c3be4bad05623c1b1666024e8a5f2eb756",
+      "git:hexsha": "fd35e6c3be4bad05623c1b1666024e8a5f2eb756",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev151"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5d89fb6acd08ec3ea2e65356fad520ad5d9862d9",
+      "git:hexsha": "5d89fb6acd08ec3ea2e65356fad520ad5d9862d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/557f884d9173b32d6f1630633f7a966c646ed0c1",
+      "git:hexsha": "557f884d9173b32d6f1630633f7a966c646ed0c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev157"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f82a3d2e7bd0938a4b1105a814b6854610206142",
+      "git:hexsha": "f82a3d2e7bd0938a4b1105a814b6854610206142",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0b46746703addaca59e6a5ba032e727539002232",
+      "git:hexsha": "0b46746703addaca59e6a5ba032e727539002232",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f393200c4aaaaa129b32003987aa47219d038158",
+      "git:hexsha": "f393200c4aaaaa129b32003987aa47219d038158",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev163"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7f6947de7cf5d8eb1d2e73df981e67f514639722",
+      "git:hexsha": "7f6947de7cf5d8eb1d2e73df981e67f514639722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c16eb019a6df320a3c8c7f3f831960dba693348e",
+      "git:hexsha": "c16eb019a6df320a3c8c7f3f831960dba693348e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cecb229a6f90c793f92796564d22b46488c5e490",
+      "git:hexsha": "cecb229a6f90c793f92796564d22b46488c5e490",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev169"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b27eafef502c1286b299c107fc4e68b99e74d0d8",
+      "git:hexsha": "b27eafef502c1286b299c107fc4e68b99e74d0d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev171"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a2ad5e7bbcea2065f1446652ae64046a650fc7c6",
+      "git:hexsha": "a2ad5e7bbcea2065f1446652ae64046a650fc7c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev173"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/094798ecf5a224a8eea1aaef66f0e708d3a221ee",
+      "git:hexsha": "094798ecf5a224a8eea1aaef66f0e708d3a221ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev175"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/97bf8bf9c5e8edb0dbece139e3ad9de5d76653b7",
+      "git:hexsha": "97bf8bf9c5e8edb0dbece139e3ad9de5d76653b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev178"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2298fa4ddbd5ab4595f323effa39a4fd31f14df1",
+      "git:hexsha": "2298fa4ddbd5ab4595f323effa39a4fd31f14df1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev180"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/15c2d7eeca1012f47e3a4858f2a680e8745726d2",
+      "git:hexsha": "15c2d7eeca1012f47e3a4858f2a680e8745726d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev182"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2b5e453e52d3dba023ed070ab1bf28ea048edd70",
+      "git:hexsha": "2b5e453e52d3dba023ed070ab1bf28ea048edd70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev184"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c0ad0f4df16eb767a3fdfaf010cf237177cb496f",
+      "git:hexsha": "c0ad0f4df16eb767a3fdfaf010cf237177cb496f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev186"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d47e6c45872b02837b5c583730563d86570cdc5d",
+      "git:hexsha": "d47e6c45872b02837b5c583730563d86570cdc5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev191"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9719c0197c6087de229978b37b98522332ae56f9",
+      "git:hexsha": "9719c0197c6087de229978b37b98522332ae56f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev194"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d2e4525badd08c1b0412d3edd2493305e439acf3",
+      "git:hexsha": "d2e4525badd08c1b0412d3edd2493305e439acf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev196"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5f353e8a42b0bc3dde15e3262ad4a3a20d99fc05",
+      "git:hexsha": "5f353e8a42b0bc3dde15e3262ad4a3a20d99fc05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev198"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/86ebcae5567eaad06c1ded371599758c8b03a3c2",
+      "git:hexsha": "86ebcae5567eaad06c1ded371599758c8b03a3c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev210"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/879b6739f121d4f468490e422ca51b998878621f",
+      "git:hexsha": "879b6739f121d4f468490e422ca51b998878621f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev213"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b12dceeb3eb355cc6b1a7bf2b5041b724dd7f5fa",
+      "git:hexsha": "b12dceeb3eb355cc6b1a7bf2b5041b724dd7f5fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev216"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3c48ce8c14d035d80bc104b47b2ac0344e20c0e5",
+      "git:hexsha": "3c48ce8c14d035d80bc104b47b2ac0344e20c0e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev219"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c5e7a6d0cb8888a913f307d10f9da99a267ff12e",
+      "git:hexsha": "c5e7a6d0cb8888a913f307d10f9da99a267ff12e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev222"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fa80dc9e29f21ddb74625692e4ae1383300a39f9",
+      "git:hexsha": "fa80dc9e29f21ddb74625692e4ae1383300a39f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev225"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3a170463f37203fc2a488169f24909fcc3d5fd01",
+      "git:hexsha": "3a170463f37203fc2a488169f24909fcc3d5fd01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev232"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e01011ff11328ac8aeb59c514d2c22199db376d2",
+      "git:hexsha": "e01011ff11328ac8aeb59c514d2c22199db376d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev235"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2816e5ff6104fb6f42d5c5ff73e1ca349ea16035",
+      "git:hexsha": "2816e5ff6104fb6f42d5c5ff73e1ca349ea16035",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev238"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/04c7b3a0ebb6279648bd3f72c5c04b0f7bad1e0c",
+      "git:hexsha": "04c7b3a0ebb6279648bd3f72c5c04b0f7bad1e0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev241"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f9ea24c40571e58c689a5a4b963a475763612b96",
+      "git:hexsha": "f9ea24c40571e58c689a5a4b963a475763612b96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev244"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2eefed05050c3be4563b82eff7d6d2021d2bfbd9",
+      "git:hexsha": "2eefed05050c3be4563b82eff7d6d2021d2bfbd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev248"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/60ad0549c590d48d77d37f83fe8d105f5a182d4a",
+      "git:hexsha": "60ad0549c590d48d77d37f83fe8d105f5a182d4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev260"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3512ac4f277f44959ebc1af6873a5cf1633d5aa1",
+      "git:hexsha": "3512ac4f277f44959ebc1af6873a5cf1633d5aa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev263"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0f42207bd911a925dc969394bfd7bc479b33dd8f",
+      "git:hexsha": "0f42207bd911a925dc969394bfd7bc479b33dd8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev266"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ed7d8e3082e345cf9c35134fb6599982f89dc602",
+      "git:hexsha": "ed7d8e3082e345cf9c35134fb6599982f89dc602",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev269"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/96841dc67b28abf63b8b52bb8fe9a11da13f913a",
+      "git:hexsha": "96841dc67b28abf63b8b52bb8fe9a11da13f913a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev290"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/8a340e412627af93024143e0371293755a0fa4e9",
+      "git:hexsha": "8a340e412627af93024143e0371293755a0fa4e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev293"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/10d7538d13073121a0513cb741444515d0eb1e5b",
+      "git:hexsha": "10d7538d13073121a0513cb741444515d0eb1e5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev296"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/68d12890c5526ac89b3ff9a09ec887f6206a1ae8",
+      "git:hexsha": "68d12890c5526ac89b3ff9a09ec887f6206a1ae8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev299"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cf999698317932e0709e1333190a5fca4f8ee332",
+      "git:hexsha": "cf999698317932e0709e1333190a5fca4f8ee332",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev302"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/182623264b08b678f6e68597351e1f63fc3336e7",
+      "git:hexsha": "182623264b08b678f6e68597351e1f63fc3336e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev314"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/30d794afa9b803d57fb086944138de2ceebbc57d",
+      "git:hexsha": "30d794afa9b803d57fb086944138de2ceebbc57d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev323"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4279385c33b3227045b8391273efec3f3f9d732e",
+      "git:hexsha": "4279385c33b3227045b8391273efec3f3f9d732e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev326"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/6ce95c679d35b353be9f5d2e2595fbf5558c9353",
+      "git:hexsha": "6ce95c679d35b353be9f5d2e2595fbf5558c9353",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev329"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fd642ff3683c82111abeac5159e35dfc0b65278c",
+      "git:hexsha": "fd642ff3683c82111abeac5159e35dfc0b65278c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev332"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fe3073d3311250f70d5ae9700448843719e31c8c",
+      "git:hexsha": "fe3073d3311250f70d5ae9700448843719e31c8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev335"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f163917ed7892871071d17db8d1c8c4feef1851f",
+      "git:hexsha": "f163917ed7892871071d17db8d1c8c4feef1851f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev338"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/88a4857f680044273c7ebc85f366f49e7a9ee5da",
+      "git:hexsha": "88a4857f680044273c7ebc85f366f49e7a9ee5da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev341"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9d8010f8e8ba04446bc745d00adcac19e173eafa",
+      "git:hexsha": "9d8010f8e8ba04446bc745d00adcac19e173eafa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev344"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5b8baea8be953f1751825d4beb7bb9f202d1609f",
+      "git:hexsha": "5b8baea8be953f1751825d4beb7bb9f202d1609f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev347"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bed7a5ba83510cc08a91d78ebb43369b2c21f386",
+      "git:hexsha": "bed7a5ba83510cc08a91d78ebb43369b2c21f386",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev350"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a4ae138ba5072b9bb5025bca7a123c614facaaa5",
+      "git:hexsha": "a4ae138ba5072b9bb5025bca7a123c614facaaa5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev353"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bb1d3ca10d18f164150531c27492c7e21279af8c",
+      "git:hexsha": "bb1d3ca10d18f164150531c27492c7e21279af8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev356"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1a1968fc75224d419fa402b12a7ba09c8a566087",
+      "git:hexsha": "1a1968fc75224d419fa402b12a7ba09c8a566087",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev359"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e5abd8d52f66b26f361c683744de64e158639044",
+      "git:hexsha": "e5abd8d52f66b26f361c683744de64e158639044",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev362"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2ab645daf5dd3db8154efa2f575318fc8630b2a2",
+      "git:hexsha": "2ab645daf5dd3db8154efa2f575318fc8630b2a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1d2a99a9972924ab42ec2daa1e4f57d06324dcd9",
+      "git:hexsha": "1d2a99a9972924ab42ec2daa1e4f57d06324dcd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/11f36eb028f48c025b83430708d76de66a8a887b",
+      "git:hexsha": "11f36eb028f48c025b83430708d76de66a8a887b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ce11c2e2ead76f83d915158827e429fb5f8035ff",
+      "git:hexsha": "ce11c2e2ead76f83d915158827e429fb5f8035ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev59"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a92765701de7ad65eed46bbd03adcb80b73ac4c7",
+      "git:hexsha": "a92765701de7ad65eed46bbd03adcb80b73ac4c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c32514a622910bd417423ce71f1a713e6cc0e1b0",
+      "git:hexsha": "c32514a622910bd417423ce71f1a713e6cc0e1b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev63"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/98671d40cc327d7b336ebafd378bac868676d593",
+      "git:hexsha": "98671d40cc327d7b336ebafd378bac868676d593",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a06208ba08410a2337c06aa36986c86913a61bc4",
+      "git:hexsha": "a06208ba08410a2337c06aa36986c86913a61bc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev66"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/700b97d30638b4888953737a61dd0dd023dde412",
+      "git:hexsha": "700b97d30638b4888953737a61dd0dd023dde412",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/605e9bdc7294b9fc73963184a64c84717895a6a3",
+      "git:hexsha": "605e9bdc7294b9fc73963184a64c84717895a6a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev71"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bad631a29c1917de2f17afe7a01e137a09c52b6e",
+      "git:hexsha": "bad631a29c1917de2f17afe7a01e137a09c52b6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev75"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/577493c5cbff7ad27f557d95b79d2c923caac284",
+      "git:hexsha": "577493c5cbff7ad27f557d95b79d2c923caac284",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/210d24ab9ff1e45b546b2aa555e3639d31f9b3c7",
+      "git:hexsha": "210d24ab9ff1e45b546b2aa555e3639d31f9b3c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/849b00b79edf655a3c65c8fc46c123cff34acb56",
+      "git:hexsha": "849b00b79edf655a3c65c8fc46c123cff34acb56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev83"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/03d433d8ab378c27f94fc7c4c14e55f1d09e0617",
+      "git:hexsha": "03d433d8ab378c27f94fc7c4c14e55f1d09e0617",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a5577770a7c8810061cea376442be8ff01e5d30f",
+      "git:hexsha": "a5577770a7c8810061cea376442be8ff01e5d30f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/129d99b6ef2db681ddaa5ca9ecee35128864fb9b",
+      "git:hexsha": "129d99b6ef2db681ddaa5ca9ecee35128864fb9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev89"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ca75522b7ee8d0309f3679cc821e9df166b3e4e2",
+      "git:hexsha": "ca75522b7ee8d0309f3679cc821e9df166b3e4e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a98b4918226cfda12b3f1832b9943ba3de609583",
+      "git:hexsha": "a98b4918226cfda12b3f1832b9943ba3de609583",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev94"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/347d5b4e83c8eb44270d22735b475ceec6284b28",
+      "git:hexsha": "347d5b4e83c8eb44270d22735b475ceec6284b28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev970"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/df4e28f9ee1b0768cb27cba7dfa9eba333ae544d",
+      "git:hexsha": "df4e28f9ee1b0768cb27cba7dfa9eba333ae544d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9b4400985fbcacabeb8c27d27b08445498236fb6",
+      "git:hexsha": "9b4400985fbcacabeb8c27d27b08445498236fb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev972"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3ced59ff7a0f12f75df4500633921588cbaa6a06",
+      "git:hexsha": "3ced59ff7a0f12f75df4500633921588cbaa6a06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev975"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/be36621cfe95e60f8fbdd850a597641671bd90b8",
+      "git:hexsha": "be36621cfe95e60f8fbdd850a597641671bd90b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mysql-router/rev977"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/adbd71b0e4f6c1c5abd53dcf553d7b583b06afe2",
+      "git:hexsha": "adbd71b0e4f6c1c5abd53dcf553d7b583b06afe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0858e44e3937c0b004aae5e2f6829be6d9df0fcd",
+      "git:hexsha": "0858e44e3937c0b004aae5e2f6829be6d9df0fcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/95ba654badb78d19763f6d4a123a2d07aba5ee84",
+      "git:hexsha": "95ba654badb78d19763f6d4a123a2d07aba5ee84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/67b7dc198e8f178649e6712ba776c03a0f98fae5",
+      "git:hexsha": "67b7dc198e8f178649e6712ba776c03a0f98fae5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5eb153de67c1ad934e82035751b27dfbd43027e0",
+      "git:hexsha": "5eb153de67c1ad934e82035751b27dfbd43027e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7910d35ddc2088e9e0c800d5f8ad17b04c9f4e86",
+      "git:hexsha": "7910d35ddc2088e9e0c800d5f8ad17b04c9f4e86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/20a644802172b19b2ce665647dae1771ef5ba5e1",
+      "git:hexsha": "20a644802172b19b2ce665647dae1771ef5ba5e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f9cecf2010bb0ad3f20bc3ed5d571839eb40f6be",
+      "git:hexsha": "f9cecf2010bb0ad3f20bc3ed5d571839eb40f6be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4147124a72e3387af85ae33f441430aec38f0d49",
+      "git:hexsha": "4147124a72e3387af85ae33f441430aec38f0d49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2c9e243ae9474af2bd6457beceefc6c575b272df",
+      "git:hexsha": "2c9e243ae9474af2bd6457beceefc6c575b272df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/6d8469a9a068b9ea9f1c75e71608e5edb1416265",
+      "git:hexsha": "6d8469a9a068b9ea9f1c75e71608e5edb1416265",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cc65b998668405c803a8fe65feb1dc1451d01d52",
+      "git:hexsha": "cc65b998668405c803a8fe65feb1dc1451d01d52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9853ef325e661227ed8d60e89922f7e937f8c2bf",
+      "git:hexsha": "9853ef325e661227ed8d60e89922f7e937f8c2bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4c5c76ff07f24b90b1db0df069db91325ad6c0e4",
+      "git:hexsha": "4c5c76ff07f24b90b1db0df069db91325ad6c0e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f311d772e8125c3763c57814a808e31c1c1c8e5c",
+      "git:hexsha": "f311d772e8125c3763c57814a808e31c1c1c8e5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d80868ddb106c843c842b06daad48b77cf44fc21",
+      "git:hexsha": "d80868ddb106c843c842b06daad48b77cf44fc21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5ae8a29bd482e253aa517c84418c74271fcb42c1",
+      "git:hexsha": "5ae8a29bd482e253aa517c84418c74271fcb42c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c48dc8f4231213d1cb0b8585bc31c2baa7427889",
+      "git:hexsha": "c48dc8f4231213d1cb0b8585bc31c2baa7427889",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/767249834c129239d00c309a95178cb6b74b45ea",
+      "git:hexsha": "767249834c129239d00c309a95178cb6b74b45ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3881fc0c5fc11a2c2860553efef2a320ff328e83",
+      "git:hexsha": "3881fc0c5fc11a2c2860553efef2a320ff328e83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7345b70a607ed02174f0aac083a3f5c20a2f04bc",
+      "git:hexsha": "7345b70a607ed02174f0aac083a3f5c20a2f04bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/568e0bbcfdae23de20d4d2a5927a123ad9b40a47",
+      "git:hexsha": "568e0bbcfdae23de20d4d2a5927a123ad9b40a47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ba27cac1ba030bc2192ca2f667213d8ebf2daeff",
+      "git:hexsha": "ba27cac1ba030bc2192ca2f667213d8ebf2daeff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e72ec1a254e1d5440c030051d36cb560a4cb17fe",
+      "git:hexsha": "e72ec1a254e1d5440c030051d36cb560a4cb17fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/38c2100021d750d0bf6953bb114c8a3480f67c65",
+      "git:hexsha": "38c2100021d750d0bf6953bb114c8a3480f67c65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ede1263dabc54cebfc292e725c9aae8f000b2e0a",
+      "git:hexsha": "ede1263dabc54cebfc292e725c9aae8f000b2e0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/793a68f18dc8b15e021bec5d71be3e5e7a6ac0b3",
+      "git:hexsha": "793a68f18dc8b15e021bec5d71be3e5e7a6ac0b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bec3d7a1e99f5bec016b72b117e920842908ebda",
+      "git:hexsha": "bec3d7a1e99f5bec016b72b117e920842908ebda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/40d0d375f10a7bdc0ab27c94be75b2b9dfbd770e",
+      "git:hexsha": "40d0d375f10a7bdc0ab27c94be75b2b9dfbd770e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d6b916933f1fb7eb0465f800fcf0cffe80c1def2",
+      "git:hexsha": "d6b916933f1fb7eb0465f800fcf0cffe80c1def2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/50a122111d125f12d7b29a438cc923c4817d54c1",
+      "git:hexsha": "50a122111d125f12d7b29a438cc923c4817d54c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e5261c9c5f7e9beb17ea5a897333a4f20df8886d",
+      "git:hexsha": "e5261c9c5f7e9beb17ea5a897333a4f20df8886d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/39ffbe50e88ce98c0dfa6efa9cc16fdbac1f27e4",
+      "git:hexsha": "39ffbe50e88ce98c0dfa6efa9cc16fdbac1f27e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/26987dc70587ec9753e2888438fc3ee48088fc47",
+      "git:hexsha": "26987dc70587ec9753e2888438fc3ee48088fc47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/53fb74a71ac4664536c2a8081045141494af6c9e",
+      "git:hexsha": "53fb74a71ac4664536c2a8081045141494af6c9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/20fd070c9a139eab8c782bc13e0b19b8eafb2b53",
+      "git:hexsha": "20fd070c9a139eab8c782bc13e0b19b8eafb2b53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/01a0ea8aacf33f27d4196e363b4beb1a738b9ea6",
+      "git:hexsha": "01a0ea8aacf33f27d4196e363b4beb1a738b9ea6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/59983c3f80d995f9d7d41443221cec219a7ac50d",
+      "git:hexsha": "59983c3f80d995f9d7d41443221cec219a7ac50d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4ee325e95eb1bb99cd7fda32df5ff2a6f9be59a5",
+      "git:hexsha": "4ee325e95eb1bb99cd7fda32df5ff2a6f9be59a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/36baea82dc8147ce4c11e165dcd9e4cec83b987e",
+      "git:hexsha": "36baea82dc8147ce4c11e165dcd9e4cec83b987e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b3dea5192ff341b00b787d5806c5750480488350",
+      "git:hexsha": "b3dea5192ff341b00b787d5806c5750480488350",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b0fb7412db355ecdc33da9ca19aabc3d4bf3888f",
+      "git:hexsha": "b0fb7412db355ecdc33da9ca19aabc3d4bf3888f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/78f6a46419a249878b38af6db4e2c97113aa525d",
+      "git:hexsha": "78f6a46419a249878b38af6db4e2c97113aa525d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a3a2f31a2568b84335646e02603c4cb0c27d6b96",
+      "git:hexsha": "a3a2f31a2568b84335646e02603c4cb0c27d6b96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1fd8e71cc95869eb36810315644d6afa14760ce9",
+      "git:hexsha": "1fd8e71cc95869eb36810315644d6afa14760ce9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4d43d38ddb129eb10deb07b3420cad835e3a632d",
+      "git:hexsha": "4d43d38ddb129eb10deb07b3420cad835e3a632d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d36ae7036bbb6c4f383f523df97974e5782c596c",
+      "git:hexsha": "d36ae7036bbb6c4f383f523df97974e5782c596c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e28539bd26386fcf27b2e3e99701e38ed902b394",
+      "git:hexsha": "e28539bd26386fcf27b2e3e99701e38ed902b394",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c3deef8007818ec08a89c99cecd3a3930f9a263f",
+      "git:hexsha": "c3deef8007818ec08a89c99cecd3a3930f9a263f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/412bb98237ef164218c835baceeb3167380c6dd7",
+      "git:hexsha": "412bb98237ef164218c835baceeb3167380c6dd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/04ae36829756d076d31bcdf5290beb07743643e6",
+      "git:hexsha": "04ae36829756d076d31bcdf5290beb07743643e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bda142c7dd726242969ab69e9b7a77ca7340e903",
+      "git:hexsha": "bda142c7dd726242969ab69e9b7a77ca7340e903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/6d70e2e37813adffb57952ebf21b65fea0808077",
+      "git:hexsha": "6d70e2e37813adffb57952ebf21b65fea0808077",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/85749cba4f708fd5356897d5dd0fddb93867b7ad",
+      "git:hexsha": "85749cba4f708fd5356897d5dd0fddb93867b7ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b1c1cc9a919ccf73b33f3da72d3f0d12cf35971d",
+      "git:hexsha": "b1c1cc9a919ccf73b33f3da72d3f0d12cf35971d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1656426ba68178744d6aa889ed5bd7918198681e",
+      "git:hexsha": "1656426ba68178744d6aa889ed5bd7918198681e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/daa92899745bded0a1012473b25822eac6bb0d40",
+      "git:hexsha": "daa92899745bded0a1012473b25822eac6bb0d40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v8.4/2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2c1e8e60a546c10d0184f129b8db17983b400623",
+      "git:hexsha": "2c1e8e60a546c10d0184f129b8db17983b400623",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/457cc92bfe13570f06863144d75431f34ee0af69",
+      "git:hexsha": "457cc92bfe13570f06863144d75431f34ee0af69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/46959c12f03c56a90c5eb80ac884b4d8e078fff5",
+      "git:hexsha": "46959c12f03c56a90c5eb80ac884b4d8e078fff5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/26f9f67902bb19ce3e541f38bbdddaea6874bffa",
+      "git:hexsha": "26f9f67902bb19ce3e541f38bbdddaea6874bffa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0e42c73d4c048bf2bb1b3162bbbb7cfd58663582",
+      "git:hexsha": "0e42c73d4c048bf2bb1b3162bbbb7cfd58663582",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b5809b7270e2f1eab37ce825b3ac87cc2e669e5e",
+      "git:hexsha": "b5809b7270e2f1eab37ce825b3ac87cc2e669e5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/4646d64470cbabc6af5630ba56c6e3982f5e8741",
+      "git:hexsha": "4646d64470cbabc6af5630ba56c6e3982f5e8741",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/25b4f8da4c763c2af734fcde3a602b10ebbd470f",
+      "git:hexsha": "25b4f8da4c763c2af734fcde3a602b10ebbd470f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a6969523427932b65a0c864b1362d59ca85f9028",
+      "git:hexsha": "a6969523427932b65a0c864b1362d59ca85f9028",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c76006e4114869b530e7c8b84f60af23cd97507c",
+      "git:hexsha": "c76006e4114869b530e7c8b84f60af23cd97507c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/417ba50ad42b5ced693d9dad9a7bd3f31f04f264",
+      "git:hexsha": "417ba50ad42b5ced693d9dad9a7bd3f31f04f264",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/81211e9e373ed9ff8fd5d40d69b8ceb23df7d59e",
+      "git:hexsha": "81211e9e373ed9ff8fd5d40d69b8ceb23df7d59e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ba40f90c9f73ab04a24770658927a750c62354fe",
+      "git:hexsha": "ba40f90c9f73ab04a24770658927a750c62354fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/27b2f4e6ff846f2e5d8255b5ab76ada79f325ed2",
+      "git:hexsha": "27b2f4e6ff846f2e5d8255b5ab76ada79f325ed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/287c6c3052685bd27c7a35454864e73e87a0c9b6",
+      "git:hexsha": "287c6c3052685bd27c7a35454864e73e87a0c9b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/0b1a8828baa2e37797c7e6c449be9d9f0db53b26",
+      "git:hexsha": "0b1a8828baa2e37797c7e6c449be9d9f0db53b26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/f75ece8466ce5c53626fac7894f144519c1a39d3",
+      "git:hexsha": "f75ece8466ce5c53626fac7894f144519c1a39d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cd370aa61aa49220da16a8ccf8f87645154ecac8",
+      "git:hexsha": "cd370aa61aa49220da16a8ccf8f87645154ecac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/971cf7dfd95fbd0b43a5b843324eb84d91989f12",
+      "git:hexsha": "971cf7dfd95fbd0b43a5b843324eb84d91989f12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/97671e8c1f8c47398fc4f8af9cb283437727f325",
+      "git:hexsha": "97671e8c1f8c47398fc4f8af9cb283437727f325",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/fc0cd58d66c9fa17056ecbf4c6c83fc611d8bfe5",
+      "git:hexsha": "fc0cd58d66c9fa17056ecbf4c6c83fc611d8bfe5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a09c4b3464f654953000b8771a038ce73f52a978",
+      "git:hexsha": "a09c4b3464f654953000b8771a038ce73f52a978",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/bdd5d6dbb7b891befb3f532a18a1ae24de8be658",
+      "git:hexsha": "bdd5d6dbb7b891befb3f532a18a1ae24de8be658",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/5cef65a3e1608bb380d17d83daf4375f6398263d",
+      "git:hexsha": "5cef65a3e1608bb380d17d83daf4375f6398263d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/403303b06ba1436733670b60e11d495347d8ae66",
+      "git:hexsha": "403303b06ba1436733670b60e11d495347d8ae66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a86e9152ae084082abfc4a352fc2a2b580a91a2e",
+      "git:hexsha": "a86e9152ae084082abfc4a352fc2a2b580a91a2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3178ddcf109008439504775b439dbf5ab5e7f3b0",
+      "git:hexsha": "3178ddcf109008439504775b439dbf5ab5e7f3b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cd0adc3f37739a68d361e291e756267bba34bbaf",
+      "git:hexsha": "cd0adc3f37739a68d361e291e756267bba34bbaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/535644ffbbd6d5bf5c618cd0db0d6441b24ca789",
+      "git:hexsha": "535644ffbbd6d5bf5c618cd0db0d6441b24ca789",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/3b636148d31335d19bf0f968180f0d2ac840fbb4",
+      "git:hexsha": "3b636148d31335d19bf0f968180f0d2ac840fbb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/28d502df0cd09177d28bcfa4626fc17193951fe8",
+      "git:hexsha": "28d502df0cd09177d28bcfa4626fc17193951fe8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/354611097c54b57ca73a5203fbe3537d7a35ce28",
+      "git:hexsha": "354611097c54b57ca73a5203fbe3537d7a35ce28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/29c75ed36866829e6ff17cabb64207d68628daa2",
+      "git:hexsha": "29c75ed36866829e6ff17cabb64207d68628daa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/aada62e5f1cbaa68fbc1fe4ef6151acb50b6bdc0",
+      "git:hexsha": "aada62e5f1cbaa68fbc1fe4ef6151acb50b6bdc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2d882ed320095dff9c806f60e0fb8fc6e20deb65",
+      "git:hexsha": "2d882ed320095dff9c806f60e0fb8fc6e20deb65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ca592ae46debaf4892e5930164b581bd8cd7ab8d",
+      "git:hexsha": "ca592ae46debaf4892e5930164b581bd8cd7ab8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/323347e0d32cbe75221d6908434a343b51dfc06c",
+      "git:hexsha": "323347e0d32cbe75221d6908434a343b51dfc06c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/7ae8a58dcb8428546015708602b6fbf8dfaa36ac",
+      "git:hexsha": "7ae8a58dcb8428546015708602b6fbf8dfaa36ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/8dceae8cb24ee54a37455399fdb7bccd6fe39ef4",
+      "git:hexsha": "8dceae8cb24ee54a37455399fdb7bccd6fe39ef4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/415b3d3f26e84d8ba3486a4bf77649a63ece152d",
+      "git:hexsha": "415b3d3f26e84d8ba3486a4bf77649a63ece152d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/b4bd918fca5b8797344f04aeeb6735befeaf307c",
+      "git:hexsha": "b4bd918fca5b8797344f04aeeb6735befeaf307c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/e8dbd4243d7d81152c9b5fa8ad3c0549ca492639",
+      "git:hexsha": "e8dbd4243d7d81152c9b5fa8ad3c0549ca492639",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/49e5776cb0121b5afeb371b7398598ee2f6bf91c",
+      "git:hexsha": "49e5776cb0121b5afeb371b7398598ee2f6bf91c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d20ff88808d01b5d17cb0d68ad55f7c7d192bd8f",
+      "git:hexsha": "d20ff88808d01b5d17cb0d68ad55f7c7d192bd8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/d3eb876f136304c6190ebded0a4478a7330cdc06",
+      "git:hexsha": "d3eb876f136304c6190ebded0a4478a7330cdc06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2ef374da2f8caadfe3fef94bce429e244b4959de",
+      "git:hexsha": "2ef374da2f8caadfe3fef94bce429e244b4959de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/246e9fd83a94e7001613eca0513bf270c94efd9a",
+      "git:hexsha": "246e9fd83a94e7001613eca0513bf270c94efd9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a74e0e46264da4c745b4fd030b4f59276af8fdd4",
+      "git:hexsha": "a74e0e46264da4c745b4fd030b4f59276af8fdd4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.74.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/c218e1430b46c278a1f2a9371b28179ea77786b6",
+      "git:hexsha": "c218e1430b46c278a1f2a9371b28179ea77786b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.76.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/61eac9f20ff96aa164ad7f84dac5a4d67ad419d2",
+      "git:hexsha": "61eac9f20ff96aa164ad7f84dac5a4d67ad419d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.77.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/cdf39851bcb3ff04647eac1aacc51204c3e52d74",
+      "git:hexsha": "cdf39851bcb3ff04647eac1aacc51204c3e52d74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.78.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/a1f46bf6d13d59be910528282cd55626e367bc5b",
+      "git:hexsha": "a1f46bf6d13d59be910528282cd55626e367bc5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.80.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ed07893d63e490773e3b56829a3cb7f578b6ce53",
+      "git:hexsha": "ed07893d63e490773e3b56829a3cb7f578b6ce53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.81.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/2e0b09a2a33874e0440260ffd613b5af3e99fa43",
+      "git:hexsha": "2e0b09a2a33874e0440260ffd613b5af3e99fa43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.82.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/9f628f374ed16fdaa96ad7b6d687d1f695f478e3",
+      "git:hexsha": "9f628f374ed16fdaa96ad7b6d687d1f695f478e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.83.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ae7ef184a8ced5e1f15141acb270d6a9ab263609",
+      "git:hexsha": "ae7ef184a8ced5e1f15141acb270d6a9ab263609",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.84.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/ef9e0ab4ccc83fd02959f68c92507d632f0a66e0",
+      "git:hexsha": "ef9e0ab4ccc83fd02959f68c92507d632f0a66e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.85.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/56c2b180c6c93d0765f2b8a9f8472aadd93b1745",
+      "git:hexsha": "56c2b180c6c93d0765f2b8a9f8472aadd93b1745",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/99804c9e3940e56c84c27bb373d98bdb67b0f792",
+      "git:hexsha": "99804c9e3940e56c84c27bb373d98bdb67b0f792",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.87.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/1cd2e905021bf5e308346f8c790e6c1d17aa8faa",
+      "git:hexsha": "1cd2e905021bf5e308346f8c790e6c1d17aa8faa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.88.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/mysql-router-operators/commit/75c09519edd7f02198678d47c6b31693adc1a37d",
+      "git:hexsha": "75c09519edd7f02198678d47c6b31693adc1a37d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vdpe/1.89.0"
+    }
+  ]
+}

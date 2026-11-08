@@ -1,0 +1,3969 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator",
+  "@type": "gh:Repository",
+  "gh:name": "postgresql-k8s-operator",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b682ac1b3342de02933a512f4eee41f4845fa292",
+      "git:hexsha": "b682ac1b3342de02933a512f4eee41f4845fa292",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-08T04:38:16.223629+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1919c0e25b812739dceccb36418ed07106a64096",
+      "git:hexsha": "1919c0e25b812739dceccb36418ed07106a64096",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "mig-2026-10-10/k8s-migration-base"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/62c636f7a957bfe234749b98df7516691959cbef",
+      "git:hexsha": "62c636f7a957bfe234749b98df7516691959cbef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev10"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/38db52c4f109ae0eb9aebc932cdd343184bb15b1",
+      "git:hexsha": "38db52c4f109ae0eb9aebc932cdd343184bb15b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d868359242c89bb792c404b229f8f69319fbd9ef",
+      "git:hexsha": "d868359242c89bb792c404b229f8f69319fbd9ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/baf1b95722a05cfb4b2afed2412c6973a3790bab",
+      "git:hexsha": "baf1b95722a05cfb4b2afed2412c6973a3790bab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/907cf8936567707efab598245da1786c3e8effd9",
+      "git:hexsha": "907cf8936567707efab598245da1786c3e8effd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8ef7fe331b348caa000f459e235ed92e92ab1f9c",
+      "git:hexsha": "8ef7fe331b348caa000f459e235ed92e92ab1f9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/36d1e6556027d032d1721db4432201a170311e36",
+      "git:hexsha": "36d1e6556027d032d1721db4432201a170311e36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b7b96f910160266268184770d8dcf89b33bc7099",
+      "git:hexsha": "b7b96f910160266268184770d8dcf89b33bc7099",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev106"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/aa202f576834c533d9ea677c496b02a26d5abc51",
+      "git:hexsha": "aa202f576834c533d9ea677c496b02a26d5abc51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/654a317eb98ba0ba8bc50bc8499eb39e1db7b2dd",
+      "git:hexsha": "654a317eb98ba0ba8bc50bc8499eb39e1db7b2dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev108"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3e1ece86263e2f0e2813ab461d0e157283efe10c",
+      "git:hexsha": "3e1ece86263e2f0e2813ab461d0e157283efe10c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev11"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1bb0358d03fe2aae1f964a741e216a52ef9586d2",
+      "git:hexsha": "1bb0358d03fe2aae1f964a741e216a52ef9586d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0d3dc5b1f8da7e44cd602d60888ea9024968edf6",
+      "git:hexsha": "0d3dc5b1f8da7e44cd602d60888ea9024968edf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev111"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4715b06957d08da39b27a3b46ba2a407ef97b793",
+      "git:hexsha": "4715b06957d08da39b27a3b46ba2a407ef97b793",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev112"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dd94b4b692da60cd55ce4208355c89c0e2ffbc0e",
+      "git:hexsha": "dd94b4b692da60cd55ce4208355c89c0e2ffbc0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev113"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/09d4f20f6d77a6069bcbfbc072017fe3f2442df7",
+      "git:hexsha": "09d4f20f6d77a6069bcbfbc072017fe3f2442df7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev114"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dfb8d964bbc2a3c27362486b58a80e53ee871eed",
+      "git:hexsha": "dfb8d964bbc2a3c27362486b58a80e53ee871eed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev115"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/343a2365d93ae1186822ac57308ec9cc8a5d5b5d",
+      "git:hexsha": "343a2365d93ae1186822ac57308ec9cc8a5d5b5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev116"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d7ad08b18f4019afff1c7ffc9db65e3034bc8005",
+      "git:hexsha": "d7ad08b18f4019afff1c7ffc9db65e3034bc8005",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev117"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e502ff0e958129ddffe4daf49b70b204dcdba868",
+      "git:hexsha": "e502ff0e958129ddffe4daf49b70b204dcdba868",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev119"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a33635631bae27ccb56460190f9cfce40f721015",
+      "git:hexsha": "a33635631bae27ccb56460190f9cfce40f721015",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev12"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2da248ffdc0175fc25e222844914ed2311a1e3c0",
+      "git:hexsha": "2da248ffdc0175fc25e222844914ed2311a1e3c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev122"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/066792d40e2e96d8bc90d9e08df2e63dfdc23661",
+      "git:hexsha": "066792d40e2e96d8bc90d9e08df2e63dfdc23661",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev123"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/029db5490d448358089921a8290437f920ed4d82",
+      "git:hexsha": "029db5490d448358089921a8290437f920ed4d82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev124"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e335af1e2fde5bb728dbc67456a6320a9f0849bf",
+      "git:hexsha": "e335af1e2fde5bb728dbc67456a6320a9f0849bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev125"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a130c234aa696ab2454173bfac425e713bd5d589",
+      "git:hexsha": "a130c234aa696ab2454173bfac425e713bd5d589",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev126"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/49520469e3b290846c5b8fa69fc4789745e18b92",
+      "git:hexsha": "49520469e3b290846c5b8fa69fc4789745e18b92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev127"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/932a798adf19b57e7737f49f2e486b881c536651",
+      "git:hexsha": "932a798adf19b57e7737f49f2e486b881c536651",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev128"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/90d477895136da60f240c20a35754205d61467a8",
+      "git:hexsha": "90d477895136da60f240c20a35754205d61467a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev13"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b9fdeb85c2258edef750e4b3352fa3f5a932c4a6",
+      "git:hexsha": "b9fdeb85c2258edef750e4b3352fa3f5a932c4a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev131"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bd69e052913786bee6455e3cdec4d9128c7ed00b",
+      "git:hexsha": "bd69e052913786bee6455e3cdec4d9128c7ed00b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev132"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b18b5246c511e23e98122ea932649a774b95a235",
+      "git:hexsha": "b18b5246c511e23e98122ea932649a774b95a235",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev134"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a9044f70815a7176f97fd5c5f341c4f302e4ae26",
+      "git:hexsha": "a9044f70815a7176f97fd5c5f341c4f302e4ae26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev136"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/521b4ea1f53256bd0ce1517b7abf123dc04e03b8",
+      "git:hexsha": "521b4ea1f53256bd0ce1517b7abf123dc04e03b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev137"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/485aead78f74bccc652ddad719e3f673093344f6",
+      "git:hexsha": "485aead78f74bccc652ddad719e3f673093344f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev138"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c745569768bb2a7bff4f0fbd08439299eb4d5dc8",
+      "git:hexsha": "c745569768bb2a7bff4f0fbd08439299eb4d5dc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev139"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5a4aa0f7ba4b7a9299a9e7dc057de8860178534e",
+      "git:hexsha": "5a4aa0f7ba4b7a9299a9e7dc057de8860178534e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev14"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ff4cdd87f7519e3d89b94539814c8a9af78c9cad",
+      "git:hexsha": "ff4cdd87f7519e3d89b94539814c8a9af78c9cad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a35ef2eb12a7d387c0801df1449de5254a03c579",
+      "git:hexsha": "a35ef2eb12a7d387c0801df1449de5254a03c579",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev142"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b42ab19d7959b4dc28925450a45d3fd8233b9483",
+      "git:hexsha": "b42ab19d7959b4dc28925450a45d3fd8233b9483",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/15e7f02e27f259a9c6fb224bcc274af66bf226bb",
+      "git:hexsha": "15e7f02e27f259a9c6fb224bcc274af66bf226bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev144"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c5df657f58d17a0420e19d7592bea49865fbb7e0",
+      "git:hexsha": "c5df657f58d17a0420e19d7592bea49865fbb7e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/23d4b4274bbff60b75abdb49d4c309e9fb874093",
+      "git:hexsha": "23d4b4274bbff60b75abdb49d4c309e9fb874093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f903203d4941db542ea64e5badc7b36c7f540654",
+      "git:hexsha": "f903203d4941db542ea64e5badc7b36c7f540654",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev148"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2214262c9d55990b23b52722f4c7ee6f0ae79c13",
+      "git:hexsha": "2214262c9d55990b23b52722f4c7ee6f0ae79c13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6a11b8a84428dc22c07f17f4826f9193de59e155",
+      "git:hexsha": "6a11b8a84428dc22c07f17f4826f9193de59e155",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev15"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/59d90f2e0699716ecd7e201c82215ea2df93f612",
+      "git:hexsha": "59d90f2e0699716ecd7e201c82215ea2df93f612",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev150"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/161e62b81b3f6debb281da81e5de5ea7483c0c37",
+      "git:hexsha": "161e62b81b3f6debb281da81e5de5ea7483c0c37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev152"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1139f2c7b3f0a1b43a126e722c6be73c95739744",
+      "git:hexsha": "1139f2c7b3f0a1b43a126e722c6be73c95739744",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b93da172f4b06e11079905c0f0dc4c9af69f6636",
+      "git:hexsha": "b93da172f4b06e11079905c0f0dc4c9af69f6636",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev154"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e1d846ec69f62d27cb311e64ef65183d2d0511a9",
+      "git:hexsha": "e1d846ec69f62d27cb311e64ef65183d2d0511a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev155"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/29e59e2df2ed67002d772440797025ca448352ae",
+      "git:hexsha": "29e59e2df2ed67002d772440797025ca448352ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev156"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/773e0398a3e77a44adad0ab0e5ddc93dbc349a66",
+      "git:hexsha": "773e0398a3e77a44adad0ab0e5ddc93dbc349a66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev157"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b4c51b0d8ca44e16dce0d5ed70e5f64e2c1e0de1",
+      "git:hexsha": "b4c51b0d8ca44e16dce0d5ed70e5f64e2c1e0de1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev158"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/da3c5d14e84949db3d30b3d7c4073d426c97e094",
+      "git:hexsha": "da3c5d14e84949db3d30b3d7c4073d426c97e094",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d20f26416272f29db7f7e9a25e7a1a15390471ba",
+      "git:hexsha": "d20f26416272f29db7f7e9a25e7a1a15390471ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev16"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b0641ccb1926a05fcd6b53febf26c5299384b452",
+      "git:hexsha": "b0641ccb1926a05fcd6b53febf26c5299384b452",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev160"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f72ef886c9dcc2d23dd66f881cba624226d49fca",
+      "git:hexsha": "f72ef886c9dcc2d23dd66f881cba624226d49fca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/24a755da225d903927bf22e689dda8a25ae2c4ba",
+      "git:hexsha": "24a755da225d903927bf22e689dda8a25ae2c4ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/223ad4cb48aa6d2245e3ad9d4851904801ff3d5e",
+      "git:hexsha": "223ad4cb48aa6d2245e3ad9d4851904801ff3d5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b80bca3630fd4454aa97907b1bc42dab1191918b",
+      "git:hexsha": "b80bca3630fd4454aa97907b1bc42dab1191918b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev168"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d854da8a7dac6893d0ec6b0308eec98f64f9df5b",
+      "git:hexsha": "d854da8a7dac6893d0ec6b0308eec98f64f9df5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev169"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/347dce7f5d85a408aecd696eefa5224eaf54c2c7",
+      "git:hexsha": "347dce7f5d85a408aecd696eefa5224eaf54c2c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev17"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fc70fac25564d60b2b858d6d7d75b01a2a3d2179",
+      "git:hexsha": "fc70fac25564d60b2b858d6d7d75b01a2a3d2179",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev170"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f1a470ddabe8ea7acc5e7407c8753c1d2273961a",
+      "git:hexsha": "f1a470ddabe8ea7acc5e7407c8753c1d2273961a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev171"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/02a426602d6c2f498b583154919c7c4a2dac411b",
+      "git:hexsha": "02a426602d6c2f498b583154919c7c4a2dac411b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev172"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/588b7abfceeb9a98f1e18254fea0a00b6b488cfc",
+      "git:hexsha": "588b7abfceeb9a98f1e18254fea0a00b6b488cfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev173"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/24b0d01634063003cdff7a2d016b60b26bc68a8f",
+      "git:hexsha": "24b0d01634063003cdff7a2d016b60b26bc68a8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev174"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f3998144a58ce4998b21523333933d241fd3aa34",
+      "git:hexsha": "f3998144a58ce4998b21523333933d241fd3aa34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev175"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5a21d70a64eb2a5c60f028f539a52e5f62947acf",
+      "git:hexsha": "5a21d70a64eb2a5c60f028f539a52e5f62947acf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev176"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/69b2c138fa6b974883aa6d3d15a3315189d321d8",
+      "git:hexsha": "69b2c138fa6b974883aa6d3d15a3315189d321d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev177"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cd35a4797ecd15152f2276d2a521a6f0d22984af",
+      "git:hexsha": "cd35a4797ecd15152f2276d2a521a6f0d22984af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev18"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a938b78bef8f9f41e6eec2314e5fe13a254a96b5",
+      "git:hexsha": "a938b78bef8f9f41e6eec2314e5fe13a254a96b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev182"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3a0b0b2ac697de1decfecf4cdd88ce8893aa6aad",
+      "git:hexsha": "3a0b0b2ac697de1decfecf4cdd88ce8893aa6aad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev183"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dba42b6d9ea140dcdb51ae930e2ed2fec5b1d308",
+      "git:hexsha": "dba42b6d9ea140dcdb51ae930e2ed2fec5b1d308",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev184"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9b291f792b58a104bfeb6c4c7aa4e8350d6dc9c0",
+      "git:hexsha": "9b291f792b58a104bfeb6c4c7aa4e8350d6dc9c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev185"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9b20997be4996b75ae15890cb2c20b637f5c67cd",
+      "git:hexsha": "9b20997be4996b75ae15890cb2c20b637f5c67cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev186"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d232e6711bc63a72a0489c485fa436a9739cc6d6",
+      "git:hexsha": "d232e6711bc63a72a0489c485fa436a9739cc6d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev187"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a8dc3551c605640421ff7dbad69eb12ca3327713",
+      "git:hexsha": "a8dc3551c605640421ff7dbad69eb12ca3327713",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev188"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6cfaacd05b34f4890675a42ea77f9ad146c1ea59",
+      "git:hexsha": "6cfaacd05b34f4890675a42ea77f9ad146c1ea59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev19"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/46b326ad3f5c547a1e48bf800c01d6962454cc74",
+      "git:hexsha": "46b326ad3f5c547a1e48bf800c01d6962454cc74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev190"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1a230c725e247544ce1209316b6be426f0432b0c",
+      "git:hexsha": "1a230c725e247544ce1209316b6be426f0432b0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev191"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/834e4ceeb8eba29c39876342a08a088d71d334ae",
+      "git:hexsha": "834e4ceeb8eba29c39876342a08a088d71d334ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev192"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8411ee61a2b665af27373c41710e9e0d2f54ad55",
+      "git:hexsha": "8411ee61a2b665af27373c41710e9e0d2f54ad55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev193"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/477978597f8c2e8c9da731fc8522f621d28641b4",
+      "git:hexsha": "477978597f8c2e8c9da731fc8522f621d28641b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev194"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/98dcdbbfc9697e0f49777a5bd0f617f7f7d463a5",
+      "git:hexsha": "98dcdbbfc9697e0f49777a5bd0f617f7f7d463a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev195"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/efe2ab30adb815b6771b49cb8c1302b5a21e162f",
+      "git:hexsha": "efe2ab30adb815b6771b49cb8c1302b5a21e162f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev196"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/098a4c22ea08e2b7f1ab8fbd7b0f57f4a83db420",
+      "git:hexsha": "098a4c22ea08e2b7f1ab8fbd7b0f57f4a83db420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev197"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a0a1247473d6272c466ed79e08f0bc6e9477fd28",
+      "git:hexsha": "a0a1247473d6272c466ed79e08f0bc6e9477fd28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev198"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c70b7a6420074742932a4a444eb54ce6667f94e3",
+      "git:hexsha": "c70b7a6420074742932a4a444eb54ce6667f94e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev199"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/234266186222ff2424f1e086d140031686dc8272",
+      "git:hexsha": "234266186222ff2424f1e086d140031686dc8272",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev201"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/76135cfc7b072788282a639c272fb94941b03b56",
+      "git:hexsha": "76135cfc7b072788282a639c272fb94941b03b56",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev202"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c9de6f9522ccd0da026cd468e9a377e3ade777f6",
+      "git:hexsha": "c9de6f9522ccd0da026cd468e9a377e3ade777f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev204"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/18266cafa30e4e522f6212e9b25ffa823c1a5d33",
+      "git:hexsha": "18266cafa30e4e522f6212e9b25ffa823c1a5d33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev206"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/946b48f99e8b3083a01a83ccb4d739c88f29de52",
+      "git:hexsha": "946b48f99e8b3083a01a83ccb4d739c88f29de52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f5f9a3ae2f7f39d3046db9e33fa009cc5b41d7d7",
+      "git:hexsha": "f5f9a3ae2f7f39d3046db9e33fa009cc5b41d7d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev212"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/89a2d79a6e982d34fbf928189ef04f1ba24b7f49",
+      "git:hexsha": "89a2d79a6e982d34fbf928189ef04f1ba24b7f49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev218"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7b5f70655a6407b4a793a8f5208cde351525377f",
+      "git:hexsha": "7b5f70655a6407b4a793a8f5208cde351525377f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a4deba40e24088069888a5c2025acfcd8e08bc9a",
+      "git:hexsha": "a4deba40e24088069888a5c2025acfcd8e08bc9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev220"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1668283430d37599a64cc98fe4ade47d833fe502",
+      "git:hexsha": "1668283430d37599a64cc98fe4ade47d833fe502",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev223"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d2194193927c883b8b61d84012f700a78bbdd8a5",
+      "git:hexsha": "d2194193927c883b8b61d84012f700a78bbdd8a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev225"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/005021c94e39e8497adfb4b0fb29fd2ef4de679f",
+      "git:hexsha": "005021c94e39e8497adfb4b0fb29fd2ef4de679f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev228"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e4fbf6f54acf261433945e63240457f48ae35bef",
+      "git:hexsha": "e4fbf6f54acf261433945e63240457f48ae35bef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev23"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d24e51107134a76864d3797858f78750905fa6a2",
+      "git:hexsha": "d24e51107134a76864d3797858f78750905fa6a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev230"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b77fad2fa48ba1f9a408782106b1e1affc7599d5",
+      "git:hexsha": "b77fad2fa48ba1f9a408782106b1e1affc7599d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev232"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ff48eaf3c382bdb76a6cdb0b65f3a1a2cea971db",
+      "git:hexsha": "ff48eaf3c382bdb76a6cdb0b65f3a1a2cea971db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev234"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/978080424255e109c7a7c4f4d23a5b3d5aba12a6",
+      "git:hexsha": "978080424255e109c7a7c4f4d23a5b3d5aba12a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev237"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/24c20e78d2696446f60f9dddc5fdf674eb31fe0f",
+      "git:hexsha": "24c20e78d2696446f60f9dddc5fdf674eb31fe0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e14b10457e57bdd7ea4afb695e1f6ee4741c40a0",
+      "git:hexsha": "e14b10457e57bdd7ea4afb695e1f6ee4741c40a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev240"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2d103c029ded6971d00e981d6167c5138ae9ac88",
+      "git:hexsha": "2d103c029ded6971d00e981d6167c5138ae9ac88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev242"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a6fca5ce7a519908af35c9e146fc6eea4ebd0050",
+      "git:hexsha": "a6fca5ce7a519908af35c9e146fc6eea4ebd0050",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev244"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e2bae440f2d0c92f92999ccb2c0729eb7e850876",
+      "git:hexsha": "e2bae440f2d0c92f92999ccb2c0729eb7e850876",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev246"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a0e0562f083ee9b95c03b9c629e3469028a268b0",
+      "git:hexsha": "a0e0562f083ee9b95c03b9c629e3469028a268b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev248"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/443200a49de4fc728f1a8f0c03ec189a35271998",
+      "git:hexsha": "443200a49de4fc728f1a8f0c03ec189a35271998",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/285322460d3e12bc7f19d72559c5803998699d94",
+      "git:hexsha": "285322460d3e12bc7f19d72559c5803998699d94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev251"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ac7d688b5c01712358ade516b2eae5e204210685",
+      "git:hexsha": "ac7d688b5c01712358ade516b2eae5e204210685",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev253"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/41aa25f2f894331cc4bc51fea736da089729efe5",
+      "git:hexsha": "41aa25f2f894331cc4bc51fea736da089729efe5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev255"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/582b3b9975b66fb4d1faa3163c485876998b0b91",
+      "git:hexsha": "582b3b9975b66fb4d1faa3163c485876998b0b91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev257"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1e7b7a35f85f63797f937c60c7dd49ecbdf907c1",
+      "git:hexsha": "1e7b7a35f85f63797f937c60c7dd49ecbdf907c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev264"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7e8862e2f02cfe1f8e768d6ad54a281833afdfda",
+      "git:hexsha": "7e8862e2f02cfe1f8e768d6ad54a281833afdfda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev268"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b38ed943ffc37c04beb04f8fea9e05ee0e5407e6",
+      "git:hexsha": "b38ed943ffc37c04beb04f8fea9e05ee0e5407e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev270"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a4d5b3bb777b27ef18996ce90b713d7045400891",
+      "git:hexsha": "a4d5b3bb777b27ef18996ce90b713d7045400891",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev272"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/04c217e70b2e41d5a68fdc604404edc3dcb0d5b7",
+      "git:hexsha": "04c217e70b2e41d5a68fdc604404edc3dcb0d5b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev274"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c996dd3cd81b61082a89c414864b956e00a220e9",
+      "git:hexsha": "c996dd3cd81b61082a89c414864b956e00a220e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev276"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a627e0bed5c48bb23391a997a254060762a212fe",
+      "git:hexsha": "a627e0bed5c48bb23391a997a254060762a212fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev278"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1ef75c3289841fc0aad4e4cc983bf773d1ba582a",
+      "git:hexsha": "1ef75c3289841fc0aad4e4cc983bf773d1ba582a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev281"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5e27448c1668ece98ce085929589a7dfcc4b7741",
+      "git:hexsha": "5e27448c1668ece98ce085929589a7dfcc4b7741",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev287"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/31f6f4a34e78150388ebaf5ad9ad40022adac9c1",
+      "git:hexsha": "31f6f4a34e78150388ebaf5ad9ad40022adac9c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev289"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/212f2c83b7bd71358428b68db38f6b1d1746e7f6",
+      "git:hexsha": "212f2c83b7bd71358428b68db38f6b1d1746e7f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev291"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/44103528679963081befbed1b4802f9676813c29",
+      "git:hexsha": "44103528679963081befbed1b4802f9676813c29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev293"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b29c81aae685649646317ebad8eb3f6707561c20",
+      "git:hexsha": "b29c81aae685649646317ebad8eb3f6707561c20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev295"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e5bfc9d3c721c7fe8a9e9a7468b468f67aa17a04",
+      "git:hexsha": "e5bfc9d3c721c7fe8a9e9a7468b468f67aa17a04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev297"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e3e1533f441894056286499333fd78c6ee8c4b8d",
+      "git:hexsha": "e3e1533f441894056286499333fd78c6ee8c4b8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev299"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a7cb3549c323b303142183c7b9fe984382d5e675",
+      "git:hexsha": "a7cb3549c323b303142183c7b9fe984382d5e675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/436f8eb0b3f2870ef8147a4b673506437f0d36f7",
+      "git:hexsha": "436f8eb0b3f2870ef8147a4b673506437f0d36f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev301"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c4bcff544ecb806108855a8f9cf49b84a88c8723",
+      "git:hexsha": "c4bcff544ecb806108855a8f9cf49b84a88c8723",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev303"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cf45c2de73b265c8bd9ace967650c5f091ccf658",
+      "git:hexsha": "cf45c2de73b265c8bd9ace967650c5f091ccf658",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev305"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bf297a25444bd95f9619d278f00d6c05edb8ccd5",
+      "git:hexsha": "bf297a25444bd95f9619d278f00d6c05edb8ccd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev307"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f6a4e13a446544994674bb5f12334e0a3735512a",
+      "git:hexsha": "f6a4e13a446544994674bb5f12334e0a3735512a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev309"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0a9310d0e295297b69db74d710ffc3565f4a0b90",
+      "git:hexsha": "0a9310d0e295297b69db74d710ffc3565f4a0b90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5e2091ba617b258cb7fc71d200368f94d36249e8",
+      "git:hexsha": "5e2091ba617b258cb7fc71d200368f94d36249e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev311"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6bdee4ec31ca35cf4806c105c4a014e36f78ee6e",
+      "git:hexsha": "6bdee4ec31ca35cf4806c105c4a014e36f78ee6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev313"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/882a1e0fb7fcc704bcec9f596ad06d5b63efe2bf",
+      "git:hexsha": "882a1e0fb7fcc704bcec9f596ad06d5b63efe2bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev315"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/25c4ad0e576a6b6da3a2e3d6d7c66d94270715e0",
+      "git:hexsha": "25c4ad0e576a6b6da3a2e3d6d7c66d94270715e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev317"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c5d08816d298b1a31469e0c9d9ceee4394035a2b",
+      "git:hexsha": "c5d08816d298b1a31469e0c9d9ceee4394035a2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev319"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3cc22bae8ecec6f380bc30ad32ac5f39a8d3959a",
+      "git:hexsha": "3cc22bae8ecec6f380bc30ad32ac5f39a8d3959a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/781f58242d4f0c06c96532d2caed8cdc142e1968",
+      "git:hexsha": "781f58242d4f0c06c96532d2caed8cdc142e1968",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev321"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/19cd796417857918afef1a5d056ab41211eb4c12",
+      "git:hexsha": "19cd796417857918afef1a5d056ab41211eb4c12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev323"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/110d36288c725c3c8c2b8fb5c393a571dd815f0c",
+      "git:hexsha": "110d36288c725c3c8c2b8fb5c393a571dd815f0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev325"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/96c2e970ac9660268eacd1bf0536c72d6e3523f3",
+      "git:hexsha": "96c2e970ac9660268eacd1bf0536c72d6e3523f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev327"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7605d58f2750898441958672240d94b4fc96470d",
+      "git:hexsha": "7605d58f2750898441958672240d94b4fc96470d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev33"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d027e5660384b46221649be0e7ea10f09fc9a97d",
+      "git:hexsha": "d027e5660384b46221649be0e7ea10f09fc9a97d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev333"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/807d9f8f38e84a78760db785ef8cee6c62aa6ee0",
+      "git:hexsha": "807d9f8f38e84a78760db785ef8cee6c62aa6ee0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev335"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6bb4bdc9e7fb57b189c22d845be0e627c74cd7fc",
+      "git:hexsha": "6bb4bdc9e7fb57b189c22d845be0e627c74cd7fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev337"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ee8b68bc1c1f199de85b913c7388b9a7592fcc05",
+      "git:hexsha": "ee8b68bc1c1f199de85b913c7388b9a7592fcc05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3e482553ec16dc8d78eef8f04124958755639fc1",
+      "git:hexsha": "3e482553ec16dc8d78eef8f04124958755639fc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev341"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/978d0ec8ff0755ab497e6d30ee7d17c252c88f3d",
+      "git:hexsha": "978d0ec8ff0755ab497e6d30ee7d17c252c88f3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev343"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/883307abbe91f83f9931c7016f2ed65c1eda8e4e",
+      "git:hexsha": "883307abbe91f83f9931c7016f2ed65c1eda8e4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev345"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e284b6cd70d9bf957226d0e0991afe66d0f52a8e",
+      "git:hexsha": "e284b6cd70d9bf957226d0e0991afe66d0f52a8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev347"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4daa286ed90eee6c26a8494ff0defc29be9e614c",
+      "git:hexsha": "4daa286ed90eee6c26a8494ff0defc29be9e614c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev349"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d4fe4d0dbc9eb0a89eeca1a1f8bd0bf909ba2931",
+      "git:hexsha": "d4fe4d0dbc9eb0a89eeca1a1f8bd0bf909ba2931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f268c6a3d0e6aec1be242ded8d68c85efcb7d99d",
+      "git:hexsha": "f268c6a3d0e6aec1be242ded8d68c85efcb7d99d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev351"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/de2049804136e1a56462a74aa6ac0a91dbdc0d90",
+      "git:hexsha": "de2049804136e1a56462a74aa6ac0a91dbdc0d90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev356"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/47296193d997bda928a4075aeb6717433f56ecfd",
+      "git:hexsha": "47296193d997bda928a4075aeb6717433f56ecfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev358"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/da10ce6a51f7d4b5559e40638dd2d11450cc33a3",
+      "git:hexsha": "da10ce6a51f7d4b5559e40638dd2d11450cc33a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev360"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e24526f5534c15883b7ec34ea31b2a5aaaebb547",
+      "git:hexsha": "e24526f5534c15883b7ec34ea31b2a5aaaebb547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f244f608bdb769304e63239b02eab0e15fa7cbb5",
+      "git:hexsha": "f244f608bdb769304e63239b02eab0e15fa7cbb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev362"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3d78021c240409e33632998973515eb6377e7000",
+      "git:hexsha": "3d78021c240409e33632998973515eb6377e7000",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev364"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/98caa675be00b7c3d74f7defb365d01fb138472f",
+      "git:hexsha": "98caa675be00b7c3d74f7defb365d01fb138472f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev366"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/85c80559aa7d60946e5df7927af033e04436daea",
+      "git:hexsha": "85c80559aa7d60946e5df7927af033e04436daea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev368"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d8b2f7ef0c690c62bd2ba76684c29bd528427a2f",
+      "git:hexsha": "d8b2f7ef0c690c62bd2ba76684c29bd528427a2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev370"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0b43fea76ce33e156659dcb014b7823468868b2b",
+      "git:hexsha": "0b43fea76ce33e156659dcb014b7823468868b2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev37"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/efb7dd6c6e8bdc94888dbf0b87d7fd3272d8a09e",
+      "git:hexsha": "efb7dd6c6e8bdc94888dbf0b87d7fd3272d8a09e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev372"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/29f7d9f0646b9d7eace3c8b87dfabcb3e8a4ef6d",
+      "git:hexsha": "29f7d9f0646b9d7eace3c8b87dfabcb3e8a4ef6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev374"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/19c7ec42236eb0e7bdddd284122601988221d82b",
+      "git:hexsha": "19c7ec42236eb0e7bdddd284122601988221d82b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev376"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/63057a7a033114f5f2e0ed16d545a614de49cce5",
+      "git:hexsha": "63057a7a033114f5f2e0ed16d545a614de49cce5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev378"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/319775d97808e258bccc079b1688cd51753a14f9",
+      "git:hexsha": "319775d97808e258bccc079b1688cd51753a14f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev380"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cda570208161b6f3df819e59f88b3adb020b4e54",
+      "git:hexsha": "cda570208161b6f3df819e59f88b3adb020b4e54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8c186b8095196a4f185b955b22e31113ba8cea4a",
+      "git:hexsha": "8c186b8095196a4f185b955b22e31113ba8cea4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev382"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a3f363a383da6969390ab3579343f1390aa43acd",
+      "git:hexsha": "a3f363a383da6969390ab3579343f1390aa43acd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev384"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ef14e328932b6659b5d3e2909f06cfdb829f3941",
+      "git:hexsha": "ef14e328932b6659b5d3e2909f06cfdb829f3941",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev386"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f203e4d9d3ab9856b5dc0786217fce8428384e90",
+      "git:hexsha": "f203e4d9d3ab9856b5dc0786217fce8428384e90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev388"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ea87ed7eb9c42f96eb112ac27b266ad49db61648",
+      "git:hexsha": "ea87ed7eb9c42f96eb112ac27b266ad49db61648",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev390"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5ebd46e5ef3098c2232d87734e61d1f290335acd",
+      "git:hexsha": "5ebd46e5ef3098c2232d87734e61d1f290335acd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f882a87b623ecddecf457a4b2753acc819e959b6",
+      "git:hexsha": "f882a87b623ecddecf457a4b2753acc819e959b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev392"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a1a946dd366f9d2ed2d415f39c73a16eb1a639b8",
+      "git:hexsha": "a1a946dd366f9d2ed2d415f39c73a16eb1a639b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev394"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/eb2bceb8a42c5ff33146a0fc474c70397e524276",
+      "git:hexsha": "eb2bceb8a42c5ff33146a0fc474c70397e524276",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev396"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5c2ae046546a7d163b9d040d6a12d1abc0ca1f70",
+      "git:hexsha": "5c2ae046546a7d163b9d040d6a12d1abc0ca1f70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev398"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f63df7a9a2580a1577cd48a23ccb711c9a1b671d",
+      "git:hexsha": "f63df7a9a2580a1577cd48a23ccb711c9a1b671d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev400"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2a805ab9de012cce4f71c3d4a8ffc948f16ea43f",
+      "git:hexsha": "2a805ab9de012cce4f71c3d4a8ffc948f16ea43f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f61a10b1bc08d3ff62696372c787ec96a823e585",
+      "git:hexsha": "f61a10b1bc08d3ff62696372c787ec96a823e585",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev402"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/900e484aee789f0192f6589a475fe80f773274bf",
+      "git:hexsha": "900e484aee789f0192f6589a475fe80f773274bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev404"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2e6341a0a73ce3c149f2ab4ff6322bf42262638e",
+      "git:hexsha": "2e6341a0a73ce3c149f2ab4ff6322bf42262638e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev406"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/73cafdade82ee2913b5b61d7dc7280dd3898c167",
+      "git:hexsha": "73cafdade82ee2913b5b61d7dc7280dd3898c167",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev408"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f0c1056ae60ff3ee70f191335e598e905fc79e43",
+      "git:hexsha": "f0c1056ae60ff3ee70f191335e598e905fc79e43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev410"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3194a7a006b10c24e100c357a0a2a1b9c38c72d4",
+      "git:hexsha": "3194a7a006b10c24e100c357a0a2a1b9c38c72d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev41"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f5782ee3278008cac2763c265c79bb1fd34a87e8",
+      "git:hexsha": "f5782ee3278008cac2763c265c79bb1fd34a87e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev412"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e85e47d0a2112e0879e5c0679d8a012cf02d251f",
+      "git:hexsha": "e85e47d0a2112e0879e5c0679d8a012cf02d251f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev414"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b5711ae65223c14812bd2e401e6afee3a1ba14f7",
+      "git:hexsha": "b5711ae65223c14812bd2e401e6afee3a1ba14f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev416"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2fa03915ef0f5d81f5c027e4973c25d9c979be8f",
+      "git:hexsha": "2fa03915ef0f5d81f5c027e4973c25d9c979be8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev418"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6b5fde327fba9d1502d23b2f70bac3b6616eac60",
+      "git:hexsha": "6b5fde327fba9d1502d23b2f70bac3b6616eac60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev420"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a9115478345038d5a6caba722c348f9b838357c0",
+      "git:hexsha": "a9115478345038d5a6caba722c348f9b838357c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/30af27d42185673fc65faabe7c168c1a22b47784",
+      "git:hexsha": "30af27d42185673fc65faabe7c168c1a22b47784",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev424"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9a7e4e6cc84870f2f3a88927240bf145867f5e6e",
+      "git:hexsha": "9a7e4e6cc84870f2f3a88927240bf145867f5e6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev426"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9ea543bc3380ec22524698866f9d8735e5ba5675",
+      "git:hexsha": "9ea543bc3380ec22524698866f9d8735e5ba5675",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev428"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/01577b46ae660b1f3a301e3faed3c70ebeb1b108",
+      "git:hexsha": "01577b46ae660b1f3a301e3faed3c70ebeb1b108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev430"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dab4e366a6ef9a621b581329afb9e2192906c48e",
+      "git:hexsha": "dab4e366a6ef9a621b581329afb9e2192906c48e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev43"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fb0276647d1409c67e12459f8b64acca881d0b4a",
+      "git:hexsha": "fb0276647d1409c67e12459f8b64acca881d0b4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev432"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/96f5ac53768b587156115d8de2e7d9166eaa8ce0",
+      "git:hexsha": "96f5ac53768b587156115d8de2e7d9166eaa8ce0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev436"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/388c6390ab078b1bf297cb618635fb21339be5f2",
+      "git:hexsha": "388c6390ab078b1bf297cb618635fb21339be5f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev438"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f39caaa4c5c85afdb157bd53df54a24a1b9687ac",
+      "git:hexsha": "f39caaa4c5c85afdb157bd53df54a24a1b9687ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6f10bb97b7d5c591fc4536c9d67afe6cbc27da09",
+      "git:hexsha": "6f10bb97b7d5c591fc4536c9d67afe6cbc27da09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev441"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ef6baf790b871a445dad3314faf1adf8dd469626",
+      "git:hexsha": "ef6baf790b871a445dad3314faf1adf8dd469626",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev443"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b41e4f2865c184ff2e1ce515fe77d56c73150f59",
+      "git:hexsha": "b41e4f2865c184ff2e1ce515fe77d56c73150f59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev445"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/293b59786f74ffa86a32bafa15198b0704c18509",
+      "git:hexsha": "293b59786f74ffa86a32bafa15198b0704c18509",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev447"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2aab7dad6938095a14e484359a31f42099311341",
+      "git:hexsha": "2aab7dad6938095a14e484359a31f42099311341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev449"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/57f083b934574cb0c555e911543a9435f69fe945",
+      "git:hexsha": "57f083b934574cb0c555e911543a9435f69fe945",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev45"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ce58da9ac0ecb1c74c688c44ce4dd95ffc54f228",
+      "git:hexsha": "ce58da9ac0ecb1c74c688c44ce4dd95ffc54f228",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev451"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ea798cbc506e6158ce50848bfd1f4f9eda70f0ec",
+      "git:hexsha": "ea798cbc506e6158ce50848bfd1f4f9eda70f0ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev453"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2a7f044766faa9d2873cc2486f6e3af72324ce24",
+      "git:hexsha": "2a7f044766faa9d2873cc2486f6e3af72324ce24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev455"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a9905ca8c7507d8f2ddfecf1169ec63eb7a01358",
+      "git:hexsha": "a9905ca8c7507d8f2ddfecf1169ec63eb7a01358",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev458"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/58522216cb0034057358af7b7740efe29d2721a2",
+      "git:hexsha": "58522216cb0034057358af7b7740efe29d2721a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev460"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/79f99d15ed2bcb665783551841e28b795bc97571",
+      "git:hexsha": "79f99d15ed2bcb665783551841e28b795bc97571",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev46"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7903d934a7b914e145355c8a28d4a71e03e54961",
+      "git:hexsha": "7903d934a7b914e145355c8a28d4a71e03e54961",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev463"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3bbd5f912fb0e5f681c735b568f23ff646f4a7f3",
+      "git:hexsha": "3bbd5f912fb0e5f681c735b568f23ff646f4a7f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev465"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/97c77472a661d4207c458ba7ef92cbb78baf661b",
+      "git:hexsha": "97c77472a661d4207c458ba7ef92cbb78baf661b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev467"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/773c93849bda23f3e7329be96c20aeb3a0ddb51d",
+      "git:hexsha": "773c93849bda23f3e7329be96c20aeb3a0ddb51d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev469"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1fcd7e20c20e955545cab99f9572e4582d08dde9",
+      "git:hexsha": "1fcd7e20c20e955545cab99f9572e4582d08dde9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev47"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d8f8226eeb65cbda25949b043f81a97d7f42a581",
+      "git:hexsha": "d8f8226eeb65cbda25949b043f81a97d7f42a581",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev471"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0a1c1493c30e77960d977bd79cf115eb05a333ef",
+      "git:hexsha": "0a1c1493c30e77960d977bd79cf115eb05a333ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev473"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0f7a2df1c528fe502197e57253a8f6bfcb3c9f81",
+      "git:hexsha": "0f7a2df1c528fe502197e57253a8f6bfcb3c9f81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev475"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/de7429678fa5c7bb9f2f352bdbfbe2f8d8f788bd",
+      "git:hexsha": "de7429678fa5c7bb9f2f352bdbfbe2f8d8f788bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev477"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/da22c0fedaa7898e8e00a87e175c41a6dc88d2bd",
+      "git:hexsha": "da22c0fedaa7898e8e00a87e175c41a6dc88d2bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev479"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/484fad058662471f131ef092802bc533acd41804",
+      "git:hexsha": "484fad058662471f131ef092802bc533acd41804",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev48"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f2e6fc1b6041092278f609cb629d2fef47d1276f",
+      "git:hexsha": "f2e6fc1b6041092278f609cb629d2fef47d1276f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev481"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/efa20a417bad09b8910b25bbfca3e9e3f70e2da4",
+      "git:hexsha": "efa20a417bad09b8910b25bbfca3e9e3f70e2da4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev483"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4775744576eb5c83a8838a00d87d2b2f6cf57131",
+      "git:hexsha": "4775744576eb5c83a8838a00d87d2b2f6cf57131",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev485"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6d74191d35e2da70758d0f6a903122d81d78b9c0",
+      "git:hexsha": "6d74191d35e2da70758d0f6a903122d81d78b9c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev487"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a5c03447119f35c56c9695213e7b4b45b0584ac8",
+      "git:hexsha": "a5c03447119f35c56c9695213e7b4b45b0584ac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev489"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/557432bf9396f9d7ba717b041853e7ef75e39bc7",
+      "git:hexsha": "557432bf9396f9d7ba717b041853e7ef75e39bc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev49"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dea4b100d5c6832c7c7ad02ae75291dfdbd21fff",
+      "git:hexsha": "dea4b100d5c6832c7c7ad02ae75291dfdbd21fff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev491"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a1f5aff484635e8f367cc8e28f3960db165fa6df",
+      "git:hexsha": "a1f5aff484635e8f367cc8e28f3960db165fa6df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev493"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9ed1b7ced2a0f68c49f5f493569bd40bc72e1166",
+      "git:hexsha": "9ed1b7ced2a0f68c49f5f493569bd40bc72e1166",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev495"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b2b489fe6a313422e0e2921cb793922c88d937fd",
+      "git:hexsha": "b2b489fe6a313422e0e2921cb793922c88d937fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev499"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d8a138b9e4d22da518f4853672dccb76e88cca48",
+      "git:hexsha": "d8a138b9e4d22da518f4853672dccb76e88cca48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a5c3c1b801458d84b17264e6c172da11a211a17d",
+      "git:hexsha": "a5c3c1b801458d84b17264e6c172da11a211a17d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev50"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/842aa475a1c861db0ed37c54832a289bd540e960",
+      "git:hexsha": "842aa475a1c861db0ed37c54832a289bd540e960",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev504"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d56c485eddfa998033e95a41b2d492aff9693e34",
+      "git:hexsha": "d56c485eddfa998033e95a41b2d492aff9693e34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev506"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/58e36c07edb586f4d281ad7a15ab5c170c2cee0b",
+      "git:hexsha": "58e36c07edb586f4d281ad7a15ab5c170c2cee0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev508"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cada525322e410cbb08c2d868b55f8226b8e0e59",
+      "git:hexsha": "cada525322e410cbb08c2d868b55f8226b8e0e59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev510"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/19891214c343ea42b46ffacc528172fe2532f2c6",
+      "git:hexsha": "19891214c343ea42b46ffacc528172fe2532f2c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev51"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e28ea54c7b35edf6454df02ec02353613caea4cd",
+      "git:hexsha": "e28ea54c7b35edf6454df02ec02353613caea4cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev513"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e1684df29ffb8fdc7a80e19847daab83e27cdf5b",
+      "git:hexsha": "e1684df29ffb8fdc7a80e19847daab83e27cdf5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev515"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ebf4756ed4e96330830021eb310a6a3c4e18cb79",
+      "git:hexsha": "ebf4756ed4e96330830021eb310a6a3c4e18cb79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev517"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c71262d3730dd7457c7e6eb3750f9afd219b8e81",
+      "git:hexsha": "c71262d3730dd7457c7e6eb3750f9afd219b8e81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev519"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/51aff554b77575a682f1fce9407cd38436f4f052",
+      "git:hexsha": "51aff554b77575a682f1fce9407cd38436f4f052",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev52"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b18cb6c2112bec52b9e61d4bad240e527f992ea4",
+      "git:hexsha": "b18cb6c2112bec52b9e61d4bad240e527f992ea4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev521"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1029fd9c852fc16c3d08ad003cdffc8e9ae80c6b",
+      "git:hexsha": "1029fd9c852fc16c3d08ad003cdffc8e9ae80c6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev523"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/71e8e16405cc2b0bb15dced3e7177ec568cd4b44",
+      "git:hexsha": "71e8e16405cc2b0bb15dced3e7177ec568cd4b44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev525"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/23a12529af11605b2e0266e1d5bcc8116bfb72f4",
+      "git:hexsha": "23a12529af11605b2e0266e1d5bcc8116bfb72f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev527"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/96a11170891abd58dcc91738d43c43500bb86be2",
+      "git:hexsha": "96a11170891abd58dcc91738d43c43500bb86be2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev529"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/21fbe3fe43569b062ea9e3ff4c9e0f917ad5846a",
+      "git:hexsha": "21fbe3fe43569b062ea9e3ff4c9e0f917ad5846a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev53"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e70779be05eb408d3b688b6a5ad701fb9333e3af",
+      "git:hexsha": "e70779be05eb408d3b688b6a5ad701fb9333e3af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev531"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5d98a0ff32d5455243faf5c1e86cd6b2da43eac5",
+      "git:hexsha": "5d98a0ff32d5455243faf5c1e86cd6b2da43eac5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev533"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bd6e7a9df477f9316f96503b620428d356cf4771",
+      "git:hexsha": "bd6e7a9df477f9316f96503b620428d356cf4771",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev535"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b5b149485588e0cc547965a16db1bf8ac1bb4419",
+      "git:hexsha": "b5b149485588e0cc547965a16db1bf8ac1bb4419",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev537"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c307b6d9e8a6abce6caf372e2646b0f9e30ef237",
+      "git:hexsha": "c307b6d9e8a6abce6caf372e2646b0f9e30ef237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev539"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/77fd375c51cc05baceaac4c409de7314716b1ba3",
+      "git:hexsha": "77fd375c51cc05baceaac4c409de7314716b1ba3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev54"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7083f18f402d3c2e3f7a6212976cf71050f16892",
+      "git:hexsha": "7083f18f402d3c2e3f7a6212976cf71050f16892",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev541"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9556ef85694bfd940a3dfeaebbba282c1789a1a5",
+      "git:hexsha": "9556ef85694bfd940a3dfeaebbba282c1789a1a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev543"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/91ec95e818adb1cc010d0b4661eeaf5e549042be",
+      "git:hexsha": "91ec95e818adb1cc010d0b4661eeaf5e549042be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev545"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1be9f1b6a473e97affad1183f85c6149de42aa1f",
+      "git:hexsha": "1be9f1b6a473e97affad1183f85c6149de42aa1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev547"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8a3957ed03f43443b3704557c99c34396ce323a2",
+      "git:hexsha": "8a3957ed03f43443b3704557c99c34396ce323a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev549"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c7cb7d96308e28c4470126191a93c386bd9940df",
+      "git:hexsha": "c7cb7d96308e28c4470126191a93c386bd9940df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev55"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/323c2b5ee532c7ffcace9e2698da8d4e51e7f411",
+      "git:hexsha": "323c2b5ee532c7ffcace9e2698da8d4e51e7f411",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev551"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6030b87fbe37850cf1de48bf4902c288978045c8",
+      "git:hexsha": "6030b87fbe37850cf1de48bf4902c288978045c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev553"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5041520156a0a5cb005687acd7a137820b0a0b87",
+      "git:hexsha": "5041520156a0a5cb005687acd7a137820b0a0b87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev555"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/073110fe56fa12acd0171fb4a9933875bd546b77",
+      "git:hexsha": "073110fe56fa12acd0171fb4a9933875bd546b77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev557"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7ca1e26997c572d253b7cffb654d7adb1f0deb80",
+      "git:hexsha": "7ca1e26997c572d253b7cffb654d7adb1f0deb80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev559"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f835a0e957ba9dc5b81bfcdbe6530902823c6b8f",
+      "git:hexsha": "f835a0e957ba9dc5b81bfcdbe6530902823c6b8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev56"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/79350d0524eb496dd9e11cb21895b517e6456951",
+      "git:hexsha": "79350d0524eb496dd9e11cb21895b517e6456951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev561"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e480c998785ada3d59ff7da8dba8a56b555dd7e2",
+      "git:hexsha": "e480c998785ada3d59ff7da8dba8a56b555dd7e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev563"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d5114d95a706b17407400c36de52a1b8eb11d6c0",
+      "git:hexsha": "d5114d95a706b17407400c36de52a1b8eb11d6c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev565"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/94c25c3fd3d180117af3a806818170e58c69ce7d",
+      "git:hexsha": "94c25c3fd3d180117af3a806818170e58c69ce7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev567"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9272d2303de2218ec1595255138cace2c9dd7c12",
+      "git:hexsha": "9272d2303de2218ec1595255138cace2c9dd7c12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev569"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ab8309f3034a28f2b46e6136b0851246e4a29612",
+      "git:hexsha": "ab8309f3034a28f2b46e6136b0851246e4a29612",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev57"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/68c1e42efdcd99d2d17191378a7d8a09c61183e7",
+      "git:hexsha": "68c1e42efdcd99d2d17191378a7d8a09c61183e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev572"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/53885dd9e5ae811a03947506dfcb349ae97bac63",
+      "git:hexsha": "53885dd9e5ae811a03947506dfcb349ae97bac63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev573"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/73d366017c1323c31db08871b720089860ee7cce",
+      "git:hexsha": "73d366017c1323c31db08871b720089860ee7cce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev575"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bb2459a94664f64460bd3e5e8a0279b6d3d74b0d",
+      "git:hexsha": "bb2459a94664f64460bd3e5e8a0279b6d3d74b0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev577"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2900c661babc56be50229f33439fa4b1df09ba98",
+      "git:hexsha": "2900c661babc56be50229f33439fa4b1df09ba98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev580"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/17ecbf4abb2140eeda809b462f56b6393d507d74",
+      "git:hexsha": "17ecbf4abb2140eeda809b462f56b6393d507d74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev58"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/655e59209dfaf07cfa1293bbdb9576fc7d00b9e6",
+      "git:hexsha": "655e59209dfaf07cfa1293bbdb9576fc7d00b9e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev582"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/280d444b34b82667b499bd48bd52291e70741bab",
+      "git:hexsha": "280d444b34b82667b499bd48bd52291e70741bab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev584"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1c90b970979d78310c39c9cd6c0865e9c193a0fd",
+      "git:hexsha": "1c90b970979d78310c39c9cd6c0865e9c193a0fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev587"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ea781c194f08d09bcacabd1969bee705dddb76eb",
+      "git:hexsha": "ea781c194f08d09bcacabd1969bee705dddb76eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev59"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/083b3036c243b8d53289028a5a4cd46a6b069947",
+      "git:hexsha": "083b3036c243b8d53289028a5a4cd46a6b069947",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev593"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/274abc11aeadf4edce47fee5fe842afa92705d8b",
+      "git:hexsha": "274abc11aeadf4edce47fee5fe842afa92705d8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev595"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2fff2e91169b7d58531149ab4d5dffee3173e0c7",
+      "git:hexsha": "2fff2e91169b7d58531149ab4d5dffee3173e0c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev597"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c266336552384e67fe82a195e21a20907d9aae72",
+      "git:hexsha": "c266336552384e67fe82a195e21a20907d9aae72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev599"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0c6527159349efc0f4e89389dc7c515f74791e3e",
+      "git:hexsha": "0c6527159349efc0f4e89389dc7c515f74791e3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/95b1de21861af36fbbd34c67544dd3748fe90cfa",
+      "git:hexsha": "95b1de21861af36fbbd34c67544dd3748fe90cfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/421e0134a7eb44c9b010a65787a7d7985385ab38",
+      "git:hexsha": "421e0134a7eb44c9b010a65787a7d7985385ab38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev601"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d35d35e46567f620386b9080b4cbcf95da0946e9",
+      "git:hexsha": "d35d35e46567f620386b9080b4cbcf95da0946e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev603"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cb2b703fac0e669aa9aec27a9c6b4456b7dceb5a",
+      "git:hexsha": "cb2b703fac0e669aa9aec27a9c6b4456b7dceb5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev609"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/864ee25af241478d493c43dc320232b1cb1bef5d",
+      "git:hexsha": "864ee25af241478d493c43dc320232b1cb1bef5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev61"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/14a14ccbff3c5c49449ec5cbd2daff505dab5ee3",
+      "git:hexsha": "14a14ccbff3c5c49449ec5cbd2daff505dab5ee3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev611"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ac02173bab4c0f81909e464dd14154f887bbedf8",
+      "git:hexsha": "ac02173bab4c0f81909e464dd14154f887bbedf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev613"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f26efa719efea8bd8c394b041347ab8f1757f02a",
+      "git:hexsha": "f26efa719efea8bd8c394b041347ab8f1757f02a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev615"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bb2d69c56e84d9a2524513b08a672c786b36ac0e",
+      "git:hexsha": "bb2d69c56e84d9a2524513b08a672c786b36ac0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev617"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7e938666e6c74122074eeab68ab4b98947f1cf94",
+      "git:hexsha": "7e938666e6c74122074eeab68ab4b98947f1cf94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev62"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d4991c924bcc91bad74e9e0cba236c9cebbbef4e",
+      "git:hexsha": "d4991c924bcc91bad74e9e0cba236c9cebbbef4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev621"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fc812b416afbf16b5789c46b1b73eed765157774",
+      "git:hexsha": "fc812b416afbf16b5789c46b1b73eed765157774",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev623"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e8aa568cfd0571292435c1ce78a103e17a6fa32c",
+      "git:hexsha": "e8aa568cfd0571292435c1ce78a103e17a6fa32c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev625"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e2f9d4875b7edeb2d78d487c3f515a73335455f1",
+      "git:hexsha": "e2f9d4875b7edeb2d78d487c3f515a73335455f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev627"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e00e89bae9b2ed31b6a35df5a976aaf774349883",
+      "git:hexsha": "e00e89bae9b2ed31b6a35df5a976aaf774349883",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev629"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a6b8db72d3bcb2f6b11c4b8153ea4a70e1cdb903",
+      "git:hexsha": "a6b8db72d3bcb2f6b11c4b8153ea4a70e1cdb903",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev63"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b669f2a97d4d0cd25b544d3e378e482b0b741e2e",
+      "git:hexsha": "b669f2a97d4d0cd25b544d3e378e482b0b741e2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev631"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/66cf5c856cc5118f4e21272add8989e5f17af318",
+      "git:hexsha": "66cf5c856cc5118f4e21272add8989e5f17af318",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev633"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7418f529d50444965a0d0ca1ef9f83ceed1e9498",
+      "git:hexsha": "7418f529d50444965a0d0ca1ef9f83ceed1e9498",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev636"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7403d8ed54c3a19a8accba3671598e8079d5b800",
+      "git:hexsha": "7403d8ed54c3a19a8accba3671598e8079d5b800",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev638"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d74cd70ab7efd52de93efc8531129f1a8cea35c5",
+      "git:hexsha": "d74cd70ab7efd52de93efc8531129f1a8cea35c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev64"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fa528991a4218dcb64877a507756e5b25b79193c",
+      "git:hexsha": "fa528991a4218dcb64877a507756e5b25b79193c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev641"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1e1597e8466f05db02a398bc1a82890ba054c7b5",
+      "git:hexsha": "1e1597e8466f05db02a398bc1a82890ba054c7b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev643"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f9f9d1fdf7a7e31930da060e7ac20f4315163d09",
+      "git:hexsha": "f9f9d1fdf7a7e31930da060e7ac20f4315163d09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev645"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/655b251f6ceef84ef410ce318f8a6f217b81226b",
+      "git:hexsha": "655b251f6ceef84ef410ce318f8a6f217b81226b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev647"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5a8c5b7c5d1793d4d6a55cafcb390b94fba35ac1",
+      "git:hexsha": "5a8c5b7c5d1793d4d6a55cafcb390b94fba35ac1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev649"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5ce93a2a4eef79b0cfb4bb89236d7925b89e3fef",
+      "git:hexsha": "5ce93a2a4eef79b0cfb4bb89236d7925b89e3fef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d2f7e017f6d8e3b26484bc19321ed602480ca235",
+      "git:hexsha": "d2f7e017f6d8e3b26484bc19321ed602480ca235",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev651"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3b2eb31fb5475d6c6e7e771771fec191b666cc27",
+      "git:hexsha": "3b2eb31fb5475d6c6e7e771771fec191b666cc27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev653"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/202982f76db8658e43ba4ac5d415879d4f0fdd9a",
+      "git:hexsha": "202982f76db8658e43ba4ac5d415879d4f0fdd9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev655"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a5db095869dee48867a6899a0703caba61e54934",
+      "git:hexsha": "a5db095869dee48867a6899a0703caba61e54934",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev657"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bceb8cb786ae8d42fa8fcba66ad15576fc6f8795",
+      "git:hexsha": "bceb8cb786ae8d42fa8fcba66ad15576fc6f8795",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev659"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9a23f1d014e804c20d369b1a12dbf9de315ef301",
+      "git:hexsha": "9a23f1d014e804c20d369b1a12dbf9de315ef301",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev66"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3346862582b236492ce048c709ce389b61ef47e5",
+      "git:hexsha": "3346862582b236492ce048c709ce389b61ef47e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev661"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bee017fb77acce27a5f83dba5002a959496b37d5",
+      "git:hexsha": "bee017fb77acce27a5f83dba5002a959496b37d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev663"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3e2cfdd63fffc47e03c95d90309ee9b0b46d7bbc",
+      "git:hexsha": "3e2cfdd63fffc47e03c95d90309ee9b0b46d7bbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev665"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/84ddfee2a373e1dcf9d4700f0a5ab2f8ec87a496",
+      "git:hexsha": "84ddfee2a373e1dcf9d4700f0a5ab2f8ec87a496",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev667"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/28f4fce16e5a3a3f959877aa11dd87ca4e684af8",
+      "git:hexsha": "28f4fce16e5a3a3f959877aa11dd87ca4e684af8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev669"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1b7f8dc453c9d8615986dccf81b6829f6f5a9488",
+      "git:hexsha": "1b7f8dc453c9d8615986dccf81b6829f6f5a9488",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev67"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c057d62ae06f3684683a0a465427fa0350abd17c",
+      "git:hexsha": "c057d62ae06f3684683a0a465427fa0350abd17c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev671"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/55155cd0deb0776c46ee9d6fb647b810c1b63708",
+      "git:hexsha": "55155cd0deb0776c46ee9d6fb647b810c1b63708",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev675"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f5c14e1495b824bcc9704d5feefcfd19b03986bb",
+      "git:hexsha": "f5c14e1495b824bcc9704d5feefcfd19b03986bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev677"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6317a845f7ffb402a08499d9633aa8519b2dc964",
+      "git:hexsha": "6317a845f7ffb402a08499d9633aa8519b2dc964",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev679"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fa6a934361b05c937e44d346d4bdb7f69947f6f4",
+      "git:hexsha": "fa6a934361b05c937e44d346d4bdb7f69947f6f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev68"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cca6e6a3500401d8e5d82c73650ba7a458773781",
+      "git:hexsha": "cca6e6a3500401d8e5d82c73650ba7a458773781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev681"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9e0c39f25dd3b35f87f6fd9f93b9e794ad8e4017",
+      "git:hexsha": "9e0c39f25dd3b35f87f6fd9f93b9e794ad8e4017",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev683"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a7e8af0778d9cf2caab3e03eb928b3263da3f794",
+      "git:hexsha": "a7e8af0778d9cf2caab3e03eb928b3263da3f794",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev685"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dab4766724b0acfaf2fa6327ffdfcc730f073900",
+      "git:hexsha": "dab4766724b0acfaf2fa6327ffdfcc730f073900",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev687"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5be9d15bd38a2960790ff4323546b59ca80c6527",
+      "git:hexsha": "5be9d15bd38a2960790ff4323546b59ca80c6527",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/00e592c6f65bf04f50663c7923e66e1e70408bcf",
+      "git:hexsha": "00e592c6f65bf04f50663c7923e66e1e70408bcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b4874cc2a4d5159ff8a901253ef1a46432143c2e",
+      "git:hexsha": "b4874cc2a4d5159ff8a901253ef1a46432143c2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev70"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ee88c49bbf3851dc67715bbdf26748780942fe3f",
+      "git:hexsha": "ee88c49bbf3851dc67715bbdf26748780942fe3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev702"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d0c0603cb65b035372bc9590241bbc3fdd994441",
+      "git:hexsha": "d0c0603cb65b035372bc9590241bbc3fdd994441",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/20abada465c9d7e254c1c85f6f81692647b99052",
+      "git:hexsha": "20abada465c9d7e254c1c85f6f81692647b99052",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c5b1378aea463ef9922bd11d1778bb5ca7ed5114",
+      "git:hexsha": "c5b1378aea463ef9922bd11d1778bb5ca7ed5114",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8b9d456bcc51520bb67c82fd7a345d1cf4845d97",
+      "git:hexsha": "8b9d456bcc51520bb67c82fd7a345d1cf4845d97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev71"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ae5f7b63f16f7529e34dacb7cabc022ece1deab4",
+      "git:hexsha": "ae5f7b63f16f7529e34dacb7cabc022ece1deab4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev712"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/41724657ce4932f66089cf35d31aca4c95b854d1",
+      "git:hexsha": "41724657ce4932f66089cf35d31aca4c95b854d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ed043e825409c27ffadb3002dd4102c42c6480f5",
+      "git:hexsha": "ed043e825409c27ffadb3002dd4102c42c6480f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev716"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2109c90d7323a342ce341388ec63aed0fd4aadd7",
+      "git:hexsha": "2109c90d7323a342ce341388ec63aed0fd4aadd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev718"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6738b9e2c1a73f610cfd44996dd51c9ca0ed29fb",
+      "git:hexsha": "6738b9e2c1a73f610cfd44996dd51c9ca0ed29fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d0acd10f8963e0e68f1017c0e7944a3f70483c49",
+      "git:hexsha": "d0acd10f8963e0e68f1017c0e7944a3f70483c49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev72"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/42ccc2979b21d559623f46c06cebb7211dafeee1",
+      "git:hexsha": "42ccc2979b21d559623f46c06cebb7211dafeee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dbb74f2c81d7dac7d5f7004f8b6c2aeb0d361a3d",
+      "git:hexsha": "dbb74f2c81d7dac7d5f7004f8b6c2aeb0d361a3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b653820b87c88b0caa434df4d208576afe6681de",
+      "git:hexsha": "b653820b87c88b0caa434df4d208576afe6681de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev729"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7d7b8ab655aafb0e8bdc8a896eaa1e5efe7b874a",
+      "git:hexsha": "7d7b8ab655aafb0e8bdc8a896eaa1e5efe7b874a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev73"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9d24d6b677f97cffb2023c786cfbbd2559bab4f3",
+      "git:hexsha": "9d24d6b677f97cffb2023c786cfbbd2559bab4f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev731"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2a6e3af7f88b6d8515f75ee47965775af5d7eee4",
+      "git:hexsha": "2a6e3af7f88b6d8515f75ee47965775af5d7eee4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev733"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/918baa37caa6fbda97b4ba6fcd0404b4aed5bce9",
+      "git:hexsha": "918baa37caa6fbda97b4ba6fcd0404b4aed5bce9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.33.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/15e960b28f9702546aeafd8d0a1c881b8a2b3f09",
+      "git:hexsha": "15e960b28f9702546aeafd8d0a1c881b8a2b3f09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev738"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d98888bb0bfd3fb989e83a5d2ec18b6414416969",
+      "git:hexsha": "d98888bb0bfd3fb989e83a5d2ec18b6414416969",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/20ba9fde620227ef1dea029552100e39d06a856c",
+      "git:hexsha": "20ba9fde620227ef1dea029552100e39d06a856c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev74"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/928740ef75ae03308a7bbd44adf30bdd5c208a08",
+      "git:hexsha": "928740ef75ae03308a7bbd44adf30bdd5c208a08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/49a964e5af3351ccfff1d22afe3c00ad7b253368",
+      "git:hexsha": "49a964e5af3351ccfff1d22afe3c00ad7b253368",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3876a28720f0cb05cae0251060593b070e83b9dc",
+      "git:hexsha": "3876a28720f0cb05cae0251060593b070e83b9dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev746"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d5fdd6ab0c24b332931479d295fd97f78a922b21",
+      "git:hexsha": "d5fdd6ab0c24b332931479d295fd97f78a922b21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4a8b599ab1b7090a940f48a6b4f5499afce7226e",
+      "git:hexsha": "4a8b599ab1b7090a940f48a6b4f5499afce7226e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev75"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4aaa6bfe87f92b5629dc6052ac08a89729aa1d31",
+      "git:hexsha": "4aaa6bfe87f92b5629dc6052ac08a89729aa1d31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev753"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8ae1597563335c6003a4a9d4150bbcd19ba25c3d",
+      "git:hexsha": "8ae1597563335c6003a4a9d4150bbcd19ba25c3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev755"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bd8e605e480d48bff6c73f6198b5f2cfa77d5192",
+      "git:hexsha": "bd8e605e480d48bff6c73f6198b5f2cfa77d5192",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b01f121625808ee57eff84cf274896ce8ed4f5cf",
+      "git:hexsha": "b01f121625808ee57eff84cf274896ce8ed4f5cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev76"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/583f5b4a8161b4955b1101ca0f9d0bb826939582",
+      "git:hexsha": "583f5b4a8161b4955b1101ca0f9d0bb826939582",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/38e1d841cb0b0176c28574eca6332b7b5eb30b77",
+      "git:hexsha": "38e1d841cb0b0176c28574eca6332b7b5eb30b77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b7c9a7f448e97070c0d9e4c06836ae8ddbe7173d",
+      "git:hexsha": "b7c9a7f448e97070c0d9e4c06836ae8ddbe7173d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev773"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7ffe7b683f17b70ce5d4d486f893ee6e2305819b",
+      "git:hexsha": "7ffe7b683f17b70ce5d4d486f893ee6e2305819b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev775"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fe49b58bb8a4c938e5fc9e1bb5dcdcb5d91ea67e",
+      "git:hexsha": "fe49b58bb8a4c938e5fc9e1bb5dcdcb5d91ea67e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev78"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/40e678b948ddf5d8523c9f3e0359acda2acae6b6",
+      "git:hexsha": "40e678b948ddf5d8523c9f3e0359acda2acae6b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2edf223bc90a58f1b91e6d7fb85b2d1176292ae7",
+      "git:hexsha": "2edf223bc90a58f1b91e6d7fb85b2d1176292ae7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev79"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5fac79b65370929a798a0c50bc7c589fe4491f3b",
+      "git:hexsha": "5fac79b65370929a798a0c50bc7c589fe4491f3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3d1ef44d4d96d0a24450cad351a353a73f8cd1ae",
+      "git:hexsha": "3d1ef44d4d96d0a24450cad351a353a73f8cd1ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3011ca6497da94699895d15694ff6505d3818236",
+      "git:hexsha": "3011ca6497da94699895d15694ff6505d3818236",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev797"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d7df2531b00ee039bf46d4c4fe9931fef5a6cb00",
+      "git:hexsha": "d7df2531b00ee039bf46d4c4fe9931fef5a6cb00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev799"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/183871c6430c6c7d08e0ba7cbf91d85e36902af8",
+      "git:hexsha": "183871c6430c6c7d08e0ba7cbf91d85e36902af8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/29f04579443c4f7119029d7ee398046c64f6dc99",
+      "git:hexsha": "29f04579443c4f7119029d7ee398046c64f6dc99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev80"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5573dca025a1f8f46060501ab97eede4ca12eb6e",
+      "git:hexsha": "5573dca025a1f8f46060501ab97eede4ca12eb6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bd05c8b5f3fae3d261df62fc1e028b0f45ffab2f",
+      "git:hexsha": "bd05c8b5f3fae3d261df62fc1e028b0f45ffab2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f0f5e4857627891565b5de282b9b599adb48a4de",
+      "git:hexsha": "f0f5e4857627891565b5de282b9b599adb48a4de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4a9810ca627f2bf24d2a2c2d9641285edeffe45c",
+      "git:hexsha": "4a9810ca627f2bf24d2a2c2d9641285edeffe45c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e5f6b3fc24a59a652e7aef61cf4e275a73537df4",
+      "git:hexsha": "e5f6b3fc24a59a652e7aef61cf4e275a73537df4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev815"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1646fc62aab82cf5243a097917677e6edfcc3014",
+      "git:hexsha": "1646fc62aab82cf5243a097917677e6edfcc3014",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev82"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/75f9f61452b69f7e7538a3de377e1debb10b14ed",
+      "git:hexsha": "75f9f61452b69f7e7538a3de377e1debb10b14ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev825"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b4e70ef12c821ebd9877f90de56ec71037215f70",
+      "git:hexsha": "b4e70ef12c821ebd9877f90de56ec71037215f70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.76.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2ca7c0c61c97ae075ed6cf0981e4a0ce88e9d044",
+      "git:hexsha": "2ca7c0c61c97ae075ed6cf0981e4a0ce88e9d044",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev84"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fcb18a59a6d8e44a7573bfa08e7e50143f26a19c",
+      "git:hexsha": "fcb18a59a6d8e44a7573bfa08e7e50143f26a19c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev843"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5129a1358a5dd447dca01d98b85859d328f1f0f2",
+      "git:hexsha": "5129a1358a5dd447dca01d98b85859d328f1f0f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev845"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/65f82aece597f1274d11695518ca99c455ff2982",
+      "git:hexsha": "65f82aece597f1274d11695518ca99c455ff2982",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev848"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4e94d23bc473b1d1234ffca78e694472b4fbbfa1",
+      "git:hexsha": "4e94d23bc473b1d1234ffca78e694472b4fbbfa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f0e27c6e77efd90931879d748d60e4ab529b90fd",
+      "git:hexsha": "f0e27c6e77efd90931879d748d60e4ab529b90fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.85.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e7222f551384efc1e32da294a1063e80d2551472",
+      "git:hexsha": "e7222f551384efc1e32da294a1063e80d2551472",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.87.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4d2b73529937eb7f4a0046a52d7c12c32c89fc8b",
+      "git:hexsha": "4d2b73529937eb7f4a0046a52d7c12c32c89fc8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev869"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/72cfd8e1ae6e60ac7d56fe34484bbb7d22371dc3",
+      "git:hexsha": "72cfd8e1ae6e60ac7d56fe34484bbb7d22371dc3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2ae9ac8e794145d0af230df680042bc66d6f3d94",
+      "git:hexsha": "2ae9ac8e794145d0af230df680042bc66d6f3d94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev88"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a8068df1f19075c0437095970852abc030c14978",
+      "git:hexsha": "a8068df1f19075c0437095970852abc030c14978",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev89"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/034373caca6ea81a2c3d6ea535d0743eafaaa922",
+      "git:hexsha": "034373caca6ea81a2c3d6ea535d0743eafaaa922",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.101.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ed74339bc29e9259fdae2e564c348a38a85fcb10",
+      "git:hexsha": "ed74339bc29e9259fdae2e564c348a38a85fcb10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.104.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b7822d93f8d5d0d94ca3da36ea9f5b13f3e58d43",
+      "git:hexsha": "b7822d93f8d5d0d94ca3da36ea9f5b13f3e58d43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev896"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9bfb8f4bbfa6a110d9428900c1b5db1ac25b1637",
+      "git:hexsha": "9bfb8f4bbfa6a110d9428900c1b5db1ac25b1637",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.105.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/50f8ced68e1d59facefeece47f7e4f2566531393",
+      "git:hexsha": "50f8ced68e1d59facefeece47f7e4f2566531393",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.106.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/01b82ef4d1267e9dce45a24ac04e2737f1873b9e",
+      "git:hexsha": "01b82ef4d1267e9dce45a24ac04e2737f1873b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/73cf8f7bb108cb2bec3352244cfbc332efcd2f1b",
+      "git:hexsha": "73cf8f7bb108cb2bec3352244cfbc332efcd2f1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev90"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/43f1ebdf5d7db159055dfbabd648446479fc4214",
+      "git:hexsha": "43f1ebdf5d7db159055dfbabd648446479fc4214",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.111.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4c346bc6601abaf9f866c0d3b4da84acc8277ffa",
+      "git:hexsha": "4c346bc6601abaf9f866c0d3b4da84acc8277ffa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev904"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e1bda4622cc8770309244fb448ee6767583540e9",
+      "git:hexsha": "e1bda4622cc8770309244fb448ee6767583540e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.120.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9dedb77f20c390656ccc7c12271015fef2f7b68f",
+      "git:hexsha": "9dedb77f20c390656ccc7c12271015fef2f7b68f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev908"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3e447141b10996b3750617f6390ac5428125bc2d",
+      "git:hexsha": "3e447141b10996b3750617f6390ac5428125bc2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.122.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6af9ec2eca683882df28029cf53570ff44e627bb",
+      "git:hexsha": "6af9ec2eca683882df28029cf53570ff44e627bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev91"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9595e8aa5a752ac990c1167855fa2cc05fbd530e",
+      "git:hexsha": "9595e8aa5a752ac990c1167855fa2cc05fbd530e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.123.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/98ab730217dd4cd2f1df452340ae2d4ebff2d9af",
+      "git:hexsha": "98ab730217dd4cd2f1df452340ae2d4ebff2d9af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev914"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/03acb1b2772bf8f840ab73d4566f94f493708ef6",
+      "git:hexsha": "03acb1b2772bf8f840ab73d4566f94f493708ef6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.129.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/da6813225017147d4de0336d2e531691b0d3d8db",
+      "git:hexsha": "da6813225017147d4de0336d2e531691b0d3d8db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev918"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/59f9b594cbd13051844942275e837142233858d2",
+      "git:hexsha": "59f9b594cbd13051844942275e837142233858d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev921"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0affc1168d4b7d8d5e714355c605f80ce70c105f",
+      "git:hexsha": "0affc1168d4b7d8d5e714355c605f80ce70c105f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2c0a22366b115173140acf39c16ef28a593cecaa",
+      "git:hexsha": "2c0a22366b115173140acf39c16ef28a593cecaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.135.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/211a992faecc70cfff03b23a94caf014cb35033e",
+      "git:hexsha": "211a992faecc70cfff03b23a94caf014cb35033e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev925"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a57a0495786be9eee4a303ad03fa7eec1b397789",
+      "git:hexsha": "a57a0495786be9eee4a303ad03fa7eec1b397789",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.139.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/184b581408b99dc8b9e14f97522e2cdeab0999e6",
+      "git:hexsha": "184b581408b99dc8b9e14f97522e2cdeab0999e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.144.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2a12be3c451b1cf89bde2b91c97d3527bf546fd6",
+      "git:hexsha": "2a12be3c451b1cf89bde2b91c97d3527bf546fd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.152.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3537998cf692912c03f8a84efa72a0194e2a6871",
+      "git:hexsha": "3537998cf692912c03f8a84efa72a0194e2a6871",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev933"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/88203ad37ddd76c4404ab583b8733ce506a04a95",
+      "git:hexsha": "88203ad37ddd76c4404ab583b8733ce506a04a95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev935"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f859677ecfefdf7e8962f4a9a417ca0f3e2c98fa",
+      "git:hexsha": "f859677ecfefdf7e8962f4a9a417ca0f3e2c98fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev937"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7c8f99de8b9d7f48d06f29c33a46536a6c41ef78",
+      "git:hexsha": "7c8f99de8b9d7f48d06f29c33a46536a6c41ef78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev939"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/703203c900031f76f26aaaf864e615c7babf2ed0",
+      "git:hexsha": "703203c900031f76f26aaaf864e615c7babf2ed0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.171.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0aab864652493858d6321af46d7b70f809f7b674",
+      "git:hexsha": "0aab864652493858d6321af46d7b70f809f7b674",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.176.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/527b6efa0209adb443a7ff02fe2bf47bb7555257",
+      "git:hexsha": "527b6efa0209adb443a7ff02fe2bf47bb7555257",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev946"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e384b83ea3102876a679fc4e571a173bd215cae4",
+      "git:hexsha": "e384b83ea3102876a679fc4e571a173bd215cae4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev948"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7f056f1fb672f7b349447900798c3bd70fbb573b",
+      "git:hexsha": "7f056f1fb672f7b349447900798c3bd70fbb573b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.187.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fe277025ad8cd3bfbe51771cf823f91cd16c3f1c",
+      "git:hexsha": "fe277025ad8cd3bfbe51771cf823f91cd16c3f1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/01e26fb783071a918d3d1f2426b9e0dbc99c3c54",
+      "git:hexsha": "01e26fb783071a918d3d1f2426b9e0dbc99c3c54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.192.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ed9b18ff5ff5671fd40a0943081e462b398f0d00",
+      "git:hexsha": "ed9b18ff5ff5671fd40a0943081e462b398f0d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev954"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dec4b9602d8642310d0516e5cb3551e183e1418e",
+      "git:hexsha": "dec4b9602d8642310d0516e5cb3551e183e1418e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.197.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d22d97854207c040e9bf89c65d67faca649b8856",
+      "git:hexsha": "d22d97854207c040e9bf89c65d67faca649b8856",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.203.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bad965aa6e92526df2df939d3ef8b5bad5ce90b4",
+      "git:hexsha": "bad965aa6e92526df2df939d3ef8b5bad5ce90b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev960"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8bd7720a91f4b6b352dd2cdd9a9817340ba77370",
+      "git:hexsha": "8bd7720a91f4b6b352dd2cdd9a9817340ba77370",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f8c921d279ff4a58dc8930ca05f2e0e714e5a1a0",
+      "git:hexsha": "f8c921d279ff4a58dc8930ca05f2e0e714e5a1a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev962"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d7cf91e0e95c9a2550d28a12ba55565a67460256",
+      "git:hexsha": "d7cf91e0e95c9a2550d28a12ba55565a67460256",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.209.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d256f0f0e420dbbd8c960a9e8a029930e031d481",
+      "git:hexsha": "d256f0f0e420dbbd8c960a9e8a029930e031d481",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.214.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8b38c09b7169d6a0918046624d5a4e7b9d3343dd",
+      "git:hexsha": "8b38c09b7169d6a0918046624d5a4e7b9d3343dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev968"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3095062b609613fe4f5534c4512bd0e2397b971e",
+      "git:hexsha": "3095062b609613fe4f5534c4512bd0e2397b971e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.217.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1352ba1c6e1200dbaa33ef93ef19a2a1a9e0b9e5",
+      "git:hexsha": "1352ba1c6e1200dbaa33ef93ef19a2a1a9e0b9e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2d15b8e5d44afcf7d26883c3be17e9165e802324",
+      "git:hexsha": "2d15b8e5d44afcf7d26883c3be17e9165e802324",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev972"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/55e30229faa167e68e446f43b165e6a68e9e026c",
+      "git:hexsha": "55e30229faa167e68e446f43b165e6a68e9e026c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.236.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4f1485d00c4056e6c62cbd8ad199ee89831a1679",
+      "git:hexsha": "4f1485d00c4056e6c62cbd8ad199ee89831a1679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.239.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c749c69fad462bc546aeb0c9e26a8777937d7bef",
+      "git:hexsha": "c749c69fad462bc546aeb0c9e26a8777937d7bef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev98"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/932bdd46e508b32a08ad7aca585ebb991df83766",
+      "git:hexsha": "932bdd46e508b32a08ad7aca585ebb991df83766",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev99"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ee672b2cf438fd2d5325d4358a565a0a249263ab",
+      "git:hexsha": "ee672b2cf438fd2d5325d4358a565a0a249263ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/12d05fda71e7986a99cbde9e126b073e351a0801",
+      "git:hexsha": "12d05fda71e7986a99cbde9e126b073e351a0801",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d104aa92aefb233316de2fa4d969eada107673be",
+      "git:hexsha": "d104aa92aefb233316de2fa4d969eada107673be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.100.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c7a604ea1f6c492cc189e477c247d00ab28d7828",
+      "git:hexsha": "c7a604ea1f6c492cc189e477c247d00ab28d7828",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.102.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/214ec79847fa7b68252fa535618f6f3f57da90e1",
+      "git:hexsha": "214ec79847fa7b68252fa535618f6f3f57da90e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.103.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/883474f60fe26830ad90bb1fac45a98cee47d03d",
+      "git:hexsha": "883474f60fe26830ad90bb1fac45a98cee47d03d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.107.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/32c77f94f2bfce431b4695c76768b838400fbd93",
+      "git:hexsha": "32c77f94f2bfce431b4695c76768b838400fbd93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.108.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6ca7eb0bc22f744b569b91d99ffb9b151e1351c7",
+      "git:hexsha": "6ca7eb0bc22f744b569b91d99ffb9b151e1351c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.109.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6c3ec50ac5e0195e7218fabb690875ef5e54e4fc",
+      "git:hexsha": "6c3ec50ac5e0195e7218fabb690875ef5e54e4fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e8c3211bf0d412dae9d79a695209f55b61082223",
+      "git:hexsha": "e8c3211bf0d412dae9d79a695209f55b61082223",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.110.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1aa2e86cde680c1506a447a35f3f7075770b19a0",
+      "git:hexsha": "1aa2e86cde680c1506a447a35f3f7075770b19a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.112.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/75aad67af881c62be83c37ad77fdb9ca9ffc21b9",
+      "git:hexsha": "75aad67af881c62be83c37ad77fdb9ca9ffc21b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.113.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6e644a77d5c8a547d8ce35aba1cca082c0d01c61",
+      "git:hexsha": "6e644a77d5c8a547d8ce35aba1cca082c0d01c61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.114.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e89338de5e39f410fbae07adda1182050502efa6",
+      "git:hexsha": "e89338de5e39f410fbae07adda1182050502efa6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.115.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ee35399fe4fc2e5e2594a28c339ebd67c63184f4",
+      "git:hexsha": "ee35399fe4fc2e5e2594a28c339ebd67c63184f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.116.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/02072a5ad93ae389b884dd26de572f63c8c5944b",
+      "git:hexsha": "02072a5ad93ae389b884dd26de572f63c8c5944b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.117.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a3df85b6cdd99ebb57e789b6daca4db8f2db6cde",
+      "git:hexsha": "a3df85b6cdd99ebb57e789b6daca4db8f2db6cde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.118.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/09708a8ac8eab58beb4da138631a2a60cff7b8e1",
+      "git:hexsha": "09708a8ac8eab58beb4da138631a2a60cff7b8e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.119.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5ef6933d5e931d394b0a9d2e29a19a50f21f3f20",
+      "git:hexsha": "5ef6933d5e931d394b0a9d2e29a19a50f21f3f20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b1b67249e12fa80de7211a36a463ac8e454836b8",
+      "git:hexsha": "b1b67249e12fa80de7211a36a463ac8e454836b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.121.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d83a12a88d69efb643a7d9b3e16daf3c34a0cd09",
+      "git:hexsha": "d83a12a88d69efb643a7d9b3e16daf3c34a0cd09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.124.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9b2212727e45795f6002793f5265ca2382e95afd",
+      "git:hexsha": "9b2212727e45795f6002793f5265ca2382e95afd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.125.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/38793a1bf3fae9031eba2c7d78be11daffc62295",
+      "git:hexsha": "38793a1bf3fae9031eba2c7d78be11daffc62295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.126.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8bfee2dad25a5a517adba24cd8e354d32296fe0a",
+      "git:hexsha": "8bfee2dad25a5a517adba24cd8e354d32296fe0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.127.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/902b87d820f21edd6bb30a3b77099080ea6a23d9",
+      "git:hexsha": "902b87d820f21edd6bb30a3b77099080ea6a23d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.128.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c6e1c5aef73e3285675204db1a667a4e32e29c94",
+      "git:hexsha": "c6e1c5aef73e3285675204db1a667a4e32e29c94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/83c768a72516a17b80ab0b8a253ab6ab0dc8ea03",
+      "git:hexsha": "83c768a72516a17b80ab0b8a253ab6ab0dc8ea03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.130.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/10dbb841f76c3329e1bd6c7a9c288f3f36fe368b",
+      "git:hexsha": "10dbb841f76c3329e1bd6c7a9c288f3f36fe368b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.131.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2e4ae0835efcc215b0030431f78bcb7a88b18751",
+      "git:hexsha": "2e4ae0835efcc215b0030431f78bcb7a88b18751",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.132.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1fff676e9261968f9289db07de189dbb6e4b9128",
+      "git:hexsha": "1fff676e9261968f9289db07de189dbb6e4b9128",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.133.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b0c2a1b0642887a2d851843575a1119df4e49013",
+      "git:hexsha": "b0c2a1b0642887a2d851843575a1119df4e49013",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.134.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d416ff167a524aa4646da061b9bdd48b6986a6fd",
+      "git:hexsha": "d416ff167a524aa4646da061b9bdd48b6986a6fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.136.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ff4d6222896d09b6d816abe392562bfc9e191b01",
+      "git:hexsha": "ff4d6222896d09b6d816abe392562bfc9e191b01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.137.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/436851cf3b564fb47176e57a8c8567c791656d91",
+      "git:hexsha": "436851cf3b564fb47176e57a8c8567c791656d91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.138.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ca55fa091bae3e9a78df45d48ae44039efe8a9c5",
+      "git:hexsha": "ca55fa091bae3e9a78df45d48ae44039efe8a9c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3f1cd0a2760a0d368ce5dd61538a2ad21cf777ff",
+      "git:hexsha": "3f1cd0a2760a0d368ce5dd61538a2ad21cf777ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.140.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dc260980ec9387c04782b6b06c5956caf326f7ee",
+      "git:hexsha": "dc260980ec9387c04782b6b06c5956caf326f7ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.141.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/422e5246b66b02cc91c93bddd46091d45a84648a",
+      "git:hexsha": "422e5246b66b02cc91c93bddd46091d45a84648a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.142.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c2c8e22c40a6d20b0f1d9ac710201218bc253299",
+      "git:hexsha": "c2c8e22c40a6d20b0f1d9ac710201218bc253299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.143.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b2eaf37b2ec834211c5d850ab67ae2e06f24333c",
+      "git:hexsha": "b2eaf37b2ec834211c5d850ab67ae2e06f24333c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.145.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6f9d8961bf0681b9d658fce110903b9c4721437a",
+      "git:hexsha": "6f9d8961bf0681b9d658fce110903b9c4721437a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.146.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4f17d784c8d06f4d234b5245bf19de29fcbcfda3",
+      "git:hexsha": "4f17d784c8d06f4d234b5245bf19de29fcbcfda3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.147.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/89e140312d73f62a293592dbc485e0e7217ef406",
+      "git:hexsha": "89e140312d73f62a293592dbc485e0e7217ef406",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.148.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e009ffb62692edd7af8b6892193ebbcfbc491076",
+      "git:hexsha": "e009ffb62692edd7af8b6892193ebbcfbc491076",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.149.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2d2b4efa5e61de10d919bd0125ed239a8fd230ca",
+      "git:hexsha": "2d2b4efa5e61de10d919bd0125ed239a8fd230ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.150.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fe3b1e5a60233a0da18f4bc36ad349ed3eb3e7d9",
+      "git:hexsha": "fe3b1e5a60233a0da18f4bc36ad349ed3eb3e7d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.151.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b21e757df6e0b88a325f950852d8b8d204e6688f",
+      "git:hexsha": "b21e757df6e0b88a325f950852d8b8d204e6688f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.153.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2b6eb345a99a2f02e0a95af8ea42caac01f512fb",
+      "git:hexsha": "2b6eb345a99a2f02e0a95af8ea42caac01f512fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.154.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/736fd28eaa041035bcd5848b1bc2d440ed25a26c",
+      "git:hexsha": "736fd28eaa041035bcd5848b1bc2d440ed25a26c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.155.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/44c1733160d2a241440863e719481ceee8f4db29",
+      "git:hexsha": "44c1733160d2a241440863e719481ceee8f4db29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.156.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b1291eb106037a9e26856ca6cb16bda0200e7de9",
+      "git:hexsha": "b1291eb106037a9e26856ca6cb16bda0200e7de9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.157.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/89e8bf3e96bfc9cae0886397e4f873e35683d0a6",
+      "git:hexsha": "89e8bf3e96bfc9cae0886397e4f873e35683d0a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.158.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/750a34299dc64892d9cbc17aa203859fda659495",
+      "git:hexsha": "750a34299dc64892d9cbc17aa203859fda659495",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.159.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e6ab9dd2d9122462261bbd5098452afe0f6f23ce",
+      "git:hexsha": "e6ab9dd2d9122462261bbd5098452afe0f6f23ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/87a21a198b4a1f26cc37983d6fd704239e77cca3",
+      "git:hexsha": "87a21a198b4a1f26cc37983d6fd704239e77cca3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.160.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/74f3e5d87f89a6b5ed1201a39904b07125e15805",
+      "git:hexsha": "74f3e5d87f89a6b5ed1201a39904b07125e15805",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.161.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0812fc5dbc494e603fedb449304c6e8620402603",
+      "git:hexsha": "0812fc5dbc494e603fedb449304c6e8620402603",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.162.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fcb21cae0df990c09308ce275172899f83056335",
+      "git:hexsha": "fcb21cae0df990c09308ce275172899f83056335",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.163.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4477917b2478dd38bc1ca2ac9a5d0c907f9c4ac8",
+      "git:hexsha": "4477917b2478dd38bc1ca2ac9a5d0c907f9c4ac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.164.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4cc883a0dedb12e634369558d711f50afd1e4105",
+      "git:hexsha": "4cc883a0dedb12e634369558d711f50afd1e4105",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.165.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b073c7cf63886aa93807a69c922dc5680a544643",
+      "git:hexsha": "b073c7cf63886aa93807a69c922dc5680a544643",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.166.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/956d6d5e8aff4dc09ae19d542facc778a0925e12",
+      "git:hexsha": "956d6d5e8aff4dc09ae19d542facc778a0925e12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.167.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7e9992d649cdf8855b134bc290de3945cc533cb5",
+      "git:hexsha": "7e9992d649cdf8855b134bc290de3945cc533cb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.168.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ff0bc3f93b60a868e8f8fecf91b6e353acbcba96",
+      "git:hexsha": "ff0bc3f93b60a868e8f8fecf91b6e353acbcba96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.169.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8d51bc2b872d88e85da44286b7fce74fee30474f",
+      "git:hexsha": "8d51bc2b872d88e85da44286b7fce74fee30474f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9bc1fb9b63ec48db923908e2bbcda3e44863e28f",
+      "git:hexsha": "9bc1fb9b63ec48db923908e2bbcda3e44863e28f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.170.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9f8d47f694e28dada5ffdd3ca3bdf5f84c34ab39",
+      "git:hexsha": "9f8d47f694e28dada5ffdd3ca3bdf5f84c34ab39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.172.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b655868151d68ff5142734169284a07cd2c04dc6",
+      "git:hexsha": "b655868151d68ff5142734169284a07cd2c04dc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.173.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2e9e24c39bbd054de1fdd19cb3c63a40651e77ed",
+      "git:hexsha": "2e9e24c39bbd054de1fdd19cb3c63a40651e77ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.174.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/58a9b8eb7bd2021776c37082f4008fe504c01bf3",
+      "git:hexsha": "58a9b8eb7bd2021776c37082f4008fe504c01bf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.175.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c0b5bd766f645bb9f349309feaf471eace4ccd6e",
+      "git:hexsha": "c0b5bd766f645bb9f349309feaf471eace4ccd6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.177.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3713f484a1294ac591039ac2ca81d36b5a3a6b15",
+      "git:hexsha": "3713f484a1294ac591039ac2ca81d36b5a3a6b15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.178.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b470143d91af8abb6bc162182a6b5a0d238b1461",
+      "git:hexsha": "b470143d91af8abb6bc162182a6b5a0d238b1461",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.179.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/136087e265b1b7fd96c64d900cd10171908dcf14",
+      "git:hexsha": "136087e265b1b7fd96c64d900cd10171908dcf14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f79f874d2411fb806bcf3b5131c6fe0a062c6215",
+      "git:hexsha": "f79f874d2411fb806bcf3b5131c6fe0a062c6215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.180.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/72cd5eef1802ea34587eb277ca168b60b5c5b0fa",
+      "git:hexsha": "72cd5eef1802ea34587eb277ca168b60b5c5b0fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.181.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4b66bc419109ac6f568ebff24fd4dc09856c817f",
+      "git:hexsha": "4b66bc419109ac6f568ebff24fd4dc09856c817f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.182.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/aa8757157131c48caab921a9ab44debe603a3e2a",
+      "git:hexsha": "aa8757157131c48caab921a9ab44debe603a3e2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.183.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6a294cc8d9fb210eaf6387f07fd586a801977902",
+      "git:hexsha": "6a294cc8d9fb210eaf6387f07fd586a801977902",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.184.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a46cd90af90a70c55d1b40abc57ce9381c1ef198",
+      "git:hexsha": "a46cd90af90a70c55d1b40abc57ce9381c1ef198",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.185.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/f89885eb982b267fe17346cc29c94fb2f9feb06b",
+      "git:hexsha": "f89885eb982b267fe17346cc29c94fb2f9feb06b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.186.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0aa5fdcd685928553890a5907144b07516019681",
+      "git:hexsha": "0aa5fdcd685928553890a5907144b07516019681",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.188.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d76d1db492e7222afd997f500f3edc3a28153901",
+      "git:hexsha": "d76d1db492e7222afd997f500f3edc3a28153901",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.189.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1510f21c9937dc56002221b402f8de11ba13e3b1",
+      "git:hexsha": "1510f21c9937dc56002221b402f8de11ba13e3b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/93d33ce70386ffd2636872e3ed2bd0b52585d211",
+      "git:hexsha": "93d33ce70386ffd2636872e3ed2bd0b52585d211",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.190.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/73d901e7e9275c5f4fd9c92a8e55966a19ab64d0",
+      "git:hexsha": "73d901e7e9275c5f4fd9c92a8e55966a19ab64d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.191.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/8fdf502b1b2326dd2f1f52cf38d675b6d98e32e2",
+      "git:hexsha": "8fdf502b1b2326dd2f1f52cf38d675b6d98e32e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.193.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bf87d46e043acdbfc01120c76556a35f3892d929",
+      "git:hexsha": "bf87d46e043acdbfc01120c76556a35f3892d929",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.194.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7554e7701dc4537b160c3e2e1da66a97fbebb03c",
+      "git:hexsha": "7554e7701dc4537b160c3e2e1da66a97fbebb03c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.195.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c3e774d44ebb46bc4fafa71828ec1ea4b39f9df5",
+      "git:hexsha": "c3e774d44ebb46bc4fafa71828ec1ea4b39f9df5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.196.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3d32aa53564c8ca9b9ddd7e1c340c2cd58814b12",
+      "git:hexsha": "3d32aa53564c8ca9b9ddd7e1c340c2cd58814b12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.198.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2af0dff825549456b8cbb933b5bd6e95965ca61a",
+      "git:hexsha": "2af0dff825549456b8cbb933b5bd6e95965ca61a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.199.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9273964910905cbd4ef2af185262a7fc632cc11c",
+      "git:hexsha": "9273964910905cbd4ef2af185262a7fc632cc11c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4459df6c4a8e094a209b68c612d9c38bb214f99d",
+      "git:hexsha": "4459df6c4a8e094a209b68c612d9c38bb214f99d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/402a72f29e6bc35f0a60ff4300d3ce6bc59e3255",
+      "git:hexsha": "402a72f29e6bc35f0a60ff4300d3ce6bc59e3255",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.200.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/78da7bbad6c7a697e08e7a7a7a1d849a99cf2611",
+      "git:hexsha": "78da7bbad6c7a697e08e7a7a7a1d849a99cf2611",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.201.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/281e554b9e5a2719a210367629f61ea14d7ac549",
+      "git:hexsha": "281e554b9e5a2719a210367629f61ea14d7ac549",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.202.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b9301d9ab9e84225dbe324f3e87aed1c8161bc88",
+      "git:hexsha": "b9301d9ab9e84225dbe324f3e87aed1c8161bc88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.204.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c08bfdb641b62af5fd7d980969cfbee5543ae354",
+      "git:hexsha": "c08bfdb641b62af5fd7d980969cfbee5543ae354",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.205.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ee303eab03dd18e1ecad836b56e576b8e7521220",
+      "git:hexsha": "ee303eab03dd18e1ecad836b56e576b8e7521220",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.206.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1f23c42e82a88d995c2af734e6e99ee1acb7b525",
+      "git:hexsha": "1f23c42e82a88d995c2af734e6e99ee1acb7b525",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.207.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/82590ffc3c681542dc79d9245542cb9e8089e1f5",
+      "git:hexsha": "82590ffc3c681542dc79d9245542cb9e8089e1f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.208.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e9013362edb64d2face431ed1ce53d0bb3b164fd",
+      "git:hexsha": "e9013362edb64d2face431ed1ce53d0bb3b164fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/381cb965f711d7d9060713b202b82abacaf1aa52",
+      "git:hexsha": "381cb965f711d7d9060713b202b82abacaf1aa52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.210.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/50867288c4c089403cd42095dec52826e179026c",
+      "git:hexsha": "50867288c4c089403cd42095dec52826e179026c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.211.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/701871fa5382331dcc70e0918ace339ff873f9a4",
+      "git:hexsha": "701871fa5382331dcc70e0918ace339ff873f9a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.212.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2f3dc4628054b26d74236a9fb924b67e11b033f4",
+      "git:hexsha": "2f3dc4628054b26d74236a9fb924b67e11b033f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.213.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7f9cbdb4a21754b4b75b786cfee0b439909bff0e",
+      "git:hexsha": "7f9cbdb4a21754b4b75b786cfee0b439909bff0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.215.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e9a6d44f98340285d7f003ea68acf47a1319041c",
+      "git:hexsha": "e9a6d44f98340285d7f003ea68acf47a1319041c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.216.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2248f37db0f6d3bcb97904fd4ab34fa5dd0c4ff8",
+      "git:hexsha": "2248f37db0f6d3bcb97904fd4ab34fa5dd0c4ff8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.218.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0992c3cecefebd9795badb2819294474d3be6fa3",
+      "git:hexsha": "0992c3cecefebd9795badb2819294474d3be6fa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.219.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/614e68efd95c061083f19dc9ab6bf52a58e33158",
+      "git:hexsha": "614e68efd95c061083f19dc9ab6bf52a58e33158",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.220.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d2851c48f032d75774350fdac23b3fa02e02e3cf",
+      "git:hexsha": "d2851c48f032d75774350fdac23b3fa02e02e3cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.221.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e6a8b55444c992fda57429d252bbab2a9fe8bd2c",
+      "git:hexsha": "e6a8b55444c992fda57429d252bbab2a9fe8bd2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.222.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bbf3e30d5999ff84fd682c53f097a74f025fc0b8",
+      "git:hexsha": "bbf3e30d5999ff84fd682c53f097a74f025fc0b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.223.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a8b2b6e63da878c83c128a9bac097fb916ebc469",
+      "git:hexsha": "a8b2b6e63da878c83c128a9bac097fb916ebc469",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.224.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0d3b7ec161d9313df14d9290283cf6ae2174bfad",
+      "git:hexsha": "0d3b7ec161d9313df14d9290283cf6ae2174bfad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.225.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/016ad46e902c15db5b27370298d106971c256af6",
+      "git:hexsha": "016ad46e902c15db5b27370298d106971c256af6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.226.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/992c3d1be6f3624b4e3513352ee7bad27f50e239",
+      "git:hexsha": "992c3d1be6f3624b4e3513352ee7bad27f50e239",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.227.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d48aa7b292d266d6bf609fd57717ea26b10e1c66",
+      "git:hexsha": "d48aa7b292d266d6bf609fd57717ea26b10e1c66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.228.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c4f378ddaa87c9dc5817fa5ed5294ca4ffc9b787",
+      "git:hexsha": "c4f378ddaa87c9dc5817fa5ed5294ca4ffc9b787",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.229.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/877f81404d97a530324e01b4abe9d6d5e7f74023",
+      "git:hexsha": "877f81404d97a530324e01b4abe9d6d5e7f74023",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7c42139d64ebcd0195a5dd0d49df2c2c4a053a05",
+      "git:hexsha": "7c42139d64ebcd0195a5dd0d49df2c2c4a053a05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.230.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3a237ab81845b4069d6f02ccd4b2259dd2f61529",
+      "git:hexsha": "3a237ab81845b4069d6f02ccd4b2259dd2f61529",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.231.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d8394830391d7a5fa7d248ab8b86bc82c99e4ffd",
+      "git:hexsha": "d8394830391d7a5fa7d248ab8b86bc82c99e4ffd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.232.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/704e6daa1a73425faf57c32ceef8c27920cce42c",
+      "git:hexsha": "704e6daa1a73425faf57c32ceef8c27920cce42c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.233.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/336ea005eebc0cec3e8ad7f527209e0e0ff3f7df",
+      "git:hexsha": "336ea005eebc0cec3e8ad7f527209e0e0ff3f7df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.234.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/834d7a4e0c3f53b0f170acc3e7ab721699588853",
+      "git:hexsha": "834d7a4e0c3f53b0f170acc3e7ab721699588853",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.235.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d23512eb429a223bd9f0037c07eadea25193e83c",
+      "git:hexsha": "d23512eb429a223bd9f0037c07eadea25193e83c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.237.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9c48279c5153cd15047f30cf805e605e3de1daee",
+      "git:hexsha": "9c48279c5153cd15047f30cf805e605e3de1daee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.238.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3cb362f9edb32d79c9646e1a9f3a4a983bb9028d",
+      "git:hexsha": "3cb362f9edb32d79c9646e1a9f3a4a983bb9028d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3c9695007aae7fc7cc6ce30d89be80220dcf5751",
+      "git:hexsha": "3c9695007aae7fc7cc6ce30d89be80220dcf5751",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2f3a09eaf2c0dbaded08a81903f4924eb2993f14",
+      "git:hexsha": "2f3a09eaf2c0dbaded08a81903f4924eb2993f14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7221e363275f04be38c9e26900965e6a17c8e3c0",
+      "git:hexsha": "7221e363275f04be38c9e26900965e6a17c8e3c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4ee374b641fdce47fc963643e7235656481ceb84",
+      "git:hexsha": "4ee374b641fdce47fc963643e7235656481ceb84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a1f59dbb94dec16f0b9b68cff14de62d86a81410",
+      "git:hexsha": "a1f59dbb94dec16f0b9b68cff14de62d86a81410",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/818220cd49cc8878c23e4ab2e3ba8b17a9091973",
+      "git:hexsha": "818220cd49cc8878c23e4ab2e3ba8b17a9091973",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9033169f7c72d9ea9891905c80a676180cf3b66b",
+      "git:hexsha": "9033169f7c72d9ea9891905c80a676180cf3b66b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/7a6120b93ac20b7a023deb3648548cba69cc5eb4",
+      "git:hexsha": "7a6120b93ac20b7a023deb3648548cba69cc5eb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a6f5aad948cb45c0a191fac5ba085fc1348564f8",
+      "git:hexsha": "a6f5aad948cb45c0a191fac5ba085fc1348564f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9711af0cee95e064091a2a26b4790c77fbf2ed54",
+      "git:hexsha": "9711af0cee95e064091a2a26b4790c77fbf2ed54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5a49092cf9fc40e0db7992dce07e08f987052946",
+      "git:hexsha": "5a49092cf9fc40e0db7992dce07e08f987052946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cb40d38dfbf8d789ed8a968539298e79d07ac54f",
+      "git:hexsha": "cb40d38dfbf8d789ed8a968539298e79d07ac54f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/c19ca409172817ba9b326f179e1b2f570401aa1d",
+      "git:hexsha": "c19ca409172817ba9b326f179e1b2f570401aa1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dbdd9f58fb85824e356b0c4d81377b3a5e1b2773",
+      "git:hexsha": "dbdd9f58fb85824e356b0c4d81377b3a5e1b2773",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/93b7b6a083d3712c53d8e1fb3c633a93fc2b488b",
+      "git:hexsha": "93b7b6a083d3712c53d8e1fb3c633a93fc2b488b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/79be41546dfed4b7d6309210810ce4e32b11bfbf",
+      "git:hexsha": "79be41546dfed4b7d6309210810ce4e32b11bfbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/47e5ce2ae0d33e5bf4e34cc9cb07a513f163ad6f",
+      "git:hexsha": "47e5ce2ae0d33e5bf4e34cc9cb07a513f163ad6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/9e128d0580f2be1c3f2e0ca498e6cda4173bb498",
+      "git:hexsha": "9e128d0580f2be1c3f2e0ca498e6cda4173bb498",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bfc0c9dc3c027a1a50e4caf3369350f62fcc41f4",
+      "git:hexsha": "bfc0c9dc3c027a1a50e4caf3369350f62fcc41f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/ba1ea04d6a3f7b94f874fcc4ee06d731523c596f",
+      "git:hexsha": "ba1ea04d6a3f7b94f874fcc4ee06d731523c596f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6bb4c2b28db20a97ae5cabe5e931b2aa5f171f36",
+      "git:hexsha": "6bb4c2b28db20a97ae5cabe5e931b2aa5f171f36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/81d1e4c3295b1d516f5c4a320accef81f156365e",
+      "git:hexsha": "81d1e4c3295b1d516f5c4a320accef81f156365e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/356f0a57100358130b6c5868a6744143b3659f79",
+      "git:hexsha": "356f0a57100358130b6c5868a6744143b3659f79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/46997c83085b796c706a756ba0d1c251dca4897a",
+      "git:hexsha": "46997c83085b796c706a756ba0d1c251dca4897a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a980368af6a866d7ff73095ba4af9c28c2cc826c",
+      "git:hexsha": "a980368af6a866d7ff73095ba4af9c28c2cc826c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/94b5c854d19e293d4f118f00f76b112f1546d3f7",
+      "git:hexsha": "94b5c854d19e293d4f118f00f76b112f1546d3f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/28f5934fec54c67a5813fea2a551eb82366f370a",
+      "git:hexsha": "28f5934fec54c67a5813fea2a551eb82366f370a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/180b37af55e1c1d1c0c581548eaf5bacfd364a6a",
+      "git:hexsha": "180b37af55e1c1d1c0c581548eaf5bacfd364a6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/42c5712af556441c79f9600e4e17646e98a15786",
+      "git:hexsha": "42c5712af556441c79f9600e4e17646e98a15786",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/6c9261ba1f092c2df68c59ef585d03dafe936a9b",
+      "git:hexsha": "6c9261ba1f092c2df68c59ef585d03dafe936a9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/dfec20aef23485f2967b73702b60f78b6888a860",
+      "git:hexsha": "dfec20aef23485f2967b73702b60f78b6888a860",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/63edfad2a8c031c71e60b3ff2b8bb2226e47e430",
+      "git:hexsha": "63edfad2a8c031c71e60b3ff2b8bb2226e47e430",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0183c33a97f0786b3e1427143fa710d2fcceeade",
+      "git:hexsha": "0183c33a97f0786b3e1427143fa710d2fcceeade",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4f11e4a8d66b788f146eb7517da62377213a4540",
+      "git:hexsha": "4f11e4a8d66b788f146eb7517da62377213a4540",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/55431e8bb49bc10787d3a3f90ea2495ae9f1742b",
+      "git:hexsha": "55431e8bb49bc10787d3a3f90ea2495ae9f1742b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/24cce0379548ed6b4920a946037a399465bcf6e0",
+      "git:hexsha": "24cce0379548ed6b4920a946037a399465bcf6e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/195637c8335370da2c270f0448216b5359ba2865",
+      "git:hexsha": "195637c8335370da2c270f0448216b5359ba2865",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/b3a99b6b7027fe990ca9a49791034448d22d0aee",
+      "git:hexsha": "b3a99b6b7027fe990ca9a49791034448d22d0aee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/3a535dec48f9c1a0dd9a7d05ee569727b899dc49",
+      "git:hexsha": "3a535dec48f9c1a0dd9a7d05ee569727b899dc49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.74.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/fbb61512aa3d70f85eb3750e97fa42b7adf8649d",
+      "git:hexsha": "fbb61512aa3d70f85eb3750e97fa42b7adf8649d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.75.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/5eb4deb88c88a94849b36b16057e31d6088b76e8",
+      "git:hexsha": "5eb4deb88c88a94849b36b16057e31d6088b76e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.77.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/45068cd321574d9e1ad727b3183ceae04fb3ce24",
+      "git:hexsha": "45068cd321574d9e1ad727b3183ceae04fb3ce24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.78.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/aae7782f7c33f30a50d4dcb6caf899e382aa5f67",
+      "git:hexsha": "aae7782f7c33f30a50d4dcb6caf899e382aa5f67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.79.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cc58e8756ee07d713f7dcb6241fe205e9d7d09d0",
+      "git:hexsha": "cc58e8756ee07d713f7dcb6241fe205e9d7d09d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/1bde861290fb5ec44e8813f7076b9a0021231adc",
+      "git:hexsha": "1bde861290fb5ec44e8813f7076b9a0021231adc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.80.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/055df26a8d89f26f0a00d3a466cfd386366516cc",
+      "git:hexsha": "055df26a8d89f26f0a00d3a466cfd386366516cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.81.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/cbf42961095fd6eda1d8bf7633723b130c768221",
+      "git:hexsha": "cbf42961095fd6eda1d8bf7633723b130c768221",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.82.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4dfaf9a4b6511df3bcaabb5e9bca47ce13bf90be",
+      "git:hexsha": "4dfaf9a4b6511df3bcaabb5e9bca47ce13bf90be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.83.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d6cd55d06dd6ecf27827254816b7ef70ee231762",
+      "git:hexsha": "d6cd55d06dd6ecf27827254816b7ef70ee231762",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.84.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/840d1c142da03c78028ea13ed72dfee4561b24cb",
+      "git:hexsha": "840d1c142da03c78028ea13ed72dfee4561b24cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.86.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/99ad289ea67ec07de22a5321f54f419f953b3ddb",
+      "git:hexsha": "99ad289ea67ec07de22a5321f54f419f953b3ddb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.88.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/34946feaa25f584d686bec82cfab11cdada9674a",
+      "git:hexsha": "34946feaa25f584d686bec82cfab11cdada9674a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.89.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/65940d97e74331d4de1ea9c8f29634de4a9a5158",
+      "git:hexsha": "65940d97e74331d4de1ea9c8f29634de4a9a5158",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.90.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/d67349756830460682d6d29309044d989ef1d041",
+      "git:hexsha": "d67349756830460682d6d29309044d989ef1d041",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.91.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/07e5303d621f0a4511a64674ba8bbe14c8626897",
+      "git:hexsha": "07e5303d621f0a4511a64674ba8bbe14c8626897",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.92.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a3d19872eb691f79d3a06972992e6391b581d989",
+      "git:hexsha": "a3d19872eb691f79d3a06972992e6391b581d989",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.93.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/0dd0ec8292e9cbc88ce9045ca597020f1d9a0506",
+      "git:hexsha": "0dd0ec8292e9cbc88ce9045ca597020f1d9a0506",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.94.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/a8ffb03822d15029714e20f48ea5fd0d036fe080",
+      "git:hexsha": "a8ffb03822d15029714e20f48ea5fd0d036fe080",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.95.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/bfeb9b78c2742f290c14519dde418680db34f52c",
+      "git:hexsha": "bfeb9b78c2742f290c14519dde418680db34f52c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.96.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/4b61edee3877ebe8de70ff3714964e1d95f3c065",
+      "git:hexsha": "4b61edee3877ebe8de70ff3714964e1d95f3c065",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.97.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/e826c531b83e341ee5c1555aaf20a7ebee5c0856",
+      "git:hexsha": "e826c531b83e341ee5c1555aaf20a7ebee5c0856",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.98.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/postgresql-k8s-operator/commit/2867c7b4e1d27bf50c7b372bcc76de238af1cdea",
+      "git:hexsha": "2867c7b4e1d27bf50c7b372bcc76de238af1cdea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v16/1.99.0"
+    }
+  ]
+}
