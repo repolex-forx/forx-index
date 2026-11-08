@@ -1,0 +1,567 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/bentoml/yatai-deployment",
+  "@type": "gh:Repository",
+  "gh:name": "yatai-deployment",
+  "gh:owner": "bentoml",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/60877e2dffcec073e6e3c6e088a3163fb7618663",
+      "git:hexsha": "60877e2dffcec073e6e3c6e088a3163fb7618663",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-08T11:41:14.400906+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/420c37f0e0a5c1e782dc2c3520f23640ad4eb60c",
+      "git:hexsha": "420c37f0e0a5c1e782dc2c3520f23640ad4eb60c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/6eaefa737858a636ff13adaecc248bb17fd86609",
+      "git:hexsha": "6eaefa737858a636ff13adaecc248bb17fd86609",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-a0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/67b10861a72b654333f246fb0af30f1a405766da",
+      "git:hexsha": "67b10861a72b654333f246fb0af30f1a405766da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-a1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/2c815251750c26401287b12f62ba323ca5a4ea60",
+      "git:hexsha": "2c815251750c26401287b12f62ba323ca5a4ea60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/283cfebe4ffcb98fe72ec84cc271219b50ab7ed2",
+      "git:hexsha": "283cfebe4ffcb98fe72ec84cc271219b50ab7ed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-a3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/16f2af63c4c5e7a1759ab55e86c000d6ebe4558e",
+      "git:hexsha": "16f2af63c4c5e7a1759ab55e86c000d6ebe4558e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/f02f762a486f0233d82ff4c099b62b9517636caf",
+      "git:hexsha": "f02f762a486f0233d82ff4c099b62b9517636caf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/89b34dd3e31ab04d73eff0da50eabf3f9248eb18",
+      "git:hexsha": "89b34dd3e31ab04d73eff0da50eabf3f9248eb18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/89eddcb52c747996d84d8b80b61fb5375fe82d00",
+      "git:hexsha": "89eddcb52c747996d84d8b80b61fb5375fe82d00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d10"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/dcf2cf1fd888235998a8059f3ba859fec11bef52",
+      "git:hexsha": "dcf2cf1fd888235998a8059f3ba859fec11bef52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d11"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/43fcf81fb24b7d01ea38a3a50b20fa0aae21b32b",
+      "git:hexsha": "43fcf81fb24b7d01ea38a3a50b20fa0aae21b32b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/1aea46822fd5faf7ca2b1effb93ff5dff9becf82",
+      "git:hexsha": "1aea46822fd5faf7ca2b1effb93ff5dff9becf82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d13"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/33f03b5838237cd2947c27d3cf8e42524571d7c2",
+      "git:hexsha": "33f03b5838237cd2947c27d3cf8e42524571d7c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d14"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/c40b295f3bdf23550fee6156dd1e0636c702530a",
+      "git:hexsha": "c40b295f3bdf23550fee6156dd1e0636c702530a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d15"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/8d68be4faa375eeaab5063e33e2328b1d971a05d",
+      "git:hexsha": "8d68be4faa375eeaab5063e33e2328b1d971a05d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d16"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/922362da1622b97d00069635189a3d11f3a259af",
+      "git:hexsha": "922362da1622b97d00069635189a3d11f3a259af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d17"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/9720a4a5485f209972358fd96672a8aba4778d40",
+      "git:hexsha": "9720a4a5485f209972358fd96672a8aba4778d40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/8e57ac94056898f3b3a192be84984f181335919e",
+      "git:hexsha": "8e57ac94056898f3b3a192be84984f181335919e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/a323d9a792f52d56187264e46200606bb06682fa",
+      "git:hexsha": "a323d9a792f52d56187264e46200606bb06682fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/356d159f4c89ffea6d7f7fe6ddaa8fbfa6423a2d",
+      "git:hexsha": "356d159f4c89ffea6d7f7fe6ddaa8fbfa6423a2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/6e743663844fdd7cd9c81b0ea83b8cddee8f8d8e",
+      "git:hexsha": "6e743663844fdd7cd9c81b0ea83b8cddee8f8d8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/82012a74fce9fbb806ecfc7c8152f0635ef05097",
+      "git:hexsha": "82012a74fce9fbb806ecfc7c8152f0635ef05097",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-d7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/cf9ca720d65ca854f25c956424c3666255be9f5f",
+      "git:hexsha": "cf9ca720d65ca854f25c956424c3666255be9f5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/7c63113001afa47fe255a4f6584a1ddb1f0cc5e0",
+      "git:hexsha": "7c63113001afa47fe255a4f6584a1ddb1f0cc5e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/deb016ee81e9d920f3619db380493fd122c98c5c",
+      "git:hexsha": "deb016ee81e9d920f3619db380493fd122c98c5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/e2feda6ed6ecb76e5150d6bf2bd27a22e49dae2b",
+      "git:hexsha": "e2feda6ed6ecb76e5150d6bf2bd27a22e49dae2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/63839c4b01242e00886ae6f06d6fd2c1d3529d78",
+      "git:hexsha": "63839c4b01242e00886ae6f06d6fd2c1d3529d78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.12-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/803e05f5f69e0846aa79840b879d84d6c25f30f8",
+      "git:hexsha": "803e05f5f69e0846aa79840b879d84d6c25f30f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.12-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/4c7db291c7987da563077811ffdc3178eeee06d1",
+      "git:hexsha": "4c7db291c7987da563077811ffdc3178eeee06d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.12-d3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/241ceee87647d19a0080afd3e2710c878f9d7c75",
+      "git:hexsha": "241ceee87647d19a0080afd3e2710c878f9d7c75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/a9eaeff190a90b52da72b7b51b01c2f9992d2890",
+      "git:hexsha": "a9eaeff190a90b52da72b7b51b01c2f9992d2890",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/b6fcabc83b9f9a285fe7570cb3ae14c09f56249f",
+      "git:hexsha": "b6fcabc83b9f9a285fe7570cb3ae14c09f56249f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/ccf5c55aa8cbc8a194e7fad42f51bee77e5575b9",
+      "git:hexsha": "ccf5c55aa8cbc8a194e7fad42f51bee77e5575b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/c234951390a4ec1dec2362ea52b134a522fe30d4",
+      "git:hexsha": "c234951390a4ec1dec2362ea52b134a522fe30d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.4-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/cfd3b996df36eb15a9008809ebc6ab7b572f0334",
+      "git:hexsha": "cfd3b996df36eb15a9008809ebc6ab7b572f0334",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.4-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/d00d6f607503a31e39d5292e4d2a4be15ef9806e",
+      "git:hexsha": "d00d6f607503a31e39d5292e4d2a4be15ef9806e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/855faca067f87f8811d828c1203804d9362c3494",
+      "git:hexsha": "855faca067f87f8811d828c1203804d9362c3494",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.5-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/d7c2993629335816b6264953fb42d19bb32db18b",
+      "git:hexsha": "d7c2993629335816b6264953fb42d19bb32db18b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.5-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/cb5f5e28885d0ed2a6b2a4e704b1574af8f05136",
+      "git:hexsha": "cb5f5e28885d0ed2a6b2a4e704b1574af8f05136",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/ae4fb4eedb3006c3525aeadca124d31fc0148e27",
+      "git:hexsha": "ae4fb4eedb3006c3525aeadca124d31fc0148e27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/400efa8a038758322dad4ae9f48a6095a47f6b9e",
+      "git:hexsha": "400efa8a038758322dad4ae9f48a6095a47f6b9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/7b15a0798650254942fa5b077d44eb29541f78c7",
+      "git:hexsha": "7b15a0798650254942fa5b077d44eb29541f78c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.6-d3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/774bd4ef5f96eeae3af7d8ffa730879105a05c85",
+      "git:hexsha": "774bd4ef5f96eeae3af7d8ffa730879105a05c85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/d49196549a4485db584c9208c206e40df770a7e9",
+      "git:hexsha": "d49196549a4485db584c9208c206e40df770a7e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/072ea7db39b701e29d520e1d45e435076462584d",
+      "git:hexsha": "072ea7db39b701e29d520e1d45e435076462584d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/be0ef83117585f7dd37dc96446b555360880db34",
+      "git:hexsha": "be0ef83117585f7dd37dc96446b555360880db34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/b62fa2724d0160e12f446f886685e35a2def13cc",
+      "git:hexsha": "b62fa2724d0160e12f446f886685e35a2def13cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/95cd6f1ad8deca5fbc720d4118fd8f257d045e4d",
+      "git:hexsha": "95cd6f1ad8deca5fbc720d4118fd8f257d045e4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d10"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/d79e62124847c454178aca75508a8a4d1fc7a79b",
+      "git:hexsha": "d79e62124847c454178aca75508a8a4d1fc7a79b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d11"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/073eb8a9c7a161ddffe14274c4b15d953be054c3",
+      "git:hexsha": "073eb8a9c7a161ddffe14274c4b15d953be054c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/ed594e06ad86863dcdabd3b9d5aaec7b36736294",
+      "git:hexsha": "ed594e06ad86863dcdabd3b9d5aaec7b36736294",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d13"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/2186b24c1eb0bfaea392d8aa926e2f5ffaa29e96",
+      "git:hexsha": "2186b24c1eb0bfaea392d8aa926e2f5ffaa29e96",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/bfbcd452b1cbfba4c2f51c7960e304998c749941",
+      "git:hexsha": "bfbcd452b1cbfba4c2f51c7960e304998c749941",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/b819b02cab2149050ab46a4b0e41fd29f7bccf77",
+      "git:hexsha": "b819b02cab2149050ab46a4b0e41fd29f7bccf77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/fa86f8bd4690223be23e3d722816acb13aac9bf4",
+      "git:hexsha": "fa86f8bd4690223be23e3d722816acb13aac9bf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/af6a13d5b986a1f4625f19a1a06d12db18a4cfce",
+      "git:hexsha": "af6a13d5b986a1f4625f19a1a06d12db18a4cfce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/4fb34eb7e7c859ecfbf575a006cdd98927929c99",
+      "git:hexsha": "4fb34eb7e7c859ecfbf575a006cdd98927929c99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/7dfa1befb1fd87d10fc118276965fb4d667b6af5",
+      "git:hexsha": "7dfa1befb1fd87d10fc118276965fb4d667b6af5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/2cb862274005bcc452f8974430413f86328e6f0a",
+      "git:hexsha": "2cb862274005bcc452f8974430413f86328e6f0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0-d9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/613ed6479e66eb90a9b66b135505677c1ccd9a2e",
+      "git:hexsha": "613ed6479e66eb90a9b66b135505677c1ccd9a2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/55c65d69abf62d647994ed2231b6dd0e354f5df3",
+      "git:hexsha": "55c65d69abf62d647994ed2231b6dd0e354f5df3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/24b4d1e585e45b50fd426d2006fe6377e5a26919",
+      "git:hexsha": "24b4d1e585e45b50fd426d2006fe6377e5a26919",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/95a525548d17853dbecf2a0abb4cf066b49d4c76",
+      "git:hexsha": "95a525548d17853dbecf2a0abb4cf066b49d4c76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/52b84c756df9d38a05e552177321083d28abe84b",
+      "git:hexsha": "52b84c756df9d38a05e552177321083d28abe84b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/f2dadd73a28f189c32b0a154ba595f80f89531b7",
+      "git:hexsha": "f2dadd73a28f189c32b0a154ba595f80f89531b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/bf54acb74db2ff2348173e2f881eff1f47f6cbd7",
+      "git:hexsha": "bf54acb74db2ff2348173e2f881eff1f47f6cbd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/9903eeeec83ce9b9d26b6c873c51f6929c0b6f60",
+      "git:hexsha": "9903eeeec83ce9b9d26b6c873c51f6929c0b6f60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/574531d7fed2c9bd4add9f9e27e76b61e55b86f0",
+      "git:hexsha": "574531d7fed2c9bd4add9f9e27e76b61e55b86f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/fc1024fba82a25076070e263e029b901a6244156",
+      "git:hexsha": "fc1024fba82a25076070e263e029b901a6244156",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/58cfbef4a47c48c20b62f698f7a7e8d70c3b702c",
+      "git:hexsha": "58cfbef4a47c48c20b62f698f7a7e8d70c3b702c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/5e75fb0b5d853080f08d176e491ef773b3f09fc0",
+      "git:hexsha": "5e75fb0b5d853080f08d176e491ef773b3f09fc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/3d465fe8cc38d044c8dd346569e809527232a963",
+      "git:hexsha": "3d465fe8cc38d044c8dd346569e809527232a963",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/755faf260b8c010ff4d0b049405ea283e55dc4c0",
+      "git:hexsha": "755faf260b8c010ff4d0b049405ea283e55dc4c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/da07c94d3191eb45f0ea2f659daea439c21ec49c",
+      "git:hexsha": "da07c94d3191eb45f0ea2f659daea439c21ec49c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/70bf1621fca56b5697de8e96b68fc2f3a4c88ac7",
+      "git:hexsha": "70bf1621fca56b5697de8e96b68fc2f3a4c88ac7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3-d3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/2104969b09e67ceeb7ecaebce9a875a5a1068e8c",
+      "git:hexsha": "2104969b09e67ceeb7ecaebce9a875a5a1068e8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/d962d48c9fad0a7cf5adf3b57b13ba314102e864",
+      "git:hexsha": "d962d48c9fad0a7cf5adf3b57b13ba314102e864",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3-d4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/3f5dad47cd44b9e41e37688e96c8fa438ddf88fa",
+      "git:hexsha": "3f5dad47cd44b9e41e37688e96c8fa438ddf88fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.3-d5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/b4079fa52082ee7fb96df111a8751afeb381d577",
+      "git:hexsha": "b4079fa52082ee7fb96df111a8751afeb381d577",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/7b262187ae90868b414d97c1895692a2f92d1a71",
+      "git:hexsha": "7b262187ae90868b414d97c1895692a2f92d1a71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/4f6ff3341fd175395248cbd93b03100c5c530d3d",
+      "git:hexsha": "4f6ff3341fd175395248cbd93b03100c5c530d3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/c292a9619c4fe72211e07311839574b64380c5bb",
+      "git:hexsha": "c292a9619c4fe72211e07311839574b64380c5bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/0bd8ecfefa8d7fce42f67e5fff3cfed041548f64",
+      "git:hexsha": "0bd8ecfefa8d7fce42f67e5fff3cfed041548f64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/6cdba8c036e1ff4a33086efe913485593d7bf2a0",
+      "git:hexsha": "6cdba8c036e1ff4a33086efe913485593d7bf2a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/a6b721fce4b6976850570d472fe6596ecb106d65",
+      "git:hexsha": "a6b721fce4b6976850570d472fe6596ecb106d65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/26e09cf35329b1a0110fc704595f21b4e2e43249",
+      "git:hexsha": "26e09cf35329b1a0110fc704595f21b4e2e43249",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/0b951f4363d903fa54fc17e5bebe7f2fa41ba537",
+      "git:hexsha": "0b951f4363d903fa54fc17e5bebe7f2fa41ba537",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/ab6f07dda7dd7249dbca77ccba4156f3b327079d",
+      "git:hexsha": "ab6f07dda7dd7249dbca77ccba4156f3b327079d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/314df098fc3ae9cf1e39ec00e982233de9425859",
+      "git:hexsha": "314df098fc3ae9cf1e39ec00e982233de9425859",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/cac9127934b47dd8fab3fb13bd2d39b078d5008c",
+      "git:hexsha": "cac9127934b47dd8fab3fb13bd2d39b078d5008c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/24569f8bd68d46086c1e085e24f1dc509374971b",
+      "git:hexsha": "24569f8bd68d46086c1e085e24f1dc509374971b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bentoml/yatai-deployment/commit/00a06c63ac4d4352132b52aacc8d48376db9ed7f",
+      "git:hexsha": "00a06c63ac4d4352132b52aacc8d48376db9ed7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-d8"
+    }
+  ]
+}
