@@ -1,0 +1,633 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/huggingface/optimum-habana",
+  "@type": "gh:Repository",
+  "gh:name": "optimum-habana",
+  "gh:owner": "huggingface",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/65a8255bfcdf8f216e00f68bda3353af78e8e1c5",
+      "git:hexsha": "65a8255bfcdf8f216e00f68bda3353af78e8e1c5",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-08T00:14:33.238877+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/c0c9ca2687220302e144b7bd34180ab434d2bf22",
+      "git:hexsha": "c0c9ca2687220302e144b7bd34180ab434d2bf22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/v1.19-release"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/061905eafcc952df6365878a85887817e2aeb04d",
+      "git:hexsha": "061905eafcc952df6365878a85887817e2aeb04d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/v1.19-release-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/820901ceb632db686c56c10b703301b9fb5d3c43",
+      "git:hexsha": "820901ceb632db686c56c10b703301b9fb5d3c43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/3d5471fee74f8ff667593d9ece4766cec7e55b1d",
+      "git:hexsha": "3d5471fee74f8ff667593d9ece4766cec7e55b1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_02112023"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/cc03c160661a8bd9c613c2a401ca1d34455c6cb9",
+      "git:hexsha": "cc03c160661a8bd9c613c2a401ca1d34455c6cb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_03072025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/9cf57be9cff53c6972a5ba154d91b4c2856bbc28",
+      "git:hexsha": "9cf57be9cff53c6972a5ba154d91b4c2856bbc28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_03172025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/bbada81b45f7878e0bb9c5c07af9bae86d7c096e",
+      "git:hexsha": "bbada81b45f7878e0bb9c5c07af9bae86d7c096e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_03262025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/677acbe9bf68eae7d731da1dd9fdfd018ae0abc8",
+      "git:hexsha": "677acbe9bf68eae7d731da1dd9fdfd018ae0abc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_03292025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/4e12497e1e31a9e6bf0c5d4d4f1fc6a895e04c40",
+      "git:hexsha": "4e12497e1e31a9e6bf0c5d4d4f1fc6a895e04c40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_04032025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/3e831a1bbda09a21bb9d708999788be2dc7c400e",
+      "git:hexsha": "3e831a1bbda09a21bb9d708999788be2dc7c400e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_04062025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/af85fd0b321593bb686f9af6f3b6ccc73adfc0ac",
+      "git:hexsha": "af85fd0b321593bb686f9af6f3b6ccc73adfc0ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_05042024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/421e24d413e4255bc81a83528150d0ad409ef877",
+      "git:hexsha": "421e24d413e4255bc81a83528150d0ad409ef877",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_07102024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/a3b795d68b2c10f16f9c0c21a6546d5dd4b75e7c",
+      "git:hexsha": "a3b795d68b2c10f16f9c0c21a6546d5dd4b75e7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_08082024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/9a94f94f7b43e5183ac34a22ae41ec1c31e10b9f",
+      "git:hexsha": "9a94f94f7b43e5183ac34a22ae41ec1c31e10b9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_09042024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/377783fef70b9a0bfe87d5999f8d938c05cc6bce",
+      "git:hexsha": "377783fef70b9a0bfe87d5999f8d938c05cc6bce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_09062024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/ff4a6b8651f47529ceec405a76c37584d7992b29",
+      "git:hexsha": "ff4a6b8651f47529ceec405a76c37584d7992b29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_09082024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/c0856d5037e65d99f38c2361cb048e89e865f40e",
+      "git:hexsha": "c0856d5037e65d99f38c2361cb048e89e865f40e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_10062025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/eeb8881bb59b49c5d4456c5a372edb8968290966",
+      "git:hexsha": "eeb8881bb59b49c5d4456c5a372edb8968290966",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_10122024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/2133b5265928a898672a7a7951e9efd3794837d4",
+      "git:hexsha": "2133b5265928a898672a7a7951e9efd3794837d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_11062024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/bf83a96232ef122469039e9c53b17de690597edb",
+      "git:hexsha": "bf83a96232ef122469039e9c53b17de690597edb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_11102024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/7235787b384df5c1c6b42412b2e1c4991f75ae2f",
+      "git:hexsha": "7235787b384df5c1c6b42412b2e1c4991f75ae2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_12122024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/67bc4cb189e29ec16e3de1fe65fe203febbdd3b1",
+      "git:hexsha": "67bc4cb189e29ec16e3de1fe65fe203febbdd3b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_12122024_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/f4c1809c5828e914ea497a77d70dc785ef3fda07",
+      "git:hexsha": "f4c1809c5828e914ea497a77d70dc785ef3fda07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_13032024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/95c8104614bd8ccb8a005a381cc03f769a6772f8",
+      "git:hexsha": "95c8104614bd8ccb8a005a381cc03f769a6772f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_13082024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/7380e2b224f01e1c8852a8a8cc3c7f12a45052fd",
+      "git:hexsha": "7380e2b224f01e1c8852a8a8cc3c7f12a45052fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_14012024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/eae1ad0fded9f8b490e2276fd332615f8711ef1d",
+      "git:hexsha": "eae1ad0fded9f8b490e2276fd332615f8711ef1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_14112023"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/736b1df94c30f47b9d938489b495a4b292ca3225",
+      "git:hexsha": "736b1df94c30f47b9d938489b495a4b292ca3225",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_15052025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/b565fa16c8a16e77e58f926a126c1dad53636e15",
+      "git:hexsha": "b565fa16c8a16e77e58f926a126c1dad53636e15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_16122024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/36343ce08a3992a0254bb292f904b5f8579e5faf",
+      "git:hexsha": "36343ce08a3992a0254bb292f904b5f8579e5faf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_17102024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/b5d6cf424f5c72a0f82cf88d123b94cb989929f5",
+      "git:hexsha": "b5d6cf424f5c72a0f82cf88d123b94cb989929f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_17122024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/4c8f2a0d9cbb01a5a898601d7845e31224f37378",
+      "git:hexsha": "4c8f2a0d9cbb01a5a898601d7845e31224f37378",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_18042024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/529bda8367d1028a0624480e1e07f083778be63b",
+      "git:hexsha": "529bda8367d1028a0624480e1e07f083778be63b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_18102024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/eea8062b8d4adb759aebe17dfbfe0b572028e286",
+      "git:hexsha": "eea8062b8d4adb759aebe17dfbfe0b572028e286",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_18122023"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/6adad1651566ffb761ce47f8d671b73a3bbb0ec2",
+      "git:hexsha": "6adad1651566ffb761ce47f8d671b73a3bbb0ec2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/8c061dfe061606fac610eb4b1fe33334f70ebd92",
+      "git:hexsha": "8c061dfe061606fac610eb4b1fe33334f70ebd92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_21052024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/52e22cb31849b6929b1d8b291d671b2fa901e00e",
+      "git:hexsha": "52e22cb31849b6929b1d8b291d671b2fa901e00e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/e394b0f92f3c207b61f5de1ffe7d1cebb017f659",
+      "git:hexsha": "e394b0f92f3c207b61f5de1ffe7d1cebb017f659",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_25012024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/e17b534f6c3c151e507ee70af7bb8a23824c9d9c",
+      "git:hexsha": "e17b534f6c3c151e507ee70af7bb8a23824c9d9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_26012024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/bfee17c27a7024da102b6d8563313f941d2a8d01",
+      "git:hexsha": "bfee17c27a7024da102b6d8563313f941d2a8d01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_26022025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/810ca455fb2979498c44c4d2de51d6f7544101f5",
+      "git:hexsha": "810ca455fb2979498c44c4d2de51d6f7544101f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_26022025_bis"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/cd695aa3ff7961466523e4cda200771269b0f399",
+      "git:hexsha": "cd695aa3ff7961466523e4cda200771269b0f399",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_28022025"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/d9d4fc079cc065c3d0f42efe2c5eca0e6bc4ea3b",
+      "git:hexsha": "d9d4fc079cc065c3d0f42efe2c5eca0e6bc4ea3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_30032024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/8ee87de9085d13593c1b20ada9b1b99a0715da69",
+      "git:hexsha": "8ee87de9085d13593c1b20ada9b1b99a0715da69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_30032024_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/445be214769ffd0c11610471a09b3bc56e19b420",
+      "git:hexsha": "445be214769ffd0c11610471a09b3bc56e19b420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_31032024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/8eea643c3d70f624d29785139be82184a3a1d6ad",
+      "git:hexsha": "8eea643c3d70f624d29785139be82184a3a1d6ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ci_transformers_03092024"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/c1154b271130d1d92646f8b1247fe1086a71b3f0",
+      "git:hexsha": "c1154b271130d1d92646f8b1247fe1086a71b3f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/4cf80899ab4a5d7080e009ce680c240f7fb8549b",
+      "git:hexsha": "4cf80899ab4a5d7080e009ce680c240f7fb8549b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "post_1.10.3_rebase"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/af2c2c2cc685f3d86a3c058265c144d7332bdaec",
+      "git:hexsha": "af2c2c2cc685f3d86a3c058265c144d7332bdaec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "pre_1.10.2_rebase"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/8d30377af8da54b9835dafc8f2e6d681c14f0827",
+      "git:hexsha": "8d30377af8da54b9835dafc8f2e6d681c14f0827",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "pre_1.10.3_rebase"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/8be8c9daab8ce3a24f8b2a0ad1c9318aa812b2f9",
+      "git:hexsha": "8be8c9daab8ce3a24f8b2a0ad1c9318aa812b2f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "pre_1.10_rebase"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/355c54bbc9e4743b8406e3fb852ad918e62b3c17",
+      "git:hexsha": "355c54bbc9e4743b8406e3fb852ad918e62b3c17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "transformers_v4.33.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/2e24e81805356c97d6e3d819f17f065659dd8fe0",
+      "git:hexsha": "2e24e81805356c97d6e3d819f17f065659dd8fe0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/7811eb0658dbf12fa4f9355d3cbb8af0555b7df3",
+      "git:hexsha": "7811eb0658dbf12fa4f9355d3cbb8af0555b7df3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/20e83cda6e7b18dcc4bd79b16660171d1c85c796",
+      "git:hexsha": "20e83cda6e7b18dcc4bd79b16660171d1c85c796",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/8db31953478225bfa3ff039a887576e570e55577",
+      "git:hexsha": "8db31953478225bfa3ff039a887576e570e55577",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/b0fb5aa132c4aecf7c70b44527e475cdb04a65c5",
+      "git:hexsha": "b0fb5aa132c4aecf7c70b44527e475cdb04a65c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/17cee2ec6b18ac44b0a4ff722d0389332f8c280b",
+      "git:hexsha": "17cee2ec6b18ac44b0a4ff722d0389332f8c280b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/a26d748e0970066023bb7fad11495ca3cce6c160",
+      "git:hexsha": "a26d748e0970066023bb7fad11495ca3cce6c160",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/a6a88fa55821adf3270686765f52f1b2e692491a",
+      "git:hexsha": "a6a88fa55821adf3270686765f52f1b2e692491a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/ee7a0b3e10c78d42f382da5dfe3c6c5cb5d43097",
+      "git:hexsha": "ee7a0b3e10c78d42f382da5dfe3c6c5cb5d43097",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/1dfbc02a24fcd44e1e2d4a1028011493512767c8",
+      "git:hexsha": "1dfbc02a24fcd44e1e2d4a1028011493512767c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/eaac913c56617a4deefa99548d89366722b7397e",
+      "git:hexsha": "eaac913c56617a4deefa99548d89366722b7397e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/989484c60c22a217dd5f89d9d70a703162188b7f",
+      "git:hexsha": "989484c60c22a217dd5f89d9d70a703162188b7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/41e0a3f298ec4bd0866884733416f6bad98745dd",
+      "git:hexsha": "41e0a3f298ec4bd0866884733416f6bad98745dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/1266993d741ba97e929965c01307f3c6cce8c107",
+      "git:hexsha": "1266993d741ba97e929965c01307f3c6cce8c107",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/058e91c5eb1ef504c341e776cc43b3c988663db4",
+      "git:hexsha": "058e91c5eb1ef504c341e776cc43b3c988663db4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/84b645522ae1666fd7a35b206d70150aa13b0bf1",
+      "git:hexsha": "84b645522ae1666fd7a35b206d70150aa13b0bf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/f0438aebf940a78f0c6b4a1e343f55ba99180f2f",
+      "git:hexsha": "f0438aebf940a78f0c6b4a1e343f55ba99180f2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/106c10c4bb6f4c0844f0afaab7a2d107e9928229",
+      "git:hexsha": "106c10c4bb6f4c0844f0afaab7a2d107e9928229",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/59e2d1d4bff36f0acbb1fe4e57058202cf50d760",
+      "git:hexsha": "59e2d1d4bff36f0acbb1fe4e57058202cf50d760",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/ea00dc2576bb49fca94f62a63c040195f455d399",
+      "git:hexsha": "ea00dc2576bb49fca94f62a63c040195f455d399",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/d598a62955923b88e1047c73183c267173dcc95c",
+      "git:hexsha": "d598a62955923b88e1047c73183c267173dcc95c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/954bb5aa8c968e1ccc2ad99b302b860cbbeb3543",
+      "git:hexsha": "954bb5aa8c968e1ccc2ad99b302b860cbbeb3543",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/1aa991e4bee53652a62ec34c4d5bd2397e5736c6",
+      "git:hexsha": "1aa991e4bee53652a62ec34c4d5bd2397e5736c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/9d3bb80dce512a05bad812876bcd90cd6ca63bee",
+      "git:hexsha": "9d3bb80dce512a05bad812876bcd90cd6ca63bee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/3c0d9ae9d4697a64b899f92da20ccd72fa03c1db",
+      "git:hexsha": "3c0d9ae9d4697a64b899f92da20ccd72fa03c1db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/c852b583349a9a1fbd58008e233c01c6ac0f6347",
+      "git:hexsha": "c852b583349a9a1fbd58008e233c01c6ac0f6347",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/0c6b07470ba2067fe3ddc70ed2d3aef3aa8d5ca0",
+      "git:hexsha": "0c6b07470ba2067fe3ddc70ed2d3aef3aa8d5ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/db9688c3901d0631e0f47e1e0dcb2592622da57c",
+      "git:hexsha": "db9688c3901d0631e0f47e1e0dcb2592622da57c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/e43f4e16809ed9a8e5af2ea123746c5bb2135b91",
+      "git:hexsha": "e43f4e16809ed9a8e5af2ea123746c5bb2135b91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/de29ab0e66c28364e6f15c307cd30eda37f5c43c",
+      "git:hexsha": "de29ab0e66c28364e6f15c307cd30eda37f5c43c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/3f2a9c07224e5a35bd0b1a02f0cdd11e77f08178",
+      "git:hexsha": "3f2a9c07224e5a35bd0b1a02f0cdd11e77f08178",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/bade9f039353463437d1346ba7b36d964de70cd1",
+      "git:hexsha": "bade9f039353463437d1346ba7b36d964de70cd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/14c9582b8f9a61bf5618da9c56e1faa8979f8a7a",
+      "git:hexsha": "14c9582b8f9a61bf5618da9c56e1faa8979f8a7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/af72ccfebf1e2893c8a9618c852bfcbf5969d127",
+      "git:hexsha": "af72ccfebf1e2893c8a9618c852bfcbf5969d127",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/cb9402ad6647191b113014266d37ccec19586441",
+      "git:hexsha": "cb9402ad6647191b113014266d37ccec19586441",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/d2c631c44d73cca0fb8aab27b19d4d308b233416",
+      "git:hexsha": "d2c631c44d73cca0fb8aab27b19d4d308b233416",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/f9501504981ebed88e5112ce7832bf3e1e899b4a",
+      "git:hexsha": "f9501504981ebed88e5112ce7832bf3e1e899b4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/59daa59d1af42694fcf896bb63dc337e46d7d46b",
+      "git:hexsha": "59daa59d1af42694fcf896bb63dc337e46d7d46b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/f3460394223fa33f67d782a5a7d0cc429c5b918f",
+      "git:hexsha": "f3460394223fa33f67d782a5a7d0cc429c5b918f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/bffc1cdb8160e920e39ea61954779bd91a3ef4df",
+      "git:hexsha": "bffc1cdb8160e920e39ea61954779bd91a3ef4df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/1e4edfefab5730efc2646d947a3661ab300c1e17",
+      "git:hexsha": "1e4edfefab5730efc2646d947a3661ab300c1e17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/ce75d477185c16186cf0a5811e17376d39449bde",
+      "git:hexsha": "ce75d477185c16186cf0a5811e17376d39449bde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/daa24c97fe77cc9a2e45d6c1b3d0eead14dfe0e0",
+      "git:hexsha": "daa24c97fe77cc9a2e45d6c1b3d0eead14dfe0e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/f4466f4dc1259b724d2ca432db32c8b5c5846b69",
+      "git:hexsha": "f4466f4dc1259b724d2ca432db32c8b5c5846b69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/0192d8f2d8079213a01df772b310ce37095763e7",
+      "git:hexsha": "0192d8f2d8079213a01df772b310ce37095763e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/3493c5286981c610740a154c5b4de5e1e5fb56b6",
+      "git:hexsha": "3493c5286981c610740a154c5b4de5e1e5fb56b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/08ab6805f66ce881d1be004a806be580268772ed",
+      "git:hexsha": "08ab6805f66ce881d1be004a806be580268772ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/302230422f502e8d4896ee85f44688a1b2bde0e4",
+      "git:hexsha": "302230422f502e8d4896ee85f44688a1b2bde0e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/07a881a1b9285712cb2c6a5ddf4e5adff1ad449a",
+      "git:hexsha": "07a881a1b9285712cb2c6a5ddf4e5adff1ad449a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/650ea13ee72b1d83e67f21d277219c353b42941c",
+      "git:hexsha": "650ea13ee72b1d83e67f21d277219c353b42941c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/fb1255cf05c0d12688d83600cd9de24ccb696e3a",
+      "git:hexsha": "fb1255cf05c0d12688d83600cd9de24ccb696e3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/optimum-habana/commit/7e4bd7f3f1eb0b22dc4060441739f70919d1d7f1",
+      "git:hexsha": "7e4bd7f3f1eb0b22dc4060441739f70919d1d7f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    }
+  ]
+}
