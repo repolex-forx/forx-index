@@ -1,0 +1,603 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/netplan",
+  "@type": "gh:Repository",
+  "gh:name": "netplan",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/241306a711258aaa8667bbc011db9662f605e491",
+      "git:hexsha": "241306a711258aaa8667bbc011db9662f605e491",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-08T15:15:31.893563+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/faa6160cde57b0b04f266668c19d25108fd88c60",
+      "git:hexsha": "faa6160cde57b0b04f266668c19d25108fd88c60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/8fb62ae14605b96c1b5a5c3ed674c82eceda142c",
+      "git:hexsha": "8fb62ae14605b96c1b5a5c3ed674c82eceda142c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/b7d32aebc880f3161b8f97ee56b729c0c54dd0e4",
+      "git:hexsha": "b7d32aebc880f3161b8f97ee56b729c0c54dd0e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/e445b87b9dff439ec564c245d030b03d61eb0f24",
+      "git:hexsha": "e445b87b9dff439ec564c245d030b03d61eb0f24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/62701436991e42606c4e9e8dbdcdc5067d64f69b",
+      "git:hexsha": "62701436991e42606c4e9e8dbdcdc5067d64f69b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/51c872d856db80281ea810ebc02e05c09d5310fa",
+      "git:hexsha": "51c872d856db80281ea810ebc02e05c09d5310fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/3e522b7255310bdecca6c781137741dfc4abc021",
+      "git:hexsha": "3e522b7255310bdecca6c781137741dfc4abc021",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/222a067b0d3bc3fd199c662f8f1e070ecd68141f",
+      "git:hexsha": "222a067b0d3bc3fd199c662f8f1e070ecd68141f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/15ce044d1df27b5057556d84d0d14beef8dd4e4d",
+      "git:hexsha": "15ce044d1df27b5057556d84d0d14beef8dd4e4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.106"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/5df4140c49f242cb63efcd5edffe6a06419150fb",
+      "git:hexsha": "5df4140c49f242cb63efcd5edffe6a06419150fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.106.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/faa3770de9fedc46c0c4cbcfff74d20f04f12ad2",
+      "git:hexsha": "faa3770de9fedc46c0c4cbcfff74d20f04f12ad2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/eb74543305493f7902ee58b0e7a5297e2b781d7e",
+      "git:hexsha": "eb74543305493f7902ee58b0e7a5297e2b781d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.107.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/0da368b273db6a49eb7b766d5595cf02db244f93",
+      "git:hexsha": "0da368b273db6a49eb7b766d5595cf02db244f93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/214facce423fd86daf720ca9faa61eb47d8e7c66",
+      "git:hexsha": "214facce423fd86daf720ca9faa61eb47d8e7c66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/b5f91d31b2078f610f8989f0a3e9531cb39d144b",
+      "git:hexsha": "b5f91d31b2078f610f8989f0a3e9531cb39d144b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/414ba62c699c3728b3f8c7f8c540ec15320623f5",
+      "git:hexsha": "414ba62c699c3728b3f8c7f8c540ec15320623f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/94d77a805b19fe6ad46bb2ddb3f7b322a0d48e0c",
+      "git:hexsha": "94d77a805b19fe6ad46bb2ddb3f7b322a0d48e0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/651db4f7a2e83acba645b8ab367348b226414323",
+      "git:hexsha": "651db4f7a2e83acba645b8ab367348b226414323",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/5fa601d37987b8b8cb547f879a94a2a1cadc28ea",
+      "git:hexsha": "5fa601d37987b8b8cb547f879a94a2a1cadc28ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/22d2691c55ed5de2dfc15d8e0c0b25ea392224cd",
+      "git:hexsha": "22d2691c55ed5de2dfc15d8e0c0b25ea392224cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/232663e8c3cbd08ab64324ca21b98c97b9bf4ff4",
+      "git:hexsha": "232663e8c3cbd08ab64324ca21b98c97b9bf4ff4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/c9925d2e2be64f4703788dc208460867413c3fb0",
+      "git:hexsha": "c9925d2e2be64f4703788dc208460867413c3fb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/c70e5d32d99875ee74e8f8084e0fd579a20def03",
+      "git:hexsha": "c70e5d32d99875ee74e8f8084e0fd579a20def03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/7121dc6ef14b024273e06f3dcb0232eb977ee1f4",
+      "git:hexsha": "7121dc6ef14b024273e06f3dcb0232eb977ee1f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/8612385bdfb4bc1ac2784000c6b832518651bf35",
+      "git:hexsha": "8612385bdfb4bc1ac2784000c6b832518651bf35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.21_16.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/636844873e0a15ae5432233e5d7e5f453106e1ba",
+      "git:hexsha": "636844873e0a15ae5432233e5d7e5f453106e1ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/e3352dfe0e2403772a91483c915271a2d9f9f23a",
+      "git:hexsha": "e3352dfe0e2403772a91483c915271a2d9f9f23a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22_16.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/9cab7d0ffa725a6aef2eed409c2e4e3da08d3c9b",
+      "git:hexsha": "9cab7d0ffa725a6aef2eed409c2e4e3da08d3c9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22_16.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/d25fd8b0af72987b9554e02900d1064d871938cc",
+      "git:hexsha": "d25fd8b0af72987b9554e02900d1064d871938cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.22_17.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/9e522e089a5fbdd606da3ac276cddcae9f5b43ea",
+      "git:hexsha": "9e522e089a5fbdd606da3ac276cddcae9f5b43ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/c910181f7d380ef82bc012710bdcec95064c6803",
+      "git:hexsha": "c910181f7d380ef82bc012710bdcec95064c6803",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23_16.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/84b0eef3246d58471f1b3877739839f75e3abd47",
+      "git:hexsha": "84b0eef3246d58471f1b3877739839f75e3abd47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23_16.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/f3edf99e82b5ae86ef2fc29cb109372c767d6358",
+      "git:hexsha": "f3edf99e82b5ae86ef2fc29cb109372c767d6358",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.23_17.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/91e7f73451f92d2691662083d06d8a84badff665",
+      "git:hexsha": "91e7f73451f92d2691662083d06d8a84badff665",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/aec0b45b430d4b4b3dc1bc991c7466bd704875c8",
+      "git:hexsha": "aec0b45b430d4b4b3dc1bc991c7466bd704875c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/3853d2a2642611efaaff5721f6d66d6fb307c3ca",
+      "git:hexsha": "3853d2a2642611efaaff5721f6d66d6fb307c3ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/493f287d74fc37f082b9c8da0b3e178265fef644",
+      "git:hexsha": "493f287d74fc37f082b9c8da0b3e178265fef644",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.26_16.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/8bac244c8b1c553dce1dd635eb81c23cd6b5a805",
+      "git:hexsha": "8bac244c8b1c553dce1dd635eb81c23cd6b5a805",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/2c7baa3e9a2a3b1cc75290e1633d068731303476",
+      "git:hexsha": "2c7baa3e9a2a3b1cc75290e1633d068731303476",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/6f2a0420cfa2b067179daee2bdaf50248aa42a79",
+      "git:hexsha": "6f2a0420cfa2b067179daee2bdaf50248aa42a79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/c51ea6dba78d17d92661c61af5f3d9f44f862647",
+      "git:hexsha": "c51ea6dba78d17d92661c61af5f3d9f44f862647",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/42f52c3373eca5e9cf74079bb68f90a5b6f29ea1",
+      "git:hexsha": "42f52c3373eca5e9cf74079bb68f90a5b6f29ea1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/85bbe2e3a7d6e88ea0a743a809e737b1cee0d9b7",
+      "git:hexsha": "85bbe2e3a7d6e88ea0a743a809e737b1cee0d9b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/ea0cee1ae4c111714bd3042c59435416e69f20e5",
+      "git:hexsha": "ea0cee1ae4c111714bd3042c59435416e69f20e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31_16.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/50b5b3c7241f1585333c636d6cfb21e95be52d45",
+      "git:hexsha": "50b5b3c7241f1585333c636d6cfb21e95be52d45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31_17.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/4610d1dc0bd93159a336a50f1d2d15a328525128",
+      "git:hexsha": "4610d1dc0bd93159a336a50f1d2d15a328525128",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/639214ff6d4c98a8ff2380e982244f283d7f3f7b",
+      "git:hexsha": "639214ff6d4c98a8ff2380e982244f283d7f3f7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_16.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/a02e76d25dd6d111024ad5afa58de544e4b69bde",
+      "git:hexsha": "a02e76d25dd6d111024ad5afa58de544e4b69bde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_16.04.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/86af009aaa8eada2badcd5788980beaaa826a7b0",
+      "git:hexsha": "86af009aaa8eada2badcd5788980beaaa826a7b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_16.04.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/397babacad10af2b74493b9ee8845e98e8321e93",
+      "git:hexsha": "397babacad10af2b74493b9ee8845e98e8321e93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_16.04.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/c7b61477674ae5cb42a0c5121ff1db6f5a8f8e50",
+      "git:hexsha": "c7b61477674ae5cb42a0c5121ff1db6f5a8f8e50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_16.04.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/2da288d1c3ef9d9a9a9184d2d6198e1a52bd2117",
+      "git:hexsha": "2da288d1c3ef9d9a9a9184d2d6198e1a52bd2117",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_16.04.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/1bd41a2ad0ccc08a46f9c5592359114388bcf9b9",
+      "git:hexsha": "1bd41a2ad0ccc08a46f9c5592359114388bcf9b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_17.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/ee98825ec42174679e4426a698aa2d23a6933ed3",
+      "git:hexsha": "ee98825ec42174679e4426a698aa2d23a6933ed3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_17.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/19e63d26465f23752379a4c2fd1178d5145e4089",
+      "git:hexsha": "19e63d26465f23752379a4c2fd1178d5145e4089",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_17.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/d7e0259af33ad12385940286458e896cda7867e2",
+      "git:hexsha": "d7e0259af33ad12385940286458e896cda7867e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32_17.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/788282ff97b51d222b2be9738afd0b2c8c375394",
+      "git:hexsha": "788282ff97b51d222b2be9738afd0b2c8c375394",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/08ba6e2817c10e0a07ff2c012c59d6631c7b8b4e",
+      "git:hexsha": "08ba6e2817c10e0a07ff2c012c59d6631c7b8b4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/673ea3d6524bdcf1acf8991fa3a6d953bcdbb672",
+      "git:hexsha": "673ea3d6524bdcf1acf8991fa3a6d953bcdbb672",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.34.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/4e795df7471f252a73fd7008a36574f170cab147",
+      "git:hexsha": "4e795df7471f252a73fd7008a36574f170cab147",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/4bbc859916543acf37af7c75829c0f7d23454306",
+      "git:hexsha": "4bbc859916543acf37af7c75829c0f7d23454306",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/e9833cbb4d5c25205d435c9a719acd9e0d9b0689",
+      "git:hexsha": "e9833cbb4d5c25205d435c9a719acd9e0d9b0689",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/f2396beef7c253e04e6fda48b446034d3d988fb8",
+      "git:hexsha": "f2396beef7c253e04e6fda48b446034d3d988fb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/175fd3480c989e9ed47d5ff0db419275f95751d8",
+      "git:hexsha": "175fd3480c989e9ed47d5ff0db419275f95751d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.36.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/168c83e2ecffd4701f9d4a4a78bdcaefe914f58c",
+      "git:hexsha": "168c83e2ecffd4701f9d4a4a78bdcaefe914f58c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/7afef6af053794a400d96f89a81c938c08420783",
+      "git:hexsha": "7afef6af053794a400d96f89a81c938c08420783",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.37.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/839e28b17309ee66b0119aa09b20d56b027575bc",
+      "git:hexsha": "839e28b17309ee66b0119aa09b20d56b027575bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/08c3439a0c6996fb8d3c8deeedaf2a73945bba4d",
+      "git:hexsha": "08c3439a0c6996fb8d3c8deeedaf2a73945bba4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/3755800650ce8f8aa3d36fa4da73154cac48c81b",
+      "git:hexsha": "3755800650ce8f8aa3d36fa4da73154cac48c81b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/41a32a6e9614f193fcb1f766173e408b7c022a8f",
+      "git:hexsha": "41a32a6e9614f193fcb1f766173e408b7c022a8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/c5719e2eacf4b5d3ec9d0a03c49b736d95654d0b",
+      "git:hexsha": "c5719e2eacf4b5d3ec9d0a03c49b736d95654d0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/65eff316f90078d28baf7abb47766d03cd7a6f95",
+      "git:hexsha": "65eff316f90078d28baf7abb47766d03cd7a6f95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.1_18.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/4abf0cb35b3ccb5c541250eddc0600e1ae1cffbb",
+      "git:hexsha": "4abf0cb35b3ccb5c541250eddc0600e1ae1cffbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.1_18.04.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/8f92394cf200db6f3930c2720a7d08851c63f8ae",
+      "git:hexsha": "8f92394cf200db6f3930c2720a7d08851c63f8ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.1_18.04.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/555a907026e6982293a2b4e21b725bf8492dce09",
+      "git:hexsha": "555a907026e6982293a2b4e21b725bf8492dce09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/068d9fe6156d37070634785db664e11af92005fd",
+      "git:hexsha": "068d9fe6156d37070634785db664e11af92005fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/2a75a1733662e9a3f7409f5b709ad7bf321f89c3",
+      "git:hexsha": "2a75a1733662e9a3f7409f5b709ad7bf321f89c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/72616ac4c61df87b31b0563c457ce78d91fa17fb",
+      "git:hexsha": "72616ac4c61df87b31b0563c457ce78d91fa17fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.40_18.04.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/2fcc0d274e13b01cd11323efcb2762b5012322ba",
+      "git:hexsha": "2fcc0d274e13b01cd11323efcb2762b5012322ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/fb541b86d9e0c15cfc726e8b83afb8aa4ab28177",
+      "git:hexsha": "fb541b86d9e0c15cfc726e8b83afb8aa4ab28177",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/d2d32c104ca2d94646b96331034c8359f9b80bcc",
+      "git:hexsha": "d2d32c104ca2d94646b96331034c8359f9b80bcc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/8c7235321c9a9d38a11737b4a11ce1a1316ac8d5",
+      "git:hexsha": "8c7235321c9a9d38a11737b4a11ce1a1316ac8d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/7554d9d9cc79e3169960f898e8ad078748c3982c",
+      "git:hexsha": "7554d9d9cc79e3169960f898e8ad078748c3982c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/eed198afcf0f38601132f3c651cd0ca9704264bf",
+      "git:hexsha": "eed198afcf0f38601132f3c651cd0ca9704264bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.90"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/1ea3ec106a8d5f2f6deb3886a1e2dcdbfabfd37c",
+      "git:hexsha": "1ea3ec106a8d5f2f6deb3886a1e2dcdbfabfd37c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/8a1c46f0afaabea0c63b3c9f0bccf38abd194b8d",
+      "git:hexsha": "8a1c46f0afaabea0c63b3c9f0bccf38abd194b8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/3e732b7bc511e37a7c4df4289b7ac05f71c2827f",
+      "git:hexsha": "3e732b7bc511e37a7c4df4289b7ac05f71c2827f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.96.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/ea47bd4e1c5319b1a624ea61c843ee96e7c128da",
+      "git:hexsha": "ea47bd4e1c5319b1a624ea61c843ee96e7c128da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/9ea105bef2cea28916213aad93a37ea85d89fdbc",
+      "git:hexsha": "9ea105bef2cea28916213aad93a37ea85d89fdbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.98"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/1ccf7e0e3a7a91edbbe3f9f0669c8bbab8248cd1",
+      "git:hexsha": "1ccf7e0e3a7a91edbbe3f9f0669c8bbab8248cd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.99"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/45f7cd1569896d9e316c130bf5c60b7ccfc8211d",
+      "git:hexsha": "45f7cd1569896d9e316c130bf5c60b7ccfc8211d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/3a7516aadaf864ee9d04727977d3d9fd1bccbbda",
+      "git:hexsha": "3a7516aadaf864ee9d04727977d3d9fd1bccbbda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/d27f32305f7f06de449b32239a89969e6ff2be31",
+      "git:hexsha": "d27f32305f7f06de449b32239a89969e6ff2be31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/731d3c9e7e88d3f27ed6cf77edba7a2f5890a778",
+      "git:hexsha": "731d3c9e7e88d3f27ed6cf77edba7a2f5890a778",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/01045f683b9419beb90119497cd1b2be44e83b8e",
+      "git:hexsha": "01045f683b9419beb90119497cd1b2be44e83b8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/b0fdccf2d80b256da401f665b8c977466eb2a61c",
+      "git:hexsha": "b0fdccf2d80b256da401f665b8c977466eb2a61c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/f758e3f6415aa68b7cf28991bc5b3e9631297d6d",
+      "git:hexsha": "f758e3f6415aa68b7cf28991bc5b3e9631297d6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/netplan/commit/e9dd90a96727bc6b7264c36526b39d1dacccc00f",
+      "git:hexsha": "e9dd90a96727bc6b7264c36526b39d1dacccc00f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.2.2"
+    }
+  ]
+}
