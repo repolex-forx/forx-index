@@ -1,0 +1,1983 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator",
+  "@type": "gh:Repository",
+  "gh:name": "pgbouncer-k8s-operator",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a4c57c09f31531c5b548cbd69cc7d9e1bac7dd80",
+      "git:hexsha": "a4c57c09f31531c5b548cbd69cc7d9e1bac7dd80",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-08T19:04:17.801379+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b7c287679bf54ee1f40d1695ce637ce64e970648",
+      "git:hexsha": "b7c287679bf54ee1f40d1695ce637ce64e970648",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/4952d4e4be681eb5fd9dc9cc5a15069c14c70656",
+      "git:hexsha": "4952d4e4be681eb5fd9dc9cc5a15069c14c70656",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8b72b93cc02c9fd6ae885fc1ff1a61038d12fed3",
+      "git:hexsha": "8b72b93cc02c9fd6ae885fc1ff1a61038d12fed3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/878e00a22c83ad5d3fec3fe7637656ba0172c691",
+      "git:hexsha": "878e00a22c83ad5d3fec3fe7637656ba0172c691",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5068ae5bc6bcb4c5d5fcb6f7440480894c37fe4f",
+      "git:hexsha": "5068ae5bc6bcb4c5d5fcb6f7440480894c37fe4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8f212a8b767d832e659ba0f396b31c92a5cab798",
+      "git:hexsha": "8f212a8b767d832e659ba0f396b31c92a5cab798",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f4f03df02ce882bbb4caa158a9a7ac9bfe5bb817",
+      "git:hexsha": "f4f03df02ce882bbb4caa158a9a7ac9bfe5bb817",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev106"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2655c86ef6d62d731a1d1413ebb3b53f8072638e",
+      "git:hexsha": "2655c86ef6d62d731a1d1413ebb3b53f8072638e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/95afffbfd00db80a78a8757685b8714959eddb52",
+      "git:hexsha": "95afffbfd00db80a78a8757685b8714959eddb52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev108"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b75d8695b5610b7b24de5f10429a847963f626e3",
+      "git:hexsha": "b75d8695b5610b7b24de5f10429a847963f626e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev109"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/545c3d68a76bfac46bbde5840238c1e27ab8b169",
+      "git:hexsha": "545c3d68a76bfac46bbde5840238c1e27ab8b169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/13d7221a25e33ef92fc5ac22ca3eb92d6f3f3ef5",
+      "git:hexsha": "13d7221a25e33ef92fc5ac22ca3eb92d6f3f3ef5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev111"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fccfd1119f682a4d4e5bdc47899ebd1e39c7da33",
+      "git:hexsha": "fccfd1119f682a4d4e5bdc47899ebd1e39c7da33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev112"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7c8b81001cb31a4b88ee118f513f7dcca9372dea",
+      "git:hexsha": "7c8b81001cb31a4b88ee118f513f7dcca9372dea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev114"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/14951ac1a3eb1a9586b6769cdb04344def7e38b5",
+      "git:hexsha": "14951ac1a3eb1a9586b6769cdb04344def7e38b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev116"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8ce92b3f726b4bcb83bff43f4eb7802512fdd1c7",
+      "git:hexsha": "8ce92b3f726b4bcb83bff43f4eb7802512fdd1c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev118"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/534129ec274f4910edd581b3976797754a8cc47b",
+      "git:hexsha": "534129ec274f4910edd581b3976797754a8cc47b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev12"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7641c8d6a0a8f4005500f76230d67aa883a2505d",
+      "git:hexsha": "7641c8d6a0a8f4005500f76230d67aa883a2505d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev120"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ea0c729edaa3f0b52aa96d72f3d3634f27281289",
+      "git:hexsha": "ea0c729edaa3f0b52aa96d72f3d3634f27281289",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev122"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0c2a1514f2521978a3986c5efb5b8609f0b7fd4f",
+      "git:hexsha": "0c2a1514f2521978a3986c5efb5b8609f0b7fd4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev124"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f71eba095981e3a5cdf814ec4b989e1729135463",
+      "git:hexsha": "f71eba095981e3a5cdf814ec4b989e1729135463",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev126"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1b32d29be39df2e5b20074e665f4305067db0411",
+      "git:hexsha": "1b32d29be39df2e5b20074e665f4305067db0411",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev128"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6207d3b8199c3bc0528f3537723eb47a6fd380f5",
+      "git:hexsha": "6207d3b8199c3bc0528f3537723eb47a6fd380f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev13"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/eae17322fddda994217067a58f8ba9f392cc87b9",
+      "git:hexsha": "eae17322fddda994217067a58f8ba9f392cc87b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev132"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/80d1d649351b123cc17990908fca3e8bd97b0c27",
+      "git:hexsha": "80d1d649351b123cc17990908fca3e8bd97b0c27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev134"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/68092994704ba1f80b53d8a6a623f3a612b0dddb",
+      "git:hexsha": "68092994704ba1f80b53d8a6a623f3a612b0dddb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev136"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/52775fd1f3674d37c1dbd2bf97e93130cd69bcf8",
+      "git:hexsha": "52775fd1f3674d37c1dbd2bf97e93130cd69bcf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev139"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2a3dc196b8e14368fce0b5707a00e097c9bb944a",
+      "git:hexsha": "2a3dc196b8e14368fce0b5707a00e097c9bb944a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev14"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/09849277ef9bcc10fb04934a2e78f03db369dbf1",
+      "git:hexsha": "09849277ef9bcc10fb04934a2e78f03db369dbf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3e126393dac56f85b087f206041196e43997fb2f",
+      "git:hexsha": "3e126393dac56f85b087f206041196e43997fb2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cd490f5312b0090ed487f544723c07bcaa453934",
+      "git:hexsha": "cd490f5312b0090ed487f544723c07bcaa453934",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e352a49785c52eae37dc4f3e5738fc7935822354",
+      "git:hexsha": "e352a49785c52eae37dc4f3e5738fc7935822354",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6247dc628c0d17716e1e5471f101e1f0acef7ba0",
+      "git:hexsha": "6247dc628c0d17716e1e5471f101e1f0acef7ba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f5f47ba2d002c78bf8b9e94add5ab843e6d8cc1d",
+      "git:hexsha": "f5f47ba2d002c78bf8b9e94add5ab843e6d8cc1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev15"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/4e00829706ab5d26682ec7f707130b2fa124b788",
+      "git:hexsha": "4e00829706ab5d26682ec7f707130b2fa124b788",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev151"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2cd7b9d63d30cd3bf8b33b4dc94dbfbe1dbd54e3",
+      "git:hexsha": "2cd7b9d63d30cd3bf8b33b4dc94dbfbe1dbd54e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c3ea00eb1a8f22e192d5f658cbc4edb3522ae1f9",
+      "git:hexsha": "c3ea00eb1a8f22e192d5f658cbc4edb3522ae1f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev155"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/54f5fdb802f2ccea9114c4f93731d6470cc86fb9",
+      "git:hexsha": "54f5fdb802f2ccea9114c4f93731d6470cc86fb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev157"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/90bd19a290a5e1b8d7d2526a728d39d13163ea69",
+      "git:hexsha": "90bd19a290a5e1b8d7d2526a728d39d13163ea69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/86493090049f34f3bcf46c1784ce76134eafbcaf",
+      "git:hexsha": "86493090049f34f3bcf46c1784ce76134eafbcaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev16"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c189dc3a9f84208f2ec86cc941ecafc704344ffc",
+      "git:hexsha": "c189dc3a9f84208f2ec86cc941ecafc704344ffc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/eaf0790951a1f58b07e36a08ddcd7838969c32a9",
+      "git:hexsha": "eaf0790951a1f58b07e36a08ddcd7838969c32a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev163"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6fc8825550fa814fcabfca852b7f6cfe7bf1b3bb",
+      "git:hexsha": "6fc8825550fa814fcabfca852b7f6cfe7bf1b3bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fc815f4d823943241ab4a5ed8536f764aa38b2b8",
+      "git:hexsha": "fc815f4d823943241ab4a5ed8536f764aa38b2b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/06063d3d4b516b8ba1c179a3c1d91c4ff8ea730e",
+      "git:hexsha": "06063d3d4b516b8ba1c179a3c1d91c4ff8ea730e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev169"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/746d33839d15817fb66b74d8efc8e29937c0034a",
+      "git:hexsha": "746d33839d15817fb66b74d8efc8e29937c0034a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev17"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9fff234e31a75038a52406afffb32bb3ca96ddd9",
+      "git:hexsha": "9fff234e31a75038a52406afffb32bb3ca96ddd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev171"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ae01c791cce75a8c9997b37cea209dd81462111e",
+      "git:hexsha": "ae01c791cce75a8c9997b37cea209dd81462111e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev173"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d58f7c91e8543f0854f1921da591541d540de569",
+      "git:hexsha": "d58f7c91e8543f0854f1921da591541d540de569",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev175"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c36b92b979236d3710606b99cf0fb6c86baf016e",
+      "git:hexsha": "c36b92b979236d3710606b99cf0fb6c86baf016e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev177"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9203720531ed4e6e7f559135fccc3e45f8637c41",
+      "git:hexsha": "9203720531ed4e6e7f559135fccc3e45f8637c41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev179"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/bf7d61df003826df4ec69df999e825711c349e1f",
+      "git:hexsha": "bf7d61df003826df4ec69df999e825711c349e1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev18"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/96c62d1a90a3950b03db1367225a07511c9470d1",
+      "git:hexsha": "96c62d1a90a3950b03db1367225a07511c9470d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev181"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/654132a4e2bc308500704b2a3cb467e885b66eea",
+      "git:hexsha": "654132a4e2bc308500704b2a3cb467e885b66eea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev183"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fdfcbf03363d5afc05f44db87fd80fe0cdd8b02e",
+      "git:hexsha": "fdfcbf03363d5afc05f44db87fd80fe0cdd8b02e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev185"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7201b0d6e4434d19c7e79b1e714a2a9425d0feef",
+      "git:hexsha": "7201b0d6e4434d19c7e79b1e714a2a9425d0feef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev187"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d1c5ec455e108d6671de331ac7f00e23d2a67424",
+      "git:hexsha": "d1c5ec455e108d6671de331ac7f00e23d2a67424",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev189"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/88c43bc17acf48305de2ca644ab1257c871a900d",
+      "git:hexsha": "88c43bc17acf48305de2ca644ab1257c871a900d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev19"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3454761ee92c981e4049b762016ef8d99eb93d63",
+      "git:hexsha": "3454761ee92c981e4049b762016ef8d99eb93d63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev191"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2c70f147001dc913e43c0d6a267c8a5332b80ccb",
+      "git:hexsha": "2c70f147001dc913e43c0d6a267c8a5332b80ccb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev193"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c2cc0da3517fd7f1d25b61e8c7d1dc718d907e18",
+      "git:hexsha": "c2cc0da3517fd7f1d25b61e8c7d1dc718d907e18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev195"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f7cd088316f18956d59227f1f66d81853b468b8b",
+      "git:hexsha": "f7cd088316f18956d59227f1f66d81853b468b8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev197"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/55ed868178f2c87bc7f55dd1a2b54e3f116eae0a",
+      "git:hexsha": "55ed868178f2c87bc7f55dd1a2b54e3f116eae0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev199"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/377087954b56a9a6c2bc5114342cd59cf7e2b069",
+      "git:hexsha": "377087954b56a9a6c2bc5114342cd59cf7e2b069",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e2efa7a93321f1483aebbbc8ba5279dd201d5c06",
+      "git:hexsha": "e2efa7a93321f1483aebbbc8ba5279dd201d5c06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev20"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/92a01e7741957e7520760f4c388c7b395eb95e47",
+      "git:hexsha": "92a01e7741957e7520760f4c388c7b395eb95e47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev201"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8c128944a89b796be2e1ea3c4dab60ae33097db3",
+      "git:hexsha": "8c128944a89b796be2e1ea3c4dab60ae33097db3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev203"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0acb9deda49d0e36a402258d761ffe4acfdb189b",
+      "git:hexsha": "0acb9deda49d0e36a402258d761ffe4acfdb189b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev205"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7d7ab7aec7502dd1134d0d370fc7c849a4818167",
+      "git:hexsha": "7d7ab7aec7502dd1134d0d370fc7c849a4818167",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev207"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3eab132a77b9feebf1a6c4896e000994ca8205f6",
+      "git:hexsha": "3eab132a77b9feebf1a6c4896e000994ca8205f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev209"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/978a6d99b77a8e6ead4924359d289c8a716979b7",
+      "git:hexsha": "978a6d99b77a8e6ead4924359d289c8a716979b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f3e978a0eda394edfafe7a944fe1114eabedea4f",
+      "git:hexsha": "f3e978a0eda394edfafe7a944fe1114eabedea4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev211"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/852cb9d877ae31eaeb405daf8440350e68f96501",
+      "git:hexsha": "852cb9d877ae31eaeb405daf8440350e68f96501",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev216"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8bad26562eb8bee67d43d26d10d6b8fe5fa68813",
+      "git:hexsha": "8bad26562eb8bee67d43d26d10d6b8fe5fa68813",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev218"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/79d33a4b832c8dccb4acfdbfd157a2583f740fe9",
+      "git:hexsha": "79d33a4b832c8dccb4acfdbfd157a2583f740fe9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev220"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c565f9313265a6200b201a9a23b2e6be8be93f39",
+      "git:hexsha": "c565f9313265a6200b201a9a23b2e6be8be93f39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2a5b0bf814eda90f80d565ef0a0e5758040c7cce",
+      "git:hexsha": "2a5b0bf814eda90f80d565ef0a0e5758040c7cce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev222"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8bf3c67d720f12810c2fec24376226b25fe82ee8",
+      "git:hexsha": "8bf3c67d720f12810c2fec24376226b25fe82ee8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev227"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0ebf96f638df1804cfff06652fe93f943ae78e60",
+      "git:hexsha": "0ebf96f638df1804cfff06652fe93f943ae78e60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev229"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/db9c3dea568e79c0f9caec22d7f2a27f4f9c6038",
+      "git:hexsha": "db9c3dea568e79c0f9caec22d7f2a27f4f9c6038",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev23"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/20c33d5c7bc9182680e710b89a0ad34020a8ba62",
+      "git:hexsha": "20c33d5c7bc9182680e710b89a0ad34020a8ba62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev233"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0d0da63c0659f68fc97efd5f7cc09bfd433f0089",
+      "git:hexsha": "0d0da63c0659f68fc97efd5f7cc09bfd433f0089",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev235"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f29fdcf699e9699dafa36c8e2c320c9626f7fa03",
+      "git:hexsha": "f29fdcf699e9699dafa36c8e2c320c9626f7fa03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev237"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/56f270e8bb8aee0fbdb3747c37faa29c714e41c2",
+      "git:hexsha": "56f270e8bb8aee0fbdb3747c37faa29c714e41c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev239"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0821bbc36322e2fdd34bacc5b1f0ffbd8722c4dd",
+      "git:hexsha": "0821bbc36322e2fdd34bacc5b1f0ffbd8722c4dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/88a29a80b99ec5fb94919fd25dfb36d09e5ed1e6",
+      "git:hexsha": "88a29a80b99ec5fb94919fd25dfb36d09e5ed1e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev241"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d7f44f0534ce26c7f5f89b0c108c6a4b94f6f6ca",
+      "git:hexsha": "d7f44f0534ce26c7f5f89b0c108c6a4b94f6f6ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev243"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e198af9d31a168b50f77ae3d120b036abcad64f7",
+      "git:hexsha": "e198af9d31a168b50f77ae3d120b036abcad64f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev245"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8f6fce3c8663f3af6d38e67ac10f76846880ac6b",
+      "git:hexsha": "8f6fce3c8663f3af6d38e67ac10f76846880ac6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev247"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/763c5df153c5ff9bd13edcfd2bccdd5dd80ca615",
+      "git:hexsha": "763c5df153c5ff9bd13edcfd2bccdd5dd80ca615",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev249"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/48b5dfb1e3fa0623bcdfaeb0356f02dc61a18cfc",
+      "git:hexsha": "48b5dfb1e3fa0623bcdfaeb0356f02dc61a18cfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ead68a88a5734ba0b0c85620318dcf24dac621ae",
+      "git:hexsha": "ead68a88a5734ba0b0c85620318dcf24dac621ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev251"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/989b1d62a39bc69134f5633b33bc6937762a23ea",
+      "git:hexsha": "989b1d62a39bc69134f5633b33bc6937762a23ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev253"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5af5c3c89d4a3ad2d235cf5c6220ca31387fdfc6",
+      "git:hexsha": "5af5c3c89d4a3ad2d235cf5c6220ca31387fdfc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev255"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a7afe2a09aa37d74fcc1a1a0a876800bab4fee0e",
+      "git:hexsha": "a7afe2a09aa37d74fcc1a1a0a876800bab4fee0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev257"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f712e4e097611f45b1a0046a5c445e8dbebcd79f",
+      "git:hexsha": "f712e4e097611f45b1a0046a5c445e8dbebcd79f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev259"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/4196924cbe72b1841f6c78cd0b09f05010be7615",
+      "git:hexsha": "4196924cbe72b1841f6c78cd0b09f05010be7615",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev26"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ee74c4608b1fbfcd23981b935510a6685053472c",
+      "git:hexsha": "ee74c4608b1fbfcd23981b935510a6685053472c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev261"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c46852e2f2eb33ccb96b1000be2bf0d72dbe0a91",
+      "git:hexsha": "c46852e2f2eb33ccb96b1000be2bf0d72dbe0a91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev263"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/511d62734f8e0019c7c9dd4d19d0f11c7bcb9fee",
+      "git:hexsha": "511d62734f8e0019c7c9dd4d19d0f11c7bcb9fee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev265"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/07898621b96bcc1524e375f2a99170d63ad95efd",
+      "git:hexsha": "07898621b96bcc1524e375f2a99170d63ad95efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev267"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7e79089754f1173d99beb42da0a3fd5efc036a6f",
+      "git:hexsha": "7e79089754f1173d99beb42da0a3fd5efc036a6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev269"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0e2945c70547e246a6dfea35cbd1734457cd08a4",
+      "git:hexsha": "0e2945c70547e246a6dfea35cbd1734457cd08a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev27"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2d2be26786c2922cf5245df25c3951b51fc36fd9",
+      "git:hexsha": "2d2be26786c2922cf5245df25c3951b51fc36fd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev271"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8b0b1ad0a59b448034663793c59856c8163ffe6f",
+      "git:hexsha": "8b0b1ad0a59b448034663793c59856c8163ffe6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev273"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2aa8cc055273fa0e7f85f4225dc30b7c809ee4a7",
+      "git:hexsha": "2aa8cc055273fa0e7f85f4225dc30b7c809ee4a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev275"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/556b23e7f83d7ce0f9e15d56a44901b68f828a80",
+      "git:hexsha": "556b23e7f83d7ce0f9e15d56a44901b68f828a80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev277"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8a3d882802260dcaf83c6b5615b94fbaf7fff321",
+      "git:hexsha": "8a3d882802260dcaf83c6b5615b94fbaf7fff321",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev279"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2cd814be8fa2f54a425b695f2bcafd34ca936fdb",
+      "git:hexsha": "2cd814be8fa2f54a425b695f2bcafd34ca936fdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev28"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3ac9de16061039ec3679fba5aad9cc90ecbcfd4b",
+      "git:hexsha": "3ac9de16061039ec3679fba5aad9cc90ecbcfd4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev281"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b4afe3b9fff6b3ddb392eee64a5a888ae2341876",
+      "git:hexsha": "b4afe3b9fff6b3ddb392eee64a5a888ae2341876",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev283"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/64f390714bb9fdc2524ad6fe9852cf5f95d3e9c8",
+      "git:hexsha": "64f390714bb9fdc2524ad6fe9852cf5f95d3e9c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev285"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c2eb6cb9e4dfc48becda76ebe23ac5995b5d80a8",
+      "git:hexsha": "c2eb6cb9e4dfc48becda76ebe23ac5995b5d80a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev287"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/00837cf9be5e758728056ddda8e38cb009f6512f",
+      "git:hexsha": "00837cf9be5e758728056ddda8e38cb009f6512f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev289"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/da03c11c714019ac709a44be5c7b4739ea931f39",
+      "git:hexsha": "da03c11c714019ac709a44be5c7b4739ea931f39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev29"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e78076ab5d0815ef2d24d0fb1351af080c4ba296",
+      "git:hexsha": "e78076ab5d0815ef2d24d0fb1351af080c4ba296",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev291"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/63e013fd987b1fe82e100eaaa4b0c5038191ef17",
+      "git:hexsha": "63e013fd987b1fe82e100eaaa4b0c5038191ef17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev293"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c631c684f9a08be09530ba06e98ede2923081f36",
+      "git:hexsha": "c631c684f9a08be09530ba06e98ede2923081f36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev295"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/70e00b7e0441f53efab26fecadc38386780ae143",
+      "git:hexsha": "70e00b7e0441f53efab26fecadc38386780ae143",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev297"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7a56afc60bf856c76842d82fc4941aed61b7ed1e",
+      "git:hexsha": "7a56afc60bf856c76842d82fc4941aed61b7ed1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev299"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b28e92d6dfa2fed16d7f16faf60ecaa7dfd82677",
+      "git:hexsha": "b28e92d6dfa2fed16d7f16faf60ecaa7dfd82677",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2c7f87addaa1edeba1d95450e567cb876dd7a75e",
+      "git:hexsha": "2c7f87addaa1edeba1d95450e567cb876dd7a75e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/01dd3eb7d2cf4612c6b73326c1412f16bdc999c7",
+      "git:hexsha": "01dd3eb7d2cf4612c6b73326c1412f16bdc999c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev301"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/97a093250ee0716b671bfeecf31199e0aaef7d72",
+      "git:hexsha": "97a093250ee0716b671bfeecf31199e0aaef7d72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev303"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/56f5cc1785bd8858af2895268b9648aa0df1824a",
+      "git:hexsha": "56f5cc1785bd8858af2895268b9648aa0df1824a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev305"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/86e7cc9cb4e8268cf4387275511ad50740f28bbb",
+      "git:hexsha": "86e7cc9cb4e8268cf4387275511ad50740f28bbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev307"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/425b197caa19e6c5c2056a29ab6bcc425af4a3f4",
+      "git:hexsha": "425b197caa19e6c5c2056a29ab6bcc425af4a3f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev309"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cfb5382db6bca02b746539a83d48f26e50b0cddb",
+      "git:hexsha": "cfb5382db6bca02b746539a83d48f26e50b0cddb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/260d9e5eaa055677cc36392e325f6ad1e6105924",
+      "git:hexsha": "260d9e5eaa055677cc36392e325f6ad1e6105924",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev313"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9e44478830d47ca58e259d5beb95b7b94cee0e7e",
+      "git:hexsha": "9e44478830d47ca58e259d5beb95b7b94cee0e7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev315"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/951040c8edafee3516517c9b75eb5a38cd3bbb79",
+      "git:hexsha": "951040c8edafee3516517c9b75eb5a38cd3bbb79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev317"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1a2d87e9c4442762cd8b872f6823fa46f25672f0",
+      "git:hexsha": "1a2d87e9c4442762cd8b872f6823fa46f25672f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev319"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/211080aabe6d954085b8b4f18f6609efb821e492",
+      "git:hexsha": "211080aabe6d954085b8b4f18f6609efb821e492",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9481031214f06c3e5dfa06e3376746fd474b7ae2",
+      "git:hexsha": "9481031214f06c3e5dfa06e3376746fd474b7ae2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev321"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8bca80df7f6ec2e0591c6037972ebe80d2f9ae38",
+      "git:hexsha": "8bca80df7f6ec2e0591c6037972ebe80d2f9ae38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev323"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/37678e3fa3a240ffafcbde711523ed009c2c3a90",
+      "git:hexsha": "37678e3fa3a240ffafcbde711523ed009c2c3a90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev325"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c4bfd4c4b7b9a15399d82efb48b6eda877599772",
+      "git:hexsha": "c4bfd4c4b7b9a15399d82efb48b6eda877599772",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev330"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/70d653ddac0250096958aed5a9fbed9e9341e626",
+      "git:hexsha": "70d653ddac0250096958aed5a9fbed9e9341e626",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev332"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/af7823796149cd944ba0b7850c7c670b2cf3b04f",
+      "git:hexsha": "af7823796149cd944ba0b7850c7c670b2cf3b04f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev334"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8c2983465c325c3877d8db0a88660f9f2a743fc7",
+      "git:hexsha": "8c2983465c325c3877d8db0a88660f9f2a743fc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev338"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/48e585e125b031ed97d9e84347cad7912fab4506",
+      "git:hexsha": "48e585e125b031ed97d9e84347cad7912fab4506",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev340"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3d3678bdd2e18a021a08c1b04748638cbe8f9aa3",
+      "git:hexsha": "3d3678bdd2e18a021a08c1b04748638cbe8f9aa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/272a48461efd896750c0bccbde7906d856488492",
+      "git:hexsha": "272a48461efd896750c0bccbde7906d856488492",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev342"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/75b5a69f2b7cfdb4a28dafbfed99fc02777f68e5",
+      "git:hexsha": "75b5a69f2b7cfdb4a28dafbfed99fc02777f68e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev344"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/4a86dedcdfa51ad6b565b258ea871598a19e0fa3",
+      "git:hexsha": "4a86dedcdfa51ad6b565b258ea871598a19e0fa3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev346"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/03bce05c7a89904abe7fec264c5ea0fd2e4c042f",
+      "git:hexsha": "03bce05c7a89904abe7fec264c5ea0fd2e4c042f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev348"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/69bec4e1e5844d4cd405d87ad5576e2491c02ddd",
+      "git:hexsha": "69bec4e1e5844d4cd405d87ad5576e2491c02ddd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev350"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d579740f778db0a73a9f462940902871daaf8d53",
+      "git:hexsha": "d579740f778db0a73a9f462940902871daaf8d53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a66f5dfd32aa6e5ede5f72a9fe770d3ba4fd71b0",
+      "git:hexsha": "a66f5dfd32aa6e5ede5f72a9fe770d3ba4fd71b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev352"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/abbb77057432e7d1f8cc1a098f845db8bf4cab87",
+      "git:hexsha": "abbb77057432e7d1f8cc1a098f845db8bf4cab87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev354"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8861d6e5db469bbe7d9e0c9e1007426a726fa389",
+      "git:hexsha": "8861d6e5db469bbe7d9e0c9e1007426a726fa389",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev356"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1af1c391f46d251c249f616bfa55b6b712201d21",
+      "git:hexsha": "1af1c391f46d251c249f616bfa55b6b712201d21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev358"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b1e30eb7dc11dca1bb691fb47a469eeafc617ee6",
+      "git:hexsha": "b1e30eb7dc11dca1bb691fb47a469eeafc617ee6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev360"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/242a383ed8a7c09be39e6b243aa8561b65b82ed2",
+      "git:hexsha": "242a383ed8a7c09be39e6b243aa8561b65b82ed2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/edf03eb773e0b9bf500961451161da964a486e14",
+      "git:hexsha": "edf03eb773e0b9bf500961451161da964a486e14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev364"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cd2f174148e9673d3904966603b0abcaa5914c86",
+      "git:hexsha": "cd2f174148e9673d3904966603b0abcaa5914c86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev366"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2c6902cb36e1625bd9aaedba4b85cc0c716f98dc",
+      "git:hexsha": "2c6902cb36e1625bd9aaedba4b85cc0c716f98dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev368"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7f4cef0f35182623f75ce053826592b75c90b49a",
+      "git:hexsha": "7f4cef0f35182623f75ce053826592b75c90b49a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev370"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6ae40b5ad752b2ddea4533c15159080b1f89eabf",
+      "git:hexsha": "6ae40b5ad752b2ddea4533c15159080b1f89eabf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev37"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8b8d80ef27d57a7a09d8f98be188c8bed839109f",
+      "git:hexsha": "8b8d80ef27d57a7a09d8f98be188c8bed839109f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev372"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e39fb167eeedf2f4129bd1e6255769a095e66c21",
+      "git:hexsha": "e39fb167eeedf2f4129bd1e6255769a095e66c21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev374"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/da6a819a05ac4b296db236a04d62537072830518",
+      "git:hexsha": "da6a819a05ac4b296db236a04d62537072830518",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev376"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d88be659b6affe1cc812e2b3e5ebf6c469f7591d",
+      "git:hexsha": "d88be659b6affe1cc812e2b3e5ebf6c469f7591d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev378"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d8b7ee75d73f3d379e5e1e4441c0250a07a68653",
+      "git:hexsha": "d8b7ee75d73f3d379e5e1e4441c0250a07a68653",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev380"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a3c7026b24348d5203d3b342b45307285e4590a7",
+      "git:hexsha": "a3c7026b24348d5203d3b342b45307285e4590a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/19f946331f58d90fe05e85659865b79e27e921a7",
+      "git:hexsha": "19f946331f58d90fe05e85659865b79e27e921a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev382"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/afac9b9770343eec61a5c0de2cb4a6f29b8fa2d0",
+      "git:hexsha": "afac9b9770343eec61a5c0de2cb4a6f29b8fa2d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev384"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9855997611022bba4bdd02f595083df36197277a",
+      "git:hexsha": "9855997611022bba4bdd02f595083df36197277a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev386"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c2c449ae557ee8f042853ae259f38ddf492db141",
+      "git:hexsha": "c2c449ae557ee8f042853ae259f38ddf492db141",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev388"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/130011f9db4d1ea4e2fa72be7e6ccb82b7fe6762",
+      "git:hexsha": "130011f9db4d1ea4e2fa72be7e6ccb82b7fe6762",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev390"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f30222fb8ec6d990b50a71c6efa707e987bbd99a",
+      "git:hexsha": "f30222fb8ec6d990b50a71c6efa707e987bbd99a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0c2e3d21167494492fc6921eaa51d51b24546369",
+      "git:hexsha": "0c2e3d21167494492fc6921eaa51d51b24546369",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev392"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ed327b490e58aa299aaf1b4acc2fcb6962d65748",
+      "git:hexsha": "ed327b490e58aa299aaf1b4acc2fcb6962d65748",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev396"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/296a5dc7184393aa03d205b190103ea224728711",
+      "git:hexsha": "296a5dc7184393aa03d205b190103ea224728711",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev398"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/166d967030c3725795ebcdb609e2fbf19a2c2739",
+      "git:hexsha": "166d967030c3725795ebcdb609e2fbf19a2c2739",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev400"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/282787ba844e50b9947115f13339b0a4912785db",
+      "git:hexsha": "282787ba844e50b9947115f13339b0a4912785db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/15449849e1c0434a46142e3880af3e6b1cf22d03",
+      "git:hexsha": "15449849e1c0434a46142e3880af3e6b1cf22d03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/274ae39becfbc9c8f3755fdcfb6504c2401cf03c",
+      "git:hexsha": "274ae39becfbc9c8f3755fdcfb6504c2401cf03c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev402"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5e4186effd62ee01c37509820f79e70132c591d1",
+      "git:hexsha": "5e4186effd62ee01c37509820f79e70132c591d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev404"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/68f1acbfab5ee44c3a82bc19e372f69138d3eb70",
+      "git:hexsha": "68f1acbfab5ee44c3a82bc19e372f69138d3eb70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev406"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9d4cad19cbc151313a932d5b95668d70322db40b",
+      "git:hexsha": "9d4cad19cbc151313a932d5b95668d70322db40b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev408"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/df7ab9367040d34ecb4070362e776ab0ce90dc14",
+      "git:hexsha": "df7ab9367040d34ecb4070362e776ab0ce90dc14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev410"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/69a3ca03acd9aa97c0d62b077ac515502896ffc7",
+      "git:hexsha": "69a3ca03acd9aa97c0d62b077ac515502896ffc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev41"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/50d376cbe40d45f7c643eb202e9a0d30896967f7",
+      "git:hexsha": "50d376cbe40d45f7c643eb202e9a0d30896967f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev412"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/255c6aa5765a291bcfe27133c0146fb17e33c338",
+      "git:hexsha": "255c6aa5765a291bcfe27133c0146fb17e33c338",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev414"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c6f49095a4977027c5ffff9ffed98a608984633d",
+      "git:hexsha": "c6f49095a4977027c5ffff9ffed98a608984633d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev416"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/38236c669a2d89d987642dc9934f7e95fb10aa90",
+      "git:hexsha": "38236c669a2d89d987642dc9934f7e95fb10aa90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev418"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fa2834f249b1cf6f6a925e25802ea46e5f88a1ee",
+      "git:hexsha": "fa2834f249b1cf6f6a925e25802ea46e5f88a1ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev420"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/bbcdc23664d9375e30840b0ce0f0857f6f0165a7",
+      "git:hexsha": "bbcdc23664d9375e30840b0ce0f0857f6f0165a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e26ca9fa9057c9078fb7a4ed3eaace6385519338",
+      "git:hexsha": "e26ca9fa9057c9078fb7a4ed3eaace6385519338",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev422"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/63adf3bc808802ccc48d52198d48e3bbb2c62f05",
+      "git:hexsha": "63adf3bc808802ccc48d52198d48e3bbb2c62f05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev424"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e25267de239e5b307cd170e457f09f2162b01a1d",
+      "git:hexsha": "e25267de239e5b307cd170e457f09f2162b01a1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev426"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c293d7156b95308931eb3cc77e7d3cfa584f9f4c",
+      "git:hexsha": "c293d7156b95308931eb3cc77e7d3cfa584f9f4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev428"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6351c9c14134910f652718094c4bbb189afba28f",
+      "git:hexsha": "6351c9c14134910f652718094c4bbb189afba28f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev430"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b10c643656334617d0fee1edc999d82aec28f9d0",
+      "git:hexsha": "b10c643656334617d0fee1edc999d82aec28f9d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev43"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e43c53f05d234fdea8e9184d8825f6edd64679eb",
+      "git:hexsha": "e43c53f05d234fdea8e9184d8825f6edd64679eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev432"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/72c25875965eb323a2526a0715d777f5004b3a90",
+      "git:hexsha": "72c25875965eb323a2526a0715d777f5004b3a90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev434"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f0e535f808cc19ccf25c7609dc5042d14f054d9f",
+      "git:hexsha": "f0e535f808cc19ccf25c7609dc5042d14f054d9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev436"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a4a6421d7270dd256e18cb2d3dbe0443483d6596",
+      "git:hexsha": "a4a6421d7270dd256e18cb2d3dbe0443483d6596",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev438"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8d1ad9bed509b176407b8b09542f6d609f0f8eeb",
+      "git:hexsha": "8d1ad9bed509b176407b8b09542f6d609f0f8eeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev440"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fd8a4ddca8b65c4e77f90e44b799e0b3f2c162e2",
+      "git:hexsha": "fd8a4ddca8b65c4e77f90e44b799e0b3f2c162e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e987d1b494daac74103f6241a9ef2b3406268158",
+      "git:hexsha": "e987d1b494daac74103f6241a9ef2b3406268158",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev442"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/21aae17451082997648a6971821ce503d089f11a",
+      "git:hexsha": "21aae17451082997648a6971821ce503d089f11a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev444"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e450a47786b746d338e0808dc6f68da73bb37eaa",
+      "git:hexsha": "e450a47786b746d338e0808dc6f68da73bb37eaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev446"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d78316677f47e56d8db83d90107f272b9bb96757",
+      "git:hexsha": "d78316677f47e56d8db83d90107f272b9bb96757",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev448"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/63b06261c8c420dbea1a17e55e8989dfd3cd8bab",
+      "git:hexsha": "63b06261c8c420dbea1a17e55e8989dfd3cd8bab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev45"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3948890ed1f72fc50c77fd7024b1c76298f780d0",
+      "git:hexsha": "3948890ed1f72fc50c77fd7024b1c76298f780d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev452"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/00c42cae3180dd62592d51c576eeda7ca575d66b",
+      "git:hexsha": "00c42cae3180dd62592d51c576eeda7ca575d66b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev454"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d9250e7b63aceaab16fb8132460cb1efaad74941",
+      "git:hexsha": "d9250e7b63aceaab16fb8132460cb1efaad74941",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev456"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ac9e254976649066f188f1052c74875f489788d1",
+      "git:hexsha": "ac9e254976649066f188f1052c74875f489788d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev459"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/57c6efc5fae18e7f60b08f456de35d3832670625",
+      "git:hexsha": "57c6efc5fae18e7f60b08f456de35d3832670625",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev46"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/baf8c049121b963478def78aaa50da16826d1940",
+      "git:hexsha": "baf8c049121b963478def78aaa50da16826d1940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev461"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9ea4e04788d646507a071e3a34c3cdf71852396d",
+      "git:hexsha": "9ea4e04788d646507a071e3a34c3cdf71852396d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev463"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0d5db49cf7179a0127d65f631475b6586418b3f1",
+      "git:hexsha": "0d5db49cf7179a0127d65f631475b6586418b3f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev465"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/00eab009776532ac0fdfb982a767008ad24518c4",
+      "git:hexsha": "00eab009776532ac0fdfb982a767008ad24518c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev467"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/17f31c0772f2036a1ecde89671ead7ad1ed27d24",
+      "git:hexsha": "17f31c0772f2036a1ecde89671ead7ad1ed27d24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev469"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2f02928cc1a9028a90f86d1d984e590cfb84dbda",
+      "git:hexsha": "2f02928cc1a9028a90f86d1d984e590cfb84dbda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev47"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5621cde9beb3820471d5a1f106b07739ddda54b2",
+      "git:hexsha": "5621cde9beb3820471d5a1f106b07739ddda54b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev471"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/118576b924b1e6e7bf5bf11ce8b71d39dd4a71d4",
+      "git:hexsha": "118576b924b1e6e7bf5bf11ce8b71d39dd4a71d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev473"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fa1de54a24ce8caa2bda0be5b080fcfa65ae762e",
+      "git:hexsha": "fa1de54a24ce8caa2bda0be5b080fcfa65ae762e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev477"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/bdb619ae52b794e516c8b1fc54a67549f655cddd",
+      "git:hexsha": "bdb619ae52b794e516c8b1fc54a67549f655cddd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev479"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/200cc62f2f5a9dc63968fed9d3a5663a28c871da",
+      "git:hexsha": "200cc62f2f5a9dc63968fed9d3a5663a28c871da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev48"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1752b81a65fa05dbf9c5b2a0eecbcaaabbd7d419",
+      "git:hexsha": "1752b81a65fa05dbf9c5b2a0eecbcaaabbd7d419",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev481"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8eef6fab40e01fd758c15f7907893f2b024f1042",
+      "git:hexsha": "8eef6fab40e01fd758c15f7907893f2b024f1042",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev484"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cd14b570b1aae3f54048421546f765d1f2889f53",
+      "git:hexsha": "cd14b570b1aae3f54048421546f765d1f2889f53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev488"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1d8280f97d1bd4a6de484cd364928109c762e7d4",
+      "git:hexsha": "1d8280f97d1bd4a6de484cd364928109c762e7d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev490"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6d15ead439432c69b82431f56a7f65d5b26d11c8",
+      "git:hexsha": "6d15ead439432c69b82431f56a7f65d5b26d11c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev49"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/95ee02c831f7d90c6116f800f9bba8551f6e23a6",
+      "git:hexsha": "95ee02c831f7d90c6116f800f9bba8551f6e23a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev492"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/fbaf2b2d9d392397f630c9d0b3e07cc495258db1",
+      "git:hexsha": "fbaf2b2d9d392397f630c9d0b3e07cc495258db1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev494"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/70f2dc8b3e69f63e5e05f64a89494e8514ca1458",
+      "git:hexsha": "70f2dc8b3e69f63e5e05f64a89494e8514ca1458",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev496"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2644659346974708e476f22f9e7ce28b4bb4a96f",
+      "git:hexsha": "2644659346974708e476f22f9e7ce28b4bb4a96f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev498"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/353058f42f5ba688855f7f8e6cdf887485f6dbf6",
+      "git:hexsha": "353058f42f5ba688855f7f8e6cdf887485f6dbf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev500"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6ea35ec8fcfc371984222f4bf0505bbab67acdaf",
+      "git:hexsha": "6ea35ec8fcfc371984222f4bf0505bbab67acdaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b299ca2a3d74cf7224acc3163c7a0ecf9a8551b0",
+      "git:hexsha": "b299ca2a3d74cf7224acc3163c7a0ecf9a8551b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev50"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/60f1c5d4f3d65586e21726d06f9665534aa266c9",
+      "git:hexsha": "60f1c5d4f3d65586e21726d06f9665534aa266c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev502"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d3d291ec6ad7c37ada0b381fe1df05094a6819de",
+      "git:hexsha": "d3d291ec6ad7c37ada0b381fe1df05094a6819de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev504"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/56ac5e9713d33f463d89fd9036e059e57a3fbecb",
+      "git:hexsha": "56ac5e9713d33f463d89fd9036e059e57a3fbecb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev506"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9692d5c188c7bd98dc56f7482782be014072f380",
+      "git:hexsha": "9692d5c188c7bd98dc56f7482782be014072f380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev508"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1fd405d9fd2bc2edc1c6719b3e9847357194bdd6",
+      "git:hexsha": "1fd405d9fd2bc2edc1c6719b3e9847357194bdd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev510"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2b35d9113dbe52f9e25c4b196a2dc470edad6961",
+      "git:hexsha": "2b35d9113dbe52f9e25c4b196a2dc470edad6961",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev51"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6f5c5de5acf0593a8e876db1de9c762302f7fb24",
+      "git:hexsha": "6f5c5de5acf0593a8e876db1de9c762302f7fb24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev512"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3436d1150c0a36e6cc7d3800d12a52c8ff20dea8",
+      "git:hexsha": "3436d1150c0a36e6cc7d3800d12a52c8ff20dea8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev514"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6fb09aa5c6e5ce7f55938461ed5c1f914a81adb3",
+      "git:hexsha": "6fb09aa5c6e5ce7f55938461ed5c1f914a81adb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev516"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/60702bec44357f5d531183f752737f231773cb21",
+      "git:hexsha": "60702bec44357f5d531183f752737f231773cb21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev518"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cf0edada93d77f5affe853ffd93a8124462f6b9c",
+      "git:hexsha": "cf0edada93d77f5affe853ffd93a8124462f6b9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev520"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/51cca95d2034184104cb9b3e918ae9b8bd35f9fe",
+      "git:hexsha": "51cca95d2034184104cb9b3e918ae9b8bd35f9fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev52"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/21efc482383899a72771160e93572c18bc6f9dcf",
+      "git:hexsha": "21efc482383899a72771160e93572c18bc6f9dcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev523"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7e91ed893a10cc491a0a2f2b0822f69265746864",
+      "git:hexsha": "7e91ed893a10cc491a0a2f2b0822f69265746864",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev525"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5095ccba76378036e3d153097ed081a9c8a5fbd3",
+      "git:hexsha": "5095ccba76378036e3d153097ed081a9c8a5fbd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev527"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6367a2bf63038f326700addb8200bb5b8ac2bdcc",
+      "git:hexsha": "6367a2bf63038f326700addb8200bb5b8ac2bdcc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev529"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9c3ddd0eb20064b747eb9e868e13e801b3bf3d10",
+      "git:hexsha": "9c3ddd0eb20064b747eb9e868e13e801b3bf3d10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev53"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ff4dd1c20c242e5958c0ffc228f56ab29b6d4214",
+      "git:hexsha": "ff4dd1c20c242e5958c0ffc228f56ab29b6d4214",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev531"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0f2e28280b3106b55fa9033734ddec366dc55a2c",
+      "git:hexsha": "0f2e28280b3106b55fa9033734ddec366dc55a2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev533"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/79a834ecd2e45d8e4243d96cd1549fccdbaa76c8",
+      "git:hexsha": "79a834ecd2e45d8e4243d96cd1549fccdbaa76c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev539"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8d0322bab4e52c418de55836f8212e978c59651d",
+      "git:hexsha": "8d0322bab4e52c418de55836f8212e978c59651d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev54"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7f96a677a8eaf9034a959b38d5d3a1648dcad483",
+      "git:hexsha": "7f96a677a8eaf9034a959b38d5d3a1648dcad483",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev543"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a50670866c40cfccf8de6ce4c5fb960c3c172fdf",
+      "git:hexsha": "a50670866c40cfccf8de6ce4c5fb960c3c172fdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev545"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/4cac53d001a961e7d706f9f436a84236431ef60d",
+      "git:hexsha": "4cac53d001a961e7d706f9f436a84236431ef60d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev547"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1f830b9c99c69bc52f4068f2531ffbf85e95bce6",
+      "git:hexsha": "1f830b9c99c69bc52f4068f2531ffbf85e95bce6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev549"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7d18dfc5a93ab0cb145a35dfc453dd7d3df2a530",
+      "git:hexsha": "7d18dfc5a93ab0cb145a35dfc453dd7d3df2a530",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev55"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a0dfb7cbab796fd6857fc27228fe229114d3ee84",
+      "git:hexsha": "a0dfb7cbab796fd6857fc27228fe229114d3ee84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev551"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/f6a6d245241ec0dfc6f00222418046d9e3a0f246",
+      "git:hexsha": "f6a6d245241ec0dfc6f00222418046d9e3a0f246",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev553"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b21b936567aae3694147fde392aa4cdf19242367",
+      "git:hexsha": "b21b936567aae3694147fde392aa4cdf19242367",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev555"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/79795641ad38431437961702685595d2d1b3ff80",
+      "git:hexsha": "79795641ad38431437961702685595d2d1b3ff80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev557"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0880570bf80290908d34fd6c2c802d073e7e05a6",
+      "git:hexsha": "0880570bf80290908d34fd6c2c802d073e7e05a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev559"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9c62d089ddf13ef50a0a8763d2c04659fb34d87b",
+      "git:hexsha": "9c62d089ddf13ef50a0a8763d2c04659fb34d87b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev56"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/dc448a1e623f86c1b2c7293e94d562afa95890ab",
+      "git:hexsha": "dc448a1e623f86c1b2c7293e94d562afa95890ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev561"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3af05ed719625b098252aa12f9540453d7f8c0fb",
+      "git:hexsha": "3af05ed719625b098252aa12f9540453d7f8c0fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev563"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9a63310b0abe254140ba199bf82fad10a906e1f8",
+      "git:hexsha": "9a63310b0abe254140ba199bf82fad10a906e1f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev565"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/629f0bdb95dc5ab8fd75e9af124deeacfbdf6655",
+      "git:hexsha": "629f0bdb95dc5ab8fd75e9af124deeacfbdf6655",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev567"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2bb664146f9c0790cd6083269aa2e90a25e3976a",
+      "git:hexsha": "2bb664146f9c0790cd6083269aa2e90a25e3976a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev569"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/7e85d3f31628c5a767f3265f112e42a8aa128f5f",
+      "git:hexsha": "7e85d3f31628c5a767f3265f112e42a8aa128f5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev57"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b6a8f0e91bfdf4785a0ba150aebe68d3393d4199",
+      "git:hexsha": "b6a8f0e91bfdf4785a0ba150aebe68d3393d4199",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev571"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d2520e89e5342aee3a79144ffada100ff9c07f09",
+      "git:hexsha": "d2520e89e5342aee3a79144ffada100ff9c07f09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev573"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c97fdcbf635279c199aed7081928e17a9c89decd",
+      "git:hexsha": "c97fdcbf635279c199aed7081928e17a9c89decd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev575"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e340cb76584861aebf7809073b3405614806461b",
+      "git:hexsha": "e340cb76584861aebf7809073b3405614806461b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev577"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d6e413c17aaccbc93aef5afd2314610e67f52214",
+      "git:hexsha": "d6e413c17aaccbc93aef5afd2314610e67f52214",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev579"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/3b5a724515b26a633960d75fa46e80086e8dce5f",
+      "git:hexsha": "3b5a724515b26a633960d75fa46e80086e8dce5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev58"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/9a8fe18a686a4a6e96c5175d9aec23da5aee5aab",
+      "git:hexsha": "9a8fe18a686a4a6e96c5175d9aec23da5aee5aab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev581"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d027dce874f83413064d9f2fc532d899e9519d92",
+      "git:hexsha": "d027dce874f83413064d9f2fc532d899e9519d92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev583"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/99a41a4fac2f41e838be24dcac9fbb4508a1e9c2",
+      "git:hexsha": "99a41a4fac2f41e838be24dcac9fbb4508a1e9c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev587"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1dadeb55a59a6be2daa74b58886cafef0910dcad",
+      "git:hexsha": "1dadeb55a59a6be2daa74b58886cafef0910dcad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev589"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/da7916d291379cb0b0f9747f9d3ca54486e7dc8a",
+      "git:hexsha": "da7916d291379cb0b0f9747f9d3ca54486e7dc8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev59"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5e3c0ef81ef88c135c4e963053ee6485882ace29",
+      "git:hexsha": "5e3c0ef81ef88c135c4e963053ee6485882ace29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev591"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/250c598d3bef36e32a6d4aa49da3914d032bf2f5",
+      "git:hexsha": "250c598d3bef36e32a6d4aa49da3914d032bf2f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev593"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6ca3da4945c459af1435d227d26ee776fe42f8fd",
+      "git:hexsha": "6ca3da4945c459af1435d227d26ee776fe42f8fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/77b3b4ced94ace42e1549c1d69236b55b8865418",
+      "git:hexsha": "77b3b4ced94ace42e1549c1d69236b55b8865418",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cb1d1ec990d053d25def151f2fd347ce7701d154",
+      "git:hexsha": "cb1d1ec990d053d25def151f2fd347ce7701d154",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev61"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b35889986b3e25bc58c467d873f87eb4a9a8d4ec",
+      "git:hexsha": "b35889986b3e25bc58c467d873f87eb4a9a8d4ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev62"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c5e7e51818cbda9b1638a44f16cbee5ecd7c002d",
+      "git:hexsha": "c5e7e51818cbda9b1638a44f16cbee5ecd7c002d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev63"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/10de781bcf76e4ff9fb3d048e6bf41345fea4bb1",
+      "git:hexsha": "10de781bcf76e4ff9fb3d048e6bf41345fea4bb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev64"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2bafa6e5fd680429310d1ed109cf84cca1ad1ba5",
+      "git:hexsha": "2bafa6e5fd680429310d1ed109cf84cca1ad1ba5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0b1525423be4279bf443b7696b7def6decd728fe",
+      "git:hexsha": "0b1525423be4279bf443b7696b7def6decd728fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev66"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/bb5e46f40ab47abc090b2fd7cfe2fc5b07973bc4",
+      "git:hexsha": "bb5e46f40ab47abc090b2fd7cfe2fc5b07973bc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev67"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/299e12212c78ec449d1767484352c698da65017d",
+      "git:hexsha": "299e12212c78ec449d1767484352c698da65017d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev68"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/12504b44022ffec6a088cfad6774341840391b65",
+      "git:hexsha": "12504b44022ffec6a088cfad6774341840391b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0fbc2cbf2b49ed043c03f29994b19a69e383d256",
+      "git:hexsha": "0fbc2cbf2b49ed043c03f29994b19a69e383d256",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev7"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/71bbd1c48ff0b21ea9e164b08d1312c8601b22f9",
+      "git:hexsha": "71bbd1c48ff0b21ea9e164b08d1312c8601b22f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev70"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ef8904d72640e0b00b6398338564920ebfbf6d0c",
+      "git:hexsha": "ef8904d72640e0b00b6398338564920ebfbf6d0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev71"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/087f098e864ea9329b575f3a03e1f28c0fa3131f",
+      "git:hexsha": "087f098e864ea9329b575f3a03e1f28c0fa3131f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev72"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/67d3de2d2cff44a37a0da0abe569ccfeff505e0b",
+      "git:hexsha": "67d3de2d2cff44a37a0da0abe569ccfeff505e0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev73"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/886a1f6429791b1f82114d4ef65c328e293ce5cd",
+      "git:hexsha": "886a1f6429791b1f82114d4ef65c328e293ce5cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev74"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e80d50a9cb2d1cfa0e7a76f14f5108fdb47e7935",
+      "git:hexsha": "e80d50a9cb2d1cfa0e7a76f14f5108fdb47e7935",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev75"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ddd51822aeb680e855216e26341dc578578eaa63",
+      "git:hexsha": "ddd51822aeb680e855216e26341dc578578eaa63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev76"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/5e33174f5c224e991cf2fd6fa55b31eac4450ae0",
+      "git:hexsha": "5e33174f5c224e991cf2fd6fa55b31eac4450ae0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/a80dfd8066c781978432e9b2b876e90c31072ae4",
+      "git:hexsha": "a80dfd8066c781978432e9b2b876e90c31072ae4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev78"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/767790e5eaf14de5432bf11c1c0f82ec6c52d1e2",
+      "git:hexsha": "767790e5eaf14de5432bf11c1c0f82ec6c52d1e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev79"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/0a845c02a5af60baf1363d9eeac89ef553a656da",
+      "git:hexsha": "0a845c02a5af60baf1363d9eeac89ef553a656da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev8"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/1c9704f9e89a6cdaddf47290a3877073d95e3c77",
+      "git:hexsha": "1c9704f9e89a6cdaddf47290a3877073d95e3c77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev80"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/00cd4b985e7ea603aaeeebea42ad06f94ba3f424",
+      "git:hexsha": "00cd4b985e7ea603aaeeebea42ad06f94ba3f424",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/b885cd809bc416cb276f6b6a31ba9a6337d9e4c6",
+      "git:hexsha": "b885cd809bc416cb276f6b6a31ba9a6337d9e4c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev82"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/034fd32041d3dc7c726542160343c7fa1a0af17c",
+      "git:hexsha": "034fd32041d3dc7c726542160343c7fa1a0af17c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev83"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/490107d1cfe3c506dc70c9e382012c97dca4bcb8",
+      "git:hexsha": "490107d1cfe3c506dc70c9e382012c97dca4bcb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev84"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/8e1d3f95f04a03be674dcd39b2bfd5e370a219c2",
+      "git:hexsha": "8e1d3f95f04a03be674dcd39b2bfd5e370a219c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/2075d5412fec23cc63bf831d00ac029da70c9f4a",
+      "git:hexsha": "2075d5412fec23cc63bf831d00ac029da70c9f4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev86"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/24c4de46f52a8d4f85998f11727a2fb7a5a10006",
+      "git:hexsha": "24c4de46f52a8d4f85998f11727a2fb7a5a10006",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/6f105755a355853bd9928aa12722a016df9f5529",
+      "git:hexsha": "6f105755a355853bd9928aa12722a016df9f5529",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev88"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/54595528ee2848249319c7c36d311b2350e32d08",
+      "git:hexsha": "54595528ee2848249319c7c36d311b2350e32d08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev89"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/ad2dc35942ebc118e70bc210c94e111bc3002869",
+      "git:hexsha": "ad2dc35942ebc118e70bc210c94e111bc3002869",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d572acdca0badc111adeff31ab6484dfa116384c",
+      "git:hexsha": "d572acdca0badc111adeff31ab6484dfa116384c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev90"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/61b1d0d33ee55417915b0b2be5b424866b7c2ecf",
+      "git:hexsha": "61b1d0d33ee55417915b0b2be5b424866b7c2ecf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev91"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/cd45f01d985a936c3cf2b1a8e0bcc4dc76b48482",
+      "git:hexsha": "cd45f01d985a936c3cf2b1a8e0bcc4dc76b48482",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/71b44a314b037049b3c33ddca646e8fd5c316b1f",
+      "git:hexsha": "71b44a314b037049b3c33ddca646e8fd5c316b1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev93"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/51588b63168f4f89eacdf9615c2c6d13c54c3593",
+      "git:hexsha": "51588b63168f4f89eacdf9615c2c6d13c54c3593",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev94"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/001c0a86e368052dca02cc79a2cc5a51015533ca",
+      "git:hexsha": "001c0a86e368052dca02cc79a2cc5a51015533ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/c010b48d28a55dfb48463daa591c3ae329653153",
+      "git:hexsha": "c010b48d28a55dfb48463daa591c3ae329653153",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/e329f6f44091dab8548b938a5d355bca1339f7a9",
+      "git:hexsha": "e329f6f44091dab8548b938a5d355bca1339f7a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/pgbouncer-k8s-operator/commit/d5233a56b2426590695ced586a912731391060f6",
+      "git:hexsha": "d5233a56b2426590695ced586a912731391060f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev98"
+    }
+  ]
+}
