@@ -1,0 +1,2037 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/deepset-ai/haystack",
+  "@type": "gh:Repository",
+  "gh:name": "haystack",
+  "gh:owner": "deepset-ai",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0ad74747ffd7d9f9b092db97ba2e222080992c2e",
+      "git:hexsha": "0ad74747ffd7d9f9b092db97ba2e222080992c2e",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-08T02:33:17.239266+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d2c77f307788899eb562d3cb6e42c69b968b9f2a",
+      "git:hexsha": "d2c77f307788899eb562d3cb6e42c69b968b9f2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/84ce175afe439f7f1ec377e6a7901d3a12c70b92",
+      "git:hexsha": "84ce175afe439f7f1ec377e6a7901d3a12c70b92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b4842f2cfb6f21ade6e2e83274339f79ddf73ee3",
+      "git:hexsha": "b4842f2cfb6f21ade6e2e83274339f79ddf73ee3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a6ec430931f6d36529159c5b64e9a5f19ce50b8b",
+      "git:hexsha": "a6ec430931f6d36529159c5b64e9a5f19ce50b8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bba1eb8ca40a66a3d8a26c175b63405cfe95bd67",
+      "git:hexsha": "bba1eb8ca40a66a3d8a26c175b63405cfe95bd67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/30dc010171f803ae472dcd3dfde15c8a5b4499cf",
+      "git:hexsha": "30dc010171f803ae472dcd3dfde15c8a5b4499cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c5f1f9aa870a534003a83e9ced8c3d59182a797d",
+      "git:hexsha": "c5f1f9aa870a534003a83e9ced8c3d59182a797d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/99e924aeded381532398c5d7435b464ccc185c92",
+      "git:hexsha": "99e924aeded381532398c5d7435b464ccc185c92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5b817387c26d4d2cc3b63be9238f45902a7f405a",
+      "git:hexsha": "5b817387c26d4d2cc3b63be9238f45902a7f405a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/50815421b020a681bb080cdf6f476c95f4cda7d8",
+      "git:hexsha": "50815421b020a681bb080cdf6f476c95f4cda7d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bba1d80aef6b4fb5e36d60cd0b3fa156ab2793b6",
+      "git:hexsha": "bba1d80aef6b4fb5e36d60cd0b3fa156ab2793b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9e4d7bf9be8ac98de72338d8ba9db339d2af5d21",
+      "git:hexsha": "9e4d7bf9be8ac98de72338d8ba9db339d2af5d21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8cb513c2c6178092e48406407842f55e4bf69bfd",
+      "git:hexsha": "8cb513c2c6178092e48406407842f55e4bf69bfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/180c05365a1640bf7fc7d7acc31211d04c891822",
+      "git:hexsha": "180c05365a1640bf7fc7d7acc31211d04c891822",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c6f23dce8897ab00fcb15e272282d459dcfa564a",
+      "git:hexsha": "c6f23dce8897ab00fcb15e272282d459dcfa564a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3a2714e7c877c8ee8b886f2ae888e74968de8f25",
+      "git:hexsha": "3a2714e7c877c8ee8b886f2ae888e74968de8f25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0405d70e17301b3a2f4611162a1c690e53cee0df",
+      "git:hexsha": "0405d70e17301b3a2f4611162a1c690e53cee0df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.10.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0b106f6a4d8b921c608b9c4d3ea465c9386f963d",
+      "git:hexsha": "0b106f6a4d8b921c608b9c4d3ea465c9386f963d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/893d2d4cd2546245e26f057df0f2f1d835368f89",
+      "git:hexsha": "893d2d4cd2546245e26f057df0f2f1d835368f89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/05ea711c72f94c6d7bbbbd59cb7f6ef086cbfa6e",
+      "git:hexsha": "05ea711c72f94c6d7bbbbd59cb7f6ef086cbfa6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bf27a0c734c53fb7f5e9109de151f31573f9a6fa",
+      "git:hexsha": "bf27a0c734c53fb7f5e9109de151f31573f9a6fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.11.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/71de1cad944d9c7e407c7c592d7f6b39250cb971",
+      "git:hexsha": "71de1cad944d9c7e407c7c592d7f6b39250cb971",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c62b5fbfe7441896353d878ac5a2415b8892b4c7",
+      "git:hexsha": "c62b5fbfe7441896353d878ac5a2415b8892b4c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/67d57add62dce0e4622aff4795deb39216678093",
+      "git:hexsha": "67d57add62dce0e4622aff4795deb39216678093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cde10a7dbc6abd4d5412de100b720bc706593773",
+      "git:hexsha": "cde10a7dbc6abd4d5412de100b720bc706593773",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ef1fa09900c9e1f7376f2d5a47f98d09192704b3",
+      "git:hexsha": "ef1fa09900c9e1f7376f2d5a47f98d09192704b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7dbb7e47cc4f4711dfde96ec887cb8efb52a09a2",
+      "git:hexsha": "7dbb7e47cc4f4711dfde96ec887cb8efb52a09a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.12.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cae33b13f8f99287a3aa3e70aa970a73be7a3952",
+      "git:hexsha": "cae33b13f8f99287a3aa3e70aa970a73be7a3952",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/859fa3db10f49fc3f37eeb3a91d8f31e2f666c44",
+      "git:hexsha": "859fa3db10f49fc3f37eeb3a91d8f31e2f666c44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/05fbcbbd00fffd0359e12ef663f17f5bce1e24e9",
+      "git:hexsha": "05fbcbbd00fffd0359e12ef663f17f5bce1e24e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5578a0c690e4add64117bee2dc18eeba84b45dc2",
+      "git:hexsha": "5578a0c690e4add64117bee2dc18eeba84b45dc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4de6248b19ae1f1e26d5210d29672ffd08258dbd",
+      "git:hexsha": "4de6248b19ae1f1e26d5210d29672ffd08258dbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d69e409cd55bb66071abb33facbc42563dd9fe08",
+      "git:hexsha": "d69e409cd55bb66071abb33facbc42563dd9fe08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9964b40ce2084099d5cffa5968aa5627e552facb",
+      "git:hexsha": "9964b40ce2084099d5cffa5968aa5627e552facb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.13.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9b380cf1f4a5cf5049652ad5da54ea3846feee0b",
+      "git:hexsha": "9b380cf1f4a5cf5049652ad5da54ea3846feee0b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a5ef5b419d0da609cbfad7d7d377c047731a727a",
+      "git:hexsha": "a5ef5b419d0da609cbfad7d7d377c047731a727a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4504d734c2c6f562f0c3c0d6566cb9922e77d539",
+      "git:hexsha": "4504d734c2c6f562f0c3c0d6566cb9922e77d539",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.14.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1ed4cafc628e427ca45f69272784eb0840798f8b",
+      "git:hexsha": "1ed4cafc628e427ca45f69272784eb0840798f8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4dc5abfe24110f8b9c53d6a6777dd6482274f4de",
+      "git:hexsha": "4dc5abfe24110f8b9c53d6a6777dd6482274f4de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/22942ca14bbdbab06fb865f082dc56d79a547b65",
+      "git:hexsha": "22942ca14bbdbab06fb865f082dc56d79a547b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8ab56873c86eac4849e1a7f862c59e58352f8e61",
+      "git:hexsha": "8ab56873c86eac4849e1a7f862c59e58352f8e61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/305a33bcd64d76ea65a0d6d664951e4f9d6352aa",
+      "git:hexsha": "305a33bcd64d76ea65a0d6d664951e4f9d6352aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0b265fb0525cffe8a7abb158628cc8c88945f7a0",
+      "git:hexsha": "0b265fb0525cffe8a7abb158628cc8c88945f7a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/48b4b994d1c39b6ad274daeed8a4f66d1dc4cc38",
+      "git:hexsha": "48b4b994d1c39b6ad274daeed8a4f66d1dc4cc38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8f705197a7e15992615add262655495f96a42b5f",
+      "git:hexsha": "8f705197a7e15992615add262655495f96a42b5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.15.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d72cf07a8261aa19cbd9a0bc9e9a8dc71fada1d8",
+      "git:hexsha": "d72cf07a8261aa19cbd9a0bc9e9a8dc71fada1d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/63dbe6bae63795600e048278cea7dc584e2b1969",
+      "git:hexsha": "63dbe6bae63795600e048278cea7dc584e2b1969",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/af072a52f4d2f6aa0b9cbc1bd680917793787ccb",
+      "git:hexsha": "af072a52f4d2f6aa0b9cbc1bd680917793787ccb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0b5d68057401503f1500e17aa662601ac548cd3f",
+      "git:hexsha": "0b5d68057401503f1500e17aa662601ac548cd3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/16d496def047d2505f6a860fb1593f76af270a39",
+      "git:hexsha": "16d496def047d2505f6a860fb1593f76af270a39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.16.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/49a59ddffecfb7f25d4f3d25417dc8a13a8cec6b",
+      "git:hexsha": "49a59ddffecfb7f25d4f3d25417dc8a13a8cec6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b8911dfae01643dccf0803648ef3fb705d43dfbd",
+      "git:hexsha": "b8911dfae01643dccf0803648ef3fb705d43dfbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/acbe12b05ed3c523d643f2b04ee6d3767540f931",
+      "git:hexsha": "acbe12b05ed3c523d643f2b04ee6d3767540f931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9abbd88e07014e3539868f60d870758fd62b8afb",
+      "git:hexsha": "9abbd88e07014e3539868f60d870758fd62b8afb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1f6bd9c886d3241afaf7d8720aff16ab5e906fcd",
+      "git:hexsha": "1f6bd9c886d3241afaf7d8720aff16ab5e906fcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/da700c700a920c56ee0d4d6426c217b22712d41e",
+      "git:hexsha": "da700c700a920c56ee0d4d6426c217b22712d41e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.17.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9044294bdd3ecf12e17c99520eeb12f00707c928",
+      "git:hexsha": "9044294bdd3ecf12e17c99520eeb12f00707c928",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1df43a507a03764eddbd8c281e3dca8dd34b24fc",
+      "git:hexsha": "1df43a507a03764eddbd8c281e3dca8dd34b24fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/503eee36f7485db8bf4f6b02861f13dcfb3ae507",
+      "git:hexsha": "503eee36f7485db8bf4f6b02861f13dcfb3ae507",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/42d2e55e08a6d6ec4a62a3a6f30247be8737f192",
+      "git:hexsha": "42d2e55e08a6d6ec4a62a3a6f30247be8737f192",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/94bfc11bd827c703cf204674ce7f938ed79eb8a8",
+      "git:hexsha": "94bfc11bd827c703cf204674ce7f938ed79eb8a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cf25763044cf273e741dce2a21a37dc9dafdc4dc",
+      "git:hexsha": "cf25763044cf273e741dce2a21a37dc9dafdc4dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/aa314b62d2a4010a12f882f045c3cd5231261ae4",
+      "git:hexsha": "aa314b62d2a4010a12f882f045c3cd5231261ae4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1ae70e9e1b38271cbb36bb6d73d26f89b91545bc",
+      "git:hexsha": "1ae70e9e1b38271cbb36bb6d73d26f89b91545bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b478bea866f1d611f3fc674d21f1b26e5e7c7cac",
+      "git:hexsha": "b478bea866f1d611f3fc674d21f1b26e5e7c7cac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.19.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d21b6a5d4f7e41000686e0d0041e507b1eb2a56e",
+      "git:hexsha": "d21b6a5d4f7e41000686e0d0041e507b1eb2a56e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ef2eac36c30194350bd349cf6811f741312036a5",
+      "git:hexsha": "ef2eac36c30194350bd349cf6811f741312036a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7d39184aaf49f2b05758a154a2cc10914b427d24",
+      "git:hexsha": "7d39184aaf49f2b05758a154a2cc10914b427d24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d84afbcff1ced7059eafb882596a03d76d21ab7c",
+      "git:hexsha": "d84afbcff1ced7059eafb882596a03d76d21ab7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7eb15d5e19cd98d0526faa3683c00f4ef029078f",
+      "git:hexsha": "7eb15d5e19cd98d0526faa3683c00f4ef029078f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.20.2-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/29acd3c57680049976457f2ece2618d30d41b55a",
+      "git:hexsha": "29acd3c57680049976457f2ece2618d30d41b55a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/6cb7d16e220dc51f4eadd62a29db86eea4649c9e",
+      "git:hexsha": "6cb7d16e220dc51f4eadd62a29db86eea4649c9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c32dd6c93bec885b5afaec75ed668bcfc8fbd0f2",
+      "git:hexsha": "c32dd6c93bec885b5afaec75ed668bcfc8fbd0f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d9e992552c61f9661927fd4ab3d38c78d79cefc4",
+      "git:hexsha": "d9e992552c61f9661927fd4ab3d38c78d79cefc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/688c4b199ac4fb350e61d0e866f03aeab782b1ff",
+      "git:hexsha": "688c4b199ac4fb350e61d0e866f03aeab782b1ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f21cf9ab43802c76d20de8260c54e66c98258183",
+      "git:hexsha": "f21cf9ab43802c76d20de8260c54e66c98258183",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/188262cb1eca0b7388660f87d1e736acb95bc29d",
+      "git:hexsha": "188262cb1eca0b7388660f87d1e736acb95bc29d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2bff768a00a6c7e693c097be8c3000fce0014ec5",
+      "git:hexsha": "2bff768a00a6c7e693c097be8c3000fce0014ec5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.21.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/58fa94cb85737f05283380e2d0d1ba2a1608ba35",
+      "git:hexsha": "58fa94cb85737f05283380e2d0d1ba2a1608ba35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8d2605756692a89b037f534224a1d7a323ef1bfe",
+      "git:hexsha": "8d2605756692a89b037f534224a1d7a323ef1bfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0fb3b82548c337d59fd3483919388dc4ab634478",
+      "git:hexsha": "0fb3b82548c337d59fd3483919388dc4ab634478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ab36ccd4790e66a896946f2caa112b6faff54710",
+      "git:hexsha": "ab36ccd4790e66a896946f2caa112b6faff54710",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3ad66b506d5d0a664ba7914a18e34c3972a11518",
+      "git:hexsha": "3ad66b506d5d0a664ba7914a18e34c3972a11518",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d804ac6ae12d1de82ac6a7fb515a8e7dc66e8335",
+      "git:hexsha": "d804ac6ae12d1de82ac6a7fb515a8e7dc66e8335",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/03a05e2f111a8fd083145a8ec21e3ed0ca2f8baa",
+      "git:hexsha": "03a05e2f111a8fd083145a8ec21e3ed0ca2f8baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/104d4c374aeb15f0e60ac226c40eb7f7850dd5a6",
+      "git:hexsha": "104d4c374aeb15f0e60ac226c40eb7f7850dd5a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/46f95a071a4f94e519e4f7028c5f0d5cbeb828c0",
+      "git:hexsha": "46f95a071a4f94e519e4f7028c5f0d5cbeb828c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.23.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d2ca9c94e02f7245ae3b9c6738e2695658eaa2e9",
+      "git:hexsha": "d2ca9c94e02f7245ae3b9c6738e2695658eaa2e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9afa66ace87aea921df55453413612fdc214f1b5",
+      "git:hexsha": "9afa66ace87aea921df55453413612fdc214f1b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0c0d538557a36dd183c281ba75bad13bc02b4e70",
+      "git:hexsha": "0c0d538557a36dd183c281ba75bad13bc02b4e70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/babef6b0b7b57f5779d222a535586910e7b65f1b",
+      "git:hexsha": "babef6b0b7b57f5779d222a535586910e7b65f1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/6b8623b5d7b698e805726d77fb2634d95a9df97e",
+      "git:hexsha": "6b8623b5d7b698e805726d77fb2634d95a9df97e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.24.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cd15a1bca407ee6fd27ae8beaf96272734650dbd",
+      "git:hexsha": "cd15a1bca407ee6fd27ae8beaf96272734650dbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/821c688d42229fd726a9333c69d64195035ddfc8",
+      "git:hexsha": "821c688d42229fd726a9333c69d64195035ddfc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b881f6941a4cf1abf749f6e27520145b69c6ed52",
+      "git:hexsha": "b881f6941a4cf1abf749f6e27520145b69c6ed52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/74c722613fe95ce66a19a8b9fc4c0cec248608e3",
+      "git:hexsha": "74c722613fe95ce66a19a8b9fc4c0cec248608e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c55267aed772e31ca4de6d5c88a7aaa79d53f2e9",
+      "git:hexsha": "c55267aed772e31ca4de6d5c88a7aaa79d53f2e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/32199b893315ee9797443398dc7ad2fbf9a6db64",
+      "git:hexsha": "32199b893315ee9797443398dc7ad2fbf9a6db64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/48bd81a26a68f4b0df3be1928eefc970008fd8ac",
+      "git:hexsha": "48bd81a26a68f4b0df3be1928eefc970008fd8ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a8bc7551aeb2036f87cb2a33743f3c2f71b9be52",
+      "git:hexsha": "a8bc7551aeb2036f87cb2a33743f3c2f71b9be52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.25.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4188bf93994a67d17df1b7d6df90864bd76cc1d0",
+      "git:hexsha": "4188bf93994a67d17df1b7d6df90864bd76cc1d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a05ed01704929799a2fe04fad72bf1a5dab3e6fd",
+      "git:hexsha": "a05ed01704929799a2fe04fad72bf1a5dab3e6fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e66327a42992abd7e9c45b6b0005cd947b3477f5",
+      "git:hexsha": "e66327a42992abd7e9c45b6b0005cd947b3477f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ae42bfa656d2fc7e84bddde37ef49e60c7e50fe9",
+      "git:hexsha": "ae42bfa656d2fc7e84bddde37ef49e60c7e50fe9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7d038c8350413ddba48f9e6d0a837e46657ce8a0",
+      "git:hexsha": "7d038c8350413ddba48f9e6d0a837e46657ce8a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a7005f6cd9ea7528ca93535ee181a7f792d134e0",
+      "git:hexsha": "a7005f6cd9ea7528ca93535ee181a7f792d134e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/883cd466bd0108ff4f6af4c389f0e42fabc1282c",
+      "git:hexsha": "883cd466bd0108ff4f6af4c389f0e42fabc1282c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.3-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/577c39a69d32e2e31fc957db8a56df2cb770a0b2",
+      "git:hexsha": "577c39a69d32e2e31fc957db8a56df2cb770a0b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.26.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bf71f03ff2beb6149de9da5633d2a7d503f12ca7",
+      "git:hexsha": "bf71f03ff2beb6149de9da5633d2a7d503f12ca7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/081b886aa137cca313562df715be85cee33df5f0",
+      "git:hexsha": "081b886aa137cca313562df715be85cee33df5f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4ca331c0a77165f622af11b6180c959c991d03be",
+      "git:hexsha": "4ca331c0a77165f622af11b6180c959c991d03be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c80336c424d39459de89d42f7b76a02ed2979730",
+      "git:hexsha": "c80336c424d39459de89d42f7b76a02ed2979730",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/baefd32b6f2312a5150ac8ee768ebcae749f1c25",
+      "git:hexsha": "baefd32b6f2312a5150ac8ee768ebcae749f1c25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/eb0f0da0fddb2fba96f5a2c7a0f5fd28046ca4cb",
+      "git:hexsha": "eb0f0da0fddb2fba96f5a2c7a0f5fd28046ca4cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0950db5032b4980ee5d20753b5963ac5b324d6f8",
+      "git:hexsha": "0950db5032b4980ee5d20753b5963ac5b324d6f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4e518cddddea79336eab1ce2f9ee61cf80df85da",
+      "git:hexsha": "4e518cddddea79336eab1ce2f9ee61cf80df85da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ce36be81c39f9b9bff8ef82ffa686622e01388ee",
+      "git:hexsha": "ce36be81c39f9b9bff8ef82ffa686622e01388ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cc50112113d6a177b65765048b3423276daa5161",
+      "git:hexsha": "cc50112113d6a177b65765048b3423276daa5161",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e3596f04351d81b947a4a52eae506d9b52f097ca",
+      "git:hexsha": "e3596f04351d81b947a4a52eae506d9b52f097ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/64bbd41b7d12e80a65e99226d39f7a6e8f08498d",
+      "git:hexsha": "64bbd41b7d12e80a65e99226d39f7a6e8f08498d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.0rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c1e8d14221c397ea49960d672fb8eed1a7847610",
+      "git:hexsha": "c1e8d14221c397ea49960d672fb8eed1a7847610",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/256321d372408d4f2ad3b13b757c3a71c5806879",
+      "git:hexsha": "256321d372408d4f2ad3b13b757c3a71c5806879",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.9.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/af140efda9d6e6f3aa7084377284c19db2514be4",
+      "git:hexsha": "af140efda9d6e6f3aa7084377284c19db2514be4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5a256df7cb90931a01ab789549f5ddac8f909efd",
+      "git:hexsha": "5a256df7cb90931a01ab789549f5ddac8f909efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c800f74d0ce725673a91055f4ed7f964e8b3f3db",
+      "git:hexsha": "c800f74d0ce725673a91055f4ed7f964e8b3f3db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/73e5f6f023010cd581c15b72c1268787c193e2b2",
+      "git:hexsha": "73e5f6f023010cd581c15b72c1268787c193e2b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b25e5e8db83b805779f19c7bc00a6713821803ec",
+      "git:hexsha": "b25e5e8db83b805779f19c7bc00a6713821803ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5f06e93573b5b86d2813414324a4b8deb3714859",
+      "git:hexsha": "5f06e93573b5b86d2813414324a4b8deb3714859",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4fdbcfaf56ff3d3b790bb7f56737a6c35c62301e",
+      "git:hexsha": "4fdbcfaf56ff3d3b790bb7f56737a6c35c62301e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ae96c2ee83ef06005885872780f8a976bc705677",
+      "git:hexsha": "ae96c2ee83ef06005885872780f8a976bc705677",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d1bdb8c63d2b67b42cfe1ca9c1243252a302920b",
+      "git:hexsha": "d1bdb8c63d2b67b42cfe1ca9c1243252a302920b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c3a9dac1969f6af731892ab7194ee242c140fddb",
+      "git:hexsha": "c3a9dac1969f6af731892ab7194ee242c140fddb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a771d7f01511bcfe05ebd19961ee319865a5f3af",
+      "git:hexsha": "a771d7f01511bcfe05ebd19961ee319865a5f3af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/088aa50d99ed1ee23f7af920ee140a0f890b79b0",
+      "git:hexsha": "088aa50d99ed1ee23f7af920ee140a0f890b79b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.0-beta.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/69189aee049de6d94c43fb1465f35c0444a11afc",
+      "git:hexsha": "69189aee049de6d94c43fb1465f35c0444a11afc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bcc1b2da9955c7d145f0ad928e234cb3f5ae18e4",
+      "git:hexsha": "bcc1b2da9955c7d145f0ad928e234cb3f5ae18e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7f03afb70fcaa89f411511558a5aa2e4364cc381",
+      "git:hexsha": "7f03afb70fcaa89f411511558a5aa2e4364cc381",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.0.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/71ec77298375af8847d16f625fa2e5744504eef5",
+      "git:hexsha": "71ec77298375af8847d16f625fa2e5744504eef5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3b64664eb722919e29c009cb09770bf929e77bf8",
+      "git:hexsha": "3b64664eb722919e29c009cb09770bf929e77bf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5f9262f42fa045caa0d1255ad85d271354f0bcdb",
+      "git:hexsha": "5f9262f42fa045caa0d1255ad85d271354f0bcdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8817e57b4f6f21c5a2ae5039434f1c7e8261adec",
+      "git:hexsha": "8817e57b4f6f21c5a2ae5039434f1c7e8261adec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a43526562fe414c4c9d473ca900dc8db1b9beeb6",
+      "git:hexsha": "a43526562fe414c4c9d473ca900dc8db1b9beeb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d5708f16e0000d598b859f5957da505ef67ddb86",
+      "git:hexsha": "d5708f16e0000d598b859f5957da505ef67ddb86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9b22100065becb0cf1263e985e192881fde6f264",
+      "git:hexsha": "9b22100065becb0cf1263e985e192881fde6f264",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2bd8382e452bd47578f20c9095f85832030fbfd6",
+      "git:hexsha": "2bd8382e452bd47578f20c9095f85832030fbfd6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.2-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9390724074ab807c1f9cbd1cd6c938813255a086",
+      "git:hexsha": "9390724074ab807c1f9cbd1cd6c938813255a086",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.1.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a0fb000a5e1068f22033fd83eaa5ed5dd593e784",
+      "git:hexsha": "a0fb000a5e1068f22033fd83eaa5ed5dd593e784",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ec8666545df69db7709fc9bc9e3d1e0aa122fca0",
+      "git:hexsha": "ec8666545df69db7709fc9bc9e3d1e0aa122fca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0d89a9a095524b904601abe3cf6442f135c14802",
+      "git:hexsha": "0d89a9a095524b904601abe3cf6442f135c14802",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c3ef82bef27007cc18eba440cb077ea31ba6a436",
+      "git:hexsha": "c3ef82bef27007cc18eba440cb077ea31ba6a436",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e99864e9d43b0141b51bdfb4e3c97d4262ab24f5",
+      "git:hexsha": "e99864e9d43b0141b51bdfb4e3c97d4262ab24f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f59640bf7f317bca69757c85b89a3bc6d8316c22",
+      "git:hexsha": "f59640bf7f317bca69757c85b89a3bc6d8316c22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/815af21714f48340f92d31cb23a6124a0f31299e",
+      "git:hexsha": "815af21714f48340f92d31cb23a6124a0f31299e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1816af6316269197b5236596c5636c594c642c2f",
+      "git:hexsha": "1816af6316269197b5236596c5636c594c642c2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8c293d8de2fa1027d6a0420592645833221a2c32",
+      "git:hexsha": "8c293d8de2fa1027d6a0420592645833221a2c32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/32e18c143134803e3338c0a70286deddfaa5226d",
+      "git:hexsha": "32e18c143134803e3338c0a70286deddfaa5226d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.10.3-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c1ac615c6a93cf36a01849fa6c820e5c91f77432",
+      "git:hexsha": "c1ac615c6a93cf36a01849fa6c820e5c91f77432",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a7c1661f1395b7f017e1be58bc53431ac2e25add",
+      "git:hexsha": "a7c1661f1395b7f017e1be58bc53431ac2e25add",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d7109412371ce4f8ed5e873a033c0c020501b429",
+      "git:hexsha": "d7109412371ce4f8ed5e873a033c0c020501b429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/933a18bb48b0e3dfb29fad7418ac5fb7e1a2552b",
+      "git:hexsha": "933a18bb48b0e3dfb29fad7418ac5fb7e1a2552b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7ba7820690b48b40a4a4a3ee494fed78a358e93a",
+      "git:hexsha": "7ba7820690b48b40a4a4a3ee494fed78a358e93a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/948f8890837d51f836d5d4bd736fe055260d237b",
+      "git:hexsha": "948f8890837d51f836d5d4bd736fe055260d237b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5baaf6c1f6aa4417be896bd1997a0ec1caf55d62",
+      "git:hexsha": "5baaf6c1f6aa4417be896bd1997a0ec1caf55d62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/898571a659a3e5f878a47059a9efa980176dbaba",
+      "git:hexsha": "898571a659a3e5f878a47059a9efa980176dbaba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ba8e140fc86f6a2e54a2d08503776edb2369b02b",
+      "git:hexsha": "ba8e140fc86f6a2e54a2d08503776edb2369b02b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c04c900f26007fe825c3689c79d3ac3039b40af7",
+      "git:hexsha": "c04c900f26007fe825c3689c79d3ac3039b40af7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/41486ae167ae7c05795a5043804260a458fbcdd5",
+      "git:hexsha": "41486ae167ae7c05795a5043804260a458fbcdd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3f8ad6ac15fb5458d417d20946962f3fab94b762",
+      "git:hexsha": "3f8ad6ac15fb5458d417d20946962f3fab94b762",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3c8296caab20003f27c42e81df1ba94d0cfa6d27",
+      "git:hexsha": "3c8296caab20003f27c42e81df1ba94d0cfa6d27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/af72d61a7acbc2837ad0cb0e36b68e8034dba6fb",
+      "git:hexsha": "af72d61a7acbc2837ad0cb0e36b68e8034dba6fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c35b73f38da1c469e0a3f6d60276162f7fd8024f",
+      "git:hexsha": "c35b73f38da1c469e0a3f6d60276162f7fd8024f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5d3ec43722480d24e0d03423c2e2ed5f22e768f4",
+      "git:hexsha": "5d3ec43722480d24e0d03423c2e2ed5f22e768f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/408729c8dbf27c2c145e861bc20fb339096e654d",
+      "git:hexsha": "408729c8dbf27c2c145e861bc20fb339096e654d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/88ce981ba8bfb2c246a73ee07c2fd6ef4f1fa497",
+      "git:hexsha": "88ce981ba8bfb2c246a73ee07c2fd6ef4f1fa497",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2280f71feefdd86771176bc297a7b36ab18d5d71",
+      "git:hexsha": "2280f71feefdd86771176bc297a7b36ab18d5d71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2ba6f8b9905598f6709781ca651459e33db22372",
+      "git:hexsha": "2ba6f8b9905598f6709781ca651459e33db22372",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/14669419f2d1bb1a6541c12633bdd3bcd2ca3199",
+      "git:hexsha": "14669419f2d1bb1a6541c12633bdd3bcd2ca3199",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/37e249b47f3672cd7589447cefa5ad1f4bc5f673",
+      "git:hexsha": "37e249b47f3672cd7589447cefa5ad1f4bc5f673",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cefa3e2e4e51e09af4263549d607cdce70d8e0c6",
+      "git:hexsha": "cefa3e2e4e51e09af4263549d607cdce70d8e0c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/045603d2d0062eb2f3c522107a3f71085428eedd",
+      "git:hexsha": "045603d2d0062eb2f3c522107a3f71085428eedd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5c2e2445d3d174e46fdf3b0b2016505faef744d5",
+      "git:hexsha": "5c2e2445d3d174e46fdf3b0b2016505faef744d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0e3d436705c23d97db476d4a97a758e783cb77ff",
+      "git:hexsha": "0e3d436705c23d97db476d4a97a758e783cb77ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ea8a76e38a02fd807cebc42d789812f996a5f80b",
+      "git:hexsha": "ea8a76e38a02fd807cebc42d789812f996a5f80b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e3ce9921fbe4fa5f1eca5719667d82799160cb0d",
+      "git:hexsha": "e3ce9921fbe4fa5f1eca5719667d82799160cb0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9158000394e5f7e310a202d1f0b3075267c2af9a",
+      "git:hexsha": "9158000394e5f7e310a202d1f0b3075267c2af9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.14.3-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e92fdf94bb7eab0ffa057db21790cea8b50a043d",
+      "git:hexsha": "e92fdf94bb7eab0ffa057db21790cea8b50a043d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/81425afe226d345922e40d9a68aa0261968a7810",
+      "git:hexsha": "81425afe226d345922e40d9a68aa0261968a7810",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4deccfbe19c7644986e8deade4f9552fdbf1aada",
+      "git:hexsha": "4deccfbe19c7644986e8deade4f9552fdbf1aada",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/fe0e0636f9a04942c1a661fb916c006fcaabbb4c",
+      "git:hexsha": "fe0e0636f9a04942c1a661fb916c006fcaabbb4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cc675fce84d6ab27f9b73fed972942859586019f",
+      "git:hexsha": "cc675fce84d6ab27f9b73fed972942859586019f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cc0a9740c8c4cf8ec7acf008f6342a68ad82c861",
+      "git:hexsha": "cc0a9740c8c4cf8ec7acf008f6342a68ad82c861",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f3c32ef3707c8f88c5a40a71432e4416b14bd1d6",
+      "git:hexsha": "f3c32ef3707c8f88c5a40a71432e4416b14bd1d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.15.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8a736257905d151beb7de19b26abb90cf9fd7c2e",
+      "git:hexsha": "8a736257905d151beb7de19b26abb90cf9fd7c2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1cd0a128d0b9fac275099d9d37cb4eaf7a74b26f",
+      "git:hexsha": "1cd0a128d0b9fac275099d9d37cb4eaf7a74b26f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9e5f05ee33e2ee96f331650677d62d950425e720",
+      "git:hexsha": "9e5f05ee33e2ee96f331650677d62d950425e720",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bac55198cb4277f57e395b1f06f8fd36ccd2c96b",
+      "git:hexsha": "bac55198cb4277f57e395b1f06f8fd36ccd2c96b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9974703904c6dcfaf6ea4f17361c4ebaf91ac318",
+      "git:hexsha": "9974703904c6dcfaf6ea4f17361c4ebaf91ac318",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.16.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/417b8958119925a0d01491ac8c19d68e3379035f",
+      "git:hexsha": "417b8958119925a0d01491ac8c19d68e3379035f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/23237f76d224d00e06fa427beba08a08a8d8a0cf",
+      "git:hexsha": "23237f76d224d00e06fa427beba08a08a8d8a0cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e846cc4908f7627ed36a5a6812aabf38e4437be6",
+      "git:hexsha": "e846cc4908f7627ed36a5a6812aabf38e4437be6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f0ffef538a650dd8c5786570073d3d938b5781b1",
+      "git:hexsha": "f0ffef538a650dd8c5786570073d3d938b5781b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b2e66cccc465a83482c5447ef0c8d5401d180e4d",
+      "git:hexsha": "b2e66cccc465a83482c5447ef0c8d5401d180e4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/06f4726c318ea01127e624794b08faa93f0878f5",
+      "git:hexsha": "06f4726c318ea01127e624794b08faa93f0878f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2f7cb9e959f865e46277d51f0a686c075064d0cd",
+      "git:hexsha": "2f7cb9e959f865e46277d51f0a686c075064d0cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a2a0df3c25275c099d12a585e0b52b73c85ce796",
+      "git:hexsha": "a2a0df3c25275c099d12a585e0b52b73c85ce796",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f190c6d2d6e596edb8a3025c3f0ecfd5065f8a08",
+      "git:hexsha": "f190c6d2d6e596edb8a3025c3f0ecfd5065f8a08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/dd122545607bc1838204d3a3ef2c245648a65551",
+      "git:hexsha": "dd122545607bc1838204d3a3ef2c245648a65551",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5bca520a48bb6af2e77cf9c5f0cc1c648a27d723",
+      "git:hexsha": "5bca520a48bb6af2e77cf9c5f0cc1c648a27d723",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d5707b43284ca9809faf306383e97a90505f41e8",
+      "git:hexsha": "d5707b43284ca9809faf306383e97a90505f41e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.19.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/19e476629a0587ce3045546f38f7c3d50e242f68",
+      "git:hexsha": "19e476629a0587ce3045546f38f7c3d50e242f68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/489349bcae4c46b11753f6ba139972ece4772742",
+      "git:hexsha": "489349bcae4c46b11753f6ba139972ece4772742",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3814e7575ced57c0fa6bac36176d754d8b42e589",
+      "git:hexsha": "3814e7575ced57c0fa6bac36176d754d8b42e589",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/16e2ad73c55482521603c50241cfb4387d4aac72",
+      "git:hexsha": "16e2ad73c55482521603c50241cfb4387d4aac72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d748f477b9eddce2edf93b70f5b0832506411bf6",
+      "git:hexsha": "d748f477b9eddce2edf93b70f5b0832506411bf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/621725b22bbc1820fbe5cfd3aeff665e9bada50d",
+      "git:hexsha": "621725b22bbc1820fbe5cfd3aeff665e9bada50d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d8bc3d8beb0c7e9310b647bd57dc2959bc64c237",
+      "git:hexsha": "d8bc3d8beb0c7e9310b647bd57dc2959bc64c237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ab7121d0f3b03ba771249a281dbc45a931c7be11",
+      "git:hexsha": "ab7121d0f3b03ba771249a281dbc45a931c7be11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/31947855f0ad9c30b0c6b9a2bd2844d4afda1963",
+      "git:hexsha": "31947855f0ad9c30b0c6b9a2bd2844d4afda1963",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/777e6f5c2c07753131fbe1eb3481671e885adc8b",
+      "git:hexsha": "777e6f5c2c07753131fbe1eb3481671e885adc8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2be576f988a764c8d022cee17f3e362f6a584385",
+      "git:hexsha": "2be576f988a764c8d022cee17f3e362f6a584385",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.2.4-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/253c597f5fa1c9270c4d4fb22eeec99bb8d914b4",
+      "git:hexsha": "253c597f5fa1c9270c4d4fb22eeec99bb8d914b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9bc59c3806866b749eef5cd25db27fe33f3d8d28",
+      "git:hexsha": "9bc59c3806866b749eef5cd25db27fe33f3d8d28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1e4763b84e0dee8097b10ec30adc9b5ea24c22ba",
+      "git:hexsha": "1e4763b84e0dee8097b10ec30adc9b5ea24c22ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b7911847de5cbe5ac4e354cf35ca6b93e68acf0a",
+      "git:hexsha": "b7911847de5cbe5ac4e354cf35ca6b93e68acf0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.20.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ffe5e47f6434d5a4300315a484eab3988a058e97",
+      "git:hexsha": "ffe5e47f6434d5a4300315a484eab3988a058e97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f7147540a3d6dbad999c5d2392f496aa14a61cee",
+      "git:hexsha": "f7147540a3d6dbad999c5d2392f496aa14a61cee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/08a82c8d1370c8fcdca3a1edb778e936da4de27d",
+      "git:hexsha": "08a82c8d1370c8fcdca3a1edb778e936da4de27d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.21.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d3173c9a3b5efa7f523e4e248b70c5883a8f4a79",
+      "git:hexsha": "d3173c9a3b5efa7f523e4e248b70c5883a8f4a79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ecce6f658fa4563df0935ffca9257762825c8367",
+      "git:hexsha": "ecce6f658fa4563df0935ffca9257762825c8367",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.22.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/310416e242398620ccc74bdb5357b17925e6ade2",
+      "git:hexsha": "310416e242398620ccc74bdb5357b17925e6ade2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.22.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/abe72c2113e90c10e9c0848cc1157fe28c0470dd",
+      "git:hexsha": "abe72c2113e90c10e9c0848cc1157fe28c0470dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/88466ce211e9c0860967adb8aa89c8262a5aa4fa",
+      "git:hexsha": "88466ce211e9c0860967adb8aa89c8262a5aa4fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.23.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a01c682ea473ae753933142fff55f677d0f18218",
+      "git:hexsha": "a01c682ea473ae753933142fff55f677d0f18218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.23.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c702cc1931b361c3deec5ac0ee1d441aaf47d504",
+      "git:hexsha": "c702cc1931b361c3deec5ac0ee1d441aaf47d504",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/98d73efdae6bfb7400ff153f5ab036e84201847f",
+      "git:hexsha": "98d73efdae6bfb7400ff153f5ab036e84201847f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2cca5f1248b8b4fee6a5021b9ae3b0b263bd6690",
+      "git:hexsha": "2cca5f1248b8b4fee6a5021b9ae3b0b263bd6690",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cc92bcd52919b59c16bc8948c0b973b145b7d743",
+      "git:hexsha": "cc92bcd52919b59c16bc8948c0b973b145b7d743",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/84143c58298d1c3338476f666fe17180285edaeb",
+      "git:hexsha": "84143c58298d1c3338476f666fe17180285edaeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3382c07b9dcb074d765151ec7f9b44819ba386a5",
+      "git:hexsha": "3382c07b9dcb074d765151ec7f9b44819ba386a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.24.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d74fd4052063c083f6b409956cf28fcb70a294e2",
+      "git:hexsha": "d74fd4052063c083f6b409956cf28fcb70a294e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/76c446c2f6e20ee40d7bcd4b7b73d6aac19c5a4c",
+      "git:hexsha": "76c446c2f6e20ee40d7bcd4b7b73d6aac19c5a4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/69af72ec9069a74d0468d25533a4b1da931cb1c5",
+      "git:hexsha": "69af72ec9069a74d0468d25533a4b1da931cb1c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9be588e167b4ea8b7ab51c154851a5b743434593",
+      "git:hexsha": "9be588e167b4ea8b7ab51c154851a5b743434593",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1833473df75530215f25def1de73b0b33cb88439",
+      "git:hexsha": "1833473df75530215f25def1de73b0b33cb88439",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c389195415e6e879b0f228695a7a617148059f9a",
+      "git:hexsha": "c389195415e6e879b0f228695a7a617148059f9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8f312237a60b7e2e20acc1f6a11c80c7ec264bd9",
+      "git:hexsha": "8f312237a60b7e2e20acc1f6a11c80c7ec264bd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.25.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/6c995b91f5d06db7f1e84df0614903f24afe3550",
+      "git:hexsha": "6c995b91f5d06db7f1e84df0614903f24afe3550",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0db4c88a50e76b4e83e34c0a27b7f3b4391d3d01",
+      "git:hexsha": "0db4c88a50e76b4e83e34c0a27b7f3b4391d3d01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5a192fd1b2a1a6bd3a268bbd1174de04269fed45",
+      "git:hexsha": "5a192fd1b2a1a6bd3a268bbd1174de04269fed45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3dabe4b2be3985e59b0bff0103f85ce60ef518de",
+      "git:hexsha": "3dabe4b2be3985e59b0bff0103f85ce60ef518de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/95552b8b0fc8fd4bf9d179cefaf0dc511e003a1f",
+      "git:hexsha": "95552b8b0fc8fd4bf9d179cefaf0dc511e003a1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.26.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/89936fa1692327f62cbd69381bf23c0b7aa3867d",
+      "git:hexsha": "89936fa1692327f62cbd69381bf23c0b7aa3867d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.27.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a6339eb8dab4a5ef1876f2f9f72f89cc514500e8",
+      "git:hexsha": "a6339eb8dab4a5ef1876f2f9f72f89cc514500e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.27.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b142a8218c13c59c4cc769ba01106c560f905b23",
+      "git:hexsha": "b142a8218c13c59c4cc769ba01106c560f905b23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.27.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/66af6379813840314cd295f747d2cfac21fde040",
+      "git:hexsha": "66af6379813840314cd295f747d2cfac21fde040",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/46863356fdae1c4e6dbf246a498f061d63420051",
+      "git:hexsha": "46863356fdae1c4e6dbf246a498f061d63420051",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.28.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8d2dfa4092fbf9fa757b09aa03fc3b6f2db473b1",
+      "git:hexsha": "8d2dfa4092fbf9fa757b09aa03fc3b6f2db473b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.28.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3ac0aae81efbb160c02d7c236b8a959f8019956d",
+      "git:hexsha": "3ac0aae81efbb160c02d7c236b8a959f8019956d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.28.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/63929e0c5d6c1812d65f5f7790ed0e603924c5aa",
+      "git:hexsha": "63929e0c5d6c1812d65f5f7790ed0e603924c5aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/26c4a2e8789f493028214d9d16e437e6f3dbcc28",
+      "git:hexsha": "26c4a2e8789f493028214d9d16e437e6f3dbcc28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/6e19535a1883922b83731a91b166efa24af1e4fc",
+      "git:hexsha": "6e19535a1883922b83731a91b166efa24af1e4fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/42ad2afd25185b680f4e3a8e97be9b8a8ce3926c",
+      "git:hexsha": "42ad2afd25185b680f4e3a8e97be9b8a8ce3926c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.29.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/43bb0ad820a865bfb6f43da7163c1e73703a0716",
+      "git:hexsha": "43bb0ad820a865bfb6f43da7163c1e73703a0716",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/6425b05e50ec9f12ce0dc5e38817630e4aa138ec",
+      "git:hexsha": "6425b05e50ec9f12ce0dc5e38817630e4aa138ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/56a0fb551efa5624c3833f300ad62b514ec9688e",
+      "git:hexsha": "56a0fb551efa5624c3833f300ad62b514ec9688e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3ec5e2a55d6ed4bc200a681c08a488432aa86a94",
+      "git:hexsha": "3ec5e2a55d6ed4bc200a681c08a488432aa86a94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/efc907cc822814bbd41fcbe86fd490b6108de70f",
+      "git:hexsha": "efc907cc822814bbd41fcbe86fd490b6108de70f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9a5f58cadbe5d37be54408442180cb7b6e26a8ac",
+      "git:hexsha": "9a5f58cadbe5d37be54408442180cb7b6e26a8ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.3.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cdd105e1679ebe15d10a8411e4f59909a31b77fd",
+      "git:hexsha": "cdd105e1679ebe15d10a8411e4f59909a31b77fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/505a606544321f7598e872eca6eff47bedaa297e",
+      "git:hexsha": "505a606544321f7598e872eca6eff47bedaa297e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b24edf7601abb41db467cc429b219dadaf1d1254",
+      "git:hexsha": "b24edf7601abb41db467cc429b219dadaf1d1254",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/47a19c258e287cae5acfb794036ab1465b55b61a",
+      "git:hexsha": "47a19c258e287cae5acfb794036ab1465b55b61a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/df454b5d71e6eab2829ae47d76791e22c7d1cd57",
+      "git:hexsha": "df454b5d71e6eab2829ae47d76791e22c7d1cd57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b77aac03fcc584f47c69cdbe6ca29c9d8f086d0c",
+      "git:hexsha": "b77aac03fcc584f47c69cdbe6ca29c9d8f086d0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5d3c9966959e61136a2fd904b583bcfa735aeb7a",
+      "git:hexsha": "5d3c9966959e61136a2fd904b583bcfa735aeb7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.30.2-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/df44022bbd85d38123b76350f639803068f43aba",
+      "git:hexsha": "df44022bbd85d38123b76350f639803068f43aba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/817cecfafe691019d42638dca18f1445b724e61c",
+      "git:hexsha": "817cecfafe691019d42638dca18f1445b724e61c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0f0465718e10ce9df86a56c557a57b68e767bfba",
+      "git:hexsha": "0f0465718e10ce9df86a56c557a57b68e767bfba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f0f1aef7785f5612f772e1247c472dc0e23b2270",
+      "git:hexsha": "f0f1aef7785f5612f772e1247c472dc0e23b2270",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4d9b2019f5e6bb5a7d6676df60178d41c2b23110",
+      "git:hexsha": "4d9b2019f5e6bb5a7d6676df60178d41c2b23110",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/772c8bd6a5f066e47c613f3953cde0c3ddd45259",
+      "git:hexsha": "772c8bd6a5f066e47c613f3953cde0c3ddd45259",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.31.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/23b719d8baf7beeba8533b9024885cad52330c72",
+      "git:hexsha": "23b719d8baf7beeba8533b9024885cad52330c72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.32.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8dd610aa76850d175231653d08d0dc04657a2119",
+      "git:hexsha": "8dd610aa76850d175231653d08d0dc04657a2119",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/b3b3f8930226f4ed3e23ab655be2407054895413",
+      "git:hexsha": "b3b3f8930226f4ed3e23ab655be2407054895413",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/495bf55e3dd989da9d9240ca3580b3a99c84c8fc",
+      "git:hexsha": "495bf55e3dd989da9d9240ca3580b3a99c84c8fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.4.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e6e588c2f8846953848de543b100321c2682e0a0",
+      "git:hexsha": "e6e588c2f8846953848de543b100321c2682e0a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/21c507331c98c76aed88cd8046373dfa2a3590e7",
+      "git:hexsha": "21c507331c98c76aed88cd8046373dfa2a3590e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/84f6e487fc0e124c9e9a4d2fad8f84fea99e25a9",
+      "git:hexsha": "84f6e487fc0e124c9e9a4d2fad8f84fea99e25a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/a9cd91b6f4eda23d73ebb5269b96d019c9c9ba02",
+      "git:hexsha": "a9cd91b6f4eda23d73ebb5269b96d019c9c9ba02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8b5ad395dd34b1e69194aafaeb8b28b4374441f3",
+      "git:hexsha": "8b5ad395dd34b1e69194aafaeb8b28b4374441f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d6ea32b8c2ec9e23fbdb03823b0cf987d8ff4b6c",
+      "git:hexsha": "d6ea32b8c2ec9e23fbdb03823b0cf987d8ff4b6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f26e2fb9c3d390f4c4e6e92507ae5a7ffbd77401",
+      "git:hexsha": "f26e2fb9c3d390f4c4e6e92507ae5a7ffbd77401",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/8d0f31f83313a95da5b1aee7fd2a32402c0fca3a",
+      "git:hexsha": "8d0f31f83313a95da5b1aee7fd2a32402c0fca3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.5.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/89dc8b846b2f0c25d8794875d56d89570f4dc370",
+      "git:hexsha": "89dc8b846b2f0c25d8794875d56d89570f4dc370",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/3e3f79b9285c5b56432aac3e4ef2309e5f31ea74",
+      "git:hexsha": "3e3f79b9285c5b56432aac3e4ef2309e5f31ea74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c68160c29989b0f2056f3e37e671b0e72d5949d6",
+      "git:hexsha": "c68160c29989b0f2056f3e37e671b0e72d5949d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/57f43be6c9b7affbc97fafa10658c500b84849aa",
+      "git:hexsha": "57f43be6c9b7affbc97fafa10658c500b84849aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cd23720fb8279f4490389034262f4b32071bc559",
+      "git:hexsha": "cd23720fb8279f4490389034262f4b32071bc559",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2fa6c777d84f496b5d95ff5d2122fd7ffe50be71",
+      "git:hexsha": "2fa6c777d84f496b5d95ff5d2122fd7ffe50be71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ccc4dcd27326856c361fac59da471c07a95ad1d5",
+      "git:hexsha": "ccc4dcd27326856c361fac59da471c07a95ad1d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.6.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/53f5a9633c5f81b85b8212e7a3643508a7d02983",
+      "git:hexsha": "53f5a9633c5f81b85b8212e7a3643508a7d02983",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/2fd1d7844d4d902da442f6ffe953c27bd678264b",
+      "git:hexsha": "2fd1d7844d4d902da442f6ffe953c27bd678264b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.7.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/505c1277ca238dfae579791e867653750f8db701",
+      "git:hexsha": "505c1277ca238dfae579791e867653750f8db701",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/700684a31c7241680627f33512bdd56b0103119a",
+      "git:hexsha": "700684a31c7241680627f33512bdd56b0103119a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/da7602b4ce3139e7f3afee10447e23825a528f5d",
+      "git:hexsha": "da7602b4ce3139e7f3afee10447e23825a528f5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/314d16bf7ba8aae9222a03918dce4c84505e4ad3",
+      "git:hexsha": "314d16bf7ba8aae9222a03918dce4c84505e4ad3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/665db44926ac1c74adfeed2904e673f5c4b42cf7",
+      "git:hexsha": "665db44926ac1c74adfeed2904e673f5c4b42cf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bc0cd95c49826b001694a7109ada19bec2c7b3b9",
+      "git:hexsha": "bc0cd95c49826b001694a7109ada19bec2c7b3b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/55e7fbf2534730211ce13890f8b7378a8f8ba6e7",
+      "git:hexsha": "55e7fbf2534730211ce13890f8b7378a8f8ba6e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/167a48e2113510e4d36992abcf081c12f411d142",
+      "git:hexsha": "167a48e2113510e4d36992abcf081c12f411d142",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/32a204404a8eb6b130ae3031987ffed23c7289f1",
+      "git:hexsha": "32a204404a8eb6b130ae3031987ffed23c7289f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.8.1-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d72ed6cb37abebaefda8da39e3e7a5d8fffb2065",
+      "git:hexsha": "d72ed6cb37abebaefda8da39e3e7a5d8fffb2065",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f0c3692cf2a86c69de8738d53af925500e8a5126",
+      "git:hexsha": "f0c3692cf2a86c69de8738d53af925500e8a5126",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/fef35ddaf6f04987f95bb8a628b67fe26426a5a9",
+      "git:hexsha": "fef35ddaf6f04987f95bb8a628b67fe26426a5a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v2.9.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/86e06ee1f0b6a5301a82263bdb01118ebd76af73",
+      "git:hexsha": "86e06ee1f0b6a5301a82263bdb01118ebd76af73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/18559c2fb336c88a707644b44cdc6563eeb35e75",
+      "git:hexsha": "18559c2fb336c88a707644b44cdc6563eeb35e75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/25545e74eddae6bb8321b73699ae1b86ca09b65e",
+      "git:hexsha": "25545e74eddae6bb8321b73699ae1b86ca09b65e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.0.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/859a6eb3ac4d0bd33f069bab57fb041e3434a353",
+      "git:hexsha": "859a6eb3ac4d0bd33f069bab57fb041e3434a353",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/20d9bc4e3945ffd425f4279fa38eefe9d9c7d782",
+      "git:hexsha": "20d9bc4e3945ffd425f4279fa38eefe9d9c7d782",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/4799c5a1e7eadd29be9f8535265a66acf35715a1",
+      "git:hexsha": "4799c5a1e7eadd29be9f8535265a66acf35715a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/e37cc9468c7f116335393abb133ad4777ca9c345",
+      "git:hexsha": "e37cc9468c7f116335393abb133ad4777ca9c345",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/5de8d6c5747f0acbe88c1e34ec9e2703f3c8fc38",
+      "git:hexsha": "5de8d6c5747f0acbe88c1e34ec9e2703f3c8fc38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/d60cce01a778bc3498a02866fe288b3c07398649",
+      "git:hexsha": "d60cce01a778bc3498a02866fe288b3c07398649",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/0f0902359cad114d4135a47f7403f9aeea0d37ab",
+      "git:hexsha": "0f0902359cad114d4135a47f7403f9aeea0d37ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.1.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/cf1dfe80dc6cb0286aebb23c93455895e559668e",
+      "git:hexsha": "cf1dfe80dc6cb0286aebb23c93455895e559668e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/1aa0ad9b8c846e9da7a029124ca90f4c88c1666f",
+      "git:hexsha": "1aa0ad9b8c846e9da7a029124ca90f4c88c1666f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/771381400742a529d067803c6d5c1e54f810b4ea",
+      "git:hexsha": "771381400742a529d067803c6d5c1e54f810b4ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.2.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/daa2d1ffacd083dcb1fc9a455adf541360a9e09c",
+      "git:hexsha": "daa2d1ffacd083dcb1fc9a455adf541360a9e09c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/bd79bf9034f0e5fea9823a08462d79c162c42efa",
+      "git:hexsha": "bd79bf9034f0e5fea9823a08462d79c162c42efa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.3.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/05b616c7c279955ee3c144a3acfea098fbd99edc",
+      "git:hexsha": "05b616c7c279955ee3c144a3acfea098fbd99edc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.3.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/072bf84be8cdd1fe1e0f821ae84e6e89e20d2a07",
+      "git:hexsha": "072bf84be8cdd1fe1e0f821ae84e6e89e20d2a07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/f4e004c34cbc724b3ffb026debdf7a0541e4a21f",
+      "git:hexsha": "f4e004c34cbc724b3ffb026debdf7a0541e4a21f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.0-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/27ca59da43e445b6e67480b9b5556e388883c1cf",
+      "git:hexsha": "27ca59da43e445b6e67480b9b5556e388883c1cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/7f0ab62afb01c096557d5d69ec57276dd6583a57",
+      "git:hexsha": "7f0ab62afb01c096557d5d69ec57276dd6583a57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/ada9fa79c3648c48e3a5a6271835905fa833857c",
+      "git:hexsha": "ada9fa79c3648c48e3a5a6271835905fa833857c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.1-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/c1e88caefbe5045945f4a2f74ca9345f776264cf",
+      "git:hexsha": "c1e88caefbe5045945f4a2f74ca9345f776264cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.4.1-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/deepset-ai/haystack/commit/9f3981682c94b7660ecdb8c001ac61e7c779137c",
+      "git:hexsha": "9f3981682c94b7660ecdb8c001ac61e7c779137c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v3.5.0-rc0"
+    }
+  ]
+}
