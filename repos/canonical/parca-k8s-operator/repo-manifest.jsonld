@@ -1,0 +1,2230 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/canonical/parca-k8s-operator",
+  "@type": "gh:Repository",
+  "gh:name": "parca-k8s-operator",
+  "gh:owner": "canonical",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/89fe873c4d8490f700e5d223d636c4602319a9a2",
+      "git:hexsha": "89fe873c4d8490f700e5d223d636c4602319a9a2",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "rev405",
+      "repolex:parsedAt": "2026-11-08T15:34:36.678778+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3cb8208c1d1fa7bc99717ad45e29a28730815673",
+      "git:hexsha": "3cb8208c1d1fa7bc99717ad45e29a28730815673",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev10"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ed9dc01aa315d2292d89b0339480d54e48545910",
+      "git:hexsha": "ed9dc01aa315d2292d89b0339480d54e48545910",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev100"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d9c82469e60968563ac4704e121e33b027f0e151",
+      "git:hexsha": "d9c82469e60968563ac4704e121e33b027f0e151",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev101"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a214a781912135f7a315e2762cd28d03ecc38d12",
+      "git:hexsha": "a214a781912135f7a315e2762cd28d03ecc38d12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev102"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/04bf5bd34bd5cddf3077c2e5ae5051acaec1e66f",
+      "git:hexsha": "04bf5bd34bd5cddf3077c2e5ae5051acaec1e66f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev103"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/357fe42472d5d6171a4b92198188a72af5ea47b8",
+      "git:hexsha": "357fe42472d5d6171a4b92198188a72af5ea47b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev104"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6b7fbe064550f48a21f49676a8e7090b2d7ddeca",
+      "git:hexsha": "6b7fbe064550f48a21f49676a8e7090b2d7ddeca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev105"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a94a3a64bbf238ad2d96cc10913fbb1dec5410a1",
+      "git:hexsha": "a94a3a64bbf238ad2d96cc10913fbb1dec5410a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev106"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5156cd14963269edb11584fa9086433343715e87",
+      "git:hexsha": "5156cd14963269edb11584fa9086433343715e87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev107"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d139780f696be57a536710177e1e3fcc5eaec180",
+      "git:hexsha": "d139780f696be57a536710177e1e3fcc5eaec180",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev108"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c083e80ed48503065a93294457d9859c301e8237",
+      "git:hexsha": "c083e80ed48503065a93294457d9859c301e8237",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev109"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/69455ac2edf974a970a5989bbffacc41bd712fbc",
+      "git:hexsha": "69455ac2edf974a970a5989bbffacc41bd712fbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev11"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d08503a7439f416e4987e0260574a4be006eea50",
+      "git:hexsha": "d08503a7439f416e4987e0260574a4be006eea50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev110"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/34f9e51db4f78a8cfa721d222a8e413c24f52535",
+      "git:hexsha": "34f9e51db4f78a8cfa721d222a8e413c24f52535",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev111"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5bc6f1938ec8a6d48449166ddede4b967ba61222",
+      "git:hexsha": "5bc6f1938ec8a6d48449166ddede4b967ba61222",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev112"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/75c41b4fe5135ae44bcf18a40539a900be5ba7fb",
+      "git:hexsha": "75c41b4fe5135ae44bcf18a40539a900be5ba7fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev113"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/005f6548363537559789aa006e684a87d96bd61a",
+      "git:hexsha": "005f6548363537559789aa006e684a87d96bd61a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev114"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ab1348f76d6fcade8504c03793b59c0067aa3365",
+      "git:hexsha": "ab1348f76d6fcade8504c03793b59c0067aa3365",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev115"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d88acabefe7d89a407a26a4342056502bcf720c5",
+      "git:hexsha": "d88acabefe7d89a407a26a4342056502bcf720c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev116"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ec13549a50a1ff833a0d5085fbf4246a53e628ef",
+      "git:hexsha": "ec13549a50a1ff833a0d5085fbf4246a53e628ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev117"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a63346a87097714ffb24be67fd9b9917d9eb1b4d",
+      "git:hexsha": "a63346a87097714ffb24be67fd9b9917d9eb1b4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev118"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2d363cc6e70b4fedfb7173a24cef3a9609d29616",
+      "git:hexsha": "2d363cc6e70b4fedfb7173a24cef3a9609d29616",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev119"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/490d51245b75b5e863a1b88fb7882e44400f4b16",
+      "git:hexsha": "490d51245b75b5e863a1b88fb7882e44400f4b16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev12"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/604f5f32b0a844006d9bb6d8196f3fd5f8da23b6",
+      "git:hexsha": "604f5f32b0a844006d9bb6d8196f3fd5f8da23b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev120"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2478625fe23a5a7c749c96f0471ee843c1ea817f",
+      "git:hexsha": "2478625fe23a5a7c749c96f0471ee843c1ea817f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev121"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/20d245bd153201b0682ae13c01be9b3ca2666132",
+      "git:hexsha": "20d245bd153201b0682ae13c01be9b3ca2666132",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev122"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/30d2773141f279a8ac976218ab3bf0617a1bebd0",
+      "git:hexsha": "30d2773141f279a8ac976218ab3bf0617a1bebd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev123"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/22db767f07c23e68c87d4935c27200ddc2e4ba11",
+      "git:hexsha": "22db767f07c23e68c87d4935c27200ddc2e4ba11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev124"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cc5c6dabfc6d68812c43b08c2eea5a9dbbde528b",
+      "git:hexsha": "cc5c6dabfc6d68812c43b08c2eea5a9dbbde528b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev125"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d2ba9901c9984c09e5b81f4676a5c7ee69a67889",
+      "git:hexsha": "d2ba9901c9984c09e5b81f4676a5c7ee69a67889",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev126"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9bfd5de4a53bedd0698bececbff48412283632fc",
+      "git:hexsha": "9bfd5de4a53bedd0698bececbff48412283632fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev127"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2aca63013c0da5ed4af5be74fbaeac3d3e52dcc0",
+      "git:hexsha": "2aca63013c0da5ed4af5be74fbaeac3d3e52dcc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev128"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/97b726b8dcb7656f1b58473feeba3c625d82521b",
+      "git:hexsha": "97b726b8dcb7656f1b58473feeba3c625d82521b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev129"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ee25ddfc557c9d0acee441ec5342fe43e223e3b1",
+      "git:hexsha": "ee25ddfc557c9d0acee441ec5342fe43e223e3b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev13"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cc1b6673730e3db3692c54804d06c1fecdd5f69b",
+      "git:hexsha": "cc1b6673730e3db3692c54804d06c1fecdd5f69b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev130"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/091401f044089acc0a5358481e1065933715face",
+      "git:hexsha": "091401f044089acc0a5358481e1065933715face",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev131"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ef1362718dfc4aa8f6e4078ae3e814e8d661d202",
+      "git:hexsha": "ef1362718dfc4aa8f6e4078ae3e814e8d661d202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev132"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ee3f8889c173484996f777b438eaa9c0347bfac6",
+      "git:hexsha": "ee3f8889c173484996f777b438eaa9c0347bfac6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev133"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7f668e3a721d0f204524eec67808c638f90ecb87",
+      "git:hexsha": "7f668e3a721d0f204524eec67808c638f90ecb87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev134"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6b14273f6ee4c4fea379bb99357d99b90ce33789",
+      "git:hexsha": "6b14273f6ee4c4fea379bb99357d99b90ce33789",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev135"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5218ad062b8f9b2bf03acae28619a02725aea1a5",
+      "git:hexsha": "5218ad062b8f9b2bf03acae28619a02725aea1a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev136"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b239d37c58025f590add00ce2af57dbbfe385fa0",
+      "git:hexsha": "b239d37c58025f590add00ce2af57dbbfe385fa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev137"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4edd1fdbd8a68a959bcc4f14aec4979ea36fc8eb",
+      "git:hexsha": "4edd1fdbd8a68a959bcc4f14aec4979ea36fc8eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev138"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d49f1f6653fa2589de6c6f05707d1b6f520fb8b5",
+      "git:hexsha": "d49f1f6653fa2589de6c6f05707d1b6f520fb8b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev139"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/83d466ca787596b491990e9084296fa88b8ef618",
+      "git:hexsha": "83d466ca787596b491990e9084296fa88b8ef618",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev140"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6101d58f8c44950fb108c20184af99ff3f72cbc7",
+      "git:hexsha": "6101d58f8c44950fb108c20184af99ff3f72cbc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev141"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6590463b4d991524196d3753642f4696855634ae",
+      "git:hexsha": "6590463b4d991524196d3753642f4696855634ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev142"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a8b0225e1c6e32c2d4d2e7c0d91416db7b7d97ad",
+      "git:hexsha": "a8b0225e1c6e32c2d4d2e7c0d91416db7b7d97ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev143"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d47233447ee69bd8c9880f530ed11594fd459baa",
+      "git:hexsha": "d47233447ee69bd8c9880f530ed11594fd459baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev144"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/76ef1c8c5ec871fe462f9ba8db1b84033c4db7e5",
+      "git:hexsha": "76ef1c8c5ec871fe462f9ba8db1b84033c4db7e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev145"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/12162e897606c0112b5e8a0dddb71564a98c6213",
+      "git:hexsha": "12162e897606c0112b5e8a0dddb71564a98c6213",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev146"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2205f74f42115ecb8da8a5664983af2c509715af",
+      "git:hexsha": "2205f74f42115ecb8da8a5664983af2c509715af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev147"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9234b29b4653ce114ca487c43e9bcc29757f79cb",
+      "git:hexsha": "9234b29b4653ce114ca487c43e9bcc29757f79cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev148"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/eac1b006d470b68c0ba24e41d2298f407a3b4a23",
+      "git:hexsha": "eac1b006d470b68c0ba24e41d2298f407a3b4a23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev149"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/88edbf2081122a7036a5bead3e7fd8ca2e358209",
+      "git:hexsha": "88edbf2081122a7036a5bead3e7fd8ca2e358209",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev15"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cea3f956c33f79543c0dc365e1d458585e7c2c6b",
+      "git:hexsha": "cea3f956c33f79543c0dc365e1d458585e7c2c6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev150"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/78bdf910d15fbb5bcfc6ff45a0401bda5486472a",
+      "git:hexsha": "78bdf910d15fbb5bcfc6ff45a0401bda5486472a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev151"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/930d0f6edb9f4e48d5d736ef99e86453de0e3e79",
+      "git:hexsha": "930d0f6edb9f4e48d5d736ef99e86453de0e3e79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev152"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3492676b9d16c7a457cfd947f0854b630404088e",
+      "git:hexsha": "3492676b9d16c7a457cfd947f0854b630404088e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev153"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4ef2f7b9cad683f413433b25829d432fa515fccc",
+      "git:hexsha": "4ef2f7b9cad683f413433b25829d432fa515fccc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev154"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/00aea1b0751e983373aa581ef7a9e30d32850048",
+      "git:hexsha": "00aea1b0751e983373aa581ef7a9e30d32850048",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev155"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/627503e526e6b8c0eff7c9aa9cc4b6da48900c40",
+      "git:hexsha": "627503e526e6b8c0eff7c9aa9cc4b6da48900c40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev156"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0c490b1cc54fceaa372bbe09cc45682aa5249526",
+      "git:hexsha": "0c490b1cc54fceaa372bbe09cc45682aa5249526",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev157"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/75ae8b516f48780822e4ea1148883d3c8979c04a",
+      "git:hexsha": "75ae8b516f48780822e4ea1148883d3c8979c04a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev158"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3d40b259d0dbda61aaa00506e322d8107937f374",
+      "git:hexsha": "3d40b259d0dbda61aaa00506e322d8107937f374",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev159"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4182c60bfce37c96ab7c4b76e16412c1f74e1efc",
+      "git:hexsha": "4182c60bfce37c96ab7c4b76e16412c1f74e1efc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev16"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4e90fd7b83fa3e44411ef2624027f32335f402fa",
+      "git:hexsha": "4e90fd7b83fa3e44411ef2624027f32335f402fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev160"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7fa0882f113c46961e2ffe9428584d19473767cf",
+      "git:hexsha": "7fa0882f113c46961e2ffe9428584d19473767cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev161"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b56402af61208e3cef5f7e19ba1500b97db02f9f",
+      "git:hexsha": "b56402af61208e3cef5f7e19ba1500b97db02f9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev162"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4bd03a2bd347d0925b811483d4a202e5146e39bb",
+      "git:hexsha": "4bd03a2bd347d0925b811483d4a202e5146e39bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev163"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3b897aff6af20d8f44e1f6d19cca20c13f2489e3",
+      "git:hexsha": "3b897aff6af20d8f44e1f6d19cca20c13f2489e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev164"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2148d363935b576c229c15b4926c0b06c9d51c29",
+      "git:hexsha": "2148d363935b576c229c15b4926c0b06c9d51c29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev165"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/51311b5c78b58fb97f4bf53c9adba9e9f5f3dc08",
+      "git:hexsha": "51311b5c78b58fb97f4bf53c9adba9e9f5f3dc08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev166"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/af33f099b10a4b21e7d16fcd0b4491e98ec1c568",
+      "git:hexsha": "af33f099b10a4b21e7d16fcd0b4491e98ec1c568",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev167"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f29b563556a0743511c1208e0d93bb5381db4d2d",
+      "git:hexsha": "f29b563556a0743511c1208e0d93bb5381db4d2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev168"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6820d845eeabc2e669e60a08bf2c6259e2c18a21",
+      "git:hexsha": "6820d845eeabc2e669e60a08bf2c6259e2c18a21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev169"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/178430e9fa283d8c3a1bc0dc5ea161dedfa905ee",
+      "git:hexsha": "178430e9fa283d8c3a1bc0dc5ea161dedfa905ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev17"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/eb99d8e1eb7c819d88e178336a08cbccc2de86aa",
+      "git:hexsha": "eb99d8e1eb7c819d88e178336a08cbccc2de86aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev170"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5513dd8f61e039227c97f92d785103744d913f3d",
+      "git:hexsha": "5513dd8f61e039227c97f92d785103744d913f3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev171"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/87389f19c8a6b9d252497c7dd0c23a8ea5c44862",
+      "git:hexsha": "87389f19c8a6b9d252497c7dd0c23a8ea5c44862",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev172"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/85a4e524fb919d022c0b6e3651ab1eea53b02be0",
+      "git:hexsha": "85a4e524fb919d022c0b6e3651ab1eea53b02be0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev173"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/954ce9de1c8d0909dc28fa32b33a9ce696d537d2",
+      "git:hexsha": "954ce9de1c8d0909dc28fa32b33a9ce696d537d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev174"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0e82735624287b0170070cc4f016065c0b9f0f21",
+      "git:hexsha": "0e82735624287b0170070cc4f016065c0b9f0f21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev175"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3ad20638609d5625dde7ad70c97f5594f09aa568",
+      "git:hexsha": "3ad20638609d5625dde7ad70c97f5594f09aa568",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev176"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7b3383741e38b77d1b6e20bd0725d74704f98ee6",
+      "git:hexsha": "7b3383741e38b77d1b6e20bd0725d74704f98ee6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev177"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/08c5a14575568263c96d98f98c1742c432b713a2",
+      "git:hexsha": "08c5a14575568263c96d98f98c1742c432b713a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev178"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0c1ee3d72a99d7b23e788120e46a51549c13544d",
+      "git:hexsha": "0c1ee3d72a99d7b23e788120e46a51549c13544d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev179"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/430347250009b01d8aaab0df00bca05442bcfd4f",
+      "git:hexsha": "430347250009b01d8aaab0df00bca05442bcfd4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev18"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/43f0c7f5bd39189665266e74d5b1a9358a3cf071",
+      "git:hexsha": "43f0c7f5bd39189665266e74d5b1a9358a3cf071",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev180"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c1fb393977e6710c714f5b44e35cb129455f14b3",
+      "git:hexsha": "c1fb393977e6710c714f5b44e35cb129455f14b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev181"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/521d675dd3c9eb20b0fe9749d0eeaf1e5fb4b341",
+      "git:hexsha": "521d675dd3c9eb20b0fe9749d0eeaf1e5fb4b341",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev182"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8ebd2387736b4afb39552e713798bc35380bdfb3",
+      "git:hexsha": "8ebd2387736b4afb39552e713798bc35380bdfb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev183"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/29b50f5d0bfc6567e87f84bf115a6b579b2faf93",
+      "git:hexsha": "29b50f5d0bfc6567e87f84bf115a6b579b2faf93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev184"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d512f78d936af2eed9d472eaf23a2efdd37a4f16",
+      "git:hexsha": "d512f78d936af2eed9d472eaf23a2efdd37a4f16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev185"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7cba211a5639c169672ccdc3cee3e79d903e7209",
+      "git:hexsha": "7cba211a5639c169672ccdc3cee3e79d903e7209",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev186"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8e546ad912efc50660faff4c00cbc5e8c4e3d0c3",
+      "git:hexsha": "8e546ad912efc50660faff4c00cbc5e8c4e3d0c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev187"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a28bfd2ca1e7f345c20d7cea95923c5e2c4ed1a5",
+      "git:hexsha": "a28bfd2ca1e7f345c20d7cea95923c5e2c4ed1a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev188"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/bf7c7074be6f1929c7fc5bf41d7ca1a36c6330c5",
+      "git:hexsha": "bf7c7074be6f1929c7fc5bf41d7ca1a36c6330c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev189"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1b9442e05c7df748a507a1872ac4b8a879ccc7f8",
+      "git:hexsha": "1b9442e05c7df748a507a1872ac4b8a879ccc7f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev19"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7586f933a0373050d2b479a50114491a69a6c8b7",
+      "git:hexsha": "7586f933a0373050d2b479a50114491a69a6c8b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev190"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/870f10db71d23910150805ad23dba4ba736e6ab1",
+      "git:hexsha": "870f10db71d23910150805ad23dba4ba736e6ab1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev191"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/40ddb5d2aa35a9ae2b2577394aa87586768e6f9b",
+      "git:hexsha": "40ddb5d2aa35a9ae2b2577394aa87586768e6f9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev192"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/45c63075c86044f0ae11ad72f9eed13e16ebd6ea",
+      "git:hexsha": "45c63075c86044f0ae11ad72f9eed13e16ebd6ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev193"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/aeb13e55413fb212f8bbc1e785becf4b9438a7bf",
+      "git:hexsha": "aeb13e55413fb212f8bbc1e785becf4b9438a7bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev194"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/46b6bd80a355ac63bd13b18a15a7b0dafbb6d279",
+      "git:hexsha": "46b6bd80a355ac63bd13b18a15a7b0dafbb6d279",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev195"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e81c52385fb19231d5f9d3ca4541cfdd1cadb96f",
+      "git:hexsha": "e81c52385fb19231d5f9d3ca4541cfdd1cadb96f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev196"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5600973b93ce2320ca55844bc071791cbeacb713",
+      "git:hexsha": "5600973b93ce2320ca55844bc071791cbeacb713",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev197"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4c35a251687f1f73c16c306dbb474bc509311ad7",
+      "git:hexsha": "4c35a251687f1f73c16c306dbb474bc509311ad7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev198"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/96ec69370efe7e8c5c35a30946ef7445758ccaaf",
+      "git:hexsha": "96ec69370efe7e8c5c35a30946ef7445758ccaaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev199"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1a9b9307a990a510fde8f3da5ced710cf5237de3",
+      "git:hexsha": "1a9b9307a990a510fde8f3da5ced710cf5237de3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/08beb5f7f3c62db6ae4c46fc4cd0423799a51013",
+      "git:hexsha": "08beb5f7f3c62db6ae4c46fc4cd0423799a51013",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev20"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ab8996b2a748f507db1a6fdbb2af0ef821fb8c3a",
+      "git:hexsha": "ab8996b2a748f507db1a6fdbb2af0ef821fb8c3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev200"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2aa58c633d173e5611978b655c003cd6d787d474",
+      "git:hexsha": "2aa58c633d173e5611978b655c003cd6d787d474",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev201"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3769c98b5c52eeb39598f86b195287b86012576f",
+      "git:hexsha": "3769c98b5c52eeb39598f86b195287b86012576f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev202"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/26270aca0dfbc2b11861552375c8f9ba7436ba64",
+      "git:hexsha": "26270aca0dfbc2b11861552375c8f9ba7436ba64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev203"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fd2fa3da92b62aaec1684860ced37609d6f5278f",
+      "git:hexsha": "fd2fa3da92b62aaec1684860ced37609d6f5278f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev204"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/defb1d43f1efbdebc63f92e4353d49cc61c497f7",
+      "git:hexsha": "defb1d43f1efbdebc63f92e4353d49cc61c497f7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev205"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0d6c99466809cc9d7b285bb2a4d51c4736b7ae0a",
+      "git:hexsha": "0d6c99466809cc9d7b285bb2a4d51c4736b7ae0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev206"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1019275f7359a7aa40d94ce0afcd62ee51730815",
+      "git:hexsha": "1019275f7359a7aa40d94ce0afcd62ee51730815",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev207"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0bad80273deeb81c4b0a32252cd2f32971ee6d08",
+      "git:hexsha": "0bad80273deeb81c4b0a32252cd2f32971ee6d08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev208"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/12630c612c10355e7dcb09c883935b8ee19a9d1e",
+      "git:hexsha": "12630c612c10355e7dcb09c883935b8ee19a9d1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev209"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/60778424cacafe5ce9dd85634da6c7dfe8f369e2",
+      "git:hexsha": "60778424cacafe5ce9dd85634da6c7dfe8f369e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev21"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4baf3dbfe4936598fca6353ec8f702e778662f47",
+      "git:hexsha": "4baf3dbfe4936598fca6353ec8f702e778662f47",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev210"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f9b04a95427c73b0efb123417088db4d85050cc0",
+      "git:hexsha": "f9b04a95427c73b0efb123417088db4d85050cc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev211"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e95255ccabcba4ba9a9c67fe4c2527f51fdd22ad",
+      "git:hexsha": "e95255ccabcba4ba9a9c67fe4c2527f51fdd22ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev212"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b551c81a8eef0d0f92d3ff23bbdd0f21ab34fbb3",
+      "git:hexsha": "b551c81a8eef0d0f92d3ff23bbdd0f21ab34fbb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev213"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/73c55ecac9cacee0ad25cab1755922e6c70cb80f",
+      "git:hexsha": "73c55ecac9cacee0ad25cab1755922e6c70cb80f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev214"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8c1a7d44f7350168e8c69ea8e747adf31752d3d1",
+      "git:hexsha": "8c1a7d44f7350168e8c69ea8e747adf31752d3d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev215"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0fe76c05431409be686891781234c407430c44d9",
+      "git:hexsha": "0fe76c05431409be686891781234c407430c44d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev216"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c64b7baad7e0520f55f21d9fa94650a31a98ffe6",
+      "git:hexsha": "c64b7baad7e0520f55f21d9fa94650a31a98ffe6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev217"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ff2eea98d427d240541c97acef574066c4353d53",
+      "git:hexsha": "ff2eea98d427d240541c97acef574066c4353d53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev218"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0a5756a86d070ef585aec910a5edc1fbfc917573",
+      "git:hexsha": "0a5756a86d070ef585aec910a5edc1fbfc917573",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev219"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4281a6d513e59fe0e00035585829ef63b2dbb821",
+      "git:hexsha": "4281a6d513e59fe0e00035585829ef63b2dbb821",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev22"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e3a52a1e0072a942a16fdbc2c6a1e6db7cf4d57c",
+      "git:hexsha": "e3a52a1e0072a942a16fdbc2c6a1e6db7cf4d57c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev220"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/92f38e308fc6b0f7ff57f742387c0a3376020543",
+      "git:hexsha": "92f38e308fc6b0f7ff57f742387c0a3376020543",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev221"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/880afc513e586a354119407549414bc01fabac5a",
+      "git:hexsha": "880afc513e586a354119407549414bc01fabac5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev222"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/455b88e7615726e3b2e8f0c8b22bf867e4e6f710",
+      "git:hexsha": "455b88e7615726e3b2e8f0c8b22bf867e4e6f710",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev223"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f2dd450cf774e4874396320beace43be13d629fe",
+      "git:hexsha": "f2dd450cf774e4874396320beace43be13d629fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev224"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/077eda74604689679bb2c6995074891efd4166d9",
+      "git:hexsha": "077eda74604689679bb2c6995074891efd4166d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev225"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/120345487218e6f37abf5b1e3a98c74928095ffc",
+      "git:hexsha": "120345487218e6f37abf5b1e3a98c74928095ffc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev226"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/15715d4136e524f9b734ef8e55b51353c2f81b4a",
+      "git:hexsha": "15715d4136e524f9b734ef8e55b51353c2f81b4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev227"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0e7e6ec4b99ab1f7cc1ec83469764ae039572ba8",
+      "git:hexsha": "0e7e6ec4b99ab1f7cc1ec83469764ae039572ba8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev228"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5d8f061ca54f445424325c0640975b59264d3d5d",
+      "git:hexsha": "5d8f061ca54f445424325c0640975b59264d3d5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev229"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e9c31506d71f6d70f99291aa94ec2a52a8d6b989",
+      "git:hexsha": "e9c31506d71f6d70f99291aa94ec2a52a8d6b989",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev23"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2857828ceabde2bacecf2f42ec3987d0681d3148",
+      "git:hexsha": "2857828ceabde2bacecf2f42ec3987d0681d3148",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev230"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ce8fc9a1e4e136c576d1f743f6e9b2a6edf184bc",
+      "git:hexsha": "ce8fc9a1e4e136c576d1f743f6e9b2a6edf184bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev231"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/90d38e70c3ab64e12deb036eeeb085674a3c0e12",
+      "git:hexsha": "90d38e70c3ab64e12deb036eeeb085674a3c0e12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev232"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4dfecabd69113830f0e02c4173ab77014e28a8dc",
+      "git:hexsha": "4dfecabd69113830f0e02c4173ab77014e28a8dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev233"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/70212d8c7f862ca59e9866f0e6edb06b02b04e14",
+      "git:hexsha": "70212d8c7f862ca59e9866f0e6edb06b02b04e14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev234"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6a14d1aadddd09cc18a81f63a8ee87e9279fdc53",
+      "git:hexsha": "6a14d1aadddd09cc18a81f63a8ee87e9279fdc53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev235"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/434dc44107dafa142ef1d3561e72dee5bde313af",
+      "git:hexsha": "434dc44107dafa142ef1d3561e72dee5bde313af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev236"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0e322ab8ad92ba836df33eb972f74a3540c1d29a",
+      "git:hexsha": "0e322ab8ad92ba836df33eb972f74a3540c1d29a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev237"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/80201b2c4cbcadec35f17f3f6d8efb4f31bbf48f",
+      "git:hexsha": "80201b2c4cbcadec35f17f3f6d8efb4f31bbf48f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev238"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ad8bc1ef5e5774b36b1a00ef5d7de66c759ca5c2",
+      "git:hexsha": "ad8bc1ef5e5774b36b1a00ef5d7de66c759ca5c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev239"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b1e88ee813db0ceaabae733439fa6fed7c467809",
+      "git:hexsha": "b1e88ee813db0ceaabae733439fa6fed7c467809",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev24"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1b552c81e12982e2bc6b5dce5840f22d65ac3c14",
+      "git:hexsha": "1b552c81e12982e2bc6b5dce5840f22d65ac3c14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev240"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f9f59b4d6299a6ee0046678feb24a37598e3d873",
+      "git:hexsha": "f9f59b4d6299a6ee0046678feb24a37598e3d873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev241"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8c65cc46285c03bf04851e61d2b97737e0230eb9",
+      "git:hexsha": "8c65cc46285c03bf04851e61d2b97737e0230eb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev242"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3491807aa3c0e0a4bec5bd88462e5ed91242e54e",
+      "git:hexsha": "3491807aa3c0e0a4bec5bd88462e5ed91242e54e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev243"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a0e5c895cb27fb86d7b2cabdf42159a2684f9169",
+      "git:hexsha": "a0e5c895cb27fb86d7b2cabdf42159a2684f9169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev244"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1628a434157a30205afe27c440259c03575d6a9e",
+      "git:hexsha": "1628a434157a30205afe27c440259c03575d6a9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev245"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4e46a89c7dd2b88784c609d43f252af402526f67",
+      "git:hexsha": "4e46a89c7dd2b88784c609d43f252af402526f67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev246"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/80bae9a4afab913d1a249432e8ea13bdf9a33a48",
+      "git:hexsha": "80bae9a4afab913d1a249432e8ea13bdf9a33a48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev247"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f6c0fac839890faa91f4b64211e2bc269b3b5860",
+      "git:hexsha": "f6c0fac839890faa91f4b64211e2bc269b3b5860",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev248"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b5a7057ddc9013c21efb08c27c6577608512b2ff",
+      "git:hexsha": "b5a7057ddc9013c21efb08c27c6577608512b2ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev249"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/891fa34848bf4a3db7675460f33e28895cc8787b",
+      "git:hexsha": "891fa34848bf4a3db7675460f33e28895cc8787b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev25"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fbf84aefb71ce7e51d5f5020d041dd8f4dc327bb",
+      "git:hexsha": "fbf84aefb71ce7e51d5f5020d041dd8f4dc327bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev250"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/56f8225f2e97c4e8adf602d5690ec9e2c24c359c",
+      "git:hexsha": "56f8225f2e97c4e8adf602d5690ec9e2c24c359c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev251"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8e82ba85264e14e3ea968f7622ae03a6eed02b7e",
+      "git:hexsha": "8e82ba85264e14e3ea968f7622ae03a6eed02b7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev252"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/672f40780503bc9676357e07deaa924b25cd9b6c",
+      "git:hexsha": "672f40780503bc9676357e07deaa924b25cd9b6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev253"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c764195a70dd701fd3dcb287cbed48191b7aad8c",
+      "git:hexsha": "c764195a70dd701fd3dcb287cbed48191b7aad8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev254"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/07eb2198c9164a5733d794a2eb40f1f1f3fdd2a1",
+      "git:hexsha": "07eb2198c9164a5733d794a2eb40f1f1f3fdd2a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev255"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8c3e5c7cbd6cca86c52f2bc13ddca867d89f4435",
+      "git:hexsha": "8c3e5c7cbd6cca86c52f2bc13ddca867d89f4435",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev256"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d4afae9d81c28354d9e65f1c0e74db1b5dd33455",
+      "git:hexsha": "d4afae9d81c28354d9e65f1c0e74db1b5dd33455",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev257"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3805fb1938b1ffb16817fbf38d1a0dc048e08053",
+      "git:hexsha": "3805fb1938b1ffb16817fbf38d1a0dc048e08053",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev258"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d53b7f07a15d6bdbd1394008f25bc0c1b977a5bc",
+      "git:hexsha": "d53b7f07a15d6bdbd1394008f25bc0c1b977a5bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev259"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4e223545b8edac599df880cf4aae68e7e834ea7c",
+      "git:hexsha": "4e223545b8edac599df880cf4aae68e7e834ea7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev26"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e41e59b181e35f84ad58d0ab1f2741aa6d1a21f0",
+      "git:hexsha": "e41e59b181e35f84ad58d0ab1f2741aa6d1a21f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev260"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b3be00973cc0cca7a23df32a5fcf4fada375bb50",
+      "git:hexsha": "b3be00973cc0cca7a23df32a5fcf4fada375bb50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev261"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5d23e385bd3710abee9fa500996d526ca07e4fd9",
+      "git:hexsha": "5d23e385bd3710abee9fa500996d526ca07e4fd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev262"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6785dbd52500c4b9ff778b77c2e2c72aa41bec93",
+      "git:hexsha": "6785dbd52500c4b9ff778b77c2e2c72aa41bec93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev263"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7efb590cd401ee9a51021319f179e6ebe91382a4",
+      "git:hexsha": "7efb590cd401ee9a51021319f179e6ebe91382a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev264"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1dd911b443e3b7d9c97cc3f49d6be1c4fca002e5",
+      "git:hexsha": "1dd911b443e3b7d9c97cc3f49d6be1c4fca002e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev265"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/503bfec6bd27bc41b18475263f11ce5b09eb307b",
+      "git:hexsha": "503bfec6bd27bc41b18475263f11ce5b09eb307b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev266"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e4eeda22fd0bd3482a8feee0cfe1c8eacc4a6600",
+      "git:hexsha": "e4eeda22fd0bd3482a8feee0cfe1c8eacc4a6600",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev267"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fec4ec5eff0ecb9cf7dd07a77e2485c392858def",
+      "git:hexsha": "fec4ec5eff0ecb9cf7dd07a77e2485c392858def",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev268"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2d1ec4f4dc2bd96f9a3f7135bc1c323404ce2f43",
+      "git:hexsha": "2d1ec4f4dc2bd96f9a3f7135bc1c323404ce2f43",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev269"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/068b5fa71a8b12b09b1c99b7d2ba9106d7d200bb",
+      "git:hexsha": "068b5fa71a8b12b09b1c99b7d2ba9106d7d200bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev27"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a78929e73697ea1b5b6816a04e4d848c8c971e70",
+      "git:hexsha": "a78929e73697ea1b5b6816a04e4d848c8c971e70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev270"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9272db4bccd9356821e812a7e24af661decdb2ad",
+      "git:hexsha": "9272db4bccd9356821e812a7e24af661decdb2ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev271"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6d3e4c4fcb813e0c41efaf5165746c5b7d77fc19",
+      "git:hexsha": "6d3e4c4fcb813e0c41efaf5165746c5b7d77fc19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev272"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/effb99ce037124eeb0ad3dc74b40c20f0edc1634",
+      "git:hexsha": "effb99ce037124eeb0ad3dc74b40c20f0edc1634",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev273"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7ee7ebe1d3e9280760599e9c5adc49ef4382635d",
+      "git:hexsha": "7ee7ebe1d3e9280760599e9c5adc49ef4382635d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev274"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f548a59e79259a69fc934682e385452f3e540379",
+      "git:hexsha": "f548a59e79259a69fc934682e385452f3e540379",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev276"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/90368c88c074d62b23493a833d50b9c21811c520",
+      "git:hexsha": "90368c88c074d62b23493a833d50b9c21811c520",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev277"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c4e2f9a301be8bbafc4dd0bc5b3aed3aaa82c1c8",
+      "git:hexsha": "c4e2f9a301be8bbafc4dd0bc5b3aed3aaa82c1c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev278"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1c41768ac6f20c4b0c0c570887b3d0d2f99a4795",
+      "git:hexsha": "1c41768ac6f20c4b0c0c570887b3d0d2f99a4795",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev279"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/39da2716ff993098356f9323ea29f20fde5161f4",
+      "git:hexsha": "39da2716ff993098356f9323ea29f20fde5161f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev28"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/af70f32d6175d65275b315d140d5cb4fdef27fd1",
+      "git:hexsha": "af70f32d6175d65275b315d140d5cb4fdef27fd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev280"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/79fada916e2637d727cff0f555d45209f5270eab",
+      "git:hexsha": "79fada916e2637d727cff0f555d45209f5270eab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev281"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/125cb846962114c407c581c9758ebfc7a7f2e1a6",
+      "git:hexsha": "125cb846962114c407c581c9758ebfc7a7f2e1a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev282"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/49fb350b5e42f8c21b01a522a51d512a609889af",
+      "git:hexsha": "49fb350b5e42f8c21b01a522a51d512a609889af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev283"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/eb5bddf793c069fba234bd7da436fcc728c54fa9",
+      "git:hexsha": "eb5bddf793c069fba234bd7da436fcc728c54fa9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev284"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1bb326162d20f48570d0b0c8710ee6a70b770447",
+      "git:hexsha": "1bb326162d20f48570d0b0c8710ee6a70b770447",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev285"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/18ff1565c46728bf5abb4683da3ce00025556f51",
+      "git:hexsha": "18ff1565c46728bf5abb4683da3ce00025556f51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev286"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a760ac2228f50f6d1ceb61efd0ce9b32a4e18771",
+      "git:hexsha": "a760ac2228f50f6d1ceb61efd0ce9b32a4e18771",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev287"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ea1e1d62297ecfb480ec73d510253b627621304e",
+      "git:hexsha": "ea1e1d62297ecfb480ec73d510253b627621304e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev288"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c4b0a1547939e66b72e75e5f4202d5a1395049f5",
+      "git:hexsha": "c4b0a1547939e66b72e75e5f4202d5a1395049f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev289"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c27e745a6ce39e2a8db5842ccf848cbdfa504546",
+      "git:hexsha": "c27e745a6ce39e2a8db5842ccf848cbdfa504546",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev29"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2d7823f0c3378c659a0a8f6faccc4070a76177ab",
+      "git:hexsha": "2d7823f0c3378c659a0a8f6faccc4070a76177ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev290"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/08a5648ce2b253ae9abb38ebbb7fd3a227225dc7",
+      "git:hexsha": "08a5648ce2b253ae9abb38ebbb7fd3a227225dc7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev291"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/eae42c01ec60435d336e56366a5de9c8444a757d",
+      "git:hexsha": "eae42c01ec60435d336e56366a5de9c8444a757d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev292"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/783113fe53f8a42d5cfed5abbc4dfa8f19524bae",
+      "git:hexsha": "783113fe53f8a42d5cfed5abbc4dfa8f19524bae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev293"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ad7acf890de836d98e55ad82eefe1d136e87bf1c",
+      "git:hexsha": "ad7acf890de836d98e55ad82eefe1d136e87bf1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev294"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1bde2fafe204061a96913dfa8fdf6aafed239e99",
+      "git:hexsha": "1bde2fafe204061a96913dfa8fdf6aafed239e99",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev295"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e1d4ece3f5322eee1ad98f9e19ff612bae6e5577",
+      "git:hexsha": "e1d4ece3f5322eee1ad98f9e19ff612bae6e5577",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev296"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6e04021dece4c9214d07294206bd5a73d1f85ce8",
+      "git:hexsha": "6e04021dece4c9214d07294206bd5a73d1f85ce8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev297"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5a5eb67c1dd3e072272ecc7eb46e274e0ec735d0",
+      "git:hexsha": "5a5eb67c1dd3e072272ecc7eb46e274e0ec735d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev298"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a283ab9b02efe5e07e01aee40087334e15173cf1",
+      "git:hexsha": "a283ab9b02efe5e07e01aee40087334e15173cf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev299"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/60543697a59c148a0408105901d542472e0d5623",
+      "git:hexsha": "60543697a59c148a0408105901d542472e0d5623",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fb315a0ed21212f089218853dca7830a046d62d6",
+      "git:hexsha": "fb315a0ed21212f089218853dca7830a046d62d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev30"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c96d5d30c15deaf4aec4d49fd3fb8ca98b0f2bbf",
+      "git:hexsha": "c96d5d30c15deaf4aec4d49fd3fb8ca98b0f2bbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev300"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/90452c074b48fa7be0f7978c198a0811cb8bf35f",
+      "git:hexsha": "90452c074b48fa7be0f7978c198a0811cb8bf35f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev301"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/442ca0bb3744291afb7ba307ec6c7805fa65fd9b",
+      "git:hexsha": "442ca0bb3744291afb7ba307ec6c7805fa65fd9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev302"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/27ec2aa85d9cb51d40a97e0b0b2145eeb6329a92",
+      "git:hexsha": "27ec2aa85d9cb51d40a97e0b0b2145eeb6329a92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev303"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1e69dc7e7dad5aafd0350f1b8df8e9ac4ca06ba6",
+      "git:hexsha": "1e69dc7e7dad5aafd0350f1b8df8e9ac4ca06ba6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev304"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8053692e82b2d7dce3ece50f725e4f195a427c97",
+      "git:hexsha": "8053692e82b2d7dce3ece50f725e4f195a427c97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev305"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f7f17a7701e58d41b9435cff5fe315d4bea0ca42",
+      "git:hexsha": "f7f17a7701e58d41b9435cff5fe315d4bea0ca42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev306"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a93b61b11e386b8d6a965f60d25517113fc05b54",
+      "git:hexsha": "a93b61b11e386b8d6a965f60d25517113fc05b54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev308"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7252c318d12555e1126e7effd6041c8eac35ee6f",
+      "git:hexsha": "7252c318d12555e1126e7effd6041c8eac35ee6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev309"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/859fd53bba0676df4ee22ae4373e46de945a613f",
+      "git:hexsha": "859fd53bba0676df4ee22ae4373e46de945a613f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev31"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/28dd786dce910d91744cea12834b48dce2f68f8a",
+      "git:hexsha": "28dd786dce910d91744cea12834b48dce2f68f8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev310"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b9ac3af7068a1b839ea8ab5537882aa61e80b107",
+      "git:hexsha": "b9ac3af7068a1b839ea8ab5537882aa61e80b107",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev311"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f8d968d35c4fb4828a221e5bae67e1ebf70f744c",
+      "git:hexsha": "f8d968d35c4fb4828a221e5bae67e1ebf70f744c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev312"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/32af4f7db785a6315f036288d74028b9e1d9e5a4",
+      "git:hexsha": "32af4f7db785a6315f036288d74028b9e1d9e5a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev313"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e331c9f7fe4356078b7cfe3dda5d852a82d7f7f6",
+      "git:hexsha": "e331c9f7fe4356078b7cfe3dda5d852a82d7f7f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev314"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/207f46007faea1bc2c5f115bba817d1df7d77e1f",
+      "git:hexsha": "207f46007faea1bc2c5f115bba817d1df7d77e1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev315"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7b855a44b84acf681abc945e8aa852745b2158a6",
+      "git:hexsha": "7b855a44b84acf681abc945e8aa852745b2158a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev319"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/246f5e7c3f981d2938271ed8a22a95ec66adfe50",
+      "git:hexsha": "246f5e7c3f981d2938271ed8a22a95ec66adfe50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev32"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/df92a0aa086fc7bc4a72f4c239ae6b26e918fbcf",
+      "git:hexsha": "df92a0aa086fc7bc4a72f4c239ae6b26e918fbcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev321"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8f2bfd05e1092b9b1f452d32599ce695e0f86ba2",
+      "git:hexsha": "8f2bfd05e1092b9b1f452d32599ce695e0f86ba2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev323"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/31624d65ba81f0fa4770eb321f0c9b0e33217bea",
+      "git:hexsha": "31624d65ba81f0fa4770eb321f0c9b0e33217bea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev325"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/bc7c9d653b87f9e108a6d7e865b022abd40b717b",
+      "git:hexsha": "bc7c9d653b87f9e108a6d7e865b022abd40b717b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev327"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f7bb5840178ec9382669b82235c2f27eeb940498",
+      "git:hexsha": "f7bb5840178ec9382669b82235c2f27eeb940498",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev329"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0246f5df2bd1c2ca06c952d159aacae922ac1e61",
+      "git:hexsha": "0246f5df2bd1c2ca06c952d159aacae922ac1e61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev33"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3d573d535b1a741078cdee371cd649aff1787a03",
+      "git:hexsha": "3d573d535b1a741078cdee371cd649aff1787a03",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev331"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6f6083118f48f83f60be79511ab727a01eec8c7c",
+      "git:hexsha": "6f6083118f48f83f60be79511ab727a01eec8c7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev333"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c9c20f37e4ebb94ec7fd305d4d55078fec4ea2e4",
+      "git:hexsha": "c9c20f37e4ebb94ec7fd305d4d55078fec4ea2e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev335"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0f062bf341749c8d46042b48b9eed1b7d6abfe7e",
+      "git:hexsha": "0f062bf341749c8d46042b48b9eed1b7d6abfe7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev337"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/828a134870846ae704ca8519ce5878c84b5d2374",
+      "git:hexsha": "828a134870846ae704ca8519ce5878c84b5d2374",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev339"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9b2a20d3b053a2acc094821b4c7e205b22556e13",
+      "git:hexsha": "9b2a20d3b053a2acc094821b4c7e205b22556e13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev34"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/996ffc56e902613709b40f5c3b36a1ad0285eb65",
+      "git:hexsha": "996ffc56e902613709b40f5c3b36a1ad0285eb65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev341"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/409d38e108ef1e669184ebbd239358f3c87556e4",
+      "git:hexsha": "409d38e108ef1e669184ebbd239358f3c87556e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev343"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b04f0a3324e5593804389c5ca15594256fa298dd",
+      "git:hexsha": "b04f0a3324e5593804389c5ca15594256fa298dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev345"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6678b59c49c5f11f0c2e7dfbd88a0bf83247290f",
+      "git:hexsha": "6678b59c49c5f11f0c2e7dfbd88a0bf83247290f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev347"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b242854dd55a6d2023deea55cba5a6fcb3f48d21",
+      "git:hexsha": "b242854dd55a6d2023deea55cba5a6fcb3f48d21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev349"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cb601906ee5e427002c57d486079c0dbbf191bef",
+      "git:hexsha": "cb601906ee5e427002c57d486079c0dbbf191bef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev35"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/72ad8e280aa4f5ffaab6260acfcafe699db5424e",
+      "git:hexsha": "72ad8e280aa4f5ffaab6260acfcafe699db5424e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev351"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f0ad08cef484586ede8574f6caf55842084d3360",
+      "git:hexsha": "f0ad08cef484586ede8574f6caf55842084d3360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev353"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8946f07674d8ba6a2c580091bd33ae006e17bab0",
+      "git:hexsha": "8946f07674d8ba6a2c580091bd33ae006e17bab0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev355"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/90c80d5f7fd56d5fec72117d44032f1485a14d7c",
+      "git:hexsha": "90c80d5f7fd56d5fec72117d44032f1485a14d7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev357"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b1a629f0197df28e1f6e7566362bdb799ced919e",
+      "git:hexsha": "b1a629f0197df28e1f6e7566362bdb799ced919e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev359"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/692dd2535cb17ab1dcdcf1658c374a0b75fd656e",
+      "git:hexsha": "692dd2535cb17ab1dcdcf1658c374a0b75fd656e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev36"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/610ace77899481db729937f339b9baa3344e5802",
+      "git:hexsha": "610ace77899481db729937f339b9baa3344e5802",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev361"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9e85d3fb5981c881432bfe73cd4ac239d90a211f",
+      "git:hexsha": "9e85d3fb5981c881432bfe73cd4ac239d90a211f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev363"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/766f0787cf905b18052e9a8f2226f9d4c98deb7b",
+      "git:hexsha": "766f0787cf905b18052e9a8f2226f9d4c98deb7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev364"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fc739b56ae830ff9de6134d89c503ce8a2a1b0ad",
+      "git:hexsha": "fc739b56ae830ff9de6134d89c503ce8a2a1b0ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev365"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3c8da1e94a5428ecafa1ce5b0dcebfc254514c95",
+      "git:hexsha": "3c8da1e94a5428ecafa1ce5b0dcebfc254514c95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev366"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/eba94ad4350de31737d2048082aa322bbe451124",
+      "git:hexsha": "eba94ad4350de31737d2048082aa322bbe451124",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev367"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4ffe9046ddb5de0d76ce2cd60eb4da34c4c2e373",
+      "git:hexsha": "4ffe9046ddb5de0d76ce2cd60eb4da34c4c2e373",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev368"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cf6e71e7d9609c8b64937b617f679be9ddb19511",
+      "git:hexsha": "cf6e71e7d9609c8b64937b617f679be9ddb19511",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev369"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fb71ea122665f2a9b5fb8ff80ad2a3553e28d21a",
+      "git:hexsha": "fb71ea122665f2a9b5fb8ff80ad2a3553e28d21a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev37"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6d123e5428f4122d360cb56b3e1d2b660db70a4e",
+      "git:hexsha": "6d123e5428f4122d360cb56b3e1d2b660db70a4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev370"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a72fe508d489b09f63032fc43d30a1236f4681bb",
+      "git:hexsha": "a72fe508d489b09f63032fc43d30a1236f4681bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev371"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/978fcd4f225d7fcb3893153d289978fede81dd17",
+      "git:hexsha": "978fcd4f225d7fcb3893153d289978fede81dd17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev372"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5c1da54c29c01eb6bf2725cc6ced03df996e039f",
+      "git:hexsha": "5c1da54c29c01eb6bf2725cc6ced03df996e039f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev373"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/db3077ef5ca6b411dcf18cc79e85571fe06067d2",
+      "git:hexsha": "db3077ef5ca6b411dcf18cc79e85571fe06067d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev374"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/88b2397f3f89c38cd1ffa7e36df62221baf63204",
+      "git:hexsha": "88b2397f3f89c38cd1ffa7e36df62221baf63204",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev375"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ed1b50eff8d2362f6982e2c98281dda32970d299",
+      "git:hexsha": "ed1b50eff8d2362f6982e2c98281dda32970d299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev376"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2c3064027c01f0b14e460d038cfee957d750d92f",
+      "git:hexsha": "2c3064027c01f0b14e460d038cfee957d750d92f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev377"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6fda0c9844bc7a45b93ac12806a6ef04036c50c4",
+      "git:hexsha": "6fda0c9844bc7a45b93ac12806a6ef04036c50c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev378"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a680e438bf43385a1511bfa01c9213bee036d12d",
+      "git:hexsha": "a680e438bf43385a1511bfa01c9213bee036d12d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev379"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/435bf8d17d28b2bfe9ca0b73dedb1dd0216594f0",
+      "git:hexsha": "435bf8d17d28b2bfe9ca0b73dedb1dd0216594f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev38"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/91d6b0a760c34fb834e1cbcd396d6cfb50f91281",
+      "git:hexsha": "91d6b0a760c34fb834e1cbcd396d6cfb50f91281",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev380"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b9a7776d2d1c4593fd816963ae1f1ff5de36841d",
+      "git:hexsha": "b9a7776d2d1c4593fd816963ae1f1ff5de36841d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev381"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/dbd1d4875822864aa11ba5dea56c3fa93a481ebc",
+      "git:hexsha": "dbd1d4875822864aa11ba5dea56c3fa93a481ebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev382"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b34186a5dc0ffde640300757e74c8035188c308f",
+      "git:hexsha": "b34186a5dc0ffde640300757e74c8035188c308f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev384"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2f74be40868e15572247fa7ad2ca4bc87a53b29c",
+      "git:hexsha": "2f74be40868e15572247fa7ad2ca4bc87a53b29c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev385"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/74aacf850e774fcd52d679c0dc5696268b649a37",
+      "git:hexsha": "74aacf850e774fcd52d679c0dc5696268b649a37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev386"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/417401be86bd6eb4e065b4671baaf0c3baf7d592",
+      "git:hexsha": "417401be86bd6eb4e065b4671baaf0c3baf7d592",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev387"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/eda0b8e313f1ec4bda334b801f333aed0e33ad4a",
+      "git:hexsha": "eda0b8e313f1ec4bda334b801f333aed0e33ad4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev388"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/13a0d3ba8d540623d51d01384f87e2442d3a660e",
+      "git:hexsha": "13a0d3ba8d540623d51d01384f87e2442d3a660e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev389"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1df2184757b28df0742566479597bf32a3599898",
+      "git:hexsha": "1df2184757b28df0742566479597bf32a3599898",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev39"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/748063c1cf82588687738999dfa5c780ca082d4e",
+      "git:hexsha": "748063c1cf82588687738999dfa5c780ca082d4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev392"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2546e8e9628f99e7076535d8b334cbec5b88b3c6",
+      "git:hexsha": "2546e8e9628f99e7076535d8b334cbec5b88b3c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev393"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8a5d4b308d11fb30b23803e089569ce6caf37b02",
+      "git:hexsha": "8a5d4b308d11fb30b23803e089569ce6caf37b02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev394"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/486e9f2f208b1c95a5c3a103fb033f6e3e93a95b",
+      "git:hexsha": "486e9f2f208b1c95a5c3a103fb033f6e3e93a95b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev395"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fd66406ec642288182b1be4a304d850ef5971d77",
+      "git:hexsha": "fd66406ec642288182b1be4a304d850ef5971d77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev396"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0e8edffaa3c118776fdeee84bb7fc1e7590eece1",
+      "git:hexsha": "0e8edffaa3c118776fdeee84bb7fc1e7590eece1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev397"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5b885ba3171c38e4fa06ea4ffa5de52fadf76f01",
+      "git:hexsha": "5b885ba3171c38e4fa06ea4ffa5de52fadf76f01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev398"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e4039e43093adec435d1c5313c487fb908b46c0d",
+      "git:hexsha": "e4039e43093adec435d1c5313c487fb908b46c0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev399"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2160139ab427a528f9b4597969b7ac224fdfd949",
+      "git:hexsha": "2160139ab427a528f9b4597969b7ac224fdfd949",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/78f2c31504635f4557147d2f071a584ce50f5722",
+      "git:hexsha": "78f2c31504635f4557147d2f071a584ce50f5722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev40"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/031c02e1008622917f17cacf7545a50d99197764",
+      "git:hexsha": "031c02e1008622917f17cacf7545a50d99197764",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev400"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ee2551e93f9566e170eedc91a6aa780a25937668",
+      "git:hexsha": "ee2551e93f9566e170eedc91a6aa780a25937668",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev401"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9510b21208f2d95da575b5e32cecfc289e42e2fb",
+      "git:hexsha": "9510b21208f2d95da575b5e32cecfc289e42e2fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev402"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/692e26912a8871e038e38d95da88a338b55f30b4",
+      "git:hexsha": "692e26912a8871e038e38d95da88a338b55f30b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev403"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/6bc29f95af24f567a3c5abfcaff6f41d5f7698f8",
+      "git:hexsha": "6bc29f95af24f567a3c5abfcaff6f41d5f7698f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev404"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0cffbd982602fa31303761a6b5ba340b6e2509d2",
+      "git:hexsha": "0cffbd982602fa31303761a6b5ba340b6e2509d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev41"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/454a7029cecf026c6445fe4aeb40fa530491ede5",
+      "git:hexsha": "454a7029cecf026c6445fe4aeb40fa530491ede5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev42"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c8c0dcc8f64c34e3ef5ce4086d4c13305375c96e",
+      "git:hexsha": "c8c0dcc8f64c34e3ef5ce4086d4c13305375c96e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev43"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ccca77ea43c567a3abdc2ad760e35529dddea882",
+      "git:hexsha": "ccca77ea43c567a3abdc2ad760e35529dddea882",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev44"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ca7a645c044e178523c74a081b02d8c81157691b",
+      "git:hexsha": "ca7a645c044e178523c74a081b02d8c81157691b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev45"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5e50065b7ded4fbf1b935cbb7f400e68e5ef1c0a",
+      "git:hexsha": "5e50065b7ded4fbf1b935cbb7f400e68e5ef1c0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev46"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7d7a465ed7f61ab38cbe22ad73bdade9fea7c545",
+      "git:hexsha": "7d7a465ed7f61ab38cbe22ad73bdade9fea7c545",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev47"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/607186110531bb9964088e1114d2b9a8b94535dd",
+      "git:hexsha": "607186110531bb9964088e1114d2b9a8b94535dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev48"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/198f26d17714402bb7b1a3c6461444f50043c387",
+      "git:hexsha": "198f26d17714402bb7b1a3c6461444f50043c387",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev49"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/382ac89e7d73bde65e83bbd0622abe471aae21bb",
+      "git:hexsha": "382ac89e7d73bde65e83bbd0622abe471aae21bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev5"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cf987b3a71f094c467746c5091741c197b1f89fd",
+      "git:hexsha": "cf987b3a71f094c467746c5091741c197b1f89fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev50"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f636bd5ed3e74361a97696dacc28c70d78d17be8",
+      "git:hexsha": "f636bd5ed3e74361a97696dacc28c70d78d17be8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev51"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5ea1c8c1d6521c7f2da5031b6e692801defcfbf4",
+      "git:hexsha": "5ea1c8c1d6521c7f2da5031b6e692801defcfbf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev52"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a3b48401df45198214fa7c5e7dca86c361405937",
+      "git:hexsha": "a3b48401df45198214fa7c5e7dca86c361405937",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev53"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/959757d2edd3b36de8286e6974948d4298abaa60",
+      "git:hexsha": "959757d2edd3b36de8286e6974948d4298abaa60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev54"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/553e2cce4e59fd56c897581c892c552c404b618a",
+      "git:hexsha": "553e2cce4e59fd56c897581c892c552c404b618a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev55"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/dcea1b70376a9e0a3dbca9f010837836035419be",
+      "git:hexsha": "dcea1b70376a9e0a3dbca9f010837836035419be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev56"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/95c402ae8e0f9dcfc760051a9b08a8ed4beef09c",
+      "git:hexsha": "95c402ae8e0f9dcfc760051a9b08a8ed4beef09c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev57"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2515f922d03f6c4ea4836013aba7e7c241c00ec5",
+      "git:hexsha": "2515f922d03f6c4ea4836013aba7e7c241c00ec5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev58"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b1897be16c31f6649dcb0329154028bc35079498",
+      "git:hexsha": "b1897be16c31f6649dcb0329154028bc35079498",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev59"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5aaad218860834706d6e94e3d6e106b615773d39",
+      "git:hexsha": "5aaad218860834706d6e94e3d6e106b615773d39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev6"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/9ad5259b4e6e6d783524065b796ff39b8a706f5e",
+      "git:hexsha": "9ad5259b4e6e6d783524065b796ff39b8a706f5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev60"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/33b31c8be20082c8561e838a321da85b36e2da87",
+      "git:hexsha": "33b31c8be20082c8561e838a321da85b36e2da87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev61"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/22d6c6c5db63effd7e39c3d095c4a07f430d89c0",
+      "git:hexsha": "22d6c6c5db63effd7e39c3d095c4a07f430d89c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev62"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a7cdeb38344933eb9402f5ef405878d99ad6a0f5",
+      "git:hexsha": "a7cdeb38344933eb9402f5ef405878d99ad6a0f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev63"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/596b9ecc79b51214ad1433c1d8c79cdade0e982a",
+      "git:hexsha": "596b9ecc79b51214ad1433c1d8c79cdade0e982a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev64"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/17a7a4090d0139507a2520e8d3bfd19c20a5b909",
+      "git:hexsha": "17a7a4090d0139507a2520e8d3bfd19c20a5b909",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev65"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5d047d448ff0cbaf3d7a50446c2d15dceeecb703",
+      "git:hexsha": "5d047d448ff0cbaf3d7a50446c2d15dceeecb703",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev66"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/f3b10507ef75e4370a473af3a280a1547fee066b",
+      "git:hexsha": "f3b10507ef75e4370a473af3a280a1547fee066b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev67"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e91cc22164373239c8313b78ecdd178e922d1d3c",
+      "git:hexsha": "e91cc22164373239c8313b78ecdd178e922d1d3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev68"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0abf4962fa97f42e0ed33508c57bc40899a29d6d",
+      "git:hexsha": "0abf4962fa97f42e0ed33508c57bc40899a29d6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev69"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/dec5541baae4a1b59533593b2cfb4ebba1dc9230",
+      "git:hexsha": "dec5541baae4a1b59533593b2cfb4ebba1dc9230",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev70"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/cf20495e889fbc2c4447a7a8d594278582614a2c",
+      "git:hexsha": "cf20495e889fbc2c4447a7a8d594278582614a2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev71"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/083556c88e1f49cb9008475ec86eacf3b7832882",
+      "git:hexsha": "083556c88e1f49cb9008475ec86eacf3b7832882",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev72"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/610e53ff2b1f04374f5c66f6447f90601c23a4e1",
+      "git:hexsha": "610e53ff2b1f04374f5c66f6447f90601c23a4e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev73"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/7ec9a51f5f3831e6fd629c77f054346b6cb16ac1",
+      "git:hexsha": "7ec9a51f5f3831e6fd629c77f054346b6cb16ac1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev74"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ebacfa22842ec568beaf66b38fa1fdd099da09b9",
+      "git:hexsha": "ebacfa22842ec568beaf66b38fa1fdd099da09b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev76"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5ca0775043b1915e9b89920149669fe5fe7ca143",
+      "git:hexsha": "5ca0775043b1915e9b89920149669fe5fe7ca143",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev77"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/94a461d035575c9d74163f1c69382c8b37d5b1ae",
+      "git:hexsha": "94a461d035575c9d74163f1c69382c8b37d5b1ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev78"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/116e59ff3b26e8fdf2a784efbac5144847270b0c",
+      "git:hexsha": "116e59ff3b26e8fdf2a784efbac5144847270b0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev79"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3c051542b5a5c0f644b5bf6c50e969ec5b98e22e",
+      "git:hexsha": "3c051542b5a5c0f644b5bf6c50e969ec5b98e22e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev80"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/a2cb47846e5bc39785436c514660f2cc9596069d",
+      "git:hexsha": "a2cb47846e5bc39785436c514660f2cc9596069d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev81"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/8566bd69db682eed9a8c1b2c804c9a0755acf7a9",
+      "git:hexsha": "8566bd69db682eed9a8c1b2c804c9a0755acf7a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev82"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/c43d10b15279db1b8411e121e01a331b66a0c3ad",
+      "git:hexsha": "c43d10b15279db1b8411e121e01a331b66a0c3ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev83"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/87bc712f93537e4bb02e12bbe3f026b49fca2325",
+      "git:hexsha": "87bc712f93537e4bb02e12bbe3f026b49fca2325",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev84"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/ec3558b23654efb6ba35ef3c96f5c6a7a25c9298",
+      "git:hexsha": "ec3558b23654efb6ba35ef3c96f5c6a7a25c9298",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev85"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/0340c272257bb251b9532eb656638da608d8c568",
+      "git:hexsha": "0340c272257bb251b9532eb656638da608d8c568",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev86"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/89ddfcdc888f932a84fa2564261853c94b20e98d",
+      "git:hexsha": "89ddfcdc888f932a84fa2564261853c94b20e98d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev87"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/4f9c3c0182bce165557f9d89f33d7e194aa4252a",
+      "git:hexsha": "4f9c3c0182bce165557f9d89f33d7e194aa4252a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev88"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2588c12b5bdb3049bff5bbc8da03f8f2b02aa440",
+      "git:hexsha": "2588c12b5bdb3049bff5bbc8da03f8f2b02aa440",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev89"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e71c2193a5d637437231101c3347e2fe7606beff",
+      "git:hexsha": "e71c2193a5d637437231101c3347e2fe7606beff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev9"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3463268125fcc205957113502f3b30166ed36d4b",
+      "git:hexsha": "3463268125fcc205957113502f3b30166ed36d4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev90"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/b1fe59c18c40658003ed1f7d6dcf1646b5d778c3",
+      "git:hexsha": "b1fe59c18c40658003ed1f7d6dcf1646b5d778c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev91"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/fc86f7c60799e95e8291cf48a352ea0c7b424f5a",
+      "git:hexsha": "fc86f7c60799e95e8291cf48a352ea0c7b424f5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev92"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/2bcc71e94c1c10244e69860738c01ea1efa03bf4",
+      "git:hexsha": "2bcc71e94c1c10244e69860738c01ea1efa03bf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev93"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/5c7875d396e5a4a7d36b5945c95b9c83bb3ba1ae",
+      "git:hexsha": "5c7875d396e5a4a7d36b5945c95b9c83bb3ba1ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev94"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/d55f758021d3974fc670ecb7e8cbb6591e4a0c97",
+      "git:hexsha": "d55f758021d3974fc670ecb7e8cbb6591e4a0c97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev95"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/3e7da25fe035901b3006f7b9c068a7316f51278f",
+      "git:hexsha": "3e7da25fe035901b3006f7b9c068a7316f51278f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev96"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/e32d363f1c161027dedfc8b84061a1f1adc44b60",
+      "git:hexsha": "e32d363f1c161027dedfc8b84061a1f1adc44b60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev97"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/30ac8792fc1c50183384da409ccabbfb507de2e1",
+      "git:hexsha": "30ac8792fc1c50183384da409ccabbfb507de2e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev98"
+    },
+    {
+      "@id": "https://repolex.ai/r/canonical/parca-k8s-operator/commit/1433927e4f6d9f2644de669287acb58c85be8691",
+      "git:hexsha": "1433927e4f6d9f2644de669287acb58c85be8691",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rev99"
+    }
+  ]
+}
