@@ -1,0 +1,880 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/softwaremill/elasticmq",
+  "@type": "gh:Repository",
+  "gh:name": "elasticmq",
+  "gh:owner": "softwaremill",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/73a1c655e36ea1256a77f43cd1ea648014c51dd3",
+      "git:hexsha": "73a1c655e36ea1256a77f43cd1ea648014c51dd3",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v2.0.0-rc1",
+      "repolex:parsedAt": "2026-11-09T15:17:29.681528+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/17730f46feebbbeb52a4f0170eb8c9a26155166c",
+      "git:hexsha": "17730f46feebbbeb52a4f0170eb8c9a26155166c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/028cf5663dbaf58640ca40187424925dd8cd1a51",
+      "git:hexsha": "028cf5663dbaf58640ca40187424925dd8cd1a51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f22b7bd88bc6cfd01ba13b1cda4b64833a3bb6ec",
+      "git:hexsha": "f22b7bd88bc6cfd01ba13b1cda4b64833a3bb6ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b93568760f9046df8fdc8252952ecb70ed959f5c",
+      "git:hexsha": "b93568760f9046df8fdc8252952ecb70ed959f5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/a04e2ccd5a940f8ff41115dd3e63aa2943d7007d",
+      "git:hexsha": "a04e2ccd5a940f8ff41115dd3e63aa2943d7007d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d1c60ecfb472b574323f01b9f8a21ae8e67932d6",
+      "git:hexsha": "d1c60ecfb472b574323f01b9f8a21ae8e67932d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f293a328e1dcc6d9e61c5a4d70c549664e9a2319",
+      "git:hexsha": "f293a328e1dcc6d9e61c5a4d70c549664e9a2319",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/52172eeb756852008fffed5a314aeae4e115cbbc",
+      "git:hexsha": "52172eeb756852008fffed5a314aeae4e115cbbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/3154233cca0bfcbb5f0487f566544596f06e863c",
+      "git:hexsha": "3154233cca0bfcbb5f0487f566544596f06e863c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d23a82b859ef5b0d78ce3cac74867b1cb95ad048",
+      "git:hexsha": "d23a82b859ef5b0d78ce3cac74867b1cb95ad048",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/619d017766876c314508734999e176dee2d7775f",
+      "git:hexsha": "619d017766876c314508734999e176dee2d7775f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7569cc6c4c6d5a506382acedc4f7601e8e9e8bb4",
+      "git:hexsha": "7569cc6c4c6d5a506382acedc4f7601e8e9e8bb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/2ae83fe4529a1949b5d6d7a29200f4b9f535dbb9",
+      "git:hexsha": "2ae83fe4529a1949b5d6d7a29200f4b9f535dbb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7e72762cfc54387c06cfb5667f8880055080aacf",
+      "git:hexsha": "7e72762cfc54387c06cfb5667f8880055080aacf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.13.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/3a9769422fcc37a0b4812e9d1ab8925eda1a6a32",
+      "git:hexsha": "3a9769422fcc37a0b4812e9d1ab8925eda1a6a32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/894328ae96413f883b2d944762d9d566b696e27d",
+      "git:hexsha": "894328ae96413f883b2d944762d9d566b696e27d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/8bda80c8cfb93a4270703a0aff67bf63993fd39e",
+      "git:hexsha": "8bda80c8cfb93a4270703a0aff67bf63993fd39e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f5278f3d7310e5dbb0135fbd66f8446bedf3d73e",
+      "git:hexsha": "f5278f3d7310e5dbb0135fbd66f8446bedf3d73e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/5e52f8936c2294923afc6fcea2a25e4f466a5643",
+      "git:hexsha": "5e52f8936c2294923afc6fcea2a25e4f466a5643",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/eb512b26c4ef1b774a99cb7293e26a34e5aac74a",
+      "git:hexsha": "eb512b26c4ef1b774a99cb7293e26a34e5aac74a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/892332e9f0c1c4226b37d6d780062ee0c2875bfa",
+      "git:hexsha": "892332e9f0c1c4226b37d6d780062ee0c2875bfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/5fa861be00fde97fd9fa501da5fdbd8c0ee2607d",
+      "git:hexsha": "5fa861be00fde97fd9fa501da5fdbd8c0ee2607d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d0e145517dbc628053f6eee21b20106ae71f5a57",
+      "git:hexsha": "d0e145517dbc628053f6eee21b20106ae71f5a57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d905772db59f852a3b74d0a085ff0a942727c590",
+      "git:hexsha": "d905772db59f852a3b74d0a085ff0a942727c590",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ca6bb89d15150251897a1bd4c0910a5ed9dfe81a",
+      "git:hexsha": "ca6bb89d15150251897a1bd4c0910a5ed9dfe81a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7f8549b18814b63f55a0ff615ff9594474356ab3",
+      "git:hexsha": "7f8549b18814b63f55a0ff615ff9594474356ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/acb0fcc9a6b377746c63b752614524a15a1a71a0",
+      "git:hexsha": "acb0fcc9a6b377746c63b752614524a15a1a71a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/80a391aed06239c221f1f5d56dc093433507bff6",
+      "git:hexsha": "80a391aed06239c221f1f5d56dc093433507bff6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/4543c6648915948008a4bf3752c0195a74fc87e9",
+      "git:hexsha": "4543c6648915948008a4bf3752c0195a74fc87e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/efec21536c74e1cf7ef6208ccceec36aad8a0cfb",
+      "git:hexsha": "efec21536c74e1cf7ef6208ccceec36aad8a0cfb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/1ad84669b57ca0d27f405118b991b88ce9c36486",
+      "git:hexsha": "1ad84669b57ca0d27f405118b991b88ce9c36486",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/bbfca165a03d121bd504a2979b1da8e532d5a22f",
+      "git:hexsha": "bbfca165a03d121bd504a2979b1da8e532d5a22f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/105c5135c68b77f9c09bcb235a605150b1598001",
+      "git:hexsha": "105c5135c68b77f9c09bcb235a605150b1598001",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/c36914cb98c8cb07d45905a570bd58ba4b96ab61",
+      "git:hexsha": "c36914cb98c8cb07d45905a570bd58ba4b96ab61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ec437fea485fbf42c7caee942d1d718ae633249f",
+      "git:hexsha": "ec437fea485fbf42c7caee942d1d718ae633249f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.8.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/91e104df4e76410ccad017a1ef2e093074a3afa9",
+      "git:hexsha": "91e104df4e76410ccad017a1ef2e093074a3afa9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/c92e663f542ac5c01fa5e0b2f97edbe0d34cdad8",
+      "git:hexsha": "c92e663f542ac5c01fa5e0b2f97edbe0d34cdad8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.9.0-beta1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7a2e9bc8ce1bc3b1ddc5dbf08af19d2de2ae0dbe",
+      "git:hexsha": "7a2e9bc8ce1bc3b1ddc5dbf08af19d2de2ae0dbe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d08b38235354453a3793b4f998ffa1e743b1469d",
+      "git:hexsha": "d08b38235354453a3793b4f998ffa1e743b1469d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/11035040b3cd8287e0f61d7274e6405fbc532e75",
+      "git:hexsha": "11035040b3cd8287e0f61d7274e6405fbc532e75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/fd7bc87d709f82a9557faaae9f19cab88bd0e055",
+      "git:hexsha": "fd7bc87d709f82a9557faaae9f19cab88bd0e055",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4-RC4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f42b89a957d11df8f57cbd7dc739b707ddafaa6c",
+      "git:hexsha": "f42b89a957d11df8f57cbd7dc739b707ddafaa6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b620d7508e37a0a0c127eec92003d5154e7a0aee",
+      "git:hexsha": "b620d7508e37a0a0c127eec92003d5154e7a0aee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ae75c296c298edb968b8dc02e510da30cac943e7",
+      "git:hexsha": "ae75c296c298edb968b8dc02e510da30cac943e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/58b66c7017b93f3eac3874864835fab5de011cfb",
+      "git:hexsha": "58b66c7017b93f3eac3874864835fab5de011cfb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/53f4a83c571f1c02998ec0b31e2e1ae53b2452e2",
+      "git:hexsha": "53f4a83c571f1c02998ec0b31e2e1ae53b2452e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/0761f1823b11c150f11c202580e52290b8cc4c5f",
+      "git:hexsha": "0761f1823b11c150f11c202580e52290b8cc4c5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ff9ab488f8fb3ee57e1673dc2c05c6f2ad2ea139",
+      "git:hexsha": "ff9ab488f8fb3ee57e1673dc2c05c6f2ad2ea139",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/750d2e987cf3e577854ca7c2b24703fbdc755fc0",
+      "git:hexsha": "750d2e987cf3e577854ca7c2b24703fbdc755fc0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/fc25a898285cabfee438aa058ed44ea2a4720513",
+      "git:hexsha": "fc25a898285cabfee438aa058ed44ea2a4720513",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/aa11b6dd16bf3bcb7d5e0aed3fb9b019363fbc02",
+      "git:hexsha": "aa11b6dd16bf3bcb7d5e0aed3fb9b019363fbc02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/bb38d8dedcc9000cada8532bfd955dab93c35552",
+      "git:hexsha": "bb38d8dedcc9000cada8532bfd955dab93c35552",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/fe17b22606adaa97fc6e75db3d7097dce7d16fb7",
+      "git:hexsha": "fe17b22606adaa97fc6e75db3d7097dce7d16fb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/eb267c56e6825ff3ad0107f84b78423b638f75be",
+      "git:hexsha": "eb267c56e6825ff3ad0107f84b78423b638f75be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7bdacc90f07f70481f87384fbb6e0c568e2bb281",
+      "git:hexsha": "7bdacc90f07f70481f87384fbb6e0c568e2bb281",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/cd29d04e48c88a596328dad860a2935f1904da68",
+      "git:hexsha": "cd29d04e48c88a596328dad860a2935f1904da68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/43f93124482681ebe2d28778e5ca180473602a68",
+      "git:hexsha": "43f93124482681ebe2d28778e5ca180473602a68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9fb3be228926d2ee0564c6fa17b24fce5e768c4c",
+      "git:hexsha": "9fb3be228926d2ee0564c6fa17b24fce5e768c4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/1bd41fe84469fdad010aa06b269d282ccfcc2ce0",
+      "git:hexsha": "1bd41fe84469fdad010aa06b269d282ccfcc2ce0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/317d3f71c8a2100256046e793954bc579a86e254",
+      "git:hexsha": "317d3f71c8a2100256046e793954bc579a86e254",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d692edc1680f292f1f853390c6fb3e63bafd5ad4",
+      "git:hexsha": "d692edc1680f292f1f853390c6fb3e63bafd5ad4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/65125f9b906d784c6405489d7bfa3cdd6930277d",
+      "git:hexsha": "65125f9b906d784c6405489d7bfa3cdd6930277d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/bec24355bf727c2cfe75ca4af7e68974fc32d036",
+      "git:hexsha": "bec24355bf727c2cfe75ca4af7e68974fc32d036",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/80bc3bc2a573f0eaf104417b50b5432c9c844215",
+      "git:hexsha": "80bc3bc2a573f0eaf104417b50b5432c9c844215",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/6802bc190c759ff6bf48c64c0c34648eb9fe39b6",
+      "git:hexsha": "6802bc190c759ff6bf48c64c0c34648eb9fe39b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9ded2f8979254ab12f134a4a1a45e8148ac74a7f",
+      "git:hexsha": "9ded2f8979254ab12f134a4a1a45e8148ac74a7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/92f0e8704f6c2903ccbdb4d43b256390ac4b84ea",
+      "git:hexsha": "92f0e8704f6c2903ccbdb4d43b256390ac4b84ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/53c7e2d3bee7fe171b51fdb7e032aef5f30821ba",
+      "git:hexsha": "53c7e2d3bee7fe171b51fdb7e032aef5f30821ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/4d8330f4bf5e043d8371f26923aca0b309c01dc5",
+      "git:hexsha": "4d8330f4bf5e043d8371f26923aca0b309c01dc5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/3f5137fdd1091ceadc7f0c945ccf375ae75c4291",
+      "git:hexsha": "3f5137fdd1091ceadc7f0c945ccf375ae75c4291",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/5ba5aad81a3c962b05739c69bf7d49a30a7426de",
+      "git:hexsha": "5ba5aad81a3c962b05739c69bf7d49a30a7426de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/15b177227f6553bc626e7e299ce6836d87a35e7e",
+      "git:hexsha": "15b177227f6553bc626e7e299ce6836d87a35e7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/a1181ed324e2cebba7132883b0fffd6825dcf8b1",
+      "git:hexsha": "a1181ed324e2cebba7132883b0fffd6825dcf8b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/8dbee50c08bf102ad3ae16d6cd8173f9f10f25e7",
+      "git:hexsha": "8dbee50c08bf102ad3ae16d6cd8173f9f10f25e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9d36f4aef70920344cec66b792004ebc7c848b55",
+      "git:hexsha": "9d36f4aef70920344cec66b792004ebc7c848b55",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/6c1570bc920ac645a3f712a48abdd731b956834f",
+      "git:hexsha": "6c1570bc920ac645a3f712a48abdd731b956834f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b5636f533da590bf5dd3f458d4d6fa32811b08c3",
+      "git:hexsha": "b5636f533da590bf5dd3f458d4d6fa32811b08c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/66a0d1c8b472cbdce719ab3c64118d5c325071e2",
+      "git:hexsha": "66a0d1c8b472cbdce719ab3c64118d5c325071e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9390a98dd8b12d295b486b38f032bda8b0c7fcfc",
+      "git:hexsha": "9390a98dd8b12d295b486b38f032bda8b0c7fcfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/3ff4f1a15a6b45a2d01a8455f74410217237972b",
+      "git:hexsha": "3ff4f1a15a6b45a2d01a8455f74410217237972b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/24c4be45b4f15fe6030e9d3e6393f8253831c35d",
+      "git:hexsha": "24c4be45b4f15fe6030e9d3e6393f8253831c35d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9efe33048d1a1ad37eafd895d5a38ac2e5fb1b51",
+      "git:hexsha": "9efe33048d1a1ad37eafd895d5a38ac2e5fb1b51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/0dbe63a0b80032b95e0e2407ba3910f7b7e79b0e",
+      "git:hexsha": "0dbe63a0b80032b95e0e2407ba3910f7b7e79b0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.14-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ce487cc7ea6ab0093df09bfe0e187e340c74996b",
+      "git:hexsha": "ce487cc7ea6ab0093df09bfe0e187e340c74996b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.14-RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/fa2e6f8d11e13044e37b92f187e4dcec025716ac",
+      "git:hexsha": "fa2e6f8d11e13044e37b92f187e4dcec025716ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.14-RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b2aa79177ca24b20cdd4fb1d605802e7ead6bb45",
+      "git:hexsha": "b2aa79177ca24b20cdd4fb1d605802e7ead6bb45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/a40d0b03db806450a713a4bf7cddb8d618d04e14",
+      "git:hexsha": "a40d0b03db806450a713a4bf7cddb8d618d04e14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/581f4b269ef5c67cb6ad306bb9241628e575d093",
+      "git:hexsha": "581f4b269ef5c67cb6ad306bb9241628e575d093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b1a9442d82acf1e0f0d7790485f0d2c213396ea7",
+      "git:hexsha": "b1a9442d82acf1e0f0d7790485f0d2c213396ea7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4-RC5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/a371a8797ce2bdd08464a4057fb4cdc00ca89caa",
+      "git:hexsha": "a371a8797ce2bdd08464a4057fb4cdc00ca89caa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4-RC6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/941f3cbf311222f988009a0780cdde647c8b7c85",
+      "git:hexsha": "941f3cbf311222f988009a0780cdde647c8b7c85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4-RC7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/4988c65b83553c0a7efe892208e639c8dca6d952",
+      "git:hexsha": "4988c65b83553c0a7efe892208e639c8dca6d952",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.4-RC9"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/1fa73d3e9c02a1bba93ff3dcfeb90fad7d0a0242",
+      "git:hexsha": "1fa73d3e9c02a1bba93ff3dcfeb90fad7d0a0242",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/60ea27a8ddd58a40a41102a1099b54c861201877",
+      "git:hexsha": "60ea27a8ddd58a40a41102a1099b54c861201877",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/5d2be7b72967d6e6e79fa034326432543790f2b2",
+      "git:hexsha": "5d2be7b72967d6e6e79fa034326432543790f2b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/94425964143166292c9de19be8e417f4bf262b7d",
+      "git:hexsha": "94425964143166292c9de19be8e417f4bf262b7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/5ab7fa2c4f81f1ea96c9bf104f0e59278897a9e5",
+      "git:hexsha": "5ab7fa2c4f81f1ea96c9bf104f0e59278897a9e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d31bdf2a4fb8be00ab5cbc343f2083641f563ba6",
+      "git:hexsha": "d31bdf2a4fb8be00ab5cbc343f2083641f563ba6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7f09114c954e86fc71b184b8e53438a8b73ccfb2",
+      "git:hexsha": "7f09114c954e86fc71b184b8e53438a8b73ccfb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/bb97b1985f907506448bfb8233a5ddfaa77a5bb4",
+      "git:hexsha": "bb97b1985f907506448bfb8233a5ddfaa77a5bb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/c0768bd526f5f96c7ae41b4a1fc48fb4acf184ec",
+      "git:hexsha": "c0768bd526f5f96c7ae41b4a1fc48fb4acf184ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ba064cf4e4f5ddb8f128ee3d2bfd28c670a9c343",
+      "git:hexsha": "ba064cf4e4f5ddb8f128ee3d2bfd28c670a9c343",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/e68e1961d19fe9481ec89ffa06b17f0d70e4289f",
+      "git:hexsha": "e68e1961d19fe9481ec89ffa06b17f0d70e4289f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/36b28d1c9a29c343c9402f070f4797903ebb81e7",
+      "git:hexsha": "36b28d1c9a29c343c9402f070f4797903ebb81e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.5-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/6c8b01403fb474c957f84b520d39104558fc7593",
+      "git:hexsha": "6c8b01403fb474c957f84b520d39104558fc7593",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.5-RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/af0a4481a748d90f726d9267a99b4e8305b32ef6",
+      "git:hexsha": "af0a4481a748d90f726d9267a99b4e8305b32ef6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b8dcf3d32958fb2f3d97624ff0cf7cf108458045",
+      "git:hexsha": "b8dcf3d32958fb2f3d97624ff0cf7cf108458045",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b31c8a6dd1f7097650b7294ce77044849290c622",
+      "git:hexsha": "b31c8a6dd1f7097650b7294ce77044849290c622",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/62c4efd7055cf491677413254c4ec694d9af3784",
+      "git:hexsha": "62c4efd7055cf491677413254c4ec694d9af3784",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/4f901c2bba4a7f7193c44b35a1f7b5e0f32186d0",
+      "git:hexsha": "4f901c2bba4a7f7193c44b35a1f7b5e0f32186d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/2f57dbe02337b3b874f104f1969a9be3a06f9d2f",
+      "git:hexsha": "2f57dbe02337b3b874f104f1969a9be3a06f9d2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f9f55e6cd7c2dbf4207f996a47fbf5a8e14e4d65",
+      "git:hexsha": "f9f55e6cd7c2dbf4207f996a47fbf5a8e14e4d65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7c1502ca83684e3dff6071be24d1b255c46ac66b",
+      "git:hexsha": "7c1502ca83684e3dff6071be24d1b255c46ac66b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/a9f7b66417df1d9a52c77b833097766cff2c8cc6",
+      "git:hexsha": "a9f7b66417df1d9a52c77b833097766cff2c8cc6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/c9f27156f626c526c7d91ed58645ac85a05d7562",
+      "git:hexsha": "c9f27156f626c526c7d91ed58645ac85a05d7562",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d9d85916ccb7aca7fe606a463c1e99161bb41d8d",
+      "git:hexsha": "d9d85916ccb7aca7fe606a463c1e99161bb41d8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/6623445f76e689d83bd9384b72bb2a0d7cc6b47e",
+      "git:hexsha": "6623445f76e689d83bd9384b72bb2a0d7cc6b47e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/7c344b42e04a1bbff0cfb026265e7005293e6f83",
+      "git:hexsha": "7c344b42e04a1bbff0cfb026265e7005293e6f83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/10da71e2681fd8bc661d7b1514369e64c4842d97",
+      "git:hexsha": "10da71e2681fd8bc661d7b1514369e64c4842d97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/70c475ca62a58da54a38ec9b80908dec00d38fd4",
+      "git:hexsha": "70c475ca62a58da54a38ec9b80908dec00d38fd4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.10-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/aa5c5f1eb7447427c9a67dcca35291d53b1bb77d",
+      "git:hexsha": "aa5c5f1eb7447427c9a67dcca35291d53b1bb77d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/c632d4cfc8f2acf349aac2226e66e4c1a7b55cd3",
+      "git:hexsha": "c632d4cfc8f2acf349aac2226e66e4c1a7b55cd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/522387ccb10be957d4db4a0fde8ffeb61cc05f86",
+      "git:hexsha": "522387ccb10be957d4db4a0fde8ffeb61cc05f86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ad139a7b7e2e941847837b37cfb98b46a7cec2d9",
+      "git:hexsha": "ad139a7b7e2e941847837b37cfb98b46a7cec2d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9c9f7cb0c51a246372ccab94055d4c96ae745879",
+      "git:hexsha": "9c9f7cb0c51a246372ccab94055d4c96ae745879",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/50e425dffa1cbd6295b784a5eda63bf7fbbfc1a0",
+      "git:hexsha": "50e425dffa1cbd6295b784a5eda63bf7fbbfc1a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/bfb692b653acb1f71cf8a1445c89226aeb27c58f",
+      "git:hexsha": "bfb692b653acb1f71cf8a1445c89226aeb27c58f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f8580ecceb28401cae0de9f354e2464db19d4f27",
+      "git:hexsha": "f8580ecceb28401cae0de9f354e2464db19d4f27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/f3e88aba71bb5d0ea6681c7ac432c7799ef13a5d",
+      "git:hexsha": "f3e88aba71bb5d0ea6681c7ac432c7799ef13a5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9ac149d11f7dd6cc230a60487b9aafb4ef3bcf5b",
+      "git:hexsha": "9ac149d11f7dd6cc230a60487b9aafb4ef3bcf5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/c433af4d1781b1fd72e866415c8b74153021b202",
+      "git:hexsha": "c433af4d1781b1fd72e866415c8b74153021b202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/42c4da312ab2ed5a01f48c088a06f44faed5daeb",
+      "git:hexsha": "42c4da312ab2ed5a01f48c088a06f44faed5daeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/3a890bf60f66d7248eb3d3ccde997e454cbcb6fb",
+      "git:hexsha": "3a890bf60f66d7248eb3d3ccde997e454cbcb6fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.4-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/3c92fa4131825b2ddc7b08395f74bb7f5709d31c",
+      "git:hexsha": "3c92fa4131825b2ddc7b08395f74bb7f5709d31c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/e8e8218c3b71251d5e53f1a6cef6a01db802cf24",
+      "git:hexsha": "e8e8218c3b71251d5e53f1a6cef6a01db802cf24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/4a251b8e8781ced28270db877ec425f984835a45",
+      "git:hexsha": "4a251b8e8781ced28270db877ec425f984835a45",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/9b92e008ea2611892194a32acf6d6866227c260c",
+      "git:hexsha": "9b92e008ea2611892194a32acf6d6866227c260c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/d982e1fc29771cc735115aaa03bac85a3845a47e",
+      "git:hexsha": "d982e1fc29771cc735115aaa03bac85a3845a47e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.6.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/b02303134d03c2a10310415dfdfb1a8c7b9dc61a",
+      "git:hexsha": "b02303134d03c2a10310415dfdfb1a8c7b9dc61a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/83c754a79f16af569c567fa8b79bf3eda398cb24",
+      "git:hexsha": "83c754a79f16af569c567fa8b79bf3eda398cb24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/eeb099a5915e667b9d79c40ec085da1855c51c9a",
+      "git:hexsha": "eeb099a5915e667b9d79c40ec085da1855c51c9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/a92d8b5f32042a305d0a31f6fdb17d3f0eddafaf",
+      "git:hexsha": "a92d8b5f32042a305d0a31f6fdb17d3f0eddafaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ab0d4fca09eda8ca09f73c108260e30e6d0377d0",
+      "git:hexsha": "ab0d4fca09eda8ca09f73c108260e30e6d0377d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vv1.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/softwaremill/elasticmq/commit/ad7b5d3bdcb330f8efa39294e9a6405b3d286a82",
+      "git:hexsha": "ad7b5d3bdcb330f8efa39294e9a6405b3d286a82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "vv1.4.21.4.2"
+    }
+  ]
+}
