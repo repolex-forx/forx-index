@@ -1,0 +1,1768 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/proto-fleet",
+  "@type": "gh:Repository",
+  "gh:name": "proto-fleet",
+  "gh:owner": "block",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d6d3e97b24c27e4fe9cee942992dabb851973a13",
+      "git:hexsha": "d6d3e97b24c27e4fe9cee942992dabb851973a13",
+      "repolex:parseStatus": "ast_complete",
+      "git:tagName": "nightly-20261001-d6d3e97b24c2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/50efcfd87cb2a26919457cdeec4a366647cebbf3",
+      "git:hexsha": "50efcfd87cb2a26919457cdeec4a366647cebbf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "03-24-preserve_miner_firmware_version_when_refreshes_omit_it-50efcfd87"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6b472830d0441ea170186a530423992442269f09",
+      "git:hexsha": "6b472830d0441ea170186a530423992442269f09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/notif-1b-smtp-channel-20260618"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/51365e60a62391e2bf63dbb251a0924ac3ec67d2",
+      "git:hexsha": "51365e60a62391e2bf63dbb251a0924ac3ec67d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/notif-2-rules-maintenance-20260618"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/883fb3e1155a5c053edbcfded7e4de5a11bab3d5",
+      "git:hexsha": "883fb3e1155a5c053edbcfded7e4de5a11bab3d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/notif-3-history-20260618"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1e534fa716e11a5dd3f69dc14935c53e8dd34a2e",
+      "git:hexsha": "1e534fa716e11a5dd3f69dc14935c53e8dd34a2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "dash-1197-bulk-update-password"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/712b04120ef5582ea62f2926339d9e6dfc75965e",
+      "git:hexsha": "712b04120ef5582ea62f2926339d9e6dfc75965e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "dash-1197-bulk-update-password-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/849c4dc8fbd833b77f36f14a80370d7f6ba816bb",
+      "git:hexsha": "849c4dc8fbd833b77f36f14a80370d7f6ba816bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "feat-grpc-to-rest-migration"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c6f7f5627a33d3187a1470d213ede83def40c174",
+      "git:hexsha": "c6f7f5627a33d3187a1470d213ede83def40c174",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3df6e52797c9de812b39ff097528ca9f08827338",
+      "git:hexsha": "3df6e52797c9de812b39ff097528ca9f08827338",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-3df6e5279"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5a1c26a89665ba02708a00c7160ace94a4a5874e",
+      "git:hexsha": "5a1c26a89665ba02708a00c7160ace94a4a5874e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-5a1c26a89"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/837a16e4656801df2e9de7abc7460a8db001dac6",
+      "git:hexsha": "837a16e4656801df2e9de7abc7460a8db001dac6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-837a16e46"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/83db0b46a5d905cf426e783cc26efdd7cb25c648",
+      "git:hexsha": "83db0b46a5d905cf426e783cc26efdd7cb25c648",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-83db0b46a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/970d639aaf68eb3e7564d1a384177a3d2e5b72ef",
+      "git:hexsha": "970d639aaf68eb3e7564d1a384177a3d2e5b72ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-970d639aa"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9f1131bb790352833d43824ddaf2706ca51273e3",
+      "git:hexsha": "9f1131bb790352833d43824ddaf2706ca51273e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-9f1131bb7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ade54064fa73b83fc9f38bb1ad79b5c88393ba16",
+      "git:hexsha": "ade54064fa73b83fc9f38bb1ad79b5c88393ba16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "grpc-to-rest-migration-ade54064f"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8f6c5f41b52d94af7a87c96ab71b41cbe4cf0a8a",
+      "git:hexsha": "8f6c5f41b52d94af7a87c96ab71b41cbe4cf0a8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "negar/dash-1296-bulk-download-logs"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/573e42801913f42dfe5d71c5bd393100f58360f8",
+      "git:hexsha": "573e42801913f42dfe5d71c5bd393100f58360f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "negar/dash-1296-bulk-download-logs-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5bf1ee7544c7185bac6c38df8f366bc73b8a0ffe",
+      "git:hexsha": "5bf1ee7544c7185bac6c38df8f366bc73b8a0ffe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260426-5bf1ee7544c7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1b59a0a370091281564b79d0914b20f9a6dd1c8e",
+      "git:hexsha": "1b59a0a370091281564b79d0914b20f9a6dd1c8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.7-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/61fa62b254fafc70c0b05fb31672280e5acfb037",
+      "git:hexsha": "61fa62b254fafc70c0b05fb31672280e5acfb037",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260428-61fa62b254fa"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1e4be2e26bc53677a4f1ad69fd58fb43a207ce2c",
+      "git:hexsha": "1e4be2e26bc53677a4f1ad69fd58fb43a207ce2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260429-1e4be2e26bc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3b53d7f49b5cc83cce547d1ee2460a2edfce9426",
+      "git:hexsha": "3b53d7f49b5cc83cce547d1ee2460a2edfce9426",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260430-3b53d7f49b5c"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/dfa84db4e0dc6806113ca0d16e3d19bbc2ee5524",
+      "git:hexsha": "dfa84db4e0dc6806113ca0d16e3d19bbc2ee5524",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260501-dfa84db4e0dc"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a57c322c6ff0e760531e8160f554fbcb3c7d8dd2",
+      "git:hexsha": "a57c322c6ff0e760531e8160f554fbcb3c7d8dd2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260504-a57c322c6ff0"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fb12730479631adb4bc973182d42d5767a54a9a0",
+      "git:hexsha": "fb12730479631adb4bc973182d42d5767a54a9a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.7-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e51201b90d41fa46c403fadbf0870f1c0a181eb0",
+      "git:hexsha": "e51201b90d41fa46c403fadbf0870f1c0a181eb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260506-e51201b90d41"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d11538c6383882508a857e513f0043e3761d2f7e",
+      "git:hexsha": "d11538c6383882508a857e513f0043e3761d2f7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260507-d11538c63838"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/869bd564bab91b2033f4fbfd21aa9adce873a96f",
+      "git:hexsha": "869bd564bab91b2033f4fbfd21aa9adce873a96f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260508-869bd564bab9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/65d1d1e98697b28be07119c59f7a291442ab6f08",
+      "git:hexsha": "65d1d1e98697b28be07119c59f7a291442ab6f08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260511-65d1d1e98697"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d5611cca415bcba4a7d71e53ad9126e7c73bd77f",
+      "git:hexsha": "d5611cca415bcba4a7d71e53ad9126e7c73bd77f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260512-d5611cca415b"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f4ce9c71123ab3b66bc04a7de24b0a25f0e7f4dc",
+      "git:hexsha": "f4ce9c71123ab3b66bc04a7de24b0a25f0e7f4dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260513-f4ce9c71123a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7c674394bfac28800a72e6cf7c585513f1041b28",
+      "git:hexsha": "7c674394bfac28800a72e6cf7c585513f1041b28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260514-7c674394bfac"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a67a9e3bd8ce5c89cbec3ce14cc5b78cd2faab2a",
+      "git:hexsha": "a67a9e3bd8ce5c89cbec3ce14cc5b78cd2faab2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260515-a67a9e3bd8ce"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e34c38a4f8278cfd2b6ebc1fd2de5e9a848491fe",
+      "git:hexsha": "e34c38a4f8278cfd2b6ebc1fd2de5e9a848491fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260518-e34c38a4f827"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fcd233c3dcc5ec441c449c2c9276861e82b9cf77",
+      "git:hexsha": "fcd233c3dcc5ec441c449c2c9276861e82b9cf77",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260519-fcd233c3dcc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/19a03050f8be5f51375a7b83c1e6f93d9e820873",
+      "git:hexsha": "19a03050f8be5f51375a7b83c1e6f93d9e820873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260520-19a03050f8be"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/254400167beb58371bcc5fe1172a47be1ca910a6",
+      "git:hexsha": "254400167beb58371bcc5fe1172a47be1ca910a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260521-254400167beb"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2bf90452ecfb8c3c94213ea54d28aa42bd220a2f",
+      "git:hexsha": "2bf90452ecfb8c3c94213ea54d28aa42bd220a2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260522-2bf90452ecfb"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/cf6ff018f14bbcbaa8e67972132b3f01d4247300",
+      "git:hexsha": "cf6ff018f14bbcbaa8e67972132b3f01d4247300",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260525-cf6ff018f14b"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/16121bbbfdbed395396ff06a1b1e46ee72d27764",
+      "git:hexsha": "16121bbbfdbed395396ff06a1b1e46ee72d27764",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260526-16121bbbfdbe"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a038c647dcaa9c0961c507ecb8b6dfa9f23d153b",
+      "git:hexsha": "a038c647dcaa9c0961c507ecb8b6dfa9f23d153b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260527-a038c647dcaa"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2989ec2c62747c876495b7c98e8c934e8dab7a3c",
+      "git:hexsha": "2989ec2c62747c876495b7c98e8c934e8dab7a3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260528-2989ec2c6274"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4abf2e8e1f8674e427bdc95a0564c7bce59ec318",
+      "git:hexsha": "4abf2e8e1f8674e427bdc95a0564c7bce59ec318",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260529-4abf2e8e1f86"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9b5bf09537c612bc74af28d389f87f01d9174b0e",
+      "git:hexsha": "9b5bf09537c612bc74af28d389f87f01d9174b0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260601-9b5bf09537c6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/72ac2792098a19ba4148d58d6f028954cd11e841",
+      "git:hexsha": "72ac2792098a19ba4148d58d6f028954cd11e841",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260602-72ac2792098a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8e49c1617ac0e3702f635762250bf8f414a3d9fa",
+      "git:hexsha": "8e49c1617ac0e3702f635762250bf8f414a3d9fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260604-8e49c1617ac0"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/617bc9030489ec4ea4bf84cc4abd4da61dead233",
+      "git:hexsha": "617bc9030489ec4ea4bf84cc4abd4da61dead233",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260605-617bc9030489"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9ac8a0fdc63529ced5c08811689d0d5534ee2067",
+      "git:hexsha": "9ac8a0fdc63529ced5c08811689d0d5534ee2067",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260606-9ac8a0fdc635"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/af50f615e54b94c71b101ad2552e106e99b20547",
+      "git:hexsha": "af50f615e54b94c71b101ad2552e106e99b20547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260608-af50f615e54b"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f31bb67b1bf8a14bca8184cc82a97a424b24594b",
+      "git:hexsha": "f31bb67b1bf8a14bca8184cc82a97a424b24594b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260609-f31bb67b1bf8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/debca7231013099f2925554efbad3661d6dadda5",
+      "git:hexsha": "debca7231013099f2925554efbad3661d6dadda5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260610-debca7231013"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d09343c319f8dd9d64083fe1317bce996a9538cd",
+      "git:hexsha": "d09343c319f8dd9d64083fe1317bce996a9538cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260611-d09343c319f8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/75933fce45c269e41e0ba2b30cd33825b0389fa7",
+      "git:hexsha": "75933fce45c269e41e0ba2b30cd33825b0389fa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260615-75933fce45c2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c84c07cd80d20fbc5cf8b2006ddfa540729b0c72",
+      "git:hexsha": "c84c07cd80d20fbc5cf8b2006ddfa540729b0c72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260616-c84c07cd80d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d34b3cd7fc43747cf82d7170d3bd4e0b5756b8c9",
+      "git:hexsha": "d34b3cd7fc43747cf82d7170d3bd4e0b5756b8c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260617-d34b3cd7fc43"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c01deacc27c4d97727ebe3e469abffab22fca142",
+      "git:hexsha": "c01deacc27c4d97727ebe3e469abffab22fca142",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260618-c01deacc27c4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/aff1cac0e5ce55fff2cdf3506090ca65b0e68333",
+      "git:hexsha": "aff1cac0e5ce55fff2cdf3506090ca65b0e68333",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260619-aff1cac0e5ce"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1e923eb43ca2722b661a0ea0ecadecb41bed08c3",
+      "git:hexsha": "1e923eb43ca2722b661a0ea0ecadecb41bed08c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260622-1e923eb43ca2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/10ac1e1c6d5eed611fd450ddc7abfb14a921ef7a",
+      "git:hexsha": "10ac1e1c6d5eed611fd450ddc7abfb14a921ef7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260623-10ac1e1c6d5e"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0ef9ee230e6aac5fd94746ad1af8e332af6e7abd",
+      "git:hexsha": "0ef9ee230e6aac5fd94746ad1af8e332af6e7abd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260625-0ef9ee230e6a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/76527300ee20999b394f66b5fed8d7b144736d07",
+      "git:hexsha": "76527300ee20999b394f66b5fed8d7b144736d07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260626-76527300ee20"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ca7d549b74f8f346b032647d5cca878f3128dd22",
+      "git:hexsha": "ca7d549b74f8f346b032647d5cca878f3128dd22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260629-ca7d549b74f8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/233e68961baefc33dae36ab774e580c0078b6376",
+      "git:hexsha": "233e68961baefc33dae36ab774e580c0078b6376",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260630-233e68961bae"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c43a7b4970324b7756e1116b47cd67fb0a5e68bd",
+      "git:hexsha": "c43a7b4970324b7756e1116b47cd67fb0a5e68bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260701-c43a7b497032"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7aff1270ecf6147e3ea6f9ab640cfb623b33824b",
+      "git:hexsha": "7aff1270ecf6147e3ea6f9ab640cfb623b33824b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260702-7aff1270ecf6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a7b00e867a12c4e23b7be44e686e859ecc945736",
+      "git:hexsha": "a7b00e867a12c4e23b7be44e686e859ecc945736",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2e71805b189e778fa50a62ca8373eabe76795186",
+      "git:hexsha": "2e71805b189e778fa50a62ca8373eabe76795186",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260706-2e71805b189e"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/541ebce5393f59c38f2953f0c15482d4b61df22d",
+      "git:hexsha": "541ebce5393f59c38f2953f0c15482d4b61df22d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260707-541ebce5393f"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4c875972b0b84ca8f0ed3c063eb5fbda20098c67",
+      "git:hexsha": "4c875972b0b84ca8f0ed3c063eb5fbda20098c67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260709-4c875972b0b8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6a480c77e4e0b01e13f842da08fdb83249e0ac75",
+      "git:hexsha": "6a480c77e4e0b01e13f842da08fdb83249e0ac75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260710-6a480c77e4e0"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7f084a1a9f7636694833b82c1165da8e6d2c04d6",
+      "git:hexsha": "7f084a1a9f7636694833b82c1165da8e6d2c04d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260713-7f084a1a9f76"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/27e80188fe1f0e819cd1657c443e39bf2d9d5c9b",
+      "git:hexsha": "27e80188fe1f0e819cd1657c443e39bf2d9d5c9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260714-27e80188fe1f"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/19f70355a9ca3ccda247a0494c0ffbc7de7c5d3a",
+      "git:hexsha": "19f70355a9ca3ccda247a0494c0ffbc7de7c5d3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c3549d4734c7792ac25ec6a287c817f11bed9cf9",
+      "git:hexsha": "c3549d4734c7792ac25ec6a287c817f11bed9cf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260716-c3549d4734c7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/375bc13f7a6b2f2ed420082c429fa68557721af3",
+      "git:hexsha": "375bc13f7a6b2f2ed420082c429fa68557721af3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260717-375bc13f7a6b"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c161fc9a15c30055a30f917a418e9c6354af9baa",
+      "git:hexsha": "c161fc9a15c30055a30f917a418e9c6354af9baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260720-c161fc9a15c3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/02ed202322959782a9f2467a772f32873c2b4e80",
+      "git:hexsha": "02ed202322959782a9f2467a772f32873c2b4e80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260721-02ed20232295"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ee61f9747cf8e44a63f6f822ddc5d27a280d1b87",
+      "git:hexsha": "ee61f9747cf8e44a63f6f822ddc5d27a280d1b87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260722-ee61f9747cf8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/eaaec6d1026d77e0cb92ae360e31f46758c3e634",
+      "git:hexsha": "eaaec6d1026d77e0cb92ae360e31f46758c3e634",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260723-eaaec6d1026d"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c29b58cdeddbc2e1da1676507deb2a3c1e6125dd",
+      "git:hexsha": "c29b58cdeddbc2e1da1676507deb2a3c1e6125dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260724-c29b58cdeddb"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7df92e1cb52681c1185d7132a55fb0d431857d06",
+      "git:hexsha": "7df92e1cb52681c1185d7132a55fb0d431857d06",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260727-7df92e1cb526"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/41237c6c108b56f304c7ba15b81000cda97e4670",
+      "git:hexsha": "41237c6c108b56f304c7ba15b81000cda97e4670",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260728-41237c6c108b"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b7ff715db7cf6416509af44792ef86ce68c17940",
+      "git:hexsha": "b7ff715db7cf6416509af44792ef86ce68c17940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260729-b7ff715db7cf"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/95b13a1ed1d53d65b9ad2de0d709302e3319571a",
+      "git:hexsha": "95b13a1ed1d53d65b9ad2de0d709302e3319571a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260731-95b13a1ed1d5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4d23941482fda8fe8126d7b1cf66f86dd5e704b0",
+      "git:hexsha": "4d23941482fda8fe8126d7b1cf66f86dd5e704b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260801-4d23941482fd"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/43a7f441ab88fc4b4cfe7b8465bf2d8593d05440",
+      "git:hexsha": "43a7f441ab88fc4b4cfe7b8465bf2d8593d05440",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260803-43a7f441ab88"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/99b7c5fbc6ecfa5c9f2504821d292a7278f869f9",
+      "git:hexsha": "99b7c5fbc6ecfa5c9f2504821d292a7278f869f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260804-99b7c5fbc6ec"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7cef8985e99c202c5d82125a49071a6f8266ab9e",
+      "git:hexsha": "7cef8985e99c202c5d82125a49071a6f8266ab9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260805-7cef8985e99c"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4659f7e6b64d46943fb0e07d306b3ed744265007",
+      "git:hexsha": "4659f7e6b64d46943fb0e07d306b3ed744265007",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260806-4659f7e6b64d"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8ea04bcfcbf267c4726043530a6003e4e85b44da",
+      "git:hexsha": "8ea04bcfcbf267c4726043530a6003e4e85b44da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260807-8ea04bcfcbf2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/dff6538cd00678458c5b6135852e83aed9248781",
+      "git:hexsha": "dff6538cd00678458c5b6135852e83aed9248781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260808-dff6538cd006"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/419b58d216dc3686f35335eff1fb838b3463d331",
+      "git:hexsha": "419b58d216dc3686f35335eff1fb838b3463d331",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/293086faab7f4595f4042f380c691aa056327c2b",
+      "git:hexsha": "293086faab7f4595f4042f380c691aa056327c2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/55dfa2292fec28b0f87e8f4d5eb5ef29432bb817",
+      "git:hexsha": "55dfa2292fec28b0f87e8f4d5eb5ef29432bb817",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260812-55dfa2292fec"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/382c2971124fc3ad180eb717b809f4c6094b049c",
+      "git:hexsha": "382c2971124fc3ad180eb717b809f4c6094b049c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/877cb51d03be9522574a919a0ef993d1eb262b2c",
+      "git:hexsha": "877cb51d03be9522574a919a0ef993d1eb262b2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260814-877cb51d03be"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b6b6786f502dfbcb353a37938c3b273f576fa34f",
+      "git:hexsha": "b6b6786f502dfbcb353a37938c3b273f576fa34f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260817-b6b6786f502d"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/01d0759794f43e98b9968a22af85978799d2cd65",
+      "git:hexsha": "01d0759794f43e98b9968a22af85978799d2cd65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260818-01d0759794f4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b350af2dcd159151849f3525b36e526aa663dd72",
+      "git:hexsha": "b350af2dcd159151849f3525b36e526aa663dd72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260819-b350af2dcd15"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/46bf1e7bbe5af6654049b0e2b38bb51641983859",
+      "git:hexsha": "46bf1e7bbe5af6654049b0e2b38bb51641983859",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260820-46bf1e7bbe5a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/333bad9ec56524262fae19979ef6241762b9428e",
+      "git:hexsha": "333bad9ec56524262fae19979ef6241762b9428e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2dc174bb04401b5987de026a9bc9746650447f6f",
+      "git:hexsha": "2dc174bb04401b5987de026a9bc9746650447f6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a9248e53fcf1808bfaed1ceb8a782a844fe2a6b6",
+      "git:hexsha": "a9248e53fcf1808bfaed1ceb8a782a844fe2a6b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260825-a9248e53fcf1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0f16f0fea138359be6ee2434fec7f2eed7021fd7",
+      "git:hexsha": "0f16f0fea138359be6ee2434fec7f2eed7021fd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260826-0f16f0fea138"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c126c0b6bfa0947967caa5a04474503cdff5c200",
+      "git:hexsha": "c126c0b6bfa0947967caa5a04474503cdff5c200",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260827-c126c0b6bfa0"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b4697d50cbc4417cdbfd6cfa3573eef060db1649",
+      "git:hexsha": "b4697d50cbc4417cdbfd6cfa3573eef060db1649",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260828-b4697d50cbc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1128005844c8a30ebf87abf6469d1c755f777e6d",
+      "git:hexsha": "1128005844c8a30ebf87abf6469d1c755f777e6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/72dba7984bb84dfa827c71dd09ce2a9230d46782",
+      "git:hexsha": "72dba7984bb84dfa827c71dd09ce2a9230d46782",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260831-72dba7984bb8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/037a5b2b4780bd262b41c57e154aeba7a9b22d16",
+      "git:hexsha": "037a5b2b4780bd262b41c57e154aeba7a9b22d16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260901-037a5b2b4780"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d5504553ab2088052762803907ef6d286e72d40d",
+      "git:hexsha": "d5504553ab2088052762803907ef6d286e72d40d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260902-d5504553ab20"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f3f0d7790d9c0734a1846cc99952aaf454fcbd79",
+      "git:hexsha": "f3f0d7790d9c0734a1846cc99952aaf454fcbd79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6a25ea25c9b285ede0a9f82f0f439ce8f636d63d",
+      "git:hexsha": "6a25ea25c9b285ede0a9f82f0f439ce8f636d63d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d9623426232a05ccfb79fdabe277fb4eea85856c",
+      "git:hexsha": "d9623426232a05ccfb79fdabe277fb4eea85856c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260906-d9623426232a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f1715b3f5a541be82853efd3a39e6a248fb1eefc",
+      "git:hexsha": "f1715b3f5a541be82853efd3a39e6a248fb1eefc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/74454ed9378f8e28fc849427ede604a0058e07db",
+      "git:hexsha": "74454ed9378f8e28fc849427ede604a0058e07db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260908-74454ed9378f"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/eacfc0d19f94620ef97838dee08ab334b8058dcf",
+      "git:hexsha": "eacfc0d19f94620ef97838dee08ab334b8058dcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260909-eacfc0d19f94"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4b5cf20b3ab9537c847fa2307f3381bfb0c4a084",
+      "git:hexsha": "4b5cf20b3ab9537c847fa2307f3381bfb0c4a084",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260910-4b5cf20b3ab9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/96d9669f98079494b99bc540b9cebc8a48ba38af",
+      "git:hexsha": "96d9669f98079494b99bc540b9cebc8a48ba38af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260911-96d9669f9807"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/87bed2f37552c53a6a558c4723c4ed18b641d97f",
+      "git:hexsha": "87bed2f37552c53a6a558c4723c4ed18b641d97f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260914-87bed2f37552"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/376b12ac811a40b4b79b0d900798ba553d90ab1e",
+      "git:hexsha": "376b12ac811a40b4b79b0d900798ba553d90ab1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260915-376b12ac811a"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f5981b40caed401d7d4fefe9d213ac6b11c9b472",
+      "git:hexsha": "f5981b40caed401d7d4fefe9d213ac6b11c9b472",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260916-f5981b40caed"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/14b7f6355678462d7003c439234fbd547978dd4f",
+      "git:hexsha": "14b7f6355678462d7003c439234fbd547978dd4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260917-14b7f6355678"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fd35e6d07f025a4e1f6db221daa39ecccba42457",
+      "git:hexsha": "fd35e6d07f025a4e1f6db221daa39ecccba42457",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260918-fd35e6d07f02"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/913811d3d4827b887362091e20ea1440ef467a09",
+      "git:hexsha": "913811d3d4827b887362091e20ea1440ef467a09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260920-913811d3d482"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9cbed2510522ee8b28e5432e153d56a7a9a89156",
+      "git:hexsha": "9cbed2510522ee8b28e5432e153d56a7a9a89156",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260921-9cbed2510522"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/20ed2a6b7a55329a6a13a8029b4ea5db4f5130cb",
+      "git:hexsha": "20ed2a6b7a55329a6a13a8029b4ea5db4f5130cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260922-20ed2a6b7a55"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5e2f19fe30a5617b09e5028e76e50ed316b6319d",
+      "git:hexsha": "5e2f19fe30a5617b09e5028e76e50ed316b6319d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d103f8a41b7cb3d503d8a18b764aa61a5add6e3d",
+      "git:hexsha": "d103f8a41b7cb3d503d8a18b764aa61a5add6e3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260924-d103f8a41b7c"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/685b3c50e2e8c941be171806339d32f4822f4882",
+      "git:hexsha": "685b3c50e2e8c941be171806339d32f4822f4882",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260925-685b3c50e2e8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/71f14c2c7c82dc38a9c1435f014f978393141880",
+      "git:hexsha": "71f14c2c7c82dc38a9c1435f014f978393141880",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1c8b8ddf9e6f7e57aa32a32c201dd4f76ef61d86",
+      "git:hexsha": "1c8b8ddf9e6f7e57aa32a32c201dd4f76ef61d86",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20260928-1c8b8ddf9e6f"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4bb524626aec986d2f68465d5231d27f4b13d3ec",
+      "git:hexsha": "4bb524626aec986d2f68465d5231d27f4b13d3ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a1c7fd71a45ec9d8f017f1614f20fe5d377d055a",
+      "git:hexsha": "a1c7fd71a45ec9d8f017f1614f20fe5d377d055a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3f1f32a0b91a858e3aa600db2b5d029efda322b9",
+      "git:hexsha": "3f1f32a0b91a858e3aa600db2b5d029efda322b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6d73f93bd2527928e9f47f47e9af6a0f7d3d6175",
+      "git:hexsha": "6d73f93bd2527928e9f47f47e9af6a0f7d3d6175",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/562d94c6e1e325005c72a94d84e1b3a6d1b170ab",
+      "git:hexsha": "562d94c6e1e325005c72a94d84e1b3a6d1b170ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8d4d5e6f991235f0712fab750d53d082a9723243",
+      "git:hexsha": "8d4d5e6f991235f0712fab750d53d082a9723243",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1298e52462388d1cd92cdaf99c542a32c497747d",
+      "git:hexsha": "1298e52462388d1cd92cdaf99c542a32c497747d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.11-beta-2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/816935c813d0e54ac248c3eabae7ec7294f65cf2",
+      "git:hexsha": "816935c813d0e54ac248c3eabae7ec7294f65cf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/32fecf5c1c2abec7d580b49c9efef0c4b7d006f8",
+      "git:hexsha": "32fecf5c1c2abec7d580b49c9efef0c4b7d006f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e8763ae93fcad92fc9195d878fd860bb215edc5a",
+      "git:hexsha": "e8763ae93fcad92fc9195d878fd860bb215edc5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6b84e2dc1eed77643ba7120668f419c3014d2b2c",
+      "git:hexsha": "6b84e2dc1eed77643ba7120668f419c3014d2b2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3e22ceed8b1ade7370e6bcf0bdbf74386bb477db",
+      "git:hexsha": "3e22ceed8b1ade7370e6bcf0bdbf74386bb477db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b50785fdeda9bd54745554dc023ea4c1ea9d72c6",
+      "git:hexsha": "b50785fdeda9bd54745554dc023ea4c1ea9d72c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fae032c134c94753914e1e4333016d1c6dc5f8e6",
+      "git:hexsha": "fae032c134c94753914e1e4333016d1c6dc5f8e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/18e3c96eb2162d942932ee02cf6606e40ea43ba7",
+      "git:hexsha": "18e3c96eb2162d942932ee02cf6606e40ea43ba7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/65158e796dcf7ce032cb510c3e8a08cc73c79355",
+      "git:hexsha": "65158e796dcf7ce032cb510c3e8a08cc73c79355",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a46e23287ee58438e9df332a015040ed8283feaa",
+      "git:hexsha": "a46e23287ee58438e9df332a015040ed8283feaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha-nan-triage"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/70961654ca7b1b3b13393268bbda9df32661b1b9",
+      "git:hexsha": "70961654ca7b1b3b13393268bbda9df32661b1b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha-ts-image-test"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e1745a358696dea61a156af6ef3fc8e1c2cab322",
+      "git:hexsha": "e1745a358696dea61a156af6ef3fc8e1c2cab322",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha-ts-image-test-1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2e0803675f2f58398e635aa32048f2d43f645e7d",
+      "git:hexsha": "2e0803675f2f58398e635aa32048f2d43f645e7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/24bb648ef32c446bc18beeeadcf30235834aaa1e",
+      "git:hexsha": "24bb648ef32c446bc18beeeadcf30235834aaa1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4f72ea4dca1becc6ecfe788b76cb030f863654e0",
+      "git:hexsha": "4f72ea4dca1becc6ecfe788b76cb030f863654e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b8c7a52260006c239c458f527a2a55a3d1e1ee4b",
+      "git:hexsha": "b8c7a52260006c239c458f527a2a55a3d1e1ee4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c8d4abc5f0678fdc9955450f75da0267e7418fb3",
+      "git:hexsha": "c8d4abc5f0678fdc9955450f75da0267e7418fb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4a0bf90347d3bbdbc3c8c5096839397313502e4b",
+      "git:hexsha": "4a0bf90347d3bbdbc3c8c5096839397313502e4b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0d3b64030920b8f5bd32500c0dadc4d77cd9f874",
+      "git:hexsha": "0d3b64030920b8f5bd32500c0dadc4d77cd9f874",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/de31ea3aadb08c4a9ff242875a6c1e771e5e3401",
+      "git:hexsha": "de31ea3aadb08c4a9ff242875a6c1e771e5e3401",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f0a75ebd612cf01ebf569be7f33c2f5c45cdf618",
+      "git:hexsha": "f0a75ebd612cf01ebf569be7f33c2f5c45cdf618",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8f4a8f2628a8685df51c6232a7367d213a462499",
+      "git:hexsha": "8f4a8f2628a8685df51c6232a7367d213a462499",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d41c48fe5dc3a81ee83884d1ce5b884e51ef8803",
+      "git:hexsha": "d41c48fe5dc3a81ee83884d1ce5b884e51ef8803",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/aaa8fea5a73bcb5d0377a9f87bff4ce98319ade8",
+      "git:hexsha": "aaa8fea5a73bcb5d0377a9f87bff4ce98319ade8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f9ed5b5cb64c8e6af20da96217e8b4950b5c350b",
+      "git:hexsha": "f9ed5b5cb64c8e6af20da96217e8b4950b5c350b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/70a997880056a11351daf918fad65707dbf92f12",
+      "git:hexsha": "70a997880056a11351daf918fad65707dbf92f12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-alpha.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8348328fd34d11fa1173140d844dd8a15b4d6cc1",
+      "git:hexsha": "8348328fd34d11fa1173140d844dd8a15b4d6cc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0-beta-pr730.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/37821b751f5f9018668ca3b7fd53b555da899779",
+      "git:hexsha": "37821b751f5f9018668ca3b7fd53b555da899779",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2c56a8f90534eec661be77be012dc67fe8574986",
+      "git:hexsha": "2c56a8f90534eec661be77be012dc67fe8574986",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fcc15652b9be5df75f5c40fd373fdfa916b1e299",
+      "git:hexsha": "fcc15652b9be5df75f5c40fd373fdfa916b1e299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/52f05f4c01534a2dd9fea3f92554a036a3fa151f",
+      "git:hexsha": "52f05f4c01534a2dd9fea3f92554a036a3fa151f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/bffff8514d15f19636b6173b018d822def72f128",
+      "git:hexsha": "bffff8514d15f19636b6173b018d822def72f128",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/378b5516285b5c9fb4b43dd1fdb7a6618dba9700",
+      "git:hexsha": "378b5516285b5c9fb4b43dd1fdb7a6618dba9700",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6dab6da237fed7a8ed01db9384190b84e21aa297",
+      "git:hexsha": "6dab6da237fed7a8ed01db9384190b84e21aa297",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c719c0a8fe3e5b3b02243ae390ef3c264e1d3993",
+      "git:hexsha": "c719c0a8fe3e5b3b02243ae390ef3c264e1d3993",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c0d76bb0ef7a9e313daf681800a9df8f1252deff",
+      "git:hexsha": "c0d76bb0ef7a9e313daf681800a9df8f1252deff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4dd940bfb79869d07364c1d41c38a1744b6a8139",
+      "git:hexsha": "4dd940bfb79869d07364c1d41c38a1744b6a8139",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/338a20ff4864dbee931668d299adbe394f90c854",
+      "git:hexsha": "338a20ff4864dbee931668d299adbe394f90c854",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7fadd578e3d94371b218deb2df7b9560db995ee3",
+      "git:hexsha": "7fadd578e3d94371b218deb2df7b9560db995ee3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/28489a149df5e7bef7a8eaaabb8759e29bb0a18f",
+      "git:hexsha": "28489a149df5e7bef7a8eaaabb8759e29bb0a18f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5f13a917551ce48d39392e6d7ed34d3a21971cd2",
+      "git:hexsha": "5f13a917551ce48d39392e6d7ed34d3a21971cd2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.1-alpha.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/58cce09ad035dba7264ee01e0ead6027c6077df1",
+      "git:hexsha": "58cce09ad035dba7264ee01e0ead6027c6077df1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5d67b09da8e1dbe13af55fa1c32a3e04f23e2a75",
+      "git:hexsha": "5d67b09da8e1dbe13af55fa1c32a3e04f23e2a75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4ec20f98be74e6d7eec5b5f9415242a4f05f4858",
+      "git:hexsha": "4ec20f98be74e6d7eec5b5f9415242a4f05f4858",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/49b093e59adc4b8b73062865f7429ba238b3c96d",
+      "git:hexsha": "49b093e59adc4b8b73062865f7429ba238b3c96d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.11-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0c1eaeec93e4c77026f6b673b49f9ccdc5585575",
+      "git:hexsha": "0c1eaeec93e4c77026f6b673b49f9ccdc5585575",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4ffdb0791fb8ff24d76301910f0097acc18605f8",
+      "git:hexsha": "4ffdb0791fb8ff24d76301910f0097acc18605f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d432e2491640294315d0b2b4dc6062b3536890d0",
+      "git:hexsha": "d432e2491640294315d0b2b4dc6062b3536890d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-ha-promotion.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/25b6dcac28e5750a49dc3106cb51fe82b331c6aa",
+      "git:hexsha": "25b6dcac28e5750a49dc3106cb51fe82b331c6aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-ha-promotion.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fc2f82ceca27c8703d7b701c7ab84295771496b7",
+      "git:hexsha": "fc2f82ceca27c8703d7b701c7ab84295771496b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-ha-readiness.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ef11d44c0db6ec4be7d4de09e5d81a3832ae3524",
+      "git:hexsha": "ef11d44c0db6ec4be7d4de09e5d81a3832ae3524",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-ha-readiness.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/65035c8023f3b00c8ff26e3877c6fe02b35bee66",
+      "git:hexsha": "65035c8023f3b00c8ff26e3877c6fe02b35bee66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-ha-readiness.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/39d02af168297682654b4bc9672a4e46abaf439e",
+      "git:hexsha": "39d02af168297682654b4bc9672a4e46abaf439e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr885.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4a9159d0815aeca104a12063f306b2f5a77e28d8",
+      "git:hexsha": "4a9159d0815aeca104a12063f306b2f5a77e28d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d5989f1e71413351511db6fb8ce393c4548d3394",
+      "git:hexsha": "d5989f1e71413351511db6fb8ce393c4548d3394",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/daf2af34837015b0c55a0c2597e611e6b6940da5",
+      "git:hexsha": "daf2af34837015b0c55a0c2597e611e6b6940da5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9109c001d6dda403677645876ae6faa5a213deaf",
+      "git:hexsha": "9109c001d6dda403677645876ae6faa5a213deaf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9bdd8072db811c1b4b19bca79e77070e21d9b79b",
+      "git:hexsha": "9bdd8072db811c1b4b19bca79e77070e21d9b79b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5c2d93b7eefc42c4ac52f4279747cb4d53dfde90",
+      "git:hexsha": "5c2d93b7eefc42c4ac52f4279747cb4d53dfde90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8b27044ce0a9307496b8ee7735e0ccd403e070fb",
+      "git:hexsha": "8b27044ce0a9307496b8ee7735e0ccd403e070fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/40fb9d6006254bbdf3c1ca7a088ee7ee4b868809",
+      "git:hexsha": "40fb9d6006254bbdf3c1ca7a088ee7ee4b868809",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3d277c58e2941bee6b9680e88891d31821ffb679",
+      "git:hexsha": "3d277c58e2941bee6b9680e88891d31821ffb679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ca83e6136d0eafed4f968824e40bfce9c5b9d0b2",
+      "git:hexsha": "ca83e6136d0eafed4f968824e40bfce9c5b9d0b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fdcb96c5d47833357756da9a9a1e64865826e664",
+      "git:hexsha": "fdcb96c5d47833357756da9a9a1e64865826e664",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3f14bb521e2c5352d55ddae6088ec20bea296d75",
+      "git:hexsha": "3f14bb521e2c5352d55ddae6088ec20bea296d75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d6a6f810ef6f795b971c40a8a755b0e38b882faf",
+      "git:hexsha": "d6a6f810ef6f795b971c40a8a755b0e38b882faf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/40463a9a3f7316fc477b63887510d7f56551446e",
+      "git:hexsha": "40463a9a3f7316fc477b63887510d7f56551446e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr888.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4481a39308dcbe36cf5a622c8508c177f1af1241",
+      "git:hexsha": "4481a39308dcbe36cf5a622c8508c177f1af1241",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-pr936.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4039274ce161438568e6de2d1095c98b9e7cffba",
+      "git:hexsha": "4039274ce161438568e6de2d1095c98b9e7cffba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/240ab4712806e5e346d33c6dc22111b213996830",
+      "git:hexsha": "240ab4712806e5e346d33c6dc22111b213996830",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2159f8b3bd227d9ac35ee92e51919844f94ab548",
+      "git:hexsha": "2159f8b3bd227d9ac35ee92e51919844f94ab548",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6fe9d24a432657b30e0cfbbdb560407a184869ef",
+      "git:hexsha": "6fe9d24a432657b30e0cfbbdb560407a184869ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b6006d8f86eeff5bfa5b39ff2e0640221082bbfd",
+      "git:hexsha": "b6006d8f86eeff5bfa5b39ff2e0640221082bbfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fbe01563c506e31af453a76ad2227cecf38308f3",
+      "git:hexsha": "fbe01563c506e31af453a76ad2227cecf38308f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/017daf71aaa1fc9e3cc364080916d021f7a0bf48",
+      "git:hexsha": "017daf71aaa1fc9e3cc364080916d021f7a0bf48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/7868e537c38a374934ebdf5c9ef121ffaf65ea3f",
+      "git:hexsha": "7868e537c38a374934ebdf5c9ef121ffaf65ea3f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/dd27d5c8c9ca52ad809eaa1e1345818657fe8ee0",
+      "git:hexsha": "dd27d5c8c9ca52ad809eaa1e1345818657fe8ee0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d2fb4d8134e860c79d92a4f340d938aec3b1065d",
+      "git:hexsha": "d2fb4d8134e860c79d92a4f340d938aec3b1065d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.10-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0e27f8631c98a934dc1a9c0ddb537d367dc273ba",
+      "git:hexsha": "0e27f8631c98a934dc1a9c0ddb537d367dc273ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.11-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/89d351d94e8d6e8dee02bbc7a2c984550103e69a",
+      "git:hexsha": "89d351d94e8d6e8dee02bbc7a2c984550103e69a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d4d7948f897d94ab8e9849f52dc5231861d85b94",
+      "git:hexsha": "d4d7948f897d94ab8e9849f52dc5231861d85b94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8b784d70c7deb82dbd7c0ac60c338ec438fedaea",
+      "git:hexsha": "8b784d70c7deb82dbd7c0ac60c338ec438fedaea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/afda664f0dd50e18d147285509792c87d17534c5",
+      "git:hexsha": "afda664f0dd50e18d147285509792c87d17534c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d229d4f7adabf8db546b93a06ba15af11cc17464",
+      "git:hexsha": "d229d4f7adabf8db546b93a06ba15af11cc17464",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/848a002823321f6a2483a1e0efe090a869d20673",
+      "git:hexsha": "848a002823321f6a2483a1e0efe090a869d20673",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2f7ff2fe3857132e08fa18b834980ddb81b6dab3",
+      "git:hexsha": "2f7ff2fe3857132e08fa18b834980ddb81b6dab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/decb952e5a75f83129f0c601b87821e883aa3a69",
+      "git:hexsha": "decb952e5a75f83129f0c601b87821e883aa3a69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3-alpha.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/185eaf4998539e509205c5e6db2be815d71bb573",
+      "git:hexsha": "185eaf4998539e509205c5e6db2be815d71bb573",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3-alpha.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1ebb5935cc0c662ea416fb1fd61d8bfa0906a57d",
+      "git:hexsha": "1ebb5935cc0c662ea416fb1fd61d8bfa0906a57d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3-alpha.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/94faea9d78de4c73ad7726648d6b382e6f7c70c8",
+      "git:hexsha": "94faea9d78de4c73ad7726648d6b382e6f7c70c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fac4782a6632fecf38f352d05f4790c3531a5878",
+      "git:hexsha": "fac4782a6632fecf38f352d05f4790c3531a5878",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/24c03a3a7ce6d6ea2325205ffae2fcbffaaca08c",
+      "git:hexsha": "24c03a3a7ce6d6ea2325205ffae2fcbffaaca08c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4-alpha.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3d51a5c33a3231de9fc20efda5c18ce7be0224df",
+      "git:hexsha": "3d51a5c33a3231de9fc20efda5c18ce7be0224df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4-alpha.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8871577e27a3fed37cbb7561be7d67139e845869",
+      "git:hexsha": "8871577e27a3fed37cbb7561be7d67139e845869",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2b0fcc4e7d777363cc9bec119fd272aa5cae9715",
+      "git:hexsha": "2b0fcc4e7d777363cc9bec119fd272aa5cae9715",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5-fw-auth-compat-2b0fcc4e7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d9df083377e711bcb472d5fe0a1b5ebe3df8462e",
+      "git:hexsha": "d9df083377e711bcb472d5fe0a1b5ebe3df8462e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5-fw-auth-compat-d9df08337"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/deed3d2a2b56a52e12cccaf3a207da978f3d851b",
+      "git:hexsha": "deed3d2a2b56a52e12cccaf3a207da978f3d851b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5-fw-auth-compat-deed3d2a2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e55db941c31245b0f1ce8cc07fe991777d71b225",
+      "git:hexsha": "e55db941c31245b0f1ce8cc07fe991777d71b225",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5-profiling-9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1f6d5a54b4ad5f31ef2f5754ead6a7e1b6664ade",
+      "git:hexsha": "1f6d5a54b4ad5f31ef2f5754ead6a7e1b6664ade",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/33e6239e711458d0a9179fd03cf2e718a5ce4bbf",
+      "git:hexsha": "33e6239e711458d0a9179fd03cf2e718a5ce4bbf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/6e166aed82d048c2b0b7aad9575980ca7eb734fc",
+      "git:hexsha": "6e166aed82d048c2b0b7aad9575980ca7eb734fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/62a7f3eff1c2856bbbbe2296c52d90c3b2af54d4",
+      "git:hexsha": "62a7f3eff1c2856bbbbe2296c52d90c3b2af54d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fb918ad947c2c60759b071cd5181cdfe96d4d90a",
+      "git:hexsha": "fb918ad947c2c60759b071cd5181cdfe96d4d90a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.6-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3f396c6ed67bdb45327b90bea362a171d68c0336",
+      "git:hexsha": "3f396c6ed67bdb45327b90bea362a171d68c0336",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9f6a3aaeffb7b9fed66e46c78e8d2eb84d3fc21a",
+      "git:hexsha": "9f6a3aaeffb7b9fed66e46c78e8d2eb84d3fc21a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-dockerized-fleet-ha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/568c367d24333819cbc15f747aea401eabc032a9",
+      "git:hexsha": "568c367d24333819cbc15f747aea401eabc032a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-dockerized-fleet-ha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b60696bc624e4295693356764904923794e70165",
+      "git:hexsha": "b60696bc624e4295693356764904923794e70165",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-installer-detect-sudo-and-disk-fallback.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4fb36fc1869f7b0ffb3139857e44957ff12fa812",
+      "git:hexsha": "4fb36fc1869f7b0ffb3139857e44957ff12fa812",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-installer-detect-sudo-and-disk-fallback.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/030aaf8930370c38a0d96ac8cf1e20289592f7c5",
+      "git:hexsha": "030aaf8930370c38a0d96ac8cf1e20289592f7c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9089b5f717ff523b37da873d5f63acfb2ff87b4a",
+      "git:hexsha": "9089b5f717ff523b37da873d5f63acfb2ff87b4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/db5bbbffd2695f1146df086744c3be519efbac5c",
+      "git:hexsha": "db5bbbffd2695f1146df086744c3be519efbac5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ed2d4ecbacc8a9879cf9f73cfee37c08496465a1",
+      "git:hexsha": "ed2d4ecbacc8a9879cf9f73cfee37c08496465a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0604b40c3ce92d558b275cc9e2f696f8d43d4a83",
+      "git:hexsha": "0604b40c3ce92d558b275cc9e2f696f8d43d4a83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2d8e2a36a2dabad80deacd203c50b516d68160e5",
+      "git:hexsha": "2d8e2a36a2dabad80deacd203c50b516d68160e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/edc27e48c22c3d67457b3b8637fc4eab4f930c38",
+      "git:hexsha": "edc27e48c22c3d67457b3b8637fc4eab4f930c38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f2150544cfcbc672c95771df45a24259e48397fb",
+      "git:hexsha": "f2150544cfcbc672c95771df45a24259e48397fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0d8e364ac70aafeefcc2b7c90b2b03392a3ae4e3",
+      "git:hexsha": "0d8e364ac70aafeefcc2b7c90b2b03392a3ae4e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b153dbf55914da5d489017f25ee351bc1a78d1b4",
+      "git:hexsha": "b153dbf55914da5d489017f25ee351bc1a78d1b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f88a533c20c7a533d15439191e590be336ee30d0",
+      "git:hexsha": "f88a533c20c7a533d15439191e590be336ee30d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/bd2b1278c0bf6386069f29f4a86c03d6435bf3e8",
+      "git:hexsha": "bd2b1278c0bf6386069f29f4a86c03d6435bf3e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e7f0bc09e4f176aacc9126777fc0ee07387756ca",
+      "git:hexsha": "e7f0bc09e4f176aacc9126777fc0ee07387756ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b06e9bfab52a1342846ad1f19fc832d4491036c8",
+      "git:hexsha": "b06e9bfab52a1342846ad1f19fc832d4491036c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/11845ff9cf8108467f95372789e7fa8c2be80609",
+      "git:hexsha": "11845ff9cf8108467f95372789e7fa8c2be80609",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/3421f32d5969829d5af0f0bd6cb7e07f59410ba1",
+      "git:hexsha": "3421f32d5969829d5af0f0bd6cb7e07f59410ba1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/68501972362cece4b4dfad08f6fa46a621701708",
+      "git:hexsha": "68501972362cece4b4dfad08f6fa46a621701708",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2bab4224b119f77e186bf2719b96a4adae3abf5c",
+      "git:hexsha": "2bab4224b119f77e186bf2719b96a4adae3abf5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9058570a5697cc866c9b058b5cfee4b4e2c0f722",
+      "git:hexsha": "9058570a5697cc866c9b058b5cfee4b4e2c0f722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.8-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/f8b218f07422d43d24d759f835637c9957c99871",
+      "git:hexsha": "f8b218f07422d43d24d759f835637c9957c99871",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1ae9ca96642a45da2d368f417b90b1ef5b7951b8",
+      "git:hexsha": "1ae9ca96642a45da2d368f417b90b1ef5b7951b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-pr737.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ffbc0d3b63bc7c9c1fbcd47ab2ffacab92d4b579",
+      "git:hexsha": "ffbc0d3b63bc7c9c1fbcd47ab2ffacab92d4b579",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/b33d00de477311221fddb3f8a404013a44b3b5bc",
+      "git:hexsha": "b33d00de477311221fddb3f8a404013a44b3b5bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/ec6b2269ea21d2dcce11265f4728e8e28b8bbb2f",
+      "git:hexsha": "ec6b2269ea21d2dcce11265f4728e8e28b8bbb2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/c70b313517efa7d7ccd9cd8a4cdf2aa27c2651a5",
+      "git:hexsha": "c70b313517efa7d7ccd9cd8a4cdf2aa27c2651a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/8e2a4316cc17d8ab75f3929be084bee1e9a9b68c",
+      "git:hexsha": "8e2a4316cc17d8ab75f3929be084bee1e9a9b68c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/e44d0a3c515e6a19dea31730a67b2b037991f429",
+      "git:hexsha": "e44d0a3c515e6a19dea31730a67b2b037991f429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.9-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/26f0a76978f756bc05c92318b6c5be26b5f5965b",
+      "git:hexsha": "26f0a76978f756bc05c92318b6c5be26b5f5965b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/89dc5a5f5300bcab3271c12b294ce80e0e562fef",
+      "git:hexsha": "89dc5a5f5300bcab3271c12b294ce80e0e562fef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/31524794bc2064af57335d69d086819f08e12c73",
+      "git:hexsha": "31524794bc2064af57335d69d086819f08e12c73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/fa1000861ea578e45230e554aa47d1bbd182db38",
+      "git:hexsha": "fa1000861ea578e45230e554aa47d1bbd182db38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/5b653ee58433bba2d06c4b3f950cc7ceb86aa20d",
+      "git:hexsha": "5b653ee58433bba2d06c4b3f950cc7ceb86aa20d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.1-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/803f68913ae6bd859eba294a4446f0e623996fad",
+      "git:hexsha": "803f68913ae6bd859eba294a4446f0e623996fad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2c1716b266b50f9d64694f8d507a3f5864ec1ee3",
+      "git:hexsha": "2c1716b266b50f9d64694f8d507a3f5864ec1ee3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/39882681654b5d82f6048d6c9187065ea9911f37",
+      "git:hexsha": "39882681654b5d82f6048d6c9187065ea9911f37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.3.2-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f",
+      "git:hexsha": "cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.6.0-rc.1",
+      "repolex:parsedAt": "2026-11-09T18:53:57.689077+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/9778c062aed68eed0a11d86acd94cbd101865e37",
+      "git:hexsha": "9778c062aed68eed0a11d86acd94cbd101865e37",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/0b366404b5ef8498e73ba918078a6b468de63aa7",
+      "git:hexsha": "0b366404b5ef8498e73ba918078a6b468de63aa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/4b951613a25caffb07724cbd095c0461bde460a4",
+      "git:hexsha": "4b951613a25caffb07724cbd095c0461bde460a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20261007-4b951613a25c"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/1b6a93b830d29fe2adcd44d1aef7b8a839fb6d7e",
+      "git:hexsha": "1b6a93b830d29fe2adcd44d1aef7b8a839fb6d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20261008-1b6a93b830d2"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/d43db2a0fd0b2397acdac3aff2d69f77e0e8e28a",
+      "git:hexsha": "d43db2a0fd0b2397acdac3aff2d69f77e0e8e28a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.5.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/15c16f4ef79def2767082e5dda09c5ce0fc6e44b",
+      "git:hexsha": "15c16f4ef79def2767082e5dda09c5ce0fc6e44b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20261014-15c16f4ef79d"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/a56f64b07bce2cc990170d151d8d5fc2eccbdd33",
+      "git:hexsha": "a56f64b07bce2cc990170d151d8d5fc2eccbdd33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20261015-a56f64b07bce"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/08e2a6df9774c1455e043245c690b5f057ee7c54",
+      "git:hexsha": "08e2a6df9774c1455e043245c690b5f057ee7c54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "nightly-20261016-08e2a6df9774"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/2df8683700866d53c635374a330951d7a7c343dd",
+      "git:hexsha": "2df8683700866d53c635374a330951d7a7c343dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/proto-fleet/commit/473e33e96af5abbf0980719a40b81be4b752c1ed",
+      "git:hexsha": "473e33e96af5abbf0980719a40b81be4b752c1ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.4.1-rc.1"
+    }
+  ]
+}
