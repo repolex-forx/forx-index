@@ -42,10 +42,48 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27/chunk-001.nq.gz",
       "repolex:graphFileSize": 661213
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz",
+      "repolex:graphFileSize": 69336
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:05:33.277037+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.0.5"
+  "git:tagName": "v1.0.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/explosion/spaCy",
+      "repolex:packageName": "spacy",
+      "git:hexsha": "a59f3fcf5dab3acf5570483cc314b47cc5833f39",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "bb29f31d2278fc93efba7ef3e123616c13ce8022",
+      "git:tagName": "5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycqa/flake8",
+      "repolex:packageName": "flake8",
+      "git:hexsha": "b4d285019210ccdb5d526e64c281db64e5316d6c",
+      "git:tagName": "3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/pytorch",
+      "repolex:packageName": "torch",
+      "git:hexsha": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
