@@ -48,10 +48,106 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4ce5588f86f48c7fd16db770a6e68d475babdb0a/chunk-001.nq.gz",
       "repolex:graphFileSize": 175790
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4ce5588f86f48c7fd16db770a6e68d475babdb0a.nq.gz",
+      "repolex:graphFileSize": 11999
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T22:41:38.618449+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.2.0"
+  "git:tagName": "0.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/isaacs/node-glob",
+      "repolex:packageName": "glob",
+      "git:hexsha": "8882c8fccabbe459465e73cc2581e121a5fdd25b",
+      "git:tagName": "v7.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lodash/lodash",
+      "repolex:packageName": "lodash",
+      "git:hexsha": "0843bd46ef805dd03c0c8d804630804f3ba0ca3c",
+      "git:tagName": "4.17.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/olsonpm/fancybox",
+      "repolex:packageName": "fancybox"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt",
+      "repolex:packageName": "grunt",
+      "git:hexsha": "8fcbed1fe80086fe9e68f044084e19296d314d35",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-clean",
+      "repolex:packageName": "grunt-contrib-clean",
+      "git:hexsha": "40a65e6f61dfd40939018924255dd5b1dd1506e6",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-nodeunit",
+      "repolex:packageName": "grunt-contrib-nodeunit",
+      "git:hexsha": "d6493073b8bcbe636c40cdf0f268245a25d34bac",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-watch",
+      "repolex:packageName": "grunt-contrib-watch",
+      "git:hexsha": "3b7ddf4453787979a22b83949b86106534c78d26",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/brandonramirez/grunt-jsonlint",
+      "repolex:packageName": "grunt-jsonlint",
+      "git:hexsha": "ae7904623c8378484fa44278b6bfa1a681bf0ce4",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/poalrom/grunt-prettier",
+      "repolex:packageName": "grunt-prettier",
+      "git:hexsha": "1b1b99382afa968463b192376d64d137364cc206",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jquery/jquery",
+      "repolex:packageName": "jquery",
+      "git:hexsha": "32b00373b3f42e5cdcb709df53f3b08b7184a944",
+      "git:tagName": "3.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jquery/jquery-ui",
+      "repolex:packageName": "jquery-ui",
+      "git:hexsha": "c6f1735249295bb37153861aa97e5b3e38d46b02",
+      "git:tagName": "1.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/timmywil/jquery.onoff",
+      "repolex:packageName": "jquery.onoff",
+      "git:hexsha": "60b04d19fc5de16e65e27e34aaefad982189076a",
+      "git:tagName": "0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/timmywil/jquery.panzoom",
+      "repolex:packageName": "jquery.panzoom",
+      "git:hexsha": "3ab50468592eb46776b7a3331adea240cefdea3b",
+      "git:tagName": "v3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/load-grunt-tasks",
+      "repolex:packageName": "load-grunt-tasks",
+      "git:hexsha": "73a8298e80a73679afb0ecdc0d868608e2b47fe2",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dimsemenov/Photoswipe",
+      "repolex:packageName": "photoswipe",
+      "git:hexsha": "80607e12542a1a54ecefa837649e862b35dffd25",
+      "git:tagName": "v4.1.3"
+    }
+  ]
 }

@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6f64716442030267ff23ae446b1dd791880c8fec/chunk-001.nq.gz",
       "repolex:graphFileSize": 39714
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6f64716442030267ff23ae446b1dd791880c8fec.nq.gz",
+      "repolex:graphFileSize": 3822
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T22:41:09.945592+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.0"
+  "git:tagName": "v1.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/matklad/xshell",
+      "repolex:packageName": "xshell",
+      "git:hexsha": "9a405946ecbbfe50fe4a7229bd764194154e4ce6",
+      "git:tagName": "v0.2.7"
+    }
+  ]
 }
