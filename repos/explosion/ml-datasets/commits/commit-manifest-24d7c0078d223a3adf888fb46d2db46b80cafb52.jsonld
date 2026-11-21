@@ -42,10 +42,48 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/24d7c0078d223a3adf888fb46d2db46b80cafb52/chunk-001.nq.gz",
       "repolex:graphFileSize": 429887
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/24d7c0078d223a3adf888fb46d2db46b80cafb52.nq.gz",
+      "repolex:graphFileSize": 58709
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:05:37.142243+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.2.0"
+  "git:tagName": "v0.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "0c5a166183764aeb3fd1fba799caea489f20682f",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "bbf08db39931fd6cdff5f8ab42e54148f8b4faa4",
+      "git:tagName": "v4.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/srsly",
+      "repolex:packageName": "srsly",
+      "git:hexsha": "77d1aa71fa72f457ac8aa60e2fd77fa0c177e90e",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/catalogue",
+      "repolex:packageName": "catalogue",
+      "git:hexsha": "f7349fd5385a00ad8e1250d879b106b341f3309d",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
