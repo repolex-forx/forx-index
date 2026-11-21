@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ab957ff226ac4695477435c6782355058c0d7b80/chunk-001.nq.gz",
       "repolex:graphFileSize": 1503765
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ab957ff226ac4695477435c6782355058c0d7b80.nq.gz",
+      "repolex:graphFileSize": 196938
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T22:44:01.091373+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.0.1"
+  "git:tagName": "v0.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tamasfe/taplo",
+      "repolex:packageName": "@taplo/cli"
+    },
+    {
+      "@id": "https://repolex.ai/r/kentcdodds/cross-env",
+      "repolex:packageName": "cross-env",
+      "git:hexsha": "bb0287b199c3e4cea5c0e1a20ef0c8d78db1aaa4",
+      "git:tagName": "v7.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/streetsidesoftware/cspell",
+      "repolex:packageName": "cspell",
+      "git:hexsha": "43c3652e27588f6643cf78fd764f12f497f89fbf",
+      "git:tagName": "v6.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/typicode/husky",
+      "repolex:packageName": "husky",
+      "git:hexsha": "3c0e08d3ca4d01d04ebb92089e68c47e131ab6be",
+      "git:tagName": "v8.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/lerna/lerna",
+      "repolex:packageName": "lerna",
+      "git:hexsha": "4fcac71c782cf91a3624fded775faaf3ddb8d636",
+      "git:tagName": "v8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/lint-staged/lint-staged",
+      "repolex:packageName": "lint-staged",
+      "git:hexsha": "66a716d5a32c49f03b9a34350fec1b2411bada17",
+      "git:tagName": "v13.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier"
+    }
+  ]
 }
