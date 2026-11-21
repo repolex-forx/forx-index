@@ -48,10 +48,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/27de5609c1f916fd394d4e22c298f97d724dd26a/chunk-001.nq.gz",
       "repolex:graphFileSize": 473626
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/27de5609c1f916fd394d4e22c298f97d724dd26a.nq.gz",
+      "repolex:graphFileSize": 20708
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T22:41:51.657020+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.8.0"
+  "git:tagName": "1.8.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/hyperium/mime",
+      "repolex:packageName": "mime"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-phf/rust-phf",
+      "repolex:packageName": "phf"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/unicase",
+      "repolex:packageName": "unicase"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-phf/rust-phf",
+      "repolex:packageName": "phf_codegen"
+    }
+  ]
 }

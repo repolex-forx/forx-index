@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/27cfefdc36ee076fd30356784004569f2d77215a/chunk-001.nq.gz",
       "repolex:graphFileSize": 1302228
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/27cfefdc36ee076fd30356784004569f2d77215a.nq.gz",
+      "repolex:graphFileSize": 142801
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T22:41:58.589331+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.1.1"
+  "git:tagName": "v0.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python-poetry/poetry",
+      "repolex:packageName": "poetry",
+      "git:hexsha": "84eeadc21f92a04d46ea769e3e39d7c902e44136",
+      "git:tagName": "2.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "5f033e46c54fea1b59b6894d6527daf49475e690",
+      "git:tagName": "v2.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-poetry/tomlkit",
+      "repolex:packageName": "tomlkit",
+      "git:hexsha": "8c963db32784623f8fc076ad4ef9b6b01ab0d542",
+      "git:tagName": "0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
