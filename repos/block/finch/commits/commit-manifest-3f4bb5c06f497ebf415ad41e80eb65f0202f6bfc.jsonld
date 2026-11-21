@@ -54,10 +54,70 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3f4bb5c06f497ebf415ad41e80eb65f0202f6bfc/chunk-001.nq.gz",
       "repolex:graphFileSize": 4893633
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3f4bb5c06f497ebf415ad41e80eb65f0202f6bfc.nq.gz",
+      "repolex:graphFileSize": 293
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T22:55:15.331986+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/alexflint/go-arg",
+      "repolex:packageName": "github.com/alexflint/go-arg",
+      "git:hexsha": "f0f44b65d1179ccedb4c56f493f97ec569a6654e",
+      "git:tagName": "v1.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dustin/go-humanize",
+      "repolex:packageName": "github.com/dustin/go-humanize",
+      "git:hexsha": "9f541cc9db5d55bce703bd99987c9d5cb8eea45e",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-ini/ini",
+      "repolex:packageName": "github.com/go-ini/ini",
+      "git:hexsha": "b2f570e5b5b844226bbefe6fb521d891f529a951",
+      "git:tagName": "v1.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-mysql/errors",
+      "repolex:packageName": "github.com/go-mysql/errors"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-sql-driver/mysql",
+      "repolex:packageName": "github.com/go-sql-driver/mysql",
+      "git:hexsha": "f20b2863636093e5fbf1481b59bdaff3b0fbb779",
+      "git:tagName": "v1.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-test/deep",
+      "repolex:packageName": "github.com/go-test/deep",
+      "git:hexsha": "3026925edefd8a1125321a9b7d4bce573496b35d",
+      "git:tagName": "v1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rs/xid",
+      "repolex:packageName": "github.com/rs/xid",
+      "git:hexsha": "66f8c42da230c3323ed4e29805e73eefbad41fc5",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/alexflint/go-scalar",
+      "repolex:packageName": "github.com/alexflint/go-scalar",
+      "git:hexsha": "fd60e966956efb1720cbfbf449fb55971209b2db",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stretchr/testify",
+      "repolex:packageName": "github.com/stretchr/testify",
+      "git:hexsha": "181cea6eab8b2de7071383eca4be32a424db38dd",
+      "git:tagName": "v1.8.0"
+    }
+  ]
 }
