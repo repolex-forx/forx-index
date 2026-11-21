@@ -48,10 +48,22 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/fdb275c8a0135403067ce1c4be8e97e53c473764/chunk-001.nq.gz",
       "repolex:graphFileSize": 276492
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/fdb275c8a0135403067ce1c4be8e97e53c473764.nq.gz",
+      "repolex:graphFileSize": 14320
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:00:50.358273+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.1.2"
+  "git:tagName": "v2.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    }
+  ]
 }
