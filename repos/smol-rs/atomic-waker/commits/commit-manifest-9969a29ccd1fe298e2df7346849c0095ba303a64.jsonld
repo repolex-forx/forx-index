@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/9969a29ccd1fe298e2df7346849c0095ba303a64/chunk-001.nq.gz",
       "repolex:graphFileSize": 189619
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/9969a29ccd1fe298e2df7346849c0095ba303a64.nq.gz",
+      "repolex:graphFileSize": 19187
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:25:56.328299+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.2"
+  "git:tagName": "v1.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/taiki-e/portable-atomic",
+      "repolex:packageName": "portable-atomic"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "5e27b692a43a05736d073fd449e16dcf1c24628c",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures",
+      "git:hexsha": "4ceafb384c18e664a507892b16c98322a6e240a1",
+      "git:tagName": "0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon",
+      "git:hexsha": "6236214d717694917e77aa1c16d91176b9bc2fff",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-executor",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    }
+  ]
 }

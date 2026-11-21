@@ -48,10 +48,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7585b3bc433918c845264fca36a1d268e8f1b643/chunk-001.nq.gz",
       "repolex:graphFileSize": 76145
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7585b3bc433918c845264fca36a1d268e8f1b643.nq.gz",
+      "repolex:graphFileSize": 10853
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:26:08.806566+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.10.0"
+  "git:tagName": "v0.10.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/conduit-rust/conduit",
+      "repolex:packageName": "conduit",
+      "git:hexsha": "79b519a88e8e351af6d0dddfdb7541862144701e",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "351b63a991fe508e70a00af13e66099b3055c73f",
+      "git:tagName": "v0.2.12"
+    }
+  ]
 }

@@ -54,10 +54,94 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597/chunk-001.nq.gz",
       "repolex:graphFileSize": 865410
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597.nq.gz",
+      "repolex:graphFileSize": 86523
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:25:42.289458+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.4.0"
+  "git:tagName": "v0.4.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/pytest-param-files",
+      "repolex:packageName": "pytest-param-files",
+      "git:hexsha": "d11217880a2ea4089c6cccc36310beace2727687",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ionelmc/pytest-benchmark",
+      "repolex:packageName": "pytest-benchmark",
+      "git:hexsha": "97c52d8e0de0ac4f307e35716f723bf0376d63d2",
+      "git:tagName": "v5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/markdown-it-py",
+      "repolex:packageName": "markdown-it-py",
+      "git:hexsha": "d504583a458edfa399ee800074244fceec288862",
+      "git:tagName": "v4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools",
+      "git:hexsha": "62a6401afd6d45e1c2aea94c05cb5c70076b2ca4",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/markdown-it-rust/markdown-it",
+      "repolex:packageName": "markdown-it"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-autolink"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-deflist"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-footnote"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-front-matter"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-heading-anchors"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-tasklist"
+    },
+    {
+      "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-plugins.rs",
+      "repolex:packageName": "markdown-it-gfm",
+      "git:hexsha": "abd34b0d08be50605f7d9d6a44e7e3e634608fb2",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "931e23dde6080602acaca00d5ca5884c6109efd3",
+      "git:tagName": "v0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/stacker",
+      "repolex:packageName": "stacker",
+      "git:hexsha": "5df2309ccf7b1671909386c2670c7342a4d44142",
+      "git:tagName": "stacker-0.1.15"
+    }
+  ]
 }

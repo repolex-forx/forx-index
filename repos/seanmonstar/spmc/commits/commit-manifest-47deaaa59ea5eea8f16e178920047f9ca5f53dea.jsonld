@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/47deaaa59ea5eea8f16e178920047f9ca5f53dea/chunk-001.nq.gz",
       "repolex:graphFileSize": 340226
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/47deaaa59ea5eea8f16e178920047f9ca5f53dea.nq.gz",
+      "repolex:graphFileSize": 48921
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:25:59.929787+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.3.0"
+  "git:tagName": "v0.3.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/loom",
+      "repolex:packageName": "loom",
+      "git:hexsha": "256b55fef1efd1be08f92e9f204656b2f6547f17",
+      "git:tagName": "v0.2.2"
+    }
+  ]
 }
