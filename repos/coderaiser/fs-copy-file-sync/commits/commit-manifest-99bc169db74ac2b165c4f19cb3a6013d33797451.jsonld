@@ -48,10 +48,82 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/99bc169db74ac2b165c4f19cb3a6013d33797451/chunk-001.nq.gz",
       "repolex:graphFileSize": 213761
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/99bc169db74ac2b165c4f19cb3a6013d33797451.nq.gz",
+      "repolex:graphFileSize": 19114
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:13:12.128675+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.1"
+  "git:tagName": "v1.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/babel/babel-eslint",
+      "repolex:packageName": "babel-eslint",
+      "git:hexsha": "905887c4fe4e5f4b56e34acb526e80aad83880cb",
+      "git:tagName": "v8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bublejs/buble",
+      "repolex:packageName": "buble",
+      "git:hexsha": "c6578f3a05d53a26c436e3f474ea71d375299f62",
+      "git:tagName": "v0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/nickmerwin/node-coveralls",
+      "repolex:packageName": "coveralls"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "c61194f9440981d6c858525273e5c469bdd98290",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/remy/nodemon",
+      "repolex:packageName": "nodemon",
+      "git:hexsha": "2cd85b1f609e9749d19afcdbd71368e6ab063f9d",
+      "git:tagName": "v1.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/istanbuljs/nyc",
+      "repolex:packageName": "nyc",
+      "git:hexsha": "e4eff12ddf52e856eab0a0528781bf9f54d27f8c",
+      "git:tagName": "v11.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/coderaiser/pullout",
+      "repolex:packageName": "pullout",
+      "git:hexsha": "522dddd19588adaadbb38dccf5c342d24c55cd9d",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/coderaiser/redrun",
+      "repolex:packageName": "redrun",
+      "git:hexsha": "6e4de7b8dd9c81c0d63ba1e5649fa43c6b93382b",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/isaacs/rimraf",
+      "repolex:packageName": "rimraf",
+      "git:hexsha": "79b933fb362b2c51bedfa448be848e1d7ed32d7e",
+      "git:tagName": "v2.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tape-testing/tape",
+      "repolex:packageName": "tape",
+      "git:hexsha": "aadcf4a95ed6810fa404dbe01f3b745252d4f12e",
+      "git:tagName": "v4.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coderaiser/try-catch",
+      "repolex:packageName": "try-catch",
+      "git:hexsha": "f083e63116b98500018fba1d2fcb59eebe88076c",
+      "git:tagName": "v2.0.0"
+    }
+  ]
 }

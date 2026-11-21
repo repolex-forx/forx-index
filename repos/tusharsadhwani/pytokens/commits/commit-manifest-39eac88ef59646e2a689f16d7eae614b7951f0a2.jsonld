@@ -48,10 +48,72 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/39eac88ef59646e2a689f16d7eae614b7951f0a2/chunk-001.nq.gz",
       "repolex:graphFileSize": 1528456
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/39eac88ef59646e2a689f16d7eae614b7951f0a2.nq.gz",
+      "repolex:graphFileSize": 136918
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:09:20.479314+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.4.1"
+  "git:tagName": "0.4.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black",
+      "git:hexsha": "258e7dbf348bc23cb70b8cdf693481c04634ebcc",
+      "git:tagName": "26.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/build",
+      "repolex:packageName": "build",
+      "git:hexsha": "89cccef40df9011f03bec18cf52c53d1096ed6ee",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "ad02a35e623d105ab7340f75558716bc09f8242e",
+      "git:tagName": "v2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/tox",
+      "repolex:packageName": "tox",
+      "git:hexsha": "4cffc505320787670883d96613c69a9c2eea2acf",
+      "git:tagName": "4.67.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/twine",
+      "repolex:packageName": "twine",
+      "git:hexsha": "fdb86cb45de11faeece9b274be6da7d275cdd4f9",
+      "git:tagName": "7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/wheel",
+      "repolex:packageName": "wheel",
+      "git:hexsha": "21c4da4c54c3b354cc22dc7f6f6374ffcd560e84",
+      "git:tagName": "0.48.0"
+    }
+  ]
 }
