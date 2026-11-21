@@ -48,10 +48,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/309d82d9a159972c39b5163c4b56dba49870729e/chunk-001.nq.gz",
       "repolex:graphFileSize": 268238
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/309d82d9a159972c39b5163c4b56dba49870729e.nq.gz",
+      "repolex:graphFileSize": 22706
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:22:29.355490+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.1"
+  "git:tagName": "v1.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-pretty-assertions/rust-pretty-assertions",
+      "repolex:packageName": "pretty_assertions",
+      "git:hexsha": "f5c5b24258739cf3918d4165a17b43c1cddadfc2",
+      "git:tagName": "v1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/oconnor663/duct.rs",
+      "repolex:packageName": "duct"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/automod",
+      "repolex:packageName": "automod",
+      "git:hexsha": "74d02e471789b227b6c73e91a8a7d1c4e1911ab0",
+      "git:tagName": "1.0.16"
+    }
+  ]
 }
