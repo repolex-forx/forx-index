@@ -48,10 +48,78 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/44313a38e29e3ee2105c13703ead59ccca3988f5/chunk-001.nq.gz",
       "repolex:graphFileSize": 399066
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/44313a38e29e3ee2105c13703ead59ccca3988f5.nq.gz",
+      "repolex:graphFileSize": 27549
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:20:37.141098+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.0"
+  "git:tagName": "v1.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/shibukawa/imagesize_py",
+      "repolex:packageName": "imagesize"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit",
+      "git:hexsha": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+      "git:tagName": "v4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/wntrblm/nox",
+      "repolex:packageName": "nox",
+      "git:hexsha": "afa3983bbac3143bab5c8406244327581f76a3d7",
+      "git:tagName": "2026.10.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydata/pydata-sphinx-theme",
+      "repolex:packageName": "pydata-sphinx-theme",
+      "git:hexsha": "08d2f6ac6242323a3540abac6d8391a6e81cc203",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-copybutton",
+      "repolex:packageName": "sphinx-copybutton",
+      "git:hexsha": "4a8050dea36536b005d3e757b1ac09886174f634",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-design",
+      "repolex:packageName": "sphinx-design",
+      "git:hexsha": "fcaa5b34945a1ce06de1fcc514b0f22f64403a73",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }

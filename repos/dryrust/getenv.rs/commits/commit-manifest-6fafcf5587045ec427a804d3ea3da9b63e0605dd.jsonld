@@ -36,10 +36,22 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6fafcf5587045ec427a804d3ea3da9b63e0605dd/chunk-001.nq.gz",
       "repolex:graphFileSize": 212029
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6fafcf5587045ec427a804d3ea3da9b63e0605dd.nq.gz",
+      "repolex:graphFileSize": 19270
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:18:18.519970+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.2"
+  "git:tagName": "0.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/iqlusioninc/crates",
+      "repolex:packageName": "secrecy"
+    }
+  ]
 }
