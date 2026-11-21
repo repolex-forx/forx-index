@@ -48,10 +48,32 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ec3abb02497d85698d805ea8bcb5d2ef97b81303/chunk-001.nq.gz",
       "repolex:graphFileSize": 94070
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ec3abb02497d85698d805ea8bcb5d2ef97b81303.nq.gz",
+      "repolex:graphFileSize": 3878
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:28:51.119596+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.0.1"
+  "git:tagName": "v1.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/taiki-e/pin-project-lite",
+      "repolex:packageName": "pin-project-lite",
+      "git:hexsha": "d21bbea70a60718cc2ff67dc0e6a4049126ff9e6",
+      "git:tagName": "v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures"
+    }
+  ]
 }

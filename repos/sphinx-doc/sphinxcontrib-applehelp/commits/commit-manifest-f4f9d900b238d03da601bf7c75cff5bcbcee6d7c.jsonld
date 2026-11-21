@@ -48,10 +48,44 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/f4f9d900b238d03da601bf7c75cff5bcbcee6d7c/chunk-001.nq.gz",
       "repolex:graphFileSize": 251125
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f4f9d900b238d03da601bf7c75cff5bcbcee6d7c.nq.gz",
+      "repolex:graphFileSize": 20681
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:31:08.324713+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "2.0.0"
+  "git:tagName": "2.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff",
+      "git:hexsha": "fc16d8d04d86aa94a8aac14bbb87089b64d443a1",
+      "git:tagName": "0.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "ad02a35e623d105ab7340f75558716bc09f8242e",
+      "git:tagName": "v2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-docutils"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    }
+  ]
 }
