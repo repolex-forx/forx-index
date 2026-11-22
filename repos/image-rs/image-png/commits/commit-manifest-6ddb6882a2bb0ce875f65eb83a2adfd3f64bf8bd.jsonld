@@ -48,10 +48,80 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6ddb6882a2bb0ce875f65eb83a2adfd3f64bf8bd/chunk-001.nq.gz",
       "repolex:graphFileSize": 7472813
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6ddb6882a2bb0ce875f65eb83a2adfd3f64bf8bd.nq.gz",
+      "repolex:graphFileSize": 908674
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T13:04:50.358834+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.18.0-rc.3"
+  "git:tagName": "v0.18.0-rc.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bitflags/bitflags",
+      "repolex:packageName": "bitflags"
+    },
+    {
+      "@id": "https://repolex.ai/r/srijs/rust-crc32fast",
+      "repolex:packageName": "crc32fast",
+      "git:hexsha": "6cc30a5a4643f6a5b1b3339d8a8c23f7dd902fc2",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/image-rs/fdeflate",
+      "repolex:packageName": "fdeflate",
+      "git:hexsha": "160b008a27d93e4bfb300524ff8fcef8165286d7",
+      "git:tagName": "v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2",
+      "git:hexsha": "14aec222af2b85485bd3df4578d8d510eca46af7",
+      "git:tagName": "1.0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/Frommi/miniz_oxide",
+      "repolex:packageName": "miniz_oxide"
+    },
+    {
+      "@id": "https://repolex.ai/r/brendanzab/approx",
+      "repolex:packageName": "approx",
+      "git:hexsha": "13fcbc78dcda4d0136de07c36a7979d545f08e38",
+      "git:tagName": "v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/byteorder",
+      "repolex:packageName": "byteorder",
+      "git:hexsha": "ec068eefa042d494475db125c4b034bd8e9e34dd",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "5e27b692a43a05736d073fd449e16dcf1c24628c",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/getopts",
+      "repolex:packageName": "getopts"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/glob",
+      "repolex:packageName": "glob"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "8792268dfe57e49bb4518190bf4fe66176759a44",
+      "git:tagName": "0.8.4"
+    }
+  ]
 }
