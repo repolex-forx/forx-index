@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c883505f64b59c3c5c9375191e4ad9f98e727ccd/chunk-001.nq.gz",
       "repolex:graphFileSize": 1071951
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c883505f64b59c3c5c9375191e4ad9f98e727ccd.nq.gz",
+      "repolex:graphFileSize": 123271
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:54:40.136597+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.0.2"
+  "git:tagName": "v1.0.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/izimobil/polib",
+      "repolex:packageName": "polib",
+      "git:hexsha": "f7854ac57527485f665ff6b58f4374d5516b25dc",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mrabarnett/mrab-regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "3817c5d290069c5318674fb521edde3355d8f440",
+      "git:tagName": "2026.11.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    }
+  ]
 }
