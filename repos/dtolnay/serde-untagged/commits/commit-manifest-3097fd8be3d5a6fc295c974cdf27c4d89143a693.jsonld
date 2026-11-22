@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3097fd8be3d5a6fc295c974cdf27c4d89143a693/chunk-001.nq.gz",
       "repolex:graphFileSize": 1041173
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3097fd8be3d5a6fc295c974cdf27c4d89143a693.nq.gz",
+      "repolex:graphFileSize": 104579
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:45:35.473630+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.9"
+  "git:tagName": "0.1.9",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/erased-serde",
+      "repolex:packageName": "erased-serde",
+      "git:hexsha": "8f555a2db2dd40e8ab039d4947f1a2b6032bba00",
+      "git:tagName": "0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "be255d62c81a88226fddfd1b1b97a76a6b5054fb",
+      "git:tagName": "v1.0.220"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/typeid",
+      "repolex:packageName": "typeid"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "be255d62c81a88226fddfd1b1b97a76a6b5054fb",
+      "git:tagName": "v1.0.220"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_derive",
+      "git:hexsha": "be255d62c81a88226fddfd1b1b97a76a6b5054fb",
+      "git:tagName": "v1.0.220"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "df5cf215b70fb6341b255e7c0a210c06f64c0669",
+      "git:tagName": "v1.0.110"
+    },
+    {
+      "@id": "https://repolex.ai/r/toml-rs/toml",
+      "repolex:packageName": "toml"
+    }
+  ]
 }

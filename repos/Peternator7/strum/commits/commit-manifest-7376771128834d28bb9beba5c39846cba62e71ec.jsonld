@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7376771128834d28bb9beba5c39846cba62e71ec/chunk-001.nq.gz",
       "repolex:graphFileSize": 3088075
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7376771128834d28bb9beba5c39846cba62e71ec.nq.gz",
+      "repolex:graphFileSize": 341244
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:43:35.115463+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.28.0"
+  "git:tagName": "v0.28.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+      "git:tagName": "2.0.119"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/withoutboats/heck",
+      "repolex:packageName": "heck"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap_builder",
+      "git:hexsha": "baaf5c64c1e751892bb85635f706f24de62a5aa2",
+      "git:tagName": "v4.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/azriel91/enum_variant_type",
+      "repolex:packageName": "enum_variant_type",
+      "git:hexsha": "cd2a1edc9e25d5393874e5cef166a32cb102fa2a",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/TeXitoi/structopt",
+      "repolex:packageName": "structopt",
+      "git:hexsha": "97e92a3755a65f8ea44c994fd403208e7d97f561",
+      "git:tagName": "v0.3.26"
+    }
+  ]
 }
