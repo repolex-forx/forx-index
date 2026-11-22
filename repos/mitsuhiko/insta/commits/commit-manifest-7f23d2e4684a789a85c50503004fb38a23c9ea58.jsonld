@@ -48,10 +48,142 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7f23d2e4684a789a85c50503004fb38a23c9ea58/chunk-001.nq.gz",
       "repolex:graphFileSize": 11599260
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7f23d2e4684a789a85c50503004fb38a23c9ea58.nq.gz",
+      "repolex:graphFileSize": 1689197
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:33:56.781734+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.48.0"
+  "git:tagName": "1.48.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/mitsuhiko/similar-asserts",
+      "repolex:packageName": "similar-asserts",
+      "git:hexsha": "73f1f37da0d0b6a898a5a68eb7c1f0be6f29db80",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/once_cell",
+      "repolex:packageName": "once_cell",
+      "git:hexsha": "4fbd4a53509ca59c8e09efc2ab0a22f21de70f7e",
+      "git:tagName": "v1.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    },
+    {
+      "@id": "https://repolex.ai/r/camino-rs/camino",
+      "repolex:packageName": "camino",
+      "git:hexsha": "421259f7e9ba101fbab04babab9757736da1a419",
+      "git:tagName": "camino-1.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "c773849f1de482ed2033c0ff86afd21f48980452",
+      "git:tagName": "v3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/iddohau/rust-strings",
+      "repolex:packageName": "rust-strings",
+      "git:hexsha": "e5839b40543e2035839c4c32de9dacb20d92e47d",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pest-parser/pest",
+      "repolex:packageName": "pest",
+      "git:hexsha": "21287a93a41733b762f28cd4c0043b9c35bcd9a8",
+      "git:tagName": "v2.7.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/ripgrep",
+      "repolex:packageName": "ignore"
+    },
+    {
+      "@id": "https://repolex.ai/r/mitsuhiko/similar",
+      "repolex:packageName": "similar",
+      "git:hexsha": "7e15c44de11a1cd61e1149189929e189ef977fd8",
+      "git:tagName": "2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools",
+      "git:hexsha": "d61d12e808c8691eb0a672d3f9b65560be970a44",
+      "git:tagName": "v0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/oconnor663/os_pipe.rs",
+      "repolex:packageName": "os_pipe",
+      "git:hexsha": "fea9eed556f2c06e597c422af1ecb9b05b9a1302",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/console-rs/console",
+      "repolex:packageName": "console",
+      "git:hexsha": "bda6a6e7a7e5e1ca4f66f51bd11faa70a1f37331",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Byron/open-rs",
+      "repolex:packageName": "open",
+      "git:hexsha": "c26d98cc66979f153682690201a4748026012224",
+      "git:tagName": "v5.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/semver",
+      "repolex:packageName": "semver",
+      "git:hexsha": "72a6b5a722160befddbd210f4a3d41fdab60110f",
+      "git:tagName": "1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/uuid-rs/uuid",
+      "repolex:packageName": "uuid",
+      "git:hexsha": "7188b00a9ee7ecc893ba675eebe2f6252fd0e002",
+      "git:tagName": "1.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/oli-obk/cargo_metadata",
+      "repolex:packageName": "cargo_metadata",
+      "git:hexsha": "8fa38ab99b7b9ab52669d57521ae8026437b8d01",
+      "git:tagName": "0.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "7cb0f3cdee5888a581c0041ba9acae5727372277",
+      "git:tagName": "1.0.94"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "5357c8fb6bd29fd7c829e0aede1dab4b45a6e00f",
+      "git:tagName": "2.0.100"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "5d4880c4255b5c7f5ea0a9ac3cf9f985c418a1e7",
+      "git:tagName": "1.0.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    },
+    {
+      "@id": "https://repolex.ai/r/pest-parser/pest",
+      "repolex:packageName": "pest_derive",
+      "git:hexsha": "21287a93a41733b762f28cd4c0043b9c35bcd9a8",
+      "git:tagName": "v2.7.11"
+    }
+  ]
 }
