@@ -48,10 +48,142 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b06790eb7620a34cf2c49717a01eb09156bb5b6c/chunk-001.nq.gz",
       "repolex:graphFileSize": 9501219
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b06790eb7620a34cf2c49717a01eb09156bb5b6c.nq.gz",
+      "repolex:graphFileSize": 725645
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:13:53.076478+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.41.0"
+  "git:tagName": "1.41.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary"
+    },
+    {
+      "@id": "https://repolex.ai/r/bluss/arrayvec",
+      "repolex:packageName": "arrayvec"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh"
+    },
+    {
+      "@id": "https://repolex.ai/r/Lokathor/bytemuck",
+      "repolex:packageName": "bytemuck",
+      "git:hexsha": "dc059fd187c45cd9739aeedabd5e75e527058f90",
+      "git:tagName": "v1.17.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/Lokathor/bytemuck",
+      "repolex:packageName": "bytemuck_derive"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/diesel-rs/diesel",
+      "repolex:packageName": "diesel",
+      "git:hexsha": "8fb58634b39d8d9a632337df57b3336c7a388c54",
+      "git:tagName": "v2.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-ndarray/ndarray",
+      "repolex:packageName": "ndarray",
+      "git:hexsha": "e080d62bb23a1099468c5941345d71e8738472a3",
+      "git:tagName": "0.15.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-traits",
+      "repolex:packageName": "num-traits"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-postgres/rust-postgres",
+      "repolex:packageName": "postgres-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/proptest-rs/proptest",
+      "repolex:packageName": "proptest"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/paupino/rust-decimal",
+      "repolex:packageName": "rust_decimal_macros"
+    },
+    {
+      "@id": "https://repolex.ai/r/rkyv/rkyv",
+      "repolex:packageName": "rkyv"
+    },
+    {
+      "@id": "https://repolex.ai/r/rwf2/Rocket",
+      "repolex:packageName": "rocket",
+      "git:hexsha": "91f6288ea4aeb3d5a502b2f18b2b9677a85463ea",
+      "git:tagName": "v0.5.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/zmij",
+      "repolex:packageName": "zmij"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-postgres/rust-postgres",
+      "repolex:packageName": "tokio-postgres"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/rust-csv",
+      "repolex:packageName": "csv"
+    },
+    {
+      "@id": "https://repolex.ai/r/mgeisler/version-sync",
+      "repolex:packageName": "version-sync"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "b0820fd696e120ea6fb0bae2235140929f0c5237",
+      "git:tagName": "1.0.125"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    },
+    {
+      "@id": "https://repolex.ai/r/bincode-org/bincode",
+      "repolex:packageName": "bincode"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+      "git:tagName": "2.0.119"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    }
+  ]
 }
