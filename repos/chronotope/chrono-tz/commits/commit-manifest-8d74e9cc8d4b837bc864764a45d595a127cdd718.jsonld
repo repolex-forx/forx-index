@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8d74e9cc8d4b837bc864764a45d595a127cdd718/chunk-001.nq.gz",
       "repolex:graphFileSize": 1505777
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8d74e9cc8d4b837bc864764a45d595a127cdd718.nq.gz",
+      "repolex:graphFileSize": 116152
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:46:52.938273+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "zoneinfo-parse-v0.5.0"
+  "git:tagName": "zoneinfo-parse-v0.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-datetime/datetime",
+      "repolex:packageName": "datetime"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex"
+    }
+  ]
 }
