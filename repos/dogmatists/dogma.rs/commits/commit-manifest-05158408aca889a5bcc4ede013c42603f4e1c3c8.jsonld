@@ -42,10 +42,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/05158408aca889a5bcc4ede013c42603f4e1c3c8/chunk-001.nq.gz",
       "repolex:graphFileSize": 413816
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/05158408aca889a5bcc4ede013c42603f4e1c3c8.nq.gz",
+      "repolex:graphFileSize": 50219
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T08:32:54.983260+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.11"
+  "git:tagName": "0.1.11",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/lo48576/iri-string",
+      "repolex:packageName": "iri-string",
+      "git:hexsha": "71a2bd3967ddf1c282874964823a3984b83f4524",
+      "git:tagName": "v0.7.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "49d098debdf8b5c38bfb6868f455c6ce542c422c",
+      "git:tagName": "v1.0.219"
+    },
+    {
+      "@id": "https://repolex.ai/r/it-is-known/known-schemes",
+      "repolex:packageName": "known-schemes",
+      "git:hexsha": "b090fcad5eebbbe3d1f30adbdd97d3ddaa5ca0e7",
+      "git:tagName": "0.2.0"
+    }
+  ]
 }
