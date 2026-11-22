@@ -48,10 +48,48 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/eaec8fae8a8ab39a64a20f39190f13400b639a22/chunk-001.nq.gz",
       "repolex:graphFileSize": 11516998
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/eaec8fae8a8ab39a64a20f39190f13400b639a22.nq.gz",
+      "repolex:graphFileSize": 1798642
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:07:43.094048+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.24.1"
+  "git:tagName": "0.24.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click",
+      "git:hexsha": "fd183b2ced1cb5857784fe7fb22f4982f671f098",
+      "git:tagName": "8.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sarugaku/shellingham",
+      "repolex:packageName": "shellingham",
+      "git:hexsha": "ddeb48e742a9dd872b277e236e003cbbb82a7347",
+      "git:tagName": "1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "edcb6f9e1a4674b0cd45a854c25c5ac6704b2ddb",
+      "git:tagName": "v12.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/annotated-doc",
+      "repolex:packageName": "annotated-doc",
+      "git:hexsha": "4cff021a7cc5fe3009a49ec655f2e3e920f73e0c",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "1642a816171707dd8c58da6fff8061a59348402c",
+      "git:tagName": "v2.14.4"
+    }
+  ]
 }
