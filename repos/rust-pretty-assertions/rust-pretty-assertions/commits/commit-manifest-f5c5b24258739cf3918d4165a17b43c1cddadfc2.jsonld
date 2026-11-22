@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/f5c5b24258739cf3918d4165a17b43c1cddadfc2/chunk-001.nq.gz",
       "repolex:graphFileSize": 658522
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f5c5b24258739cf3918d4165a17b43c1cddadfc2.nq.gz",
+      "repolex:graphFileSize": 49566
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:01:19.425023+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.4.1"
+  "git:tagName": "v1.4.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/utkarshkukreti/diff.rs",
+      "repolex:packageName": "diff",
+      "git:hexsha": "0d0e68b2d462a7a55902be6b77e370e51b17fa0e",
+      "git:tagName": "0.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/SergioBenitez/yansi",
+      "repolex:packageName": "yansi",
+      "git:hexsha": "3e35184fc181fef63bc11dedb22413e821168255",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "f9ccd05caad4d068679074c3bc33c3f712ff2343",
+      "git:tagName": "0.3.6"
+    }
+  ]
 }
