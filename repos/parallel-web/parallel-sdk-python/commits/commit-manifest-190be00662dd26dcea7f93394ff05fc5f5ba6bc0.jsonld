@@ -48,10 +48,74 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/190be00662dd26dcea7f93394ff05fc5f5ba6bc0/chunk-001.nq.gz",
       "repolex:graphFileSize": 13009716
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/190be00662dd26dcea7f93394ff05fc5f5ba6bc0.nq.gz",
+      "repolex:graphFileSize": 1524478
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:45:09.065956+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.5.0"
+  "git:tagName": "v0.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx",
+      "git:hexsha": "89cdd903b2f339c6ae319773c31b8c9352bd9cd8",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "fbf8002cefd1ba7b263f63545fff2e48a378189d",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "ac3e7c619913bd0ddf9c36b6e633b278d07405b7",
+      "git:tagName": "3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-distro/distro",
+      "repolex:packageName": "distro",
+      "git:hexsha": "697b2dbb20ab12cb86becf57f062645de723d5ac",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/sniffio",
+      "repolex:packageName": "sniffio",
+      "git:hexsha": "ae020e13b98d276a6558ffc25e82509fd4c288f0",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/aiohttp",
+      "repolex:packageName": "aiohttp",
+      "git:hexsha": "f17c631bddcfd4ec712342db28f1d3381a3fec71",
+      "git:tagName": "v3.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/karpetrosyan/httpx-aiohttp",
+      "repolex:packageName": "httpx-aiohttp",
+      "git:hexsha": "2fcfccd91211bc5e65abcc396e058e8de423136a",
+      "git:tagName": "0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+      "git:tagName": "v15.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    }
+  ]
 }
