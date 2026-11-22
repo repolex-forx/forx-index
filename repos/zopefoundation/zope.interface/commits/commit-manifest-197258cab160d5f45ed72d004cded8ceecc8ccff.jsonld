@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/197258cab160d5f45ed72d004cded8ceecc8ccff/chunk-001.nq.gz",
       "repolex:graphFileSize": 13587507
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/197258cab160d5f45ed72d004cded8ceecc8ccff.nq.gz",
+      "repolex:graphFileSize": 2348521
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:25:37.977716+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "8.3"
+  "git:tagName": "8.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+      "git:tagName": "v9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/repoze/repoze.sphinx.autointerface",
+      "repolex:packageName": "repoze-sphinx-autointerface",
+      "git:hexsha": "ba8f7f26df46250ee8408c621c423de1e1b2327b",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo",
+      "git:hexsha": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+      "git:tagName": "2025.12.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "fd8e601e25c1e8dde3440fb019ec08283af1bf78",
+      "git:tagName": "7.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.event",
+      "repolex:packageName": "zope-event"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.testing",
+      "repolex:packageName": "zope-testing"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
