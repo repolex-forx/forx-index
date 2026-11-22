@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3453b34e8dcf0482c650f917e60d43ed944a71e2/chunk-001.nq.gz",
       "repolex:graphFileSize": 5788205
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3453b34e8dcf0482c650f917e60d43ed944a71e2.nq.gz",
+      "repolex:graphFileSize": 475771
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:54:09.538492+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.8.6"
+  "git:tagName": "0.8.6",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/kevinmehall/rust-peg",
+      "repolex:packageName": "peg-macros",
+      "git:hexsha": "3453b34e8dcf0482c650f917e60d43ed944a71e2",
+      "git:tagName": "0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/kevinmehall/rust-peg",
+      "repolex:packageName": "peg-runtime",
+      "git:hexsha": "3453b34e8dcf0482c650f917e60d43ed944a71e2",
+      "git:tagName": "0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "a408546745c2bdc0a1fb6a81a814c3e87c9d5e9d",
+      "git:tagName": "1.0.80"
+    },
+    {
+      "@id": "https://repolex.ai/r/SergioBenitez/version_check",
+      "repolex:packageName": "version_check"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "83519e88337217c75794935381de61ab02c60a9b",
+      "git:tagName": "1.0.93"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "0245506323a3616daa2ee41c6ad0b871e4d78ae4",
+      "git:tagName": "1.0.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/prettyplease",
+      "repolex:packageName": "prettyplease",
+      "git:hexsha": "c971184fa8c5ef5a2828196e35bd99469455b46b",
+      "git:tagName": "0.2.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "7a7e331255822d49bea01e29c326ee7a5cd5415c",
+      "git:tagName": "2.0.108"
+    }
+  ]
 }
