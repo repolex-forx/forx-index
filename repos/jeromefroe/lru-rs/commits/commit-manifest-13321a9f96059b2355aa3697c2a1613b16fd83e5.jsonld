@@ -48,10 +48,32 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/13321a9f96059b2355aa3697c2a1613b16fd83e5/chunk-001.nq.gz",
       "repolex:graphFileSize": 1854786
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/13321a9f96059b2355aa3697c2a1613b16fd83e5.nq.gz",
+      "repolex:graphFileSize": 175430
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:46:32.160045+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.17.0"
+  "git:tagName": "0.17.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/hashbrown",
+      "repolex:packageName": "hashbrown",
+      "git:hexsha": "d290456969d0e89e6799d8a673c95112962b70ec",
+      "git:tagName": "v0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Kimundi/scoped-threadpool-rs",
+      "repolex:packageName": "scoped_threadpool"
+    },
+    {
+      "@id": "https://repolex.ai/r/neoeinstein/stats_alloc",
+      "repolex:packageName": "stats_alloc"
+    }
+  ]
 }
