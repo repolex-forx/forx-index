@@ -48,10 +48,66 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/1ec8fded5654679482a91c784e7ff2874b0fdeff/chunk-001.nq.gz",
       "repolex:graphFileSize": 2574258
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1ec8fded5654679482a91c784e7ff2874b0fdeff.nq.gz",
+      "repolex:graphFileSize": 184954
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:43:38.761127+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.18.2"
+  "git:tagName": "0.18.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/time-rs/time",
+      "repolex:packageName": "time",
+      "git:hexsha": "a957e12213caa794a78da728aad474e3e071f626",
+      "git:tagName": "v0.3.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "percent-encoding"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/AEADs",
+      "repolex:packageName": "aes-gcm"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/MACs",
+      "repolex:packageName": "hmac"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/KDFs",
+      "repolex:packageName": "hkdf"
+    },
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/subtle",
+      "repolex:packageName": "subtle"
+    },
+    {
+      "@id": "https://repolex.ai/r/SergioBenitez/version_check",
+      "repolex:packageName": "version_check",
+      "git:hexsha": "736b788c9c32c93b545cb084eac6f94f31f2872c",
+      "git:tagName": "v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/time-rs/time",
+      "repolex:packageName": "time-macros"
+    }
+  ]
 }
