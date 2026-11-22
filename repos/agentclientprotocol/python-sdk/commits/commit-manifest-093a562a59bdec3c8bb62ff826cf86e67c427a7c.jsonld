@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/093a562a59bdec3c8bb62ff826cf86e67c427a7c/chunk-001.nq.gz",
       "repolex:graphFileSize": 5983922
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/093a562a59bdec3c8bb62ff826cf86e67c427a7c.nq.gz",
+      "repolex:graphFileSize": 788368
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:56:12.989263+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.9.0"
+  "git:tagName": "0.9.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/logfire",
+      "repolex:packageName": "logfire"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-telemetry/opentelemetry-python",
+      "repolex:packageName": "opentelemetry-sdk",
+      "git:hexsha": "91c7a05767bc480efbdac32a119110f56512d179",
+      "git:tagName": "v1.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    }
+  ]
 }
