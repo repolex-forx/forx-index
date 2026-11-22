@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/48db60aca0159198b801c53dc4746bdd7808fe3c/chunk-001.nq.gz",
       "repolex:graphFileSize": 13397235
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/48db60aca0159198b801c53dc4746bdd7808fe3c.nq.gz",
+      "repolex:graphFileSize": 1851254
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:13:48.147883+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.23"
+  "git:tagName": "v0.9.23",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sfackler/foreign-types",
+      "repolex:packageName": "foreign-types-shared"
+    },
+    {
+      "@id": "https://repolex.ai/r/sfackler/foreign-types",
+      "repolex:packageName": "foreign-types",
+      "git:hexsha": "553b6d725fb6ffe99201ee982ad3cd958712333b",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/bitflags/bitflags",
+      "repolex:packageName": "bitflags",
+      "git:hexsha": "20b2588f7d1665839885adb63450dd3e8adc2940",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ia0/data-encoding",
+      "repolex:packageName": "data-encoding",
+      "git:hexsha": "834737d9c3dc957ce1b653959e3f35061dd77ade",
+      "git:tagName": "v2.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/pkg-config-rs",
+      "repolex:packageName": "pkg-config",
+      "git:hexsha": "a8852cc148f8f7d504bf3a62444c298dcd3637f0",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cc-rs",
+      "repolex:packageName": "cc"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex",
+      "git:hexsha": "1e7195f48d2672fcd1751b4923228efdbbb517ce",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/tempdir",
+      "repolex:packageName": "tempdir",
+      "git:hexsha": "dcdddc211e6a66981e398d2f9858898572f9a5aa",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+      "git:tagName": "0.2.191"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "ctest"
+    }
+  ]
 }
