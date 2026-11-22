@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0d6b26c677334dbbd0f4d1935f50dcf3888c82c1/chunk-001.nq.gz",
       "repolex:graphFileSize": 1163599
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0d6b26c677334dbbd0f4d1935f50dcf3888c82c1.nq.gz",
+      "repolex:graphFileSize": 94559
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:00:23.793057+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.5.3"
+  "git:tagName": "v0.5.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/ipython/ipykernel",
+      "repolex:packageName": "ipykernel",
+      "git:hexsha": "216aab04f9a653984a292dd054a1c263067cb3f7",
+      "git:tagName": "4.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipython",
+      "repolex:packageName": "ipython",
+      "git:hexsha": "5aa346b9f25910cc4888f44ac58b7aaa4b59da9c",
+      "git:tagName": "9.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter/nbformat",
+      "repolex:packageName": "nbformat",
+      "git:hexsha": "75f819f5b60bc6ffc72145c364132efe5b3c4b35",
+      "git:tagName": "v5.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/takluyver/bash_kernel",
+      "repolex:packageName": "bash-kernel",
+      "git:hexsha": "f07a74326487735e31d355faaf8340e8597090f5",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/matplotlib/matplotlib",
+      "repolex:packageName": "matplotlib",
+      "git:hexsha": "d3ca9172e392048ec242b90e8423e88d1a3000b2",
+      "git:tagName": "v3.11.2"
+    }
+  ]
 }
