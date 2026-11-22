@@ -48,10 +48,100 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/52f9d4983e68b16d1d77f8920df087ef8f8d6ba0/chunk-001.nq.gz",
       "repolex:graphFileSize": 6158593
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/52f9d4983e68b16d1d77f8920df087ef8f8d6ba0.nq.gz",
+      "repolex:graphFileSize": 844727
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:22:20.903124+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.1.21"
+  "git:tagName": "v0.1.21",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/nvzqz/divan",
+      "repolex:packageName": "divan-macros"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/nvzqz/condtype",
+      "repolex:packageName": "condtype"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/purpleprotocol/mimalloc_rust",
+      "repolex:packageName": "mimalloc"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap_builder",
+      "git:hexsha": "13f2db5072d600c11d8d6298e4e9ba53ffc6c1ab",
+      "git:tagName": "v4.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex-lite"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+      "git:tagName": "2.0.119"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+      "git:tagName": "0.2.191"
+    },
+    {
+      "@id": "https://repolex.ai/r/smol-rs/fastrand",
+      "repolex:packageName": "fastrand",
+      "git:hexsha": "7a1cc2c69ebde6cb3442809213db3fe19a2cb0ba",
+      "git:tagName": "v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jonhoo/ordsearch",
+      "repolex:packageName": "ordsearch",
+      "git:hexsha": "adf72d1c648aa91f6649ed4a3dc71568c78a036c",
+      "git:tagName": "v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/eldruin/wyhash-rs",
+      "repolex:packageName": "wyhash",
+      "git:hexsha": "0052134664c9259a590f3fa6c3a62bb1b5bf737d",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon",
+      "git:hexsha": "c9ced185ae3508246a9eb70c8407a1199bb1b77f",
+      "git:tagName": "v1.12.0"
+    }
+  ]
 }
