@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5b39b5fabb6b5a6b953519a571cd6af30d460ac3/chunk-001.nq.gz",
       "repolex:graphFileSize": 3225426
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5b39b5fabb6b5a6b953519a571cd6af30d460ac3.nq.gz",
+      "repolex:graphFileSize": 406672
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:13:30.004691+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "libssh2-sys-0.3.2"
+  "git:tagName": "libssh2-sys-0.3.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bitflags/bitflags",
+      "repolex:packageName": "bitflags"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc"
+    },
+    {
+      "@id": "https://repolex.ai/r/alexcrichton/ssh2-rs",
+      "repolex:packageName": "libssh2-sys",
+      "git:hexsha": "93a2dfed69564c9a79657439d11b13452e97f5e3",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "parking_lot"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "lock_api"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cc-rs",
+      "repolex:packageName": "cc"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/pkg-config-rs",
+      "repolex:packageName": "pkg-config",
+      "git:hexsha": "a8852cc148f8f7d504bf3a62444c298dcd3637f0",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/JohnTitor/ctest2",
+      "repolex:packageName": "ctest2",
+      "git:hexsha": "3b51e8e288b5d72d64e459c48262cbda94ea0cd9",
+      "git:tagName": "v0.4.10"
+    }
+  ]
 }
