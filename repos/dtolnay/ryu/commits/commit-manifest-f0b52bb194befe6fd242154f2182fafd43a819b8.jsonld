@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/f0b52bb194befe6fd242154f2182fafd43a819b8/chunk-001.nq.gz",
       "repolex:graphFileSize": 1353656
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f0b52bb194befe6fd242154f2182fafd43a819b8.nq.gz",
+      "repolex:graphFileSize": 136103
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:19:15.956567+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.0.23"
+  "git:tagName": "1.0.23",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/no-panic",
+      "repolex:packageName": "no-panic"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/num_cpus",
+      "repolex:packageName": "num_cpus"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rngs",
+      "repolex:packageName": "rand_xorshift"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    }
+  ]
 }
