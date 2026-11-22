@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/faf54de652991899768d7075feab6fcc10b72ba7/chunk-001.nq.gz",
       "repolex:graphFileSize": 1298663
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/faf54de652991899768d7075feab6fcc10b72ba7.nq.gz",
+      "repolex:graphFileSize": 110213
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:27:16.602313+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.4.1"
+  "git:tagName": "v1.4.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/testing-cabal/mock",
+      "repolex:packageName": "mock",
+      "git:hexsha": "0f5df822bde4729cb2190819ad01a8728ddc9de3",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tornadoweb/tornado",
+      "repolex:packageName": "tornado",
+      "git:hexsha": "c1adc39faea87d87d99421529aa06cdd3d39f660",
+      "git:tagName": "v6.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/redis/redis-py",
+      "repolex:packageName": "redis",
+      "git:hexsha": "e013126df18e476fbb8b8215f040f39bd3242683",
+      "git:tagName": "v8.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cunla/fakeredis-py",
+      "repolex:packageName": "fakeredis",
+      "git:hexsha": "1c41a30b7934d9719070130da20b5bcb9c420def",
+      "git:tagName": "v2.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-mock"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-redis"
+    }
+  ]
 }
