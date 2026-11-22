@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e0f40b6359ca00a48ca5ba903de1e25da27de453/chunk-001.nq.gz",
       "repolex:graphFileSize": 421443
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e0f40b6359ca00a48ca5ba903de1e25da27de453.nq.gz",
+      "repolex:graphFileSize": 46324
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:55:09.741227+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.7.1"
+  "git:tagName": "v0.7.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/gorakhargosh/watchdog",
+      "repolex:packageName": "watchdog",
+      "git:hexsha": "808d858d49d66d845447e00972eab8d1c1195e86",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/neithere/argh",
+      "repolex:packageName": "argh"
+    },
+    {
+      "@id": "https://repolex.ai/r/gorakhargosh/pathtools",
+      "repolex:packageName": "pathtools"
+    },
+    {
+      "@id": "https://repolex.ai/r/yaml/pyyaml",
+      "repolex:packageName": "pyyaml",
+      "git:hexsha": "23c952fe08b2e7ea0f8d7673f45b17547e331f4b",
+      "git:tagName": "3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/tornadoweb/tornado",
+      "repolex:packageName": "tornado"
+    },
+    {
+      "@id": "https://repolex.ai/r/fizyk/port-for",
+      "repolex:packageName": "port-for",
+      "git:hexsha": "5ffa6281781215a165256b6bd57aea25e63b9902",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lepture/python-livereload",
+      "repolex:packageName": "livereload",
+      "git:hexsha": "6ef7df430e5677acc6f063513e71e5345ff872e6",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
