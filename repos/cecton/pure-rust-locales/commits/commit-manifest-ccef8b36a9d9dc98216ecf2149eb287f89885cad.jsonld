@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ccef8b36a9d9dc98216ecf2149eb287f89885cad/chunk-001.nq.gz",
       "repolex:graphFileSize": 38703683
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ccef8b36a9d9dc98216ecf2149eb287f89885cad.nq.gz",
+      "repolex:graphFileSize": 2593516
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:18:19.786021+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.8.2"
+  "git:tagName": "v0.8.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/knurling-rs/defmt",
+      "repolex:packageName": "defmt"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-bakery/nom",
+      "repolex:packageName": "nom",
+      "git:hexsha": "2cec1b3e4c9ccac62c902d60c00de6d1549ccbe1",
+      "git:tagName": "8.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "18c2598afa0f996f56217ef128aa3a20ea1e9512",
+      "git:tagName": "1.0.100"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    },
+    {
+      "@id": "https://repolex.ai/r/yaahc/indenter",
+      "repolex:packageName": "indenter",
+      "git:hexsha": "bc9fa3590264d0f7033705edde8379aaf0f357ef",
+      "git:tagName": "v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools",
+      "git:hexsha": "dd7fd96b3246f607825420f12141ebd1e0c4185a",
+      "git:tagName": "v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/oli-obk/cargo_metadata",
+      "repolex:packageName": "cargo_metadata",
+      "git:hexsha": "2af44dfa5be8335c83af9f2613e492b0df2ee609",
+      "git:tagName": "0.23.0"
+    }
+  ]
 }
