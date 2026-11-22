@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b783eeaa439a9db248e12df9299dcd13f4e4326c/chunk-001.nq.gz",
       "repolex:graphFileSize": 2318724
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b783eeaa439a9db248e12df9299dcd13f4e4326c.nq.gz",
+      "repolex:graphFileSize": 236156
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T08:49:42.297461+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.5.4"
+  "git:tagName": "1.5.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/agronholm/anyio",
+      "repolex:packageName": "anyio",
+      "git:hexsha": "0ddd02d6a44a68cfdf0210783c2a2a1b02334d9a",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
