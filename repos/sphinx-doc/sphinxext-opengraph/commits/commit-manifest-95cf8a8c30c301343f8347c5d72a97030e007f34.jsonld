@@ -54,10 +54,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/95cf8a8c30c301343f8347c5d72a97030e007f34/chunk-001.nq.gz",
       "repolex:graphFileSize": 922395
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/95cf8a8c30c301343f8347c5d72a97030e007f34.nq.gz",
+      "repolex:graphFileSize": 97534
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:03:06.768523+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.13.0"
+  "git:tagName": "v0.13.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/matplotlib/matplotlib",
+      "repolex:packageName": "matplotlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-design",
+      "repolex:packageName": "sphinx-design",
+      "git:hexsha": "fcaa5b34945a1ce06de1fcc514b0f22f64403a73",
+      "git:tagName": "v0.8.0"
+    }
+  ]
 }
