@@ -48,10 +48,150 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/365080941ea3a815ac09e57a7d4ee263a142651d/chunk-001.nq.gz",
       "repolex:graphFileSize": 24741986
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/365080941ea3a815ac09e57a7d4ee263a142651d.nq.gz",
+      "repolex:graphFileSize": 3904246
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:44:07.158182+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.2.3"
+  "git:tagName": "v1.2.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "b235f9e701e14ed6f6f6dcba885f7986a833743f",
+      "git:tagName": "v1.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudpipe/cloudpickle",
+      "repolex:packageName": "cloudpickle",
+      "git:hexsha": "02f62a515640a2d1b68e1864ab22802511e67763",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "9c0759a260fe126210a1e2026720000a3c40a919",
+      "git:tagName": "4.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Farama-Foundation/Farama-Notifications",
+      "repolex:packageName": "farama-notifications"
+    },
+    {
+      "@id": "https://repolex.ai/r/Farama-Foundation/Arcade-Learning-Environment",
+      "repolex:packageName": "ale-py"
+    },
+    {
+      "@id": "https://repolex.ai/r/pybox2d/pybox2d",
+      "repolex:packageName": "box2d",
+      "git:hexsha": "ed9d7b04f7099a15984c727dbce46c13abd64409",
+      "git:tagName": "2.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/pygame/pygame",
+      "repolex:packageName": "pygame",
+      "git:hexsha": "87fdb4c4fcb4cf6e372b7a434a858772f60412e0",
+      "git:tagName": "2.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/nightlark/swig-pypi",
+      "repolex:packageName": "swig"
+    },
+    {
+      "@id": "https://repolex.ai/r/google-deepmind/mujoco",
+      "repolex:packageName": "mujoco",
+      "git:hexsha": "87539dbd24825249f6215fb43050d4dd2c9a8fc2",
+      "git:tagName": "2.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/imageio/imageio",
+      "repolex:packageName": "imageio",
+      "git:hexsha": "208350eb8a13324fd8d96351f9ab125992a13803",
+      "git:tagName": "v2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging",
+      "git:hexsha": "e3f218269c0f2fd2aff228b310d7f474a3ffd487",
+      "git:tagName": "23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jax-ml/jax",
+      "repolex:packageName": "jax"
+    },
+    {
+      "@id": "https://repolex.ai/r/jax-ml/jax",
+      "repolex:packageName": "jaxlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/flax",
+      "repolex:packageName": "flax",
+      "git:hexsha": "779b9f774d6c127ba49caeb2d641aad361cf9bdd",
+      "git:tagName": "v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/data-apis/array-api-compat",
+      "repolex:packageName": "array-api-compat"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/pytorch",
+      "repolex:packageName": "torch",
+      "git:hexsha": "7c98e70d44abc7a1aead68b6ea6c8adc8c554db5",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/matplotlib/matplotlib",
+      "repolex:packageName": "matplotlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/opencv/opencv-python",
+      "repolex:packageName": "opencv-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/mwaskom/seaborn",
+      "repolex:packageName": "seaborn"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "4645bcd44915c2fd6043b101626e5bf1a983ac07",
+      "git:tagName": "7.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/scipy/scipy",
+      "repolex:packageName": "scipy",
+      "git:hexsha": "59e6539cf80dc04b16b0f0ab52343381f0a7a2fa",
+      "git:tagName": "v1.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/uqfoundation/dill",
+      "repolex:packageName": "dill",
+      "git:hexsha": "d33477195e0433b5add1c16e4ea7c54747b2feaa",
+      "git:tagName": "dill-0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/data-apis/array-api-extra",
+      "repolex:packageName": "array-api-extra",
+      "git:hexsha": "de481f2cac821c2db7ab2a45b83ed29963c2e1eb",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+      "git:tagName": "v4.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
