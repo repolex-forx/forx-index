@@ -48,10 +48,96 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/1ade639ef681aa241f79a3d1882b8a1c6ae6a9a1/chunk-001.nq.gz",
       "repolex:graphFileSize": 1958314
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1ade639ef681aa241f79a3d1882b8a1c6ae6a9a1.nq.gz",
+      "repolex:graphFileSize": 184787
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:29:57.599280+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.21.0"
+  "git:tagName": "v0.21.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "7fb28c36c7a418912612ab37ab49bd4ca1a3a7f5",
+      "git:tagName": "0.4.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "8c036ee5a313b849c52eaaef6421c3b68dd1a350",
+      "git:tagName": "v1.0.145"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "44d9c53e2507636c0c2afee0c9c132095dddb7df",
+      "git:tagName": "v1.0.85"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static",
+      "git:hexsha": "421669662b35fcb455f2902daed2e20bbbba79b6",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-crypto"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-primitives"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-chain-configs"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-jsonrpc-primitives"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger",
+      "git:hexsha": "8f4361ba4439acb69068be0e181d2d1300b7218d",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-account-id",
+      "repolex:packageName": "near-account-id",
+      "git:hexsha": "3414fb1ac23322f78e73ba3200007648365e329e",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-primitives-core"
+    }
+  ]
 }
