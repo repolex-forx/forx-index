@@ -48,10 +48,102 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/84c64b3d560b51a15a9889f30ebb977815d3945e/chunk-001.nq.gz",
       "repolex:graphFileSize": 817079
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/84c64b3d560b51a15a9889f30ebb977815d3945e.nq.gz",
+      "repolex:graphFileSize": 63905
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T23:12:36.223575+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.2.2"
+  "git:tagName": "v1.2.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/ogham/rust-ansi-term",
+      "repolex:packageName": "ansi_term"
+    },
+    {
+      "@id": "https://repolex.ai/r/kornelski/rust-rgb",
+      "repolex:packageName": "rgb"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/termcolor",
+      "repolex:packageName": "termcolor"
+    },
+    {
+      "@id": "https://repolex.ai/r/badboy/crc64-rs",
+      "repolex:packageName": "crc64"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/mina86/empfindung",
+      "repolex:packageName": "empfindung"
+    },
+    {
+      "@id": "https://repolex.ai/r/TooManyBees/lab",
+      "repolex:packageName": "lab"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "fractions"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "codecs"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/env.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/vec/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/traits/iterator.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/macros.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/process.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/macros/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/slice/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "math"
+    }
+  ]
 }
