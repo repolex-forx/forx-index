@@ -48,10 +48,54 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/71775a67277fc0aa5bd2b9f15e848826d7078c4d/chunk-001.nq.gz",
       "repolex:graphFileSize": 12437635
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/71775a67277fc0aa5bd2b9f15e848826d7078c4d.nq.gz",
+      "repolex:graphFileSize": 1323269
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:56:00.094571+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.31.0"
+  "git:tagName": "v0.31.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/aio-libs/async-timeout",
+      "repolex:packageName": "async-timeout",
+      "git:hexsha": "a48974404c746593f78c116faceb56a0db50309e",
+      "git:tagName": "v4.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pythongssapi/python-gssapi",
+      "repolex:packageName": "gssapi",
+      "git:hexsha": "4a4d42d22bcd0e2fc99b9b87197b16d825a62528",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jborean93/sspilib",
+      "repolex:packageName": "sspilib",
+      "git:hexsha": "6e1ca9bec7d8a35d4c4a18cfdc4b1b188047200a",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
