@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d7828fff7b5d6327ae608e82db45f888b344449a/chunk-001.nq.gz",
       "repolex:graphFileSize": 7178043
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d7828fff7b5d6327ae608e82db45f888b344449a.nq.gz",
+      "repolex:graphFileSize": 615558
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:11:13.529734+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "parking_lot-v0.12.5"
+  "git:tagName": "parking_lot-v0.12.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "parking_lot_core"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "lock_api"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bincode-org/bincode",
+      "repolex:packageName": "bincode"
+    },
+    {
+      "@id": "https://repolex.ai/r/smallvec/smallvec",
+      "repolex:packageName": "smallvec",
+      "git:hexsha": "347b5c346168f9648bf4298d6ed49deda7e18aeb",
+      "git:tagName": "v1.16.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if",
+      "git:hexsha": "8b0a2b0fc1fa3b3741b9e72895f390cf499fe36f",
+      "git:tagName": "v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bluss/scopeguard",
+      "repolex:packageName": "scopeguard",
+      "git:hexsha": "bb988222848d39b0b9037b29da3a3a1eb05ebf4b",
+      "git:tagName": "v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+      "git:tagName": "0.2.191"
+    }
+  ]
 }
