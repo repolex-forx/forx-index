@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3d05d4c25b9924acf49b35fb04355c37ae708a87/chunk-001.nq.gz",
       "repolex:graphFileSize": 5961322
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3d05d4c25b9924acf49b35fb04355c37ae708a87.nq.gz",
+      "repolex:graphFileSize": 639787
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:40:04.678878+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.23.0"
+  "git:tagName": "v1.23.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/aio-libs/multidict",
+      "repolex:packageName": "multidict",
+      "git:hexsha": "f50870cb46f0146579a1b9d69eeb3f57776eee63",
+      "git:tagName": "v7.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/kjd/idna",
+      "repolex:packageName": "idna"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "1642a816171707dd8c58da6fff8061a59348402c",
+      "git:tagName": "v2.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/propcache",
+      "repolex:packageName": "propcache",
+      "git:hexsha": "cc9882f95c6aadbfe7b88898e3f0230e4a38341a",
+      "git:tagName": "v0.5.4"
+    }
+  ]
 }
