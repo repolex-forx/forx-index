@@ -48,10 +48,68 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/97e92a3755a65f8ea44c994fd403208e7d97f561/chunk-001.nq.gz",
       "repolex:graphFileSize": 3176639
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/97e92a3755a65f8ea44c994fd403208e7d97f561.nq.gz",
+      "repolex:graphFileSize": 312454
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:14:45.829718+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.3.26"
+  "git:tagName": "v0.3.26",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/TeXitoi/structopt",
+      "repolex:packageName": "structopt-derive"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static",
+      "git:hexsha": "421669662b35fcb455f2902daed2e20bbbba79b6",
+      "git:tagName": "1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "d07e4e2252b71b9c63dac2fb3aa49da7a2b5f12b",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion"
+    },
+    {
+      "@id": "https://repolex.ai/r/Peternator7/strum",
+      "repolex:packageName": "strum"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "bfa790b8e445dc67b7ab94d75adb1a92d6296c9a",
+      "git:tagName": "1.0.109"
+    },
+    {
+      "@id": "https://repolex.ai/r/withoutboats/heck",
+      "repolex:packageName": "heck"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    }
+  ]
 }
