@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4534448a5a141872b3bb917e69b69b980ae6841c/chunk-001.nq.gz",
       "repolex:graphFileSize": 83951
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4534448a5a141872b3bb917e69b69b980ae6841c.nq.gz",
+      "repolex:graphFileSize": 9107
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:20:18.225298+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.0.9a13"
+  "git:tagName": "v2.0.9a13",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/cython/cython",
+      "repolex:packageName": "cython",
+      "git:hexsha": "f568e1463e4dc9d45325713cce740ace182d7874",
+      "git:tagName": "0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
