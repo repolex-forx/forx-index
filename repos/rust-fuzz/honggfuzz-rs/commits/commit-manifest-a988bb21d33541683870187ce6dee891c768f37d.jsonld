@@ -48,10 +48,38 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a988bb21d33541683870187ce6dee891c768f37d/chunk-001.nq.gz",
       "repolex:graphFileSize": 554534
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a988bb21d33541683870187ce6dee891c768f37d.nq.gz",
+      "repolex:graphFileSize": 54850
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:03:27.384743+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.5.60"
+  "git:tagName": "v0.5.60",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary"
+    },
+    {
+      "@id": "https://repolex.ai/r/djc/rustc-version-rs",
+      "repolex:packageName": "rustc_version"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/semver",
+      "repolex:packageName": "semver"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand_chacha"
+    }
+  ]
 }
