@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/59ae1fce0cec62c886fcd486e06b7e219bc7ce48/chunk-001.nq.gz",
       "repolex:graphFileSize": 993033
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/59ae1fce0cec62c886fcd486e06b7e219bc7ce48.nq.gz",
+      "repolex:graphFileSize": 47521
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:27:27.684481+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.15.0"
+  "git:tagName": "1.15.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "da05163d51f34994b082c22059be6ee49d2edc80",
+      "git:tagName": "v1.0.95"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "d45ddf76a7a4c9bfc30aef2380046b4caed07439",
+      "git:tagName": "v1.0.0"
+    }
+  ]
 }

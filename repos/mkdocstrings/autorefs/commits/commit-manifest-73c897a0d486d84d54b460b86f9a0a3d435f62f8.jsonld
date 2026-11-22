@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/73c897a0d486d84d54b460b86f9a0a3d435f62f8/chunk-001.nq.gz",
       "repolex:graphFileSize": 2103182
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/73c897a0d486d84d54b460b86f9a0a3d435f62f8.nq.gz",
+      "repolex:graphFileSize": 191480
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:27:47.253818+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.4.4"
+  "git:tagName": "1.4.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Python-Markdown/markdown",
+      "repolex:packageName": "markdown",
+      "git:hexsha": "b8c6a76a97c46ae8b7b64236acfa420d7ea03344",
+      "git:tagName": "3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/markupsafe",
+      "repolex:packageName": "markupsafe",
+      "git:hexsha": "7666dffd690186973f03b6feccb4773e5b505c29",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/mkdocs/mkdocs",
+      "repolex:packageName": "mkdocs",
+      "git:hexsha": "eddeeab066cb071dbe426878a85de715df1b93e7",
+      "git:tagName": "1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    }
+  ]
 }
