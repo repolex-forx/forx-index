@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b91268c263f61e38a7e27f77ccf38ec287e0c0b5/chunk-001.nq.gz",
       "repolex:graphFileSize": 372419
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b91268c263f61e38a7e27f77ccf38ec287e0c0b5.nq.gz",
+      "repolex:graphFileSize": 45622
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:21:08.816676+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.6.3"
+  "git:tagName": "v0.6.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/mkdocs/mkdocs",
+      "repolex:packageName": "mkdocs",
+      "git:hexsha": "aa9eabea1a474ddaf817bbdca8bada7cec61aa11",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/properdocs/properdocs",
+      "repolex:packageName": "properdocs",
+      "git:hexsha": "01fe59b2a43df0fed8282f74520b0f32fb0fd043",
+      "git:tagName": "v1.6.5"
+    }
+  ]
 }
