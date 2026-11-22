@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/74f73e40bf2fbbe4c7b93bb44a7ce15de60dc99c/chunk-001.nq.gz",
       "repolex:graphFileSize": 2598634
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/74f73e40bf2fbbe4c7b93bb44a7ce15de60dc99c.nq.gz",
+      "repolex:graphFileSize": 267885
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:13:36.513475+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.0.0-alpha.12"
+  "git:tagName": "v2.0.0-alpha.12",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "ff3aee490abff5267cac86f07e0301aa6d441760",
+      "git:tagName": "v1.0.221"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/malloc_size_of",
+      "repolex:packageName": "malloc_size_of"
+    },
+    {
+      "@id": "https://repolex.ai/r/bincode-org/bincode",
+      "repolex:packageName": "bincode"
+    }
+  ]
 }

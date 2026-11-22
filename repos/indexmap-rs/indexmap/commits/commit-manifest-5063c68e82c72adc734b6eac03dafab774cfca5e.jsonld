@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5063c68e82c72adc734b6eac03dafab774cfca5e/chunk-001.nq.gz",
       "repolex:graphFileSize": 3815393
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5063c68e82c72adc734b6eac03dafab774cfca5e.nq.gz",
+      "repolex:graphFileSize": 351488
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:12:23.672147+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.0"
+  "git:tagName": "v1.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/quickcheck",
+      "repolex:packageName": "quickcheck"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-fnv",
+      "repolex:packageName": "fnv"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test",
+      "git:hexsha": "921a02b1fa32575b189d9a751417254cd01108d7",
+      "git:tagName": "1.0.99"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core"
+    }
+  ]
 }
