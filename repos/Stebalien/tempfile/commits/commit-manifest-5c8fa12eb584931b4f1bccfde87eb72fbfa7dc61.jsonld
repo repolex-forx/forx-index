@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5c8fa12eb584931b4f1bccfde87eb72fbfa7dc61/chunk-001.nq.gz",
       "repolex:graphFileSize": 2198990
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5c8fa12eb584931b4f1bccfde87eb72fbfa7dc61.nq.gz",
+      "repolex:graphFileSize": 268723
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:53:56.425718+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.27.0"
+  "git:tagName": "v3.27.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/smol-rs/fastrand",
+      "repolex:packageName": "fastrand",
+      "git:hexsha": "9d1a66fe46cee30e6c716812a9df467c653fa290",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/once_cell",
+      "repolex:packageName": "once_cell",
+      "git:hexsha": "c48d3c2c01de926228aea2ac1d03672b4ce160c1",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/GuillaumeGomez/doc-comment",
+      "repolex:packageName": "doc-comment"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/getrandom",
+      "repolex:packageName": "getrandom",
+      "git:hexsha": "5e7cd5733536844a9856dc7259bd4696bbe5e3ae",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/rustix",
+      "repolex:packageName": "rustix",
+      "git:hexsha": "4a563ad698b2c20ff848515821023d2265a788d0",
+      "git:tagName": "v1.1.6"
+    }
+  ]
 }
