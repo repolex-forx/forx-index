@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/50a33baaebd010c92cbf2e999a9d0a063e4c772b/chunk-001.nq.gz",
       "repolex:graphFileSize": 11810334
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/50a33baaebd010c92cbf2e999a9d0a063e4c772b.nq.gz",
+      "repolex:graphFileSize": 1302279
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:33:58.676241+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "6.3"
+  "git:tagName": "6.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/persistent",
+      "repolex:packageName": "persistent"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.interface",
+      "repolex:packageName": "zope-interface"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+      "git:tagName": "v9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/repoze/repoze.sphinx.autointerface",
+      "repolex:packageName": "repoze-sphinx-autointerface",
+      "git:hexsha": "ba8f7f26df46250ee8408c621c423de1e1b2327b",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo",
+      "git:hexsha": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+      "git:tagName": "2025.12.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/transaction",
+      "repolex:packageName": "transaction"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.testrunner",
+      "repolex:packageName": "zope-testrunner",
+      "git:hexsha": "975be756a3420e8cccc9647d34deb82686c1c52b",
+      "git:tagName": "6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/ZODB",
+      "repolex:packageName": "zodb"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
