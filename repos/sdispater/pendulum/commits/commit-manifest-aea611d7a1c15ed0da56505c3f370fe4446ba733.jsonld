@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/aea611d7a1c15ed0da56505c3f370fe4446ba733/chunk-001.nq.gz",
       "repolex:graphFileSize": 15889595
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/aea611d7a1c15ed0da56505c3f370fe4446ba733.nq.gz",
+      "repolex:graphFileSize": 1160383
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T03:39:34.006495+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "3.2.0"
+  "git:tagName": "3.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dateutil/dateutil",
+      "repolex:packageName": "python-dateutil"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/tzdata",
+      "repolex:packageName": "tzdata",
+      "git:hexsha": "842c5384d0a02c30de513b33277369d488f374c2",
+      "git:tagName": "2020.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/adamchainz/time-machine",
+      "repolex:packageName": "time-machine",
+      "git:hexsha": "d842ba78c8ea14a9e39352f5b791a552c735f594",
+      "git:tagName": "2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3",
+      "git:hexsha": "117102d832d7bd7e66e75501e5722976b28b1a88",
+      "git:tagName": "v0.27.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
