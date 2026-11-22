@@ -48,10 +48,292 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2976d90fd1c2db6b518700dd101b714069cfcb17/chunk-001.nq.gz",
       "repolex:graphFileSize": 37698955
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2976d90fd1c2db6b518700dd101b714069cfcb17.nq.gz",
+      "repolex:graphFileSize": 5613825
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:10:55.803028+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v/0.23.45"
+  "git:tagName": "v/0.23.45",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/celabshq/libcrux",
+      "repolex:packageName": "hpke-rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/pki-types",
+      "repolex:packageName": "rustls-pki-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rcgen",
+      "repolex:packageName": "rcgen",
+      "git:hexsha": "f4a3b165c467c070d5c74b86acc2c3f0a0be10ab",
+      "git:tagName": "v0.14.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "8034743dd9d7f7583bd9a670271483d176130911",
+      "git:tagName": "0.4.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/subtle",
+      "repolex:packageName": "subtle",
+      "git:hexsha": "5457b5448b021d1da101ababbb854e6657233943",
+      "git:tagName": "2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/webpki",
+      "repolex:packageName": "rustls-webpki"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-lc-rs",
+      "repolex:packageName": "aws-lc-rs",
+      "git:hexsha": "f464440d1fd3983ce9fb023e9eaf1698530919a2",
+      "git:tagName": "v1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64",
+      "git:hexsha": "e14400697453bcc85997119b874bc03d9601d0af",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/nix-rust/nix",
+      "repolex:packageName": "nix",
+      "git:hexsha": "3cf9007216086b17a6ef5a09fa42dc00cde5c2bf",
+      "git:tagName": "v0.30.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger",
+      "git:hexsha": "b4d3f2b8dd3f1c3362f07da8f6f4a30c701358cf",
+      "git:tagName": "v0.11.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-bigint",
+      "repolex:packageName": "num-bigint",
+      "git:hexsha": "65330056d6c00def4c6cda78c87453f4c2a76913",
+      "git:tagName": "num-bigint-0.4.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/mio",
+      "repolex:packageName": "mio",
+      "git:hexsha": "50ee78de7497f10b941772a94625b9b6b61facba",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "43bf90a64b1b2ac8d7f448e1f79e0eff8f9c45ec",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rusticata/x509-parser",
+      "repolex:packageName": "x509-parser",
+      "git:hexsha": "eb3adc50014f9922c98ce22bf792afa9592374cb",
+      "git:tagName": "x509-parser-0.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/time-rs/time",
+      "repolex:packageName": "time",
+      "git:hexsha": "857d9c404c5b6f6cb64d1bfa604c695be3369e12",
+      "git:tagName": "v0.3.55"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl"
+    },
+    {
+      "@id": "https://repolex.ai/r/briansmith/ring",
+      "repolex:packageName": "ring"
+    },
+    {
+      "@id": "https://repolex.ai/r/hickory-dns/hickory-dns",
+      "repolex:packageName": "hickory-proto",
+      "git:hexsha": "f09321075b1f97902b7bc4ca4ffda7816fcf2971",
+      "git:tagName": "v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/hickory-dns/hickory-dns",
+      "repolex:packageName": "hickory-resolver",
+      "git:hexsha": "f09321075b1f97902b7bc4ca4ffda7816fcf2971",
+      "git:tagName": "v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon",
+      "git:hexsha": "c9ced185ae3508246a9eb70c8407a1199bb1b77f",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "1dbe1862aae650423e3361fbd20b7d17c5109cc3",
+      "git:tagName": "1.0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/either",
+      "repolex:packageName": "either",
+      "git:hexsha": "ce6f07fc3d56d6a56ecfc32256d2c33bd0b4ad09",
+      "git:tagName": "1.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools",
+      "git:hexsha": "a015a6831525ee1637df747d3f530a627d9741bf",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex",
+      "git:hexsha": "b2b4370b5bf021b98ee7adc92233e8de3f2de792",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "de8500740cdcabffb9734f503e4889def823cf10",
+      "git:tagName": "v1.0.151"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/RSA",
+      "repolex:packageName": "rsa",
+      "git:hexsha": "da2af9a0ff814762957c428460e4098720f394a6",
+      "git:tagName": "v0.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/dignifiedquire/num-bigint",
+      "repolex:packageName": "num-bigint-dig",
+      "git:hexsha": "1eb690d9170870c186a2795071482cfa472a170a",
+      "git:tagName": "v0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "2b527599eb9eea0dcc288c704584f242f26a5c61",
+      "git:tagName": "1.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/2dav/crabgrind",
+      "repolex:packageName": "crabgrind",
+      "git:hexsha": "32f4ae700c86c84920101b6aa01de1b7e78f0505",
+      "git:tagName": "0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "crypto-common"
+    },
+    {
+      "@id": "https://repolex.ai/r/fizyk20/generic-array",
+      "repolex:packageName": "generic-array"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "aead"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/once_cell",
+      "repolex:packageName": "once_cell",
+      "git:hexsha": "80fe900b21f6d76c1a2ed74d3343e8a3a88c46d0",
+      "git:tagName": "v1.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "89a1336b934c68ddce548127c6f8afd910b35a18",
+      "git:tagName": "v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "signature"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/signatures",
+      "repolex:packageName": "ecdsa"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/formats",
+      "repolex:packageName": "pkcs8"
+    },
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/curve25519-dalek",
+      "repolex:packageName": "x25519-dalek"
+    },
+    {
+      "@id": "https://repolex.ai/r/bluss/bencher",
+      "repolex:packageName": "bencher",
+      "git:hexsha": "8afeeb1ccf7d9f58764a343a0099e140703ad287",
+      "git:tagName": "0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/alex/rust-asn1",
+      "repolex:packageName": "asn1",
+      "git:hexsha": "4eaf45f23ef67fd8c431e6e186a49b92e4f44f49",
+      "git:tagName": "0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "4a622b4340d5e1fffff60c0ecefdc6882f738159",
+      "git:tagName": "v4.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rustc-hash",
+      "repolex:packageName": "rustc-hash",
+      "git:hexsha": "dc5c33f1283de2da64d8d7a06401d91aded03ad4",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/async-trait",
+      "repolex:packageName": "async-trait",
+      "git:hexsha": "82e7e9edd60f622294373a23c0ce9c0077ad0263",
+      "git:tagName": "0.1.92"
+    },
+    {
+      "@id": "https://repolex.ai/r/celabshq/libcrux",
+      "repolex:packageName": "hpke-rs-rust-crypto"
+    },
+    {
+      "@id": "https://repolex.ai/r/celabshq/libcrux",
+      "repolex:packageName": "hpke-rs-crypto"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/formats",
+      "repolex:packageName": "der"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "75fef53d0a8590c2d1dbb63672aa7b7d1ef51155",
+      "git:tagName": "tokio-1.53.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/AEADs",
+      "repolex:packageName": "chacha20poly1305"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    }
+  ]
 }
