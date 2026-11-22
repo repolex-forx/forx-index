@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b857483dd8e8a875f3aa040bd0054847ad657291/chunk-001.nq.gz",
       "repolex:graphFileSize": 3843872
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b857483dd8e8a875f3aa040bd0054847ad657291.nq.gz",
+      "repolex:graphFileSize": 344847
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:39:27.899471+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v5.2.3"
+  "git:tagName": "v5.2.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest"
+    },
+    {
+      "@id": "https://repolex.ai/r/workhorsy/py-cpuinfo",
+      "repolex:packageName": "py-cpuinfo",
+      "git:hexsha": "4824ec0746be0dcee9bf9528dc8cdd0c1640cd9d",
+      "git:tagName": "v9.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ionelmc/python-aspectlib",
+      "repolex:packageName": "aspectlib",
+      "git:hexsha": "d5122f86c20e95b27bee3a1a38e00d628043cc9b",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ionelmc/python-pygaljs",
+      "repolex:packageName": "pygaljs",
+      "git:hexsha": "c1897132f3fed123db5dac4974b474def834dddd",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/elastic/elasticsearch-py",
+      "repolex:packageName": "elasticsearch",
+      "git:hexsha": "891a79aeeff105423915af652b53f09667cf996a",
+      "git:tagName": "v9.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    }
+  ]
 }
