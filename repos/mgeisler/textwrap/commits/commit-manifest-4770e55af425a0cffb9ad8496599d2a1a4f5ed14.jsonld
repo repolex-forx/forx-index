@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4770e55af425a0cffb9ad8496599d2a1a4f5ed14/chunk-001.nq.gz",
       "repolex:graphFileSize": 2671334
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4770e55af425a0cffb9ad8496599d2a1a4f5ed14.nq.gz",
+      "repolex:graphFileSize": 206763
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:15:23.165447+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.16.2"
+  "git:tagName": "0.16.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tapeinosyne/hyphenation",
+      "repolex:packageName": "hyphenation",
+      "git:hexsha": "0caea24164b37e78a8aae68c3e6a70b78fcdb06e",
+      "git:tagName": "v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/mgeisler/smawk",
+      "repolex:packageName": "smawk",
+      "git:hexsha": "df374f7cf7611a1026e49b72d9ed87d1cbf8d464",
+      "git:tagName": "0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/eminence/terminal-size",
+      "repolex:packageName": "terminal_size",
+      "git:hexsha": "f6b81b5714112558ea2ab61e5151fc25ffae3ea7",
+      "git:tagName": "v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/axelf4/unicode-linebreak",
+      "repolex:packageName": "unicode-linebreak",
+      "git:hexsha": "829adeed3c07ed160c1c721b61806eb902a4c1f0",
+      "git:tagName": "v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/unicode-rs/unicode-width",
+      "repolex:packageName": "unicode-width",
+      "git:hexsha": "79eab0d9fc2060783b43046f9611648dcd35172f",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-i18n/rust-unic",
+      "repolex:packageName": "unic-emoji-char",
+      "git:hexsha": "89f5f55f9cf8da4e2a697a1fd5018284c2b1eb0f",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mgeisler/version-sync",
+      "repolex:packageName": "version-sync",
+      "git:hexsha": "6a4c2333f782652d2f6b859d5dbe349e4529fe9e",
+      "git:tagName": "0.9.5"
+    }
+  ]
 }
