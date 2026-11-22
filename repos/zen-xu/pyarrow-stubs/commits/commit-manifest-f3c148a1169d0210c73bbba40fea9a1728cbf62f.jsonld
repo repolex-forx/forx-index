@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/f3c148a1169d0210c73bbba40fea9a1728cbf62f/chunk-001.nq.gz",
       "repolex:graphFileSize": 9841038
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f3c148a1169d0210c73bbba40fea9a1728cbf62f.nq.gz",
+      "repolex:graphFileSize": 687867
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:17:21.174952+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "20.0.0.20251215"
+  "git:tagName": "20.0.0.20251215",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/apache/arrow",
+      "repolex:packageName": "pyarrow"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/fsspec/filesystem_spec",
+      "repolex:packageName": "fsspec",
+      "git:hexsha": "0f76baaae4a227b085b18e8469e6cc1792a95ade",
+      "git:tagName": "2026.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/scipy/scipy",
+      "repolex:packageName": "scipy",
+      "git:hexsha": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+      "git:tagName": "v1.18.1"
+    }
+  ]
 }
