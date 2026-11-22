@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7b5df17888997d57c2c1c8f91da1db5691f49953/chunk-001.nq.gz",
       "repolex:graphFileSize": 87785
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7b5df17888997d57c2c1c8f91da1db5691f49953.nq.gz",
+      "repolex:graphFileSize": 2889
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:19:33.955616+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.2.14"
+  "git:tagName": "0.2.14",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+      "git:tagName": "0.2.191"
+    }
+  ]
 }

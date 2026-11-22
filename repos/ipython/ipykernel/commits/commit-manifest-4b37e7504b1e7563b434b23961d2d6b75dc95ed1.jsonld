@@ -48,10 +48,176 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4b37e7504b1e7563b434b23961d2d6b75dc95ed1/chunk-001.nq.gz",
       "repolex:graphFileSize": 8010661
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4b37e7504b1e7563b434b23961d2d6b75dc95ed1.nq.gz",
+      "repolex:graphFileSize": 983846
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:10:39.509898+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v7.2.0"
+  "git:tagName": "v7.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/microsoft/debugpy",
+      "repolex:packageName": "debugpy",
+      "git:hexsha": "6c3dca7918333b21ed91da9e3da42acebd1026d1",
+      "git:tagName": "v1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipython",
+      "repolex:packageName": "ipython",
+      "git:hexsha": "9ca5c4454983faa141a5c27140470bccff82c937",
+      "git:tagName": "7.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/comm",
+      "repolex:packageName": "comm",
+      "git:hexsha": "dc9aece220dd46bf7d40bdad5d68387c4ea58493",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/traitlets",
+      "repolex:packageName": "traitlets",
+      "git:hexsha": "0f7b160b43a3827fcc670f4374166b9a7dbdeb26",
+      "git:tagName": "5.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter/jupyter_client",
+      "repolex:packageName": "jupyter-client",
+      "git:hexsha": "e27f54bc960cdee55f0c8f97f210c8123da77739",
+      "git:tagName": "v8.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter/jupyter_core",
+      "repolex:packageName": "jupyter-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/erdewit/nest_asyncio",
+      "repolex:packageName": "nest-asyncio"
+    },
+    {
+      "@id": "https://repolex.ai/r/tornadoweb/tornado",
+      "repolex:packageName": "tornado",
+      "git:hexsha": "2a0e1d13b5222dca4388c0ec8a4bb74ea6fa4af2",
+      "git:tagName": "v6.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/matplotlib-inline",
+      "repolex:packageName": "matplotlib-inline"
+    },
+    {
+      "@id": "https://repolex.ai/r/minrk/appnope",
+      "repolex:packageName": "appnope",
+      "git:hexsha": "d0b768fb8c919f3f24f12be53627848cdcd94be5",
+      "git:tagName": "0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/zeromq/pyzmq",
+      "repolex:packageName": "pyzmq"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil",
+      "repolex:packageName": "psutil"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "78bb5a18436d4d5def5134063f31078b2d39c939",
+      "git:tagName": "v8.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/MyST-Parser",
+      "repolex:packageName": "myst-parser",
+      "git:hexsha": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydata/pydata-sphinx-theme",
+      "repolex:packageName": "pydata-sphinx-theme",
+      "git:hexsha": "08d2f6ac6242323a3540abac6d8391a6e81cc203",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jupyter/sphinxcontrib_github_alt",
+      "repolex:packageName": "sphinxcontrib-github-alt"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-contrib/spelling",
+      "repolex:packageName": "sphinxcontrib-spelling",
+      "git:hexsha": "c039e7aad17ce88018bd2b2451a4b24c2627017b",
+      "git:tagName": "8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/sphinx-autodoc-typehints",
+      "repolex:packageName": "sphinx-autodoc-typehints",
+      "git:hexsha": "3b38723e2e0476a191a9caeca27cf817ccfc644c",
+      "git:tagName": "3.17.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/Quansight-labs/intersphinx_registry",
+      "repolex:packageName": "intersphinx-registry",
+      "git:hexsha": "3f15371c3d31f9f934a6aa259bd6183425c450a9",
+      "git:tagName": "0.2611.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-trio/trio",
+      "repolex:packageName": "trio",
+      "git:hexsha": "3b280b0b8eb86188edddd4d2e62fc947f0328f1e",
+      "git:tagName": "v0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/box/flaky",
+      "repolex:packageName": "flaky",
+      "git:hexsha": "fe6233f8ccb6473fc2243736b1a86870db6baad1",
+      "git:tagName": "v3.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit",
+      "git:hexsha": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+      "git:tagName": "v4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-asyncio",
+      "repolex:packageName": "pytest-asyncio",
+      "git:hexsha": "3aef60532f2a1c634af5f4539eabdd4fbfffcabc",
+      "git:tagName": "v0.23.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-timeout",
+      "repolex:packageName": "pytest-timeout",
+      "git:hexsha": "945ec4617ef25ea2ea8d38930e26fb6509a72f6b",
+      "git:tagName": "2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "fd8e601e25c1e8dde3440fb019ec08283af1bf78",
+      "git:tagName": "7.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/matplotlib/matplotlib",
+      "repolex:packageName": "matplotlib",
+      "git:hexsha": "d3ca9172e392048ec242b90e8423e88d1a3000b2",
+      "git:tagName": "v3.11.2"
+    }
+  ]
 }
