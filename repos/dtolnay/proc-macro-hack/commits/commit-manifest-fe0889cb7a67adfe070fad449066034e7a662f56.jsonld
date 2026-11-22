@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/fe0889cb7a67adfe070fad449066034e7a662f56/chunk-001.nq.gz",
       "repolex:graphFileSize": 548962
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/fe0889cb7a67adfe070fad449066034e7a662f56.nq.gz",
+      "repolex:graphFileSize": 67677
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:42:40.687261+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.5.20"
+  "git:tagName": "0.5.20",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro-hack",
+      "repolex:packageName": "demo-hack"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro-hack",
+      "repolex:packageName": "demo-hack-impl"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "6979e8e8ef24a8783eebee452b2fc5dd9e946f72",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "7ddf992f8382950c73ab067d59885d6d24e2b69e",
+      "git:tagName": "1.0.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    }
+  ]
 }
