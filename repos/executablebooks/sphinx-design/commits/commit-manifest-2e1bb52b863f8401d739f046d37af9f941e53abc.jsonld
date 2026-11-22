@@ -48,10 +48,82 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2e1bb52b863f8401d739f046d37af9f941e53abc/chunk-001.nq.gz",
       "repolex:graphFileSize": 1820582
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2e1bb52b863f8401d739f046d37af9f941e53abc.nq.gz",
+      "repolex:graphFileSize": 150592
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:05:52.470226+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.7.0"
+  "git:tagName": "v0.7.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sass/dart-sass",
+      "repolex:packageName": "sass",
+      "git:hexsha": "4f428ca5f519a22584d136c1c492086414adc36e",
+      "git:tagName": "1.35.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/MyST-Parser",
+      "repolex:packageName": "myst-parser"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ESSS/pytest-regressions",
+      "repolex:packageName": "pytest-regressions",
+      "git:hexsha": "ff8c2da9b67192a24a8851c72754394cc4bc5067",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tiran/defusedxml",
+      "repolex:packageName": "defusedxml",
+      "git:hexsha": "ebff1b493751e2f0775314bdd4188d64f07ea184",
+      "git:tagName": "v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydata/pydata-sphinx-theme",
+      "repolex:packageName": "pydata-sphinx-theme",
+      "git:hexsha": "6010af1af74db163398092b1f6e721e7da631b02",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/readthedocs/sphinx_rtd_theme",
+      "repolex:packageName": "sphinx-rtd-theme"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-book-theme",
+      "repolex:packageName": "sphinx-book-theme"
+    },
+    {
+      "@id": "https://repolex.ai/r/jbms/sphinx-immaterial",
+      "repolex:packageName": "sphinx-immaterial",
+      "git:hexsha": "9ec088ed7e61c545cde3a75f8c01025ad70c9f90",
+      "git:tagName": "v0.12.2"
+    }
+  ]
 }
