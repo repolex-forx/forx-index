@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6381a7bacb0353e1e0cd425688a02ff785fda44c/chunk-001.nq.gz",
       "repolex:graphFileSize": 2136226
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6381a7bacb0353e1e0cd425688a02ff785fda44c.nq.gz",
+      "repolex:graphFileSize": 206274
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:46:32.430999+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.24.3"
+  "git:tagName": "v0.24.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python-websockets/websockets",
+      "repolex:packageName": "websockets",
+      "git:hexsha": "0ce16b23808a154829acf2ec786f1e67c1bd4cdf",
+      "git:tagName": "11.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "2ad18e0e10e7d7ecd5384c378f25ec8821a10a29",
+      "git:tagName": "v2.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/aiohttp",
+      "repolex:packageName": "aiohttp",
+      "git:hexsha": "7f298511915205d86ac12c0e79bfeda138ffb451",
+      "git:tagName": "v3.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
