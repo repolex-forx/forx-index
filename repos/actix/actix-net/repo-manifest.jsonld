@@ -1,0 +1,1581 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/actix/actix-net",
+  "@type": "gh:Repository",
+  "gh:name": "actix-net",
+  "gh:owner": "actix",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ebf8d7fa3481d02503812fb1c4061ae987060e30",
+      "git:hexsha": "ebf8d7fa3481d02503812fb1c4061ae987060e30",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/43f5e8aade0dc18782f79bb7d9ababc65fabb104",
+      "git:hexsha": "43f5e8aade0dc18782f79bb7d9ababc65fabb104",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "actix-rt-v2.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f22be1d9731f764707dd3e286900d285c6f60b14",
+      "git:hexsha": "f22be1d9731f764707dd3e286900d285c6f60b14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "actix-server-v2.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5265714f6867f8fcb893d18558fc6caaa1183923",
+      "git:hexsha": "5265714f6867f8fcb893d18558fc6caaa1183923",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-await-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a899b1e04d6778b280a4a229090e4bca5a025438",
+      "git:hexsha": "a899b1e04d6778b280a4a229090e4bca5a025438",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a80e1f837063cde8cb8d7cdca48267a70d8e3e93",
+      "git:hexsha": "a80e1f837063cde8cb8d7cdca48267a70d8e3e93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2f894836353adc60a4190204c3615aebac53541a",
+      "git:hexsha": "2f894836353adc60a4190204c3615aebac53541a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/93865de848d2da56e5a13c300dac73049cc985fb",
+      "git:hexsha": "93865de848d2da56e5a13c300dac73049cc985fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/71b4e55c92fba387d8ced4a694475db4c6b2334e",
+      "git:hexsha": "71b4e55c92fba387d8ced4a694475db4c6b2334e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/bb36e2a072a45f3e20a6d72049e51ebfbb35bd2e",
+      "git:hexsha": "bb36e2a072a45f3e20a6d72049e51ebfbb35bd2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/8e9401f8e1c6896c86b01820c90ea0e90184a30b",
+      "git:hexsha": "8e9401f8e1c6896c86b01820c90ea0e90184a30b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a6bece7b330e5089b82c89c86a7fa62baa4c6682",
+      "git:hexsha": "a6bece7b330e5089b82c89c86a7fa62baa4c6682",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/61b6e01b0224ef2eb6b96b6b8c1766bfbcac1787",
+      "git:hexsha": "61b6e01b0224ef2eb6b96b6b8c1766bfbcac1787",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-waker-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0e36c5f5c4a63b8a83c89f2ac0c4004fd9f99d85",
+      "git:hexsha": "0e36c5f5c4a63b8a83c89f2ac0c4004fd9f99d85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d22774f1b70acc12ed668bbd9f6e5775c305f3b1",
+      "git:hexsha": "d22774f1b70acc12ed668bbd9f6e5775c305f3b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a3763d1c4aa4b976d7f30df7659f02b937b53bd5",
+      "git:hexsha": "a3763d1c4aa4b976d7f30df7659f02b937b53bd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d8ae9bde1054824a5cc961494d2eb6c1f93f7899",
+      "git:hexsha": "d8ae9bde1054824a5cc961494d2eb6c1f93f7899",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "bytestring-v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/42ec3454d922e20275c68a3c759197fb2a51b309",
+      "git:hexsha": "42ec3454d922e20275c68a3c759197fb2a51b309",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b407c65f4cb9bb6af1c6667d3928bf6132ee77af",
+      "git:hexsha": "b407c65f4cb9bb6af1c6667d3928bf6132ee77af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/16856c7d3fa725c65ccec5940ab8331ad3c270fc",
+      "git:hexsha": "16856c7d3fa725c65ccec5940ab8331ad3c270fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/32202188cc25359b0360f19583d23eb52564cf3d",
+      "git:hexsha": "32202188cc25359b0360f19583d23eb52564cf3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/119dc39f5b8b0532b1e96e83f66b6f900ca74de1",
+      "git:hexsha": "119dc39f5b8b0532b1e96e83f66b6f900ca74de1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v2.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b2e96409525739c2a6675dfddeefb604977bac28",
+      "git:hexsha": "b2e96409525739c2a6675dfddeefb604977bac28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d28687d0d7645abbe16116ef91c2a9d15ce5c9cd",
+      "git:hexsha": "d28687d0d7645abbe16116ef91c2a9d15ce5c9cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/27c6be9881d6f5973b698054b32e31663affccf2",
+      "git:hexsha": "27c6be9881d6f5973b698054b32e31663affccf2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-v0.3.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a09f9abfcb712ffbf61a90c80a258281a739a88a",
+      "git:hexsha": "a09f9abfcb712ffbf61a90c80a258281a739a88a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2080f4c149dc5073164ef1c6277010cdb0967a83",
+      "git:hexsha": "2080f4c149dc5073164ef1c6277010cdb0967a83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3ba4eafde54a234f5a6d210011adb9aad53f7929",
+      "git:hexsha": "3ba4eafde54a234f5a6d210011adb9aad53f7929",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/217cbd2228bb80e6a1679951b825d645ae0ebf39",
+      "git:hexsha": "217cbd2228bb80e6a1679951b825d645ae0ebf39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/855e3f96fe250d1cbba6acd49bdd6a4519c810b8",
+      "git:hexsha": "855e3f96fe250d1cbba6acd49bdd6a4519c810b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/fd32a0a97a91444e4486eae09fa84e3bdc9bc174",
+      "git:hexsha": "fd32a0a97a91444e4486eae09fa84e3bdc9bc174",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e56afda28094907290169a4b21d17384d31d3b81",
+      "git:hexsha": "e56afda28094907290169a4b21d17384d31d3b81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/dc9eaa88b07bd03d43fb9a380725993b11a7f0b1",
+      "git:hexsha": "dc9eaa88b07bd03d43fb9a380725993b11a7f0b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "codec-v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b290273e8186145611f5e1fc44e5a1e7e01472d3",
+      "git:hexsha": "b290273e8186145611f5e1fc44e5a1e7e01472d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/27c28d6597b064e93b6fad3e95f75e880948734e",
+      "git:hexsha": "27c28d6597b064e93b6fad3e95f75e880948734e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a4e0c71baad3c02ee1b42e3b7b551ad931331e21",
+      "git:hexsha": "a4e0c71baad3c02ee1b42e3b7b551ad931331e21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b9d8a215b42f3a68796754f453a8a1a71c340b85",
+      "git:hexsha": "b9d8a215b42f3a68796754f453a8a1a71c340b85",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/54f62b5035ed52e84f2b279a06021a1df3d6d23a",
+      "git:hexsha": "54f62b5035ed52e84f2b279a06021a1df3d6d23a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3b314e4c8cef48d13069aeb79d7125f1c13696b2",
+      "git:hexsha": "3b314e4c8cef48d13069aeb79d7125f1c13696b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/802d808aca39ad1676a3e1f9af3cc050c43c03ae",
+      "git:hexsha": "802d808aca39ad1676a3e1f9af3cc050c43c03ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/411e31786f72d69a349204f04578929d9a5214c3",
+      "git:hexsha": "411e31786f72d69a349204f04578929d9a5214c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a742768feb7a5117f7f267046affe315a1cdc4ad",
+      "git:hexsha": "a742768feb7a5117f7f267046affe315a1cdc4ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/62e429cb0c20d8559794c902f59888fbf0d136ca",
+      "git:hexsha": "62e429cb0c20d8559794c902f59888fbf0d136ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b1d9b06a876b2616031f827dc0147d030c32dfcb",
+      "git:hexsha": "b1d9b06a876b2616031f827dc0147d030c32dfcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/34a7b7f05a4a857263527197036626f60aa1064c",
+      "git:hexsha": "34a7b7f05a4a857263527197036626f60aa1064c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/fba2002702295b82d98405db36d2b628831ba35f",
+      "git:hexsha": "fba2002702295b82d98405db36d2b628831ba35f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/cab73791ed9307d30ee1da9f1f1c83bbb7998e7d",
+      "git:hexsha": "cab73791ed9307d30ee1da9f1f1c83bbb7998e7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7632f51509bb765819e7e5279fb60a7e3ae3e29c",
+      "git:hexsha": "7632f51509bb765819e7e5279fb60a7e3ae3e29c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ebc11d03f22e7eabe2e3382727e7e101bce80187",
+      "git:hexsha": "ebc11d03f22e7eabe2e3382727e7e101bce80187",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v2.0.0-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4be11b541b86e9f609113ccac0abe199b3f22153",
+      "git:hexsha": "4be11b541b86e9f609113ccac0abe199b3f22153",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v2.0.0-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f7cc62564d9662640839899e2c47bdd06679f51a",
+      "git:hexsha": "f7cc62564d9662640839899e2c47bdd06679f51a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connect-v2.0.0-alpha.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/578a5608537884bc3bd212e0af5d62136e27d9ff",
+      "git:hexsha": "578a5608537884bc3bd212e0af5d62136e27d9ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v2.0.0-alpha.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3c9d95bd9fabc266c6254ad34cf5636c003208f4",
+      "git:hexsha": "3c9d95bd9fabc266c6254ad34cf5636c003208f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connector-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/605a947c3e0efc09fa73753cdfb6fa6f36126ff9",
+      "git:hexsha": "605a947c3e0efc09fa73753cdfb6fa6f36126ff9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connector-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/94a0da365951e6a2b2ba0f8f6e9564f645efaad0",
+      "git:hexsha": "94a0da365951e6a2b2ba0f8f6e9564f645efaad0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connector-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/400023a07b3b661c90375b0b7109e53b7e01ee0f",
+      "git:hexsha": "400023a07b3b661c90375b0b7109e53b7e01ee0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "connector-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/aa9bbe2114e5ee4f772a2c885428a27253e2d159",
+      "git:hexsha": "aa9bbe2114e5ee4f772a2c885428a27253e2d159",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "ioframe-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/49a034259f6d157bc9e258763cc7c88434d3fb3a",
+      "git:hexsha": "49a034259f6d157bc9e258763cc7c88434d3fb3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-waker-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9f59093adcde0083b3faa5ad400e6cc302e1aca6",
+      "git:hexsha": "9f59093adcde0083b3faa5ad400e6cc302e1aca6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-channel-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f683b1de9af75703c7b880599ddd6d59c0426087",
+      "git:hexsha": "f683b1de9af75703c7b880599ddd6d59c0426087",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-channel-v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/1eb13aecc1cdd12f2a7d9bb451598645b8dd3fb9",
+      "git:hexsha": "1eb13aecc1cdd12f2a7d9bb451598645b8dd3fb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-channel-v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ef18a8342e5d6e863a116081c855043b9b91c7af",
+      "git:hexsha": "ef18a8342e5d6e863a116081c855043b9b91c7af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-waker-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b6e375b15c7d7bcc7402686c19ea7e32d847ea8b",
+      "git:hexsha": "b6e375b15c7d7bcc7402686c19ea7e32d847ea8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "local-waker-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/49a6f525be92789b847e3e80fa0c288001c0dabe",
+      "git:hexsha": "49a6f525be92789b847e3e80fa0c288001c0dabe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ab496a71b576b29a9fd07064c11eda55428fb552",
+      "git:hexsha": "ab496a71b576b29a9fd07064c11eda55428fb552",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4ec358575ed9b1a9636c8b83d349f6a5eeaddaa2",
+      "git:hexsha": "4ec358575ed9b1a9636c8b83d349f6a5eeaddaa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d4c46b7da9db2c14670ce65d5804ed3012361928",
+      "git:hexsha": "d4c46b7da9db2c14670ce65d5804ed3012361928",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.2.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/605ec251432786b169490aac60679388aa902d95",
+      "git:hexsha": "605ec251432786b169490aac60679388aa902d95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/00775884f801f6fde40967b7243fa82a69125790",
+      "git:hexsha": "00775884f801f6fde40967b7243fa82a69125790",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/47f278b17ab0b45de94ffcba30e48b3dbb9f7a2a",
+      "git:hexsha": "47f278b17ab0b45de94ffcba30e48b3dbb9f7a2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3eba5b152e889ab45e24fcabdc1ddb4f06799d6f",
+      "git:hexsha": "3eba5b152e889ab45e24fcabdc1ddb4f06799d6f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/79fcb78bab4712f1135408a1668afde92164585e",
+      "git:hexsha": "79fcb78bab4712f1135408a1668afde92164585e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "macros-v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/428e6984675cd37cca9fe512e090166ce9227fc2",
+      "git:hexsha": "428e6984675cd37cca9fe512e090166ce9227fc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "resolvconf-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e1ce388f052e099a92628c67c7eb9ea0798acd14",
+      "git:hexsha": "e1ce388f052e099a92628c67c7eb9ea0798acd14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "resolvconf-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/bb7a87cf55154ef1471bbad60ec84f8ab041117f",
+      "git:hexsha": "bb7a87cf55154ef1471bbad60ec84f8ab041117f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "resolvconf-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f6969140385fdf467b9171da9ac424e40306e3d0",
+      "git:hexsha": "f6969140385fdf467b9171da9ac424e40306e3d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/629ed05f8244b5ef2a1a7d3b37d757be0da9bb42",
+      "git:hexsha": "629ed05f8244b5ef2a1a7d3b37d757be0da9bb42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/51c4dfe5cb8325935ce2e63d5477075827120479",
+      "git:hexsha": "51c4dfe5cb8325935ce2e63d5477075827120479",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/76c317e0b20ca6d24109d7fefc32c5f9c9f09e23",
+      "git:hexsha": "76c317e0b20ca6d24109d7fefc32c5f9c9f09e23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/059e2ad04279372537f75b728adb3557cdd96183",
+      "git:hexsha": "059e2ad04279372537f75b728adb3557cdd96183",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a14f6123827a48eab85930622a34cc8f81e60f31",
+      "git:hexsha": "a14f6123827a48eab85930622a34cc8f81e60f31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/110457477a7ebe0c7e5ed3801150e00f31d69f3a",
+      "git:hexsha": "110457477a7ebe0c7e5ed3801150e00f31d69f3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a2a9d9764d9471f9df13a972ac3c232050d7067e",
+      "git:hexsha": "a2a9d9764d9471f9df13a972ac3c232050d7067e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7dddeab2a8c4fdcd0c7de6aa4303aca8faffcd53",
+      "git:hexsha": "7dddeab2a8c4fdcd0c7de6aa4303aca8faffcd53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/6c65e2a79fd4972ef34e12353ed7c26f0058dc3a",
+      "git:hexsha": "6c65e2a79fd4972ef34e12353ed7c26f0058dc3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a95afe2800913faf03fa98389a6f56a32ae79980",
+      "git:hexsha": "a95afe2800913faf03fa98389a6f56a32ae79980",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7ee42b50b406b0d8b9ba809e55b96b9bd4c6dc52",
+      "git:hexsha": "7ee42b50b406b0d8b9ba809e55b96b9bd4c6dc52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b0d44198ba42ecc0888b2d53e019202b0cdf2d5a",
+      "git:hexsha": "b0d44198ba42ecc0888b2d53e019202b0cdf2d5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3be3e11aa5efdb4c8fbb5977e1ff36bc5597f0a9",
+      "git:hexsha": "3be3e11aa5efdb4c8fbb5977e1ff36bc5597f0a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f8f1ac94bce0309ee72a6d04ac49cd5c00e3dca2",
+      "git:hexsha": "f8f1ac94bce0309ee72a6d04ac49cd5c00e3dca2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "router-v0.5.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/de66b5c776444166c0a6a6e2e422f3bbdfdcc9c9",
+      "git:hexsha": "de66b5c776444166c0a6a6e2e422f3bbdfdcc9c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/c03d869694c87e6d72d0686e360344c94fb1c3f3",
+      "git:hexsha": "c03d869694c87e6d72d0686e360344c94fb1c3f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/bef199f8312d624a2d1d1e6c9462ce241d7c4046",
+      "git:hexsha": "bef199f8312d624a2d1d1e6c9462ce241d7c4046",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7c5afc09a6f8f39e6b9461f42584501400607270",
+      "git:hexsha": "7c5afc09a6f8f39e6b9461f42584501400607270",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "threadpool-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/07708c5e9aa05a10d762919d18463e6ccdfed18f",
+      "git:hexsha": "07708c5e9aa05a10d762919d18463e6ccdfed18f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/94e673b50b7996ff0ab553f176eaee6a18fff2ab",
+      "git:hexsha": "94e673b50b7996ff0ab553f176eaee6a18fff2ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9fa2a36b4ec963ac81e13599f94de70c14c894e9",
+      "git:hexsha": "9fa2a36b4ec963ac81e13599f94de70c14c894e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e315cf28931fad56dab47b7b464b39273ad1d1fb",
+      "git:hexsha": "e315cf28931fad56dab47b7b464b39273ad1d1fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/65e2e8052e28b8d67a60673355a8e3decc8c68c1",
+      "git:hexsha": "65e2e8052e28b8d67a60673355a8e3decc8c68c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/343b3c09fc1e2e37cbd1f40679610cc94273fe0c",
+      "git:hexsha": "343b3c09fc1e2e37cbd1f40679610cc94273fe0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f48e3f4cb0cf5779b43d5ec465a646253d96057f",
+      "git:hexsha": "f48e3f4cb0cf5779b43d5ec465a646253d96057f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a2e03700e736cf56a9bbe36c286d4ffc785bbeee",
+      "git:hexsha": "a2e03700e736cf56a9bbe36c286d4ffc785bbeee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.0.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/057e7cd7c95513db7cc1e33f3fe34fb93fc75775",
+      "git:hexsha": "057e7cd7c95513db7cc1e33f3fe34fb93fc75775",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.0.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b4a3f51659962b09d3c5044cfa39afbf5bd1800a",
+      "git:hexsha": "b4a3f51659962b09d3c5044cfa39afbf5bd1800a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/cb07ead39251994e9deeaabe3eadb5bd337bc463",
+      "git:hexsha": "cb07ead39251994e9deeaabe3eadb5bd337bc463",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/06ddad00514ffef8638cc859e532891570808063",
+      "git:hexsha": "06ddad00514ffef8638cc859e532891570808063",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0d3d1926bcd7fba1a7fdc20e78e3c97d939f97e2",
+      "git:hexsha": "0d3d1926bcd7fba1a7fdc20e78e3c97d939f97e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5267bc2c895485e53e75524f53fb2ec9b21ad1d8",
+      "git:hexsha": "5267bc2c895485e53e75524f53fb2ec9b21ad1d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/177daef068a1852ec2ccdd3676b008977a828fa1",
+      "git:hexsha": "177daef068a1852ec2ccdd3676b008977a828fa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/dc2ee5d22aed88ff90a8456489afa464515963ef",
+      "git:hexsha": "dc2ee5d22aed88ff90a8456489afa464515963ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a8401aa58ead1acd14345a4cbd2274a02c557e1a",
+      "git:hexsha": "a8401aa58ead1acd14345a4cbd2274a02c557e1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f5382cd2c8760d223cc24047b6cf6efd99a760ac",
+      "git:hexsha": "f5382cd2c8760d223cc24047b6cf6efd99a760ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0ee8d032b6ad6c127afb675d58c909741b278c5c",
+      "git:hexsha": "0ee8d032b6ad6c127afb675d58c909741b278c5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5c555a9408c9e6e34aa9319f747a85e2f06c4751",
+      "git:hexsha": "5c555a9408c9e6e34aa9319f747a85e2f06c4751",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a2437eed29fe98dcd9fd21d080c8cc3d791d0e11",
+      "git:hexsha": "a2437eed29fe98dcd9fd21d080c8cc3d791d0e11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b1d5d85e72deafd45f79d96a52dc18156e90a2dc",
+      "git:hexsha": "b1d5d85e72deafd45f79d96a52dc18156e90a2dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3e132d2bc67a9ca3a4cda02749ef606df194a70a",
+      "git:hexsha": "3e132d2bc67a9ca3a4cda02749ef606df194a70a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d13461b33749ebeee78539f01c8d4931d4433295",
+      "git:hexsha": "d13461b33749ebeee78539f01c8d4931d4433295",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/150d2c05d3a07b382d88b59e6fd17ec55a34cda3",
+      "git:hexsha": "150d2c05d3a07b382d88b59e6fd17ec55a34cda3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rt-v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3288b7648d19b2445ee43cbc33408de5296e5024",
+      "git:hexsha": "3288b7648d19b2445ee43cbc33408de5296e5024",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d38eb00793a41fa1916a447b368e7938088807b7",
+      "git:hexsha": "d38eb00793a41fa1916a447b368e7938088807b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/fd3e77ea8358b7efe3fe3a11cf58d41a905dfe89",
+      "git:hexsha": "fd3e77ea8358b7efe3fe3a11cf58d41a905dfe89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e8a1664c15a7611d4418087d4a37f68b15aeef72",
+      "git:hexsha": "e8a1664c15a7611d4418087d4a37f68b15aeef72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/37d28304c9c01296424f3bfce640ad390d9c3afe",
+      "git:hexsha": "37d28304c9c01296424f3bfce640ad390d9c3afe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/8d62ac4b2f036f4203cf327b5c37af68f272a6c9",
+      "git:hexsha": "8d62ac4b2f036f4203cf327b5c37af68f272a6c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e354c6df92451b4b3738f08c2c5b5ad1c4cb1996",
+      "git:hexsha": "e354c6df92451b4b3738f08c2c5b5ad1c4cb1996",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/81ba7cafaa0ca1dbd441e5af2ee69cac00fcd56d",
+      "git:hexsha": "81ba7cafaa0ca1dbd441e5af2ee69cac00fcd56d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-2.0.0-beta.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ae9bc5ae78e1025a6b717a77ed31621e7786c5d5",
+      "git:hexsha": "ae9bc5ae78e1025a6b717a77ed31621e7786c5d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ae27b87641f0812f931baebf9e2f1cf5819ba4d5",
+      "git:hexsha": "ae27b87641f0812f931baebf9e2f1cf5819ba4d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2955e49d78c5299fa8923c3b76d5e383baf829fc",
+      "git:hexsha": "2955e49d78c5299fa8923c3b76d5e383baf829fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-config-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2667850d6002942abce895ef8302dfafd8e831c7",
+      "git:hexsha": "2667850d6002942abce895ef8302dfafd8e831c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-config-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2e4c84dbb6663199e2db8502aa9293edb1b81c4e",
+      "git:hexsha": "2e4c84dbb6663199e2db8502aa9293edb1b81c4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b6f952b0362b66e538c088355507445ed8fa8d65",
+      "git:hexsha": "b6f952b0362b66e538c088355507445ed8fa8d65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/720230b8522fd58653bb750f8690d926dab731d9",
+      "git:hexsha": "720230b8522fd58653bb750f8690d926dab731d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3add90628f3871797794bbd727c5828ff661dc4f",
+      "git:hexsha": "3add90628f3871797794bbd727c5828ff661dc4f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f1d0d5f6f98f200b6be0a51fc096fe2b40daf819",
+      "git:hexsha": "f1d0d5f6f98f200b6be0a51fc096fe2b40daf819",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/c1b183e1cea13772f23b148e37d18c16dcec2d0a",
+      "git:hexsha": "c1b183e1cea13772f23b148e37d18c16dcec2d0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/311bb14d97e7530031149c561a907404b3753182",
+      "git:hexsha": "311bb14d97e7530031149c561a907404b3753182",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4837a901e2c2d3ced41c14ac9a09b492c0192ef9",
+      "git:hexsha": "4837a901e2c2d3ced41c14ac9a09b492c0192ef9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e3155957a8db7ac8e2f429508da9459455a8e7ba",
+      "git:hexsha": "e3155957a8db7ac8e2f429508da9459455a8e7ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9d84d14ef4926e087b596dc4dfae05272becd838",
+      "git:hexsha": "9d84d14ef4926e087b596dc4dfae05272becd838",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/1918c8d4f8ace8327dd2446711a9e318777fcaf9",
+      "git:hexsha": "1918c8d4f8ace8327dd2446711a9e318777fcaf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/13b503435fbcfb49d15874848f2c62b9fe0c3182",
+      "git:hexsha": "13b503435fbcfb49d15874848f2c62b9fe0c3182",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2d2b0591a25d5734955c6c8041ffa390a1642cb7",
+      "git:hexsha": "2d2b0591a25d5734955c6c8041ffa390a1642cb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/681eeb497d1c822995dee5d2784d869108f8cf9a",
+      "git:hexsha": "681eeb497d1c822995dee5d2784d869108f8cf9a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ef83647ac9936d3b6e3520e42156dcb53dd42674",
+      "git:hexsha": "ef83647ac9936d3b6e3520e42156dcb53dd42674",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "testing-v2.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5285656bdc7baa3a2aaedf3985083a23c1009bfc",
+      "git:hexsha": "5285656bdc7baa3a2aaedf3985083a23c1009bfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/16ba77c4c8f08c0cb0876f43de781fd29ddf0012",
+      "git:hexsha": "16ba77c4c8f08c0cb0876f43de781fd29ddf0012",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.0-beta.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b068ea16f89afecf6becf56178098742342e67ab",
+      "git:hexsha": "b068ea16f89afecf6becf56178098742342e67ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/76338a58223c2e7261047ceff3253e5f71ad8c6b",
+      "git:hexsha": "76338a58223c2e7261047ceff3253e5f71ad8c6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-beta.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ca435b25750601861777b6bf744b842a6dcb3218",
+      "git:hexsha": "ca435b25750601861777b6bf744b842a6dcb3218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/443a328fb44a996349c4e3979bf0acf3ddd65b8d",
+      "git:hexsha": "443a328fb44a996349c4e3979bf0acf3ddd65b8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-beta.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ba901c70df0adb1d5519119b5a79f2a64414c359",
+      "git:hexsha": "ba901c70df0adb1d5519119b5a79f2a64414c359",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ae9afd4de7f9babde38b41adefd67370cea83b4d",
+      "git:hexsha": "ae9afd4de7f9babde38b41adefd67370cea83b4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.0.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4b6a581ef365a8b321847d0be52395b0a30842f3",
+      "git:hexsha": "4b6a581ef365a8b321847d0be52395b0a30842f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/910c181251251da38948b9297464aab84edcd719",
+      "git:hexsha": "910c181251251da38948b9297464aab84edcd719",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/97e8c571cf034b5d441d3ceca02cfb8f785fce7b",
+      "git:hexsha": "97e8c571cf034b5d441d3ceca02cfb8f785fce7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9d4b1673aac8f359148a667b465069a639a8605e",
+      "git:hexsha": "9d4b1673aac8f359148a667b465069a639a8605e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/064da0e3ffbfc2be674c8aa157a489459a749d53",
+      "git:hexsha": "064da0e3ffbfc2be674c8aa157a489459a749d53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a9fb7dd845c9c1d58afbb04c8d61bcc92c3e88e3",
+      "git:hexsha": "a9fb7dd845c9c1d58afbb04c8d61bcc92c3e88e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/fc4d07234eaecd728cbdfe0e23aa7736b9e87c31",
+      "git:hexsha": "fc4d07234eaecd728cbdfe0e23aa7736b9e87c31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/6c90bfe5a7ac88d84b2e8903b30eddcce2a74bb6",
+      "git:hexsha": "6c90bfe5a7ac88d84b2e8903b30eddcce2a74bb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a2a21b9c17d469dab80d88a67a73d0e59db493b9",
+      "git:hexsha": "a2a21b9c17d469dab80d88a67a73d0e59db493b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/897e08b9f6118bd7df24b135aeaf0f1e42ffa644",
+      "git:hexsha": "897e08b9f6118bd7df24b135aeaf0f1e42ffa644",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/c4ca17a91e61f5190abbbbaa4e2e23be3cf13cf7",
+      "git:hexsha": "c4ca17a91e61f5190abbbbaa4e2e23be3cf13cf7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/eec7142bdc89c84e2205fe1202c759f87637dedd",
+      "git:hexsha": "eec7142bdc89c84e2205fe1202c759f87637dedd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d11ff56251b655b0b5dcdaa3e2a29735a4084c8f",
+      "git:hexsha": "d11ff56251b655b0b5dcdaa3e2a29735a4084c8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/f4f97bd952bd850c0a78b7d0b1c7581d7df137d9",
+      "git:hexsha": "f4f97bd952bd850c0a78b7d0b1c7581d7df137d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "server-v2.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5f37d85f9be49848adefe3a60a3e155b2a23cadd",
+      "git:hexsha": "5f37d85f9be49848adefe3a60a3e155b2a23cadd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/61939c7af2faf1eca46c6ccd5e429ef7a56c738b",
+      "git:hexsha": "61939c7af2faf1eca46c6ccd5e429ef7a56c738b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/bf9bd97173ca3cd82e40fcde5e7b4646a2de9bd7",
+      "git:hexsha": "bf9bd97173ca3cd82e40fcde5e7b4646a2de9bd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/316974616ac74bf431da34ca783564b2926e74c5",
+      "git:hexsha": "316974616ac74bf431da34ca783564b2926e74c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/cfb62ccc402d7ea5d23276dccb538842878b46f6",
+      "git:hexsha": "cfb62ccc402d7ea5d23276dccb538842878b46f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/515bfad8301b6770077cd9b98f9bb452f2ba7a02",
+      "git:hexsha": "515bfad8301b6770077cd9b98f9bb452f2ba7a02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d83bf9530467ff2c02bca23d973496796789771f",
+      "git:hexsha": "d83bf9530467ff2c02bca23d973496796789771f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0063a26aab1e4b810f10f0a45a2b3d5b6ca645a2",
+      "git:hexsha": "0063a26aab1e4b810f10f0a45a2b3d5b6ca645a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3d7daabdd7d69feba6bb2abb2d20075f29210784",
+      "git:hexsha": "3d7daabdd7d69feba6bb2abb2d20075f29210784",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/fbf4444b04c9571e0f27ab6e6b11c95e26bc11b0",
+      "git:hexsha": "fbf4444b04c9571e0f27ab6e6b11c95e26bc11b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/8c48bf4de7cfc9969dc02f8b78e6456e3db5f867",
+      "git:hexsha": "8c48bf4de7cfc9969dc02f8b78e6456e3db5f867",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/ed14e6b8ea399fda67dc165b7967ef6c6f7d6b52",
+      "git:hexsha": "ed14e6b8ea399fda67dc165b7967ef6c6f7d6b52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/86f57e5a4a05a10b42e9ee7dfaadc01126a811d4",
+      "git:hexsha": "86f57e5a4a05a10b42e9ee7dfaadc01126a811d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/02ab804e0bf80aa90494bc95bf4b344a0b607158",
+      "git:hexsha": "02ab804e0bf80aa90494bc95bf4b344a0b607158",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a60112c71e41133e9b6cc9395417f0383be0326c",
+      "git:hexsha": "a60112c71e41133e9b6cc9395417f0383be0326c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a2134035d6ea37d71101070008bdcb3dd691c6d1",
+      "git:hexsha": "a2134035d6ea37d71101070008bdcb3dd691c6d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/158482cd2ff68f9a9c4f47b104e33db99a3968d6",
+      "git:hexsha": "158482cd2ff68f9a9c4f47b104e33db99a3968d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/1a644c6bb1e3710d7976b4a54fdca07e4c4af6c6",
+      "git:hexsha": "1a644c6bb1e3710d7976b4a54fdca07e4c4af6c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/c094f84b854dec6cb6bff37f97153ee55289f165",
+      "git:hexsha": "c094f84b854dec6cb6bff37f97153ee55289f165",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b599bc4a0caff190f257125f876b00391d9a1a14",
+      "git:hexsha": "b599bc4a0caff190f257125f876b00391d9a1a14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7c5fa25b23a802b27e8066caf4e01e3c2cedeb35",
+      "git:hexsha": "7c5fa25b23a802b27e8066caf4e01e3c2cedeb35",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5940731ef0b30f64c9ff95b36adad02e9a0b62fe",
+      "git:hexsha": "5940731ef0b30f64c9ff95b36adad02e9a0b62fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/dbfa13d6bec6e3233a6c0b8266d5d81009e993bd",
+      "git:hexsha": "dbfa13d6bec6e3233a6c0b8266d5d81009e993bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a5a6b6704c636623737734b7730d2d940db756b5",
+      "git:hexsha": "a5a6b6704c636623737734b7730d2d940db756b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/1c4e96536637cde59110e298b322c5332f4caeba",
+      "git:hexsha": "1c4e96536637cde59110e298b322c5332f4caeba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/46bfe5de36b17bf0f262aaf2a32f51ff297d3b08",
+      "git:hexsha": "46bfe5de36b17bf0f262aaf2a32f51ff297d3b08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.0-beta.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a77b70aed2f1cc58a34bc7598ca39b533008157b",
+      "git:hexsha": "a77b70aed2f1cc58a34bc7598ca39b533008157b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/b03fe7c5b6c34f2338b75c7ceaae1de5b4b8896b",
+      "git:hexsha": "b03fe7c5b6c34f2338b75c7ceaae1de5b4b8896b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5d2da0fdc734bc487c91cf943633829f46fd0a95",
+      "git:hexsha": "5d2da0fdc734bc487c91cf943633829f46fd0a95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/70f0008f42ebcc272f56660116e2a85414184c82",
+      "git:hexsha": "70f0008f42ebcc272f56660116e2a85414184c82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "service-v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0410f59cf569857e18dac4cba80232bc80442679",
+      "git:hexsha": "0410f59cf569857e18dac4cba80232bc80442679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "test-server-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/1fcc0734b55d6536cf59b98073595cb4d19d3cb5",
+      "git:hexsha": "1fcc0734b55d6536cf59b98073595cb4d19d3cb5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "test-server-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d3208bf7a841908c4c623bdf79d6ee6bddd7324d",
+      "git:hexsha": "d3208bf7a841908c4c623bdf79d6ee6bddd7324d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "test-server-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7712de3d8e8b26c5131b1adec80f2a8bad319f23",
+      "git:hexsha": "7712de3d8e8b26c5131b1adec80f2a8bad319f23",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "test-server-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9957f2813785f7793205527178ceadd424b3a3ea",
+      "git:hexsha": "9957f2813785f7793205527178ceadd424b3a3ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "testing-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/41e49e8093667c29584f7ee638937b645b49faf9",
+      "git:hexsha": "41e49e8093667c29584f7ee638937b645b49faf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "testing-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0b0060fe47f1a5bc8921b33571b530df64ee17fe",
+      "git:hexsha": "0b0060fe47f1a5bc8921b33571b530df64ee17fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "testing-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/11a1e11858f1640ad7cf5036e957b2b4538152b5",
+      "git:hexsha": "11a1e11858f1640ad7cf5036e957b2b4538152b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "testing-v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/7051888289c39f003a65b11b43488471db3fddf6",
+      "git:hexsha": "7051888289c39f003a65b11b43488471db3fddf6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "threadpool-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3821d511d0a737a46b5df2a9d877b4a7d02290f1",
+      "git:hexsha": "3821d511d0a737a46b5df2a9d877b4a7d02290f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "threadpool-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/c897c5d3eb850c4e6b002deca3e5937574e79152",
+      "git:hexsha": "c897c5d3eb850c4e6b002deca3e5937574e79152",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "threadpool-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/61176f64101e06ab90d14342af7e8e95ecf17450",
+      "git:hexsha": "61176f64101e06ab90d14342af7e8e95ecf17450",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "threadpool-v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/77b782665843dc8e14ddacd6cb1d81db83e52fc4",
+      "git:hexsha": "77b782665843dc8e14ddacd6cb1d81db83e52fc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/693d5132a944b260b68071b938b6b2e532a7982c",
+      "git:hexsha": "693d5132a944b260b68071b938b6b2e532a7982c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v2.0.0-alpha.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/89a4c2ee270c04a1081cda77f7ce0a06b4a17ba7",
+      "git:hexsha": "89a4c2ee270c04a1081cda77f7ce0a06b4a17ba7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/0934078947e294f6a70b56ecbf50cd41a963e47b",
+      "git:hexsha": "0934078947e294f6a70b56ecbf50cd41a963e47b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/303666278a358a854f6242f6243d97493a86eef8",
+      "git:hexsha": "303666278a358a854f6242f6243d97493a86eef8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/70ea5322ab0394f363665193bf9cdd90d53164f5",
+      "git:hexsha": "70ea5322ab0394f363665193bf9cdd90d53164f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/54d1d9e520b575b58b104b0fceaf103727c9d542",
+      "git:hexsha": "54d1d9e520b575b58b104b0fceaf103727c9d542",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-beta.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/183bcf6ae33f38c6d1757653a0d9450072a0ae13",
+      "git:hexsha": "183bcf6ae33f38c6d1757653a0d9450072a0ae13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/eb490a91257119da606ac269468c02b754d37c30",
+      "git:hexsha": "eb490a91257119da606ac269468c02b754d37c30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4c9ee88ec4d3298efc6f01244a9ac0d08d8085ce",
+      "git:hexsha": "4c9ee88ec4d3298efc6f01244a9ac0d08d8085ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5e290d76f8011cc7deb5844f6180e8d396b45873",
+      "git:hexsha": "5e290d76f8011cc7deb5844f6180e8d396b45873",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5029beb8667b186da0dcca4a44a9026b6e7c1e74",
+      "git:hexsha": "5029beb8667b186da0dcca4a44a9026b6e7c1e74",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/14272a1762680aec65b59ac084819e4bd0d4e4a6",
+      "git:hexsha": "14272a1762680aec65b59ac084819e4bd0d4e4a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/1a5d85ec8b107e28106c188ab7945e8df36f3171",
+      "git:hexsha": "1a5d85ec8b107e28106c188ab7945e8df36f3171",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/57fd6ea8098d1f2d281c305fc331216c4fe1992e",
+      "git:hexsha": "57fd6ea8098d1f2d281c305fc331216c4fe1992e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/24be36b18d0a649867de0a7a9740cc7599e4bf13",
+      "git:hexsha": "24be36b18d0a649867de0a7a9740cc7599e4bf13",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3143a2cb735a092ec75e5bebe25835f5316f9459",
+      "git:hexsha": "3143a2cb735a092ec75e5bebe25835f5316f9459",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/95524f35f4ec8aa791d340366dbf335f77ff1bf5",
+      "git:hexsha": "95524f35f4ec8aa791d340366dbf335f77ff1bf5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tls-v3.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/e7c24395431ba0191abf776512730f4b65143830",
+      "git:hexsha": "e7c24395431ba0191abf776512730f4b65143830",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "tracing-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/442163690e1effe780114c7de8a7802b7e552960",
+      "git:hexsha": "442163690e1effe780114c7de8a7802b7e552960",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/17d0f84f6389f2b72f6fbfed9d8b57abe33382da",
+      "git:hexsha": "17d0f84f6389f2b72f6fbfed9d8b57abe33382da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/32f471888051099eadde90faf100670edcd8c6ec",
+      "git:hexsha": "32f471888051099eadde90faf100670edcd8c6ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a97d7f0ccfa1190b979f91c5a87b7cf040e4d4f1",
+      "git:hexsha": "a97d7f0ccfa1190b979f91c5a87b7cf040e4d4f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/6ea128fac5c948ca62d5e26665f0d0eb4b211216",
+      "git:hexsha": "6ea128fac5c948ca62d5e26665f0d0eb4b211216",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/672c3936a658b2b54a4e21df729391eef9975857",
+      "git:hexsha": "672c3936a658b2b54a4e21df729391eef9975857",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/700abc997ef61a6764f9abe46ccdc01f4b44c9c6",
+      "git:hexsha": "700abc997ef61a6764f9abe46ccdc01f4b44c9c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/15dafeff3daad33e6aaf7e4666ee286737f8376d",
+      "git:hexsha": "15dafeff3daad33e6aaf7e4666ee286737f8376d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/3618f542fbe1ec61b1d55d2cdfdbeb9b806d2549",
+      "git:hexsha": "3618f542fbe1ec61b1d55d2cdfdbeb9b806d2549",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.3.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/810fa869ae54b5a6d50cd90d503caedad094416c",
+      "git:hexsha": "810fa869ae54b5a6d50cd90d503caedad094416c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/a76fcaf4d8029aee03babe5fcb7057f51ec70c3d",
+      "git:hexsha": "a76fcaf4d8029aee03babe5fcb7057f51ec70c3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/fdf2a6f422700620ae3b440adfa5f2f57ef82293",
+      "git:hexsha": "fdf2a6f422700620ae3b440adfa5f2f57ef82293",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/27baf03f64d6e63b3d610c31320ccdc6e26d501b",
+      "git:hexsha": "27baf03f64d6e63b3d610c31320ccdc6e26d501b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/23a230a83b1db7b89a2dd8ceeb772e3d6c5a8582",
+      "git:hexsha": "23a230a83b1db7b89a2dd8ceeb772e3d6c5a8582",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9d1b428b344c0d78cd70b8b481c58c43546b20da",
+      "git:hexsha": "9d1b428b344c0d78cd70b8b481c58c43546b20da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/41145040e142726707ba50eff3cac5646f13a771",
+      "git:hexsha": "41145040e142726707ba50eff3cac5646f13a771",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9982a9498d5c36be672101e939d9576cd681aa52",
+      "git:hexsha": "9982a9498d5c36be672101e939d9576cd681aa52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2e8c2c77337ac3f7a1a0fd2d3c8636a163c8607a",
+      "git:hexsha": "2e8c2c77337ac3f7a1a0fd2d3c8636a163c8607a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/2c81c22b3edfd03b1ee2da651d2fe8ac857deb1d",
+      "git:hexsha": "2c81c22b3edfd03b1ee2da651d2fe8ac857deb1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/52ecb4bcc5b5c2f006c14a42ce855ec1dd81ff73",
+      "git:hexsha": "52ecb4bcc5b5c2f006c14a42ce855ec1dd81ff73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/5fe759cc02dd77974b75b7fdd08b5e649fa95558",
+      "git:hexsha": "5fe759cc02dd77974b75b7fdd08b5e649fa95558",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/9f00daea804f0b7aad22f43a8c88764677bff550",
+      "git:hexsha": "9f00daea804f0b7aad22f43a8c88764677bff550",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/978e4f25fb0078e02165c11784fa2694b72ed57a",
+      "git:hexsha": "978e4f25fb0078e02165c11784fa2694b72ed57a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/6d66cfb06a6541674e5dc19897bf0e2e7b6bc3cf",
+      "git:hexsha": "6d66cfb06a6541674e5dc19897bf0e2e7b6bc3cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.0-beta.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/d5a9a6a1c51c37cf4b1a6799d22cfa7531a9ea17",
+      "git:hexsha": "d5a9a6a1c51c37cf4b1a6799d22cfa7531a9ea17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/62a86fd96eb5a1f6dffc20e94f9506de28ed7e94",
+      "git:hexsha": "62a86fd96eb5a1f6dffc20e94f9506de28ed7e94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "utils-v3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4ff8c248c7ab4db5b6d7d315773c0ea06e66ff9e",
+      "git:hexsha": "4ff8c248c7ab4db5b6d7d315773c0ea06e66ff9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/4eabf3994a065eebd118c6fb20ecc095e6828ca0",
+      "git:hexsha": "4eabf3994a065eebd118c6fb20ecc095e6828ca0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/38235c14bb15cd138c50d0197e27e357efb9a244",
+      "git:hexsha": "38235c14bb15cd138c50d0197e27e357efb9a244",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/29fe995a0215a311d0b06aafa81eaf77bf9f94ef",
+      "git:hexsha": "29fe995a0215a311d0b06aafa81eaf77bf9f94ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/410204a41e7f6e244e60a36de87c8f20aeff991a",
+      "git:hexsha": "410204a41e7f6e244e60a36de87c8f20aeff991a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/c62567f85f5915a6d2e8291a2b8c87ba2eb06fc9",
+      "git:hexsha": "c62567f85f5915a6d2e8291a2b8c87ba2eb06fc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-net/commit/298727dcbdf52c2fc9c8dc0b759bc99d963d1f2c",
+      "git:hexsha": "298727dcbdf52c2fc9c8dc0b759bc99d963d1f2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.2.5"
+    }
+  ]
+}

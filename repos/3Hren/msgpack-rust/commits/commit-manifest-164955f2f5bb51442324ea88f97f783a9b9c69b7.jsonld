@@ -48,10 +48,40 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/164955f2f5bb51442324ea88f97f783a9b9c69b7/chunk-001.nq.gz",
       "repolex:graphFileSize": 5181759
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/164955f2f5bb51442324ea88f97f783a9b9c69b7.nq.gz",
+      "repolex:graphFileSize": 595411
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:23:59.717842+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.6.0"
+  "git:tagName": "v0.6.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/byteorder",
+      "repolex:packageName": "byteorder"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rustc-serialize",
+      "repolex:packageName": "rustc-serialize"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_macros"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    }
+  ]
 }
