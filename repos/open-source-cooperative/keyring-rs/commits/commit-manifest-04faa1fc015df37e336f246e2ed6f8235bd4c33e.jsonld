@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/04faa1fc015df37e336f246e2ed6f8235bd4c33e/chunk-001.nq.gz",
       "repolex:graphFileSize": 901533
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/04faa1fc015df37e336f246e2ed6f8235bd4c33e.nq.gz",
+      "repolex:graphFileSize": 123450
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:55:19.853498+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v4.0.0-rc.3"
+  "git:tagName": "v4.0.0-rc.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64",
+      "git:hexsha": "e14400697453bcc85997119b874bc03d9601d0af",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "e0c26b09f0457284033610664423a44ed1ab9949",
+      "git:tagName": "v4.5.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/smol-rs/fastrand",
+      "repolex:packageName": "fastrand",
+      "git:hexsha": "8419f8916f08c63572b4f7cbdc07cec94c1fc5ed",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-source-cooperative/keyring-core",
+      "repolex:packageName": "keyring-core",
+      "git:hexsha": "5e6419e3b6db516017194cb42d14cfb698a9dbc3",
+      "git:tagName": "v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/conradkleinespel/rpassword",
+      "repolex:packageName": "rpassword",
+      "git:hexsha": "24d0dd1f1c26090ee7cdb6fce9d3aaf9cc399663",
+      "git:tagName": "v7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/conradkleinespel/rprompt",
+      "repolex:packageName": "rprompt",
+      "git:hexsha": "051b2df73c8eeac8e5ef9f5075cf91f05a0b43ec",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/stevelr/db-keystore",
+      "repolex:packageName": "db-keystore"
+    }
+  ]
 }
