@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42/chunk-001.nq.gz",
       "repolex:graphFileSize": 324290
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42.nq.gz",
+      "repolex:graphFileSize": 28285
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:52:23.713353+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "debugger_test_parser-0.2.0"
+  "git:tagName": "debugger_test_parser-0.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "704622f25d098b9e9925b93fbe2540745ff73f92",
+      "git:tagName": "1.0.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "7fb28c36c7a418912612ab37ab49bd4ca1a3a7f5",
+      "git:tagName": "0.4.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "580174640767bc171f73d73ae3b84fbf44083a4f",
+      "git:tagName": "1.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/rust_debugger_test",
+      "repolex:packageName": "debugger_test_parser",
+      "git:hexsha": "2c1afbc978766d7fb7ab82b279431f847dfadcd6",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "fc9ee6a249f2d594713c16b1646670924b33334d",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    }
+  ]
 }

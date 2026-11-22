@@ -48,10 +48,66 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/89f5f55f9cf8da4e2a697a1fd5018284c2b1eb0f/chunk-001.nq.gz",
       "repolex:graphFileSize": 8951828
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/89f5f55f9cf8da4e2a697a1fd5018284c2b1eb0f.nq.gz",
+      "repolex:graphFileSize": 1266108
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:39:47.574559+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.0"
+  "git:tagName": "v0.9.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/SimonSapin/rust-std-candidates",
+      "repolex:packageName": "matches"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "07800f02587c3206c23a6c6b410d89fd9c396432",
+      "git:tagName": "0.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "d51ae89656fda527ef1bccf53fca0ad78ecb8c29",
+      "git:tagName": "v2.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools",
+      "git:hexsha": "73bb81aba95d9ed6ad3fde0404fc1341fce8ed06",
+      "git:tagName": "0.7.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/assert-rs/assert_cli",
+      "repolex:packageName": "assert_cli",
+      "git:hexsha": "189026bd80f67b538e3e77f3826bfa5b976ad731",
+      "git:tagName": "v0.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/phsym/prettytable-rs",
+      "repolex:packageName": "prettytable-rs",
+      "git:hexsha": "db825d9959c9c6037202e7af4d6a42bdcd95a20c",
+      "git:tagName": "v0.6.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rustc-serialize",
+      "repolex:packageName": "rustc-serialize"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/quickcheck",
+      "repolex:packageName": "quickcheck",
+      "git:hexsha": "2143dc8ecfb01ab8fcf65e410243ba207ca23dc0",
+      "git:tagName": "0.6.2"
+    }
+  ]
 }
