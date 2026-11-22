@@ -54,10 +54,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/80fe900b21f6d76c1a2ed74d3343e8a3a88c46d0/chunk-001.nq.gz",
       "repolex:graphFileSize": 1993810
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/80fe900b21f6d76c1a2ed74d3343e8a3a88c46d0.nq.gz",
+      "repolex:graphFileSize": 235228
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:47:33.471623+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.21.4"
+  "git:tagName": "v1.21.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "parking_lot_core"
+    },
+    {
+      "@id": "https://repolex.ai/r/taiki-e/portable-atomic",
+      "repolex:packageName": "portable-atomic"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-embedded/critical-section",
+      "repolex:packageName": "critical-section"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "ab88aa5c6824ebe7c4b4c72fe5191681783b3a68",
+      "git:tagName": "1.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/xshell",
+      "repolex:packageName": "xshell",
+      "git:hexsha": "9a405946ecbbfe50fe4a7229bd764194154e4ce6",
+      "git:tagName": "v0.2.7"
+    }
+  ]
 }
