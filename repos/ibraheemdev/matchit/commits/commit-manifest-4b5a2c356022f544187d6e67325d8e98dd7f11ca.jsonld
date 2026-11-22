@@ -48,10 +48,78 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4b5a2c356022f544187d6e67325d8e98dd7f11ca/chunk-001.nq.gz",
       "repolex:graphFileSize": 2161496
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4b5a2c356022f544187d6e67325d8e98dd7f11ca.nq.gz",
+      "repolex:graphFileSize": 197967
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T15:02:26.105424+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.2"
+  "git:tagName": "v0.9.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/actix/actix-web",
+      "repolex:packageName": "actix-router"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustasync/route-recognizer",
+      "repolex:packageName": "route-recognizer"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-darpi/darpi",
+      "repolex:packageName": "gonzales"
+    },
+    {
+      "@id": "https://repolex.ai/r/viz-rs/path-tree",
+      "repolex:packageName": "path-tree"
+    },
+    {
+      "@id": "https://repolex.ai/r/jbr/routefinder",
+      "repolex:packageName": "routefinder"
+    },
+    {
+      "@id": "https://repolex.ai/r/SwornSystems/wayfind",
+      "repolex:packageName": "wayfind"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower",
+      "repolex:packageName": "tower",
+      "git:hexsha": "7dc533ef86b02f89f3dc5fe64644dd1a5dc3b37d",
+      "git:tagName": "tower-0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http-body",
+      "repolex:packageName": "http-body-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/hyper",
+      "repolex:packageName": "hyper"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/hyper-util",
+      "repolex:packageName": "hyper-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+      "git:tagName": "v1.5.0"
+    }
+  ]
 }
