@@ -48,10 +48,38 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c2b517fbc900ed837cc4dfc3253de630beab0227/chunk-001.nq.gz",
       "repolex:graphFileSize": 2238904
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c2b517fbc900ed837cc4dfc3253de630beab0227.nq.gz",
+      "repolex:graphFileSize": 278711
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:49:45.155186+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.1"
+  "git:tagName": "v0.9.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/getopts",
+      "repolex:packageName": "getopts"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/term",
+      "repolex:packageName": "term"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/num_cpus",
+      "repolex:packageName": "num_cpus",
+      "git:hexsha": "b347731fc0c008dbb88b406c595b1e644458fffe",
+      "git:tagName": "v1.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if",
+      "git:hexsha": "e60fa1efeab0ec6e90c50d93ec526e1410459c23",
+      "git:tagName": "1.0.0"
+    }
+  ]
 }
