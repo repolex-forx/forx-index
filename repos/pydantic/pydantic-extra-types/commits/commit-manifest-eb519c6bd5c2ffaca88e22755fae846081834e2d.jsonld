@@ -48,10 +48,90 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/eb519c6bd5c2ffaca88e22755fae846081834e2d/chunk-001.nq.gz",
       "repolex:graphFileSize": 6516302
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/eb519c6bd5c2ffaca88e22755fae846081834e2d.nq.gz",
+      "repolex:graphFileSize": 860366
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:13:40.619772+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.11.2"
+  "git:tagName": "v2.11.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "b75cb28e64a57c5656574f244ec4eb59e656dc75",
+      "git:tagName": "v2.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/daviddrysdale/python-phonenumbers",
+      "repolex:packageName": "phonenumbers"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycountry/pycountry",
+      "repolex:packageName": "pycountry"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-jsonschema/jsonschema",
+      "repolex:packageName": "jsonschema",
+      "git:hexsha": "86e41f326fdfe6fdcaa50d40cb40389faace7395",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-semver/python-semver",
+      "repolex:packageName": "semver",
+      "git:hexsha": "ec9348aefd8e9f287f451fcf2e837621a40e3ca4",
+      "git:tagName": "3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/mdomke/python-ulid",
+      "repolex:packageName": "python-ulid"
+    },
+    {
+      "@id": "https://repolex.ai/r/sdispater/pendulum",
+      "repolex:packageName": "pendulum",
+      "git:hexsha": "0fcd10217af0469b3edda072f2b152d5273f3d58",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mongodb/mongo-python-driver",
+      "repolex:packageName": "pymongo"
+    },
+    {
+      "@id": "https://repolex.ai/r/stub42/pytz",
+      "repolex:packageName": "pytz"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/tzdata",
+      "repolex:packageName": "tzdata",
+      "git:hexsha": "7e71c6bf79c2a68dbaab908e51aa4f5985a65d08",
+      "git:tagName": "2024.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/Sonic0/cron-converter",
+      "repolex:packageName": "cron-converter",
+      "git:hexsha": "be87e0976fcf95e2ad33859f95516fc68d61569c",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aminalaee/uuid-utils",
+      "repolex:packageName": "uuid-utils",
+      "git:hexsha": "5412ceae9e2ff18a7b1df30c58c31d68688fa731",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    }
+  ]
 }
