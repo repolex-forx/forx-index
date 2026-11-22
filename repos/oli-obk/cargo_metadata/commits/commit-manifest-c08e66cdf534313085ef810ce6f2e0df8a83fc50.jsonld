@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c08e66cdf534313085ef810ce6f2e0df8a83fc50/chunk-001.nq.gz",
       "repolex:graphFileSize": 1559355
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c08e66cdf534313085ef810ce6f2e0df8a83fc50.nq.gz",
+      "repolex:graphFileSize": 145440
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:24:36.379364+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.23.1"
+  "git:tagName": "0.23.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/camino-rs/camino",
+      "repolex:packageName": "camino",
+      "git:hexsha": "35f9ed0235ae78697b9adab01fe20bec8359c2f4",
+      "git:tagName": "camino-1.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cargo",
+      "repolex:packageName": "cargo-platform",
+      "git:hexsha": "15b497b10c8261f09f15130595f696fcf29c3619",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/colin-kiegel/rust-derive-builder",
+      "repolex:packageName": "derive_builder"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/semver",
+      "repolex:packageName": "semver",
+      "git:hexsha": "3e64fdbfce78bfbd2eb97bdbdc50ce4d62c9831b",
+      "git:tagName": "1.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "49d098debdf8b5c38bfb6868f455c6ce542c422c",
+      "git:tagName": "v1.0.219"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "1731167cd5dd6358944aabf8ab8504a2f5162018",
+      "git:tagName": "v1.0.142"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror",
+      "git:hexsha": "95a512669395f30cf9ae10343149726c0563ed76",
+      "git:tagName": "2.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    }
+  ]
 }
