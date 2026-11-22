@@ -48,10 +48,26 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/be7c1c43f264699f956b70ce8e29941bd1e61bde/chunk-001.nq.gz",
       "repolex:graphFileSize": 149112
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/be7c1c43f264699f956b70ce8e29941bd1e61bde.nq.gz",
+      "repolex:graphFileSize": 10794
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:05:37.410165+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.5.0"
+  "git:tagName": "1.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/GuillaumeGomez/doc-comment",
+      "repolex:packageName": "doc-comment"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild"
+    }
+  ]
 }
