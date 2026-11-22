@@ -48,10 +48,194 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/dc729222070b508381b8dc81c027b0c0e6720567/chunk-001.nq.gz",
       "repolex:graphFileSize": 4511207
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/dc729222070b508381b8dc81c027b0c0e6720567.nq.gz",
+      "repolex:graphFileSize": 538782
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:21:33.541640+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "near-workspaces-v0.22.1"
+  "git:tagName": "near-workspaces-v0.22.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "20572a6d066958542d79cdd6cf1a7cd9f0c8e1f8",
+      "git:tagName": "v1.0.154"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-token",
+      "repolex:packageName": "near-token",
+      "git:hexsha": "7f51e57466ea8ca34a4251f2d9c277505e3a80e1",
+      "git:tagName": "v0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-account-id",
+      "repolex:packageName": "near-account-id",
+      "git:hexsha": "3414fb1ac23322f78e73ba3200007648365e329e",
+      "git:tagName": "v2.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "572d3b0c176085c485b8fa7818a04b769097bd72",
+      "git:tagName": "0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url",
+      "git:hexsha": "ad1c66cbff6e318393d872641e30589ff9687b9c",
+      "git:tagName": "v2.5.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-gas",
+      "repolex:packageName": "near-gas",
+      "git:hexsha": "37e6f247ffca9439bf19fd7edfd7552427bc3e58",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-primitives"
+    },
+    {
+      "@id": "https://repolex.ai/r/djc/tokio-retry",
+      "repolex:packageName": "tokio-retry",
+      "git:hexsha": "ac65a792c49812fdd5289e76904e78e20184333d",
+      "git:tagName": "v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "2d55f6faf9be83e7e4634129fb96813241aac2b8",
+      "git:tagName": "tracing-0.1.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-jsonrpc-client-rs",
+      "repolex:packageName": "near-jsonrpc-client",
+      "git:hexsha": "0650612f55da8692bff471c8e0610c5a640890ab",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "b53b2001ed2ccfd9b87e32a0c6da1a1eebdc80b8",
+      "git:tagName": "tokio-1.54.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/bluss/maplit",
+      "repolex:packageName": "maplit",
+      "git:hexsha": "04936f703da907bc4ffdaced121e4cfd5ecbaec6",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/idubrov/json-patch",
+      "repolex:packageName": "json-patch",
+      "git:hexsha": "c1f14b5c2ce02646e9ab77dd8779554caabe735a",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-sandbox-rs",
+      "repolex:packageName": "near-sandbox",
+      "git:hexsha": "8b1dcf9f5685f3305d1ebf5058cec27217b03d61",
+      "git:tagName": "v0.3.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-abi-client-rs",
+      "repolex:packageName": "near-abi-client-macros"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-primitives-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-crypto"
+    },
+    {
+      "@id": "https://repolex.ai/r/Nullus157/bs58-rs",
+      "repolex:packageName": "bs58",
+      "git:hexsha": "7d3c9282d2595612e5474df93dd0e017db9b684f",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64",
+      "git:hexsha": "e14400697453bcc85997119b874bc03d9601d0af",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-subscriber"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/cargo-near",
+      "repolex:packageName": "cargo-near-build"
+    },
+    {
+      "@id": "https://repolex.ai/r/camino-rs/camino",
+      "repolex:packageName": "camino",
+      "git:hexsha": "86ed28351d83fa7ef8287bcd5af36b8a4f073c0c",
+      "git:tagName": "camino-1.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-jsonrpc-primitives"
+    },
+    {
+      "@id": "https://repolex.ai/r/d-e-s-o/test-log",
+      "repolex:packageName": "test-log",
+      "git:hexsha": "b7b9da034578877997e0cbfb59ea11507e0a3da8",
+      "git:tagName": "v0.2.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono",
+      "repolex:packageName": "chrono",
+      "git:hexsha": "170338250e836976a211e64728ec956e45e78a39",
+      "git:tagName": "v0.4.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/async-trait",
+      "repolex:packageName": "async-trait",
+      "git:hexsha": "82e7e9edd60f622294373a23c0ce9c0077ad0263",
+      "git:tagName": "0.1.92"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-abi-client-rs",
+      "repolex:packageName": "near-abi-client"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest",
+      "git:hexsha": "d97859910c357827ad5993d37ce750ad595f4fff",
+      "git:tagName": "v0.12.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    }
+  ]
 }
