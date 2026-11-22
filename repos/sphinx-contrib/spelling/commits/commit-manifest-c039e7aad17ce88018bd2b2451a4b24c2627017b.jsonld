@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c039e7aad17ce88018bd2b2451a4b24c2627017b/chunk-001.nq.gz",
       "repolex:graphFileSize": 916178
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c039e7aad17ce88018bd2b2451a4b24c2627017b.nq.gz",
+      "repolex:graphFileSize": 102011
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:30:06.718645+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "8.0.2"
+  "git:tagName": "8.0.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pyenchant/pyenchant",
+      "repolex:packageName": "pyenchant",
+      "git:hexsha": "021a4808faec00e17f15655b96d2c92a1f0ed9b6",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "8178597970186365de88a44bb18c83f978b5ba05",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "0e322af87745eff34caffe4df68456ebc20d9068",
+      "git:tagName": "v2.32.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata",
+      "git:hexsha": "7e35ac1e6f23e92c66279837b17ce3847434c846",
+      "git:tagName": "v10.2.0"
+    }
+  ]
 }
