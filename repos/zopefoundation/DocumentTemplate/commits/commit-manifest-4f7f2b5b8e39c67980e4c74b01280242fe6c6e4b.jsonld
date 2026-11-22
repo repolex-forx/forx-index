@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4f7f2b5b8e39c67980e4c74b01280242fe6c6e4b/chunk-001.nq.gz",
       "repolex:graphFileSize": 4786147
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4f7f2b5b8e39c67980e4c74b01280242fe6c6e4b.nq.gz",
+      "repolex:graphFileSize": 545874
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:03:38.881533+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "5.3"
+  "git:tagName": "5.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/AccessControl",
+      "repolex:packageName": "accesscontrol",
+      "git:hexsha": "4acebba0ffe57e020c847acd84eed276dd9e1696",
+      "git:tagName": "4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/Acquisition",
+      "repolex:packageName": "acquisition"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/ExtensionClass",
+      "repolex:packageName": "extensionclass",
+      "git:hexsha": "236dad822aa6791808ba4b17c5c8012ce455b7af",
+      "git:tagName": "4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/RestrictedPython",
+      "repolex:packageName": "restrictedpython",
+      "git:hexsha": "4655a49cc4f0e96ba387f0153c45cb22eb63c5ba",
+      "git:tagName": "4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/roman",
+      "repolex:packageName": "roman"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zExceptions",
+      "repolex:packageName": "zexceptions"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.sequencesort",
+      "repolex:packageName": "zope-sequencesort"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.structuredtext",
+      "repolex:packageName": "zope-structuredtext"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
