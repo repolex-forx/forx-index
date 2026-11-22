@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6c0f2ccdfabc37ce002d8c073457bc447c089d20/chunk-001.nq.gz",
       "repolex:graphFileSize": 301588
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6c0f2ccdfabc37ce002d8c073457bc447c089d20.nq.gz",
+      "repolex:graphFileSize": 36827
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:58:52.410998+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.2.0"
+  "git:tagName": "v3.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/is-stream",
+      "repolex:packageName": "is-stream",
+      "git:hexsha": "6913e344ab2dd63041bb7c03095876ce5a7e0a8b",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/temp-dir",
+      "repolex:packageName": "temp-dir",
+      "git:hexsha": "b84f39c50d4767e8f1b19ba920665c0ed16d6e95",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/type-fest",
+      "repolex:packageName": "type-fest",
+      "git:hexsha": "20fa30a64247910e37ee12c2d96c59bf1f9f776e",
+      "git:tagName": "v2.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/unique-string",
+      "repolex:packageName": "unique-string",
+      "git:hexsha": "bbb5d66aa474cab942dfa5b412f74d9ac68b976d",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/avajs/ava",
+      "repolex:packageName": "ava",
+      "git:hexsha": "306e37c3d87e711a0a6f548b5efcb22fb424925d",
+      "git:tagName": "v5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/path-exists",
+      "repolex:packageName": "path-exists",
+      "git:hexsha": "7c95f5c1f5f811c7f4dac78ab5b9e258491f03af",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/isaacs/node-touch",
+      "repolex:packageName": "touch",
+      "git:hexsha": "7706a0d249c72edd90adbeb37ec8d4ca2b9a9a7f",
+      "git:tagName": "v3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tsdjs/tsd",
+      "repolex:packageName": "tsd",
+      "git:hexsha": "45b209ce5e98fa75be12e5c1ca5959b5e760d7a7",
+      "git:tagName": "v0.28.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/xojs/xo",
+      "repolex:packageName": "xo",
+      "git:hexsha": "423c5178784890ff586f1a2d734b493d41880da2",
+      "git:tagName": "v0.54.2"
+    }
+  ]
 }
