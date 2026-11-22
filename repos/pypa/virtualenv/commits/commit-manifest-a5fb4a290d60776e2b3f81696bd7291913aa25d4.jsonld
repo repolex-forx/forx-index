@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a5fb4a290d60776e2b3f81696bd7291913aa25d4/chunk-001.nq.gz",
       "repolex:graphFileSize": 8934648
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a5fb4a290d60776e2b3f81696bd7291913aa25d4.nq.gz",
+      "repolex:graphFileSize": 1290951
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:10:40.768159+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "21.2.3"
+  "git:tagName": "21.2.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/distlib",
+      "repolex:packageName": "distlib",
+      "git:hexsha": "ede595be71bb4635832688b39289fa996c7733c1",
+      "git:tagName": "0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/filelock",
+      "repolex:packageName": "filelock",
+      "git:hexsha": "c2c43e456b4369ecac8c932115e41b3addc5c3d6",
+      "git:tagName": "3.16.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/platformdirs",
+      "repolex:packageName": "platformdirs",
+      "git:hexsha": "aadc9d01acc067131c4ea52da36624c1fe2ed001",
+      "git:tagName": "3.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/python-discovery",
+      "repolex:packageName": "python-discovery",
+      "git:hexsha": "50d83545a3594ce1a5425d8ec33309bc37552707",
+      "git:tagName": "1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "4525e9dbbd177b4ef8a84f55ff5fe127582a071d",
+      "git:tagName": "4.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
