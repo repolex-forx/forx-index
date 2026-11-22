@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5b762967d38beabbd5d4120e7f7de7206d3c854d/chunk-001.nq.gz",
       "repolex:graphFileSize": 4368348
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5b762967d38beabbd5d4120e7f7de7206d3c854d.nq.gz",
+      "repolex:graphFileSize": 653344
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:07:05.181753+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "7.1"
+  "git:tagName": "7.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.i18nmessageid",
+      "repolex:packageName": "zope-i18nmessageid"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.interface",
+      "repolex:packageName": "zope-interface"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.schema",
+      "repolex:packageName": "zope-schema"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+      "git:tagName": "v9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/repoze/repoze.sphinx.autointerface",
+      "repolex:packageName": "repoze-sphinx-autointerface",
+      "git:hexsha": "ba8f7f26df46250ee8408c621c423de1e1b2327b",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.testing",
+      "repolex:packageName": "zope-testing"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.testrunner",
+      "repolex:packageName": "zope-testrunner",
+      "git:hexsha": "975be756a3420e8cccc9647d34deb82686c1c52b",
+      "git:tagName": "6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
