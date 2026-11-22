@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d5144cd2874862d46466c900910cd8577d066019/chunk-001.nq.gz",
       "repolex:graphFileSize": 21650994
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d5144cd2874862d46466c900910cd8577d066019.nq.gz",
+      "repolex:graphFileSize": 1008031
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:25:52.469071+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.3.47"
+  "git:tagName": "v0.3.47",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/jhpratt/powerfmt",
+      "repolex:packageName": "powerfmt",
+      "git:hexsha": "5889a2a65c99836fd718340726f6b4379bc5028f",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jhpratt/deranged",
+      "repolex:packageName": "deranged"
+    },
+    {
+      "@id": "https://repolex.ai/r/jhpratt/num-conv",
+      "repolex:packageName": "num-conv",
+      "git:hexsha": "b43655fc31333d287f0c397ba18d08b658426d65",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "0bdbcedf3fb4ff60c251fa618252c2e154200739",
+      "git:tagName": "v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "98473ee6f9b44eb85154b59b67adade7f2a9b8a1",
+      "git:tagName": "0.9.2"
+    }
+  ]
 }
