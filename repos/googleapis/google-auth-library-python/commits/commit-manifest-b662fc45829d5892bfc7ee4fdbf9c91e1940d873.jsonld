@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b662fc45829d5892bfc7ee4fdbf9c91e1940d873/chunk-001.nq.gz",
       "repolex:graphFileSize": 26971031
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b662fc45829d5892bfc7ee4fdbf9c91e1940d873.nq.gz",
+      "repolex:graphFileSize": 3323878
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:40:31.306905+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.0.0.dev0"
+  "git:tagName": "v3.0.0.dev0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/certifi/python-certifi",
+      "repolex:packageName": "certifi",
+      "git:hexsha": "bf6a4859116b0cba96673893e394298bbe529b1f",
+      "git:tagName": "2026.11.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkem/cachetools",
+      "repolex:packageName": "cachetools",
+      "git:hexsha": "0876d5eef0f8abbd7af77a355b49ebc07a823239",
+      "git:tagName": "v8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/aiohttp",
+      "repolex:packageName": "aiohttp",
+      "git:hexsha": "f17c631bddcfd4ec712342db28f1d3381a3fec71",
+      "git:tagName": "v3.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/multidict",
+      "repolex:packageName": "multidict",
+      "git:hexsha": "f50870cb46f0146579a1b9d69eeb3f57776eee63",
+      "git:tagName": "v7.2.1"
+    }
+  ]
 }
