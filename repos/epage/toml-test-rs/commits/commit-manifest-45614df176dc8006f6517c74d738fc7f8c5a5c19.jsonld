@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/45614df176dc8006f6517c74d738fc7f8c5a5c19/chunk-001.nq.gz",
       "repolex:graphFileSize": 500975
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/45614df176dc8006f6517c74d738fc7f8c5a5c19.nq.gz",
+      "repolex:graphFileSize": 60929
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:21:53.974189+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.0.4"
+  "git:tagName": "v1.0.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "8c036ee5a313b849c52eaaef6421c3b68dd1a350",
+      "git:tagName": "v1.0.145"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "44d9c53e2507636c0c2afee0c9c132095dddb7df",
+      "git:tagName": "v1.0.85"
+    },
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono",
+      "repolex:packageName": "chrono",
+      "git:hexsha": "45142764ab6e1f2957437aa187970b94d3aaeadc",
+      "git:tagName": "v0.4.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/ryu",
+      "repolex:packageName": "ryu",
+      "git:hexsha": "9764b3d0ff54177a7fa64d0a1e22de3acf0af09e",
+      "git:tagName": "1.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/epage/toml-test-rs",
+      "repolex:packageName": "toml-test-data"
+    },
+    {
+      "@id": "https://repolex.ai/r/LukasKalbertodt/libtest-mimic",
+      "repolex:packageName": "libtest-mimic",
+      "git:hexsha": "af6e4275411e23cb0bd524ff7efbea8ccf4ca7d0",
+      "git:tagName": "v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/ripgrep",
+      "repolex:packageName": "ignore"
+    },
+    {
+      "@id": "https://repolex.ai/r/Michael-F-Bryan/include_dir",
+      "repolex:packageName": "include_dir"
+    },
+    {
+      "@id": "https://repolex.ai/r/Michael-F-Bryan/include_dir",
+      "repolex:packageName": "include_dir_macros"
+    }
+  ]
 }
