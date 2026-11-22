@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/1d85feca150ee7e1356794ab17c7be10fecaac54/chunk-001.nq.gz",
       "repolex:graphFileSize": 338412
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1d85feca150ee7e1356794ab17c7be10fecaac54.nq.gz",
+      "repolex:graphFileSize": 33515
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:13:59.235588+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.36"
+  "git:tagName": "0.1.36",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "6cb41f895657424f8f64eecbd7e8ad392b0b26e0",
+      "git:tagName": "1.0.74"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "b01743f24cb5b19f96a3eac6bce0e7aee10f6199",
+      "git:tagName": "1.0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "1650c861a408dcaaa5d77f07472e22cb5aa2abb2",
+      "git:tagName": "2.0.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion",
+      "git:hexsha": "01eae109f33b47fc93243db4407b9d4df68abccf",
+      "git:tagName": "1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/scratch",
+      "repolex:packageName": "scratch"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "89963402acbd517e9fd0697b8152461c823037d0",
+      "git:tagName": "1.0.108"
+    }
+  ]
 }
