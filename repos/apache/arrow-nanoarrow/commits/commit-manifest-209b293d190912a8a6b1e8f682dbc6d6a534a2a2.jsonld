@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/209b293d190912a8a6b1e8f682dbc6d6a534a2a2/chunk-001.nq.gz",
       "repolex:graphFileSize": 47581517
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/209b293d190912a8a6b1e8f682dbc6d6a534a2a2.nq.gz",
+      "repolex:graphFileSize": 3388601
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:09:13.194955+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "apache-arrow-nanoarrow-0.9.0.dev"
+  "git:tagName": "apache-arrow-nanoarrow-0.9.0.dev",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    }
+  ]
 }
