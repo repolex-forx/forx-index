@@ -48,10 +48,132 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/9a0724d4b012ec42552f9463d6ebf56a5460c152/chunk-001.nq.gz",
       "repolex:graphFileSize": 1896970
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/9a0724d4b012ec42552f9463d6ebf56a5460c152.nq.gz",
+      "repolex:graphFileSize": 228446
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:11:51.939045+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.4.1"
+  "git:tagName": "v0.4.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/explosion/confection",
+      "repolex:packageName": "confection",
+      "git:hexsha": "f950fe02d0de11ad035e7b91848fe3a76d6b7830",
+      "git:tagName": "v0.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/wasabi",
+      "repolex:packageName": "wasabi",
+      "git:hexsha": "4b0fe2c2f5c2c090b229dcedd988a37a76d58a5f",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/srsly",
+      "repolex:packageName": "srsly",
+      "git:hexsha": "63a8a1cc4c645dd964429d74565114422f3cb940",
+      "git:tagName": "v2.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/typer",
+      "repolex:packageName": "typer",
+      "git:hexsha": "f5682d31104020f7b45458e2d0d0a9c0449a5b2c",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/drivendataorg/cloudpathlib",
+      "repolex:packageName": "cloudpathlib",
+      "git:hexsha": "047eeeebfd48803286fdd325d541d2a0f0e04213",
+      "git:tagName": "v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/piskvorky/smart_open",
+      "repolex:packageName": "smart-open",
+      "git:hexsha": "b3286afa999edddd1f1acafdf4486ffd8f559c3f",
+      "git:tagName": "v5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a",
+      "git:tagName": "v2.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "e3d1c161d79d54e0e2d549f96e7b458d74088205",
+      "git:tagName": "v1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging",
+      "git:hexsha": "47d40f640fddb7c97b01315419b6a1421d2dedbb",
+      "git:tagName": "20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black",
+      "git:hexsha": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+      "git:tagName": "22.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "068ef90b92a9e9205af31cb3d82e7d2a433ff969",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "a6bd80ed8c91138ce6112b5ce71fc406d426cd01",
+      "git:tagName": "v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-requests"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-setuptools"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff",
+      "git:hexsha": "f58345dee32177d17ca323a2d60a020a3c7943a4",
+      "git:tagName": "v0.0.259"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyCQA/isort",
+      "repolex:packageName": "isort",
+      "git:hexsha": "e44834b7b294701f596c9118d6c370f86671a50d",
+      "git:tagName": "5.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit",
+      "git:hexsha": "df2cada973da6ee689cbc8e323caccf5c00df92c",
+      "git:tagName": "v3.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click",
+      "git:hexsha": "cf19179e8e2fd54c601378cec9e0d21bb12b6fb1",
+      "git:tagName": "8.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
