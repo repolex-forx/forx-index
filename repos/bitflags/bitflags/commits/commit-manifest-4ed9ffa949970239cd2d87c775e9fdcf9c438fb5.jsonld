@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4ed9ffa949970239cd2d87c775e9fdcf9c438fb5/chunk-001.nq.gz",
       "repolex:graphFileSize": 1959228
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4ed9ffa949970239cd2d87c775e9fdcf9c438fb5.nq.gz",
+      "repolex:graphFileSize": 188732
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:10:33.080925+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "2.11.1"
+  "git:tagName": "2.11.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary"
+    },
+    {
+      "@id": "https://repolex.ai/r/Lokathor/bytemuck",
+      "repolex:packageName": "bytemuck"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "f139d95467d68af76b86e2737b31e9b20ec18026",
+      "git:tagName": "1.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test",
+      "git:hexsha": "b0d0f13ec1e9c2929d71e72b0a93fee095fef682",
+      "git:tagName": "1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/zerocopy",
+      "repolex:packageName": "zerocopy"
+    }
+  ]
 }
