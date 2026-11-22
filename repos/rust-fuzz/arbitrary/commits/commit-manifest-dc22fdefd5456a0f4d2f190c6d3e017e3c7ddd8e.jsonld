@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/dc22fdefd5456a0f4d2f190c6d3e017e3c7ddd8e/chunk-001.nq.gz",
       "repolex:graphFileSize": 2159347
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/dc22fdefd5456a0f4d2f190c6d3e017e3c7ddd8e.nq.gz",
+      "repolex:graphFileSize": 217010
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:58:28.406779+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.4.2"
+  "git:tagName": "v1.4.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "derive_arbitrary"
+    },
+    {
+      "@id": "https://repolex.ai/r/graydon/exhaustigen-rs",
+      "repolex:packageName": "exhaustigen"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+      "git:tagName": "2.0.119"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/libfuzzer",
+      "repolex:packageName": "libfuzzer-sys",
+      "git:hexsha": "719e4efb9b8857ebaa782ae59376c8cbb78fed0f",
+      "git:tagName": "0.4.13"
+    }
+  ]
 }
