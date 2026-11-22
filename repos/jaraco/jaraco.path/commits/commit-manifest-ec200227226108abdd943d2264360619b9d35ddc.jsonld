@@ -48,10 +48,90 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ec200227226108abdd943d2264360619b9d35ddc/chunk-001.nq.gz",
       "repolex:graphFileSize": 186590
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ec200227226108abdd943d2264360619b9d35ddc.nq.gz",
+      "repolex:graphFileSize": 30443
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T08:42:10.072133+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.7.2"
+  "git:tagName": "v3.7.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/ronaldoussoren/pyobjc",
+      "repolex:packageName": "pyobjc"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.windows",
+      "repolex:packageName": "jaraco-windows",
+      "git:hexsha": "455a6c3e22082b9b43684bba2f7b808f13db41c3",
+      "git:tagName": "v5.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/jaraco.packaging",
+      "repolex:packageName": "jaraco-packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/rst.linker",
+      "repolex:packageName": "rst-linker",
+      "git:hexsha": "1c401270bf6df04aa6ae4f750e13364b6fb2b74c",
+      "git:tagName": "1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo",
+      "git:hexsha": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+      "git:tagName": "2025.12.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-contrib/sphinx-lint",
+      "repolex:packageName": "sphinx-lint",
+      "git:hexsha": "c883505f64b59c3c5c9375191e4ad9f98e727ccd",
+      "git:tagName": "v1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/pytest-checkdocs",
+      "repolex:packageName": "pytest-checkdocs"
+    },
+    {
+      "@id": "https://repolex.ai/r/businho/pytest-ruff",
+      "repolex:packageName": "pytest-ruff",
+      "git:hexsha": "2098829cfb8f95c2885c6dec3e229ed3092e2c1e",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaraco/pytest-enabler",
+      "repolex:packageName": "pytest-enabler"
+    },
+    {
+      "@id": "https://repolex.ai/r/realpython/pytest-mypy",
+      "repolex:packageName": "pytest-mypy",
+      "git:hexsha": "b578993c4cbb4bbf3f16aceef123b67825fe5aff",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
