@@ -48,10 +48,66 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/56587f36d1931557ea3baf3ea329da9c59ba92bb/chunk-001.nq.gz",
       "repolex:graphFileSize": 1756950
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/56587f36d1931557ea3baf3ea329da9c59ba92bb.nq.gz",
+      "repolex:graphFileSize": 231551
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:49:21.293032+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.0.116"
+  "git:tagName": "1.0.116",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/dissimilar",
+      "repolex:packageName": "dissimilar"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/glob",
+      "repolex:packageName": "glob"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "d2d977a6c6dcff237ae956336d18b0c900c61aad",
+      "git:tagName": "v1.0.194"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_derive",
+      "git:hexsha": "d2d977a6c6dcff237ae956336d18b0c900c61aad",
+      "git:tagName": "v1.0.194"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "df5cf215b70fb6341b255e7c0a210c06f64c0669",
+      "git:tagName": "v1.0.110"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/termcolor",
+      "repolex:packageName": "termcolor",
+      "git:hexsha": "a250e4650a4cc5a4d418acab57d3cf44d522b2ec",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/toml-rs/toml",
+      "repolex:packageName": "toml"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/automod",
+      "repolex:packageName": "automod",
+      "git:hexsha": "78fca0f0aab5f142ce652cb3821c1621f02bacfa",
+      "git:tagName": "1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    }
+  ]
 }
