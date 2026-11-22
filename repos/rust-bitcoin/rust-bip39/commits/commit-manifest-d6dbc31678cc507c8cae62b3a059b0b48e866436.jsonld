@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d6dbc31678cc507c8cae62b3a059b0b48e866436/chunk-001.nq.gz",
       "repolex:graphFileSize": 5020861
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d6dbc31678cc507c8cae62b3a059b0b48e866436.nq.gz",
+      "repolex:graphFileSize": 67214
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:21:09.003816+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.2.2"
+  "git:tagName": "v2.2.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-bitcoin/rust-bitcoin",
+      "repolex:packageName": "bitcoin_hashes"
+    },
+    {
+      "@id": "https://repolex.ai/r/unicode-rs/unicode-normalization",
+      "repolex:packageName": "unicode-normalization",
+      "git:hexsha": "d4318ad5a57f21b3f24ccdc55032b600b075e66d",
+      "git:tagName": "v0.1.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-bitcoin/rust-bip39",
+      "repolex:packageName": "bip39",
+      "git:hexsha": "4f182f06ce7ed707b547dbecc20128373200a89a",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "572d3b0c176085c485b8fa7818a04b769097bd72",
+      "git:tagName": "0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-bitcoin/hex-conservative",
+      "repolex:packageName": "hex-conservative",
+      "git:hexsha": "e17b9b2abf55df1d4a1c4d3ca2f9d619660ecb75",
+      "git:tagName": "hex-conservative-0.2.3"
+    }
+  ]
 }
