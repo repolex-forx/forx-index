@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/fc092817fa8689298eaac28ff49bd8bede4ff605/chunk-001.nq.gz",
       "repolex:graphFileSize": 982666
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/fc092817fa8689298eaac28ff49bd8bede4ff605.nq.gz",
+      "repolex:graphFileSize": 90590
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:45:11.987710+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.4.0"
+  "git:tagName": "v2.4.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bluss/bencher",
+      "repolex:packageName": "bencher",
+      "git:hexsha": "8afeeb1ccf7d9f58764a343a0099e140703ad287",
+      "git:tagName": "0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/time-rs/time",
+      "repolex:packageName": "time"
+    },
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono",
+      "repolex:packageName": "chrono"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    }
+  ]
 }
