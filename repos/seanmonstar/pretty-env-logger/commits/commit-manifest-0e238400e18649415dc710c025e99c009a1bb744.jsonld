@@ -48,10 +48,26 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0e238400e18649415dc710c025e99c009a1bb744/chunk-001.nq.gz",
       "repolex:graphFileSize": 156332
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0e238400e18649415dc710c025e99c009a1bb744.nq.gz",
+      "repolex:graphFileSize": 19588
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:42:44.110454+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.5.0"
+  "git:tagName": "v0.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log"
+    }
+  ]
 }
