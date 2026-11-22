@@ -48,10 +48,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/50de0961ad3479901a153a4a89ff58ca7898b550/chunk-001.nq.gz",
       "repolex:graphFileSize": 406120
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/50de0961ad3479901a153a4a89ff58ca7898b550.nq.gz",
+      "repolex:graphFileSize": 26259
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:31:07.451481+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "4.0.1"
+  "git:tagName": "4.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    }
+  ]
 }
