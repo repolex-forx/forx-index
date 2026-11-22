@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a7b8d1fbd93aefbca3003dcb5fcc6a9c2297e968/chunk-001.nq.gz",
       "repolex:graphFileSize": 6684831
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a7b8d1fbd93aefbca3003dcb5fcc6a9c2297e968.nq.gz",
+      "repolex:graphFileSize": 664993
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:26:47.849699+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.2.11"
+  "git:tagName": "0.2.11",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-pretty-assertions/rust-pretty-assertions",
+      "repolex:packageName": "pretty_assertions"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/reqwest",
+      "repolex:packageName": "reqwest",
+      "git:hexsha": "cf69fd4bfe22855d576497eb94e9eb549e742475",
+      "git:tagName": "v0.11.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/composefs/tar-rs",
+      "repolex:packageName": "tar",
+      "git:hexsha": "fc459c149f83bf4daceaa52e17d351989002e1a9",
+      "git:tagName": "0.4.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2",
+      "git:hexsha": "cd06529164c5447958f309e649ffe6c9d6329865",
+      "git:tagName": "v1.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "1dbe1862aae650423e3361fbd20b7d17c5109cc3",
+      "git:tagName": "1.0.104"
+    }
+  ]
 }
