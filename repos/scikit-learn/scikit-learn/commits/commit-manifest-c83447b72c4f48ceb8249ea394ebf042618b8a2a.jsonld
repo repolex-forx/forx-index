@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c83447b72c4f48ceb8249ea394ebf042618b8a2a/chunk-001.nq.gz",
       "repolex:graphFileSize": 30074902
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c83447b72c4f48ceb8249ea394ebf042618b8a2a.nq.gz",
+      "repolex:graphFileSize": 1757120
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T03:44:51.155845+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "sprint01"
+  "git:tagName": "sprint01",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scipy/scipy",
+      "repolex:packageName": "scipy",
+      "git:hexsha": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/joblib/joblib",
+      "repolex:packageName": "joblib",
+      "git:hexsha": "cd9a6b05fc4f2b1c8202eb62c4e863484f8cc099",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
