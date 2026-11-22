@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8f9ed33d4e7942f4be1a9eaa98c71a158b90a33e/chunk-001.nq.gz",
       "repolex:graphFileSize": 1237947
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8f9ed33d4e7942f4be1a9eaa98c71a158b90a33e.nq.gz",
+      "repolex:graphFileSize": 112801
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:53:27.983365+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.10.0"
+  "git:tagName": "1.10.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/hukkin/tomli",
+      "repolex:packageName": "tomli"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/sphinx-autodoc-typehints",
+      "repolex:packageName": "sphinx-autodoc-typehints",
+      "git:hexsha": "41100f97b15bf3e6016803805f9befb2937a3ee0",
+      "git:tagName": "3.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/asottile/covdefaults",
+      "repolex:packageName": "covdefaults"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "bfae4224fd554d3d7f2c277a4cc092b6ec6af3ae",
+      "git:tagName": "8.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-mock",
+      "repolex:packageName": "pytest-mock",
+      "git:hexsha": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+      "git:tagName": "v3.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools"
+    }
+  ]
 }
