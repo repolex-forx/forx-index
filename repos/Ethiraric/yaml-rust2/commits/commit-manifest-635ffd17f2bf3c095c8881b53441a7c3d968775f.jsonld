@@ -48,10 +48,40 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/635ffd17f2bf3c095c8881b53441a7c3d968775f/chunk-001.nq.gz",
       "repolex:graphFileSize": 3955003
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/635ffd17f2bf3c095c8881b53441a7c3d968775f.nq.gz",
+      "repolex:graphFileSize": 468874
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:57:39.878528+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.11.0"
+  "git:tagName": "v0.11.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/andylokandy/arraydeque",
+      "repolex:packageName": "arraydeque"
+    },
+    {
+      "@id": "https://repolex.ai/r/hsivonen/encoding_rs",
+      "repolex:packageName": "encoding_rs",
+      "git:hexsha": "c19edf7f9e942f8a746b8c053a343bfef2387ca6",
+      "git:tagName": "v0.8.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/djc/hashlink",
+      "repolex:packageName": "hashlink"
+    },
+    {
+      "@id": "https://repolex.ai/r/LukasKalbertodt/libtest-mimic",
+      "repolex:packageName": "libtest-mimic"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/quickcheck",
+      "repolex:packageName": "quickcheck"
+    }
+  ]
 }
