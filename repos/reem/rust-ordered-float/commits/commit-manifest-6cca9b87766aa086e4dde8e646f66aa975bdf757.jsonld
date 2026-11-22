@@ -48,10 +48,88 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6cca9b87766aa086e4dde8e646f66aa975bdf757/chunk-001.nq.gz",
       "repolex:graphFileSize": 2560927
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6cca9b87766aa086e4dde8e646f66aa975bdf757.nq.gz",
+      "repolex:graphFileSize": 237023
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:48:24.965024+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v5.3.0"
+  "git:tagName": "v5.3.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary",
+      "git:hexsha": "83b852c9bba47359ad33fc5b1f81f29425bc97e8",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh"
+    },
+    {
+      "@id": "https://repolex.ai/r/Lokathor/bytemuck",
+      "repolex:packageName": "bytemuck",
+      "git:hexsha": "7b67524a43aeee8c8e07ad8f4486cfe81e51591c",
+      "git:tagName": "v1.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/nikis05/derive-visitor",
+      "repolex:packageName": "derive-visitor"
+    },
+    {
+      "@id": "https://repolex.ai/r/lifthrasiir/num-cmp",
+      "repolex:packageName": "num-cmp",
+      "git:hexsha": "d36b130d11cdeb7953181a3235661e5ed868c776",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-traits",
+      "repolex:packageName": "num-traits",
+      "git:hexsha": "8eb83e242a54af1da0f968266dab79fb4e5c6921",
+      "git:tagName": "num-traits-0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/proptest-rs/proptest",
+      "repolex:packageName": "proptest",
+      "git:hexsha": "1ad340e7c2276d0afc4c0ac13040a1861d198895",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rkyv/rkyv",
+      "repolex:packageName": "rkyv",
+      "git:hexsha": "aa8b1a82cb1dd6c5bc4ec5941cf865f6ebab9472",
+      "git:tagName": "v0.7.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/GREsau/schemars",
+      "repolex:packageName": "schemars",
+      "git:hexsha": "e9d5f4057e84f37a4519a5413ddded82cb13ea71",
+      "git:tagName": "v0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/koute/speedy",
+      "repolex:packageName": "speedy",
+      "git:hexsha": "deb227d23bcac3798e9c103d6cf2306a28d86261",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test"
+    }
+  ]
 }
