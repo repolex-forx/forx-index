@@ -48,10 +48,70 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c4caf5caaa7e93828a2e4a4cdba1dd0171e45717/chunk-001.nq.gz",
       "repolex:graphFileSize": 44099731
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c4caf5caaa7e93828a2e4a4cdba1dd0171e45717.nq.gz",
+      "repolex:graphFileSize": 1424212
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:17:00.713106+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.4"
+  "git:tagName": "v1.1.4",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bitflags/bitflags",
+      "repolex:packageName": "bitflags",
+      "git:hexsha": "472e392c0d082c0894b18fb31f4e68e0b145e29c",
+      "git:tagName": "2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "rustc-std-workspace-alloc",
+      "git:hexsha": "a59de37e99060162a2674e3ff45409ac73595c0e",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "c773849f1de482ed2033c0ff86afd21f48980452",
+      "git:tagName": "v3.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "78b0f8a7397e177ff487f1a70a22a67ae5638f72",
+      "git:tagName": "0.2.171"
+    },
+    {
+      "@id": "https://repolex.ai/r/palfrey/serial_test",
+      "repolex:packageName": "serial_test",
+      "git:hexsha": "7e3a5ca6f33c5da1d49e36e436025b3d2e91e59e",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Gilnaa/memoffset",
+      "repolex:packageName": "memoffset",
+      "git:hexsha": "a380cb810818a3e3a205ce6d178ac2348c243a3b",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2"
+    },
+    {
+      "@id": "https://repolex.ai/r/nvzqz/static-assertions-rs",
+      "repolex:packageName": "static_assertions",
+      "git:hexsha": "18bc65a094d890fe1faa5d3ccb70f12b89eabf56",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sunfishcode/linux-raw-sys",
+      "repolex:packageName": "linux-raw-sys",
+      "git:hexsha": "0e2918cf3e366d9c923d4ca05f169b49d826db56",
+      "git:tagName": "v0.12.1"
+    }
+  ]
 }
