@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/70c96d69bfdff4fbf1cf5a770bf5a02b89426ecb/chunk-001.nq.gz",
       "repolex:graphFileSize": 1483078
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/70c96d69bfdff4fbf1cf5a770bf5a02b89426ecb.nq.gz",
+      "repolex:graphFileSize": 209982
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:52:46.420440+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.1"
+  "git:tagName": "v0.9.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-postgres/rust-postgres",
+      "repolex:packageName": "tokio-postgres"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "b53b2001ed2ccfd9b87e32a0c6da1a1eebdc80b8",
+      "git:tagName": "tokio-1.54.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/redis-rs/redis-rs",
+      "repolex:packageName": "redis"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "lock_api"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "parking_lot"
+    }
+  ]
 }

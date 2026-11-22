@@ -48,10 +48,54 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8db1b786d414cc43e4d77e73b0f7afdcf061be59/chunk-001.nq.gz",
       "repolex:graphFileSize": 4473565
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8db1b786d414cc43e4d77e73b0f7afdcf061be59.nq.gz",
+      "repolex:graphFileSize": 437351
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:51:32.039705+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "headers-v0.4.1"
+  "git:tagName": "headers-v0.4.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http",
+      "git:hexsha": "1c06623c9d97d42ac02c351ab4872d6481c793f7",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/headers",
+      "repolex:packageName": "headers-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/mime",
+      "repolex:packageName": "mime",
+      "git:hexsha": "9b6b1eb321235278560a44b43951cf1a419ff682",
+      "git:tagName": "v0.3.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyfisch/httpdate",
+      "repolex:packageName": "httpdate"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    }
+  ]
 }
