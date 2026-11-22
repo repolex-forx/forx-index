@@ -48,10 +48,48 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/1d274ae9601396830ae340f501ee0a63a2c63239/chunk-001.nq.gz",
       "repolex:graphFileSize": 274225
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1d274ae9601396830ae340f501ee0a63a2c63239.nq.gz",
+      "repolex:graphFileSize": 24036
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:46:10.238205+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v4.0.0"
+  "git:tagName": "v4.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/explosion/cymem",
+      "repolex:packageName": "cymem",
+      "git:hexsha": "face8eb2c74399e398d932ff282017d4981432c8",
+      "git:tagName": "v2.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/cython/cython",
+      "repolex:packageName": "cython",
+      "git:hexsha": "c2b80d87658a8525ce091cbe146cb7eaa29fed5c",
+      "git:tagName": "0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/murmurhash",
+      "repolex:packageName": "murmurhash",
+      "git:hexsha": "b4c0431099cc67408d054f980881503d8ed16bc2",
+      "git:tagName": "v0.28.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
