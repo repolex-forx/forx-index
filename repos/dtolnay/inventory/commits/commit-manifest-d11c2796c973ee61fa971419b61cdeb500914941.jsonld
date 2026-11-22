@@ -48,10 +48,28 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d11c2796c973ee61fa971419b61cdeb500914941/chunk-001.nq.gz",
       "repolex:graphFileSize": 231489
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d11c2796c973ee61fa971419b61cdeb500914941.nq.gz",
+      "repolex:graphFileSize": 10219
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:30:29.101222+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.3.24"
+  "git:tagName": "0.3.24",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "89963402acbd517e9fd0697b8152461c823037d0",
+      "git:tagName": "1.0.108"
+    }
+  ]
 }
