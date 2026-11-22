@@ -48,10 +48,78 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78/chunk-001.nq.gz",
       "repolex:graphFileSize": 32856797
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78.nq.gz",
+      "repolex:graphFileSize": 5064954
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:07:39.027741+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.11.0"
+  "git:tagName": "v2.11.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytorch/pytorch",
+      "repolex:packageName": "torch",
+      "git:hexsha": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bastibe/python-soundfile",
+      "repolex:packageName": "soundfile",
+      "git:hexsha": "3162358d0315be769b97f3e4c12545fe18a676bc",
+      "git:tagName": "0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/scipy/scipy",
+      "repolex:packageName": "scipy",
+      "git:hexsha": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+      "git:tagName": "v1.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/joblib/joblib",
+      "repolex:packageName": "joblib",
+      "git:hexsha": "cd9a6b05fc4f2b1c8202eb62c4e863484f8cc099",
+      "git:tagName": "1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/sentencepiece",
+      "repolex:packageName": "sentencepiece",
+      "git:hexsha": "eafd99cf3b8bfa5101c2c5f42aab2cc39947938d",
+      "git:tagName": "v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+      "git:tagName": "v4.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/transformers",
+      "repolex:packageName": "transformers",
+      "git:hexsha": "eeee11099135592f1d03c2871fbd3d8132e5a4d7",
+      "git:tagName": "v5.24.0"
+    }
+  ]
 }
