@@ -48,10 +48,104 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/900010fb1be550ec2cfa8c32038eb154f9ef56d7/chunk-001.nq.gz",
       "repolex:graphFileSize": 3427374
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/900010fb1be550ec2cfa8c32038eb154f9ef56d7.nq.gz",
+      "repolex:graphFileSize": 30869
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T16:34:57.828352+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v11.0.0"
+  "git:tagName": "v11.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+      "git:tagName": "v1.0.228"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "signature"
+    },
+    {
+      "@id": "https://repolex.ai/r/jcreekmore/pem-rs",
+      "repolex:packageName": "pem"
+    },
+    {
+      "@id": "https://repolex.ai/r/acw/simple_asn1",
+      "repolex:packageName": "simple_asn1"
+    },
+    {
+      "@id": "https://repolex.ai/r/aws/aws-lc-rs",
+      "repolex:packageName": "aws-lc-rs",
+      "git:hexsha": "ce17e88f7cddd50e8ff670860abc6aad7c0804ef",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/curve25519-dalek",
+      "repolex:packageName": "ed25519-dalek",
+      "git:hexsha": "0f07443c2d6c915bcb44417cfd2ec03aa53f0539",
+      "git:tagName": "2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/MACs",
+      "repolex:packageName": "hmac"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/elliptic-curves",
+      "repolex:packageName": "p256"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/elliptic-curves",
+      "repolex:packageName": "p384"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "937320cbfeebd4352a23086d9c6e68f067f74644",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/RSA",
+      "repolex:packageName": "rsa",
+      "git:hexsha": "a801f53a770456e71d2e7964c39ea4ddaf779765",
+      "git:tagName": "v0.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/wasm-bindgen/wasm-bindgen",
+      "repolex:packageName": "wasm-bindgen-test"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "89a1336b934c68ddce548127c6f8afd910b35a18",
+      "git:tagName": "v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/time-rs/time",
+      "repolex:packageName": "time",
+      "git:hexsha": "857d9c404c5b6f6cb64d1bfa604c695be3369e12",
+      "git:tagName": "v0.3.55"
+    }
+  ]
 }
