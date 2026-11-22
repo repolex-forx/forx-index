@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/f880a584d3d31ce65a5722f7eaadcacd3c40bd4e/chunk-001.nq.gz",
       "repolex:graphFileSize": 2103341
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f880a584d3d31ce65a5722f7eaadcacd3c40bd4e.nq.gz",
+      "repolex:graphFileSize": 233988
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:32:13.734046+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "6.0"
+  "git:tagName": "6.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
