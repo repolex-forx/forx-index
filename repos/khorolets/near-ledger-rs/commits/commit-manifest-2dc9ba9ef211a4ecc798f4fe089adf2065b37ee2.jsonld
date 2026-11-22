@@ -48,10 +48,108 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2dc9ba9ef211a4ecc798f4fe089adf2065b37ee2/chunk-001.nq.gz",
       "repolex:graphFileSize": 1390817
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2dc9ba9ef211a4ecc798f4fe089adf2065b37ee2.nq.gz",
+      "repolex:graphFileSize": 152490
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:24:56.890997+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.3"
+  "git:tagName": "v0.9.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/curve25519-dalek",
+      "repolex:packageName": "ed25519-dalek"
+    },
+    {
+      "@id": "https://repolex.ai/r/zondax/ledger-rs",
+      "repolex:packageName": "ledger-transport"
+    },
+    {
+      "@id": "https://repolex.ai/r/zondax/ledger-rs",
+      "repolex:packageName": "ledger-transport-hid"
+    },
+    {
+      "@id": "https://repolex.ai/r/zondax/ledger-rs",
+      "repolex:packageName": "ledger-apdu"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-slip10",
+      "repolex:packageName": "near-slip10"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "4708f1484c7e6b8d4418b571c05e613b18e57673",
+      "git:tagName": "0.4.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex",
+      "git:hexsha": "b2b4370b5bf021b98ee7adc92233e8de3f2de792",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh"
+    },
+    {
+      "@id": "https://repolex.ai/r/deviceplug/btleplug",
+      "repolex:packageName": "btleplug"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/byteorder",
+      "repolex:packageName": "byteorder"
+    },
+    {
+      "@id": "https://repolex.ai/r/uuid-rs/uuid",
+      "repolex:packageName": "uuid"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger",
+      "git:hexsha": "8f4361ba4439acb69068be0e181d2d1300b7218d",
+      "git:tagName": "v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-crypto"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-primitives"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/nearcore",
+      "repolex:packageName": "near-primitives-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/near-account-id",
+      "repolex:packageName": "near-account-id",
+      "git:hexsha": "86b3003c28760c6d83e32fc81439da1ce83edd6e",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "8520a7acb57fdcc4a5171d6f8e37252ee8a16432",
+      "git:tagName": "v4.5.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/signatures",
+      "repolex:packageName": "ed25519"
+    }
+  ]
 }
