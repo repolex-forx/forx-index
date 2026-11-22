@@ -48,10 +48,244 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8/chunk-001.nq.gz",
       "repolex:graphFileSize": 50809924
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8.nq.gz",
+      "repolex:graphFileSize": 5572142
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T03:21:31.493258+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.26.0"
+  "git:tagName": "v0.26.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy"
+    },
+    {
+      "@id": "https://repolex.ai/r/scipy/scipy",
+      "repolex:packageName": "scipy",
+      "git:hexsha": "5e4a5e3785f79dd4e8930eed883da89958860db2",
+      "git:tagName": "v1.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/networkx/networkx",
+      "repolex:packageName": "networkx",
+      "git:hexsha": "58994819583fddf3fea813daec520946c550bcd8",
+      "git:tagName": "networkx-3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-pillow/Pillow",
+      "repolex:packageName": "pillow"
+    },
+    {
+      "@id": "https://repolex.ai/r/imageio/imageio",
+      "repolex:packageName": "imageio"
+    },
+    {
+      "@id": "https://repolex.ai/r/cgohlke/tifffile",
+      "repolex:packageName": "tifffile",
+      "git:hexsha": "eb79f64e65fdd17fa5722dac9ce32ec6dd224f5d",
+      "git:tagName": "v2022.8.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/scientific-python/lazy-loader",
+      "repolex:packageName": "lazy-loader",
+      "git:hexsha": "4596986a8d276d19e2ad8713ec4fb8329d743a08",
+      "git:tagName": "v0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/mesonbuild/meson-python",
+      "repolex:packageName": "meson-python"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-build/ninja-python-distributions",
+      "repolex:packageName": "ninja",
+      "git:hexsha": "d07caf4d9a980431bd93082e868ea1a7693904d5",
+      "git:tagName": "1.11.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cython/cython",
+      "repolex:packageName": "cython",
+      "git:hexsha": "a1b79a6bc5326406ad73af73f5b41e3bb5f8da6e",
+      "git:tagName": "3.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/serge-sans-paille/pythran",
+      "repolex:packageName": "pythran"
+    },
+    {
+      "@id": "https://repolex.ai/r/scientific-python/spin",
+      "repolex:packageName": "spin",
+      "git:hexsha": "4c08c7c2009ba5110b657d08729ec6074b7cdb79",
+      "git:tagName": "v0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/build",
+      "repolex:packageName": "build",
+      "git:hexsha": "1e67c062e9d1b1a6d5ffed621f4b29902bb764e5",
+      "git:tagName": "1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/fatiando/pooch",
+      "repolex:packageName": "pooch",
+      "git:hexsha": "6cf0208b4bd6e1135fc96749059b1f208f28dd0c",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit",
+      "git:hexsha": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+      "git:tagName": "v4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipython",
+      "repolex:packageName": "ipython",
+      "git:hexsha": "5aa346b9f25910cc4888f44ac58b7aaa4b59da9c",
+      "git:tagName": "9.18.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scientific-python/docstub",
+      "repolex:packageName": "docstub"
+    },
+    {
+      "@id": "https://repolex.ai/r/airspeed-velocity/asv",
+      "repolex:packageName": "asv",
+      "git:hexsha": "da01e9e399f35334c72749e51a0f343be1fb832a",
+      "git:tagName": "v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-gallery/sphinx-gallery",
+      "repolex:packageName": "sphinx-gallery"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpydoc",
+      "repolex:packageName": "numpydoc"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-copybutton",
+      "repolex:packageName": "sphinx-copybutton",
+      "git:hexsha": "4a8050dea36536b005d3e757b1ac09886174f634",
+      "git:tagName": "v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/matplotlib/matplotlib",
+      "repolex:packageName": "matplotlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/dask/dask",
+      "repolex:packageName": "dask",
+      "git:hexsha": "6df830a155c241191d478809e2e2b469fa78d913",
+      "git:tagName": "2023.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pandas-dev/pandas",
+      "repolex:packageName": "pandas"
+    },
+    {
+      "@id": "https://repolex.ai/r/mwaskom/seaborn",
+      "repolex:packageName": "seaborn"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/MyST-Parser",
+      "repolex:packageName": "myst-parser",
+      "git:hexsha": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Quansight-labs/intersphinx_registry",
+      "repolex:packageName": "intersphinx-registry"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipykernel",
+      "repolex:packageName": "ipykernel",
+      "git:hexsha": "cfa461d8afac05cefc3671128d00adaa3c0720f4",
+      "git:tagName": "v7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/plotly/plotly.py",
+      "repolex:packageName": "plotly"
+    },
+    {
+      "@id": "https://repolex.ai/r/plotly/kaleido",
+      "repolex:packageName": "kaleido",
+      "git:hexsha": "624c30ca29b3a120215264b3b2e9341bf1bb4247",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/scikit-learn/scikit-learn",
+      "repolex:packageName": "scikit-learn"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-design",
+      "repolex:packageName": "sphinx-design"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydata/pydata-sphinx-theme",
+      "repolex:packageName": "pydata-sphinx-theme"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyWavelets/pywt",
+      "repolex:packageName": "pywavelets"
+    },
+    {
+      "@id": "https://repolex.ai/r/scientific-python/pytest-doctestplus",
+      "repolex:packageName": "pytest-doctestplus",
+      "git:hexsha": "720babcfb72d3aedcd62d8eda14ca75f95bef3fa",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/SimpleITK/SimpleITK",
+      "repolex:packageName": "simpleitk",
+      "git:hexsha": "ff80980f841953582b1f6f2815a1879ddfa62783",
+      "git:tagName": "v2.5.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyamg/pyamg",
+      "repolex:packageName": "pyamg"
+    },
+    {
+      "@id": "https://repolex.ai/r/astropy/astropy",
+      "repolex:packageName": "astropy"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "b45388d0bf81465759412c6b977c6a1fc5201346",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/samuelcolvin/pytest-pretty",
+      "repolex:packageName": "pytest-pretty",
+      "git:hexsha": "6233b5ab95308a1dba68198492c2705efe387ede",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-localserver",
+      "repolex:packageName": "pytest-localserver",
+      "git:hexsha": "1256e0d20b8644fb7639c9e15183e574618ccfd4",
+      "git:tagName": "v0.10.0.post0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-faulthandler",
+      "repolex:packageName": "pytest-faulthandler",
+      "git:hexsha": "27d9026dceb8bd2f89d68cdbd654f0f39aa23627",
+      "git:tagName": "2.0.1"
+    }
+  ]
 }
