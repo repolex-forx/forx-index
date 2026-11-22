@@ -48,10 +48,96 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380/chunk-001.nq.gz",
       "repolex:graphFileSize": 1328484
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380.nq.gz",
+      "repolex:graphFileSize": 87110
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:14:57.245446+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.1.0"
+  "git:tagName": "v2.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tsutsu3/uc.micro-py",
+      "repolex:packageName": "uc-micro-py",
+      "git:hexsha": "c70dfb3f5c3963705cc7da8291ee32fbf8ab4943",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "fd8e601e25c1e8dde3440fb019ec08283af1bf78",
+      "git:tagName": "7.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit",
+      "git:hexsha": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+      "git:tagName": "v4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyCQA/isort",
+      "repolex:packageName": "isort",
+      "git:hexsha": "9f905615631c545f5aea2516508109350d1d2f7d",
+      "git:tagName": "9.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycqa/flake8",
+      "repolex:packageName": "flake8",
+      "git:hexsha": "1c7fec1973ed3a7c192dbe1e96906fbbd1dbe49e",
+      "git:tagName": "7.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black",
+      "git:hexsha": "258e7dbf348bc23cb70b8cdf693481c04634ebcc",
+      "git:tagName": "26.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/csachs/pyproject-flake8",
+      "repolex:packageName": "pyproject-flake8",
+      "git:hexsha": "f437765d44b0923f852bf251c1dd5a5752a8415b",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ionelmc/pytest-benchmark",
+      "repolex:packageName": "pytest-benchmark",
+      "git:hexsha": "97c52d8e0de0ac4f307e35716f723bf0376d63d2",
+      "git:tagName": "v5.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+      "git:tagName": "v9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-book-theme",
+      "repolex:packageName": "sphinx-book-theme",
+      "git:hexsha": "52c7cbb8072bef0f60687c50d12af8c885251ba1",
+      "git:tagName": "v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/MyST-Parser",
+      "repolex:packageName": "myst-parser",
+      "git:hexsha": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+      "git:tagName": "v5.2.0"
+    }
+  ]
 }
