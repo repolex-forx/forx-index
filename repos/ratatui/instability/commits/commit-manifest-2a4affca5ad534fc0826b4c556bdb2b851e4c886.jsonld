@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2a4affca5ad534fc0826b4c556bdb2b851e4c886/chunk-001.nq.gz",
       "repolex:graphFileSize": 582836
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2a4affca5ad534fc0826b4c556bdb2b851e4c886.nq.gz",
+      "repolex:graphFileSize": 51866
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:51:51.471895+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "instability-v0.3.13"
+  "git:tagName": "instability-v0.3.13",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/TedDriggs/darling",
+      "repolex:packageName": "darling"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/indoc",
+      "repolex:packageName": "indoc"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "5046761b9689109142a02c71736284013673f0bd",
+      "git:tagName": "1.0.91"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "b01743f24cb5b19f96a3eac6bce0e7aee10f6199",
+      "git:tagName": "1.0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-pretty-assertions/rust-pretty-assertions",
+      "repolex:packageName": "pretty_assertions"
+    },
+    {
+      "@id": "https://repolex.ai/r/TedDriggs/darling",
+      "repolex:packageName": "darling_core",
+      "git:hexsha": "6b68cbe74cf5a7684c406f09558afc854022f824",
+      "git:tagName": "v0.24.1"
+    }
+  ]
 }
