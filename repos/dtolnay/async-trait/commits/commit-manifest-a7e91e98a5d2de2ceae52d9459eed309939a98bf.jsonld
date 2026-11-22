@@ -48,10 +48,78 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a7e91e98a5d2de2ceae52d9459eed309939a98bf/chunk-001.nq.gz",
       "repolex:graphFileSize": 1315348
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a7e91e98a5d2de2ceae52d9459eed309939a98bf.nq.gz",
+      "repolex:graphFileSize": 147066
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:40:51.740556+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.1.89"
+  "git:tagName": "0.1.89",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "6cb41f895657424f8f64eecbd7e8ad392b0b26e0",
+      "git:tagName": "1.0.74"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "b01743f24cb5b19f96a3eac6bce0e7aee10f6199",
+      "git:tagName": "1.0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "1650c861a408dcaaa5d77f07472e22cb5aa2abb2",
+      "git:tagName": "2.0.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures",
+      "git:hexsha": "de1a0fd64a1bcae9a1534ed4da1699632993cc26",
+      "git:tagName": "0.3.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion",
+      "git:hexsha": "01eae109f33b47fc93243db4407b9d4df68abccf",
+      "git:tagName": "1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "15600a3a67c418f53cb80ff21da57d89a5de0486",
+      "git:tagName": "tracing-0.1.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-attributes",
+      "git:hexsha": "c24621f22f367a53f1d461c873c5d49a914dc93f",
+      "git:tagName": "tracing-0.1.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "6ebfd13554caa57f1d6868f09a2d8d79b41baf64",
+      "git:tagName": "1.0.81"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-core",
+      "git:hexsha": "5a141ea9c16ccacf411b9b917a07e216ff5c6b4d",
+      "git:tagName": "tracing-0.1.36"
+    }
+  ]
 }

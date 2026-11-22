@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd/chunk-001.nq.gz",
       "repolex:graphFileSize": 1025403
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd.nq.gz",
+      "repolex:graphFileSize": 61690
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:39:15.807377+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "cli-0.1.2"
+  "git:tagName": "cli-0.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/smallvec/smallvec",
+      "repolex:packageName": "smallvec"
+    },
+    {
+      "@id": "https://repolex.ai/r/Lokathor/tinyvec",
+      "repolex:packageName": "tinyvec",
+      "git:hexsha": "6e326cc48208229d1f28abf74a3e06944c8f7bec",
+      "git:tagName": "v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/debris/base58",
+      "repolex:packageName": "base58"
+    },
+    {
+      "@id": "https://repolex.ai/r/nham/rust-base58",
+      "repolex:packageName": "rust-base58"
+    },
+    {
+      "@id": "https://repolex.ai/r/murarth/assert_matches",
+      "repolex:packageName": "assert_matches"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "8b4fc43429fd9a034649e0f919c646ec6626c4c7",
+      "git:tagName": "1.0.71"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "9c3dc187cb47dd437cdb6fee045e42dc8146e9d6",
+      "git:tagName": "v4.3.0"
+    }
+  ]
 }
