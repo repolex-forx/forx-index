@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f/chunk-001.nq.gz",
       "repolex:graphFileSize": 8242672
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f.nq.gz",
+      "repolex:graphFileSize": 876966
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:47:36.195189+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.4.10"
+  "git:tagName": "v0.4.10",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/compiler-builtins",
+      "repolex:packageName": "libm"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-bigint",
+      "repolex:packageName": "num-bigint"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-integer",
+      "repolex:packageName": "num-integer"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-traits",
+      "repolex:packageName": "num-traits"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/paste",
+      "repolex:packageName": "paste"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test"
+    },
+    {
+      "@id": "https://repolex.ai/r/jedisct1/rust-siphash",
+      "repolex:packageName": "siphasher",
+      "git:hexsha": "ee4dfba398346f324d5208c2398ea986fc7574b7",
+      "git:tagName": "0.3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/cuviper/autocfg",
+      "repolex:packageName": "autocfg"
+    }
+  ]
 }
