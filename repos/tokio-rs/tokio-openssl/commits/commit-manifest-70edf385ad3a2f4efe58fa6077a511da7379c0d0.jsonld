@@ -48,10 +48,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/70edf385ad3a2f4efe58fa6077a511da7379c0d0/chunk-001.nq.gz",
       "repolex:graphFileSize": 273013
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/70edf385ad3a2f4efe58fa6077a511da7379c0d0.nq.gz",
+      "repolex:graphFileSize": 27983
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:37:28.084468+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.6.5"
+  "git:tagName": "0.6.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util"
+    }
+  ]
 }
