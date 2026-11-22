@@ -48,10 +48,294 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/aa88d6540ca0b037347b959788ea32700509b98a/chunk-001.nq.gz",
       "repolex:graphFileSize": 23698567
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/aa88d6540ca0b037347b959788ea32700509b98a.nq.gz",
+      "repolex:graphFileSize": 3365833
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T03:19:00.325682+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "ci-release-mode-rc1"
+  "git:tagName": "ci-release-mode-rc1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/apache/arrow",
+      "repolex:packageName": "pyarrow"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyO3/pyo3-async-runtimes",
+      "repolex:packageName": "pyo3-async-runtimes"
+    },
+    {
+      "@id": "https://repolex.ai/r/vorner/pyo3-log",
+      "repolex:packageName": "pyo3-log",
+      "git:hexsha": "9674e2d39c30d8ed1dc745d60ea4002d36dc7f66",
+      "git:tagName": "v0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow-select"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-substrait"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-proto"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-ffi"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/prost",
+      "repolex:packageName": "prost",
+      "git:hexsha": "9965a988a7f95d55c106b933a82a3e657dce02c2",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/uuid-rs/uuid",
+      "repolex:packageName": "uuid"
+    },
+    {
+      "@id": "https://repolex.ai/r/purpleprotocol/mimalloc_rust",
+      "repolex:packageName": "mimalloc"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/async-trait",
+      "repolex:packageName": "async-trait",
+      "git:hexsha": "a7e91e98a5d2de2ceae52d9459eed309939a98bf",
+      "git:tagName": "0.1.89"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures"
+    },
+    {
+      "@id": "https://repolex.ai/r/upsuper/cstr",
+      "repolex:packageName": "cstr"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs-object-store",
+      "repolex:packageName": "object_store",
+      "git:hexsha": "9dc8d7df13e59d8ff6d9df138627977f0b78d6cb",
+      "git:tagName": "v0.12.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "35161d0d25838a62d518dabe1e34e84b607446b3",
+      "git:tagName": "0.4.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "parking_lot"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/prost",
+      "repolex:packageName": "prost-types",
+      "git:hexsha": "9965a988a7f95d55c106b933a82a3e657dce02c2",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyo3/pyo3",
+      "repolex:packageName": "pyo3-build-config"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata",
+      "git:hexsha": "7e35ac1e6f23e92c66279837b17ce3847434c846",
+      "git:tagName": "v10.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-expr",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-functions",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-common",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-functions-window",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-functions-aggregate",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-functions-nested",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-catalog",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-execution",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow-array",
+      "git:hexsha": "9e822e050016e659028741499388d454a74cf23c",
+      "git:tagName": "57.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-catalog-listing",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-datasource-parquet",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow-pyarrow",
+      "git:hexsha": "9e822e050016e659028741499388d454a74cf23c",
+      "git:tagName": "57.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-datasource",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow-schema",
+      "git:hexsha": "9e822e050016e659028741499388d454a74cf23c",
+      "git:tagName": "57.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/parking_lot",
+      "repolex:packageName": "lock_api"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "parquet",
+      "git:hexsha": "9e822e050016e659028741499388d454a74cf23c",
+      "git:tagName": "57.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow-cast",
+      "git:hexsha": "9e822e050016e659028741499388d454a74cf23c",
+      "git:tagName": "57.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+      "git:tagName": "0.3.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion-sqlparser-rs",
+      "repolex:packageName": "sqlparser",
+      "git:hexsha": "3c61db5dc09871405f04ea715f0a0800072568cc",
+      "git:tagName": "v0.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-functions-window-common",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-expr-common",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-session",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-physical-plan",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-physical-expr",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/datafusion",
+      "repolex:packageName": "datafusion-sql",
+      "git:hexsha": "9f3ddcecd6033a9d55161175d5dbe29697a9a922",
+      "git:tagName": "52.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow-rs",
+      "repolex:packageName": "arrow-data",
+      "git:hexsha": "9e822e050016e659028741499388d454a74cf23c",
+      "git:tagName": "57.2.0"
+    }
+  ]
 }
