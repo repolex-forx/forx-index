@@ -48,10 +48,96 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/9a2805dc8a4dc1f43b6337106a96c52472b47573/chunk-001.nq.gz",
       "repolex:graphFileSize": 458064
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/9a2805dc8a4dc1f43b6337106a96c52472b47573.nq.gz",
+      "repolex:graphFileSize": 48304
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:51:24.254946+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.0.0"
+  "git:tagName": "v3.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/dtolnay/async-trait",
+      "repolex:packageName": "async-trait",
+      "git:hexsha": "651ddc1131325b08c1b76ae6b65c1f23ca4cf7cf",
+      "git:tagName": "0.1.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/marshallpierce/rust-base64",
+      "repolex:packageName": "base64",
+      "git:hexsha": "b4fc91325ec985e2a18e83e95a3c08eebd636af4",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "sha2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/MACs",
+      "repolex:packageName": "hmac"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "d0d80783d31161c869922fad933b3623715506d2",
+      "git:tagName": "v1.0.64"
+    },
+    {
+      "@id": "https://repolex.ai/r/bincode-org/bincode",
+      "repolex:packageName": "bincode"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "704622f25d098b9e9925b93fbe2540745ff73f92",
+      "git:tagName": "1.0.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/BLAKE3-team/BLAKE3",
+      "repolex:packageName": "blake3",
+      "git:hexsha": "12642538340b3d6dad36e566217604267f94fe68",
+      "git:tagName": "0.3.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/smol-rs/async-lock",
+      "repolex:packageName": "async-lock",
+      "git:hexsha": "bba67e5ee83e5f0c9e3abbe5d112b67bab722dd3",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "9d4206770dd93f07cb27c3e1f41dc21c45031302",
+      "git:tagName": "0.4.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "d9c338ec4abd1dd6fdd305e208bff1fd7faaabff",
+      "git:tagName": "v1.0.126"
+    },
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono",
+      "repolex:packageName": "chrono",
+      "git:hexsha": "4eeedcfcc409f19d965f477d767d05f3418c4df1",
+      "git:tagName": "v0.4.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/async-rs/async-std",
+      "repolex:packageName": "async-std",
+      "git:hexsha": "b210ee36289dea779c1619fb5026fb1dcb0b50a0",
+      "git:tagName": "v1.9.0"
+    }
+  ]
 }
