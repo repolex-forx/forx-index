@@ -48,10 +48,26 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7ec3d41d39b28190ec1d42db38021107b3951f3a/chunk-001.nq.gz",
       "repolex:graphFileSize": 3107140
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7ec3d41d39b28190ec1d42db38021107b3951f3a.nq.gz",
+      "repolex:graphFileSize": 212583
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:02:12.524009+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "num-traits-0.2.19"
+  "git:tagName": "num-traits-0.2.19",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/compiler-builtins",
+      "repolex:packageName": "libm"
+    },
+    {
+      "@id": "https://repolex.ai/r/cuviper/autocfg",
+      "repolex:packageName": "autocfg"
+    }
+  ]
 }
