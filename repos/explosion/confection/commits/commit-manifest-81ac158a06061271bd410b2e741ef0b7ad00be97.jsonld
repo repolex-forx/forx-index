@@ -48,10 +48,94 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/81ac158a06061271bd410b2e741ef0b7ad00be97/chunk-001.nq.gz",
       "repolex:graphFileSize": 2263425
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/81ac158a06061271bd410b2e741ef0b7ad00be97.nq.gz",
+      "repolex:graphFileSize": 204753
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:23:52.533798+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.1.5"
+  "git:tagName": "v0.1.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "e3d1c161d79d54e0e2d549f96e7b458d74088205",
+      "git:tagName": "v1.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "7c00cacae00c4f3263e939e88b5e7739150851e5",
+      "git:tagName": "3.7.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/srsly",
+      "repolex:packageName": "srsly",
+      "git:hexsha": "6dea1bd7bdfa56f64e38c807740508ef29790648",
+      "git:tagName": "v2.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/catalogue",
+      "repolex:packageName": "catalogue",
+      "git:hexsha": "1d12f43469e0f2095c31750fcca71b0c1abd4f7e",
+      "git:tagName": "v2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/justindujardin/pathy",
+      "repolex:packageName": "pathy",
+      "git:hexsha": "2bf1cff66561ab79ef35637e60b8beb32ef4332f",
+      "git:tagName": "v0.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "068ef90b92a9e9205af31cb3d82e7d2a433ff969",
+      "git:tagName": "5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "f6b9972329d5d68f6defc92a10cc4c3bc339c27b",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "ccfbcc1cd9a4035a467f2e982a565ab27de25b6b",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycqa/flake8",
+      "repolex:packageName": "flake8",
+      "git:hexsha": "b4d285019210ccdb5d526e64c281db64e5316d6c",
+      "git:tagName": "3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyCQA/isort",
+      "repolex:packageName": "isort"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
