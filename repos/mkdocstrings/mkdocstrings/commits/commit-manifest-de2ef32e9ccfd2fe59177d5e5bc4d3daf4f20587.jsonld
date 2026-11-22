@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/de2ef32e9ccfd2fe59177d5e5bc4d3daf4f20587/chunk-001.nq.gz",
       "repolex:graphFileSize": 619867
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/de2ef32e9ccfd2fe59177d5e5bc4d3daf4f20587.nq.gz",
+      "repolex:graphFileSize": 74446
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T02:24:09.501802+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.13.1"
+  "git:tagName": "v0.13.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    }
+  ]
 }
