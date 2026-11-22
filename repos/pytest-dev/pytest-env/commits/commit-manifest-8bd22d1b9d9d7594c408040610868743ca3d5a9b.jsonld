@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8bd22d1b9d9d7594c408040610868743ca3d5a9b/chunk-001.nq.gz",
       "repolex:graphFileSize": 787271
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8bd22d1b9d9d7594c408040610868743ca3d5a9b.nq.gz",
+      "repolex:graphFileSize": 29787
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:39:19.140823+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.6.0"
+  "git:tagName": "1.6.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2",
+      "git:tagName": "9.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/theskumar/python-dotenv",
+      "repolex:packageName": "python-dotenv",
+      "git:hexsha": "36004e0e34be7665ff2b11a8a4005144f76f176d",
+      "git:tagName": "v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/hukkin/tomli",
+      "repolex:packageName": "tomli"
+    },
+    {
+      "@id": "https://repolex.ai/r/asottile/covdefaults",
+      "repolex:packageName": "covdefaults"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "4f78d57f83ff8a4976043e8a8fcea24b91891840",
+      "git:tagName": "7.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-mock",
+      "repolex:packageName": "pytest-mock",
+      "git:hexsha": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+      "git:tagName": "v3.15.1"
+    }
+  ]
 }

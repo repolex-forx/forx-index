@@ -48,10 +48,72 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e5fe944127cab62472a9657f0a5bb232e0303fc8/chunk-001.nq.gz",
       "repolex:graphFileSize": 2738183
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e5fe944127cab62472a9657f0a5bb232e0303fc8.nq.gz",
+      "repolex:graphFileSize": 288773
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:41:28.936877+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.1.0"
+  "git:tagName": "v2.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/jaraco/zipp",
+      "repolex:packageName": "zipp"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "ae9f5edd9575f7f94e45c6e9b64898db73a8b62a",
+      "git:tagName": "3.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "7807c263bcbb98ba91b50cb2b0dcdf55c49f80e6",
+      "git:tagName": "4.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "ad02a35e623d105ab7340f75558716bc09f8242e",
+      "git:tagName": "v2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "1642a816171707dd8c58da6fff8061a59348402c",
+      "git:tagName": "v2.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/explosion/srsly",
+      "repolex:packageName": "srsly",
+      "git:hexsha": "212a6d2a681c23e0a51cd1578e6e6c8e91396d50",
+      "git:tagName": "v3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }

@@ -48,10 +48,28 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/fba8cc7faf83be9f1505625d566721ee6c68ed39/chunk-001.nq.gz",
       "repolex:graphFileSize": 2363555
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/fba8cc7faf83be9f1505625d566721ee6c68ed39.nq.gz",
+      "repolex:graphFileSize": 261876
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:41:09.724740+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.12.1"
+  "git:tagName": "1.12.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+      "git:tagName": "2.8.0"
+    }
+  ]
 }
