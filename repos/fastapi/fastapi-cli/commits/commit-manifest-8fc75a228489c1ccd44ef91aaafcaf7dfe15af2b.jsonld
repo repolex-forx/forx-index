@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8fc75a228489c1ccd44ef91aaafcaf7dfe15af2b/chunk-001.nq.gz",
       "repolex:graphFileSize": 1155096
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8fc75a228489c1ccd44ef91aaafcaf7dfe15af2b.nq.gz",
+      "repolex:graphFileSize": 102017
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:12:53.863571+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.0.24"
+  "git:tagName": "0.0.24",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/fastapi/typer",
+      "repolex:packageName": "typer",
+      "git:hexsha": "9138340f90258c9ef42a5159fc6bebc7373dbdf8",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sponsors/Kludex",
+      "repolex:packageName": "uvicorn"
+    },
+    {
+      "@id": "https://repolex.ai/r/hukkin/tomli",
+      "repolex:packageName": "tomli",
+      "git:hexsha": "97b61d5b09d9fe0b64ce4d78885d1e3f2692a0e9",
+      "git:tagName": "2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapilabs/fastapi-cloud-cli",
+      "repolex:packageName": "fastapi-cloud-cli",
+      "git:hexsha": "342dcd370c9b5d1f46ccc782122f2eb0cad09e87",
+      "git:tagName": "0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/fastapi/fastapi-new",
+      "repolex:packageName": "fastapi-new",
+      "git:hexsha": "70579d49db77d20560416cec0ae05d383548f459",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+      "git:tagName": "v15.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "1642a816171707dd8c58da6fff8061a59348402c",
+      "git:tagName": "v2.14.4"
+    }
+  ]
 }
