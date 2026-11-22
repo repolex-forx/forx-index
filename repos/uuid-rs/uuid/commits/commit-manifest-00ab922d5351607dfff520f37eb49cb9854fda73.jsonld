@@ -48,10 +48,104 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/00ab922d5351607dfff520f37eb49cb9854fda73/chunk-001.nq.gz",
       "repolex:graphFileSize": 3234113
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/00ab922d5351607dfff520f37eb49cb9854fda73.nq.gz",
+      "repolex:graphFileSize": 298133
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:52:45.442455+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.23.0"
+  "git:tagName": "v1.23.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Lokathor/bytemuck",
+      "repolex:packageName": "bytemuck"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "ff3aee490abff5267cac86f07e0301aa6d441760",
+      "git:tagName": "v1.0.221"
+    },
+    {
+      "@id": "https://repolex.ai/r/slog-rs/slog",
+      "repolex:packageName": "slog"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary",
+      "git:hexsha": "8e7b857f4f78b06920a36212ed2f392bc523c1f6",
+      "git:tagName": "v1.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/zerocopy",
+      "repolex:packageName": "zerocopy"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh"
+    },
+    {
+      "@id": "https://repolex.ai/r/near/borsh-rs",
+      "repolex:packageName": "borsh-derive"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hashes",
+      "repolex:packageName": "md-5"
+    },
+    {
+      "@id": "https://repolex.ai/r/mitsuhiko/sha1-smol",
+      "repolex:packageName": "sha1_smol"
+    },
+    {
+      "@id": "https://repolex.ai/r/Amanieu/atomic-rs",
+      "repolex:packageName": "atomic"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "ff3aee490abff5267cac86f07e0301aa6d441760",
+      "git:tagName": "v1.0.221"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_derive",
+      "git:hexsha": "ff3aee490abff5267cac86f07e0301aa6d441760",
+      "git:tagName": "v1.0.221"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test",
+      "git:hexsha": "72960674f80d7e951ab5f9dd5cda3fc22441844d",
+      "git:tagName": "1.0.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "2ee6ca1e0e16dfbb56aa1bca536bcf31ffb338ae",
+      "git:tagName": "1.0.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/getrandom",
+      "repolex:packageName": "getrandom",
+      "git:hexsha": "5e7cd5733536844a9856dc7259bd4696bbe5e3ae",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "digest"
+    }
+  ]
 }
