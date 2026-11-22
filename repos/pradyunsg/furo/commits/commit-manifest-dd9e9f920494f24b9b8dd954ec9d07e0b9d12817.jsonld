@@ -48,10 +48,104 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/dd9e9f920494f24b9b8dd954ec9d07e0b9d12817/chunk-001.nq.gz",
       "repolex:graphFileSize": 761628
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/dd9e9f920494f24b9b8dd954ec9d07e0b9d12817.nq.gz",
+      "repolex:graphFileSize": 74127
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T03:24:16.465561+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "2025.12.19"
+  "git:tagName": "2025.12.19",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/postcss/autoprefixer",
+      "repolex:packageName": "autoprefixer",
+      "git:hexsha": "8060e33a78f39759f32781dd3518dae90740dc38",
+      "git:tagName": "10.4.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/css-loader",
+      "repolex:packageName": "css-loader",
+      "git:hexsha": "d5ba44ae2e0bf20d31fe43fd7a2c467937dde97d",
+      "git:tagName": "v7.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/css-minimizer-webpack-plugin",
+      "repolex:packageName": "css-minimizer-webpack-plugin",
+      "git:hexsha": "1c57d887606f0951d51a384bf6a267d1d2c58ae3",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/mini-css-extract-plugin",
+      "repolex:packageName": "mini-css-extract-plugin",
+      "git:hexsha": "7cc27899d6695e083027de1988aa2e21d47a2334",
+      "git:tagName": "v2.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/necolas/normalize.css",
+      "repolex:packageName": "normalize.css",
+      "git:hexsha": "fc091cce1534909334c1911709a39c22d406977b",
+      "git:tagName": "8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/postcss-loader",
+      "repolex:packageName": "postcss-loader",
+      "git:hexsha": "d2651fc170cf9a835d7ceeefaf96c213c05955db",
+      "git:tagName": "v8.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sass/dart-sass",
+      "repolex:packageName": "sass",
+      "git:hexsha": "7aae1e67ed3322c1caab1c8ebb2f5c28ff0b2e0b",
+      "git:tagName": "1.77.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/sass-loader",
+      "repolex:packageName": "sass-loader",
+      "git:hexsha": "729f8c9200a31bbe26c285c357990048378b4ac4",
+      "git:tagName": "v16.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack-contrib/style-loader",
+      "repolex:packageName": "style-loader",
+      "git:hexsha": "091d37d68abfb071c4fbdd335385cd6f1af114c6",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/webpack",
+      "repolex:packageName": "webpack",
+      "git:hexsha": "a82e0cd00e26d8452295f0d680417e4656a6d7cc",
+      "git:tagName": "v5.92.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/webpack/webpack-cli",
+      "repolex:packageName": "webpack-cli"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/sphinx-basic-ng",
+      "repolex:packageName": "sphinx-basic-ng"
+    },
+    {
+      "@id": "https://repolex.ai/r/pygments/pygments",
+      "repolex:packageName": "pygments"
+    },
+    {
+      "@id": "https://repolex.ai/r/Quansight-Labs/accessible-pygments",
+      "repolex:packageName": "accessible-pygments",
+      "git:hexsha": "7e618765289e7ea1fe9a54e7c1e4681988d19c4c",
+      "git:tagName": "v0.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    }
+  ]
 }
