@@ -48,10 +48,64 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c69a235c1289b8743aa66db6e6ed1bdfcf1e956d/chunk-001.nq.gz",
       "repolex:graphFileSize": 9630880
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c69a235c1289b8743aa66db6e6ed1bdfcf1e956d.nq.gz",
+      "repolex:graphFileSize": 824838
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:33:36.085890+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "xtea-v0.1.0"
+  "git:tagName": "xtea-v0.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "inout"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "cipher"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hybrid-array",
+      "repolex:packageName": "hybrid-array",
+      "git:hexsha": "2441bd369358190357516b4bee948b3a3834749e",
+      "git:tagName": "v0.4.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "hex-literal"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "cpufeatures"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "crypto-common"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/byteorder",
+      "repolex:packageName": "byteorder",
+      "git:hexsha": "ec068eefa042d494475db125c4b034bd8e9e34dd",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if",
+      "git:hexsha": "3510ca6abea34cbbc702509a4e50ea9709925eda",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "cpubits"
+    }
+  ]
 }

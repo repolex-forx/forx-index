@@ -48,10 +48,44 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/731c70b9a5919f39eb2b88f08a569c5980713b3f/chunk-001.nq.gz",
       "repolex:graphFileSize": 2292318
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/731c70b9a5919f39eb2b88f08a569c5980713b3f.nq.gz",
+      "repolex:graphFileSize": 221577
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:46:49.234608+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.12.0"
+  "git:tagName": "v0.12.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/console-rs/console",
+      "repolex:packageName": "console",
+      "git:hexsha": "bda6a6e7a7e5e1ca4f66f51bd11faa70a1f37331",
+      "git:tagName": "0.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/lotabout/fuzzy-matcher",
+      "repolex:packageName": "fuzzy-matcher",
+      "git:hexsha": "ee73fa4559a9ea06e51b54b0a436590c911c18a1",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/tmiasko/shell-words",
+      "repolex:packageName": "shell-words",
+      "git:hexsha": "045e4dccd2478ccc8bfa91bd0fe449dfe5473496",
+      "git:tagName": "v1.1.0"
+    }
+  ]
 }
