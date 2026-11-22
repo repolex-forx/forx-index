@@ -48,10 +48,118 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7814e1c6cafbf25a896345fd61327627372df4c6/chunk-001.nq.gz",
       "repolex:graphFileSize": 4560203
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7814e1c6cafbf25a896345fd61327627372df4c6.nq.gz",
+      "repolex:graphFileSize": 500257
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:56:34.694229+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.2.0-with-qemu-run-ignore-version"
+  "git:tagName": "v0.2.0-with-qemu-run-ignore-version",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/knurling-rs/defmt",
+      "repolex:packageName": "defmt-macros"
+    },
+    {
+      "@id": "https://repolex.ai/r/djc/rustc-version-rs",
+      "repolex:packageName": "rustc_version",
+      "git:hexsha": "609c5c524f7d423bb8edd352a7da729f94ed0078",
+      "git:tagName": "v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "80f39b97428e36bc26b1ee0da9c8526812117f3e",
+      "git:tagName": "1.0.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/semver",
+      "repolex:packageName": "semver",
+      "git:hexsha": "2748f5cba2ce9c1cab13b0d07fd7a36cf0f3029d",
+      "git:tagName": "0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "bfa790b8e445dc67b7ab94d75adb1a92d6296c9a",
+      "git:tagName": "1.0.109"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/gimli-rs/gimli",
+      "repolex:packageName": "gimli",
+      "git:hexsha": "d36fcf11c878c8ebfb4da4cad300773869b5b5e4",
+      "git:tagName": "0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "1dbe1862aae650423e3361fbd20b7d17c5109cc3",
+      "git:tagName": "1.0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/gimli-rs/leb128",
+      "repolex:packageName": "leb128",
+      "git:hexsha": "0ead770972afb083bb6d7cfbddda99f5bd6f76d0",
+      "git:tagName": "0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log",
+      "git:hexsha": "a46450ba763280c29d35b53aa8ad0ff1fc1d78d0",
+      "git:tagName": "v0.4.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/ogham/rust-ansi-term",
+      "repolex:packageName": "ansi_term",
+      "git:hexsha": "ff7eba98d55ad609c7fcc8c7bb0859b37c7545cc",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/johannhof/difference.rs",
+      "repolex:packageName": "difference",
+      "git:hexsha": "4117604bde102bfb14b06bf20dd17041b2da6413",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mackwic/colored",
+      "repolex:packageName": "colored",
+      "git:hexsha": "ef1484c713e1340d842cc7b76f79dc976afe891f",
+      "git:tagName": "v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "20572a6d066958542d79cdd6cf1a7cd9f0c8e1f8",
+      "git:tagName": "v1.0.154"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    },
+    {
+      "@id": "https://repolex.ai/r/TeXitoi/structopt",
+      "repolex:packageName": "structopt",
+      "git:hexsha": "97e92a3755a65f8ea44c994fd403208e7d97f561",
+      "git:tagName": "v0.3.26"
+    }
+  ]
 }
