@@ -48,10 +48,66 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/93fbf645108394bb10ecd392383e96c4e8902f30/chunk-001.nq.gz",
       "repolex:graphFileSize": 2725828
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/93fbf645108394bb10ecd392383e96c4e8902f30.nq.gz",
+      "repolex:graphFileSize": 241090
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:09:46.595951+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.5.0"
+  "git:tagName": "v0.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/executablebooks/markdown-it-py",
+      "repolex:packageName": "markdown-it-py",
+      "git:hexsha": "465b54d79641a3acd1d4e2ff483f1ccf4a4556ff",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit",
+      "git:hexsha": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+      "git:tagName": "v4.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "fd8e601e25c1e8dde3440fb019ec08283af1bf78",
+      "git:tagName": "7.17.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/ESSS/pytest-regressions",
+      "repolex:packageName": "pytest-regressions",
+      "git:hexsha": "ff8c2da9b67192a24a8851c72754394cc4bc5067",
+      "git:tagName": "v2.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/MyST-Parser",
+      "repolex:packageName": "myst-parser",
+      "git:hexsha": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/sphinx-book-theme",
+      "repolex:packageName": "sphinx-book-theme",
+      "git:hexsha": "52c7cbb8072bef0f60687c50d12af8c885251ba1",
+      "git:tagName": "v1.4.0"
+    }
+  ]
 }
