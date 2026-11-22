@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5bb3e82a82a6ef8f56a3a455125680fd6579c7ca/chunk-001.nq.gz",
       "repolex:graphFileSize": 1415132
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5bb3e82a82a6ef8f56a3a455125680fd6579c7ca.nq.gz",
+      "repolex:graphFileSize": 145972
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:56:31.144970+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "8.0.2"
+  "git:tagName": "8.0.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "5f1f1c8b6db4d1fd373ef1ab4eab05a8f66c4235",
+      "git:tagName": "1.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing",
+      "git:hexsha": "15600a3a67c418f53cb80ff21da57d89a5de0486",
+      "git:tagName": "tracing-0.1.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "fb313e01bc9568137c3e873db9ea267b93c22184",
+      "git:tagName": "v3.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "e879ee90b6cd8f79b352d4d4d1f8ca05f94f2f53",
+      "git:tagName": "0.2.182"
+    }
+  ]
 }

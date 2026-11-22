@@ -1,0 +1,1383 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/serde-rs/test",
+  "@type": "gh:Repository",
+  "gh:name": "test",
+  "gh:owner": "serde-rs",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/bbb18e2db032ec5da07e07368e4d55647cf10229",
+      "git:hexsha": "bbb18e2db032ec5da07e07368e4d55647cf10229",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "1.0.177"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/12d229645346239d3daac4063f46a9525ec57bcb",
+      "git:hexsha": "12d229645346239d3daac4063f46a9525ec57bcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/bfea81dc9461beb91a91192b8da3ddccf8fff609",
+      "git:hexsha": "bfea81dc9461beb91a91192b8da3ddccf8fff609",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/fcf0c6476f303ce9ab1436cc78a48547d78f6f08",
+      "git:hexsha": "fcf0c6476f303ce9ab1436cc78a48547d78f6f08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6be67d6c3066c1538ba5c808e72004ac51ea32f5",
+      "git:hexsha": "6be67d6c3066c1538ba5c808e72004ac51ea32f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/26ccb89f6c7a34527cd8a66cf3452da1317707d3",
+      "git:hexsha": "26ccb89f6c7a34527cd8a66cf3452da1317707d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1a3c0102ad4bcbe7f5a29542fe61a8c72e43a0fb",
+      "git:hexsha": "1a3c0102ad4bcbe7f5a29542fe61a8c72e43a0fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8ccb3642cae67aa7ef78f54d98cfb5c07db0403f",
+      "git:hexsha": "8ccb3642cae67aa7ef78f54d98cfb5c07db0403f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/42f5caba25da5705e864fdfce1d2569a4408f306",
+      "git:hexsha": "42f5caba25da5705e864fdfce1d2569a4408f306",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/40bcc2a66135bc20de08992e8806770a5ad7cf36",
+      "git:hexsha": "40bcc2a66135bc20de08992e8806770a5ad7cf36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/63dc3aa968c39a1cabb270f9216af15958b3ba63",
+      "git:hexsha": "63dc3aa968c39a1cabb270f9216af15958b3ba63",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/69263a5be64e20f58508d9e6777803167919cb66",
+      "git:hexsha": "69263a5be64e20f58508d9e6777803167919cb66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b3791dfd457c38ead5ba1e4c44c7c6c7e32568dc",
+      "git:hexsha": "b3791dfd457c38ead5ba1e4c44c7c6c7e32568dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/524df5cb4afdb46e0f03423bc188d0ffc7610e42",
+      "git:hexsha": "524df5cb4afdb46e0f03423bc188d0ffc7610e42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/9c49d9633f2f72b0f29007540e81a79864d480b5",
+      "git:hexsha": "9c49d9633f2f72b0f29007540e81a79864d480b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c2c89ee9d4e3988ddacce3c945fd74477a966a25",
+      "git:hexsha": "c2c89ee9d4e3988ddacce3c945fd74477a966a25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/122c7c4f2c56e13d17425020c82961d9c449f795",
+      "git:hexsha": "122c7c4f2c56e13d17425020c82961d9c449f795",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/5cd45a3151a06f6917c9d00248b1e0dff8034ef5",
+      "git:hexsha": "5cd45a3151a06f6917c9d00248b1e0dff8034ef5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b7a0bfa70ca7f5a52d55b58aa6bfc469270a1e01",
+      "git:hexsha": "b7a0bfa70ca7f5a52d55b58aa6bfc469270a1e01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4d810c7f48426db294f811d45f5cfed95bf886b1",
+      "git:hexsha": "4d810c7f48426db294f811d45f5cfed95bf886b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/706c75ccf3629d9ec51061763221b0be9bef64c2",
+      "git:hexsha": "706c75ccf3629d9ec51061763221b0be9bef64c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/257a098757f8e63072415bce597ce84f6b927c7c",
+      "git:hexsha": "257a098757f8e63072415bce597ce84f6b927c7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/999f0db0f7e4404ffef3211373c4ca8dc01f8dd3",
+      "git:hexsha": "999f0db0f7e4404ffef3211373c4ca8dc01f8dd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/acd731c351758c8ae0a6a48b974e7f332949d41a",
+      "git:hexsha": "acd731c351758c8ae0a6a48b974e7f332949d41a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/7c02e874148f57b0baa49e81eba840595331fc50",
+      "git:hexsha": "7c02e874148f57b0baa49e81eba840595331fc50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/cc5a61d780a4a058183344fe7f4d237e389ccee1",
+      "git:hexsha": "cc5a61d780a4a058183344fe7f4d237e389ccee1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e61ec6f71fb1d1f72fc758ea1ea894758a4adff5",
+      "git:hexsha": "e61ec6f71fb1d1f72fc758ea1ea894758a4adff5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/42f42e919c107f64d53bfe8f050babbaa23f7272",
+      "git:hexsha": "42f42e919c107f64d53bfe8f050babbaa23f7272",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/52a93db226206989cb0d8f71e4c0d96091526f72",
+      "git:hexsha": "52a93db226206989cb0d8f71e4c0d96091526f72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4516c9232be77d99e380e175ffcd04f50b8457a6",
+      "git:hexsha": "4516c9232be77d99e380e175ffcd04f50b8457a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8a0d37316c3a4e49b6f9b3e4da0858d4385feace",
+      "git:hexsha": "8a0d37316c3a4e49b6f9b3e4da0858d4385feace",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/38662b80d305686c08f0c65d32468067be15ccfe",
+      "git:hexsha": "38662b80d305686c08f0c65d32468067be15ccfe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/5decd600adb80a948e2a30aa0454a0e7217afe3c",
+      "git:hexsha": "5decd600adb80a948e2a30aa0454a0e7217afe3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c41823350bc4d2add412b1cf1d6f6774d63fe223",
+      "git:hexsha": "c41823350bc4d2add412b1cf1d6f6774d63fe223",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e7f09894228cc20a7eba90e9c3c4de735b0f4dbb",
+      "git:hexsha": "e7f09894228cc20a7eba90e9c3c4de735b0f4dbb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/43165d98b51282cc28836ccec2b989cd6555be36",
+      "git:hexsha": "43165d98b51282cc28836ccec2b989cd6555be36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/434f0745c500efb410520d0c11a5af9a17fed81b",
+      "git:hexsha": "434f0745c500efb410520d0c11a5af9a17fed81b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d5a3f69b431c93ffa2c87f5d10a40aad16224538",
+      "git:hexsha": "d5a3f69b431c93ffa2c87f5d10a40aad16224538",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/56bd3dc4c625268d8cf99800ad167edd507f0355",
+      "git:hexsha": "56bd3dc4c625268d8cf99800ad167edd507f0355",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/f09b89d924597aba04a5c595792ccb0dab3aa3ca",
+      "git:hexsha": "f09b89d924597aba04a5c595792ccb0dab3aa3ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/88f0ed6cc359b97e33a1f1a42e3f73b41ce23219",
+      "git:hexsha": "88f0ed6cc359b97e33a1f1a42e3f73b41ce23219",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6c40fd9ba21108b65385bc5a61496d268740cc7e",
+      "git:hexsha": "6c40fd9ba21108b65385bc5a61496d268740cc7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/96cb46fe6034b5709bbdb60fe939f738c6e2e12a",
+      "git:hexsha": "96cb46fe6034b5709bbdb60fe939f738c6e2e12a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d2b5709a65f03e8fe5b67eb0e4a7ec0d4e1ebc25",
+      "git:hexsha": "d2b5709a65f03e8fe5b67eb0e4a7ec0d4e1ebc25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/02af061821240a7b4ba8b2fe929f40901303e9f2",
+      "git:hexsha": "02af061821240a7b4ba8b2fe929f40901303e9f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/93f5a078ed971d6eed1aa2ede7515f5b93e77159",
+      "git:hexsha": "93f5a078ed971d6eed1aa2ede7515f5b93e77159",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/485582e8fb1aa14e2f37e657adacf12b73cdf38e",
+      "git:hexsha": "485582e8fb1aa14e2f37e657adacf12b73cdf38e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8abb5ea77316daa7f7f8794ff8dc3e7429ad75e4",
+      "git:hexsha": "8abb5ea77316daa7f7f8794ff8dc3e7429ad75e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/834aba5eb7e81ca1ab35d84fe24ce028d4dbe49b",
+      "git:hexsha": "834aba5eb7e81ca1ab35d84fe24ce028d4dbe49b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/963f93885ce4e36cacd1d017a23e5ddbb4a4764a",
+      "git:hexsha": "963f93885ce4e36cacd1d017a23e5ddbb4a4764a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/605ef58454911faf0ef55f5ac93bb49a4769022c",
+      "git:hexsha": "605ef58454911faf0ef55f5ac93bb49a4769022c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/584bf58c8174c12139f2c58734d198b5a1c5dc21",
+      "git:hexsha": "584bf58c8174c12139f2c58734d198b5a1c5dc21",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/a9bad32d866ba7ff7564a63bd964c291da0a7c12",
+      "git:hexsha": "a9bad32d866ba7ff7564a63bd964c291da0a7c12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c5429adc966829e968e5fd8ab3c8aee52f2d4604",
+      "git:hexsha": "c5429adc966829e968e5fd8ab3c8aee52f2d4604",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4001f02b2ac0657c32464fb8b4b7b0f2e149bf1f",
+      "git:hexsha": "4001f02b2ac0657c32464fb8b4b7b0f2e149bf1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3f176ed9371553b94be40ba37c9465088799ebf9",
+      "git:hexsha": "3f176ed9371553b94be40ba37c9465088799ebf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.100"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8e798d3a2485ef387e9a98036d6a628b5b6c1bde",
+      "git:hexsha": "8e798d3a2485ef387e9a98036d6a628b5b6c1bde",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.101"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0fd5c07f3e2d52539095f513b3d7d3412839c61c",
+      "git:hexsha": "0fd5c07f3e2d52539095f513b3d7d3412839c61c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.102"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/7460f2927d48c4c54754ff732d924ee2c68d4fe9",
+      "git:hexsha": "7460f2927d48c4c54754ff732d924ee2c68d4fe9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.103"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/2e57402d8950aef4ad920eebf4c9634072fce1d8",
+      "git:hexsha": "2e57402d8950aef4ad920eebf4c9634072fce1d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.104"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3acabf56dd79d37582945debe954d62315ea3a19",
+      "git:hexsha": "3acabf56dd79d37582945debe954d62315ea3a19",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.105"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3baeb9f3c355ac1247c40f88a7087adf7e99a405",
+      "git:hexsha": "3baeb9f3c355ac1247c40f88a7087adf7e99a405",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.106"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/bacd25cc56bf862464f79b4069a1fee57d3248a7",
+      "git:hexsha": "bacd25cc56bf862464f79b4069a1fee57d3248a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/58cacd9aa15e95ec88814b764a55efe5098932ae",
+      "git:hexsha": "58cacd9aa15e95ec88814b764a55efe5098932ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.108"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e6c21a7de4bd2c10857c0608d723c50002275e54",
+      "git:hexsha": "e6c21a7de4bd2c10857c0608d723c50002275e54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.109"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b140bf87fc9e04696d0dca53289983e6db27bee8",
+      "git:hexsha": "b140bf87fc9e04696d0dca53289983e6db27bee8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e1d3eb12eb9bcba6822ca039c48ac69412565c8d",
+      "git:hexsha": "e1d3eb12eb9bcba6822ca039c48ac69412565c8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.110"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/83e00e1bf4be864799e8159f28da9d46eed69f80",
+      "git:hexsha": "83e00e1bf4be864799e8159f28da9d46eed69f80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.111"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ff1204c0a13548120e59391fbd0f38b7565ab476",
+      "git:hexsha": "ff1204c0a13548120e59391fbd0f38b7565ab476",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.112"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3e33cd40d785682851b6241a7c8d3c01b184dd1b",
+      "git:hexsha": "3e33cd40d785682851b6241a7c8d3c01b184dd1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.113"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e347fea3ca0d9b59ce1ec82dfd608ac4d6987a98",
+      "git:hexsha": "e347fea3ca0d9b59ce1ec82dfd608ac4d6987a98",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.114"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/293d6b76df25929853b84211a8039c9b95d54f92",
+      "git:hexsha": "293d6b76df25929853b84211a8039c9b95d54f92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.115"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/428af8c24bff59459ef8e5a79d0740301246c73c",
+      "git:hexsha": "428af8c24bff59459ef8e5a79d0740301246c73c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.116"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/f9fcc403b207ab64d8b8114a04beec4d83d24f8c",
+      "git:hexsha": "f9fcc403b207ab64d8b8114a04beec4d83d24f8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.117"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8aee5701cabe7570ff2f4bc75ada9a5b95d06efd",
+      "git:hexsha": "8aee5701cabe7570ff2f4bc75ada9a5b95d06efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.118"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0f4383f54a77e4ab56ad716c85a91d963a0dc23c",
+      "git:hexsha": "0f4383f54a77e4ab56ad716c85a91d963a0dc23c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.119"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/01fdc48492c0a7cf1a5693750543fd08ba02401b",
+      "git:hexsha": "01fdc48492c0a7cf1a5693750543fd08ba02401b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/58e72782cc2604a813fd38bb330db33c7e6da2a5",
+      "git:hexsha": "58e72782cc2604a813fd38bb330db33c7e6da2a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.120"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4f59d8247dca07e4009fe0be4dde113318b0211f",
+      "git:hexsha": "4f59d8247dca07e4009fe0be4dde113318b0211f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.121"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/db3042d9923ac56d36ee869defc68952fb1bfb3d",
+      "git:hexsha": "db3042d9923ac56d36ee869defc68952fb1bfb3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.122"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/92554f21d3c36a2748178586c87c73a928180eb3",
+      "git:hexsha": "92554f21d3c36a2748178586c87c73a928180eb3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.123"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/7bf070c4e4e2c776ff5c847e94ddc552cea3e535",
+      "git:hexsha": "7bf070c4e4e2c776ff5c847e94ddc552cea3e535",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.124"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/bab7dabe92c2208d3c3d86fa5bc389de06b59937",
+      "git:hexsha": "bab7dabe92c2208d3c3d86fa5bc389de06b59937",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.125"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4eda49be9936855c7cf04cb37c1c001603ca00bb",
+      "git:hexsha": "4eda49be9936855c7cf04cb37c1c001603ca00bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.126"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ce97d63b231e8f7fb812da26061970b6351eb836",
+      "git:hexsha": "ce97d63b231e8f7fb812da26061970b6351eb836",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.127"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1b5ba8cefbaa2a405ec9abdc9122ca5a53293c2b",
+      "git:hexsha": "1b5ba8cefbaa2a405ec9abdc9122ca5a53293c2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.128"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/89fada4a80e520ff0ca13fdf7d5932a06bc3524c",
+      "git:hexsha": "89fada4a80e520ff0ca13fdf7d5932a06bc3524c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.129"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8ff47c95fe0414ad14391d57dee138a479a3785c",
+      "git:hexsha": "8ff47c95fe0414ad14391d57dee138a479a3785c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0d946942d265115c9fff9df110bd8109a28d6bf0",
+      "git:hexsha": "0d946942d265115c9fff9df110bd8109a28d6bf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.130"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/24149c0ef121ff0e9b6f49926c3dbe811baeee33",
+      "git:hexsha": "24149c0ef121ff0e9b6f49926c3dbe811baeee33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.131"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1899eb61a682d850b7b5bac2f667c835c2391546",
+      "git:hexsha": "1899eb61a682d850b7b5bac2f667c835c2391546",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.132"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b42498e03781ef66ae58d5813cfd08e54308ba32",
+      "git:hexsha": "b42498e03781ef66ae58d5813cfd08e54308ba32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.133"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/02b36561d68095d9d41e624dfe6b32b8543ea98f",
+      "git:hexsha": "02b36561d68095d9d41e624dfe6b32b8543ea98f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.134"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b846e0cb0c669ae86da4fa5a39b4f12f1893045d",
+      "git:hexsha": "b846e0cb0c669ae86da4fa5a39b4f12f1893045d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.135"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4b66ed904446b4b70c30397d8b032e735d8841fd",
+      "git:hexsha": "4b66ed904446b4b70c30397d8b032e735d8841fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.136"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/7b088e8c13eaa94076c9fa5b07173b0b7daedfa7",
+      "git:hexsha": "7b088e8c13eaa94076c9fa5b07173b0b7daedfa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.137"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6592e4d8baed4e913c4173d125c45c7076298d61",
+      "git:hexsha": "6592e4d8baed4e913c4173d125c45c7076298d61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.138"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e006adfbea6de31e9ceb746bd3f9373e57cd781e",
+      "git:hexsha": "e006adfbea6de31e9ceb746bd3f9373e57cd781e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.139"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/2164a63e50157c5eabf4967715d6859e1321bea2",
+      "git:hexsha": "2164a63e50157c5eabf4967715d6859e1321bea2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/f073ffa80cc2b39930834954cc44d412b78c3b65",
+      "git:hexsha": "f073ffa80cc2b39930834954cc44d412b78c3b65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.140"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3d4c5e487ae0dab6fcd4c5cdd860f9db53e158bf",
+      "git:hexsha": "3d4c5e487ae0dab6fcd4c5cdd860f9db53e158bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.141"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/67f78bde5818b7240cd78017efc8c0c6bde40148",
+      "git:hexsha": "67f78bde5818b7240cd78017efc8c0c6bde40148",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.142"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/2296d5c6d86ac914dea47c45632cd093861d20b3",
+      "git:hexsha": "2296d5c6d86ac914dea47c45632cd093861d20b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.143"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6d7eedad61075069167a9a1d5b39155fdec09f89",
+      "git:hexsha": "6d7eedad61075069167a9a1d5b39155fdec09f89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.144"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4dc0f85035c4541936e374fd7b37b83100a6f537",
+      "git:hexsha": "4dc0f85035c4541936e374fd7b37b83100a6f537",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.145"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1537ab87bcc125019136714f0725e12e108bfb4a",
+      "git:hexsha": "1537ab87bcc125019136714f0725e12e108bfb4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.146"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6ecc2988d2c2173d577da22e54b669ecdf53a820",
+      "git:hexsha": "6ecc2988d2c2173d577da22e54b669ecdf53a820",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.147"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/5f90668b28c166d8bfa8b065d752775d042d879e",
+      "git:hexsha": "5f90668b28c166d8bfa8b065d752775d042d879e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.148"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/76b91e55ae901a8ff17d380ce772f28a36898073",
+      "git:hexsha": "76b91e55ae901a8ff17d380ce772f28a36898073",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.149"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1492fdf768072982f39a840aee4c0903d3424692",
+      "git:hexsha": "1492fdf768072982f39a840aee4c0903d3424692",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4138103866528aa8cad530d6dd28c76e8d960c94",
+      "git:hexsha": "4138103866528aa8cad530d6dd28c76e8d960c94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.150"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/043eedfb859c0b529a7f92a3e96fa34a95172f8b",
+      "git:hexsha": "043eedfb859c0b529a7f92a3e96fa34a95172f8b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.151"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/9b4b81875cfb2fd47695d633b081258cc0f0629a",
+      "git:hexsha": "9b4b81875cfb2fd47695d633b081258cc0f0629a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.152"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/fbb55372de003d083ff0099e18f3f304f6a9d376",
+      "git:hexsha": "fbb55372de003d083ff0099e18f3f304f6a9d376",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.153"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/cc45929964f4d22b998caf1ac770916ce8614f92",
+      "git:hexsha": "cc45929964f4d22b998caf1ac770916ce8614f92",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.154"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d193245c96a434f2ccba2713ecd7c0ea2a083d29",
+      "git:hexsha": "d193245c96a434f2ccba2713ecd7c0ea2a083d29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.155"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/604804169a21a59e0df31ff2c2e94ea745d40ef3",
+      "git:hexsha": "604804169a21a59e0df31ff2c2e94ea745d40ef3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.156"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c8f5a426e1a5880d4019d1753a0b689661d4d8aa",
+      "git:hexsha": "c8f5a426e1a5880d4019d1753a0b689661d4d8aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.157"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0abb9a88fcaeab1fe65cbb95f2a6dc581cb353cf",
+      "git:hexsha": "0abb9a88fcaeab1fe65cbb95f2a6dc581cb353cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.158"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/751b33e68018f13eaaf9a2c8590585123f54bb2a",
+      "git:hexsha": "751b33e68018f13eaaf9a2c8590585123f54bb2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.159"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/a89f030eecec610e7ee9504b1ea267dd189c078b",
+      "git:hexsha": "a89f030eecec610e7ee9504b1ea267dd189c078b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/68c44c308430229d04bf53cb8596700edb0eeb36",
+      "git:hexsha": "68c44c308430229d04bf53cb8596700edb0eeb36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.160"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b5a089b52d648ecdd315f662aa44a31143605d3e",
+      "git:hexsha": "b5a089b52d648ecdd315f662aa44a31143605d3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.161"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/2110360118630bb57aaf27c8a275d20b1f468f01",
+      "git:hexsha": "2110360118630bb57aaf27c8a275d20b1f468f01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.162"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/07d58d3d7b692da92e6c886ba4e1265ec7d8d066",
+      "git:hexsha": "07d58d3d7b692da92e6c886ba4e1265ec7d8d066",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.163"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/cc1d3a67f95415aa66ce562ebd0a436c40a0508e",
+      "git:hexsha": "cc1d3a67f95415aa66ce562ebd0a436c40a0508e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.164"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/69d01602bccf222d07127e6b2ec9d48ea4a61242",
+      "git:hexsha": "69d01602bccf222d07127e6b2ec9d48ea4a61242",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.165"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0300772a378e2e90ca67b13ab14d5e8a0a22ac52",
+      "git:hexsha": "0300772a378e2e90ca67b13ab14d5e8a0a22ac52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.166"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8e98f60f5b39e3824690ab83955afd661192ae40",
+      "git:hexsha": "8e98f60f5b39e3824690ab83955afd661192ae40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.167"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/bde93e255bc07fb5689d4ce3f9c0331b4532c482",
+      "git:hexsha": "bde93e255bc07fb5689d4ce3f9c0331b4532c482",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.168"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/93aea4ed760f372568f25036a7c395939b016358",
+      "git:hexsha": "93aea4ed760f372568f25036a7c395939b016358",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.169"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/40e938e07bc17f96b1d66640752c31792b33ca72",
+      "git:hexsha": "40e938e07bc17f96b1d66640752c31792b33ca72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/19b5e0fd1d54948a256c38a6e0dcb02a9c7b856e",
+      "git:hexsha": "19b5e0fd1d54948a256c38a6e0dcb02a9c7b856e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.170"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/505417a9b10f4b84f11d447a743983e2e648b7ff",
+      "git:hexsha": "505417a9b10f4b84f11d447a743983e2e648b7ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.171"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8ec11a5914ba3add2cffb269c6836a5afa154833",
+      "git:hexsha": "8ec11a5914ba3add2cffb269c6836a5afa154833",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.172"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/708c0a6020b204afee4867c84f14914e6260d281",
+      "git:hexsha": "708c0a6020b204afee4867c84f14914e6260d281",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.173"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ad0bcbc1b36cc0590b50d637ffb5d691d5e324e3",
+      "git:hexsha": "ad0bcbc1b36cc0590b50d637ffb5d691d5e324e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.174"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0a45bbf603037894809a8f8201481eafe3a5eed3",
+      "git:hexsha": "0a45bbf603037894809a8f8201481eafe3a5eed3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.175"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d1294b3ad549874d5035752ac62b4eb75cee5060",
+      "git:hexsha": "d1294b3ad549874d5035752ac62b4eb75cee5060",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.176"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/73dbdf02b353ab0ab02e202e7bf97d0183549108",
+      "git:hexsha": "73dbdf02b353ab0ab02e202e7bf97d0183549108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b0d0f13ec1e9c2929d71e72b0a93fee095fef682",
+      "git:hexsha": "b0d0f13ec1e9c2929d71e72b0a93fee095fef682",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e828925a76148f8784ac8dd6623d2f36fd53728d",
+      "git:hexsha": "e828925a76148f8784ac8dd6623d2f36fd53728d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1b0440c4802cb9193fd06f72846ae7a6abb97076",
+      "git:hexsha": "1b0440c4802cb9193fd06f72846ae7a6abb97076",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4a124ca8d0cfd7cefcb13ccbf299ad0649a41563",
+      "git:hexsha": "4a124ca8d0cfd7cefcb13ccbf299ad0649a41563",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/386a66c8598277554d3305227dc1696f0e4b25d8",
+      "git:hexsha": "386a66c8598277554d3305227dc1696f0e4b25d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3e30ce0468339c35cb3799f986579e6a90980857",
+      "git:hexsha": "3e30ce0468339c35cb3799f986579e6a90980857",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/5f2696bbf6473cc29377d9cee6b809b154920124",
+      "git:hexsha": "5f2696bbf6473cc29377d9cee6b809b154920124",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/f4bdb413aca18865c950c798a400fc6bf2052c78",
+      "git:hexsha": "f4bdb413aca18865c950c798a400fc6bf2052c78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/26e5b26ee39c398dc88b51f67668da57db7453c5",
+      "git:hexsha": "26e5b26ee39c398dc88b51f67668da57db7453c5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/47663fe1201991c7d28f242685f8540f3265d115",
+      "git:hexsha": "47663fe1201991c7d28f242685f8540f3265d115",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ada08b29eb1f0c0eb4c0235f4784c1172692a7a6",
+      "git:hexsha": "ada08b29eb1f0c0eb4c0235f4784c1172692a7a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/44980ef894d504d1345700110c615ab60df97ca6",
+      "git:hexsha": "44980ef894d504d1345700110c615ab60df97ca6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c2db85559872fda74f5edc6e97729e2d75803e9c",
+      "git:hexsha": "c2db85559872fda74f5edc6e97729e2d75803e9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/153540829c8ea4acc2e40bba16b143ced703ec1b",
+      "git:hexsha": "153540829c8ea4acc2e40bba16b143ced703ec1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/5f68a3713cc729a46166366d179c75f33b7d6e6b",
+      "git:hexsha": "5f68a3713cc729a46166366d179c75f33b7d6e6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6fe31806b7adec69057c423d23e63db3bc3f5d93",
+      "git:hexsha": "6fe31806b7adec69057c423d23e63db3bc3f5d93",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/979a367078169116101432c904b89ba546f106a9",
+      "git:hexsha": "979a367078169116101432c904b89ba546f106a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c539fb836206f90ea11f345cd76c9f26da1af2cd",
+      "git:hexsha": "c539fb836206f90ea11f345cd76c9f26da1af2cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c3bf119f1f4e87ac1d4e457bd337e730c131c161",
+      "git:hexsha": "c3bf119f1f4e87ac1d4e457bd337e730c131c161",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b51237f71d16c7450e833662d87fb1c09de4577a",
+      "git:hexsha": "b51237f71d16c7450e833662d87fb1c09de4577a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/adba71e1fea9ef8dd12754944a2d081818bf411d",
+      "git:hexsha": "adba71e1fea9ef8dd12754944a2d081818bf411d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ae2691f1dc32a4f36b7c1f0cc1a4f74a8585680e",
+      "git:hexsha": "ae2691f1dc32a4f36b7c1f0cc1a4f74a8585680e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ab0ace8cce8edc7f062be374b7e103f567b12bf1",
+      "git:hexsha": "ab0ace8cce8edc7f062be374b7e103f567b12bf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ccc775fee89453c60c6b0522150d61fbfd6c9ac7",
+      "git:hexsha": "ccc775fee89453c60c6b0522150d61fbfd6c9ac7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/992a33687cbd0b9d364d5342dc0dbc6c829cf8f8",
+      "git:hexsha": "992a33687cbd0b9d364d5342dc0dbc6c829cf8f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/632bcf90767447791d5d97e84a88f250b6de881f",
+      "git:hexsha": "632bcf90767447791d5d97e84a88f250b6de881f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d24c19906224efc4b793684960f921df5f6b344f",
+      "git:hexsha": "d24c19906224efc4b793684960f921df5f6b344f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6adad2b0d627cb0100fc4fa8b7133a1b88fb3892",
+      "git:hexsha": "6adad2b0d627cb0100fc4fa8b7133a1b88fb3892",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/521d8f175508035d290cce35f62b4c5d0d571196",
+      "git:hexsha": "521d8f175508035d290cce35f62b4c5d0d571196",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/88b0cc195b53daeeffbe5f0960ef570bf8970cb8",
+      "git:hexsha": "88b0cc195b53daeeffbe5f0960ef570bf8970cb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/17451db348fcec86de80af7bee4456dc95b399bc",
+      "git:hexsha": "17451db348fcec86de80af7bee4456dc95b399bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/9bbc8d7f626c5fc47c7009b895e6df39fa0e0b5b",
+      "git:hexsha": "9bbc8d7f626c5fc47c7009b895e6df39fa0e0b5b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d95bf0cef2998f830fd399d55088ec20b9594c8d",
+      "git:hexsha": "d95bf0cef2998f830fd399d55088ec20b9594c8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/f703b2678d5cfed5d0dac04e7cd94660d9cf84ff",
+      "git:hexsha": "f703b2678d5cfed5d0dac04e7cd94660d9cf84ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ef1d09bb44cc37998542c6093f05e24fbbff3ffc",
+      "git:hexsha": "ef1d09bb44cc37998542c6093f05e24fbbff3ffc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b7dfecff7272ed687a40cadb79f776fa8c345a0c",
+      "git:hexsha": "b7dfecff7272ed687a40cadb79f776fa8c345a0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/14ea5aecf922d90cbfdca597ca959176e84e6c1b",
+      "git:hexsha": "14ea5aecf922d90cbfdca597ca959176e84e6c1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.51"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/7eb51d090462a7017421a98a4e2ea90ccce8891d",
+      "git:hexsha": "7eb51d090462a7017421a98a4e2ea90ccce8891d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b602d3699e82b1fe5ee96509486c08b32a42671c",
+      "git:hexsha": "b602d3699e82b1fe5ee96509486c08b32a42671c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/a4fb812c8b9d2a24192d4822d9ab0909b8326d8a",
+      "git:hexsha": "a4fb812c8b9d2a24192d4822d9ab0909b8326d8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/31e65401c5f5262c93d000ec5d7b12dfd8abadfa",
+      "git:hexsha": "31e65401c5f5262c93d000ec5d7b12dfd8abadfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.55"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/72960674f80d7e951ab5f9dd5cda3fc22441844d",
+      "git:hexsha": "72960674f80d7e951ab5f9dd5cda3fc22441844d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.56"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/92e2adc296490622e1df32b3f42a49426f3893a5",
+      "git:hexsha": "92e2adc296490622e1df32b3f42a49426f3893a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.57"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/3ff8afa4873f5eb3838f06eeebd4081f2aaaef6c",
+      "git:hexsha": "3ff8afa4873f5eb3838f06eeebd4081f2aaaef6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.58"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d212151e737393da036fcb7aceff7920876954da",
+      "git:hexsha": "d212151e737393da036fcb7aceff7920876954da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.59"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/f49b8f63747833637e0fb1888fbbf11f08698d02",
+      "git:hexsha": "f49b8f63747833637e0fb1888fbbf11f08698d02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/fbe0d6a32b9f0fb3c2fdfcc5c9da095034bcccd7",
+      "git:hexsha": "fbe0d6a32b9f0fb3c2fdfcc5c9da095034bcccd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.60"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/fb379cca1ff6dca9341bc9b1e9e8a662defe2dc8",
+      "git:hexsha": "fb379cca1ff6dca9341bc9b1e9e8a662defe2dc8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.61"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/5f5a6b5f3dc10a93f92196a3163b4d2f03123520",
+      "git:hexsha": "5f5a6b5f3dc10a93f92196a3163b4d2f03123520",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.62"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/17ffe6c0c8af9cc7761f27c25da37e10cc0b8717",
+      "git:hexsha": "17ffe6c0c8af9cc7761f27c25da37e10cc0b8717",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.63"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/301662eaf879a61165ca7d01a080b48337cfc3bc",
+      "git:hexsha": "301662eaf879a61165ca7d01a080b48337cfc3bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.64"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d73f321207ffa7b51be87c1af5f7d75de541b085",
+      "git:hexsha": "d73f321207ffa7b51be87c1af5f7d75de541b085",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.65"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/134751ec413607ed029702316237f63c3c4a5624",
+      "git:hexsha": "134751ec413607ed029702316237f63c3c4a5624",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.66"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6073c13da84bb739c4c8c694ba55e564b6ac662b",
+      "git:hexsha": "6073c13da84bb739c4c8c694ba55e564b6ac662b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.67"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0ed97dc0ed7a359acf2fb71c0bfa1705ca802420",
+      "git:hexsha": "0ed97dc0ed7a359acf2fb71c0bfa1705ca802420",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.68"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b616ed608e1564f720e3bd3902e728d27285a3a0",
+      "git:hexsha": "b616ed608e1564f720e3bd3902e728d27285a3a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.69"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/cf0f2b47306df381d306f3e1ee5b9079ac2bf720",
+      "git:hexsha": "cf0f2b47306df381d306f3e1ee5b9079ac2bf720",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ccb2942dca6dd772a43fedda7b54900b900ed1cc",
+      "git:hexsha": "ccb2942dca6dd772a43fedda7b54900b900ed1cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.70"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/99ee3c4c3f79073ed9151caed491c9795c9237b7",
+      "git:hexsha": "99ee3c4c3f79073ed9151caed491c9795c9237b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.71"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/8294b91052234ac4a4d9510770121828d3f655a8",
+      "git:hexsha": "8294b91052234ac4a4d9510770121828d3f655a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.72"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/727dc4fe9672502430288c4e5bca89dcd556a4dc",
+      "git:hexsha": "727dc4fe9672502430288c4e5bca89dcd556a4dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.73"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/90f3bf8c92038c5c3a474cabbe71e722f547e16c",
+      "git:hexsha": "90f3bf8c92038c5c3a474cabbe71e722f547e16c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.74"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/e33105a7ceeaf5c9a2a5e27fd6bca50235191c10",
+      "git:hexsha": "e33105a7ceeaf5c9a2a5e27fd6bca50235191c10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.75"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/deea4437bb63c4295156a602e802c752f883c1a9",
+      "git:hexsha": "deea4437bb63c4295156a602e802c752f883c1a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.76"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/fa9e4451d81ee176ce8ab9c90f2f6d46fd2f8c1f",
+      "git:hexsha": "fa9e4451d81ee176ce8ab9c90f2f6d46fd2f8c1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.77"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4604fc150c99ec2de535c14646105360e85c028b",
+      "git:hexsha": "4604fc150c99ec2de535c14646105360e85c028b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.78"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/35f7e2a735a3cfc21867671a9237c6e83d7ad7a9",
+      "git:hexsha": "35f7e2a735a3cfc21867671a9237c6e83d7ad7a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.79"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1d8cf5fb8f4715d7d9f92290131eb125df6a0f2d",
+      "git:hexsha": "1d8cf5fb8f4715d7d9f92290131eb125df6a0f2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/837f0aadae918e2945a93fbccd95bd62300282b7",
+      "git:hexsha": "837f0aadae918e2945a93fbccd95bd62300282b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.80"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/51e6e54ade6ec38b370489163c40be2474191330",
+      "git:hexsha": "51e6e54ade6ec38b370489163c40be2474191330",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.81"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/589b903c65b30e08a509337b62236b32d1bf443b",
+      "git:hexsha": "589b903c65b30e08a509337b62236b32d1bf443b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.82"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/ebde7ab4bdb1877bede63a0efbdcfde102e679d3",
+      "git:hexsha": "ebde7ab4bdb1877bede63a0efbdcfde102e679d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.83"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/6446d70d168a053e719b4919d3a05e44a93b7a66",
+      "git:hexsha": "6446d70d168a053e719b4919d3a05e44a93b7a66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.84"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/a5ae3ca9cd1cfdec0ec66a31bacfd0235f823980",
+      "git:hexsha": "a5ae3ca9cd1cfdec0ec66a31bacfd0235f823980",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.85"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/072c7ea30b6a676a4286e5cee8a82ea62681f154",
+      "git:hexsha": "072c7ea30b6a676a4286e5cee8a82ea62681f154",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.86"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c3f284a1870cd07d1cc3128975b8a369ab1d99c4",
+      "git:hexsha": "c3f284a1870cd07d1cc3128975b8a369ab1d99c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.87"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b8aa7bd226b92d841eae84a8b66dd9701076ce53",
+      "git:hexsha": "b8aa7bd226b92d841eae84a8b66dd9701076ce53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.88"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/4428796623a49af012d4110fde4ef001bcc17317",
+      "git:hexsha": "4428796623a49af012d4110fde4ef001bcc17317",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.89"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/a5f8e76f699a6d920df4e68796458c02992cd79f",
+      "git:hexsha": "a5f8e76f699a6d920df4e68796458c02992cd79f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/0d4264d0b2c1927ec8483827958f8f2a24d7b508",
+      "git:hexsha": "0d4264d0b2c1927ec8483827958f8f2a24d7b508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.90"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/9b0fd5ecd0714d476ef582713bd53ce655f61b8c",
+      "git:hexsha": "9b0fd5ecd0714d476ef582713bd53ce655f61b8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.91"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/b3a7b1fddd233b6d2d4986727063b63fced9e04a",
+      "git:hexsha": "b3a7b1fddd233b6d2d4986727063b63fced9e04a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.92"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/9574ffc1d1bf259a3c9167fc9f9b274465108304",
+      "git:hexsha": "9574ffc1d1bf259a3c9167fc9f9b274465108304",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.93"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/fee4757b54bc36274eaac7c8a4a90bce7e763c07",
+      "git:hexsha": "fee4757b54bc36274eaac7c8a4a90bce7e763c07",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.94"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/c82a300286856476e0693b3a684c272c89e68654",
+      "git:hexsha": "c82a300286856476e0693b3a684c272c89e68654",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.95"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/2d054baf69e17cc9addf090850fa744699ce1dd5",
+      "git:hexsha": "2d054baf69e17cc9addf090850fa744699ce1dd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.96"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/1e3aa0067af8db74fd99aa76779ab18ea67ddf11",
+      "git:hexsha": "1e3aa0067af8db74fd99aa76779ab18ea67ddf11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.97"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/d05389c87837a5ceb85e12dd2f291f1f3286ffd9",
+      "git:hexsha": "d05389c87837a5ceb85e12dd2f291f1f3286ffd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.98"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test/commit/921a02b1fa32575b189d9a751417254cd01108d7",
+      "git:hexsha": "921a02b1fa32575b189d9a751417254cd01108d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.99"
+    }
+  ]
+}
