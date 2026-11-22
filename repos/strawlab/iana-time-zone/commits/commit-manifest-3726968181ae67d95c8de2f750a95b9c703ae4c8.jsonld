@@ -48,10 +48,34 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3726968181ae67d95c8de2f750a95b9c703ae4c8/chunk-001.nq.gz",
       "repolex:graphFileSize": 1646698
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz",
+      "repolex:graphFileSize": 63752
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:51:33.576816+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.1.65"
+  "git:tagName": "v0.1.65",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono-tz",
+      "repolex:packageName": "chrono-tz",
+      "git:hexsha": "bc86bc5d956f4ef2655f3e56fabfbada948bbc5c",
+      "git:tagName": "v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/getrandom",
+      "repolex:packageName": "getrandom",
+      "git:hexsha": "95be9b40b4e8f580da0c8a788365122fff3d304f",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cc-rs",
+      "repolex:packageName": "cc"
+    }
+  ]
 }
