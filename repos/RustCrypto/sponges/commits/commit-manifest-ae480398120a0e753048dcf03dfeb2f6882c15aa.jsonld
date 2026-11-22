@@ -48,10 +48,24 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ae480398120a0e753048dcf03dfeb2f6882c15aa/chunk-001.nq.gz",
       "repolex:graphFileSize": 511047
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ae480398120a0e753048dcf03dfeb2f6882c15aa.nq.gz",
+      "repolex:graphFileSize": 32120
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:28:12.351858+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "keccak-v0.2.2"
+  "git:tagName": "keccak-v0.2.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if",
+      "git:hexsha": "3510ca6abea34cbbc702509a4e50ea9709925eda",
+      "git:tagName": "v1.0.4"
+    }
+  ]
 }

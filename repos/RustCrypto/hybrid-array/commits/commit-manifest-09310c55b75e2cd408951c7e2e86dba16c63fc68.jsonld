@@ -48,10 +48,54 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/09310c55b75e2cd408951c7e2e86dba16c63fc68/chunk-001.nq.gz",
       "repolex:graphFileSize": 1809510
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/09310c55b75e2cd408951c7e2e86dba16c63fc68.nq.gz",
+      "repolex:graphFileSize": 139562
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:27:29.925284+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.4.15"
+  "git:tagName": "v0.4.15",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/paholg/typenum",
+      "repolex:packageName": "typenum"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary"
+    },
+    {
+      "@id": "https://repolex.ai/r/Lokathor/bytemuck",
+      "repolex:packageName": "bytemuck"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "ctutils"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/subtle",
+      "repolex:packageName": "subtle"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/zerocopy",
+      "repolex:packageName": "zerocopy"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json"
+    }
+  ]
 }
