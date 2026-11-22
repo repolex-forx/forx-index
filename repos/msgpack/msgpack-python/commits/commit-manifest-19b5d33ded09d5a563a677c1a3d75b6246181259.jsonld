@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/19b5d33ded09d5a563a677c1a3d75b6246181259/chunk-001.nq.gz",
       "repolex:graphFileSize": 2284518
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/19b5d33ded09d5a563a677c1a3d75b6246181259.nq.gz",
+      "repolex:graphFileSize": 302425
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:43:50.291483+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.2"
+  "git:tagName": "v1.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/cython/cython",
+      "repolex:packageName": "cython",
+      "git:hexsha": "236e4a3ccd24d4e24c9d7c40a8580d359663832c",
+      "git:tagName": "3.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
