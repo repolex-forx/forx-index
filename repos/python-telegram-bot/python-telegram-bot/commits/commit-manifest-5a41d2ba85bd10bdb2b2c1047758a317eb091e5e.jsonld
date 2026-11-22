@@ -48,10 +48,60 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5a41d2ba85bd10bdb2b2c1047758a317eb091e5e/chunk-001.nq.gz",
       "repolex:graphFileSize": 76810155
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5a41d2ba85bd10bdb2b2c1047758a317eb091e5e.nq.gz",
+      "repolex:graphFileSize": 7969090
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T07:00:34.153224+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v22.7"
+  "git:tagName": "v22.7",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/httpcore",
+      "repolex:packageName": "httpcore",
+      "git:hexsha": "98209758cc14e1a5f966fe1dfdc1064b94055d8c",
+      "git:tagName": "1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/tkem/cachetools",
+      "repolex:packageName": "cachetools",
+      "git:hexsha": "28bbcba53fbd939858ed02f52579e362e3b4fce9",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/agronholm/apscheduler",
+      "repolex:packageName": "apscheduler",
+      "git:hexsha": "2cd37918351c266ff4149abccc40635b79a80477",
+      "git:tagName": "3.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography",
+      "repolex:packageName": "cryptography",
+      "git:hexsha": "2c11ad53c07179e03ea2f60813cb52d83f766292",
+      "git:tagName": "3.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-cffi/cffi",
+      "repolex:packageName": "cffi",
+      "git:hexsha": "74731f941cf464ad3be5e13708a0a0183b32b3b7",
+      "git:tagName": "v1.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/mjpieters/aiolimiter",
+      "repolex:packageName": "aiolimiter"
+    },
+    {
+      "@id": "https://repolex.ai/r/tornadoweb/tornado",
+      "repolex:packageName": "tornado"
+    }
+  ]
 }
