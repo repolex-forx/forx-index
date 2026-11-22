@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2d2643cf7c64abbf014ff1df736865074a8b94de/chunk-001.nq.gz",
       "repolex:graphFileSize": 6705090
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2d2643cf7c64abbf014ff1df736865074a8b94de.nq.gz",
+      "repolex:graphFileSize": 1203767
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:27:18.887440+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.12.16"
+  "git:tagName": "0.12.16",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-cli/anstyle",
+      "repolex:packageName": "anstyle",
+      "git:hexsha": "14dd743496d1614f8261a093ce755f26d8e2069d",
+      "git:tagName": "v1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/memchr",
+      "repolex:packageName": "memchr",
+      "git:hexsha": "886ca4ca4820297191c6e9f7b023dc356f31a4d1",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/unicode-rs/unicode-width",
+      "repolex:packageName": "unicode-width",
+      "git:hexsha": "9d98411769fe13c7c18cab0b3fbbab29ba8350ea",
+      "git:tagName": "v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/annotate-snippets-rs",
+      "repolex:packageName": "annotate-snippets",
+      "git:hexsha": "56b9d04fddd97d0a981a893d813e4998795b601c",
+      "git:tagName": "0.12.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/anstyle",
+      "repolex:packageName": "anstream",
+      "git:hexsha": "ff11cdce66bc7910a4fe7ebc91cd4302cb6789a6",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/nvzqz/divan",
+      "repolex:packageName": "divan",
+      "git:hexsha": "9800477791fa648a8212a7faf4967a2bc7483522",
+      "git:tagName": "v0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/assert-rs/snapbox",
+      "repolex:packageName": "snapbox"
+    }
+  ]
 }
