@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3abb539ddb67a9008050a17ca16eb65a5ad3da62/chunk-001.nq.gz",
       "repolex:graphFileSize": 5129458
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3abb539ddb67a9008050a17ca16eb65a5ad3da62.nq.gz",
+      "repolex:graphFileSize": 693324
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:16:58.567063+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.24.1"
+  "git:tagName": "0.24.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/alex/rust-asn1",
+      "repolex:packageName": "asn1_derive",
+      "git:hexsha": "3abb539ddb67a9008050a17ca16eb65a5ad3da62",
+      "git:tagName": "0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/itoa",
+      "repolex:packageName": "itoa",
+      "git:hexsha": "8f392032fadf15b5e6b9b7b6add21875575d67af",
+      "git:tagName": "1.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "8adb9c54b36f4e2f4e6b04650ded190fcaeb0278",
+      "git:tagName": "0.2.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+      "git:tagName": "2.0.119"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex",
+      "git:hexsha": "b2b4370b5bf021b98ee7adc92233e8de3f2de792",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jcreekmore/pem-rs",
+      "repolex:packageName": "pem",
+      "git:hexsha": "7d6157704805dcedf703229926938a71b1ddd0b1",
+      "git:tagName": "v3.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "487474f013d3e0cbffc911934575f7ebcc72a6d4",
+      "git:tagName": "v4.6.9"
+    }
+  ]
 }
