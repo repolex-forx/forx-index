@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d9988ec8f095cacb4044c527335ca21cc38e060a/chunk-001.nq.gz",
       "repolex:graphFileSize": 583467
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d9988ec8f095cacb4044c527335ca21cc38e060a.nq.gz",
+      "repolex:graphFileSize": 40155
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T06:37:58.925694+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.5.1"
+  "git:tagName": "0.5.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml",
+      "repolex:packageName": "lxml",
+      "git:hexsha": "3c1a4c7f2d5a3c19efe01adfd3c33ac3c8fe52c1",
+      "git:tagName": "lxml-6.1.3"
+    }
+  ]
 }
