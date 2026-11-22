@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d290456969d0e89e6799d8a673c95112962b70ec/chunk-001.nq.gz",
       "repolex:graphFileSize": 12057126
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d290456969d0e89e6799d8a673c95112962b70ec.nq.gz",
+      "repolex:graphFileSize": 895062
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:50:37.932816+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.17.0"
+  "git:tagName": "v0.17.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/orlp/foldhash",
+      "repolex:packageName": "foldhash",
+      "git:hexsha": "8f878c636fda9c9e93384824ea45e06d03f009f5",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon",
+      "git:hexsha": "990841b313d1a566d2b7f4f33c61e0f0ac9dc7b6",
+      "git:tagName": "v1.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "ff3aee490abff5267cac86f07e0301aa6d441760",
+      "git:tagName": "v1.0.221"
+    },
+    {
+      "@id": "https://repolex.ai/r/zakarumych/allocator-api2",
+      "repolex:packageName": "allocator-api2"
+    },
+    {
+      "@id": "https://repolex.ai/r/indexmap-rs/equivalent",
+      "repolex:packageName": "equivalent"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "96f8df65ee6b4368d91a006f9c5b4a8050abae49",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-fnv",
+      "repolex:packageName": "fnv",
+      "git:hexsha": "4b4784ebfd3332dc61f0640764d6f1140e03a9ab",
+      "git:tagName": "v1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/test",
+      "repolex:packageName": "serde_test"
+    },
+    {
+      "@id": "https://repolex.ai/r/fitzgen/bumpalo",
+      "repolex:packageName": "bumpalo",
+      "git:hexsha": "fd3dd5767658ad634581d0bc8267c3ed00ec9ec5",
+      "git:tagName": "3.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+      "git:tagName": "0.2.191"
+    }
+  ]
 }
