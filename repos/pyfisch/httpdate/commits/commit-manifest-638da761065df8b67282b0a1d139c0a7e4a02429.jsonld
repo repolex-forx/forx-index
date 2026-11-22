@@ -48,10 +48,22 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/638da761065df8b67282b0a1d139c0a7e4a02429/chunk-001.nq.gz",
       "repolex:graphFileSize": 349169
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/638da761065df8b67282b0a1d139c0a7e4a02429.nq.gz",
+      "repolex:graphFileSize": 32496
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:36:03.841048+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.0.3"
+  "git:tagName": "v1.0.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    }
+  ]
 }
