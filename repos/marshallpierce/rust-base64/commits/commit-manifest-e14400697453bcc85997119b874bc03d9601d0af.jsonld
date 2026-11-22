@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e14400697453bcc85997119b874bc03d9601d0af/chunk-001.nq.gz",
       "repolex:graphFileSize": 3728590
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e14400697453bcc85997119b874bc03d9601d0af.nq.gz",
+      "repolex:graphFileSize": 446180
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:40:18.027780+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.22.1"
+  "git:tagName": "v0.22.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "5e27b692a43a05736d073fd449e16dcf1c24628c",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "937320cbfeebd4352a23086d9c6e68f067f74644",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "3bd502024e45cc9abef690f28783d76a9ce33500",
+      "git:tagName": "v3.2.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/Peternator7/strum",
+      "repolex:packageName": "strum"
+    },
+    {
+      "@id": "https://repolex.ai/r/la10736/rstest",
+      "repolex:packageName": "rstest",
+      "git:hexsha": "0cc026746324a111168782d5aa1a6da8affbb634",
+      "git:tagName": "0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/la10736/rstest",
+      "repolex:packageName": "rstest_reuse",
+      "git:hexsha": "04f3ddd2c64908baa9d57007d89e9eeb9106fec4",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/matklad/once_cell",
+      "repolex:packageName": "once_cell"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "89a1336b934c68ddce548127c6f8afd910b35a18",
+      "git:tagName": "v0.6.4"
+    }
+  ]
 }
