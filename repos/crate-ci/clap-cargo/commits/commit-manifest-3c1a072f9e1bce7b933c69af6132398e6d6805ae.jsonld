@@ -48,10 +48,40 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3c1a072f9e1bce7b933c69af6132398e6d6805ae/chunk-001.nq.gz",
       "repolex:graphFileSize": 400671
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3c1a072f9e1bce7b933c69af6132398e6d6805ae.nq.gz",
+      "repolex:graphFileSize": 22331
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:25:21.010494+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.18.3"
+  "git:tagName": "v0.18.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-cli/anstyle",
+      "repolex:packageName": "anstyle",
+      "git:hexsha": "14dd743496d1614f8261a093ce755f26d8e2069d",
+      "git:tagName": "v1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/oli-obk/cargo_metadata",
+      "repolex:packageName": "cargo_metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "8e3d03639756241aa2b7dd624a7f5852bef76f31",
+      "git:tagName": "v4.5.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap_builder",
+      "git:hexsha": "8e3d03639756241aa2b7dd624a7f5852bef76f31",
+      "git:tagName": "v4.5.48"
+    }
+  ]
 }
