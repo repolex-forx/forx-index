@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d93164f98d7fe2daf883f2e1bec82778dd26199a/chunk-001.nq.gz",
       "repolex:graphFileSize": 973165
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d93164f98d7fe2daf883f2e1bec82778dd26199a.nq.gz",
+      "repolex:graphFileSize": 104821
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:21:55.450001+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.3.10"
+  "git:tagName": "v0.3.10",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/oyvindln/adler2",
+      "repolex:packageName": "adler2"
+    },
+    {
+      "@id": "https://repolex.ai/r/remram44/adler32-rs",
+      "repolex:packageName": "adler32",
+      "git:hexsha": "2ff95ca1db58c9db85ddaf59e4755e4ae94ac49d",
+      "git:tagName": "1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "89a1336b934c68ddce548127c6f8afd910b35a18",
+      "git:tagName": "v0.6.4"
+    }
+  ]
 }
