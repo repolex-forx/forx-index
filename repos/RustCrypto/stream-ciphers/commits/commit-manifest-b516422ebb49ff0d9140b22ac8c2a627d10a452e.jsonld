@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b516422ebb49ff0d9140b22ac8c2a627d10a452e/chunk-001.nq.gz",
       "repolex:graphFileSize": 2614843
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b516422ebb49ff0d9140b22ac8c2a627d10a452e.nq.gz",
+      "repolex:graphFileSize": 182043
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:35:49.141853+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "salsa20-v0.11.0"
+  "git:tagName": "salsa20-v0.11.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hybrid-array",
+      "repolex:packageName": "hybrid-array",
+      "git:hexsha": "1cccda21548ebb317e6c3a0b47dbd70c746a0f84",
+      "git:tagName": "v0.4.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "cipher"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "hex-literal"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "inout"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits",
+      "repolex:packageName": "crypto-common"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cfg-if",
+      "repolex:packageName": "cfg-if",
+      "git:hexsha": "3510ca6abea34cbbc702509a4e50ea9709925eda",
+      "git:tagName": "v1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "blobby"
+    }
+  ]
 }
