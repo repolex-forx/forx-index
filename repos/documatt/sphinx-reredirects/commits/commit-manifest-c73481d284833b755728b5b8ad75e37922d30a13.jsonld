@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c73481d284833b755728b5b8ad75e37922d30a13/chunk-001.nq.gz",
       "repolex:graphFileSize": 402524
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c73481d284833b755728b5b8ad75e37922d30a13.nq.gz",
+      "repolex:graphFileSize": 38049
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T08:58:01.672922+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.0"
+  "git:tagName": "v1.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/conventional-changelog/commitlint",
+      "repolex:packageName": "@commitlint/cli",
+      "git:hexsha": "e82f05a737626bb69979d14564f5ff601997f679",
+      "git:tagName": "v19.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/conventional-changelog/commitlint",
+      "repolex:packageName": "@commitlint/config-conventional",
+      "git:hexsha": "e82f05a737626bb69979d14564f5ff601997f679",
+      "git:tagName": "v19.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/orhun/git-cliff",
+      "repolex:packageName": "git-cliff",
+      "git:hexsha": "e61b246f22ffd2e32130aab7f3259f894e15f847",
+      "git:tagName": "v2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/typicode/husky",
+      "repolex:packageName": "husky",
+      "git:hexsha": "799e84b716d0e03db80db5d5b0dcdd15b9d555fc",
+      "git:tagName": "v9.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/lint-staged/lint-staged",
+      "repolex:packageName": "lint-staged",
+      "git:hexsha": "7e6abe47c2c7584e72ded13a16d2e93d0a98f57b",
+      "git:tagName": "v15.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "4ff5dc540fa09b25fb0c02709d227af5ca53cfbf",
+      "git:tagName": "3.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    }
+  ]
 }
