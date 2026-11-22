@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d7bb777e503d82bf2496113f07dd4ab249615efc/chunk-001.nq.gz",
       "repolex:graphFileSize": 4681560
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d7bb777e503d82bf2496113f07dd4ab249615efc.nq.gz",
+      "repolex:graphFileSize": 761430
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T03:39:00.728065+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.2"
+  "git:tagName": "v1.1.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pyca/cryptography",
+      "repolex:packageName": "cryptography",
+      "git:hexsha": "4dda5c7fe4ae71b8925f2551910a0ef959df9c7a",
+      "git:tagName": "50.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/pynacl",
+      "repolex:packageName": "pynacl",
+      "git:hexsha": "58d40e6bdba7c3a064bff954bfaa7a48c114773a",
+      "git:tagName": "1.4.0"
+    }
+  ]
 }
