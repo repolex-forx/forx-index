@@ -48,10 +48,78 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/50d83545a3594ce1a5425d8ec33309bc37552707/chunk-001.nq.gz",
       "repolex:graphFileSize": 4253650
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/50d83545a3594ce1a5425d8ec33309bc37552707.nq.gz",
+      "repolex:graphFileSize": 373690
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-21T23:41:10.713653+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.2.2"
+  "git:tagName": "1.2.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tox-dev/filelock",
+      "repolex:packageName": "filelock",
+      "git:hexsha": "9a979dfe68fab75517c0612952ea401a232055a0",
+      "git:tagName": "3.15.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/platformdirs",
+      "repolex:packageName": "platformdirs"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo",
+      "git:hexsha": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+      "git:tagName": "2025.12.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/tox-dev/sphinx-autodoc-typehints",
+      "repolex:packageName": "sphinx-autodoc-typehints",
+      "git:hexsha": "c6f67683bfa17d4600258da6f925272da060bb79",
+      "git:tagName": "3.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/mgaitan/sphinxcontrib-mermaid",
+      "repolex:packageName": "sphinxcontrib-mermaid"
+    },
+    {
+      "@id": "https://repolex.ai/r/asottile/covdefaults",
+      "repolex:packageName": "covdefaults"
+    },
+    {
+      "@id": "https://repolex.ai/r/coveragepy/coveragepy",
+      "repolex:packageName": "coverage",
+      "git:hexsha": "22c09c67ff321835a79e00fa234086b216e3d8d0",
+      "git:tagName": "7.5.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "b55ab2aabb68c0ce94c3903139b062d0c2790152",
+      "git:tagName": "8.3.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-mock",
+      "repolex:packageName": "pytest-mock"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
