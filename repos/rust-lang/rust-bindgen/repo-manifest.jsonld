@@ -1,0 +1,789 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/rust-lang/rust-bindgen",
+  "@type": "gh:Repository",
+  "gh:name": "rust-bindgen",
+  "gh:owner": "rust-lang",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d874de8d646d9b8a3e7ba2db2bcd52f2fba8f1f5",
+      "git:hexsha": "d874de8d646d9b8a3e7ba2db2bcd52f2fba8f1f5",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "v0.72.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/35df1e3afcf0ec67cf588b17adba537bc3e395c9",
+      "git:hexsha": "35df1e3afcf0ec67cf588b17adba537bc3e395c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/176481c0f8694df12809ac7e70def059e4f9d89f",
+      "git:hexsha": "176481c0f8694df12809ac7e70def059e4f9d89f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/f5500333413b597bd3d6e22e0325143df998082d",
+      "git:hexsha": "f5500333413b597bd3d6e22e0325143df998082d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/40b62ebc9853b8feeaddce8cad972eebdb9f99a9",
+      "git:hexsha": "40b62ebc9853b8feeaddce8cad972eebdb9f99a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/56faaf291d87355c204bf7deec66128d6090d4d1",
+      "git:hexsha": "56faaf291d87355c204bf7deec66128d6090d4d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/b832eb19930f2345b1b8e24398593d3e24e2d1f8",
+      "git:hexsha": "b832eb19930f2345b1b8e24398593d3e24e2d1f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/6f26197e5753218e87e30de54d08bcd57c0f8f58",
+      "git:hexsha": "6f26197e5753218e87e30de54d08bcd57c0f8f58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/9a8c75bb71dd9fdabc210f327f5f0265a259c9fe",
+      "git:hexsha": "9a8c75bb71dd9fdabc210f327f5f0265a259c9fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/91f9f93abc9e802da0eb94e073d6717569fca9fc",
+      "git:hexsha": "91f9f93abc9e802da0eb94e073d6717569fca9fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d8458941cb570f8753c885da512ba22a53c6bb44",
+      "git:hexsha": "d8458941cb570f8753c885da512ba22a53c6bb44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c160b3d1ed7ebd6b5e542fe271a078f4881884cd",
+      "git:hexsha": "c160b3d1ed7ebd6b5e542fe271a078f4881884cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.25.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/33c6f261db8fd6ca752a1ed0ba1a8cf6ef3158cd",
+      "git:hexsha": "33c6f261db8fd6ca752a1ed0ba1a8cf6ef3158cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/55cf63c08c539df2a8c5437c062dda5fb57a8b18",
+      "git:hexsha": "55cf63c08c539df2a8c5437c062dda5fb57a8b18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.31.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d4829d3bb33ffe411fcc67c273be7643017aae38",
+      "git:hexsha": "d4829d3bb33ffe411fcc67c273be7643017aae38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/39d07787a3409b7753a9600bbbfe43d757ce28c2",
+      "git:hexsha": "39d07787a3409b7753a9600bbbfe43d757ce28c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.32.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/3379a90a2d88c7d6333d64fe33ea1bd992904c71",
+      "git:hexsha": "3379a90a2d88c7d6333d64fe33ea1bd992904c71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.33.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/2ae581183cc4b7fb47ea104bcfda42292a2fdd32",
+      "git:hexsha": "2ae581183cc4b7fb47ea104bcfda42292a2fdd32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/45c4b6f47231f30202f0205ceaae3a7da1f8c8ed",
+      "git:hexsha": "45c4b6f47231f30202f0205ceaae3a7da1f8c8ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/81217a4f983570d752aad58073f22f142f1c2f01",
+      "git:hexsha": "81217a4f983570d752aad58073f22f142f1c2f01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/dbe73b0a99ad86f08254e30fad274a1bdfb7779b",
+      "git:hexsha": "dbe73b0a99ad86f08254e30fad274a1bdfb7779b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/ee89bf486a157fa27ad4e2084f48930ecba630de",
+      "git:hexsha": "ee89bf486a157fa27ad4e2084f48930ecba630de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/ff4506b21b9af78566751bfe6019d4b96f8138c4",
+      "git:hexsha": "ff4506b21b9af78566751bfe6019d4b96f8138c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/aad93a81bb2ceeeeffc94c856a6d0d37c5ac6aec",
+      "git:hexsha": "aad93a81bb2ceeeeffc94c856a6d0d37c5ac6aec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/e4420b601031c4ec8d84fe8340961447e3a2c87a",
+      "git:hexsha": "e4420b601031c4ec8d84fe8340961447e3a2c87a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/78e425f921085030585c93ed1eb0b96b5cb3b4b5",
+      "git:hexsha": "78e425f921085030585c93ed1eb0b96b5cb3b4b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/33df99a73784c1846b62f97ebff3848cdd76c3b1",
+      "git:hexsha": "33df99a73784c1846b62f97ebff3848cdd76c3b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/7d995d75e07798c1527d5ea3dd8a647ed79fe209",
+      "git:hexsha": "7d995d75e07798c1527d5ea3dd8a647ed79fe209",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/e57b2cb3037628abbbf2be549ae3a2e8a4aa95b2",
+      "git:hexsha": "e57b2cb3037628abbbf2be549ae3a2e8a4aa95b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/4dde8f876dec0efd1f3bf2b0b594a57ef6ac774a",
+      "git:hexsha": "4dde8f876dec0efd1f3bf2b0b594a57ef6ac774a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/06fa2f75ba4dccba7430d461ec89b7e8c36fd4e9",
+      "git:hexsha": "06fa2f75ba4dccba7430d461ec89b7e8c36fd4e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/719d03c7724da0c93b05b891465b2df4299ef169",
+      "git:hexsha": "719d03c7724da0c93b05b891465b2df4299ef169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/66b9c3d8698aef0a32147eeabb99264a9b52d171",
+      "git:hexsha": "66b9c3d8698aef0a32147eeabb99264a9b52d171",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/2d88dd106bf33807679f531051546f3c9889161e",
+      "git:hexsha": "2d88dd106bf33807679f531051546f3c9889161e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.24.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/31e440917cdc8ac57cd69ddf929e90a7c4b46367",
+      "git:hexsha": "31e440917cdc8ac57cd69ddf929e90a7c4b46367",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/9bb794bb3305ae2355e1945b3abe3d0d8064a428",
+      "git:hexsha": "9bb794bb3305ae2355e1945b3abe3d0d8064a428",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/daf1935534de9cd09a8d3f4384af20eaa4fe0f01",
+      "git:hexsha": "daf1935534de9cd09a8d3f4384af20eaa4fe0f01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/7faa855d01e114c1adc0abd5efd547ed40543882",
+      "git:hexsha": "7faa855d01e114c1adc0abd5efd547ed40543882",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.25.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/8470e221f9fa5d1f195339737fdd3a7b433cad51",
+      "git:hexsha": "8470e221f9fa5d1f195339737fdd3a7b433cad51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/49526069a0cb9486cb4838134259589addafff40",
+      "git:hexsha": "49526069a0cb9486cb4838134259589addafff40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/78e7546d3be61a7cb7272c7365564300481798ae",
+      "git:hexsha": "78e7546d3be61a7cb7272c7365564300481798ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.26.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/0e39721b6c72b574026a0802792c4e95f0d83e68",
+      "git:hexsha": "0e39721b6c72b574026a0802792c4e95f0d83e68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/81166785bb4d4e315308a512b7b7594175ef1db7",
+      "git:hexsha": "81166785bb4d4e315308a512b7b7594175ef1db7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.29.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/05caa820010d44b601b340228d4f95d81958a270",
+      "git:hexsha": "05caa820010d44b601b340228d4f95d81958a270",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.30.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/f661f58188c6442145ff8856b059ce3e09941e5e",
+      "git:hexsha": "f661f58188c6442145ff8856b059ce3e09941e5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.31.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/fefbbb56ec78950275ff6a1a714efcaa48bf9e8c",
+      "git:hexsha": "fefbbb56ec78950275ff6a1a714efcaa48bf9e8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.31.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/4c975aa18f6ae4147a146ae7f9c25ac6a2ae14b0",
+      "git:hexsha": "4c975aa18f6ae4147a146ae7f9c25ac6a2ae14b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.31.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/b3712248c59f8f4dca80fd92d1ad9cb40149a8cc",
+      "git:hexsha": "b3712248c59f8f4dca80fd92d1ad9cb40149a8cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.32.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/fb069e9391ebf40ec9ebef7c0ac2e50f5ead5644",
+      "git:hexsha": "fb069e9391ebf40ec9ebef7c0ac2e50f5ead5644",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.35.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/af54e58a8c2e513ba8c3cc00c22aa958de091a53",
+      "git:hexsha": "af54e58a8c2e513ba8c3cc00c22aa958de091a53",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/515ca97b462f348b7b3bb9eaea98b2e0bb1b624b",
+      "git:hexsha": "515ca97b462f348b7b3bb9eaea98b2e0bb1b624b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/4d3674fd378f7ad7fbd7aa1ff9781eecee1f5940",
+      "git:hexsha": "4d3674fd378f7ad7fbd7aa1ff9781eecee1f5940",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/a899ce711617fd7be482622a908a40d5fd1c7628",
+      "git:hexsha": "a899ce711617fd7be482622a908a40d5fd1c7628",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c197acf847c4ea6012061c1246668514059c34ae",
+      "git:hexsha": "c197acf847c4ea6012061c1246668514059c34ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.37.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/40d24bb085a1a0bd11f7cf4dd87c52de529302ca",
+      "git:hexsha": "40d24bb085a1a0bd11f7cf4dd87c52de529302ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.38.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/14da023687b36db480c42f924ec8d236faf1577a",
+      "git:hexsha": "14da023687b36db480c42f924ec8d236faf1577a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.39.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/36c087bb4a22ae37d96a7a711293f5ee2d98015f",
+      "git:hexsha": "36c087bb4a22ae37d96a7a711293f5ee2d98015f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.40.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c4433e08ce973632565fd8e2856533052a8ecc89",
+      "git:hexsha": "c4433e08ce973632565fd8e2856533052a8ecc89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.41.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/35a349dd76cb5ba9470de30bb2eb51ea152a9640",
+      "git:hexsha": "35a349dd76cb5ba9470de30bb2eb51ea152a9640",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.42.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/988a9537800a23c045e045f19e02a1674d6a14ef",
+      "git:hexsha": "988a9537800a23c045e045f19e02a1674d6a14ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.42.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/6055f364bd1d341da8fa881741ec36ab0abf0a7a",
+      "git:hexsha": "6055f364bd1d341da8fa881741ec36ab0abf0a7a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.42.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d7a74baf5c822e0312aca539c3836e5d87c6091b",
+      "git:hexsha": "d7a74baf5c822e0312aca539c3836e5d87c6091b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.42.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/a242c51e6ff0d4cc27940a3927e713e8dff82c5f",
+      "git:hexsha": "a242c51e6ff0d4cc27940a3927e713e8dff82c5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.43.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/5de943ca7bf6c155f7bae1d91f1e3b1d91e8d901",
+      "git:hexsha": "5de943ca7bf6c155f7bae1d91f1e3b1d91e8d901",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.43.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/68d0af91e58d8ae4c384fb8ae48153dd3ddb7e0a",
+      "git:hexsha": "68d0af91e58d8ae4c384fb8ae48153dd3ddb7e0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.43.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/7b1406dc90f67fafca61dba915ac57b9d2d7d2d4",
+      "git:hexsha": "7b1406dc90f67fafca61dba915ac57b9d2d7d2d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.44.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/371e744e4158f23e75adb296433fc684076964ad",
+      "git:hexsha": "371e744e4158f23e75adb296433fc684076964ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.45.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/7c24f6b2f6f62f62eba64784f58b1b6d46831908",
+      "git:hexsha": "7c24f6b2f6f62f62eba64784f58b1b6d46831908",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.46.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/8747bc9c28e2c1f762f6fd0f9235f056dbc74ba0",
+      "git:hexsha": "8747bc9c28e2c1f762f6fd0f9235f056dbc74ba0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/86eff214bf29dc1545bfa7fd44ab2df20048e62b",
+      "git:hexsha": "86eff214bf29dc1545bfa7fd44ab2df20048e62b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/f4f47d52cbce45af177958e76ef9a4a17e922bc4",
+      "git:hexsha": "f4f47d52cbce45af177958e76ef9a4a17e922bc4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/1cd830127489b19a58143c300667d045b447a62d",
+      "git:hexsha": "1cd830127489b19a58143c300667d045b447a62d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c2b3a71fc46cb05032dc99ece6a98cf0fb6359eb",
+      "git:hexsha": "c2b3a71fc46cb05032dc99ece6a98cf0fb6359eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.47.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/a43cc2afcd69cbaa2f699ee3d4b9c804576ffad7",
+      "git:hexsha": "a43cc2afcd69cbaa2f699ee3d4b9c804576ffad7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/185a5f322e973b60f8d0986672f9a88e5d9a07bd",
+      "git:hexsha": "185a5f322e973b60f8d0986672f9a88e5d9a07bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.48.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/5b2f344bb02e72fd177149e3aa5d789679fa4471",
+      "git:hexsha": "5b2f344bb02e72fd177149e3aa5d789679fa4471",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/e5250a01b98cb8ca9dc4584788dbc5db68147a71",
+      "git:hexsha": "e5250a01b98cb8ca9dc4584788dbc5db68147a71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/5eefef7dcaaac45486224954c006e17ad0d24547",
+      "git:hexsha": "5eefef7dcaaac45486224954c006e17ad0d24547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/ad0bf8e6bea1bd70a032f2425b4a581926778096",
+      "git:hexsha": "ad0bf8e6bea1bd70a032f2425b4a581926778096",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/15d9cb242d91ae736a3d048e456c12528c886404",
+      "git:hexsha": "15d9cb242d91ae736a3d048e456c12528c886404",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.49.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d7898170fb8feadcab1940c2ecfbac2510780552",
+      "git:hexsha": "d7898170fb8feadcab1940c2ecfbac2510780552",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.50.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/8e720a929b64c37e4cb1436041a125c07451030b",
+      "git:hexsha": "8e720a929b64c37e4cb1436041a125c07451030b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.50.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/37e3d658b1b2030e1f805cedcf7301e8ee461e09",
+      "git:hexsha": "37e3d658b1b2030e1f805cedcf7301e8ee461e09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.51.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/6643847b38acbd1f709ace8e07e96a2a0435c212",
+      "git:hexsha": "6643847b38acbd1f709ace8e07e96a2a0435c212",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.51.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/7c24e0d27f0f70b71df832f48dfed71010e56978",
+      "git:hexsha": "7c24e0d27f0f70b71df832f48dfed71010e56978",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.51.1-oldsyn"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/b44be6e3dbce03857c6eac221b1350acd68cb357",
+      "git:hexsha": "b44be6e3dbce03857c6eac221b1350acd68cb357",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.52.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/e025ea3d8a3c84ba0208ba156b2cc1e389127869",
+      "git:hexsha": "e025ea3d8a3c84ba0208ba156b2cc1e389127869",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.52.0-sp1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/1d86a83a8767343528c283a1f6ac9f673bb4eb1a",
+      "git:hexsha": "1d86a83a8767343528c283a1f6ac9f673bb4eb1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/02e76faa7a9270125ea9b8dc45cff3f475283d6e",
+      "git:hexsha": "02e76faa7a9270125ea9b8dc45cff3f475283d6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/cfd3347c6655195d2a03b11aff9cb5efac327bf9",
+      "git:hexsha": "cfd3347c6655195d2a03b11aff9cb5efac327bf9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/b8beaaf0105158f1d1ed02617487aeb190077e2d",
+      "git:hexsha": "b8beaaf0105158f1d1ed02617487aeb190077e2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.2-sp1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/a8290e03c994bf2f9113fdfca7c74eda2f9750cd",
+      "git:hexsha": "a8290e03c994bf2f9113fdfca7c74eda2f9750cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.53.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d405baf05acec7caf6d3d403cccdaeb5e67423e3",
+      "git:hexsha": "d405baf05acec7caf6d3d403cccdaeb5e67423e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.54.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/f94036fd18eefee801b3e99c564b2b0bc1a81218",
+      "git:hexsha": "f94036fd18eefee801b3e99c564b2b0bc1a81218",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.54.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/79f2c131dfc571852b7c097ca3d08d31ab9874c3",
+      "git:hexsha": "79f2c131dfc571852b7c097ca3d08d31ab9874c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.54.1-sp1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/0996486f0977e12f1a64f7730b3eca81659aa839",
+      "git:hexsha": "0996486f0977e12f1a64f7730b3eca81659aa839",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.55.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d492ac4ae11ba7403acd533813982b052c5020a0",
+      "git:hexsha": "d492ac4ae11ba7403acd533813982b052c5020a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.55.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/11ae35089e4748b7e2a6f50f6bef7709af72e724",
+      "git:hexsha": "11ae35089e4748b7e2a6f50f6bef7709af72e724",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/5ca2fc7a0221cacde41fd60b0ce485ee5ab8dac3",
+      "git:hexsha": "5ca2fc7a0221cacde41fd60b0ce485ee5ab8dac3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d7ba7d1dcb081c3c853e3385fd4ef15cb6c1c22c",
+      "git:hexsha": "d7ba7d1dcb081c3c853e3385fd4ef15cb6c1c22c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/696455d1c15e682b2b89f81f409315ea4964aef3",
+      "git:hexsha": "696455d1c15e682b2b89f81f409315ea4964aef3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.58.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/67140077f65bb5af6eae1b257c91c9f379e56bc2",
+      "git:hexsha": "67140077f65bb5af6eae1b257c91c9f379e56bc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/9a9438f3d6a3523c69d7bc890e8608b63dbe38a5",
+      "git:hexsha": "9a9438f3d6a3523c69d7bc890e8608b63dbe38a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/89032649044d875983a851fff6fbde2d4e2ceaeb",
+      "git:hexsha": "89032649044d875983a851fff6fbde2d4e2ceaeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.59.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/355181134094202e0caae60c1fbf145d8e6ca84b",
+      "git:hexsha": "355181134094202e0caae60c1fbf145d8e6ca84b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.60.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/9ca5f856a35deddde0575002d76d1db4430e6c42",
+      "git:hexsha": "9ca5f856a35deddde0575002d76d1db4430e6c42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.60.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/784d3e824dcb95b8913156d872c9ed8eb8720291",
+      "git:hexsha": "784d3e824dcb95b8913156d872c9ed8eb8720291",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.61.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c09bd2f5b58fb90fbcd906a4826d4ac26fe6ef1d",
+      "git:hexsha": "c09bd2f5b58fb90fbcd906a4826d4ac26fe6ef1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.62.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c51591941e18a75c312c7c237c4969dd22c40467",
+      "git:hexsha": "c51591941e18a75c312c7c237c4969dd22c40467",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.63.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/ae6817256ac557981906e93a1f866349db85053e",
+      "git:hexsha": "ae6817256ac557981906e93a1f866349db85053e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.64.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/2bcff0f2ce64629c6e9d8450f8ddd5eb90bca9e0",
+      "git:hexsha": "2bcff0f2ce64629c6e9d8450f8ddd5eb90bca9e0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.65.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/7d243056d335fdc4537f7bca73c06d01aae24ddc",
+      "git:hexsha": "7d243056d335fdc4537f7bca73c06d01aae24ddc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.65.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/264075a6362f951e90240a976428f0225652d27c",
+      "git:hexsha": "264075a6362f951e90240a976428f0225652d27c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.66.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/38a779c61734c134429dfb99da3499173a848c17",
+      "git:hexsha": "38a779c61734c134429dfb99da3499173a848c17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.66.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/ebcf0bcc8bba113d82d0f1e0cbede40ccffc6e8f",
+      "git:hexsha": "ebcf0bcc8bba113d82d0f1e0cbede40ccffc6e8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.68.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/8d75a02bbb5c64e85e6ce62b57d52b7df9c61c79",
+      "git:hexsha": "8d75a02bbb5c64e85e6ce62b57d52b7df9c61c79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.68.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/c73990cc0f714ce79e444039f09eaf1f769d7e6a",
+      "git:hexsha": "c73990cc0f714ce79e444039f09eaf1f769d7e6a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/f3f3d326c7e9e6fa55562fec6a8676ae8eab7588",
+      "git:hexsha": "f3f3d326c7e9e6fa55562fec6a8676ae8eab7588",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/2a22051bb06cf66bd4e3d9305c45a407b79cf1af",
+      "git:hexsha": "2a22051bb06cf66bd4e3d9305c45a407b79cf1af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/918abdcac6a263b3d33c2b04d7b1b66fc90c2e39",
+      "git:hexsha": "918abdcac6a263b3d33c2b04d7b1b66fc90c2e39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/62859b2c6108c1c0f60d16b9ffe7544a4fbce48b",
+      "git:hexsha": "62859b2c6108c1c0f60d16b9ffe7544a4fbce48b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/ddd00d48e27a6451f65fb8afef381d98a56e0560",
+      "git:hexsha": "ddd00d48e27a6451f65fb8afef381d98a56e0560",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.69.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/190ff2a6a4739f3a703125d9ed290dcd2dc9c808",
+      "git:hexsha": "190ff2a6a4739f3a703125d9ed290dcd2dc9c808",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.70.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/21c60f473f4e824d4aa9b2b508056320d474b110",
+      "git:hexsha": "21c60f473f4e824d4aa9b2b508056320d474b110",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/93c5b8b36bf2372f3b5f5671ce752342c3e83f97",
+      "git:hexsha": "93c5b8b36bf2372f3b5f5671ce752342c3e83f97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.71.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/af7fd38d5e80514406fb6a8bba2d407d252c30b9",
+      "git:hexsha": "af7fd38d5e80514406fb6a8bba2d407d252c30b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.71.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/d0e7d6b5b763e93dd38f9ece05230979ede95a0a",
+      "git:hexsha": "d0e7d6b5b763e93dd38f9ece05230979ede95a0a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.72.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/6d276db6e017194ae0bae024888c6d93d1b7d459",
+      "git:hexsha": "6d276db6e017194ae0bae024888c6d93d1b7d459",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.73.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/66a1e2aa3a4829c831d618d9ce6861419e097781",
+      "git:hexsha": "66a1e2aa3a4829c831d618d9ce6861419e097781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.73.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust-bindgen/commit/73c69d681eec90b84ffba4f993b5fb2f19580781",
+      "git:hexsha": "73c69d681eec90b84ffba4f993b5fb2f19580781",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.73.2"
+    }
+  ]
+}
