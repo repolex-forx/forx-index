@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8af73bc840511d5f279603ba8f43018a116df661/chunk-001.nq.gz",
       "repolex:graphFileSize": 58257044
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8af73bc840511d5f279603ba8f43018a116df661.nq.gz",
+      "repolex:graphFileSize": 11707043
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T07:25:04.642010+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.43.0"
+  "git:tagName": "v2.43.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx",
+      "git:hexsha": "f6b76571fa2d2ec89224dbcc82e1b6bfb7144d0f",
+      "git:tagName": "0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "1d37ffd89c9e6607db2553eb830fea2fc028dc2f",
+      "git:tagName": "v1.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "cf75e420a23c28fd6fd963573a55450db7237ab7",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python-websockets/websockets",
+      "repolex:packageName": "websockets",
+      "git:hexsha": "f516cf51e166ec0cc797fa6bb68b559e4c1fed8b",
+      "git:tagName": "11.0"
+    }
+  ]
 }
