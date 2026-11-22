@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/30b53099e880731c5138d339c02fb3a5df7c9759/chunk-001.nq.gz",
       "repolex:graphFileSize": 910154
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/30b53099e880731c5138d339c02fb3a5df7c9759.nq.gz",
+      "repolex:graphFileSize": 103651
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:37:35.012457+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "backups/Missing_hanlding@113116"
+  "git:tagName": "backups/Missing_hanlding@113116",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/lxml/lxml",
+      "repolex:packageName": "lxml",
+      "git:hexsha": "3c1a4c7f2d5a3c19efe01adfd3c33ac3c8fe52c1",
+      "git:tagName": "lxml-6.1.3"
+    }
+  ]
 }
