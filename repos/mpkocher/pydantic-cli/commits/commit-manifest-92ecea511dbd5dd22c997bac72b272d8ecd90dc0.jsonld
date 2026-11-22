@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/92ecea511dbd5dd22c997bac72b272d8ecd90dc0/chunk-001.nq.gz",
       "repolex:graphFileSize": 880480
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/92ecea511dbd5dd22c997bac72b272d8ecd90dc0.nq.gz",
+      "repolex:graphFileSize": 143094
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:20:27.847052+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v10.0.0"
+  "git:tagName": "v10.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "4978ee235bf5f0fa11159b2dfe46068ef3deba0a",
+      "git:tagName": "v2.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "329d3712146e69c471be3e30883d54bdde2f76cb",
+      "git:tagName": "8.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "28db055bebbf3ee016a2144c8b69dd7b80b48cc5",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "c28b5257b528f65a028e7d0dbecbcd81c7997356",
+      "git:tagName": "v1.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black",
+      "git:hexsha": "3702ba224ecffbcec30af640c149f231d90aebdb",
+      "git:tagName": "24.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/shtab",
+      "repolex:packageName": "shtab",
+      "git:hexsha": "f5693b8df8ede8c6d6794e259c6c9adef9400622",
+      "git:tagName": "v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic-core"
+    }
+  ]
 }

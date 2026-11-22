@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7f956455bcfaca721cb11eb670ae06638ca08478/chunk-001.nq.gz",
       "repolex:graphFileSize": 299287
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7f956455bcfaca721cb11eb670ae06638ca08478.nq.gz",
+      "repolex:graphFileSize": 21615
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:21:04.059294+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "2025.12.21.14"
+  "git:tagName": "2025.12.21.14",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+      "git:tagName": "v7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-xdist",
+      "repolex:packageName": "pytest-xdist",
+      "git:hexsha": "1e3e4dc16523c8a8f6c67d95a950166420718c99",
+      "git:tagName": "v3.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/executablebooks/MyST-Parser",
+      "repolex:packageName": "myst-parser",
+      "git:hexsha": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+      "git:tagName": "v5.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pradyunsg/furo",
+      "repolex:packageName": "furo",
+      "git:hexsha": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+      "git:tagName": "2025.12.19"
+    }
+  ]
 }

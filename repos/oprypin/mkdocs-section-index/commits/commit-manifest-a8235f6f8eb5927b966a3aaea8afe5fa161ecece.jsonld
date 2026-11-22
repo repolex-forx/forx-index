@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a8235f6f8eb5927b966a3aaea8afe5fa161ecece/chunk-001.nq.gz",
       "repolex:graphFileSize": 358047
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a8235f6f8eb5927b966a3aaea8afe5fa161ecece.nq.gz",
+      "repolex:graphFileSize": 36791
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T00:20:48.618354+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.3.11"
+  "git:tagName": "v0.3.11",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/mkdocs/mkdocs",
+      "repolex:packageName": "mkdocs",
+      "git:hexsha": "cd43e9a24346f7db8d2646e0287f8d40735360ff",
+      "git:tagName": "1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/properdocs/properdocs",
+      "repolex:packageName": "properdocs",
+      "git:hexsha": "01fe59b2a43df0fed8282f74520b0f32fb0fd043",
+      "git:tagName": "v1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    }
+  ]
 }
