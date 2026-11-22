@@ -48,10 +48,84 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6892a9cd5d6a78c8d753c3dd35bfd814b00afa69/chunk-001.nq.gz",
       "repolex:graphFileSize": 15749653
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6892a9cd5d6a78c8d753c3dd35bfd814b00afa69.nq.gz",
+      "repolex:graphFileSize": 1900055
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T12:00:09.987981+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.7.43"
+  "git:tagName": "v0.7.43",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/djkoloski/rend",
+      "repolex:packageName": "rend"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/syn",
+      "repolex:packageName": "syn",
+      "git:hexsha": "bfa790b8e445dc67b7ab94d75adb1a92d6296c9a",
+      "git:tagName": "1.0.109"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/quote",
+      "repolex:packageName": "quote",
+      "git:hexsha": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "git:tagName": "1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/proc-macro2",
+      "repolex:packageName": "proc-macro2",
+      "git:hexsha": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "git:tagName": "1.0.107"
+    },
+    {
+      "@id": "https://repolex.ai/r/rkyv/bytecheck",
+      "repolex:packageName": "bytecheck"
+    },
+    {
+      "@id": "https://repolex.ai/r/rkyv/ptr_meta",
+      "repolex:packageName": "ptr_meta"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "572d3b0c176085c485b8fa7818a04b769097bd72",
+      "git:tagName": "0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rngs",
+      "repolex:packageName": "rand_pcg"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/hashbrown",
+      "repolex:packageName": "hashbrown",
+      "git:hexsha": "1d2c1a81d1b53285decbd64410a21a90112613d7",
+      "git:tagName": "v0.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "f9ccd05caad4d068679074c3bc33c3f712ff2343",
+      "git:tagName": "0.3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bincode-org/bincode",
+      "repolex:packageName": "bincode"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/inventory",
+      "repolex:packageName": "inventory",
+      "git:hexsha": "a0a5d75b59f14e0c4cb33ff10556fb2882bdbba3",
+      "git:tagName": "0.1.11"
+    }
+  ]
 }
