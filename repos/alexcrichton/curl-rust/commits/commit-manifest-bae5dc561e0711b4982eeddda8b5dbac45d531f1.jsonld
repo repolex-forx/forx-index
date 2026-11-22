@@ -48,10 +48,76 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/bae5dc561e0711b4982eeddda8b5dbac45d531f1/chunk-001.nq.gz",
       "repolex:graphFileSize": 6603072
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/bae5dc561e0711b4982eeddda8b5dbac45d531f1.nq.gz",
+      "repolex:graphFileSize": 720563
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:09:47.747446+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "curl-sys-0.4.90"
+  "git:tagName": "curl-sys-0.4.90",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/libc",
+      "repolex:packageName": "libc",
+      "git:hexsha": "575832db8780a602461e3c7a0368f93523333fd2",
+      "git:tagName": "0.2.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/alexcrichton/curl-rust",
+      "repolex:packageName": "curl-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/socket2",
+      "repolex:packageName": "socket2",
+      "git:hexsha": "8e2bf28449908a9277cfe59648d81046de2088e1",
+      "git:tagName": "v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/mio",
+      "repolex:packageName": "mio"
+    },
+    {
+      "@id": "https://repolex.ai/r/dimbleby/mio-extras",
+      "repolex:packageName": "mio-extras",
+      "git:hexsha": "24bb6caf521a408cbf966f9444da33f1d72aaef0",
+      "git:tagName": "2.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "144763cf9958ac32ce56a8c107c2120a66f6e39d",
+      "git:tagName": "1.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/openssl-probe",
+      "repolex:packageName": "openssl-probe",
+      "git:hexsha": "4221247cfad3e77b758bf9b6e4c3d91a557c429e",
+      "git:tagName": "0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/cc-rs",
+      "repolex:packageName": "cc"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/pkg-config-rs",
+      "repolex:packageName": "pkg-config",
+      "git:hexsha": "a8852cc148f8f7d504bf3a62444c298dcd3637f0",
+      "git:tagName": "0.3.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/JohnTitor/ctest2",
+      "repolex:packageName": "ctest2",
+      "git:hexsha": "3b51e8e288b5d72d64e459c48262cbda94ea0cd9",
+      "git:tagName": "v0.4.10"
+    }
+  ]
 }
