@@ -48,10 +48,118 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35/chunk-001.nq.gz",
       "repolex:graphFileSize": 6280645
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35.nq.gz",
+      "repolex:graphFileSize": 716480
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:39:47.091201+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.0.14"
+  "git:tagName": "v1.0.14",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/nvzqz/divan",
+      "repolex:packageName": "divan",
+      "git:hexsha": "9800477791fa648a8212a7faf4967a2bc7483522",
+      "git:tagName": "v0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/proptest-rs/proptest",
+      "repolex:packageName": "proptest",
+      "git:hexsha": "c073d523dcecb5fe3e38fa7ec30ed3df06441cc1",
+      "git:tagName": "v1.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/kurtlawrence/cansi",
+      "repolex:packageName": "cansi"
+    },
+    {
+      "@id": "https://repolex.ai/r/magiclen/html-escape",
+      "repolex:packageName": "html-escape",
+      "git:hexsha": "14ec5e3d4722a999425c2fe2a55e425ea3c1d8dc",
+      "git:tagName": "v0.2.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/roff-rs",
+      "repolex:packageName": "roff",
+      "git:hexsha": "f2284b904c1aaed8ed9302c6c725e18320cd6bb4",
+      "git:tagName": "v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/blyxxyz/lexopt",
+      "repolex:packageName": "lexopt",
+      "git:hexsha": "d00be2711096c088cf198650d8853b2420516be3",
+      "git:tagName": "v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/SergioBenitez/yansi",
+      "repolex:packageName": "yansi",
+      "git:hexsha": "3e35184fc181fef63bc11dedb22413e821168255",
+      "git:tagName": "v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/ogham/rust-ansi-term",
+      "repolex:packageName": "ansi_term",
+      "git:hexsha": "ff7eba98d55ad609c7fcc8c7bb0859b37c7545cc",
+      "git:tagName": "v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/luser/strip-ansi-escapes",
+      "repolex:packageName": "strip-ansi-escapes"
+    },
+    {
+      "@id": "https://repolex.ai/r/crossterm-rs/crossterm",
+      "repolex:packageName": "crossterm"
+    },
+    {
+      "@id": "https://repolex.ai/r/polyfill-rs/is_terminal_polyfill",
+      "repolex:packageName": "is_terminal_polyfill",
+      "git:hexsha": "f59342bd129f847bb2481eaf3671d5f08b670d4c",
+      "git:tagName": "v1.48.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/assert-rs/snapbox",
+      "repolex:packageName": "snapbox"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/termcolor",
+      "repolex:packageName": "termcolor",
+      "git:hexsha": "71f0921f1eeceda85487098588a1602979d52493",
+      "git:tagName": "1.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/owo-colors/owo-colors",
+      "repolex:packageName": "owo-colors",
+      "git:hexsha": "1d5eaf2ca6e108bdb411c5d9561c5e6d6a2a9630",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/alacritty/vte",
+      "repolex:packageName": "vte_generate_state_changes",
+      "git:hexsha": "5509849473c7549c95b6a3ef87af8075c50d5da7",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/crate-ci/codegenrs",
+      "repolex:packageName": "codegenrs",
+      "git:hexsha": "2b2a6fe734d50dadeb8a079b6577a0b815234c81",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "88cf306216de20fbce84bbe7aae230824f972042",
+      "git:tagName": "v4.3.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/unicode-rs/unicode-width",
+      "repolex:packageName": "unicode-width",
+      "git:hexsha": "9d98411769fe13c7c18cab0b3fbbab29ba8350ea",
+      "git:tagName": "v0.2.2"
+    }
+  ]
 }
