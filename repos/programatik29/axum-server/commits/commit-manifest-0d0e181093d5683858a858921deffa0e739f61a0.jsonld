@@ -48,10 +48,116 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0d0e181093d5683858a858921deffa0e739f61a0/chunk-001.nq.gz",
       "repolex:graphFileSize": 1746284
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0d0e181093d5683858a858921deffa0e739f61a0.nq.gz",
+      "repolex:graphFileSize": 144239
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T14:56:04.609623+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.8.0"
+  "git:tagName": "v0.8.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/either",
+      "repolex:packageName": "either"
+    },
+    {
+      "@id": "https://repolex.ai/r/andrewhickman/fs-err",
+      "repolex:packageName": "fs-err"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http",
+      "repolex:packageName": "http"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http-body",
+      "repolex:packageName": "http-body"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/hyper",
+      "repolex:packageName": "hyper"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower",
+      "repolex:packageName": "tower-service"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/hyper-util",
+      "repolex:packageName": "hyper-util",
+      "git:hexsha": "203c9563a0ed51666e1829a5be3fbb33d79a3ba2",
+      "git:tagName": "v0.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/vorner/arc-swap",
+      "repolex:packageName": "arc-swap"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rustls",
+      "repolex:packageName": "rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/pki-types",
+      "repolex:packageName": "rustls-pki-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/tokio-rustls",
+      "repolex:packageName": "tokio-rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio-openssl",
+      "repolex:packageName": "tokio-openssl"
+    },
+    {
+      "@id": "https://repolex.ai/r/taiki-e/pin-project-lite",
+      "repolex:packageName": "pin-project-lite"
+    },
+    {
+      "@id": "https://repolex.ai/r/palfrey/serial_test",
+      "repolex:packageName": "serial_test"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/hyperium/http-body",
+      "repolex:packageName": "http-body-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower",
+      "repolex:packageName": "tower"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower-http",
+      "repolex:packageName": "tower-http"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/axum",
+      "repolex:packageName": "axum-core"
+    }
+  ]
 }
