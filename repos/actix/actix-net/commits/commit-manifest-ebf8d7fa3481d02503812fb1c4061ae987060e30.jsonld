@@ -48,10 +48,120 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/ebf8d7fa3481d02503812fb1c4061ae987060e30/chunk-001.nq.gz",
       "repolex:graphFileSize": 4022226
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/ebf8d7fa3481d02503812fb1c4061ae987060e30.nq.gz",
+      "repolex:graphFileSize": 490897
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:35:28.811737+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.2.6"
+  "git:tagName": "v0.2.6",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/actix/actix",
+      "repolex:packageName": "actix",
+      "git:hexsha": "507c221736335e8d3e515fea465e1001184887e7",
+      "git:tagName": "v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/log",
+      "repolex:packageName": "log"
+    },
+    {
+      "@id": "https://repolex.ai/r/seanmonstar/num_cpus",
+      "repolex:packageName": "num_cpus"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/mio",
+      "repolex:packageName": "mio"
+    },
+    {
+      "@id": "https://repolex.ai/r/deprecrated/net2-rs",
+      "repolex:packageName": "net2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/slab",
+      "repolex:packageName": "slab"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-codec"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-io"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-tcp"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-timer"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-reactor"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-current-thread"
+    },
+    {
+      "@id": "https://repolex.ai/r/tower-rs/tower",
+      "repolex:packageName": "tower-service"
+    },
+    {
+      "@id": "https://repolex.ai/r/bluejekyll/trust-dns",
+      "repolex:packageName": "trust-dns-resolver"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-native-tls/rust-native-tls",
+      "repolex:packageName": "native-tls"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-openssl/rust-openssl",
+      "repolex:packageName": "openssl"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio-openssl",
+      "repolex:packageName": "tokio-openssl"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rustls",
+      "repolex:packageName": "rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/tokio-rustls",
+      "repolex:packageName": "tokio-rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/briansmith/webpki",
+      "repolex:packageName": "webpki"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/webpki-roots",
+      "repolex:packageName": "webpki-roots"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger"
+    }
+  ]
 }

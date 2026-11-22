@@ -48,10 +48,58 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/f8832d28ce5688f101368e34fc6b49899a8d4293/chunk-001.nq.gz",
       "repolex:graphFileSize": 2038008
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/f8832d28ce5688f101368e34fc6b49899a8d4293.nq.gz",
+      "repolex:graphFileSize": 207215
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T11:37:41.020964+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v/0.26.5"
+  "git:tagName": "v/0.26.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rustls/rustls",
+      "repolex:packageName": "rustls"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/google/argh",
+      "repolex:packageName": "argh"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-util",
+      "git:hexsha": "16afd7cdc1c85d7de669b5a2c2055586572928cb",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/rcgen",
+      "repolex:packageName": "rcgen"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/webpki-roots",
+      "repolex:packageName": "webpki-roots"
+    },
+    {
+      "@id": "https://repolex.ai/r/rustls/pki-types",
+      "repolex:packageName": "rustls-pki-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures-task",
+      "git:hexsha": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+      "git:tagName": "0.3.34"
+    }
+  ]
 }
