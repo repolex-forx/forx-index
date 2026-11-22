@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d44575439b086751689c18b1a07d3b14de0520b9/chunk-001.nq.gz",
       "repolex:graphFileSize": 1044384
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d44575439b086751689c18b1a07d3b14de0520b9.nq.gz",
+      "repolex:graphFileSize": 115842
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:25:15.435607+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.3"
+  "git:tagName": "v1.1.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "7c00cacae00c4f3263e939e88b5e7739150851e5",
+      "git:tagName": "3.7.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+      "git:tagName": "9.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/mypy",
+      "repolex:packageName": "mypy",
+      "git:hexsha": "ad02a35e623d105ab7340f75558716bc09f8242e",
+      "git:tagName": "v2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typeshed",
+      "repolex:packageName": "types-colorama"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipykernel",
+      "repolex:packageName": "ipykernel",
+      "git:hexsha": "cfa461d8afac05cefc3671128d00adaa3c0720f4",
+      "git:tagName": "v7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }

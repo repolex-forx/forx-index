@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a90f36f0de8c984662c49fb5742027ca24a88cbb/chunk-001.nq.gz",
       "repolex:graphFileSize": 5558767
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a90f36f0de8c984662c49fb5742027ca24a88cbb.nq.gz",
+      "repolex:graphFileSize": 508336
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:21:11.049536+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.12.1"
+  "git:tagName": "1.12.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/memchr",
+      "repolex:packageName": "memchr",
+      "git:hexsha": "31c1e7911e45f17db761aa1f152896d92d782587",
+      "git:tagName": "2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "bb99b31eb0a55393101f9c80cd959b3a739ad70f",
+      "git:tagName": "v1.0.85"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex-automata"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/quickcheck",
+      "repolex:packageName": "quickcheck"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/ucd-generate",
+      "repolex:packageName": "ucd-parse"
+    },
+    {
+      "@id": "https://repolex.ai/r/unicode-rs/unicode-segmentation",
+      "repolex:packageName": "unicode-segmentation"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "f9ccd05caad4d068679074c3bc33c3f712ff2343",
+      "git:tagName": "0.3.6"
+    }
+  ]
 }
