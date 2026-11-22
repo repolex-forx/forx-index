@@ -48,10 +48,100 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/617afa1e63e076642c2960badc3eccb1ab58e754/chunk-001.nq.gz",
       "repolex:graphFileSize": 6686006
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/617afa1e63e076642c2960badc3eccb1ab58e754.nq.gz",
+      "repolex:graphFileSize": 1024519
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:54:46.209420+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "7.3"
+  "git:tagName": "7.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/Acquisition",
+      "repolex:packageName": "acquisition"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/AuthEncoding",
+      "repolex:packageName": "authencoding"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/BTrees",
+      "repolex:packageName": "btrees"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "datetime"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/ExtensionClass",
+      "repolex:packageName": "extensionclass"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/Persistence",
+      "repolex:packageName": "persistence"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/RestrictedPython",
+      "repolex:packageName": "restrictedpython"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/transaction",
+      "repolex:packageName": "transaction"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zExceptions",
+      "repolex:packageName": "zexceptions"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.component",
+      "repolex:packageName": "zope-component"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.configuration",
+      "repolex:packageName": "zope-configuration"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.deferredimport",
+      "repolex:packageName": "zope-deferredimport",
+      "git:hexsha": "bc77c0a073054ac4257ef8acd5fb872b0db0b53f",
+      "git:tagName": "6.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.interface",
+      "repolex:packageName": "zope-interface"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.publisher",
+      "repolex:packageName": "zope-publisher"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.schema",
+      "repolex:packageName": "zope-schema"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.security",
+      "repolex:packageName": "zope-security"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.testing",
+      "repolex:packageName": "zope-testing"
+    },
+    {
+      "@id": "https://repolex.ai/r/zopefoundation/zope.testrunner",
+      "repolex:packageName": "zope-testrunner",
+      "git:hexsha": "975be756a3420e8cccc9647d34deb82686c1c52b",
+      "git:tagName": "6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    }
+  ]
 }
