@@ -48,10 +48,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/9414b8ff719b4c1137e98368bb7f7051eea16295/chunk-001.nq.gz",
       "repolex:graphFileSize": 1822018
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/9414b8ff719b4c1137e98368bb7f7051eea16295.nq.gz",
+      "repolex:graphFileSize": 212221
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T10:47:33.155248+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.1.1"
+  "git:tagName": "1.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/oconnor663/os_pipe.rs",
+      "repolex:packageName": "os_pipe",
+      "git:hexsha": "84a8148e68f18f5dcdc817377e00c3ce2b837b4d",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/oconnor663/shared_child.rs",
+      "repolex:packageName": "shared_child",
+      "git:hexsha": "031888c746506bbd30922ad13d490d667d038249",
+      "git:tagName": "1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/oconnor663/shared_thread.rs",
+      "repolex:packageName": "shared_thread",
+      "git:hexsha": "ae538bae7028182b5a9d4033218ee98af45b2162",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "1a40687e06eb656044e3d2dffa1379f04b3ef3fd",
+      "git:tagName": "v3.3.0"
+    }
+  ]
 }
