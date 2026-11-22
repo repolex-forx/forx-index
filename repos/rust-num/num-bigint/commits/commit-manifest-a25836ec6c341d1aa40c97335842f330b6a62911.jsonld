@@ -48,10 +48,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a25836ec6c341d1aa40c97335842f330b6a62911/chunk-001.nq.gz",
       "repolex:graphFileSize": 8322863
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a25836ec6c341d1aa40c97335842f330b6a62911.nq.gz",
+      "repolex:graphFileSize": 986479
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T01:03:17.751963+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "num-bigint-0.4.6"
+  "git:tagName": "num-bigint-0.4.6",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-integer",
+      "repolex:packageName": "num-integer",
+      "git:hexsha": "ede2d2cb993e55e7b1c992bfd22ecbf16601a652",
+      "git:tagName": "num-integer-0.1.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-num/num-traits",
+      "repolex:packageName": "num-traits",
+      "git:hexsha": "eb20b4022c2dd8191ddd1160399d927886830764",
+      "git:tagName": "num-traits-0.2.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/quickcheck",
+      "repolex:packageName": "quickcheck"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary"
+    }
+  ]
 }
