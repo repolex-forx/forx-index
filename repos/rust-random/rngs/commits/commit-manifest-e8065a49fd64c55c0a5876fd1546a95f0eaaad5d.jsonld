@@ -48,10 +48,22 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e8065a49fd64c55c0a5876fd1546a95f0eaaad5d/chunk-001.nq.gz",
       "repolex:graphFileSize": 2437692
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e8065a49fd64c55c0a5876fd1546a95f0eaaad5d.nq.gz",
+      "repolex:graphFileSize": 184740
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T09:44:57.068083+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "rand_xoshiro-0.8.0-rc.0"
+  "git:tagName": "rand_xoshiro-0.8.0-rc.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/bincode-org/bincode",
+      "repolex:packageName": "bincode"
+    }
+  ]
 }
