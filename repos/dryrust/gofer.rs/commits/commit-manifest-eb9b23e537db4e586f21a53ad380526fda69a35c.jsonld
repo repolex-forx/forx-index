@@ -48,10 +48,52 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/eb9b23e537db4e586f21a53ad380526fda69a35c/chunk-001.nq.gz",
       "repolex:graphFileSize": 414749
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/eb9b23e537db4e586f21a53ad380526fda69a35c.nq.gz",
+      "repolex:graphFileSize": 38177
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T08:24:08.252235+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "0.2.0"
+  "git:tagName": "0.2.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "percent-encoding",
+      "git:hexsha": "359bc90a4f07224f79cc79c45dc873d44bcd6f14",
+      "git:tagName": "v2.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dogmatists/dogma.rs",
+      "repolex:packageName": "dogma",
+      "git:hexsha": "d4f461539d9945260f77838eb301a7921da852c3",
+      "git:tagName": "0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/algesten/ureq",
+      "repolex:packageName": "ureq",
+      "git:hexsha": "a3005534fd761e927f2570d10d43d558da054775",
+      "git:tagName": "3.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/veeso/suppaftp",
+      "repolex:packageName": "suppaftp",
+      "git:hexsha": "96cb46417e65ccb0f9f0b7ec8613c141c151c6b5",
+      "git:tagName": "v6.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/thiserror",
+      "repolex:packageName": "thiserror",
+      "git:hexsha": "95a512669395f30cf9ae10343149726c0563ed76",
+      "git:tagName": "2.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "data-url"
+    }
+  ]
 }
