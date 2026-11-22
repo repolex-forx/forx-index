@@ -48,10 +48,184 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e8184fa38563b8e9aef265ec64836a931e9e89cd/chunk-001.nq.gz",
       "repolex:graphFileSize": 57021198
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e8184fa38563b8e9aef265ec64836a931e9e89cd.nq.gz",
+      "repolex:graphFileSize": 6828648
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:42:33.756642+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.40.1"
+  "git:tagName": "v3.40.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "google-api-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-auth-library-python",
+      "repolex:packageName": "google-auth",
+      "git:hexsha": "bf95dfc17c15e9e6b71fbfa03c90ab8eb18ade43",
+      "git:tagName": "v2.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "google-cloud-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "google-resumable-media"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/dateutil/dateutil",
+      "repolex:packageName": "python-dateutil",
+      "git:hexsha": "6b035517571e63b6a63a493740c5506ec1e5da44",
+      "git:tagName": "2.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "5a1e738ea9c399c3f59977f2f98b083986d6037a",
+      "git:tagName": "v2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "google-cloud-bigquery-storage"
+    },
+    {
+      "@id": "https://repolex.ai/r/grpc/grpc",
+      "repolex:packageName": "grpcio",
+      "git:hexsha": "2717aa8c9b768de99c811628af4e8c30d6c2da4f",
+      "git:tagName": "v1.47.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/arrow",
+      "repolex:packageName": "pyarrow"
+    },
+    {
+      "@id": "https://repolex.ai/r/pandas-dev/pandas",
+      "repolex:packageName": "pandas",
+      "git:hexsha": "f00ed8f47020034e752baf0250483053340971b0",
+      "git:tagName": "v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "pandas-gbq",
+      "git:hexsha": "ea5245ad27e777c654448a259a9fa5f6bf5d758e",
+      "git:tagName": "0.26.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "db-dtypes"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipykernel",
+      "repolex:packageName": "ipykernel",
+      "git:hexsha": "c36de65d2f275e0ba42f5dc2a7bb619bea4ab02d",
+      "git:tagName": "6.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/geopandas/geopandas",
+      "repolex:packageName": "geopandas",
+      "git:hexsha": "ec4c6805d1182f846b9659345a5e66fa7c7afac7",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/shapely/shapely",
+      "repolex:packageName": "shapely",
+      "git:hexsha": "7c63580a44af8d1db7b5e9805c659aeebddaf8d3",
+      "git:tagName": "1.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ipython/ipython",
+      "repolex:packageName": "ipython",
+      "git:hexsha": "9ca5c4454983faa141a5c27140470bccff82c937",
+      "git:tagName": "7.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "bigquery-magics",
+      "git:hexsha": "3e86aaed3c7e192a17d9b790f90a41cc2b7baa6a",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/matplotlib/matplotlib",
+      "repolex:packageName": "matplotlib",
+      "git:hexsha": "b3bd929cf07ea35479fded8f739126ccc39edd6d",
+      "git:tagName": "v3.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "19cd7d735a235177b7f8a4413391226c4aac0c8d",
+      "git:tagName": "v4.23.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-telemetry/opentelemetry-python",
+      "repolex:packageName": "opentelemetry-api",
+      "git:hexsha": "7cfce07748dff7f30e74dff50a231875bb106df6",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-telemetry/opentelemetry-python",
+      "repolex:packageName": "opentelemetry-sdk",
+      "git:hexsha": "7cfce07748dff7f30e74dff50a231875bb106df6",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/open-telemetry/opentelemetry-python-contrib",
+      "repolex:packageName": "opentelemetry-instrumentation"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "proto-plus"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/google-cloud-python",
+      "repolex:packageName": "google-cloud-bigquery"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil",
+      "repolex:packageName": "psutil",
+      "git:hexsha": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+      "git:tagName": "v7.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/importlib_metadata",
+      "repolex:packageName": "importlib-metadata",
+      "git:hexsha": "7e35ac1e6f23e92c66279837b17ce3847434c846",
+      "git:tagName": "v10.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
