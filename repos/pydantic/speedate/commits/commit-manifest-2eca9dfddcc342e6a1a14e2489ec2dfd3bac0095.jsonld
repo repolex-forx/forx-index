@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095/chunk-001.nq.gz",
       "repolex:graphFileSize": 2428298
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095.nq.gz",
+      "repolex:graphFileSize": 255220
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T05:43:35.515719+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.17.0"
+  "git:tagName": "v0.17.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Alexhuszagh/rust-lexical",
+      "repolex:packageName": "lexical-parse-float",
+      "git:hexsha": "84c1c497edd80ef1f8256be58c44efcfe266fcb8",
+      "git:tagName": "v1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/Peternator7/strum",
+      "repolex:packageName": "strum"
+    },
+    {
+      "@id": "https://repolex.ai/r/Peternator7/strum",
+      "repolex:packageName": "strum_macros"
+    },
+    {
+      "@id": "https://repolex.ai/r/chronotope/chrono",
+      "repolex:packageName": "chrono",
+      "git:hexsha": "4eeedcfcc409f19d965f477d767d05f3418c4df1",
+      "git:tagName": "v0.4.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/badboy/iso8601",
+      "repolex:packageName": "iso8601",
+      "git:hexsha": "c0b5c002c013fd51a559a2cd77e83dc843fe5e15",
+      "git:tagName": "v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/paste",
+      "repolex:packageName": "paste",
+      "git:hexsha": "76f2101fb23808d25c90dcba10f24bcc2cc6986c",
+      "git:tagName": "1.0.7"
+    }
+  ]
 }

@@ -48,10 +48,68 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5611c894f6b9fd5301c266167a6d3a7ef005dedd/chunk-001.nq.gz",
       "repolex:graphFileSize": 23986398
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5611c894f6b9fd5301c266167a6d3a7ef005dedd.nq.gz",
+      "repolex:graphFileSize": 1582543
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-22T04:57:10.790087+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.39.2"
+  "git:tagName": "v0.39.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-fuzz/arbitrary",
+      "repolex:packageName": "arbitrary"
+    },
+    {
+      "@id": "https://repolex.ai/r/slint-ui/document-features",
+      "repolex:packageName": "document-features"
+    },
+    {
+      "@id": "https://repolex.ai/r/hsivonen/encoding_rs",
+      "repolex:packageName": "encoding_rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/BurntSushi/memchr",
+      "repolex:packageName": "memchr"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-pretty-assertions/rust-pretty-assertions",
+      "repolex:packageName": "pretty_assertions"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_derive",
+      "git:hexsha": "85c73ef8dea8966d88a03876e6f0dc9359e68cc9",
+      "git:tagName": "v1.0.206"
+    },
+    {
+      "@id": "https://repolex.ai/r/arcnmx/serde-value",
+      "repolex:packageName": "serde-value"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-test"
+    }
+  ]
 }
