@@ -48,10 +48,82 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/4ee56c638af1f28b8cd20da253bfc34333ea232c/chunk-001.nq.gz",
       "repolex:graphFileSize": 704858
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/4ee56c638af1f28b8cd20da253bfc34333ea232c.nq.gz",
+      "repolex:graphFileSize": 69297
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:31:22.656868+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.5.0"
+  "git:tagName": "v3.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.iterable.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib._local"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "base64"
+    },
+    {
+      "@id": "https://repolex.ai/r/pygments/pygments",
+      "repolex:packageName": "pygments",
+      "git:hexsha": "a43b45dcf081b6010c6ab4428f149f7f6d2499c4",
+      "git:tagName": "2.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posixpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ntpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    }
+  ]
 }
