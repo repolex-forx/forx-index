@@ -48,10 +48,80 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/81335030b95741d90ae489f9216759c009854fa9/chunk-001.nq.gz",
       "repolex:graphFileSize": 734029
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/81335030b95741d90ae489f9216759c009854fa9.nq.gz",
+      "repolex:graphFileSize": 67085
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T04:59:47.489966+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.1.1"
+  "git:tagName": "v1.1.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "io"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "configparser"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "genericpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ntpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posixpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "time"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "locale"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "codecs"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    }
+  ]
 }
