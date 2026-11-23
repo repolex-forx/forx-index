@@ -48,10 +48,118 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/319eb95f9f53c7fda7d2f8f226920b85547bf570/chunk-001.nq.gz",
       "repolex:graphFileSize": 754706
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/319eb95f9f53c7fda7d2f8f226920b85547bf570.nq.gz",
+      "repolex:graphFileSize": 133292
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:41:53.526507+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v4.1.0"
+  "git:tagName": "v4.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/cycraft/@cycraft",
+      "repolex:packageName": "@cycraft/eslint"
+    },
+    {
+      "@id": "https://repolex.ai/r/cycraft/tsconfig",
+      "repolex:packageName": "@cycraft/tsconfig"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "@vitest/coverage-v8",
+      "git:hexsha": "9bd8d464e6328c567c2dbcd8fdd977d57a9425c2",
+      "git:tagName": "v4.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/del-cli",
+      "repolex:packageName": "del-cli",
+      "git:hexsha": "77857ae31a5a4b3beca03e76903cd8abb1cc7665",
+      "git:tagName": "v7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lukeed/klona",
+      "repolex:packageName": "klona",
+      "git:hexsha": "6ad153073b7529769010ddbde1938372e1702f5b",
+      "git:tagName": "v2.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/lodash/lodash",
+      "repolex:packageName": "lodash.clonedeep",
+      "git:hexsha": "ab73503859a2d2f7f603bc8a293ce93ecc071e83",
+      "git:tagName": "4.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/np",
+      "repolex:packageName": "np",
+      "git:hexsha": "bd2160e168abc844b4b534d65092cf9c5d1e4292",
+      "git:tagName": "v12.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "vitest",
+      "git:hexsha": "9bd8d464e6328c567c2dbcd8fdd977d57a9425c2",
+      "git:tagName": "v4.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.scripthost.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.wellknown.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2020.date.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.core.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.collection.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.iterable.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2019.symbol.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2016.array.include.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2019.object.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2020.number.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2019.array.d.ts"
+    }
+  ]
 }
