@@ -48,10 +48,192 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5dcd16e78969a79c65f34b4abbaad7bb0bdc53b4/chunk-001.nq.gz",
       "repolex:graphFileSize": 33690131
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5dcd16e78969a79c65f34b4abbaad7bb0bdc53b4.nq.gz",
+      "repolex:graphFileSize": 3632695
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T17:21:30.470204+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v1.10.0"
+  "git:tagName": "v1.10.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "inspect"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "_warnings"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytorch/pytorch",
+      "repolex:packageName": "torch",
+      "git:hexsha": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+      "git:tagName": "v2.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "gc"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "importlib.metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "time"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "math"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ctypes"
+    },
+    {
+      "@id": "https://repolex.ai/r/giampaolo/psutil",
+      "repolex:packageName": "psutil",
+      "git:hexsha": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+      "git:tagName": "v7.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "threading"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "argparse"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posix"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/transformers",
+      "repolex:packageName": "transformers",
+      "git:hexsha": "eeee11099135592f1d03c2871fbd3d8132e5a4d7",
+      "git:tagName": "v5.24.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "_collections_abc"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+      "git:tagName": "v4.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.case"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "importlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib._local"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "subprocess"
+    },
+    {
+      "@id": "https://repolex.ai/r/Textualize/rich",
+      "repolex:packageName": "rich",
+      "git:hexsha": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+      "git:tagName": "v15.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "warnings"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "types"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "copy"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "logging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "msvcrt"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "contextlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "datetime"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "json"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib"
+    }
+  ]
 }
