@@ -48,10 +48,340 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0e0060d09fc06735c8d7d937d05ffb244cf3da0c/chunk-001.nq.gz",
       "repolex:graphFileSize": 43786950
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0e0060d09fc06735c8d7d937d05ffb244cf3da0c.nq.gz",
+      "repolex:graphFileSize": 1553926
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T04:52:52.015881+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "12.0.1"
+  "git:tagName": "12.0.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "@babel/cli",
+      "git:hexsha": "8ed5db1bc5bed6c0b640cc06bae447acf6395c02",
+      "git:tagName": "v8.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "@babel/core",
+      "git:hexsha": "b4be199c560f4940a3326db98e23eb547bcb120f",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "@babel/eslint-parser",
+      "git:hexsha": "b4be199c560f4940a3326db98e23eb547bcb120f",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "@babel/plugin-external-helpers",
+      "git:hexsha": "b4be199c560f4940a3326db98e23eb547bcb120f",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "@babel/preset-env",
+      "git:hexsha": "73940a0aa2252b0f87261a5dff0c751472ef7a99",
+      "git:tagName": "v8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "@babel/register",
+      "git:hexsha": "b4be199c560f4940a3326db98e23eb547bcb120f",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/FortAwesome/Font-Awesome",
+      "repolex:packageName": "@fortawesome/fontawesome-free",
+      "git:hexsha": "14c65a3747d0f3b751f15831fc719236aea8729d",
+      "git:tagName": "7.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/Templarian/MaterialDesign-SVG",
+      "repolex:packageName": "@mdi/svg",
+      "git:hexsha": "9e04201d4557e729822fb57f62a316c3dea1d4a8",
+      "git:tagName": "v7.4.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/primer/octicons",
+      "repolex:packageName": "@primer/octicons"
+    },
+    {
+      "@id": "https://repolex.ai/r/rollup/plugins",
+      "repolex:packageName": "@rollup/plugin-babel"
+    },
+    {
+      "@id": "https://repolex.ai/r/rollup/plugins",
+      "repolex:packageName": "@rollup/plugin-terser"
+    },
+    {
+      "@id": "https://repolex.ai/r/postcss/autoprefixer",
+      "repolex:packageName": "autoprefixer",
+      "git:hexsha": "7e81ffff9d824968394bab6f81da2e2c2511cc49",
+      "git:tagName": "10.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/babel/babel",
+      "repolex:packageName": "babel-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/del",
+      "repolex:packageName": "del",
+      "git:hexsha": "f9412a3d60895a3ce3d5d62ba323112cec291838",
+      "git:tagName": "v8.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "3f20a57c6293371b6193d3fb6746c2b7b2ac2689",
+      "git:tagName": "v10.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/gulpjs/gulp",
+      "repolex:packageName": "gulp",
+      "git:hexsha": "0003e9fd25ffc7dd8c4f1a9335c102b73de017c1",
+      "git:tagName": "v5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/contra/gulp-concat",
+      "repolex:packageName": "gulp-concat",
+      "git:hexsha": "c179a8c491047eb980459fea6d0e2fd65d6d0ad1",
+      "git:tagName": "v2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/adametry/gulp-eslint",
+      "repolex:packageName": "gulp-eslint",
+      "git:hexsha": "5dd78fad617d78f671ed5426ecda315316ad26e7",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/robrich/gulp-if",
+      "repolex:packageName": "gulp-if",
+      "git:hexsha": "1b846bb06421a47c972b28a333ab601a34a0a7fb",
+      "git:tagName": "3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/postcss/gulp-postcss",
+      "repolex:packageName": "gulp-postcss",
+      "git:hexsha": "46533ec1ced0e8db61af609f4d5075ab9396e17b",
+      "git:tagName": "10.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/lazd/gulp-replace",
+      "repolex:packageName": "gulp-replace",
+      "git:hexsha": "474b1e71e3b13ba16a64c199ec4679dff63969eb",
+      "git:tagName": "v1.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/gulp-rev",
+      "repolex:packageName": "gulp-rev",
+      "git:hexsha": "60ab15c5a10456b6aa40f3c79a7c104e3f32fb97",
+      "git:tagName": "v12.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jamesknelson/gulp-rev-replace",
+      "repolex:packageName": "gulp-rev-replace"
+    },
+    {
+      "@id": "https://repolex.ai/r/dlmanning/gulp-sass",
+      "repolex:packageName": "gulp-sass",
+      "git:hexsha": "333c4ced43c25771f396b7c369771c71c8f83b40",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/gulp-sourcemaps/gulp-sourcemaps",
+      "repolex:packageName": "gulp-sourcemaps",
+      "git:hexsha": "2bcfcbb11085d1d6ef54239abd156bf7a7e72cfe",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/olegskl/gulp-stylelint",
+      "repolex:packageName": "gulp-stylelint",
+      "git:hexsha": "95921fed4cea5b11feb04395675d3abeb38464db",
+      "git:tagName": "v13.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/adorade/gulp-stylelint-esm",
+      "repolex:packageName": "gulp-stylelint-esm",
+      "git:hexsha": "c0e31efcfd6e4c8cdb5eb6b1515892132a880940",
+      "git:tagName": "v4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/TrySound/postcss-inline-svg",
+      "repolex:packageName": "postcss-inline-svg",
+      "git:hexsha": "bfced350f7b75bac3f87f9c68cf72e9153d5fb61",
+      "git:tagName": "v6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/giuseppeg/postcss-pseudo-classes",
+      "repolex:packageName": "postcss-pseudo-classes"
+    },
+    {
+      "@id": "https://repolex.ai/r/postcss/postcss-scss",
+      "repolex:packageName": "postcss-scss",
+      "git:hexsha": "e57f9bdfdfaf49ae72f379f968d43c441fd77d18",
+      "git:tagName": "4.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/yunusga/postcss-sort-media-queries",
+      "repolex:packageName": "postcss-sort-media-queries",
+      "git:hexsha": "fe54c3401637a6b153277a30e038499f87ac827d",
+      "git:tagName": "v6.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/cssnano/cssnano",
+      "repolex:packageName": "postcss-svgo"
+    },
+    {
+      "@id": "https://repolex.ai/r/then/promise",
+      "repolex:packageName": "promise",
+      "git:hexsha": "9d5851d7adefde580589a041ebfcbd030d39f6fd",
+      "git:tagName": "8.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rollup/rollup",
+      "repolex:packageName": "rollup",
+      "git:hexsha": "78bfef0cb94479566f81012fafa372c84b90bd34",
+      "git:tagName": "v4.63.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/shuizhongyueming/rollup-plugin-output-manifest",
+      "repolex:packageName": "rollup-plugin-output-manifest",
+      "git:hexsha": "d7cb35e97cd3c7251953e24c5ceb2d44f1247727",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sass/dart-sass",
+      "repolex:packageName": "sass",
+      "git:hexsha": "e01e268c6f6826ae309bf3105765d4c93024ebbc",
+      "git:tagName": "1.104.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stylelint/stylelint",
+      "repolex:packageName": "stylelint",
+      "git:hexsha": "0547bff875de8d2525a3eca4d6a22847aa6ded60",
+      "git:tagName": "17.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/constverum/stylelint-config-rational-order",
+      "repolex:packageName": "stylelint-config-rational-order",
+      "git:hexsha": "35a64ac989e0da08be0b4e8d8673c297a2480f8b",
+      "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/stylelint/stylelint-config-standard",
+      "repolex:packageName": "stylelint-config-standard",
+      "git:hexsha": "fbbe7b8e3efaf6ad84084268944be412e4bee3df",
+      "git:tagName": "40.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/stylelint-scss/stylelint-scss",
+      "repolex:packageName": "stylelint-scss",
+      "git:hexsha": "e7c92d143a99cac7822bc99632f6064037b7a9a9",
+      "git:tagName": "v7.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/terser/terser",
+      "repolex:packageName": "terser",
+      "git:hexsha": "317f449862b8d48756818cdcaf67c22c31ec852c",
+      "git:tagName": "v5.51.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/vinyl-paths",
+      "repolex:packageName": "vinyl-paths",
+      "git:hexsha": "5af510895654284b4d099235ca2c6a2e2e3d72f9",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/yargs/yargs",
+      "repolex:packageName": "yargs",
+      "git:hexsha": "8878a894111e3fe7c98d84af546c0f34fa017492",
+      "git:tagName": "v18.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Python-Markdown/markdown",
+      "repolex:packageName": "markdown",
+      "git:hexsha": "e524b8fe938738cb4492411a34cce89051cb9695",
+      "git:tagName": "3.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/yaml/pyyaml",
+      "repolex:packageName": "pyyaml",
+      "git:hexsha": "575f0e87bcc3b95f4df8da4aaddb0bef4e4553fc",
+      "git:tagName": "6.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pygments/pygments",
+      "repolex:packageName": "pygments",
+      "git:hexsha": "b583de4794e94b4dc4c2da03a7c29f462482293e",
+      "git:tagName": "2.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.case"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "argparse"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "genericpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posixpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ntpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "xml.etree.ElementTree"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "textwrap"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.promise.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    }
+  ]
 }
