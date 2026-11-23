@@ -54,10 +54,166 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/7018ce6ddb6cdc4e76d5e4605c966f11fdaf4da7/chunk-001.nq.gz",
       "repolex:graphFileSize": 4759719
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/7018ce6ddb6cdc4e76d5e4605c966f11fdaf4da7.nq.gz",
+      "repolex:graphFileSize": 445233
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:25:51.900775+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v3.8.1"
+  "git:tagName": "v3.8.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pylint-dev/astroid",
+      "repolex:packageName": "astroid"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/yaml/pyyaml",
+      "repolex:packageName": "pyyaml",
+      "git:hexsha": "575f0e87bcc3b95f4df8da4aaddb0bef4e4553fc",
+      "git:tagName": "6.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "git:hexsha": "e9388497692784e6ef3ddacb3723289362032b6a",
+      "git:tagName": "v7.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posixpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ntpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "genericpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.mock"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib._local"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os.path"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "itertools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "shutil"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "fnmatch"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "copy"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "operator"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "math"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "asyncio.tasks"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "io"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "contextlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "asyncio"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "json"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "logging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ast"
+    }
+  ]
 }
