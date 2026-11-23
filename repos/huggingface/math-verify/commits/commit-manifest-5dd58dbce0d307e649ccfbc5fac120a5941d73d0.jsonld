@@ -48,10 +48,98 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/5dd58dbce0d307e649ccfbc5fac120a5941d73d0/chunk-001.nq.gz",
       "repolex:graphFileSize": 1418288
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/5dd58dbce0d307e649ccfbc5fac120a5941d73d0.nq.gz",
+      "repolex:graphFileSize": 143068
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T07:08:05.564537+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.0.0"
+  "git:tagName": "1.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/OrangeX4/latex2sympy2",
+      "repolex:packageName": "latex2sympy2-extended"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/lighteval",
+      "repolex:packageName": "lighteval",
+      "git:hexsha": "7c1cd62716b0a198a630c26d781430c54726cd02",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/sympy/sympy",
+      "repolex:packageName": "sympy",
+      "git:hexsha": "fe935ceb303891d1f8bea4c03b19fd9ec9464b02",
+      "git:tagName": "1.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "itertools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "textwrap"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "logging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "argparse"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "multiprocessing.process"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "multiprocessing.queues"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "multiprocessing.context"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "signal"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "datetime"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "multiprocessing"
+    }
+  ]
 }
