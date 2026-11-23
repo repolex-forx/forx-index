@@ -48,10 +48,288 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/6d3fc84c4307890cf07e4163d18ef550374cc892/chunk-001.nq.gz",
       "repolex:graphFileSize": 2376393
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6d3fc84c4307890cf07e4163d18ef550374cc892.nq.gz",
+      "repolex:graphFileSize": 307616
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T04:50:32.437035+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "1.19.0"
+  "git:tagName": "1.19.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/psf/cachecontrol",
+      "repolex:packageName": "cachecontrol",
+      "git:hexsha": "116113c08d3f068297ee02f3d7812f5b19bbb37c",
+      "git:tagName": "v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/gitpython-developers/GitPython",
+      "repolex:packageName": "gitpython",
+      "git:hexsha": "6ba2c0a2f9ee7feffd7e079621c4845820180c9a",
+      "git:tagName": "3.1.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/mkdocs/mkdocs",
+      "repolex:packageName": "mkdocs",
+      "git:hexsha": "bb7e8b62185b11d9f59bb7f50b13c15134f62f8a",
+      "git:tagName": "1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/properdocs/properdocs",
+      "repolex:packageName": "properdocs",
+      "git:hexsha": "01fe59b2a43df0fed8282f74520b0f32fb0fd043",
+      "git:tagName": "v1.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "b25c87d7cb8d6a18a37fa12442b5f883f9e41741",
+      "git:tagName": "v2.32.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/tzdata",
+      "repolex:packageName": "tzdata"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black"
+    },
+    {
+      "@id": "https://repolex.ai/r/pycqa/flake8",
+      "repolex:packageName": "flake8"
+    },
+    {
+      "@id": "https://repolex.ai/r/PyCQA/flake8-bugbear",
+      "repolex:packageName": "flake8-bugbear"
+    },
+    {
+      "@id": "https://repolex.ai/r/gforcada/flake8-builtins",
+      "repolex:packageName": "flake8-builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/wemake-services/flake8-eradicate",
+      "repolex:packageName": "flake8-eradicate"
+    },
+    {
+      "@id": "https://repolex.ai/r/gforcada/flake8-isort",
+      "repolex:packageName": "flake8-isort",
+      "git:hexsha": "3b2f1dd9a67c385f140b503a714e07ca3483f4c2",
+      "git:tagName": "6.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/john-hen/Flake8-pyproject",
+      "repolex:packageName": "flake8-pyproject",
+      "git:hexsha": "30b8444781d16edd54c11df08210a7c8fb79258d",
+      "git:tagName": "1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pre-commit/pre-commit",
+      "repolex:packageName": "pre-commit"
+    },
+    {
+      "@id": "https://repolex.ai/r/ojacques/mkdocs-git-committers-plugin-2",
+      "repolex:packageName": "mkdocs-git-committers-plugin-2",
+      "git:hexsha": "ae1e2da31af37f42181a3ed41b27f939366d3ca1",
+      "git:tagName": "2.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/timvink/mkdocs-git-revision-date-localized-plugin",
+      "repolex:packageName": "mkdocs-git-revision-date-localized-plugin"
+    },
+    {
+      "@id": "https://repolex.ai/r/squidfunk/mkdocs-material",
+      "repolex:packageName": "mkdocs-material"
+    },
+    {
+      "@id": "https://repolex.ai/r/byrnereese/mkdocs-minify-plugin",
+      "repolex:packageName": "mkdocs-minify-plugin"
+    },
+    {
+      "@id": "https://repolex.ai/r/mkdocstrings/python",
+      "repolex:packageName": "mkdocstrings-python",
+      "git:hexsha": "cfa9848603f6c021f33af12f334267f7f17de2da",
+      "git:tagName": "1.16.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/termynal/termynal.py",
+      "repolex:packageName": "termynal",
+      "git:hexsha": "d961e4602b99ba1d9352087ad9bd38543d530b72",
+      "git:tagName": "v0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kurtmckee/feedparser",
+      "repolex:packageName": "feedparser",
+      "git:hexsha": "9c03a51a209a50328f628014a9b4dbb9d56b8c11",
+      "git:tagName": "v6.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/lukasschwab/jsonfeed",
+      "repolex:packageName": "jsonfeed-util"
+    },
+    {
+      "@id": "https://repolex.ai/r/jaywhj/mkdocs-materialx",
+      "repolex:packageName": "mkdocs-materialx",
+      "git:hexsha": "fede48fcf95235d90dcd691ef592af9b427f405e",
+      "git:tagName": "10.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov"
+    },
+    {
+      "@id": "https://repolex.ai/r/insightindustry/validator-collection",
+      "repolex:packageName": "validator-collection"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib._local"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "email.utils"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "json"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "shutil"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "copy"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "traceback"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.case"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "logging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "tempfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.main"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "mimetypes"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "urllib.parse"
+    },
+    {
+      "@id": "https://repolex.ai/r/urllib3/urllib3",
+      "repolex:packageName": "urllib3",
+      "git:hexsha": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+      "git:tagName": "2.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.mock"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "_collections_abc"
+    },
+    {
+      "@id": "https://repolex.ai/r/pallets/click",
+      "repolex:packageName": "click",
+      "git:hexsha": "cf19179e8e2fd54c601378cec9e0d21bb12b6fb1",
+      "git:tagName": "8.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "email.message"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "importlib.metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "zoneinfo"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "datetime"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "urllib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "http"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "email"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "importlib"
+    }
+  ]
 }
