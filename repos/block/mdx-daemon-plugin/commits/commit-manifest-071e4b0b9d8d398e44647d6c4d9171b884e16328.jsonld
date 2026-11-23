@@ -48,10 +48,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/071e4b0b9d8d398e44647d6c4d9171b884e16328/chunk-001.nq.gz",
       "repolex:graphFileSize": 357730
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/071e4b0b9d8d398e44647d6c4d9171b884e16328.nq.gz",
+      "repolex:graphFileSize": 34305
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T06:06:13.271375+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.1.0"
+  "git:tagName": "v0.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit-framework",
+      "repolex:packageName": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "@id": "https://repolex.ai/r/scm:git@github.com:mockito/mockito-kotlin",
+      "repolex:packageName": "org.mockito.kotlin:mockito-kotlin"
+    }
+  ]
 }
