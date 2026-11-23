@@ -48,10 +48,208 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e7236881a1d618835d074481e45306a8ddc5a916/chunk-001.nq.gz",
       "repolex:graphFileSize": 36356770
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e7236881a1d618835d074481e45306a8ddc5a916.nq.gz",
+      "repolex:graphFileSize": 1461374
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T03:32:53.177696+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.8.5"
+  "git:tagName": "v0.8.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/launchbadge/sqlx",
+      "repolex:packageName": "sqlx-core",
+      "git:hexsha": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/launchbadge/sqlx",
+      "repolex:packageName": "sqlx-macros",
+      "git:hexsha": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/launchbadge/sqlx",
+      "repolex:packageName": "sqlx-mysql",
+      "git:hexsha": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/launchbadge/sqlx",
+      "repolex:packageName": "sqlx-postgres",
+      "git:hexsha": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/launchbadge/sqlx",
+      "repolex:packageName": "sqlx-sqlite",
+      "git:hexsha": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+      "git:tagName": "v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow",
+      "git:hexsha": "f871e2fefcd10dab7b88af2fc27e2f7e0cfa1990",
+      "git:tagName": "1.0.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/futures-rs",
+      "repolex:packageName": "futures",
+      "git:hexsha": "29a736f9edc2ba8abcf45ef037919c9df47dc754",
+      "git:tagName": "0.3.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-cli/env_logger",
+      "repolex:packageName": "env_logger"
+    },
+    {
+      "@id": "https://repolex.ai/r/async-rs/async-std",
+      "repolex:packageName": "async-std",
+      "git:hexsha": "844b552531521f517a2b02c4ed685ae176608247",
+      "git:tagName": "v1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio",
+      "git:hexsha": "f64673580dfc649954eb744eb2734f2f118baa47",
+      "git:tagName": "tokio-1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/allan2/dotenvy",
+      "repolex:packageName": "dotenvy",
+      "git:hexsha": "3840d4e3d8651c0f63e2bf6f1b969dbdd24316e4",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild",
+      "git:hexsha": "feec62dde6114f9fbf9be6cede92596aa6c43c9b",
+      "git:tagName": "1.0.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/paste",
+      "repolex:packageName": "paste",
+      "git:hexsha": "4ffed377239acf07f5fbe2cfa152b0824790852b",
+      "git:tagName": "1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde",
+      "git:hexsha": "77ae1c3bf7eb7c13cb464bfe37a1439190e8d63f",
+      "git:tagName": "v1.0.132"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "296f718e18681c52909da99f24198133e58528b2",
+      "git:tagName": "v1.0.73"
+    },
+    {
+      "@id": "https://repolex.ai/r/servo/rust-url",
+      "repolex:packageName": "url",
+      "git:hexsha": "6c22912c313064a8c5a6fa043882c9ad55dba162",
+      "git:tagName": "v2.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "8792268dfe57e49bb4518190bf4fe66176759a44",
+      "git:tagName": "0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rngs",
+      "repolex:packageName": "rand_xoshiro"
+    },
+    {
+      "@id": "https://repolex.ai/r/KokaKiwi/rust-hex",
+      "repolex:packageName": "hex",
+      "git:hexsha": "b2b4370b5bf021b98ee7adc92233e8de3f2de792",
+      "git:tagName": "v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "094c1151105ae4641f367d3ab50da7bbfad62eb4",
+      "git:tagName": "v3.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "dc2b06cd31f7aa34cff6a83a00598e0523186dad",
+      "git:tagName": "0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rusqlite/rusqlite",
+      "repolex:packageName": "libsqlite3-sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posixpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ntpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "argparse"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "glob"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "platform"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "urllib.request"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "_collections_abc"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "genericpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "subprocess"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "time"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "shutil"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "urllib"
+    }
+  ]
 }
