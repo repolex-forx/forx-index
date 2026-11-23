@@ -48,10 +48,302 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/dab930ae91d3887675afb59845a96314ef3a3f42/chunk-001.nq.gz",
       "repolex:graphFileSize": 13675656
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/dab930ae91d3887675afb59845a96314ef3a3f42.nq.gz",
+      "repolex:graphFileSize": 2684532
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:26:03.900959+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "8.12.0"
+  "git:tagName": "8.12.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pallets/jinja",
+      "repolex:packageName": "jinja2",
+      "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
+      "git:tagName": "3.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/Delgan/loguru",
+      "repolex:packageName": "loguru",
+      "git:hexsha": "28349be3cd740867bc947eef741c69370ca45735",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/hukkin/mdformat",
+      "repolex:packageName": "mdformat",
+      "git:hexsha": "82912cdaea4fb830f751504486a7879c70526547",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging"
+    },
+    {
+      "@id": "https://repolex.ai/r/boto/boto3",
+      "repolex:packageName": "boto3",
+      "git:hexsha": "0b1d8784530f81da5d2c673fa07969ff1da93573",
+      "git:tagName": "1.44.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/boto/botocore",
+      "repolex:packageName": "botocore",
+      "git:hexsha": "b7565465d28de6a2032f5a7a85ee4d1639c35ff7",
+      "git:tagName": "1.44.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff",
+      "git:hexsha": "a7ba68b4919e56b6af949a42b2da38fe4eec67a9",
+      "git:tagName": "0.17.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/prompt-toolkit/python-prompt-toolkit",
+      "repolex:packageName": "prompt-toolkit",
+      "git:hexsha": "583b3412c792a5cc9f01adde603679f3824a88f3",
+      "git:tagName": "3.0.53"
+    },
+    {
+      "@id": "https://repolex.ai/r/tmbo/questionary",
+      "repolex:packageName": "questionary",
+      "git:hexsha": "4ebe8d8bbec02a4be6227829b1762fa656370bd4",
+      "git:tagName": "2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder",
+      "repolex:packageName": "boto3-stubs"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder",
+      "repolex:packageName": "types-aiobotocore"
+    },
+    {
+      "@id": "https://repolex.ai/r/youtype/mypy_boto3_builder",
+      "repolex:packageName": "types-aioboto3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "shutil"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "subprocess"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "zipfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "tarfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib._local"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "decimal"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "json"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "concurrent.futures.thread"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "argparse"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "tempfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "concurrent.futures._base"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "types"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "re"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest.mock"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "itertools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "multiprocessing.pool"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "time"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "copy"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "difflib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "importlib.metadata"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "contextlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "graphlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "io"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "importlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "logging"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "functools"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "warnings"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "inspect"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "filecmp"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.core.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.wellknown.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "pathlib"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "enum"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "abc"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "concurrent"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "keyword"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "datetime"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "unittest"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "multiprocessing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "asyncio"
+    },
+    {
+      "@id": "https://repolex.ai/r/aio-libs/aiohttp",
+      "repolex:packageName": "aiohttp",
+      "git:hexsha": "f17c631bddcfd4ec712342db28f1d3381a3fec71",
+      "git:tagName": "v3.14.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "threading"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/typing_extensions",
+      "repolex:packageName": "typing-extensions",
+      "git:hexsha": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+      "git:tagName": "4.16.0"
+    }
+  ]
 }
