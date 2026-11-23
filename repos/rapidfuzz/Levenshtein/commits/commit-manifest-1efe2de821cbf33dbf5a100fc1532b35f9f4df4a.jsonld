@@ -48,10 +48,44 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/1efe2de821cbf33dbf5a100fc1532b35f9f4df4a/chunk-001.nq.gz",
       "repolex:graphFileSize": 898425
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1efe2de821cbf33dbf5a100fc1532b35f9f4df4a.nq.gz",
+      "repolex:graphFileSize": 46921
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:17:04.238740+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.27.5"
+  "git:tagName": "v0.27.5",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rapidfuzz/RapidFuzz",
+      "repolex:packageName": "rapidfuzz",
+      "git:hexsha": "acfc255be25e1e4cf0dee55ba220aeab638ecf9c",
+      "git:tagName": "v3.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "_warnings"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "warnings"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    }
+  ]
 }
