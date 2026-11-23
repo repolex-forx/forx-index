@@ -48,10 +48,90 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/55a03d44e2eb7810b8c33b909d7c07415b9d1095/chunk-001.nq.gz",
       "repolex:graphFileSize": 637554
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/55a03d44e2eb7810b8c33b909d7c07415b9d1095.nq.gz",
+      "repolex:graphFileSize": 42526
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:45:37.605870+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v7.0.0"
+  "git:tagName": "v7.0.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/cpy",
+      "repolex:packageName": "cpy",
+      "git:hexsha": "da95199375b91edd7543a5fe88313c3dbaf7e4f3",
+      "git:tagName": "v13.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/globby",
+      "repolex:packageName": "globby",
+      "git:hexsha": "70c011b8be52c4a0d966bfcae4a4c5aa93b8a262",
+      "git:tagName": "v16.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/meow",
+      "repolex:packageName": "meow",
+      "git:hexsha": "a691341b2f15fbb7cbd654de550871623dda0b40",
+      "git:tagName": "v14.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/avajs/ava",
+      "repolex:packageName": "ava",
+      "git:hexsha": "603d7ca2ada70f3e9e79ee5002a509f0646cb37c",
+      "git:tagName": "v6.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/execa",
+      "repolex:packageName": "execa",
+      "git:hexsha": "84e1f36b2c31a463e3efbd37c7505da9438a05c9",
+      "git:tagName": "v9.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/path-exists",
+      "repolex:packageName": "path-exists",
+      "git:hexsha": "7c95f5c1f5f811c7f4dac78ab5b9e258491f03af",
+      "git:tagName": "v5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sindresorhus/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "ac7a2bb839ceb765d8030aa2356d6830590a38ef",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/xojs/xo",
+      "repolex:packageName": "xo",
+      "git:hexsha": "5477c4a75911ef8aa219d3258886148a130c118a",
+      "git:tagName": "v1.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.scripthost.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.wellknown.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2020.date.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.core.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    }
+  ]
 }
