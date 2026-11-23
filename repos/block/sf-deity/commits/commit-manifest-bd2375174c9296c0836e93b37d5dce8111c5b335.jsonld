@@ -42,10 +42,96 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/bd2375174c9296c0836e93b37d5dce8111c5b335/chunk-001.nq.gz",
       "repolex:graphFileSize": 1845
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/bd2375174c9296c0836e93b37d5dce8111c5b335.nq.gz",
+      "repolex:graphFileSize": 524
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T06:01:57.490168+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/salesforce/eslint-plugin-lwc",
+      "repolex:packageName": "@lwc/eslint-plugin-lwc",
+      "git:hexsha": "05494f02203f9ffcc453bc2726b05994212031c3",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/plugin-xml",
+      "repolex:packageName": "@prettier/plugin-xml",
+      "git:hexsha": "db4b51376c286622406913db311263b85ca7ce40",
+      "git:tagName": "v3.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/salesforce/eslint-config-lwc",
+      "repolex:packageName": "@salesforce/eslint-config-lwc",
+      "git:hexsha": "06b619586a3eb5875a5b459b17452c3a629adc86",
+      "git:tagName": "v3.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/forcedotcom/eslint-plugin-aura",
+      "repolex:packageName": "@salesforce/eslint-plugin-aura",
+      "git:hexsha": "d6746b706d296f656dd741ae0bbe73bd0bacd994",
+      "git:tagName": "v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/salesforce/eslint-plugin-lightning",
+      "repolex:packageName": "@salesforce/eslint-plugin-lightning",
+      "git:hexsha": "046f85746cc65591f47c5dabb2d5ca5401ff1990",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/salesforce/sfdx-lwc-jest",
+      "repolex:packageName": "@salesforce/sfdx-lwc-jest",
+      "git:hexsha": "c2ab0625722b5c051c291870d3a28569718eeaf7",
+      "git:tagName": "v7.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/eslint/eslint",
+      "repolex:packageName": "eslint",
+      "git:hexsha": "5b9414c501c58bfa85f41f96f821973c41e8ae74",
+      "git:tagName": "v8.57.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/import-js/eslint-plugin-import",
+      "repolex:packageName": "eslint-plugin-import",
+      "git:hexsha": "68cea3e6b6fe5fd61e5cf2e2c7c0be9e8dc597cb",
+      "git:tagName": "v2.25.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jest-community/eslint-plugin-jest",
+      "repolex:packageName": "eslint-plugin-jest",
+      "git:hexsha": "1df45e9dcb16edc4d78b24fe5544a5fa8d3aca3c",
+      "git:tagName": "v28.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/typicode/husky",
+      "repolex:packageName": "husky",
+      "git:hexsha": "2fee8d212c601942ad146ea9209f15c20a07fb6d",
+      "git:tagName": "v9.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/lint-staged/lint-staged",
+      "repolex:packageName": "lint-staged",
+      "git:hexsha": "26eee9d76f4643426fc033fba18e487f7e64fe1d",
+      "git:tagName": "v15.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "e8ac9f8d2a1c7083ac4f8a9b960521b62d60c94f",
+      "git:tagName": "3.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dangmai/prettier-plugin-apex",
+      "repolex:packageName": "prettier-plugin-apex",
+      "git:hexsha": "fbe8007886ed314d30a2b4906e82220af4ca9f49",
+      "git:tagName": "v2.0.1"
+    }
+  ]
 }
