@@ -48,10 +48,50 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/e7217b5f43d522ab6fbd4919c1583cf51e414ba4/chunk-001.nq.gz",
       "repolex:graphFileSize": 34010498
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/e7217b5f43d522ab6fbd4919c1583cf51e414ba4.nq.gz",
+      "repolex:graphFileSize": 8525451
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T06:45:34.565248+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.9.0-alpha.0"
+  "git:tagName": "v0.9.0-alpha.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/google/zerocopy",
+      "repolex:packageName": "zerocopy-derive"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "937320cbfeebd4352a23086d9c6e68f067f74644",
+      "git:tagName": "0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/rustversion",
+      "repolex:packageName": "rustversion"
+    },
+    {
+      "@id": "https://repolex.ai/r/nvzqz/static-assertions-rs",
+      "repolex:packageName": "static_assertions"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/trybuild",
+      "repolex:packageName": "trybuild"
+    },
+    {
+      "@id": "https://repolex.ai/r/jswrenn/elain",
+      "repolex:packageName": "elain",
+      "git:hexsha": "28b13769c1c188c5d365043b2f220d2409823c18",
+      "git:tagName": "v0.3.0"
+    }
+  ]
 }
