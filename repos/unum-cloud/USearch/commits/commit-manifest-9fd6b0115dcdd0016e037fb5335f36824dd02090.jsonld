@@ -48,10 +48,232 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/9fd6b0115dcdd0016e037fb5335f36824dd02090/chunk-001.nq.gz",
       "repolex:graphFileSize": 24034885
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/9fd6b0115dcdd0016e037fb5335f36824dd02090.nq.gz",
+      "repolex:graphFileSize": 1896767
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T03:34:15.695867+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.25.3"
+  "git:tagName": "v2.25.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit4",
+      "repolex:packageName": "junit:junit"
+    },
+    {
+      "@id": "https://repolex.ai/r/TooTallNate/node-bindings",
+      "repolex:packageName": "bindings",
+      "git:hexsha": "bcdc7cadf839ef84c9bd9e21c697f2a727b2b1d3",
+      "git:tagName": "1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/nodejs/node-addon-api",
+      "repolex:packageName": "node-addon-api",
+      "git:hexsha": "6babc960154752f686a7dca8e712991a976a754b",
+      "git:tagName": "v8.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prebuild/node-gyp-build",
+      "repolex:packageName": "node-gyp-build",
+      "git:hexsha": "6822ec52423a2b3ed48ef8960a9fe05902e9e1a3",
+      "git:tagName": "v4.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/bindings"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/nodejs/node-gyp",
+      "repolex:packageName": "node-gyp",
+      "git:hexsha": "289fd574b2c9da120455a158b54ade326519e071",
+      "git:tagName": "v11.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/prebuild/prebuildify",
+      "repolex:packageName": "prebuildify",
+      "git:hexsha": "7c86817913b029cda87268a113718f2523d6b40b",
+      "git:tagName": "v6.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "git:hexsha": "5be33469d551655d878876faa9e30aa3b49f8ee9",
+      "git:tagName": "v5.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/cxx",
+      "repolex:packageName": "cxx",
+      "git:hexsha": "255e7afa8fbebfb5ac59d4749fd5ac981a6b68ba",
+      "git:tagName": "1.0.194"
+    },
+    {
+      "@id": "https://repolex.ai/r/ashvardanian/NumKong",
+      "repolex:packageName": "numkong"
+    },
+    {
+      "@id": "https://repolex.ai/r/ashvardanian/fork_union",
+      "repolex:packageName": "fork_union",
+      "git:hexsha": "344a7498dc56adaf4336f83e2a00da0502298dd4",
+      "git:tagName": "v2.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "acc5f246d3338ffea40aa0f25a46f84d6d19db8d",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand_chacha",
+      "git:hexsha": "acc5f246d3338ffea40aa0f25a46f84d6d19db8d",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_distr",
+      "repolex:packageName": "rand_distr",
+      "git:hexsha": "61d08aa933df68cf8004aa919ed608809be0f4b1",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/cxx",
+      "repolex:packageName": "cxx-build",
+      "git:hexsha": "255e7afa8fbebfb5ac59d4749fd5ac981a6b68ba",
+      "git:tagName": "1.0.194"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "os"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "builtins"
+    },
+    {
+      "@id": "https://repolex.ai/r/numpy/numpy",
+      "repolex:packageName": "numpy",
+      "git:hexsha": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+      "git:tagName": "v2.5.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "math"
+    },
+    {
+      "@id": "https://repolex.ai/r/tqdm/tqdm",
+      "repolex:packageName": "tqdm",
+      "git:hexsha": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+      "git:tagName": "v4.70.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "genericpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "argparse"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "time"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "3895f9829fc0e51882981773a823a658eb1d1636",
+      "git:tagName": "v84.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "_collections_abc"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "posixpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "ntpath"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "subprocess"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "platform"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "json"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.core.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2020.number.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2020.bigint.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2017.object.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.iterable.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2016.array.include.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.wellknown.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "dataclasses"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sys"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "sqlite3"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "struct"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "collections"
+    }
+  ]
 }
