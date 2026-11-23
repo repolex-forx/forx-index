@@ -54,10 +54,166 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3d2c9c8550061066a07cfb5c6e97f73e544675a5/chunk-001.nq.gz",
       "repolex:graphFileSize": 918020
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3d2c9c8550061066a07cfb5c6e97f73e544675a5.nq.gz",
+      "repolex:graphFileSize": 123201
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-23T05:40:08.675367+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v4.0.6"
+  "git:tagName": "v4.0.6",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/ai/size-limit",
+      "repolex:packageName": "@size-limit/preset-small-lib",
+      "git:hexsha": "691f6c12a93bd1ea3e72da5cb12ea2c0a89ff0c8",
+      "git:tagName": "11.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/ai/size-limit",
+      "repolex:packageName": "@size-limit/time",
+      "git:hexsha": "691f6c12a93bd1ea3e72da5cb12ea2c0a89ff0c8",
+      "git:tagName": "11.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/antfu-collective/bumpp",
+      "repolex:packageName": "bumpp",
+      "git:hexsha": "6cc7c8139bbc9bb8d14d28aab752b8edd72b9ac3",
+      "git:tagName": "v9.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/antfu-collective/changelogithub",
+      "repolex:packageName": "changelogithub",
+      "git:hexsha": "db48a2c362b2c65f12cbe4613a3e5a725363bac1",
+      "git:tagName": "v0.13.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/shashkovdanil/clean-publish",
+      "repolex:packageName": "clean-publish",
+      "git:hexsha": "58b74d3d8f2c2c2188199e3df208bac6ff6ebb41",
+      "git:tagName": "7.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/capricorn86/happy-dom",
+      "repolex:packageName": "happy-dom",
+      "git:hexsha": "f0d6091ce3d2638c9229f82b722f549b8ebbbb80",
+      "git:tagName": "v14.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/typicode/husky",
+      "repolex:packageName": "husky",
+      "git:hexsha": "a9c658405470a562b86af4db349959a2fed208c2",
+      "git:tagName": "v9.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/usmanyunusov/nano-staged",
+      "repolex:packageName": "nano-staged",
+      "git:hexsha": "33b03323db09ea86463bc6bd6ecc256d4849d4a1",
+      "git:tagName": "v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/prettier/prettier",
+      "repolex:packageName": "prettier",
+      "git:hexsha": "7142cf354cce2558f41574f44b967baf11d5b603",
+      "git:tagName": "3.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/ai/size-limit",
+      "repolex:packageName": "size-limit",
+      "git:hexsha": "691f6c12a93bd1ea3e72da5cb12ea2c0a89ff0c8",
+      "git:tagName": "11.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/egoist/tsup",
+      "repolex:packageName": "tsup",
+      "git:hexsha": "83c7c7f3131ca6d46aaad4de3111c2fd5e5b5c21",
+      "git:tagName": "v8.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "git:hexsha": "27bcd4cb5a98bce46c9cdd749752703ead021a4b",
+      "git:tagName": "v5.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitejs/vite",
+      "repolex:packageName": "vite",
+      "git:hexsha": "ee4d2bcfed7bc500b9b1dd43bfe9a6cb1c9737bd",
+      "git:tagName": "v5.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "vitest",
+      "git:hexsha": "a9d36c719f8ce5551f61da20181490d3673bdf99",
+      "git:tagName": "v3.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.core.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.wellknown.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2019.symbol.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2017.object.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.promise.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.reflect.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.collection.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.iterable.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2017.string.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2019.string.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2020.string.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2021.string.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2022.string.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.esnext.string.d.ts"
+    }
+  ]
 }
