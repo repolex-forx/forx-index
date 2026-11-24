@@ -48,10 +48,198 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/82279a5a9ff2af5f10194b9147fe60050cda1851/chunk-001.nq.gz",
       "repolex:graphFileSize": 6531234
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/82279a5a9ff2af5f10194b9147fe60050cda1851.nq.gz",
+      "repolex:graphFileSize": 505523
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-24T11:01:51.293499+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "universal-hash-v0.6.1"
+  "git:tagName": "universal-hash-v0.6.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/vec/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/convert/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/macros.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/macros/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/fmt/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/hybrid-array",
+      "repolex:packageName": "hybrid-array",
+      "git:hexsha": "e408f84289c270c62715fd41b01a053875d90b8b",
+      "git:tagName": "v0.4.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/default.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/macros.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "inout"
+    },
+    {
+      "@id": "https://repolex.ai/r/dalek-cryptography/subtle",
+      "repolex:packageName": "subtle",
+      "git:hexsha": "5457b5448b021d1da101ababbb854e6657233943",
+      "git:tagName": "2.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/slice/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/fmt/builders.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "zeroize"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/crypto-bigint",
+      "repolex:packageName": "crypto-bigint",
+      "git:hexsha": "0ce07cf6ce4ccf9a73c0bb693da5db9e64ff31fb",
+      "git:tagName": "v0.7.0-rc.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/ff",
+      "repolex:packageName": "rustcrypto-ff"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/formats",
+      "repolex:packageName": "base16ct"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/cmp.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/ptr/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/ptr/const_ptr.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/result.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/option.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/ops/range.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/any.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/num/uint_macros.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/num/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "hex-literal"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/convert/num.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand_core",
+      "repolex:packageName": "rand_core",
+      "git:hexsha": "0ce22c945d12cbad6b10eccb872961f4da061df2",
+      "git:tagName": "v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/slice.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/paholg/typenum",
+      "repolex:packageName": "typenum",
+      "git:hexsha": "65d17389fad2919dab23c1e62cdf1226615c72bd",
+      "git:tagName": "v1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/clone.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/boxed.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/group",
+      "repolex:packageName": "rustcrypto-group",
+      "git:hexsha": "5203ec9c4a46e8843f73e712849c504fedd0fa74",
+      "git:tagName": "v0.14.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/array/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "ctutils"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/slice/raw.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/traits/iterator.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/sources/once.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/utils",
+      "repolex:packageName": "block-buffer"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/lib.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/lib.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/formats",
+      "repolex:packageName": "const-oid"
+    }
+  ]
 }
