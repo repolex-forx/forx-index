@@ -1,0 +1,2433 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/RustCrypto/traits",
+  "@type": "gh:Repository",
+  "gh:name": "traits",
+  "gh:owner": "RustCrypto",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/82279a5a9ff2af5f10194b9147fe60050cda1851",
+      "git:hexsha": "82279a5a9ff2af5f10194b9147fe60050cda1851",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "universal-hash-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/09aee1558dddb1b83b24481b072c7ee5c44a68fc",
+      "git:hexsha": "09aee1558dddb1b83b24481b072c7ee5c44a68fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e14229b918044681ca10023230eaef6cf0c74320",
+      "git:hexsha": "e14229b918044681ca10023230eaef6cf0c74320",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2003e14ef9bee82f88315f0b780d1e1d3351af14",
+      "git:hexsha": "2003e14ef9bee82f88315f0b780d1e1d3351af14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4569d256f02ac0ecefa393baf225fb4a6df35875",
+      "git:hexsha": "4569d256f02ac0ecefa393baf225fb4a6df35875",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a4c9e145ce0ae7c0564e6a4c9410492083525512",
+      "git:hexsha": "a4c9e145ce0ae7c0564e6a4c9410492083525512",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5514c9dfb75e5f05527a6de2101625295b3acf68",
+      "git:hexsha": "5514c9dfb75e5f05527a6de2101625295b3acf68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/79c08436644b94ceb5f5ff3839f0d99de0a3fb5d",
+      "git:hexsha": "79c08436644b94ceb5f5ff3839f0d99de0a3fb5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/72f01d88ec33b9aa959a59ae019371b0a5b0709f",
+      "git:hexsha": "72f01d88ec33b9aa959a59ae019371b0a5b0709f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/252b77f0ee659b146c8aeb711d7372471cd65d0d",
+      "git:hexsha": "252b77f0ee659b146c8aeb711d7372471cd65d0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.4.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/17583600b1da12f3328ee4118d1874e239b15cda",
+      "git:hexsha": "17583600b1da12f3328ee4118d1874e239b15cda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a39283d09de56cc8cfc810a80ad74ab454e538e9",
+      "git:hexsha": "a39283d09de56cc8cfc810a80ad74ab454e538e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ad2328c06a6f2606d1eb05d5e38f3a86a9911031",
+      "git:hexsha": "ad2328c06a6f2606d1eb05d5e38f3a86a9911031",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/05d54a2ad9c5dba96495d67ed2197847c3d727e1",
+      "git:hexsha": "05d54a2ad9c5dba96495d67ed2197847c3d727e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7ffdfa7a0d4546d2806aca159a51a083dc15b915",
+      "git:hexsha": "7ffdfa7a0d4546d2806aca159a51a083dc15b915",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.5.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cbaec6013837f488eab56d24661b6efc006238d5",
+      "git:hexsha": "cbaec6013837f488eab56d24661b6efc006238d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.5.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/add50a3ab3439650d74a614972819c92e60e4410",
+      "git:hexsha": "add50a3ab3439650d74a614972819c92e60e4410",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/35d94f05ad9a03aa15c5324b640bcbe7fea52ff2",
+      "git:hexsha": "35d94f05ad9a03aa15c5324b640bcbe7fea52ff2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/387aa9cdb7e32f305bfe9e7bbf9032e1722ac191",
+      "git:hexsha": "387aa9cdb7e32f305bfe9e7bbf9032e1722ac191",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f7d1dd2823aa1022ac5197d53fe414e1e903e549",
+      "git:hexsha": "f7d1dd2823aa1022ac5197d53fe414e1e903e549",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2783387f23821b1c33c157092330115cda6212bd",
+      "git:hexsha": "2783387f23821b1c33c157092330115cda6212bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b8f03c57df51d55b7970e6e3007f47c6a7f88699",
+      "git:hexsha": "b8f03c57df51d55b7970e6e3007f47c6a7f88699",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ce3d46b0d83b33a1eed467961e05331d1ed86892",
+      "git:hexsha": "ce3d46b0d83b33a1eed467961e05331d1ed86892",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ee32acede14a15275136164ffd88b8f5e0aca03b",
+      "git:hexsha": "ee32acede14a15275136164ffd88b8f5e0aca03b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d9152e025e0c0bc7527eb6175b82d7c55bcca6fb",
+      "git:hexsha": "d9152e025e0c0bc7527eb6175b82d7c55bcca6fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/034329f6432513c84252020f375d1eb8e3d33b87",
+      "git:hexsha": "034329f6432513c84252020f375d1eb8e3d33b87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/eeac8f17e0bb1b6f9086d15073f605a3fe94a5c2",
+      "git:hexsha": "eeac8f17e0bb1b6f9086d15073f605a3fe94a5c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e88f57d6f35194417be81c159dee4d7644a1ca2c",
+      "git:hexsha": "e88f57d6f35194417be81c159dee4d7644a1ca2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ce4a638ee7be1ac21cdceb5b93b0281cc834bc61",
+      "git:hexsha": "ce4a638ee7be1ac21cdceb5b93b0281cc834bc61",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/090aa075bd980f5992f17f8af95637820ce590a8",
+      "git:hexsha": "090aa075bd980f5992f17f8af95637820ce590a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3d2d90045bffc402af4edb6a5a4dbb1e217329d1",
+      "git:hexsha": "3d2d90045bffc402af4edb6a5a4dbb1e217329d1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "aead-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/61b0950e603c545fc9becbb54b82793a3c508a2e",
+      "git:hexsha": "61b0950e603c545fc9becbb54b82793a3c508a2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a42440f8db2dc0dd55c4e63b51f150ee77a010bd",
+      "git:hexsha": "a42440f8db2dc0dd55c4e63b51f150ee77a010bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/08c248f8068dc13564e7a0afb2270a061fb5b020",
+      "git:hexsha": "08c248f8068dc13564e7a0afb2270a061fb5b020",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c85a5b815b3705fb5040307c3f5a4e06316b4c95",
+      "git:hexsha": "c85a5b815b3705fb5040307c3f5a4e06316b4c95",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3dc7c13cfd7211e345436caf88d8a109a923300f",
+      "git:hexsha": "3dc7c13cfd7211e345436caf88d8a109a923300f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a17da800956ef3f52ee1afa9818907234283459d",
+      "git:hexsha": "a17da800956ef3f52ee1afa9818907234283459d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.5.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/dd2d77ce8e261247bda04314b63537d967958e88",
+      "git:hexsha": "dd2d77ce8e261247bda04314b63537d967958e88",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/07bf35a6c3f276b5f746284032f7604d5c216c91",
+      "git:hexsha": "07bf35a6c3f276b5f746284032f7604d5c216c91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.6.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/70b43f3d403e104aa4093c8e694a81ba1f928647",
+      "git:hexsha": "70b43f3d403e104aa4093c8e694a81ba1f928647",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.3.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/332267526d98eb107ece2ab79ca8ee480ec1d189",
+      "git:hexsha": "332267526d98eb107ece2ab79ca8ee480ec1d189",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature-v0.6.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e791364e071f727410196a854bb14b8ce4faa8da",
+      "git:hexsha": "e791364e071f727410196a854bb14b8ce4faa8da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "async-signature/v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f8c62e103539e188b8d147fa38d3ea868b43643a",
+      "git:hexsha": "f8c62e103539e188b8d147fa38d3ea868b43643a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0e0c4066f8f0efdc1519175e239f357ecb65befa",
+      "git:hexsha": "0e0c4066f8f0efdc1519175e239f357ecb65befa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a287c7bff17046e83ce46f1bd6d851cb05d6b5e6",
+      "git:hexsha": "a287c7bff17046e83ce46f1bd6d851cb05d6b5e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "block-cipher-trait-v0.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/eefd93f7f041b6a42d265a0eb2d6d87460dbe13e",
+      "git:hexsha": "eefd93f7f041b6a42d265a0eb2d6d87460dbe13e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e554986d7bdcbf429690798afcc948a6a120d82b",
+      "git:hexsha": "e554986d7bdcbf429690798afcc948a6a120d82b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "block-cipher-trait-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/727a18f143cda9e0da7fc925722d77ae254d201a",
+      "git:hexsha": "727a18f143cda9e0da7fc925722d77ae254d201a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "block-cipher-trait-v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f153445ca24d44d5547ce1777fa7ed6fdf81e15b",
+      "git:hexsha": "f153445ca24d44d5547ce1777fa7ed6fdf81e15b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac_v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/88c2303fbe7b60c8154629d69a17d243f30e1b1e",
+      "git:hexsha": "88c2303fbe7b60c8154629d69a17d243f30e1b1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "block-cipher-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8565e793fbc3ab97a90b36076b3623de9d7553e6",
+      "git:hexsha": "8565e793fbc3ab97a90b36076b3623de9d7553e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "block-cipher-v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c34a875c7bb956cc125d1e9fa19d2ed99b0b94bd",
+      "git:hexsha": "c34a875c7bb956cc125d1e9fa19d2ed99b0b94bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9a55abca257698a0ad3668dce8e1aa40139e5771",
+      "git:hexsha": "9a55abca257698a0ad3668dce8e1aa40139e5771",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bc8752aa0ec612e9a8978b0cfd6a0b0547415fa4",
+      "git:hexsha": "bc8752aa0ec612e9a8978b0cfd6a0b0547415fa4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/64172c031434d283a7359ce12c4e7bcc74fcba71",
+      "git:hexsha": "64172c031434d283a7359ce12c4e7bcc74fcba71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/77bb320f81c85f99fc2deac4c63226d6a5b47aeb",
+      "git:hexsha": "77bb320f81c85f99fc2deac4c63226d6a5b47aeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8c04b9b734300025bb36ce0eea6f499f49b34620",
+      "git:hexsha": "8c04b9b734300025bb36ce0eea6f499f49b34620",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b524ca61cbc61cfd155426c3828c036e60624580",
+      "git:hexsha": "b524ca61cbc61cfd155426c3828c036e60624580",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/76eeac2e494a90cf847be767117f8ca155f50709",
+      "git:hexsha": "76eeac2e494a90cf847be767117f8ca155f50709",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/894409b94dec80a529be02f5683c16b29117cd83",
+      "git:hexsha": "894409b94dec80a529be02f5683c16b29117cd83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.3.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/629d323d33b91ce952a195998de43090f12687ae",
+      "git:hexsha": "629d323d33b91ce952a195998de43090f12687ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.3.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5aa64b2e6ef59106011fefd8138f3785947f207c",
+      "git:hexsha": "5aa64b2e6ef59106011fefd8138f3785947f207c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.3.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2e9d89d009b448f51c003e286fdf1af0adb83931",
+      "git:hexsha": "2e9d89d009b448f51c003e286fdf1af0adb83931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.11.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/80918dd5bbb8694f6ec30ea33a23dcca283ed07f",
+      "git:hexsha": "80918dd5bbb8694f6ec30ea33a23dcca283ed07f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.3.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ff2dda49f375ce23277fb078e97199ff18d72994",
+      "git:hexsha": "ff2dda49f375ce23277fb078e97199ff18d72994",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1f55b70e2587562e45d43c134663f8ffc4dc63fa",
+      "git:hexsha": "1f55b70e2587562e45d43c134663f8ffc4dc63fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3d6003a488135df2460aa730d0ecc4bee6dece9e",
+      "git:hexsha": "3d6003a488135df2460aa730d0ecc4bee6dece9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0af93f6076a76757c65cb2ef6f6abd9756440478",
+      "git:hexsha": "0af93f6076a76757c65cb2ef6f6abd9756440478",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/61a9586aa8b85226f6ad07be6bd2ea52eccf94a1",
+      "git:hexsha": "61a9586aa8b85226f6ad07be6bd2ea52eccf94a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9bc2c9be276612ad4c0245fb96569d2071ab142e",
+      "git:hexsha": "9bc2c9be276612ad4c0245fb96569d2071ab142e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4e3abf3a38e8a41502003e2002c4dea34c227529",
+      "git:hexsha": "4e3abf3a38e8a41502003e2002c4dea34c227529",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/59d12275849f63301df965050c1907836ae12f5a",
+      "git:hexsha": "59d12275849f63301df965050c1907836ae12f5a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b2e31d8df293026390b6315c10844eed8b54a185",
+      "git:hexsha": "b2e31d8df293026390b6315c10844eed8b54a185",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bbf7d5ab6a722b82d142f21c0b0ef8c542d5df33",
+      "git:hexsha": "bbf7d5ab6a722b82d142f21c0b0ef8c542d5df33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/77e2ea109f23096c30d90e394ef074783b133933",
+      "git:hexsha": "77e2ea109f23096c30d90e394ef074783b133933",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-pre.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3ebd677b37533ebdb6a7cc4efcb980f8197246c7",
+      "git:hexsha": "3ebd677b37533ebdb6a7cc4efcb980f8197246c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ad7adbbf269076de8b05f6385a4743b24f42464b",
+      "git:hexsha": "ad7adbbf269076de8b05f6385a4743b24f42464b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-pre.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f9ab27ccb60ea9a9663cae3df53e446f3beaf787",
+      "git:hexsha": "f9ab27ccb60ea9a9663cae3df53e446f3beaf787",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4da7e93600423ed19d56ea5c359878cef7d577bd",
+      "git:hexsha": "4da7e93600423ed19d56ea5c359878cef7d577bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4be5aa4d43a1735dc056147d9d6b5ccee3a1e015",
+      "git:hexsha": "4be5aa4d43a1735dc056147d9d6b5ccee3a1e015",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/30440822f161292113f5080c9ba883ec4b924a1a",
+      "git:hexsha": "30440822f161292113f5080c9ba883ec4b924a1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f836f71fadb3b975b577a293d57851d044f0a44b",
+      "git:hexsha": "f836f71fadb3b975b577a293d57851d044f0a44b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "cipher-v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/56de6873faeedbcb3a20092d5c499d3fff88fb29",
+      "git:hexsha": "56de6873faeedbcb3a20092d5c499d3fff88fb29",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/92668869e2fea6ff3de6a5a531e1615c3efd61ae",
+      "git:hexsha": "92668869e2fea6ff3de6a5a531e1615c3efd61ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.1.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/03f83b8a7e2cc744e53f133195189e888fd30920",
+      "git:hexsha": "03f83b8a7e2cc744e53f133195189e888fd30920",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/45e827d0bedbc58d027921d3b4ec935b9d536658",
+      "git:hexsha": "45e827d0bedbc58d027921d3b4ec935b9d536658",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ea33e3206ba9b71d741f75f03a94ec09aae32693",
+      "git:hexsha": "ea33e3206ba9b71d741f75f03a94ec09aae32693",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/25614e2d5a4ccbb0cfde23367a93c8bcdbfe421a",
+      "git:hexsha": "25614e2d5a4ccbb0cfde23367a93c8bcdbfe421a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/66a997ccf5776ce873da5a48e2885a9908e940f6",
+      "git:hexsha": "66a997ccf5776ce873da5a48e2885a9908e940f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3467ffbc420870c4d64688371957c793eb4e243d",
+      "git:hexsha": "3467ffbc420870c4d64688371957c793eb4e243d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cf9a83cefe07dd5a8bdb6a166553d0ee4695ea4a",
+      "git:hexsha": "cf9a83cefe07dd5a8bdb6a166553d0ee4695ea4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/43cec2c212e74495ff439c8b5eb232e03fb5e61f",
+      "git:hexsha": "43cec2c212e74495ff439c8b5eb232e03fb5e61f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/48c2c120ca45b497c0bfcfa05069d32a7202ea75",
+      "git:hexsha": "48c2c120ca45b497c0bfcfa05069d32a7202ea75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e36243ee7624243a668ec7f233adccb216afcc41",
+      "git:hexsha": "e36243ee7624243a668ec7f233adccb216afcc41",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c501254368a080c0da607763192c4f390d80754b",
+      "git:hexsha": "c501254368a080c0da607763192c4f390d80754b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4646f4559be8c7e0f95e815ddd9f9fa998749299",
+      "git:hexsha": "4646f4559be8c7e0f95e815ddd9f9fa998749299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4e195b4fc5062a9ccd0080070d2b05202b2b3108",
+      "git:hexsha": "4e195b4fc5062a9ccd0080070d2b05202b2b3108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bf6f0a9703e0a9ef83c35e34965c5cefbb15c1ba",
+      "git:hexsha": "bf6f0a9703e0a9ef83c35e34965c5cefbb15c1ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ecc4e076c0387a76b90444a5e9af380c6cc48e8d",
+      "git:hexsha": "ecc4e076c0387a76b90444a5e9af380c6cc48e8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9aad4bfc217598a95471c850374c675e8a26155f",
+      "git:hexsha": "9aad4bfc217598a95471c850374c675e8a26155f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9e54c34277231d94486b944a598c90f93220ce72",
+      "git:hexsha": "9e54c34277231d94486b944a598c90f93220ce72",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f146778044f147716dd313463aeb2dcce2486f4d",
+      "git:hexsha": "f146778044f147716dd313463aeb2dcce2486f4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7e2aaa5062d733dce2e726418f41266b87f9325c",
+      "git:hexsha": "7e2aaa5062d733dce2e726418f41266b87f9325c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0cfefa92557218132cd4d83d43c7cee74a1132a9",
+      "git:hexsha": "0cfefa92557218132cd4d83d43c7cee74a1132a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/af052ce36dd0a0aa99c3f16272197db2984c3384",
+      "git:hexsha": "af052ce36dd0a0aa99c3f16272197db2984c3384",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ea272ec0693e4b28fbb6b255d6b8b68230285f7b",
+      "git:hexsha": "ea272ec0693e4b28fbb6b255d6b8b68230285f7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.0-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/93dee26c6bde3741a197f1c5f6b7baac277705f3",
+      "git:hexsha": "93dee26c6bde3741a197f1c5f6b7baac277705f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e8c4823bc8b1068bf27d57525666765fd81aa53b",
+      "git:hexsha": "e8c4823bc8b1068bf27d57525666765fd81aa53b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-common/v0.2.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ca0ea3064459418a7a8f9945a5eda178982ad260",
+      "git:hexsha": "ca0ea3064459418a7a8f9945a5eda178982ad260",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6580afb3b14453944d014b11078d3c18643ebba2",
+      "git:hexsha": "6580afb3b14453944d014b11078d3c18643ebba2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cfbfca49ec674db3c8c3670427afd64cf3472895",
+      "git:hexsha": "cfbfca49ec674db3c8c3670427afd64cf3472895",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d90db056e44ae4d6d7b60d0d8fb9a1242de3971c",
+      "git:hexsha": "d90db056e44ae4d6d7b60d0d8fb9a1242de3971c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.11.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/95e57639399c193e22b5ea54c02f74bd7b6a9b6c",
+      "git:hexsha": "95e57639399c193e22b5ea54c02f74bd7b6a9b6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/50147543e6c401a11f58bfa5587512fde81d5db9",
+      "git:hexsha": "50147543e6c401a11f58bfa5587512fde81d5db9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/18346fdf6e68332e8571503eee6f43c97e6eccbd",
+      "git:hexsha": "18346fdf6e68332e8571503eee6f43c97e6eccbd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e6755825667f13b4c8d3f1d06b5385131a091551",
+      "git:hexsha": "e6755825667f13b4c8d3f1d06b5385131a091551",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac-v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c75c048eae1a8471fefe8d48c5ccd15e37e1becd",
+      "git:hexsha": "c75c048eae1a8471fefe8d48c5ccd15e37e1becd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-mac_v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5c2a660b800b2551108bf38d399400d3dbe255fa",
+      "git:hexsha": "5c2a660b800b2551108bf38d399400d3dbe255fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7b9a41619382d1cb3430fdd4be13eb6f70369b50",
+      "git:hexsha": "7b9a41619382d1cb3430fdd4be13eb6f70369b50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6af57061268eb9defe111baadc6ae144ac210c5d",
+      "git:hexsha": "6af57061268eb9defe111baadc6ae144ac210c5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f0dbe44fea56d4c17e625ababacb580fec842137",
+      "git:hexsha": "f0dbe44fea56d4c17e625ababacb580fec842137",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b6206884e7b818916c1d2fc202130cef1e0686d2",
+      "git:hexsha": "b6206884e7b818916c1d2fc202130cef1e0686d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "crypto-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4c1597f275436d18ebcfc803e1aa13d27da8b43e",
+      "git:hexsha": "4c1597f275436d18ebcfc803e1aa13d27da8b43e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/813dcae7c4d1f5f4db019edbc50bce91213b072a",
+      "git:hexsha": "813dcae7c4d1f5f4db019edbc50bce91213b072a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2927b40ef3ac3b6985466f491760159dde2a1550",
+      "git:hexsha": "2927b40ef3ac3b6985466f491760159dde2a1550",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/073edacf50e04c257053b6c2ef2fea8276a241e1",
+      "git:hexsha": "073edacf50e04c257053b6c2ef2fea8276a241e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f7968a1141cf1765a01c2a404e3960b6ffdcab9d",
+      "git:hexsha": "f7968a1141cf1765a01c2a404e3960b6ffdcab9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4c89bc9c8381707c4dcf7faaab7a8155c3d20074",
+      "git:hexsha": "4c89bc9c8381707c4dcf7faaab7a8155c3d20074",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a9ef4f6d78455283a62987d6c163c55ed62330fc",
+      "git:hexsha": "a9ef4f6d78455283a62987d6c163c55ed62330fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/344389411fd9718a0742435152e933a9e71461ee",
+      "git:hexsha": "344389411fd9718a0742435152e933a9e71461ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.10.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/593a0ea151d49d2c8de4b10be78055f5c5e985d9",
+      "git:hexsha": "593a0ea151d49d2c8de4b10be78055f5c5e985d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9bf4bf86562d8f16b472943ead5a16c3d8540133",
+      "git:hexsha": "9bf4bf86562d8f16b472943ead5a16c3d8540133",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0c0c3ef9afd75f60cfd725f0b65dd7ceaacd588d",
+      "git:hexsha": "0c0c3ef9afd75f60cfd725f0b65dd7ceaacd588d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/be696aa8f811a71633c3456c8030af5048d547ea",
+      "git:hexsha": "be696aa8f811a71633c3456c8030af5048d547ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a897f41b8310125394b523e4e8b0e5bfdd584fcf",
+      "git:hexsha": "a897f41b8310125394b523e4e8b0e5bfdd584fcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c4101dee17284b8c7788ce8c414e6385c1eadc0d",
+      "git:hexsha": "c4101dee17284b8c7788ce8c414e6385c1eadc0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/49d2620075a300481087552c67319a69fb0db00e",
+      "git:hexsha": "49d2620075a300481087552c67319a69fb0db00e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6a999bea747bee5aa68525ff78624e0949697b70",
+      "git:hexsha": "6a999bea747bee5aa68525ff78624e0949697b70",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2b442524a2fd6968cb737a64275a7da4ee57db38",
+      "git:hexsha": "2b442524a2fd6968cb737a64275a7da4ee57db38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ecbd6e3b71a1a79f53e654ddd744a7fb0a49d241",
+      "git:hexsha": "ecbd6e3b71a1a79f53e654ddd744a7fb0a49d241",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/350a3b213bfd1c73f935d6f2d458c9cca8af2c00",
+      "git:hexsha": "350a3b213bfd1c73f935d6f2d458c9cca8af2c00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-pre.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2b44f2c6aa76d5b40252fc820fc590a2d3dae50a",
+      "git:hexsha": "2b44f2c6aa76d5b40252fc820fc590a2d3dae50a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5802c8f8ee7f4f6632e8c93f91b9de89c6f79bf3",
+      "git:hexsha": "5802c8f8ee7f4f6632e8c93f91b9de89c6f79bf3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-rc.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/64bcc11e82873ab50a17a38f1322e8b27aa805ab",
+      "git:hexsha": "64bcc11e82873ab50a17a38f1322e8b27aa805ab",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ab7b15ef1773bf14d5c04ffd91d303737fbcdb9b",
+      "git:hexsha": "ab7b15ef1773bf14d5c04ffd91d303737fbcdb9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e7e477a12fd2ec6e616645a2184c8feaaba4ab8e",
+      "git:hexsha": "e7e477a12fd2ec6e616645a2184c8feaaba4ab8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d8803d4616026f4f3a78594ad2bcc72078cb855c",
+      "git:hexsha": "d8803d4616026f4f3a78594ad2bcc72078cb855c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.0-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2465f98a7ebc9f1c8d10dab0e5f30113505a1826",
+      "git:hexsha": "2465f98a7ebc9f1c8d10dab0e5f30113505a1826",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2fb9ed8922e244117040bb037a7d141a6a2b8228",
+      "git:hexsha": "2fb9ed8922e244117040bb037a7d141a6a2b8228",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1e2345a439f486dde6c2896b0940a245a600b269",
+      "git:hexsha": "1e2345a439f486dde6c2896b0940a245a600b269",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.7.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/abf77df9fa8c004bcfc373e3ef795343ea080a7d",
+      "git:hexsha": "abf77df9fa8c004bcfc373e3ef795343ea080a7d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c02ab3d77605b540fd5dc2ea1a45c184f7d9e7d8",
+      "git:hexsha": "c02ab3d77605b540fd5dc2ea1a45c184f7d9e7d8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.7.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/530b79544491e401e6bd0da578bfdecd17c34282",
+      "git:hexsha": "530b79544491e401e6bd0da578bfdecd17c34282",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d22dc3e77d424415d60f448a14db5c45efd0f0de",
+      "git:hexsha": "d22dc3e77d424415d60f448a14db5c45efd0f0de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cd062e07f034a73a42c841ec7cf47804e6e41e79",
+      "git:hexsha": "cd062e07f034a73a42c841ec7cf47804e6e41e79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "digest_v0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/df622c95c3283adacc2754f1c9f9b3ad287a4723",
+      "git:hexsha": "df622c95c3283adacc2754f1c9f9b3ad287a4723",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-0.14.0-rc.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/542fcb6f32bbb22d8933e5623fe1da55fb18df83",
+      "git:hexsha": "542fcb6f32bbb22d8933e5623fe1da55fb18df83",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8502ce442ab912925aac4143ccc5d08bf5d939aa",
+      "git:hexsha": "8502ce442ab912925aac4143ccc5d08bf5d939aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/81d1341134c3caf5e0b2d8f25688d9fd3a788e4e",
+      "git:hexsha": "81d1341134c3caf5e0b2d8f25688d9fd3a788e4e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5732f2d8dca9559356a8fb0f28d92deaee28ad73",
+      "git:hexsha": "5732f2d8dca9559356a8fb0f28d92deaee28ad73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/46f3ac30fdbe36dad30b4c16f636bcc338f22608",
+      "git:hexsha": "46f3ac30fdbe36dad30b4c16f636bcc338f22608",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.10.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f5a24d8fdd45cf17f64c8c72586bc609ac60a03b",
+      "git:hexsha": "f5a24d8fdd45cf17f64c8c72586bc609ac60a03b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/45265dd6f6af0bb107bd53faef4c3fa34587fa32",
+      "git:hexsha": "45265dd6f6af0bb107bd53faef4c3fa34587fa32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b8cd0330358d54c40c828135a8d1158d3020a6eb",
+      "git:hexsha": "b8cd0330358d54c40c828135a8d1158d3020a6eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ad36f9a1e7196919b7bd401ef9fafca32e2eb7df",
+      "git:hexsha": "ad36f9a1e7196919b7bd401ef9fafca32e2eb7df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cad4e11790067e1967861d2bd3fa4548a1419b25",
+      "git:hexsha": "cad4e11790067e1967861d2bd3fa4548a1419b25",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/204c9be96aec71beda98f87c590ed58e02f51b10",
+      "git:hexsha": "204c9be96aec71beda98f87c590ed58e02f51b10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ce1ea2f8e2de728857cf0d6993b1b3e7d4eeb372",
+      "git:hexsha": "ce1ea2f8e2de728857cf0d6993b1b3e7d4eeb372",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/afe0b794f51c2a7d4641f3e4c42c247ed596c474",
+      "git:hexsha": "afe0b794f51c2a7d4641f3e4c42c247ed596c474",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/130bdeb9d03843ed5ec847f4a2ad93a9f83612d4",
+      "git:hexsha": "130bdeb9d03843ed5ec847f4a2ad93a9f83612d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9af397a4ff605a6f860eaf6d04b5e17eaba837db",
+      "git:hexsha": "9af397a4ff605a6f860eaf6d04b5e17eaba837db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/39d118201090e567d7d41099910d5601f1d1e7e8",
+      "git:hexsha": "39d118201090e567d7d41099910d5601f1d1e7e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7fa3088552cf0c76b1d57c13462d619cf9139b2b",
+      "git:hexsha": "7fa3088552cf0c76b1d57c13462d619cf9139b2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e6eef1d3097188c48b586354618505ef4b7a5245",
+      "git:hexsha": "e6eef1d3097188c48b586354618505ef4b7a5245",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/999dab2c12b19252d5c6c80744e211cf170705c1",
+      "git:hexsha": "999dab2c12b19252d5c6c80744e211cf170705c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.11.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8cb0072d69256c9510322951f23d845594bb9b48",
+      "git:hexsha": "8cb0072d69256c9510322951f23d845594bb9b48",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/15d2c1945f1f4600138d2bbabd9b26245b8c12b8",
+      "git:hexsha": "15d2c1945f1f4600138d2bbabd9b26245b8c12b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bf77a1194a0bb1c542a579e54febecb4cf6506f0",
+      "git:hexsha": "bf77a1194a0bb1c542a579e54febecb4cf6506f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4880e230fa8b0aaed2f1b9469b06458ed8499056",
+      "git:hexsha": "4880e230fa8b0aaed2f1b9469b06458ed8499056",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/916ae38e588ecd90daf975b57b3390565d98e5e1",
+      "git:hexsha": "916ae38e588ecd90daf975b57b3390565d98e5e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c953409e7ce43c38d992fc5bf79a67e79adf6707",
+      "git:hexsha": "c953409e7ce43c38d992fc5bf79a67e79adf6707",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e51e94c4c52833a5e8a6758e28c18995e3f7bf9e",
+      "git:hexsha": "e51e94c4c52833a5e8a6758e28c18995e3f7bf9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/147a4e8460433bdb4632c941df3d9306e6ce6099",
+      "git:hexsha": "147a4e8460433bdb4632c941df3d9306e6ce6099",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.12.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3ab3a2df2d6464311119bdf4483341e69777e722",
+      "git:hexsha": "3ab3a2df2d6464311119bdf4483341e69777e722",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/09031c09d652cbe75b00f63e64e1ca1fa7e8b3ca",
+      "git:hexsha": "09031c09d652cbe75b00f63e64e1ca1fa7e8b3ca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4ad2fc12f64f391eebf6298f0cb55cef520caebc",
+      "git:hexsha": "4ad2fc12f64f391eebf6298f0cb55cef520caebc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d57b54b9fcf5b28745547cb9fef313ab09780918",
+      "git:hexsha": "d57b54b9fcf5b28745547cb9fef313ab09780918",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bae41969049499dcb1b1509372579deda0e732a1",
+      "git:hexsha": "bae41969049499dcb1b1509372579deda0e732a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/61074bbfa71882e0b73152bb1bc2263e2983f23d",
+      "git:hexsha": "61074bbfa71882e0b73152bb1bc2263e2983f23d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0c7a6bfde0de0236d0699dee6339171acea0182f",
+      "git:hexsha": "0c7a6bfde0de0236d0699dee6339171acea0182f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8bd426128a5d2f0749a67bcfa338c45596fa10c4",
+      "git:hexsha": "8bd426128a5d2f0749a67bcfa338c45596fa10c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/30b389e00e1df6230d2061dcbbe5d5a27e3ff9e1",
+      "git:hexsha": "30b389e00e1df6230d2061dcbbe5d5a27e3ff9e1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6225999e75c9bba5dd380394999547d82bae2576",
+      "git:hexsha": "6225999e75c9bba5dd380394999547d82bae2576",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/aa21684383d524fb9604a13245a01e2f0f3482b1",
+      "git:hexsha": "aa21684383d524fb9604a13245a01e2f0f3482b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cc4ffe9d67f13eba9d3f6eb91925f1e7671dc2d3",
+      "git:hexsha": "cc4ffe9d67f13eba9d3f6eb91925f1e7671dc2d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/caac4e1fbb5a300c84df30cab2d4593b18cd7ab6",
+      "git:hexsha": "caac4e1fbb5a300c84df30cab2d4593b18cd7ab6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.13.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ab8ee23d9c6809f770989877fafab6086cdab6d5",
+      "git:hexsha": "ab8ee23d9c6809f770989877fafab6086cdab6d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/39137561171484cf4fe0168aa0e27f6431bb4002",
+      "git:hexsha": "39137561171484cf4fe0168aa0e27f6431bb4002",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f96b7d2937323ddfe09cef39a4466702946196b7",
+      "git:hexsha": "f96b7d2937323ddfe09cef39a4466702946196b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.3.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b49ccf5061e4b31244d7b53f77eff6f580e83e8d",
+      "git:hexsha": "b49ccf5061e4b31244d7b53f77eff6f580e83e8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/85254f6587149edb4b801eef5fd9dc10f0800dc2",
+      "git:hexsha": "85254f6587149edb4b801eef5fd9dc10f0800dc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.3.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e71c4fa44cb52a0edaec7b081c2d51bcfacf5755",
+      "git:hexsha": "e71c4fa44cb52a0edaec7b081c2d51bcfacf5755",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/13144ff78ea304fb6bd3ed59adb15db94d7505de",
+      "git:hexsha": "13144ff78ea304fb6bd3ed59adb15db94d7505de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/62ee195e59f8870a5bd8459586895ff2c5b3ac79",
+      "git:hexsha": "62ee195e59f8870a5bd8459586895ff2c5b3ac79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7dfeb9905f2fa01b4dc9710814468b4cdce39f76",
+      "git:hexsha": "7dfeb9905f2fa01b4dc9710814468b4cdce39f76",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7c6af870c0f688c6ad736ec4bcdc38a05baa2a51",
+      "git:hexsha": "7c6af870c0f688c6ad736ec4bcdc38a05baa2a51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0be83862df3b42853d15748d0c6f168a04cf1b62",
+      "git:hexsha": "0be83862df3b42853d15748d0c6f168a04cf1b62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c18cd6d333d571c8d3639d986ca152626e956512",
+      "git:hexsha": "c18cd6d333d571c8d3639d986ca152626e956512",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2b865a9fa9696a2a6e2a033e0bd8ba362c130724",
+      "git:hexsha": "2b865a9fa9696a2a6e2a033e0bd8ba362c130724",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7414db41b3ab9c8ebe0a99df13521eb0f83081cb",
+      "git:hexsha": "7414db41b3ab9c8ebe0a99df13521eb0f83081cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b604e17bb2890a313b05fa30f42c7c7eec1e6173",
+      "git:hexsha": "b604e17bb2890a313b05fa30f42c7c7eec1e6173",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ae425e90903d09e2a69968e209fb2a1f975d7987",
+      "git:hexsha": "ae425e90903d09e2a69968e209fb2a1f975d7987",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7f0d7ec18ca1b7d49c1e90cae531de3b5af8f5e4",
+      "git:hexsha": "7f0d7ec18ca1b7d49c1e90cae531de3b5af8f5e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d0b53580629efda67e17ddd6e1b85ae80dcfbf12",
+      "git:hexsha": "d0b53580629efda67e17ddd6e1b85ae80dcfbf12",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/95ced57b9b484bc462cf501d45bde0678161bcca",
+      "git:hexsha": "95ced57b9b484bc462cf501d45bde0678161bcca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ae51f8daaad905a70481ba10716de156d9431208",
+      "git:hexsha": "ae51f8daaad905a70481ba10716de156d9431208",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7521c0f7e8bdd51f55a88326bc0aeae2d3793c2f",
+      "git:hexsha": "7521c0f7e8bdd51f55a88326bc0aeae2d3793c2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/16deb21c8e1da357906072d44c908f53e84b71c8",
+      "git:hexsha": "16deb21c8e1da357906072d44c908f53e84b71c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/67b0cd6ccb782a4bf6732b330f95d363f05789a5",
+      "git:hexsha": "67b0cd6ccb782a4bf6732b330f95d363f05789a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a3354ce19f238d20e2cdd8edf7c8e76c703b08b8",
+      "git:hexsha": "a3354ce19f238d20e2cdd8edf7c8e76c703b08b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f4773c7bb49517f3151631d4509bfeb10b5b7526",
+      "git:hexsha": "f4773c7bb49517f3151631d4509bfeb10b5b7526",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/78b7b56c2221a6b34a09eed0860dd5cace24f208",
+      "git:hexsha": "78b7b56c2221a6b34a09eed0860dd5cace24f208",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3e8d875ea7170fe10376676ec5d8277a7a4a43bd",
+      "git:hexsha": "3e8d875ea7170fe10376676ec5d8277a7a4a43bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6954eabaafdc52bb01a9a15644327bc33ffe2434",
+      "git:hexsha": "6954eabaafdc52bb01a9a15644327bc33ffe2434",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cf5b81033c8179707d54d560b9185fca458fe5e3",
+      "git:hexsha": "cf5b81033c8179707d54d560b9185fca458fe5e3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b397bd3d6a14320a46d52f8540fda4d34afe681d",
+      "git:hexsha": "b397bd3d6a14320a46d52f8540fda4d34afe681d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c6d4dd7bd6253329161c32cb81a424e85f943429",
+      "git:hexsha": "c6d4dd7bd6253329161c32cb81a424e85f943429",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2220ddd40dc3d835c0243c95c75346eda0438174",
+      "git:hexsha": "2220ddd40dc3d835c0243c95c75346eda0438174",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a6d6197f1d01140c3bf615abf8d85343508fa5fc",
+      "git:hexsha": "a6d6197f1d01140c3bf615abf8d85343508fa5fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/abd781f62405590365eadf113f3139396efe504c",
+      "git:hexsha": "abd781f62405590365eadf113f3139396efe504c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.35"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6a6ebf36e76807d6ab37a97e0e399298ad42b232",
+      "git:hexsha": "6a6ebf36e76807d6ab37a97e0e399298ad42b232",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/284a928d76d2eeaa5266734108f9d2497e09ba57",
+      "git:hexsha": "284a928d76d2eeaa5266734108f9d2497e09ba57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a4d8074d024236f9c2c18d562340772f3f3cff79",
+      "git:hexsha": "a4d8074d024236f9c2c18d562340772f3f3cff79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d4a01b11aef36d7a39c46e853a6fd68010171cf1",
+      "git:hexsha": "d4a01b11aef36d7a39c46e853a6fd68010171cf1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2b8874dc645e2a7537c6d640dfe7418bd5839ab3",
+      "git:hexsha": "2b8874dc645e2a7537c6d640dfe7418bd5839ab3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ba41e2c30f4aab1a97fad65fe9bbc3bea893cd9c",
+      "git:hexsha": "ba41e2c30f4aab1a97fad65fe9bbc3bea893cd9c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4e66a74dbabaa496bdbfe5c33abedb526457591d",
+      "git:hexsha": "4e66a74dbabaa496bdbfe5c33abedb526457591d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.0-rc.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/049d1fcc3ee4d9ebce4e65a0b5beb492bcb470de",
+      "git:hexsha": "049d1fcc3ee4d9ebce4e65a0b5beb492bcb470de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f6b9b0c907794821c92e6d3b72005d6c76314f94",
+      "git:hexsha": "f6b9b0c907794821c92e6d3b72005d6c76314f94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8fffd5b1e6c5b9272b18efa967c55a8bd78d0d9b",
+      "git:hexsha": "8fffd5b1e6c5b9272b18efa967c55a8bd78d0d9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.14.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/de0ff0fb8566382bd712f7efcff07fe4f520bace",
+      "git:hexsha": "de0ff0fb8566382bd712f7efcff07fe4f520bace",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/79b714c67de0b375b86083949b739af4f8ec2e4d",
+      "git:hexsha": "79b714c67de0b375b86083949b739af4f8ec2e4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b9e43c480d38f11fcc9d51e64db4a7283309ab78",
+      "git:hexsha": "b9e43c480d38f11fcc9d51e64db4a7283309ab78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cb2fc0bd92c9fdb495a1595677d5b0d172e13fe7",
+      "git:hexsha": "cb2fc0bd92c9fdb495a1595677d5b0d172e13fe7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/83f2e51530d07ff32022a8c774ef40e051f3f299",
+      "git:hexsha": "83f2e51530d07ff32022a8c774ef40e051f3f299",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/00f6fd1b7ca78cc138a0faa8e8cdbb5832719107",
+      "git:hexsha": "00f6fd1b7ca78cc138a0faa8e8cdbb5832719107",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/10f448e73d16462643bf784e0635651308363a68",
+      "git:hexsha": "10f448e73d16462643bf784e0635651308363a68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1524ac4f1c69becd486ba7e48eeda9141cc4010b",
+      "git:hexsha": "1524ac4f1c69becd486ba7e48eeda9141cc4010b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.6.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/41f8e00b7121997f3e0b32961ab7c5ccc9cc4bf4",
+      "git:hexsha": "41f8e00b7121997f3e0b32961ab7c5ccc9cc4bf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4ceb08a46d5eee25504257bf835ad56ed7becd9b",
+      "git:hexsha": "4ceb08a46d5eee25504257bf835ad56ed7becd9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7879c79ba14bddc3db9e0df2502916e9bc07cf57",
+      "git:hexsha": "7879c79ba14bddc3db9e0df2502916e9bc07cf57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2aac343217ed1a13faf1398f5af0b7cd7c8260d7",
+      "git:hexsha": "2aac343217ed1a13faf1398f5af0b7cd7c8260d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/47154b8bbde2daa98dce8760aa57ef9d54a82a7c",
+      "git:hexsha": "47154b8bbde2daa98dce8760aa57ef9d54a82a7c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bd58701c82cf88c344646f42e55f7580c03f6a91",
+      "git:hexsha": "bd58701c82cf88c344646f42e55f7580c03f6a91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d7cd86ee8137b4e81ce48b17ae11eeb12d62f5e8",
+      "git:hexsha": "d7cd86ee8137b4e81ce48b17ae11eeb12d62f5e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/fb84fc2528b8419d3b3cf29d93eb8a6217f1c141",
+      "git:hexsha": "fb84fc2528b8419d3b3cf29d93eb8a6217f1c141",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/651898bf1a4be9925806ba92fe5ddc9c5653cfdb",
+      "git:hexsha": "651898bf1a4be9925806ba92fe5ddc9c5653cfdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.8.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b302ba35d0c4ea226925471a1210535f58f0a931",
+      "git:hexsha": "b302ba35d0c4ea226925471a1210535f58f0a931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2cfbce4d38fd1c298fd21649872ccd52e4fa8d80",
+      "git:hexsha": "2cfbce4d38fd1c298fd21649872ccd52e4fa8d80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9680bf1ee743215da8e0f21c615cdbf043f19b34",
+      "git:hexsha": "9680bf1ee743215da8e0f21c615cdbf043f19b34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b96df693572a6834feaa86e1a0b27b25ba960017",
+      "git:hexsha": "b96df693572a6834feaa86e1a0b27b25ba960017",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/694610a55fac9b9d0f23cecae03dfed0d1831a8d",
+      "git:hexsha": "694610a55fac9b9d0f23cecae03dfed0d1831a8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/63fa88b92c70b9d1fb4571089553c05ee6caac57",
+      "git:hexsha": "63fa88b92c70b9d1fb4571089553c05ee6caac57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ecf3352b99d0c9563afa012b0c070881665eab6e",
+      "git:hexsha": "ecf3352b99d0c9563afa012b0c070881665eab6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bbded2b4450172573128e3576c6327bb1845b9a2",
+      "git:hexsha": "bbded2b4450172573128e3576c6327bb1845b9a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5d295451b120660672479dca8c6e92e816c9cea4",
+      "git:hexsha": "5d295451b120660672479dca8c6e92e816c9cea4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a99bc2a92710165837080ce6d2098b4647dcc288",
+      "git:hexsha": "a99bc2a92710165837080ce6d2098b4647dcc288",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/98a5266fb186ee8f138a448c24f90a9b2a8fe15d",
+      "git:hexsha": "98a5266fb186ee8f138a448c24f90a9b2a8fe15d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0a2611520fb8f40176db3281df09a5947c8282b5",
+      "git:hexsha": "0a2611520fb8f40176db3281df09a5947c8282b5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/025467eb13ea3988efb627e8d95d9b9bd1b7c80b",
+      "git:hexsha": "025467eb13ea3988efb627e8d95d9b9bd1b7c80b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve-v0.9.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b611df39d9c315566a1d1284a6d91d70af1eef33",
+      "git:hexsha": "b611df39d9c315566a1d1284a6d91d70af1eef33",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/196bee3f82b97d093cb0f5466003e068658fe591",
+      "git:hexsha": "196bee3f82b97d093cb0f5466003e068658fe591",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.12.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d22bd8d92f0dbc49fdba05195975caab959fad54",
+      "git:hexsha": "d22bd8d92f0dbc49fdba05195975caab959fad54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.13.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/db47e6fb4055e6de5f698dc561973197bf2b6b05",
+      "git:hexsha": "db47e6fb4055e6de5f698dc561973197bf2b6b05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.13.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ce02e9c7a7316c8942d306d2b02499118a03dd0c",
+      "git:hexsha": "ce02e9c7a7316c8942d306d2b02499118a03dd0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.13.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1164e44383c2517ce1ce35bf0331d681d4093362",
+      "git:hexsha": "1164e44383c2517ce1ce35bf0331d681d4093362",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.13.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d51c29328583dad5888d479142c3ec23d58c909e",
+      "git:hexsha": "d51c29328583dad5888d479142c3ec23d58c909e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "elliptic-curve/v0.14.0-rc.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/30042f0d889947e4a5a5f59192b1bdb8c2a6a0db",
+      "git:hexsha": "30042f0d889947e4a5a5f59192b1bdb8c2a6a0db",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kdf-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8711221b5045b95f16826fbe7208ec7482666e26",
+      "git:hexsha": "8711221b5045b95f16826fbe7208ec7482666e26",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kdf-v0.1.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4df5d995c9dbb3e76910c1eeae1fac50efa9b2e4",
+      "git:hexsha": "4df5d995c9dbb3e76910c1eeae1fac50efa9b2e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a89b4b3be3fa669e660932069640357c89f21173",
+      "git:hexsha": "a89b4b3be3fa669e660932069640357c89f21173",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/23118eab10a60fb31ee81785bd02dac7ccb12681",
+      "git:hexsha": "23118eab10a60fb31ee81785bd02dac7ccb12681",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/25e5654bb0775d255abd937e3b3320b982f13da1",
+      "git:hexsha": "25e5654bb0775d255abd937e3b3320b982f13da1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/83720f22d832a57b9d1c619998aaacc65b2610b9",
+      "git:hexsha": "83720f22d832a57b9d1c619998aaacc65b2610b9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d4d18189b95320a135a97c90801521c7a68a5510",
+      "git:hexsha": "d4d18189b95320a135a97c90801521c7a68a5510",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ea0bf1f76eb4764a02d24f67fa7a7495b8c1c37e",
+      "git:hexsha": "ea0bf1f76eb4764a02d24f67fa7a7495b8c1c37e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/fcd5baee94b81c7d2d329032b531ed6f619f5a9d",
+      "git:hexsha": "fcd5baee94b81c7d2d329032b531ed6f619f5a9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/11a4764233403a5d40ffbdd8c63c7d12d44fe3d0",
+      "git:hexsha": "11a4764233403a5d40ffbdd8c63c7d12d44fe3d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ccd4c3dec0a6d535c96bdef8680bd89a591c985f",
+      "git:hexsha": "ccd4c3dec0a6d535c96bdef8680bd89a591c985f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6a95ecca40d2471f362df0ddc637905cf1695377",
+      "git:hexsha": "6a95ecca40d2471f362df0ddc637905cf1695377",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.3.0-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/046afa0d2194e66e9f0c3c1184d7a0a56a2f4617",
+      "git:hexsha": "046afa0d2194e66e9f0c3c1184d7a0a56a2f4617",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/743ce89a0f5b2803a75c23b032cb445437bb45e8",
+      "git:hexsha": "743ce89a0f5b2803a75c23b032cb445437bb45e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c4813e207d5364df394bfc7117f6e8f947c5f3c3",
+      "git:hexsha": "c4813e207d5364df394bfc7117f6e8f947c5f3c3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a0dd565e4a74ea4386b907a6c21cc5890550c2b1",
+      "git:hexsha": "a0dd565e4a74ea4386b907a6c21cc5890550c2b1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5d95f9f1abc5918aa254ccc75e29f91c21540785",
+      "git:hexsha": "5d95f9f1abc5918aa254ccc75e29f91c21540785",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5aa4a85ec85233ddd923a1d4b0376c5e7c5e6b09",
+      "git:hexsha": "5aa4a85ec85233ddd923a1d4b0376c5e7c5e6b09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "kem-v0.4.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cb43f4b78fb8407f4c3bc603f5900e19bf83ae18",
+      "git:hexsha": "cb43f4b78fb8407f4c3bc603f5900e19bf83ae18",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e3588c1fc3a6529b908976a501ff41e85f17f5ec",
+      "git:hexsha": "e3588c1fc3a6529b908976a501ff41e85f17f5ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c333b9f6ab56a5d36985b2cddb7a94cdd7d3a476",
+      "git:hexsha": "c333b9f6ab56a5d36985b2cddb7a94cdd7d3a476",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b564f8be97f5edcbfc372cb50b1397204d885fc2",
+      "git:hexsha": "b564f8be97f5edcbfc372cb50b1397204d885fc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a0662579802db6fbe4a68caa1d1113917210209d",
+      "git:hexsha": "a0662579802db6fbe4a68caa1d1113917210209d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/de154ba549058b07c8bacae0027341c483067285",
+      "git:hexsha": "de154ba549058b07c8bacae0027341c483067285",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d8d3a5531f9495b0fa0b73ce4635c540d8b26202",
+      "git:hexsha": "d8d3a5531f9495b0fa0b73ce4635c540d8b26202",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.3.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/35c1b8fb51acb8790aeb961147c7b44af4259a15",
+      "git:hexsha": "35c1b8fb51acb8790aeb961147c7b44af4259a15",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3cd3e80d6bc4594532aa62873b36c1b3435caf10",
+      "git:hexsha": "3cd3e80d6bc4594532aa62873b36c1b3435caf10",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cfb132a906b99baf6324c16cf233170642df7b9f",
+      "git:hexsha": "cfb132a906b99baf6324c16cf233170642df7b9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2365eeb53d6d9bf7ed5253784fea9fb6fe7820ec",
+      "git:hexsha": "2365eeb53d6d9bf7ed5253784fea9fb6fe7820ec",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/fbd8291c624ae92211cb3866651fa3e5a83d46af",
+      "git:hexsha": "fbd8291c624ae92211cb3866651fa3e5a83d46af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5691d072503ce3df9b7d1296c5f5b30240f4c161",
+      "git:hexsha": "5691d072503ce3df9b7d1296c5f5b30240f4c161",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/da3fb4cc69e978867dbdc5b578c6ca1565a33cdb",
+      "git:hexsha": "da3fb4cc69e978867dbdc5b578c6ca1565a33cdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.5.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2975bae5d7224ede315ac70874cd1595ae0e6f8d",
+      "git:hexsha": "2975bae5d7224ede315ac70874cd1595ae0e6f8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.5.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/01b44a63246728af4318588c63233709c55f7106",
+      "git:hexsha": "01b44a63246728af4318588c63233709c55f7106",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/16f091dd13a2d7133010c28ff3ddcb4227da83a2",
+      "git:hexsha": "16f091dd13a2d7133010c28ff3ddcb4227da83a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/00945f0633c1ac48980a28a2aa92e639c8e0a523",
+      "git:hexsha": "00945f0633c1ac48980a28a2aa92e639c8e0a523",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4e0c383875b7905e64cfe22563d24ed3f8e40525",
+      "git:hexsha": "4e0c383875b7905e64cfe22563d24ed3f8e40525",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f57ec3becf0e573d0699fc592b5f925d20986364",
+      "git:hexsha": "f57ec3becf0e573d0699fc592b5f925d20986364",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7ad6094bb6af07d959deead90fde2e9d91b3a3c1",
+      "git:hexsha": "7ad6094bb6af07d959deead90fde2e9d91b3a3c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e7b9861c7890f21e830de96c244ffd253d807e34",
+      "git:hexsha": "e7b9861c7890f21e830de96c244ffd253d807e34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1cfd410eb623fb55473481e83e9a80bac2e8c547",
+      "git:hexsha": "1cfd410eb623fb55473481e83e9a80bac2e8c547",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7ecfdebf4beabb24db337a3ae7386d3b2f96bb02",
+      "git:hexsha": "7ecfdebf4beabb24db337a3ae7386d3b2f96bb02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/10ddeb0362aaee8f7a63d799e5bfe6f91ca2280e",
+      "git:hexsha": "10ddeb0362aaee8f7a63d799e5bfe6f91ca2280e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/49595a87ef38dffc1122c8d00447951fd1f0fc1f",
+      "git:hexsha": "49595a87ef38dffc1122c8d00447951fd1f0fc1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.0-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/d1954d88cbde6b6ee839d3a2f78e5b03fd4eaa1d",
+      "git:hexsha": "d1954d88cbde6b6ee839d3a2f78e5b03fd4eaa1d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/130e8c431f21a43a1de36fbace59f978705ef4a4",
+      "git:hexsha": "130e8c431f21a43a1de36fbace59f978705ef4a4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash/v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3058a55a19449eb408bffca0763c550f2a7b71b4",
+      "git:hexsha": "3058a55a19449eb408bffca0763c550f2a7b71b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash/v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7cf97d85c02eb21d895f930a2dae5c3f9c00a51b",
+      "git:hexsha": "7cf97d85c02eb21d895f930a2dae5c3f9c00a51b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash/v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9da51bafb0b7e56f96b44bd6b14b31d14a6a8baa",
+      "git:hexsha": "9da51bafb0b7e56f96b44bd6b14b31d14a6a8baa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash/v0.5.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0e4888ff35be0c0cd28ab57cbfad19893a60db14",
+      "git:hexsha": "0e4888ff35be0c0cd28ab57cbfad19893a60db14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "password-hash/v0.6.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/74e5e12e53e08af06f4e4247c9f74645b3c2b801",
+      "git:hexsha": "74e5e12e53e08af06f4e4247c9f74645b3c2b801",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v3.0.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/21da02e25896f27e2be681cb744c350050c2e7c6",
+      "git:hexsha": "21da02e25896f27e2be681cb744c350050c2e7c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-derive-v1.0.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/96b2eb05f10523a9b6acf03aaf7bac4bccccdb8e",
+      "git:hexsha": "96b2eb05f10523a9b6acf03aaf7bac4bccccdb8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-derive-v1.0.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/01f587322b068b7e47ee62ed3769ee3a6dda5dc1",
+      "git:hexsha": "01f587322b068b7e47ee62ed3769ee3a6dda5dc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/85d277020b191d23360eeca314dfda8bcd640f94",
+      "git:hexsha": "85d277020b191d23360eeca314dfda8bcd640f94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.0.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6f1bf443cb19fc12a02877ed569aff5daec63047",
+      "git:hexsha": "6f1bf443cb19fc12a02877ed569aff5daec63047",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.0.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3024084db6d7e5c336bcef6fc8f17ef8d1d04a0f",
+      "git:hexsha": "3024084db6d7e5c336bcef6fc8f17ef8d1d04a0f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.0.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/44175e14c62a87e8decb1e3ed0055726c2a42025",
+      "git:hexsha": "44175e14c62a87e8decb1e3ed0055726c2a42025",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.0.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a0d7684a0e55af1076e4ac394c50bc5db4f1f519",
+      "git:hexsha": "a0d7684a0e55af1076e4ac394c50bc5db4f1f519",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/82aa8770edfc225e93be0af070b819c3f8305b4c",
+      "git:hexsha": "82aa8770edfc225e93be0af070b819c3f8305b4c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/564534aa98100fe9fe04b79baa42733e23a603ee",
+      "git:hexsha": "564534aa98100fe9fe04b79baa42733e23a603ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cb1fdb7ca135d02f9cadf819e036e95d024248f2",
+      "git:hexsha": "cb1fdb7ca135d02f9cadf819e036e95d024248f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/06f105843d8f90d0bb0301762f79b73519acbc3c",
+      "git:hexsha": "06f105843d8f90d0bb0301762f79b73519acbc3c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/404c5b453ad77618b7484c4e17504fbe339c36f2",
+      "git:hexsha": "404c5b453ad77618b7484c4e17504fbe339c36f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/37717c1e76aa1bbc4fedda65cdef98fc759f232f",
+      "git:hexsha": "37717c1e76aa1bbc4fedda65cdef98fc759f232f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/aacc4a94f0c18c30645209b5d84355d2973ee6cf",
+      "git:hexsha": "aacc4a94f0c18c30645209b5d84355d2973ee6cf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/19e250bfa1aac42e14ec826aa900f40b0d9cb083",
+      "git:hexsha": "19e250bfa1aac42e14ec826aa900f40b0d9cb083",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/fc0e7b8fffdd98e71bae4649f4b2b4e6c7c07cd8",
+      "git:hexsha": "fc0e7b8fffdd98e71bae4649f4b2b4e6c7c07cd8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/fb8a1f5d9e9f7d5cb5abe6e3581962f5ac25c9b6",
+      "git:hexsha": "fb8a1f5d9e9f7d5cb5abe6e3581962f5ac25c9b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v1.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/796894fd5485efaaad20eb1ecd01821b330c09e5",
+      "git:hexsha": "796894fd5485efaaad20eb1ecd01821b330c09e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive-v2.0.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3d23e551722fe78de677bb54ffe95f508567db6c",
+      "git:hexsha": "3d23e551722fe78de677bb54ffe95f508567db6c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.0.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cb756ec2caef13319410355b8aec3371e8d68489",
+      "git:hexsha": "cb756ec2caef13319410355b8aec3371e8d68489",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.0.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/dff18e2311578ae056b8c1901f55146c81413dcf",
+      "git:hexsha": "dff18e2311578ae056b8c1901f55146c81413dcf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.0.0-pre.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4fca56364dcc74c8f1b21178592d38209f167381",
+      "git:hexsha": "4fca56364dcc74c8f1b21178592d38209f167381",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.0.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1d04c33c820ecc58bd7f13f898038515e3e323cc",
+      "git:hexsha": "1d04c33c820ecc58bd7f13f898038515e3e323cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/1ffc7d9125b41255629b3dcfb436e457cfe660f8",
+      "git:hexsha": "1ffc7d9125b41255629b3dcfb436e457cfe660f8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/be7598fa15d5a64aef12290cef3cada5913d3896",
+      "git:hexsha": "be7598fa15d5a64aef12290cef3cada5913d3896",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4f4ca9dac72d1b1eccbe6a5fd0440925008d74e8",
+      "git:hexsha": "4f4ca9dac72d1b1eccbe6a5fd0440925008d74e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.3.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/666d443a3beac63b1168336cae6a638468852466",
+      "git:hexsha": "666d443a3beac63b1168336cae6a638468852466",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.3.0-pre.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/41fa95fde4953ffb2bc4af1ab9c7dd9151d83cb7",
+      "git:hexsha": "41fa95fde4953ffb2bc4af1ab9c7dd9151d83cb7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v2.3.0-pre.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/9488e7ea66763b5cbdc7a4814a96421e0114dc97",
+      "git:hexsha": "9488e7ea66763b5cbdc7a4814a96421e0114dc97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/faf3f65bd129e6ec881f841cfb47c6a852232561",
+      "git:hexsha": "faf3f65bd129e6ec881f841cfb47c6a852232561",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v3.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/100740196b779cdc5c2dfb4dc1a3c939e4101cd0",
+      "git:hexsha": "100740196b779cdc5c2dfb4dc1a3c939e4101cd0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v3.0.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/f2bf913b63d46a3d1b463353bd44af990845b1ea",
+      "git:hexsha": "f2bf913b63d46a3d1b463353bd44af990845b1ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v3.0.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/75ed5ba2c218b4aaea7e268c9b1067ff55ab9993",
+      "git:hexsha": "75ed5ba2c218b4aaea7e268c9b1067ff55ab9993",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature-v3.0.0-rc.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/805d43233faff778c2cac0305c89cbf2ba06070d",
+      "git:hexsha": "805d43233faff778c2cac0305c89cbf2ba06070d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature/v1.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/03e7beef5188b58b1730ea0532fe3ba01846cd44",
+      "git:hexsha": "03e7beef5188b58b1730ea0532fe3ba01846cd44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature/v1.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b38115e3a123219648ac682e0c0aabab36238c89",
+      "git:hexsha": "b38115e3a123219648ac682e0c0aabab36238c89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature/v1.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/115d2316ff1ffda1e7a15ad367b2c0e4d09960fc",
+      "git:hexsha": "115d2316ff1ffda1e7a15ad367b2c0e4d09960fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive/v2.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0c41df9a50721fa426ff8c86514672e44ac404d5",
+      "git:hexsha": "0c41df9a50721fa426ff8c86514672e44ac404d5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature/v2.3.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5417c7f9321e3df2e1f024854fc715dad10d9cee",
+      "git:hexsha": "5417c7f9321e3df2e1f024854fc715dad10d9cee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature/v2.3.0-pre.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/741eb2795723c58fddb29b3f96ae1c3e8d24b55e",
+      "git:hexsha": "741eb2795723c58fddb29b3f96ae1c3e8d24b55e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive-v1.0.0-pre.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/a1125eecf69556b1734387dab15ec37389165a8a",
+      "git:hexsha": "a1125eecf69556b1734387dab15ec37389165a8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive-v1.0.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/17f2b5a62863fe6b82ee4c87a5dc54c90c033365",
+      "git:hexsha": "17f2b5a62863fe6b82ee4c87a5dc54c90c033365",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive-v1.0.0-pre.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7da098c42ea4a08064ca2411a33579bf2cc9e642",
+      "git:hexsha": "7da098c42ea4a08064ca2411a33579bf2cc9e642",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive-v2.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c2a8466861381a4a1b5911cefa54c705bb752027",
+      "git:hexsha": "c2a8466861381a4a1b5911cefa54c705bb752027",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive-v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5d8051595e5efe322f436fec769806f8ea58f180",
+      "git:hexsha": "5d8051595e5efe322f436fec769806f8ea58f180",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive/v1.0.0-pre.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/c7eb99fc75b9d230a6696b3a290f64b83dbc8856",
+      "git:hexsha": "c7eb99fc75b9d230a6696b3a290f64b83dbc8856",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "signature_derive/v1.0.0-pre.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/2b45e6deb04aeedf4dc4ed7ccc61679ec82e65ed",
+      "git:hexsha": "2b45e6deb04aeedf4dc4ed7ccc61679ec82e65ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/886fb4182253065ecf53d88d9add82a2053260da",
+      "git:hexsha": "886fb4182253065ecf53d88d9add82a2053260da",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/703e348336ba7d8f000a41e6fe370e7a776406d6",
+      "git:hexsha": "703e348336ba7d8f000a41e6fe370e7a776406d6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/caca608391946da7acaa8f780c0959becea72294",
+      "git:hexsha": "caca608391946da7acaa8f780c0959becea72294",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/bc79ccb48b97aa1c7ea1b442763be126900094ae",
+      "git:hexsha": "bc79ccb48b97aa1c7ea1b442763be126900094ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8e7258034e715348938924a471c58c93d325281b",
+      "git:hexsha": "8e7258034e715348938924a471c58c93d325281b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/4765384e8c18f69d46af9c06b5890f21aaa1778c",
+      "git:hexsha": "4765384e8c18f69d46af9c06b5890f21aaa1778c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.3.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0401c1645df007c8d53715097886ff164cd9dfdc",
+      "git:hexsha": "0401c1645df007c8d53715097886ff164cd9dfdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/ef11420e950b847524d549991efb09af2d908931",
+      "git:hexsha": "ef11420e950b847524d549991efb09af2d908931",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/8d39a09a7369e4ea5194c41a2537bcb56901d95b",
+      "git:hexsha": "8d39a09a7369e4ea5194c41a2537bcb56901d95b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/eb93343b4ef3e3213bb5cfc284a71af8887f396c",
+      "git:hexsha": "eb93343b4ef3e3213bb5cfc284a71af8887f396c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7ce3653b6b73c46cf83f473d1cf4302be369d35c",
+      "git:hexsha": "7ce3653b6b73c46cf83f473d1cf4302be369d35c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/cdd3492381661b5d3592f98e3e2b936eec09ba00",
+      "git:hexsha": "cdd3492381661b5d3592f98e3e2b936eec09ba00",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "stream-cipher-v0.8.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0cab63f2f308fa7310e7341fd7682b90627ac802",
+      "git:hexsha": "0cab63f2f308fa7310e7341fd7682b90627ac802",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3f737643193001a5fa321768cf930396c8d64b8c",
+      "git:hexsha": "3f737643193001a5fa321768cf930396c8d64b8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5b012e4b0637d7bbe21b30a816df5db033ba1179",
+      "git:hexsha": "5b012e4b0637d7bbe21b30a816df5db033ba1179",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6b1c9571658122c27e11c6b8a24f20a661e97d1f",
+      "git:hexsha": "6b1c9571658122c27e11c6b8a24f20a661e97d1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/398d6d258ba6175d41785482e0f693b2fa56248b",
+      "git:hexsha": "398d6d258ba6175d41785482e0f693b2fa56248b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7eb501d53e0acb552ae16d75572bf659871e14b2",
+      "git:hexsha": "7eb501d53e0acb552ae16d75572bf659871e14b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.5.0-pre"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/e1959bd709e994f02b74700f095dff42bae4b047",
+      "git:hexsha": "e1959bd709e994f02b74700f095dff42bae4b047",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.5.0-pre.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/86e7b149141484d14bc2aab97c6227c72fc9d8c1",
+      "git:hexsha": "86e7b149141484d14bc2aab97c6227c72fc9d8c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/b97b79f5af0f4b3157b51478754416a211780f6d",
+      "git:hexsha": "b97b79f5af0f4b3157b51478754416a211780f6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/7f4f84b9b2a6e9da7275ee7064f5701c244f7cfc",
+      "git:hexsha": "7f4f84b9b2a6e9da7275ee7064f5701c244f7cfc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-pre.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/47e01e39a9a962b9b726fcba01aead34dbee12f0",
+      "git:hexsha": "47e01e39a9a962b9b726fcba01aead34dbee12f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/6babfcbca018856282c4ee7f5dd211e70d916018",
+      "git:hexsha": "6babfcbca018856282c4ee7f5dd211e70d916018",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/3f5fb163636d59f9aad45eacfe9ef4f5d329dc01",
+      "git:hexsha": "3f5fb163636d59f9aad45eacfe9ef4f5d329dc01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/5b2a4b9ad53f0bf7239fe11a4d20bb573d191e57",
+      "git:hexsha": "5b2a4b9ad53f0bf7239fe11a4d20bb573d191e57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash-v0.6.0-rc.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/RustCrypto/traits/commit/0904bed0e85f798bea4f1a61437ec55e4f089865",
+      "git:hexsha": "0904bed0e85f798bea4f1a61437ec55e4f089865",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "universal-hash/v0.5.0-pre.1"
+    }
+  ]
+}
