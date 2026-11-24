@@ -1,0 +1,957 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/huggingface/tokenizers",
+  "@type": "gh:Repository",
+  "gh:name": "tokenizers",
+  "gh:owner": "huggingface",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/524818fd09524cb4330322a7b9d22db8a9352362",
+      "git:hexsha": "524818fd09524cb4330322a7b9d22db8a9352362",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "v0.13.4.rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/3e0488af5bb8c0295af4a1187d9d65f31ec94871",
+      "git:hexsha": "3e0488af5bb8c0295af4a1187d9d65f31ec94871",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/pre-squash-3e0488af"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e8a3b40d2a9b682de45cee374b424049b1dd8857",
+      "git:hexsha": "e8a3b40d2a9b682de45cee374b424049b1dd8857",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "backup/train_encode_split"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c2b33f8e16dac92ac530bf3ebd8d6c60ab7607c4",
+      "git:hexsha": "c2b33f8e16dac92ac530bf3ebd8d6c60ab7607c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-0.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/23a22da18c326f5032862613dc42a981c87f0d02",
+      "git:hexsha": "23a22da18c326f5032862613dc42a981c87f0d02",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/7c146d9ce5a428600dc63e6dc2db4972ec430191",
+      "git:hexsha": "7c146d9ce5a428600dc63e6dc2db4972ec430191",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/fb6abac5bd49710a41be789429b4ef1249e1419f",
+      "git:hexsha": "fb6abac5bd49710a41be789429b4ef1249e1419f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b8a4aa6000cd16a84a7b73bf02beb94a39808409",
+      "git:hexsha": "b8a4aa6000cd16a84a7b73bf02beb94a39808409",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/37372b67fac56fa5e2b7697d7d4c2966280ddbfd",
+      "git:hexsha": "37372b67fac56fa5e2b7697d7d4c2966280ddbfd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/25546d00c6217066ac879cda91f66647d19b9395",
+      "git:hexsha": "25546d00c6217066ac879cda91f66647d19b9395",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a779714a9e565061a68d9fa4eb2764751a27fb89",
+      "git:hexsha": "a779714a9e565061a68d9fa4eb2764751a27fb89",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/6b6137ab204ecdfe9330dda8cbe759a84f4c3bdf",
+      "git:hexsha": "6b6137ab204ecdfe9330dda8cbe759a84f4c3bdf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/698d267a5ae94eb1dba6e2983dbd32d7a15ceb64",
+      "git:hexsha": "698d267a5ae94eb1dba6e2983dbd32d7a15ceb64",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/88391dd18501ee672bee155a15f16632f2e0ae57",
+      "git:hexsha": "88391dd18501ee672bee155a15f16632f2e0ae57",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/3df188dc278c470ebafd7e3900b8ade4e160a60b",
+      "git:hexsha": "3df188dc278c470ebafd7e3900b8ade4e160a60b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/5e612669bbbad431a400c294b54b3ad6eb5e3f82",
+      "git:hexsha": "5e612669bbbad431a400c294b54b3ad6eb5e3f82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/bb6efeb04fbc397183d533485a37fa8c2248b464",
+      "git:hexsha": "bb6efeb04fbc397183d533485a37fa8c2248b464",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/bb920af9e8f13861968bf00680850aca34729430",
+      "git:hexsha": "bb920af9e8f13861968bf00680850aca34729430",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/cca20f491298df03110ba6fb7537fc91eb9ff168",
+      "git:hexsha": "cca20f491298df03110ba6fb7537fc91eb9ff168",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c164baf539a33226ec903b466dfb5a496c1d859d",
+      "git:hexsha": "c164baf539a33226ec903b466dfb5a496c1d859d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/9294db78a4ca43f75e4694a67254d8c5a20267e8",
+      "git:hexsha": "9294db78a4ca43f75e4694a67254d8c5a20267e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/fd316bdc61d7a7f3cec0ced2154baace81620c1f",
+      "git:hexsha": "fd316bdc61d7a7f3cec0ced2154baace81620c1f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a4cf53f6a70f5c29fe3f4df318e31aa94480b908",
+      "git:hexsha": "a4cf53f6a70f5c29fe3f4df318e31aa94480b908",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a8e07d734fd7b18a5d5e7ffc8315a971898cd234",
+      "git:hexsha": "a8e07d734fd7b18a5d5e7ffc8315a971898cd234",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/1d29a5179cdad38f3340216087605791124b2f17",
+      "git:hexsha": "1d29a5179cdad38f3340216087605791124b2f17",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "node-v0.8.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/7c158895163b27aec34f2bf0d267adf7c77a5071",
+      "git:hexsha": "7c158895163b27aec34f2bf0d267adf7c77a5071",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "pipeline-baseline"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b7e2fce8eefbc3c7c34018d4f9db096e23abd45f",
+      "git:hexsha": "b7e2fce8eefbc3c7c34018d4f9db096e23abd45f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "pr4-before-restack"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/719bea76b92a34ee03dc024315922c50a3a9ea40",
+      "git:hexsha": "719bea76b92a34ee03dc024315922c50a3a9ea40",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/6201258a0e7e418eeda63876a5c27f1c18d5eb3e",
+      "git:hexsha": "6201258a0e7e418eeda63876a5c27f1c18d5eb3e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/bc8bbf637ad5a936e141570dfe583f3e62e32a94",
+      "git:hexsha": "bc8bbf637ad5a936e141570dfe583f3e62e32a94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/d96442cbe8b2a5b1a01b0e18c864e596dc76fab9",
+      "git:hexsha": "d96442cbe8b2a5b1a01b0e18c864e596dc76fab9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/32b3b7a0f2d698130724156cfc744aa6084fbec0",
+      "git:hexsha": "32b3b7a0f2d698130724156cfc744aa6084fbec0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/755e5f5c1e5b955fd41b72635701ffb60cb0d726",
+      "git:hexsha": "755e5f5c1e5b955fd41b72635701ffb60cb0d726",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.10.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/38a85b21124f404b7003970c6c34039749efbca8",
+      "git:hexsha": "38a85b21124f404b7003970c6c34039749efbca8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/7069988ffeb376ff3deb36800b4da3d4aa4e5cb4",
+      "git:hexsha": "7069988ffeb376ff3deb36800b4da3d4aa4e5cb4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/8e0d66a25421ffff20a384c65a95fe99a7b5582c",
+      "git:hexsha": "8e0d66a25421ffff20a384c65a95fe99a7b5582c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/2c9d039ed02d8c37d587c36183832b19eea12196",
+      "git:hexsha": "2c9d039ed02d8c37d587c36183832b19eea12196",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/2fecdc10dd2792a2f033a27e510ac828c744d619",
+      "git:hexsha": "2fecdc10dd2792a2f033a27e510ac828c744d619",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/ffaee13994e4c1e8bedb8985b567ba510010edeb",
+      "git:hexsha": "ffaee13994e4c1e8bedb8985b567ba510010edeb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.11.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/0eb7455fe5278460620639fc7421880dc1bb27bd",
+      "git:hexsha": "0eb7455fe5278460620639fc7421880dc1bb27bd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/8a9bb28f4667b63f94ed96a3c3672f5db226de4d",
+      "git:hexsha": "8a9bb28f4667b63f94ed96a3c3672f5db226de4d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.12.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/63082c4d118a8bb0a997fea010723ddc04e0bdb1",
+      "git:hexsha": "63082c4d118a8bb0a997fea010723ddc04e0bdb1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a05be6b8d1a4c353e66d49c6a1a91227e0be58de",
+      "git:hexsha": "a05be6b8d1a4c353e66d49c6a1a91227e0be58de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.13.3rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/da7e629e4a49a11e373e22244902be0b3cc587d9",
+      "git:hexsha": "da7e629e4a49a11e373e22244902be0b3cc587d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/0105021280d221e33bf1d25f0f16af93fa76970b",
+      "git:hexsha": "0105021280d221e33bf1d25f0f16af93fa76970b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/9745786b89fa76280d47fa05f457de653c2db7d7",
+      "git:hexsha": "9745786b89fa76280d47fa05f457de653c2db7d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/3c0164ef754043c1f0e89103c4477ed850977036",
+      "git:hexsha": "3c0164ef754043c1f0e89103c4477ed850977036",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c1ddfdac8cc1f12049edcc8d7fb9b66f2fe2c062",
+      "git:hexsha": "c1ddfdac8cc1f12049edcc8d7fb9b66f2fe2c062",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/bbbd97c7e197d1fc9db0818af5b0e118a313dcd7",
+      "git:hexsha": "bbbd97c7e197d1fc9db0818af5b0e118a313dcd7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/11dd6c8baef9ae2b836d594215f14a208dbacfb2",
+      "git:hexsha": "11dd6c8baef9ae2b836d594215f14a208dbacfb2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/be08d9574ca61ceb114b7e1fcecb7b936785b2bf",
+      "git:hexsha": "be08d9574ca61ceb114b7e1fcecb7b936785b2bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/440e8e9bd9ebc00252619cd354f8dca28eff5b5e",
+      "git:hexsha": "440e8e9bd9ebc00252619cd354f8dca28eff5b5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.5.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/afe96da7e33aef6c8c4f39aa3672910d0a0ebe6e",
+      "git:hexsha": "afe96da7e33aef6c8c4f39aa3672910d0a0ebe6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/670f619ab52c675e92f1fcd3eb7420fe67312f22",
+      "git:hexsha": "670f619ab52c675e92f1fcd3eb7420fe67312f22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b132be34af618ce94b25be2c4b6d669281833ac4",
+      "git:hexsha": "b132be34af618ce94b25be2c4b6d669281833ac4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e8aec7a624b7b4814af169828143477c67f359a8",
+      "git:hexsha": "e8aec7a624b7b4814af169828143477c67f359a8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/93a83127ae1423b56fe6c0d35b60100c7850c002",
+      "git:hexsha": "93a83127ae1423b56fe6c0d35b60100c7850c002",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e7949fcb84b6d2addad8d47dfc51e38a4dd591f0",
+      "git:hexsha": "e7949fcb84b6d2addad8d47dfc51e38a4dd591f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/09104afd07deee2ba85fa83d251f823709ad8dfa",
+      "git:hexsha": "09104afd07deee2ba85fa83d251f823709ad8dfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc5"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/bdfb02f4733dd0d1387ad13345db75a63faa0075",
+      "git:hexsha": "bdfb02f4733dd0d1387ad13345db75a63faa0075",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc6"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/3312ad75d99fd3eacce2e11cd61c969890addb8e",
+      "git:hexsha": "3312ad75d99fd3eacce2e11cd61c969890addb8e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.7.0-rc7"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/6349ca51b360cff0c4b2c6d489e61eaf53259a5f",
+      "git:hexsha": "6349ca51b360cff0c4b2c6d489e61eaf53259a5f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/f8f5cafccd295e8e1f6d665ff3eaffc3397a4d7f",
+      "git:hexsha": "f8f5cafccd295e8e1f6d665ff3eaffc3397a4d7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-dev"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/171c6500ecfc25b0ba545bab58974c7be84f728b",
+      "git:hexsha": "171c6500ecfc25b0ba545bab58974c7be84f728b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/d00ac60162211dd0044ad1214325de75b5a58711",
+      "git:hexsha": "d00ac60162211dd0044ad1214325de75b5a58711",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/fb964adfdbdafcd9bac2bc524a7d7ca7399c4e78",
+      "git:hexsha": "fb964adfdbdafcd9bac2bc524a7d7ca7399c4e78",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a14cd7b21918730b92879a7cac3d6e1541732764",
+      "git:hexsha": "a14cd7b21918730b92879a7cac3d6e1541732764",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/74d812d40180032d2dbb6ca59e2e10f0257ef46b",
+      "git:hexsha": "74d812d40180032d2dbb6ca59e2e10f0257ef46b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-rc3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/8ae19821494be9bba9e6529b1d03a205671979b6",
+      "git:hexsha": "8ae19821494be9bba9e6529b1d03a205671979b6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.0-transformers"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/da0a5172ef14a94c0ad0ef47600305e471a87efd",
+      "git:hexsha": "da0a5172ef14a94c0ad0ef47600305e471a87efd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/5be375eaea58d1e4274e37c63470bffee48ff2c2",
+      "git:hexsha": "5be375eaea58d1e4274e37c63470bffee48ff2c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.1.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/157feed9a55926b894bc65213fffcbf57b3229ba",
+      "git:hexsha": "157feed9a55926b894bc65213fffcbf57b3229ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.8.1.rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/3bb794681cc9308bbde47421d124c9265588b21c",
+      "git:hexsha": "3bb794681cc9308bbde47421d124c9265588b21c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c036cd4ced8a71892f39fa485ad370272989fcb6",
+      "git:hexsha": "c036cd4ced8a71892f39fa485ad370272989fcb6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.dev0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e4defa9c18c4167a68adfe6c9fed93d4320afc2a",
+      "git:hexsha": "e4defa9c18c4167a68adfe6c9fed93d4320afc2a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/87c4c457ce5287ea9502b4f9c3d14ba9fb80d7f9",
+      "git:hexsha": "87c4c457ce5287ea9502b4f9c3d14ba9fb80d7f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.dev2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c96ecfc093c4dbe656fa811f95f5adfd02069e14",
+      "git:hexsha": "c96ecfc093c4dbe656fa811f95f5adfd02069e14",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.dev3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/171a042ee00f9e63f04aa1482ef46235c1e4131b",
+      "git:hexsha": "171a042ee00f9e63f04aa1482ef46235c1e4131b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.dev4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/aebf510c5a4257edf60232c80c2fe06052b82965",
+      "git:hexsha": "aebf510c5a4257edf60232c80c2fe06052b82965",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/dd9fda5d0529a230e4e4c114368b2c5f238d2cf4",
+      "git:hexsha": "dd9fda5d0529a230e4e4c114368b2c5f238d2cf4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.0.rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/f94a2747029c564bbc2b07c6bbddb9dded0eec28",
+      "git:hexsha": "f94a2747029c564bbc2b07c6bbddb9dded0eec28",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/91f602f744f7fee72f2f5fa8d6c7c48bb1d72d3b",
+      "git:hexsha": "91f602f744f7fee72f2f5fa8d6c7c48bb1d72d3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/2364d376f7c1ccfe14389d71a1308e40635c0af3",
+      "git:hexsha": "2364d376f7c1ccfe14389d71a1308e40635c0af3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b122737ec60403bbd99e1c07e9488f911243ab8f",
+      "git:hexsha": "b122737ec60403bbd99e1c07e9488f911243ab8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "python-v0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e946c4253413fc4f08c2b797448c9821bd7c4e3b",
+      "git:hexsha": "e946c4253413fc4f08c2b797448c9821bd7c4e3b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rust-v0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/af66d6fc6f14153b21fbccd1774e00adfa05742a",
+      "git:hexsha": "af66d6fc6f14153b21fbccd1774e00adfa05742a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rust-v0.10.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/9256ec65b120cc11da180262e950a997abe23307",
+      "git:hexsha": "9256ec65b120cc11da180262e950a997abe23307",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rust-v0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/ab12a7fbacfc026bf62363a6449bad2bdfdf3796",
+      "git:hexsha": "ab12a7fbacfc026bf62363a6449bad2bdfdf3796",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rust-v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/ffd28ba55866167c903e16ba00233c8b2edb8e50",
+      "git:hexsha": "ffd28ba55866167c903e16ba00233c8b2edb8e50",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/839239d3b477ef05449f8354fb2da892ba5923d7",
+      "git:hexsha": "839239d3b477ef05449f8354fb2da892ba5923d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b06681cb1ee643eb1ce8f31a6d3599e6263c9a8a",
+      "git:hexsha": "b06681cb1ee643eb1ce8f31a6d3599e6263c9a8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/988159a9988fd3d2d26f29b93fb99a6e92cf5e7f",
+      "git:hexsha": "988159a9988fd3d2d26f29b93fb99a6e92cf5e7f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c4bda752bd16e8a4780df94aac1a98d9d515282e",
+      "git:hexsha": "c4bda752bd16e8a4780df94aac1a98d9d515282e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/7cb2fe2ea0b36e6a9ba74ed863865fa02b7d1f87",
+      "git:hexsha": "7cb2fe2ea0b36e6a9ba74ed863865fa02b7d1f87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/ee883c3fc71bac86b0c9f63758cab387bfebc2fd",
+      "git:hexsha": "ee883c3fc71bac86b0c9f63758cab387bfebc2fd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/08eb163415b0a3e8a77853a3bf41c479db749c62",
+      "git:hexsha": "08eb163415b0a3e8a77853a3bf41c479db749c62",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/9763282d59c53d20cb4be5e8c92b9478f02f8757",
+      "git:hexsha": "9763282d59c53d20cb4be5e8c92b9478f02f8757",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/2266960ef7378b50e196b130a51730721e6ba3a6",
+      "git:hexsha": "2266960ef7378b50e196b130a51730721e6ba3a6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/fab1d4cabc478eebb9fb96aded91fe50ae7cb3f0",
+      "git:hexsha": "fab1d4cabc478eebb9fb96aded91fe50ae7cb3f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/dd569020c1c3b4942c181945fe4a6abeab95209f",
+      "git:hexsha": "dd569020c1c3b4942c181945fe4a6abeab95209f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/fc9e81d4ab50f62d72d0db381465600105940743",
+      "git:hexsha": "fc9e81d4ab50f62d72d0db381465600105940743",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/03e10b606d948b76c151f082b8a9f183b28e6a11",
+      "git:hexsha": "03e10b606d948b76c151f082b8a9f183b28e6a11",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.11.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b58227c7f1ccf8b73ee2268354336da56d91e492",
+      "git:hexsha": "b58227c7f1ccf8b73ee2268354336da56d91e492",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.4-rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b4fcc9ce6e4ad5806e82826f816acfdfdc4fcc67",
+      "git:hexsha": "b4fcc9ce6e4ad5806e82826f816acfdfdc4fcc67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.4-rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b35d33f9814d5be14a8f02a477816e9655a41e9e",
+      "git:hexsha": "b35d33f9814d5be14a8f02a477816e9655a41e9e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.4.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/9a93c50c25c1e0b73a85584f327113bcbef5ac80",
+      "git:hexsha": "9a93c50c25c1e0b73a85584f327113bcbef5ac80",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.13.4.rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/9a79cb8cfc8c5d3b1727ebce9859ddfa76273ab4",
+      "git:hexsha": "9a79cb8cfc8c5d3b1727ebce9859ddfa76273ab4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/61a28c162c10ef2598c4a3118b1b53725925116a",
+      "git:hexsha": "61a28c162c10ef2598c4a3118b1b53725925116a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.0.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/6357206cdcce4d78ffb1e0372feb456caea09375",
+      "git:hexsha": "6357206cdcce4d78ffb1e0372feb456caea09375",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e2368c48eee0a23d2cde2011a939e54b3116d108",
+      "git:hexsha": "e2368c48eee0a23d2cde2011a939e54b3116d108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.14.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/41c4864bd2f216b648dbbda27ad49347ab424a49",
+      "git:hexsha": "41c4864bd2f216b648dbbda27ad49347ab424a49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/1e2dea3a8583cd0119c8c8944c65638d122584df",
+      "git:hexsha": "1e2dea3a8583cd0119c8c8944c65638d122584df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1.rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/d38be16fbd8cf9f6372a96e9b0b8559dd54c00fb",
+      "git:hexsha": "d38be16fbd8cf9f6372a96e9b0b8559dd54c00fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/888dd4bc653ecd497c483b750cb3fe36e1156459",
+      "git:hexsha": "888dd4bc653ecd497c483b750cb3fe36e1156459",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/701a73b869602b5639589d197e805349cdba3223",
+      "git:hexsha": "701a73b869602b5639589d197e805349cdba3223",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/f11fd7af3fe3554509ac37bb15730e61aed61e39",
+      "git:hexsha": "f11fd7af3fe3554509ac37bb15730e61aed61e39",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.15.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/c13bf944a13dfa6c67df19d00360259c646db10b",
+      "git:hexsha": "c13bf944a13dfa6c67df19d00360259c646db10b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.16.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e59020d642b48148516090c04abe9545510e28b3",
+      "git:hexsha": "e59020d642b48148516090c04abe9545510e28b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/36846e878f101b080d25512e2e02416a5751098d",
+      "git:hexsha": "36846e878f101b080d25512e2e02416a5751098d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/3b3c9604f951850be398e45e4a569242fb2319c1",
+      "git:hexsha": "3b3c9604f951850be398e45e4a569242fb2319c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/da307684adb81fe5ed7d340d139d669aeb3ca1ba",
+      "git:hexsha": "da307684adb81fe5ed7d340d139d669aeb3ca1ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.19.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a5adaace3d6188d2ea22f76675af837ccfb2af3a",
+      "git:hexsha": "a5adaace3d6188d2ea22f76675af837ccfb2af3a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a8def0739f5301e847614ad65947c05ed34cd9a5",
+      "git:hexsha": "a8def0739f5301e847614ad65947c05ed34cd9a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.0rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/d98298a2c20ab58df5bb7ea57cfe73f83186c2a5",
+      "git:hexsha": "d98298a2c20ab58df5bb7ea57cfe73f83186c2a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/de305f21709a6bc1fc5664a370f1380e09315ff9",
+      "git:hexsha": "de305f21709a6bc1fc5664a370f1380e09315ff9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.1rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/caa650512c7e80d6631668d034c9aef645df5544",
+      "git:hexsha": "caa650512c7e80d6631668d034c9aef645df5544",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/5266b42a3db4e687c13d8ec28f03532d72067fdc",
+      "git:hexsha": "5266b42a3db4e687c13d8ec28f03532d72067fdc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.2rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/b63262a481495453011bf7a3b27995d6611dfae7",
+      "git:hexsha": "b63262a481495453011bf7a3b27995d6611dfae7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/6af367b0db4666cd74d1fac3c2ea660f54dcd6c9",
+      "git:hexsha": "6af367b0db4666cd74d1fac3c2ea660f54dcd6c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.3rc1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/350e5db82d92d6484dea4853dc1800e751e82701",
+      "git:hexsha": "350e5db82d92d6484dea4853dc1800e751e82701",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/a1c572e2be71cd406b9ae92400420e3215add0aa",
+      "git:hexsha": "a1c572e2be71cd406b9ae92400420e3215add0aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.4-rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/8f026799eb7b352d8c6aace7b56d1206b893ae6d",
+      "git:hexsha": "8f026799eb7b352d8c6aace7b56d1206b893ae6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.20.4rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/cf102e67258a683e393db8578120327553b52ca7",
+      "git:hexsha": "cf102e67258a683e393db8578120327553b52ca7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/90795fe4743b22ba19a9d081269a75dbc0bfaef6",
+      "git:hexsha": "90795fe4743b22ba19a9d081269a75dbc0bfaef6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/133db48d4f272070076fbc7a649c9e8aa8cd0646",
+      "git:hexsha": "133db48d4f272070076fbc7a649c9e8aa8cd0646",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/4722e2151f7ce1d5a4879a042cfe6ea78572a280",
+      "git:hexsha": "4722e2151f7ce1d5a4879a042cfe6ea78572a280",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/df1e36f4dead6e3ea48f75c717c6dc6c8995b63d",
+      "git:hexsha": "df1e36f4dead6e3ea48f75c717c6dc6c8995b63d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/d0cb7db29cae29914fddec1d5045b7b564dc69d9",
+      "git:hexsha": "d0cb7db29cae29914fddec1d5045b7b564dc69d9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.2rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/dd4fc3df1a8a7cd135eecca2158db018d85f94f1",
+      "git:hexsha": "dd4fc3df1a8a7cd135eecca2158db018d85f94f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e892882fd4608b468dcf9dc33ea95283882b8e6d",
+      "git:hexsha": "e892882fd4608b468dcf9dc33ea95283882b8e6d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.21.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/4630f94378998f68df3d021c61a7340b813e264b",
+      "git:hexsha": "4630f94378998f68df3d021c61a7340b813e264b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/1d34d6620b9a5a3d62ad09e7b204f7abde5c097d",
+      "git:hexsha": "1d34d6620b9a5a3d62ad09e7b204f7abde5c097d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/afaae088837b277c19f90604a1111a272838857b",
+      "git:hexsha": "afaae088837b277c19f90604a1111a272838857b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/6cbd4612bd7bc66e855dea568637a37a7605b638",
+      "git:hexsha": "6cbd4612bd7bc66e855dea568637a37a7605b638",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/f383101a26663708484cac0727792aad74f78234",
+      "git:hexsha": "f383101a26663708484cac0727792aad74f78234",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/95504c029325a5156564d26e4966c189f6b5b426",
+      "git:hexsha": "95504c029325a5156564d26e4966c189f6b5b426",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.22.2rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/fc16f7419ace84c23afdade2ba92a1c8f69e199a",
+      "git:hexsha": "fc16f7419ace84c23afdade2ba92a1c8f69e199a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.0rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/7f1623b90b5adfb9bc327d4c3468d2f70bbce262",
+      "git:hexsha": "7f1623b90b5adfb9bc327d4c3468d2f70bbce262",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/1139da7b7dd0d38c7a9c33bff76335d39a801ca6",
+      "git:hexsha": "1139da7b7dd0d38c7a9c33bff76335d39a801ca6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.1rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/88a4498ad4ea1a9487b0a9b0ff881383fd5a06a3",
+      "git:hexsha": "88a4498ad4ea1a9487b0a9b0ff881383fd5a06a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/bc405ad60991a0639f8b09b40f13f91c38e50e87",
+      "git:hexsha": "bc405ad60991a0639f8b09b40f13f91c38e50e87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.2rc0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/301277072263fb3830eb66eec7e47adadf76f1dc",
+      "git:hexsha": "301277072263fb3830eb66eec7e47adadf76f1dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v0.23.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/020b3e298bac99a3728bffaef76775c294ec5dd5",
+      "git:hexsha": "020b3e298bac99a3728bffaef76775c294ec5dd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-rc.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/030d41804fb13e4f3870cee45bc583e4657e8597",
+      "git:hexsha": "030d41804fb13e4f3870cee45bc583e4657e8597",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-rc.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/7616272a1b0b580fb43e3a06701fd11db9a2706a",
+      "git:hexsha": "7616272a1b0b580fb43e3a06701fd11db9a2706a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-rc.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/f8f41813f4bf8f3e2a467e31637c8837373b8dfa",
+      "git:hexsha": "f8f41813f4bf8f3e2a467e31637c8837373b8dfa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-rc.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/e7c82fbffe29cc3ee7392f81e4f197f068f8bec4",
+      "git:hexsha": "e7c82fbffe29cc3ee7392f81e4f197f068f8bec4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-rc.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/tokenizers/commit/1915b16c31697df364a757bfddb6841012e8f4eb",
+      "git:hexsha": "1915b16c31697df364a757bfddb6841012e8f4eb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.0.0-rc.5"
+    }
+  ]
+}
