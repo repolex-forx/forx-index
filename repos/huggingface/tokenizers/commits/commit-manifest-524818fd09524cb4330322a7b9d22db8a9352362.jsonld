@@ -48,10 +48,324 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/524818fd09524cb4330322a7b9d22db8a9352362/chunk-001.nq.gz",
       "repolex:graphFileSize": 25483936
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/524818fd09524cb4330322a7b9d22db8a9352362.nq.gz",
+      "repolex:graphFileSize": 3422676
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-24T22:06:09.197194+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v0.13.4.rc3"
+  "git:tagName": "v0.13.4.rc3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/result.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/macros/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/json",
+      "repolex:packageName": "serde_json",
+      "git:hexsha": "20572a6d066958542d79cdd6cf1a7cd9f0c8e1f8",
+      "git:tagName": "v1.0.154"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/string.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/option.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/convert/num.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/colin-kiegel/rust-derive-builder",
+      "repolex:packageName": "derive_builder_macro",
+      "git:hexsha": "5705f00f23e3bd77c453a1c0bbd3de34b572b049",
+      "git:tagName": "v0.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/macros.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/traits/iterator.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/sources/repeat.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/slice/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/vec/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/fmt/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/num/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/macros.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/str.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/convert/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/boxed/convert.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/str/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/collections/hash/set.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/collections/hash/map.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/char/methods.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap_builder",
+      "git:hexsha": "54fac10c7b2287eed9eff478105f86dc69aaf0a4",
+      "git:tagName": "v4.6.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/io/stdio.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/time.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_derive",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    },
+    {
+      "@id": "https://repolex.ai/r/criterion-rs/criterion.rs",
+      "repolex:packageName": "criterion",
+      "git:hexsha": "5e27b692a43a05736d073fd449e16dcf1c24628c",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/time.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/fs.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/borrow.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/cuviper/rayon-cond",
+      "repolex:packageName": "rayon-cond",
+      "git:hexsha": "ffb0e8ff097d6e0440c6d3f8eebef0aa5c5fdb90",
+      "git:tagName": "v0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/env.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/either",
+      "repolex:packageName": "either",
+      "git:hexsha": "1e4326df5972eb4a0ced66cb3b67fa0c5aca8493",
+      "git:tagName": "1.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rayon-rs/rayon",
+      "repolex:packageName": "rayon",
+      "git:hexsha": "c9ced185ae3508246a9eb70c8407a1199bb1b77f",
+      "git:tagName": "v1.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang-nursery/lazy-static.rs",
+      "repolex:packageName": "lazy_static"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/regex",
+      "repolex:packageName": "regex",
+      "git:hexsha": "4226f214c56e584304520adb9080bcc4c792390e",
+      "git:tagName": "1.13.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-itertools/itertools",
+      "repolex:packageName": "itertools",
+      "git:hexsha": "b085c523681146151866ead66ae8a4b8967fd005",
+      "git:tagName": "v0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/monostate",
+      "repolex:packageName": "monostate-impl",
+      "git:hexsha": "f31ba9ffb9ac4f90631742b529f7418613e4b071",
+      "git:tagName": "0.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/swgillespie/unicode-categories",
+      "repolex:packageName": "unicode_categories"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/collections/binary_heap/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/fmt/builders.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/fmt/num.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-random/rand",
+      "repolex:packageName": "rand",
+      "git:hexsha": "572d3b0c176085c485b8fa7818a04b769097bd72",
+      "git:tagName": "0.8.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/cmp.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/slice.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/ashleygwilliams/assert_approx_eq",
+      "repolex:packageName": "assert_approx_eq",
+      "git:hexsha": "f9eccf8b920995e978a75af1868ce1ee77765d72",
+      "git:tagName": "v1.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/path.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/iwillspeak/rust-onig",
+      "repolex:packageName": "onig",
+      "git:hexsha": "3572dd210e9bbfbf056c12f3a65bfcc9fede7866",
+      "git:tagName": "v6.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/serde-rs/serde",
+      "repolex:packageName": "serde_core",
+      "git:hexsha": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "git:tagName": "v1.0.229"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/io/buffered/bufreader.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "alloc/src/io/buf_read.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/spm_precompiled",
+      "repolex:packageName": "spm_precompiled"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/str/iter.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/unicode-rs/unicode-segmentation",
+      "repolex:packageName": "unicode-segmentation"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/adapters/take.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/mem/mod.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "core/src/iter/adapters/peekable.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.dom.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es5.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.symbol.wellknown.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2015.core.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2017.object.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "lib.es2016.array.include.d.ts"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/rust",
+      "repolex:packageName": "std/src/lib.rs"
+    },
+    {
+      "@id": "https://repolex.ai/r/danielhenrymantilla/macro_rules_attribute-rs",
+      "repolex:packageName": "macro_rules_attribute",
+      "git:hexsha": "f7514b6752066a1fbac272c5a657190965915f7d",
+      "git:tagName": "v0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/monostate",
+      "repolex:packageName": "monostate",
+      "git:hexsha": "f31ba9ffb9ac4f90631742b529f7418613e4b071",
+      "git:tagName": "0.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "enum"
+    },
+    {
+      "@id": "https://repolex.ai/r/python/cpython",
+      "repolex:packageName": "typing"
+    }
+  ]
 }
