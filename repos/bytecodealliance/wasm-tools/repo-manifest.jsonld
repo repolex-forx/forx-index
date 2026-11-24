@@ -1,0 +1,1605 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools",
+  "@type": "gh:Repository",
+  "gh:name": "wasm-tools",
+  "gh:owner": "bytecodealliance",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/2573bb28cc897d64ce33739e3b46ac63c9588267",
+      "git:hexsha": "2573bb28cc897d64ce33739e3b46ac63c9588267",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "wit-smith-0.1.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9ee3a0ddb580f188049b4c480c68d3351b0aa9ac",
+      "git:hexsha": "9ee3a0ddb580f188049b4c480c68d3351b0aa9ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e09ac8b8698e878be95d4bd991af06f81dfdace1",
+      "git:hexsha": "e09ac8b8698e878be95d4bd991af06f81dfdace1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0b38d04e0c71f87c71508726fc16382160492f52",
+      "git:hexsha": "0b38d04e0c71f87c71508726fc16382160492f52",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/488aa10dc4a3481e3c920ea3620c4785701c5b7b",
+      "git:hexsha": "488aa10dc4a3481e3c920ea3620c4785701c5b7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b70bd019daabf4d73a163832033088efc89e3968",
+      "git:hexsha": "b70bd019daabf4d73a163832033088efc89e3968",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c46fc28943f31b6d4d110e8c8e9e8a8db6e67c9f",
+      "git:hexsha": "c46fc28943f31b6d4d110e8c8e9e8a8db6e67c9f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d28bc5a0ef948b53be5841b873ed6f8c53c01db1",
+      "git:hexsha": "d28bc5a0ef948b53be5841b873ed6f8c53c01db1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/69a397f99a3775c0a20a4ad68aaf193b85e23213",
+      "git:hexsha": "69a397f99a3775c0a20a4ad68aaf193b85e23213",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.200.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/90161a9b5fbfeaa40e9b4ba2339d7cd1bd52deff",
+      "git:hexsha": "90161a9b5fbfeaa40e9b4ba2339d7cd1bd52deff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.201.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7906a20c315d3d6f3fcc7f35812dc08fa1a926b0",
+      "git:hexsha": "7906a20c315d3d6f3fcc7f35812dc08fa1a926b0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.202.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7e0c6e51efe22190e54363b0b0217b5b2005f39e",
+      "git:hexsha": "7e0c6e51efe22190e54363b0b0217b5b2005f39e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.203.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/df5368f18996cf71a9245293c6456cb0b6e856a7",
+      "git:hexsha": "df5368f18996cf71a9245293c6456cb0b6e856a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.204.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/bcc43927bf238b1fd4077fde10a2d910d1023093",
+      "git:hexsha": "bcc43927bf238b1fd4077fde10a2d910d1023093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.205.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c1e8f95ccdff606b4153ad6e2d970a4e720ef6ac",
+      "git:hexsha": "c1e8f95ccdff606b4153ad6e2d970a4e720ef6ac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.206.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1064f69c45a7b8a4d05ed1045713d6470be92236",
+      "git:hexsha": "1064f69c45a7b8a4d05ed1045713d6470be92236",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.207.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/fe250db2502a0f51de95438bb1d52b583b026a87",
+      "git:hexsha": "fe250db2502a0f51de95438bb1d52b583b026a87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.208.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/28132cc5a8f34e3d05471eb711108478e8a82a51",
+      "git:hexsha": "28132cc5a8f34e3d05471eb711108478e8a82a51",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.208.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0d97aa723f63c9344d27663d776b77e42f1dfac8",
+      "git:hexsha": "0d97aa723f63c9344d27663d776b77e42f1dfac8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.209.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c8fcb7075da08a8a2d8b3fb14b091b4fd340b3a9",
+      "git:hexsha": "c8fcb7075da08a8a2d8b3fb14b091b4fd340b3a9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.209.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/976ce0a4a1cc127aacb733daf4658a933868e093",
+      "git:hexsha": "976ce0a4a1cc127aacb733daf4658a933868e093",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.210.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c14ff15bef5347c2a29a725b02686ee444c9ef42",
+      "git:hexsha": "c14ff15bef5347c2a29a725b02686ee444c9ef42",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.211.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d4b0ccde68f35f43ea280828e9d436c903212d58",
+      "git:hexsha": "d4b0ccde68f35f43ea280828e9d436c903212d58",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.211.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1cf71f9a9bbb4706e1e5d21ad2a12586a3911199",
+      "git:hexsha": "1cf71f9a9bbb4706e1e5d21ad2a12586a3911199",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.212.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3895cb78da9b0cade910bb598ac427938e890dcb",
+      "git:hexsha": "3895cb78da9b0cade910bb598ac427938e890dcb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.213.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a4c4021dc9700297ac24fcb317a10a9dd4cfb672",
+      "git:hexsha": "a4c4021dc9700297ac24fcb317a10a9dd4cfb672",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.214.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b2fb997c0f82f05bdcd6f205267f83db672a5bad",
+      "git:hexsha": "b2fb997c0f82f05bdcd6f205267f83db672a5bad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.215.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/28c8962b1484bf150a0fcf7848db160d67e6573c",
+      "git:hexsha": "28c8962b1484bf150a0fcf7848db160d67e6573c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.216.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cf5d0bb53b52c4413c8a122ac777f306d6d12243",
+      "git:hexsha": "cf5d0bb53b52c4413c8a122ac777f306d6d12243",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.216.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/46cb2e80abe9e57c422a3496032dd4c49bdefcd9",
+      "git:hexsha": "46cb2e80abe9e57c422a3496032dd4c49bdefcd9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.217.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/5d72003c4857150ed8176bcab12c050d8b135b27",
+      "git:hexsha": "5d72003c4857150ed8176bcab12c050d8b135b27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.217.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b330644a808dd8557c67cfc09abc6c8a114e2ea0",
+      "git:hexsha": "b330644a808dd8557c67cfc09abc6c8a114e2ea0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.218.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/392ddfc13a37b5932cf5536046c36bd90b66148c",
+      "git:hexsha": "392ddfc13a37b5932cf5536046c36bd90b66148c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.218.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0261534e96012f4e82c0d9f83b65be8d91d4fbac",
+      "git:hexsha": "0261534e96012f4e82c0d9f83b65be8d91d4fbac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.219.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/91be0bbc8c5df685a74d87295e9cfff0be9c07c7",
+      "git:hexsha": "91be0bbc8c5df685a74d87295e9cfff0be9c07c7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.219.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3a7d60de4be52c24e4392548af16c4bd5075bff3",
+      "git:hexsha": "3a7d60de4be52c24e4392548af16c4bd5075bff3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.219.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/aab1ac81bb31762509b5ea4b39973070725b5d73",
+      "git:hexsha": "aab1ac81bb31762509b5ea4b39973070725b5d73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.220.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9c7f5baeae5274759adfb81676fd51a152e4261e",
+      "git:hexsha": "9c7f5baeae5274759adfb81676fd51a152e4261e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.220.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/25787121be440eda96aa1b75fd36608333a316c0",
+      "git:hexsha": "25787121be440eda96aa1b75fd36608333a316c0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.221.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/95a3882ce1f2c713d63c91e955f358305f846581",
+      "git:hexsha": "95a3882ce1f2c713d63c91e955f358305f846581",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.221.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/549c283b2e14c4eba75daa35573b71cdcc110c5d",
+      "git:hexsha": "549c283b2e14c4eba75daa35573b71cdcc110c5d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.221.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1b2c8585415dde926134e57b0d1e6a4c9438abe3",
+      "git:hexsha": "1b2c8585415dde926134e57b0d1e6a4c9438abe3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.221.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/892d4b6ef074688fb673ed634741316e0ea455f4",
+      "git:hexsha": "892d4b6ef074688fb673ed634741316e0ea455f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.222.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8971f362c778ac1aa7504ac668d68c68e600059b",
+      "git:hexsha": "8971f362c778ac1aa7504ac668d68c68e600059b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.222.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/897ab1f691a9c9d5a8fc811a42fdd332d1ba5da9",
+      "git:hexsha": "897ab1f691a9c9d5a8fc811a42fdd332d1ba5da9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.223.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d1ff386c9f3f34deebcc669b281b0aab5685a618",
+      "git:hexsha": "d1ff386c9f3f34deebcc669b281b0aab5685a618",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.223.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b237793139c81f8cf3b6bd4b7baf3f2c5c8f93f2",
+      "git:hexsha": "b237793139c81f8cf3b6bd4b7baf3f2c5c8f93f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.224.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0155f1a43c5029f410a248cd58fdb7ba50866de6",
+      "git:hexsha": "0155f1a43c5029f410a248cd58fdb7ba50866de6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.224.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/6a44095585f44da2adf63964701748bcef7be6e9",
+      "git:hexsha": "6a44095585f44da2adf63964701748bcef7be6e9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.225.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/41f183bb0e391d8c1ff2f243083f6e5898bfb33a",
+      "git:hexsha": "41f183bb0e391d8c1ff2f243083f6e5898bfb33a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.226.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/2f3b2f9ef705db8bc768047607cd7f1e39c99b20",
+      "git:hexsha": "2f3b2f9ef705db8bc768047607cd7f1e39c99b20",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.227.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3b3e1ac6c309c807a956ffffb8276a621a0a50fa",
+      "git:hexsha": "3b3e1ac6c309c807a956ffffb8276a621a0a50fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.227.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e66235859a6ec0502bf6f9dcc358953eda4cafcc",
+      "git:hexsha": "e66235859a6ec0502bf6f9dcc358953eda4cafcc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.228.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/351f1537490f7d5e4a61f8ab16302984589d25d2",
+      "git:hexsha": "351f1537490f7d5e4a61f8ab16302984589d25d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.229.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/2dbe8b9b88f646195bf9229aa7083cd5f2b62679",
+      "git:hexsha": "2dbe8b9b88f646195bf9229aa7083cd5f2b62679",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.230.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/315252f47c14c5f8986d660ca254aa3dbb1ed318",
+      "git:hexsha": "315252f47c14c5f8986d660ca254aa3dbb1ed318",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.231.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/93610b8399bd38b99a9d4da31044138f1e7598fc",
+      "git:hexsha": "93610b8399bd38b99a9d4da31044138f1e7598fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.232.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/14096f0f365e456f9c3670dd655f6e0d00bae001",
+      "git:hexsha": "14096f0f365e456f9c3670dd655f6e0d00bae001",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.233.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/083589ac255bb867e928b6564f5550b3770fb9e8",
+      "git:hexsha": "083589ac255bb867e928b6564f5550b3770fb9e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.234.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e26d5ebea0b8dbfdadaafc13bd4ee3814a7d01dd",
+      "git:hexsha": "e26d5ebea0b8dbfdadaafc13bd4ee3814a7d01dd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.235.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c85df5332a14908ee641fdce10551294605bc199",
+      "git:hexsha": "c85df5332a14908ee641fdce10551294605bc199",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.236.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9dd8df4fdc53597af7534b6a4d4c11d9065690d3",
+      "git:hexsha": "9dd8df4fdc53597af7534b6a4d4c11d9065690d3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.236.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3f454c0769d8fd3cac0e0d8a9a68abbeedbc1ac6",
+      "git:hexsha": "3f454c0769d8fd3cac0e0d8a9a68abbeedbc1ac6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.237.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7308476bac5cbc1d5a98602e1aec2dff8711b0ba",
+      "git:hexsha": "7308476bac5cbc1d5a98602e1aec2dff8711b0ba",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.238.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/544ac54d0d9d43bcfed2597af4293729dfb89854",
+      "git:hexsha": "544ac54d0d9d43bcfed2597af4293729dfb89854",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.238.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/35f8671bce74190ef0b00ce36c399b053b490374",
+      "git:hexsha": "35f8671bce74190ef0b00ce36c399b053b490374",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.239.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/dafe42f8f543ca76429d5ef7b5e84f41ae8e73fe",
+      "git:hexsha": "dafe42f8f543ca76429d5ef7b5e84f41ae8e73fe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.240.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8fca5ec5594426bf06305c3c9b72bdfa4c78c532",
+      "git:hexsha": "8fca5ec5594426bf06305c3c9b72bdfa4c78c532",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.241.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a1712da0354bea5a38275d7ddf30f707b5757a68",
+      "git:hexsha": "a1712da0354bea5a38275d7ddf30f707b5757a68",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.241.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8ebed07de87638d991e144fa5b79b904b1758987",
+      "git:hexsha": "8ebed07de87638d991e144fa5b79b904b1758987",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.242.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d05406062d031ae96146486f58a965d87eefea5e",
+      "git:hexsha": "d05406062d031ae96146486f58a965d87eefea5e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.243.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d4e317f22c3bace76cb3205003bcc34b4929037d",
+      "git:hexsha": "d4e317f22c3bace76cb3205003bcc34b4929037d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.244.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/42127681cc850a4dc62824efc3786e25aa5f9910",
+      "git:hexsha": "42127681cc850a4dc62824efc3786e25aa5f9910",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.245.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/76927bf4bdbddf4b15f835c5eddfffbdfe3bdbd5",
+      "git:hexsha": "76927bf4bdbddf4b15f835c5eddfffbdfe3bdbd5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.245.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/26b0451f02168d86dee653dac2a939c14c1a128c",
+      "git:hexsha": "26b0451f02168d86dee653dac2a939c14c1a128c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.246.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b960a8735f81c48e332a063e44113b5c2abfd135",
+      "git:hexsha": "b960a8735f81c48e332a063e44113b5c2abfd135",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.246.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/ee323ec1dc7372be3cbd6cd35c6b2616a5009752",
+      "git:hexsha": "ee323ec1dc7372be3cbd6cd35c6b2616a5009752",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.246.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0285a4680738439cb884d2674bec8be1e8beac5c",
+      "git:hexsha": "0285a4680738439cb884d2674bec8be1e8beac5c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.247.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c523ab6ca42dcd5d8da2976bf4ba8905007a0c2e",
+      "git:hexsha": "c523ab6ca42dcd5d8da2976bf4ba8905007a0c2e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.248.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/efeee7cafa5a3dcdddb5aab27bc0c05f279929ed",
+      "git:hexsha": "efeee7cafa5a3dcdddb5aab27bc0c05f279929ed",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.249.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/4a72fcd2edb281073b466798bc4e111be2823c82",
+      "git:hexsha": "4a72fcd2edb281073b466798bc4e111be2823c82",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.250.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a1a178a024c1204ac24ff957b9ba8cdca7f9c8ce",
+      "git:hexsha": "a1a178a024c1204ac24ff957b9ba8cdca7f9c8ce",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.251.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d66d4364c441d8b0122628509be52bd53c352a6e",
+      "git:hexsha": "d66d4364c441d8b0122628509be52bd53c352a6e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.252.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c799bb87b9cf9dc4fa7d11d63c5d52cbb3c4eb38",
+      "git:hexsha": "c799bb87b9cf9dc4fa7d11d63c5d52cbb3c4eb38",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.253.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/bb58fdf919912e05c976a0b71aaa843f7d1938f9",
+      "git:hexsha": "bb58fdf919912e05c976a0b71aaa843f7d1938f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.254.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/371167389828d984aea88320ba7effa9143c7fa7",
+      "git:hexsha": "371167389828d984aea88320ba7effa9143c7fa7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.254.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/76e20611d1920a7a39ca08983c6c77c3060de380",
+      "git:hexsha": "76e20611d1920a7a39ca08983c6c77c3060de380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.255.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/114be5245f143a8acf858aa236f6fd8ba7496dc2",
+      "git:hexsha": "114be5245f143a8acf858aa236f6fd8ba7496dc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.256.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/4a81bc1cf7be471dd04afa45f7d34c643e7e6d9b",
+      "git:hexsha": "4a81bc1cf7be471dd04afa45f7d34c643e7e6d9b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.257.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3ef3cefcdc958c859a1dca79d677327e9453859d",
+      "git:hexsha": "3ef3cefcdc958c859a1dca79d677327e9453859d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.257.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/5c6d31c78f8bd503f558441ef9c732950a141d1a",
+      "git:hexsha": "5c6d31c78f8bd503f558441ef9c732950a141d1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.258.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e779586ae718bd5fc8cfbb12dc6f1e6e9e8f1360",
+      "git:hexsha": "e779586ae718bd5fc8cfbb12dc6f1e6e9e8f1360",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.258.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/817510e8a11a758d615cf78ae8c24488378af8f9",
+      "git:hexsha": "817510e8a11a758d615cf78ae8c24488378af8f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.258.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/6c1681dbd6af32aab7654fa7ea8b951182b9fcd1",
+      "git:hexsha": "6c1681dbd6af32aab7654fa7ea8b951182b9fcd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.258.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7fc33f279ec4fb3bf0623a14d388725ee8a1ce65",
+      "git:hexsha": "7fc33f279ec4fb3bf0623a14d388725ee8a1ce65",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.259.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3c92a0566d136333757e7c6da680178ae1d91dca",
+      "git:hexsha": "3c92a0566d136333757e7c6da680178ae1d91dca",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.260.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/5793351e3190a178d0dbdd509d183b6da896090a",
+      "git:hexsha": "5793351e3190a178d0dbdd509d183b6da896090a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.261.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e22db44da4eaf17a0e46ec55b911c7539589a3cc",
+      "git:hexsha": "e22db44da4eaf17a0e46ec55b911c7539589a3cc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.262.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7a2fa422cdf9aeeaf488a2acac8bc94a078bfa32",
+      "git:hexsha": "7a2fa422cdf9aeeaf488a2acac8bc94a078bfa32",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "v1.263.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9dfdbc22a3370f340d30b79454b4782c1257797f",
+      "git:hexsha": "9dfdbc22a3370f340d30b79454b4782c1257797f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.48"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/4e14cec63d9037ac3369ad4ff813fd70386ef3bf",
+      "git:hexsha": "4e14cec63d9037ac3369ad4ff813fd70386ef3bf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.49"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cac488a1e3ef0511dc17f063e722c42525faaf4a",
+      "git:hexsha": "cac488a1e3ef0511dc17f063e722c42525faaf4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-47.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/2783d58cb4ad36c378e40abe8d15136300f7687f",
+      "git:hexsha": "2783d58cb4ad36c378e40abe8d15136300f7687f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.50"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/fadbdc6155e5ee57f397a30ffd0def4065efa9b7",
+      "git:hexsha": "fadbdc6155e5ee57f397a30ffd0def4065efa9b7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.51"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/256f43985d3612d0263392f81f40773ac6a845ff",
+      "git:hexsha": "256f43985d3612d0263392f81f40773ac6a845ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.52"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1d75a98fe32f9f4ea8cca2e51377116201e60e81",
+      "git:hexsha": "1d75a98fe32f9f4ea8cca2e51377116201e60e81",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.6.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cfb51b3fef2286d77d6dad2fbcb8e0c9849813fc",
+      "git:hexsha": "cfb51b3fef2286d77d6dad2fbcb8e0c9849813fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.7.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d808ad752f4e1e5e7aaecc226813162e2b0d0655",
+      "git:hexsha": "d808ad752f4e1e5e7aaecc226813162e2b0d0655",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1e573fb1ae0ca457be1d06aa55a2fab06fa13b44",
+      "git:hexsha": "1e573fb1ae0ca457be1d06aa55a2fab06fa13b44",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d1fc106778d926a4aa124f6e1c9dae1dec10db3d",
+      "git:hexsha": "d1fc106778d926a4aa124f6e1c9dae1dec10db3d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8ce48202bd9ac64f70acc3d30ee86fb695d22d2c",
+      "git:hexsha": "8ce48202bd9ac64f70acc3d30ee86fb695d22d2c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/677f0f55867aad443a49c32ab1a4160d7924c55b",
+      "git:hexsha": "677f0f55867aad443a49c32ab1a4160d7924c55b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/eb0266b8082176151f0ae8210edf3404de227913",
+      "git:hexsha": "eb0266b8082176151f0ae8210edf3404de227913",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/fdf1527714cb7318e269ea847c63d4d5c82af968",
+      "git:hexsha": "fdf1527714cb7318e269ea847c63d4d5c82af968",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d23f487448e1f2f3545a36328d70021693d4400c",
+      "git:hexsha": "d23f487448e1f2f3545a36328d70021693d4400c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.54"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e60c726ee5fafe0a62e18aa4f0924d1298140524",
+      "git:hexsha": "e60c726ee5fafe0a62e18aa4f0924d1298140524",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/278c3ee93f0ebbcb7221b1410a402b62ae56c4ae",
+      "git:hexsha": "278c3ee93f0ebbcb7221b1410a402b62ae56c4ae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/90e4d87beded25f7285aa9ec06e9d594e071d048",
+      "git:hexsha": "90e4d87beded25f7285aa9ec06e9d594e071d048",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.5.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0932bc10082c6457a33164beb1b07d64cbdc093e",
+      "git:hexsha": "0932bc10082c6457a33164beb1b07d64cbdc093e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/ca2e77094dc1896d6d8c85d638981c6bfb4f9ae6",
+      "git:hexsha": "ca2e77094dc1896d6d8c85d638981c6bfb4f9ae6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cdbaae2272b12bc70ceb76587f0f9c8968b7ffe1",
+      "git:hexsha": "cdbaae2272b12bc70ceb76587f0f9c8968b7ffe1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/620b4ab26820b67f93e70022e6cf656c5d7fb108",
+      "git:hexsha": "620b4ab26820b67f93e70022e6cf656c5d7fb108",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b19ce5165cf2b0c20e01e0dc238712c4d44b42be",
+      "git:hexsha": "b19ce5165cf2b0c20e01e0dc238712c4d44b42be",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/94ad03bdb292549d6d699518343bad5639c05e8d",
+      "git:hexsha": "94ad03bdb292549d6d699518343bad5639c05e8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/2e63788ad535724e49a0da036281d9663b6d5294",
+      "git:hexsha": "2e63788ad535724e49a0da036281d9663b6d5294",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cc6a4bee4e3b04151046dbb7ddc635b422541a04",
+      "git:hexsha": "cc6a4bee4e3b04151046dbb7ddc635b422541a04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/22402e3a057422ced35acd629cd3324bf4d983a3",
+      "git:hexsha": "22402e3a057422ced35acd629cd3324bf4d983a3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a8dcd3a1f23182e0713926c111146766b5f1556d",
+      "git:hexsha": "a8dcd3a1f23182e0713926c111146766b5f1556d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/f895edac300c02e28e90fb7e26753a5da373fb2d",
+      "git:hexsha": "f895edac300c02e28e90fb7e26753a5da373fb2d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/42937235c1834462c1601f03903730d7ad2365c4",
+      "git:hexsha": "42937235c1834462c1601f03903730d7ad2365c4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/6c2728c6132bcdb5a8660c51c4a6cbc5fefe928a",
+      "git:hexsha": "6c2728c6132bcdb5a8660c51c4a6cbc5fefe928a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/39a60291b6962d45e3b859e035d810c19161e6ee",
+      "git:hexsha": "39a60291b6962d45e3b859e035d810c19161e6ee",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8daf7459f265821401ddada2356eefc1d4e96eae",
+      "git:hexsha": "8daf7459f265821401ddada2356eefc1d4e96eae",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7595bdf910322c2bf6f18468da5dd9ed0484898b",
+      "git:hexsha": "7595bdf910322c2bf6f18468da5dd9ed0484898b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c7bb472f72b7d6fe2afac81919b9b65ce8dd5039",
+      "git:hexsha": "c7bb472f72b7d6fe2afac81919b9b65ce8dd5039",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/df170e68f9a0618dc2f0815729feae39f169cd87",
+      "git:hexsha": "df170e68f9a0618dc2f0815729feae39f169cd87",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/22b06c19529b3a15808ab8ffd415c8eccb3b62c6",
+      "git:hexsha": "22b06c19529b3a15808ab8ffd415c8eccb3b62c6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d3b6542d567b14e9af9cb310526cd705e2494814",
+      "git:hexsha": "d3b6542d567b14e9af9cb310526cd705e2494814",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/adb5d34437d1194dd534c7130ecac248cee0141c",
+      "git:hexsha": "adb5d34437d1194dd534c7130ecac248cee0141c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/722b5996669affa63876d557cb807c1e1df45380",
+      "git:hexsha": "722b5996669affa63876d557cb807c1e1df45380",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0168371fc8c7700c4aebbfabcd9947705eb09eb9",
+      "git:hexsha": "0168371fc8c7700c4aebbfabcd9947705eb09eb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a6160b38674894612df19be6022af9e4e68a2eda",
+      "git:hexsha": "a6160b38674894612df19be6022af9e4e68a2eda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/56d0d947f175af01eb91d2ff4b20c43858a2b849",
+      "git:hexsha": "56d0d947f175af01eb91d2ff4b20c43858a2b849",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/dbf9666b58cd583e585f40f6b77bf7eb0cac25a2",
+      "git:hexsha": "dbf9666b58cd583e585f40f6b77bf7eb0cac25a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0ab39f19dc601f988a9a2f4717da4deadf3d2b31",
+      "git:hexsha": "0ab39f19dc601f988a9a2f4717da4deadf3d2b31",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-smith-0.1.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9956d1408d9601ca88bdff072eb642eb224ffbd1",
+      "git:hexsha": "9956d1408d9601ca88bdff072eb642eb224ffbd1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-encoder-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b94d469a26b961ef95362a31f805b5c083bc60d0",
+      "git:hexsha": "b94d469a26b961ef95362a31f805b5c083bc60d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-tools-1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/af8db28b5af7a46a78f7884110ae6517b807b02b",
+      "git:hexsha": "af8db28b5af7a46a78f7884110ae6517b807b02b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.42"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/fcb052fd9a05686d54ff085942edbf6a2735e406",
+      "git:hexsha": "fcb052fd9a05686d54ff085942edbf6a2735e406",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.43"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/4a9971bf7a5ed6bcea27ddb70b98cebd302217e5",
+      "git:hexsha": "4a9971bf7a5ed6bcea27ddb70b98cebd302217e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.44"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/070859ee09b5e2d82129baf813c6356db5dda169",
+      "git:hexsha": "070859ee09b5e2d82129baf813c6356db5dda169",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1d73b71255c468dd2cc7e8fec6c0da030fbd4a49",
+      "git:hexsha": "1d73b71255c468dd2cc7e8fec6c0da030fbd4a49",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.47"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/fd203e055580a433a8785e1a1325baacb3de7e84",
+      "git:hexsha": "fd203e055580a433a8785e1a1325baacb3de7e84",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.30"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/2dce9c888f9fcb5c8a4cc80f679581405960f485",
+      "git:hexsha": "2dce9c888f9fcb5c8a4cc80f679581405960f485",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-encoder-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d97274e29cf0ceba2e49b3457a22aa677310c246",
+      "git:hexsha": "d97274e29cf0ceba2e49b3457a22aa677310c246",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-encoder-0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/49240a1dae56a21615424117e45636495c301731",
+      "git:hexsha": "49240a1dae56a21615424117e45636495c301731",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-encoder-0.34.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a5c739c98468020213c62d27f8b768aad9014ce1",
+      "git:hexsha": "a5c739c98468020213c62d27f8b768aad9014ce1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-encoder-0.36.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3a44ae1344a75727d56a8df5772d701514040785",
+      "git:hexsha": "3a44ae1344a75727d56a8df5772d701514040785",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.32"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a41c979dee7611dac3f1105d0e7d3be3d1086009",
+      "git:hexsha": "a41c979dee7611dac3f1105d0e7d3be3d1086009",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-35.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3809cd9354d7ebe3b3be7a33d147f13f6fae4c79",
+      "git:hexsha": "3809cd9354d7ebe3b3be7a33d147f13f6fae4c79",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.38"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7a80c70038f3045ae4d7bd5535a7e4c607e6bb27",
+      "git:hexsha": "7a80c70038f3045ae4d7bd5535a7e4c607e6bb27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/ec26f162b5f6279abe9d4c22142a947ede2bcc1c",
+      "git:hexsha": "ec26f162b5f6279abe9d4c22142a947ede2bcc1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-38.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/10c0a766c334d8d70a18d941cbc23e5e3fe246e7",
+      "git:hexsha": "10c0a766c334d8d70a18d941cbc23e5e3fe246e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-encoder-0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/917e293240900f26fb1cacf38dc3e36209be5325",
+      "git:hexsha": "917e293240900f26fb1cacf38dc3e36209be5325",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.41"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cc734920886f5f05c19bc416fcf17d3962dfeac0",
+      "git:hexsha": "cc734920886f5f05c19bc416fcf17d3962dfeac0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/69faeb668ebcaffb4fe5a86d05eb23efdecb373b",
+      "git:hexsha": "69faeb668ebcaffb4fe5a86d05eb23efdecb373b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.8.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/bd3208f0f30dff710e1c28e13a20cded24a38db5",
+      "git:hexsha": "bd3208f0f30dff710e1c28e13a20cded24a38db5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.45"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b2059fc67546ec99f767d81a42e4c401642b7e59",
+      "git:hexsha": "b2059fc67546ec99f767d81a42e4c401642b7e59",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-mutate-0.2.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9ed608b6c16a3b34819c35aa89bab92ec1fc4cc9",
+      "git:hexsha": "9ed608b6c16a3b34819c35aa89bab92ec1fc4cc9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.28"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0e61d60e605f176da5751ed94e26837c143f1b24",
+      "git:hexsha": "0e61d60e605f176da5751ed94e26837c143f1b24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.1.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8f0f049016ee42f32ff27c599ccab7c295ba1352",
+      "git:hexsha": "8f0f049016ee42f32ff27c599ccab7c295ba1352",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.1.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/29a33b8bbc811005ed2a05ab15121f630c317985",
+      "git:hexsha": "29a33b8bbc811005ed2a05ab15121f630c317985",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-tools-1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/acf8733ff5467b8f42765cdfdfe5a6196991d236",
+      "git:hexsha": "acf8733ff5467b8f42765cdfdfe5a6196991d236",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8e04006041ed12622276747c7150e1fe563ab0d7",
+      "git:hexsha": "8e04006041ed12622276747c7150e1fe563ab0d7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3c6e0e7c64f95f544699a1f05cb7ca0a5523650e",
+      "git:hexsha": "3c6e0e7c64f95f544699a1f05cb7ca0a5523650e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/262e105bf653270f8c4fa88c9a084151accd2d09",
+      "git:hexsha": "262e105bf653270f8c4fa88c9a084151accd2d09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/00926f56702c392b54e9e5434650fc3a76d4045b",
+      "git:hexsha": "00926f56702c392b54e9e5434650fc3a76d4045b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/087ab86bd9712d6d2b94f35486e47363c4bf75f3",
+      "git:hexsha": "087ab86bd9712d6d2b94f35486e47363c4bf75f3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/b0b73dfe7874fc49931f700b77feb8e76a79c8e4",
+      "git:hexsha": "b0b73dfe7874fc49931f700b77feb8e76a79c8e4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.4.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9f6c3aabf8711e67ab56c31d7e3415108304b759",
+      "git:hexsha": "9f6c3aabf8711e67ab56c31d7e3415108304b759",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/85622cc0f872c4aca85510e181437b149234453c",
+      "git:hexsha": "85622cc0f872c4aca85510e181437b149234453c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e23fc4d98c1be3e0c38168ac7258680ef4796d1e",
+      "git:hexsha": "e23fc4d98c1be3e0c38168ac7258680ef4796d1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-smith-0.7.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/bb26c6a98add89ba35654826ed24f69bc8b72775",
+      "git:hexsha": "bb26c6a98add89ba35654826ed24f69bc8b72775",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasm-tools-1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/56fc46b3fb6cd62fbcc78553bc1e4b3489877d7e",
+      "git:hexsha": "56fc46b3fb6cd62fbcc78553bc1e4b3489877d7e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/12104a758375fdebfc8debe49f0c7163c3f5ff0e",
+      "git:hexsha": "12104a758375fdebfc8debe49f0c7163c3f5ff0e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/21478d484688f6fc8ee173afdb973820f3d00f7b",
+      "git:hexsha": "21478d484688f6fc8ee173afdb973820f3d00f7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.4.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9640d187a73a516c42b532cf2a10ba5403df5946",
+      "git:hexsha": "9640d187a73a516c42b532cf2a10ba5403df5946",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a45ae28c2ce3358e7586b26967d6a9bf1b0b10fb",
+      "git:hexsha": "a45ae28c2ce3358e7586b26967d6a9bf1b0b10fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/861bfaa8bf48fd3afb4d01595cfc75c08fc69d34",
+      "git:hexsha": "861bfaa8bf48fd3afb4d01595cfc75c08fc69d34",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.6.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d18b43581a6a4ab351bf837d21acd24859d61eb0",
+      "git:hexsha": "d18b43581a6a4ab351bf837d21acd24859d61eb0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.56.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/95089b82d48aba1bd559b5835d651bc000689821",
+      "git:hexsha": "95089b82d48aba1bd559b5835d651bc000689821",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.57.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8fba1d3c162fb66a128227ebe1e10cc7ecfd51de",
+      "git:hexsha": "8fba1d3c162fb66a128227ebe1e10cc7ecfd51de",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/25814cfb75d62439df1ad2e3ddd1ce26db32cb8c",
+      "git:hexsha": "25814cfb75d62439df1ad2e3ddd1ce26db32cb8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c27ab2f010f52341c8b2dda6218e4d379f3a2dac",
+      "git:hexsha": "c27ab2f010f52341c8b2dda6218e4d379f3a2dac",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.60.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/57d564d839f668ebdd062506be4c2b7f921dab7b",
+      "git:hexsha": "57d564d839f668ebdd062506be4c2b7f921dab7b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/af3183bcc1a4c76c5cb3989aba66aa699505eaf0",
+      "git:hexsha": "af3183bcc1a4c76c5cb3989aba66aa699505eaf0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3685ee100aa33965127431c32c910eb5c7bb351d",
+      "git:hexsha": "3685ee100aa33965127431c32c910eb5c7bb351d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.63.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/f66d042e5b52b92318bd0c44098578a1b9b1cd1b",
+      "git:hexsha": "f66d042e5b52b92318bd0c44098578a1b9b1cd1b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.27"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1b9eb132e7957ea571d67efb32976df25a8aa1c8",
+      "git:hexsha": "1b9eb132e7957ea571d67efb32976df25a8aa1c8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.67.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d3cbb38f990280861438d12c8a4546423fbc9ae6",
+      "git:hexsha": "d3cbb38f990280861438d12c8a4546423fbc9ae6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/12ca74543d336cae6ab2972029a017574b862279",
+      "git:hexsha": "12ca74543d336cae6ab2972029a017574b862279",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.29"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7c534ccd1d52b29ea5fd50e4766bd9d6f20923b2",
+      "git:hexsha": "7c534ccd1d52b29ea5fd50e4766bd9d6f20923b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.69.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/71ae4fa3789269f5d15f4b1b80bbdc3ab88d9f6b",
+      "git:hexsha": "71ae4fa3789269f5d15f4b1b80bbdc3ab88d9f6b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.69.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3666384947cc54b5c801760908557755010cbe1a",
+      "git:hexsha": "3666384947cc54b5c801760908557755010cbe1a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a7ae0c260d9329213d9dd8311e29e63721ac43e5",
+      "git:hexsha": "a7ae0c260d9329213d9dd8311e29e63721ac43e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/c2dbd4d3cb30f63dfd119bb77b30f9be8493a4a0",
+      "git:hexsha": "c2dbd4d3cb30f63dfd119bb77b30f9be8493a4a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.34"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/763e3d865faf36a1a65821c9258ae65dab731d75",
+      "git:hexsha": "763e3d865faf36a1a65821c9258ae65dab731d75",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.36"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e14ef4a4921f6d1732dd0a22109cf4600fce330a",
+      "git:hexsha": "e14ef4a4921f6d1732dd0a22109cf4600fce330a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.77.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/f86658244ff8d9e6cdba2233243bb446d78686e8",
+      "git:hexsha": "f86658244ff8d9e6cdba2233243bb446d78686e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.26"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cd53dfd114107f1b6e12f2daaa6a233b7f76cf08",
+      "git:hexsha": "cd53dfd114107f1b6e12f2daaa6a233b7f76cf08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.78.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/41fac3001992426abb074ef9d2c2f0769f0d3973",
+      "git:hexsha": "41fac3001992426abb074ef9d2c2f0769f0d3973",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.78.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/4bc2577182340bc9467760c6c266beabac1c086e",
+      "git:hexsha": "4bc2577182340bc9467760c6c266beabac1c086e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.39"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1a5bfaea14b6bf85208ace3150f08b88b72d4fa0",
+      "git:hexsha": "1a5bfaea14b6bf85208ace3150f08b88b72d4fa0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.40"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/30b892c3e2a8887b59ba8b3a8c5c54f2a9f0bfe2",
+      "git:hexsha": "30b892c3e2a8887b59ba8b3a8c5c54f2a9f0bfe2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.31"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d0a7c4f53502b6f35e82504e4b180382f05cb9b2",
+      "git:hexsha": "d0a7c4f53502b6f35e82504e4b180382f05cb9b2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.33"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cb36f5ec9fbb2fc3cb94f0c04522170a3e248953",
+      "git:hexsha": "cb36f5ec9fbb2fc3cb94f0c04522170a3e248953",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.89.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/115758da485941addee952611c67e4b609322a30",
+      "git:hexsha": "115758da485941addee952611c67e4b609322a30",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmparser-0.90.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/84452f345e23c6ec9bf511af47b8e76ce1d36103",
+      "git:hexsha": "84452f345e23c6ec9bf511af47b8e76ce1d36103",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8cba0f12d9cc44e8a69f8a189314a339c161fbf8",
+      "git:hexsha": "8cba0f12d9cc44e8a69f8a189314a339c161fbf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.2.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0248124554b24f6b28e87d8670d8848e5793ff91",
+      "git:hexsha": "0248124554b24f6b28e87d8670d8848e5793ff91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wasmprinter-0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/88fcc1b5a968e10ce25c5123fc6194e0412c4c05",
+      "git:hexsha": "88fcc1b5a968e10ce25c5123fc6194e0412c4c05",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.12"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e5a5d67366afea8c8ac8177c53d5e0163b5bee66",
+      "git:hexsha": "e5a5d67366afea8c8ac8177c53d5e0163b5bee66",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.13"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/5efe81994cf0859e4e36c426466cbee8c82cdcdd",
+      "git:hexsha": "5efe81994cf0859e4e36c426466cbee8c82cdcdd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.14"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/23375e1becbb09d5d5562fcb7927b2df9163f472",
+      "git:hexsha": "23375e1becbb09d5d5562fcb7927b2df9163f472",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.15"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/555e2cff954eb7ff64a40b1974b21bd4248b09cd",
+      "git:hexsha": "555e2cff954eb7ff64a40b1974b21bd4248b09cd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.16"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a44b75ed041fed8c003297d399a01deeb374e103",
+      "git:hexsha": "a44b75ed041fed8c003297d399a01deeb374e103",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.17"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/deecadd0aea70dfa3f0a51708bf5dbf5efdb8868",
+      "git:hexsha": "deecadd0aea70dfa3f0a51708bf5dbf5efdb8868",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.18"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/bd2fefb0c3174be10ab35468e53df264aa1fac2b",
+      "git:hexsha": "bd2fefb0c3174be10ab35468e53df264aa1fac2b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.19"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/10b215672e3db9a74a7af2934dea60046fc33082",
+      "git:hexsha": "10b215672e3db9a74a7af2934dea60046fc33082",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/ff2bd2b7781839551e9007e44226ef9703e98400",
+      "git:hexsha": "ff2bd2b7781839551e9007e44226ef9703e98400",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1a1f3668adc4912f9518cfee93d66f1cd2f878fa",
+      "git:hexsha": "1a1f3668adc4912f9518cfee93d66f1cd2f878fa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.21"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cd51525d0e4d66a47e52b0b4fbe5ad312af8c493",
+      "git:hexsha": "cd51525d0e4d66a47e52b0b4fbe5ad312af8c493",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.22"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/cbfac820b83886e3fe031e1405ece236ffe74e22",
+      "git:hexsha": "cbfac820b83886e3fe031e1405ece236ffe74e22",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/60fafc37d61a68981c701a27f1e8421111dde594",
+      "git:hexsha": "60fafc37d61a68981c701a27f1e8421111dde594",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.24"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/81569de3716ff6f99451adaf802988442e1b35d0",
+      "git:hexsha": "81569de3716ff6f99451adaf802988442e1b35d0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-24.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/00fad83c79edd9d8e0c6cc411ca2ec20b2c326af",
+      "git:hexsha": "00fad83c79edd9d8e0c6cc411ca2ec20b2c326af",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-25.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e1fffb07d8a0525dbb77ef6170e3fc0bfae3861a",
+      "git:hexsha": "e1fffb07d8a0525dbb77ef6170e3fc0bfae3861a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-25.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/530c9193a1cd900ee10c80a2b2141085f9d14d04",
+      "git:hexsha": "530c9193a1cd900ee10c80a2b2141085f9d14d04",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-26.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d8c131d37f0cd98a785a9af8f07262a0a47faa94",
+      "git:hexsha": "d8c131d37f0cd98a785a9af8f07262a0a47faa94",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/92cbce6ac0a89e54f11c8074d6c40aae718a9e54",
+      "git:hexsha": "92cbce6ac0a89e54f11c8074d6c40aae718a9e54",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-3.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/d80672cb01a60cae016f180e9ef052f71cb3754b",
+      "git:hexsha": "d80672cb01a60cae016f180e9ef052f71cb3754b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-3.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7acd3c262f84dd78fc3e43a5cb652796a657fd1e",
+      "git:hexsha": "7acd3c262f84dd78fc3e43a5cb652796a657fd1e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-3.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/ae2e5a0f234c8d9b6dc3f02eb87192afea0b4e73",
+      "git:hexsha": "ae2e5a0f234c8d9b6dc3f02eb87192afea0b4e73",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-3.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/61b23615e3784c6e1aad8904e3832bb55ce9356e",
+      "git:hexsha": "61b23615e3784c6e1aad8904e3832bb55ce9356e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-35.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/e780ca33122925e0f8cab7fa24be8912af53fcff",
+      "git:hexsha": "e780ca33122925e0f8cab7fa24be8912af53fcff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a6ff755f16096c09b0e2636ddff9d0205eaff508",
+      "git:hexsha": "a6ff755f16096c09b0e2636ddff9d0205eaff508",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.46"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/7507d59ac4840e2997c1738474f0959eac227529",
+      "git:hexsha": "7507d59ac4840e2997c1738474f0959eac227529",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-5.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/8632952d3a61469572d60ce7c2a6faa8de799226",
+      "git:hexsha": "8632952d3a61469572d60ce7c2a6faa8de799226",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-5.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a0dac8b52b898195605991d88043ef73078a9eaa",
+      "git:hexsha": "a0dac8b52b898195605991d88043ef73078a9eaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/29aa5001c1eb772232db1755064dfcea947cd3f9",
+      "git:hexsha": "29aa5001c1eb772232db1755064dfcea947cd3f9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/47605b2752b8e2a525cb642c84087a92b588d648",
+      "git:hexsha": "47605b2752b8e2a525cb642c84087a92b588d648",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.9"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/60aa9128fed167519d8a906f41b277a221f73951",
+      "git:hexsha": "60aa9128fed167519d8a906f41b277a221f73951",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/3b2d6f77df38303166241ef3eb31dd733cdf20a0",
+      "git:hexsha": "3b2d6f77df38303166241ef3eb31dd733cdf20a0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-parser-0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/89a3e34865f7b0853dad780fd4e12338fa15bb8f",
+      "git:hexsha": "89a3e34865f7b0853dad780fd4e12338fa15bb8f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wast-parser-0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/9b504550c64cc1717e33ba0365550b26a58651a7",
+      "git:hexsha": "9b504550c64cc1717e33ba0365550b26a58651a7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/a2d5ff0ab5b93702187c0af1d946ccb87ae64641",
+      "git:hexsha": "a2d5ff0ab5b93702187c0af1d946ccb87ae64641",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/131bb064f01cc355e26827b85e6fa047dbb22a71",
+      "git:hexsha": "131bb064f01cc355e26827b85e6fa047dbb22a71",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.25"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/39358cb0775dd82167335f1f8b6caf40facef89e",
+      "git:hexsha": "39358cb0775dd82167335f1f8b6caf40facef89e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/58377ec933bb0725cdff94e0e07647093fc3caa1",
+      "git:hexsha": "58377ec933bb0725cdff94e0e07647093fc3caa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.37"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/dbf675c517d7336d662c5caf29b4d1f07fb860ea",
+      "git:hexsha": "dbf675c517d7336d662c5caf29b4d1f07fb860ea",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/1f445296f1738707503baed7cb26cd7c834800dc",
+      "git:hexsha": "1f445296f1738707503baed7cb26cd7c834800dc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0a6a6c1b17194bad04a1b96515f0856bd235a3fb",
+      "git:hexsha": "0a6a6c1b17194bad04a1b96515f0856bd235a3fb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/74925b8f8c6fb48dc3338f3171937fbd8e755266",
+      "git:hexsha": "74925b8f8c6fb48dc3338f3171937fbd8e755266",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wat-1.0.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/de6af47d46dac9b59e30ea95f3e012e3367ca44d",
+      "git:hexsha": "de6af47d46dac9b59e30ea95f3e012e3367ca44d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.14.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/208b2e79fbc0ba0c9e63a9ea15e60fcec437b383",
+      "git:hexsha": "208b2e79fbc0ba0c9e63a9ea15e60fcec437b383",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-component-0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/bytecodealliance/wasm-tools/commit/0503ba58533477b5fe908c2fc13fe7428bf14dc1",
+      "git:hexsha": "0503ba58533477b5fe908c2fc13fe7428bf14dc1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "wit-parser-0.12.0"
+    }
+  ]
+}
