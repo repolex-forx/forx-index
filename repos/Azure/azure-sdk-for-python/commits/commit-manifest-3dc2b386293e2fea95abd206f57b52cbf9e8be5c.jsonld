@@ -36,10 +36,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3dc2b386293e2fea95abd206f57b52cbf9e8be5c/chunk-001.nq.gz",
       "repolex:graphFileSize": 61456352
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3dc2b386293e2fea95abd206f57b52cbf9e8be5c.nq.gz",
+      "repolex:graphFileSize": 5676820
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-11-24T13:29:28.231989+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "v2.0.0a1"
+  "git:tagName": "v2.0.0a1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/agronholm/pythonfutures",
+      "repolex:packageName": "futures",
+      "git:hexsha": "738e37148b2f7ecd86cbb8c271f9e033ae66eff8",
+      "git:tagName": "3.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/dateutil/dateutil",
+      "repolex:packageName": "python-dateutil",
+      "git:hexsha": "a78cbd81d5d03b5f126eb36edb92bca78972c804",
+      "git:tagName": "4.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/requests",
+      "repolex:packageName": "requests",
+      "git:hexsha": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+      "git:tagName": "v2.34.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/kevin1024/vcrpy",
+      "repolex:packageName": "vcrpy",
+      "git:hexsha": "86e22b454bf94d3ec5174f909f8676a7efbd86ef",
+      "git:tagName": "v9.4.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/pyca/pyopenssl",
+      "repolex:packageName": "pyopenssl",
+      "git:hexsha": "07b1ef7cc2ed71c77ebc113d0c10fc045e40861a",
+      "git:tagName": "26.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Azure/msrest-for-python",
+      "repolex:packageName": "msrest"
+    },
+    {
+      "@id": "https://repolex.ai/r/Azure/msrestazure-for-python",
+      "repolex:packageName": "msrestazure"
+    }
+  ]
 }
